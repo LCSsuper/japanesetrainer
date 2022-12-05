@@ -1,0 +1,59 @@
+.settings-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #555;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: baseline;
+}
+
+.checkbox input {
+    margin-right: 0.5rem;
+}
+
+#range {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 2rem;
+}
+
+#range > * {
+    margin-right: 0.5rem;
+}
+
+#range > input {
+    border-radius: 0.2rem;
+    border: none;
+    padding: 0.2rem;
+    width: 5rem;
+    user-select: text;
+}
+
+.range-slider {
+    margin: 1rem 0;
+    height: 5px;
+}
+
+.range-slider .range-slider__thumb {
+    background: #777;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.range-slider .range-slider__thumb:focus-visible {
+    outline: 0;
+    box-shadow: 0 0 0 6px rgba(119, 119, 119, 0.5);
+}
+
+.range-slider .range-slider__range {
+    background: rgba(255, 255, 255, 0.5);
+}

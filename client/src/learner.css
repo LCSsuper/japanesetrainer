@@ -1,0 +1,111 @@
+.learner-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.learner-container.correct > div {
+    color: rgb(116, 200, 116) !important;
+}
+
+.learner-container.incorrect > div {
+    color: rgb(200, 116, 116) !important;
+}
+
+#hiragana-container {
+    padding-top: 5rem;
+    flex: 0 0 10rem;
+    font-size: 8rem;
+}
+
+#romanji-container {
+    flex: 0 0 5rem;
+    font-size: 3rem;
+    color: #999;
+}
+
+#answers-container {
+    flex: 0 0 2rem;
+    font-size: 1.5rem;
+    color: #999;
+}
+
+#input-container {
+    padding-bottom: 5rem;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#input-container > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#input-container > div > div {
+    width: 100%;
+}
+
+#input-container p {
+    font-size: 1.2rem;
+    color: #999;
+    height: 2rem;
+}
+
+#input-container input {
+    font-size: 6rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 768px) {
+    #hiragana-container {
+        padding-top: 1rem;
+        flex: 0 0 5rem;
+        font-size: 4rem;
+    }
+
+    #romanji-container {
+        flex: 0 0 3rem;
+        font-size: 2.5rem;
+    }
+
+    #answers-container {
+        font-size: 1rem;
+    }
+
+    #input-container p {
+        margin: 0 0.5rem;
+        font-size: 1rem;
+    }
+
+    #input-container input {
+        font-size: 2.5rem;
+    }
+}
+
+#input-container #button-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#input-container #button-container button {
+    flex: 1 1 auto;
+}
+
+.learner-container #count {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    display: inline-block;
+}

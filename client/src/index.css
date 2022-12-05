@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+* {
+    user-select: none;
+}
+
+input {
+    user-select: text;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.container.dark,
+.container.dark * {
+    background: #111;
+    color: #eee;
+}
+
+#menu-button.dark {
+    color: white;
+}
+
+.container.dark button,
+.container.dark input,
+.container.dark .range-slider {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.container.dark .range-slider .range-slider__range {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.container.dark button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.container.dark button:disabled:hover,
+.container.dark button:disabled {
+    background: rgba(255, 255, 255, 0.05);
+    color: #aaa;
+}
+
+.container.light,
+.container.light * {
+    background: rgb(250, 250, 250);
+    color: #111;
+}
+
+.container.light button {
+    background: rgba(0, 0, 0, 0.1);
+    color: #555;
+}
+
+.container.light button:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.container.light button:disabled:hover,
+.container.light button:disabled {
+    background: rgba(0, 0, 0, 0.05);
+    color: #555;
+}
+
+.container.light button,
+.container.light input,
+.container.light .range-slider {
+    background: rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.container.light .range-slider .range-slider__range {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.inner-container {
+    max-width: 100vw;
+    width: 80rem;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0 3rem;
+}
+
+#menu-button {
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+    display: inline-block;
+}
+
+#menu-button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:disabled:hover,
+button:disabled {
+    cursor: default;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+#title {
+    padding: 5rem 0;
+    font-size: 8rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #title {
+        padding: 2rem 0;
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    #title {
+        padding: 2rem 0;
+        font-size: 5rem;
+    }
+}

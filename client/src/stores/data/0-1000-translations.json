@@ -1,0 +1,5002 @@
+[
+    {
+        "hiragana": "行く",
+        "romanji": "iku",
+        "english": ["go"]
+    },
+    {
+        "hiragana": "見る",
+        "romanji": "miru",
+        "english": ["see", "look at"]
+    },
+    {
+        "hiragana": "多い",
+        "romanji": "ooi",
+        "english": ["a lot of", "many"]
+    },
+    {
+        "hiragana": "家",
+        "romanji": "ie",
+        "english": ["home", "household", "house", "dwelling"]
+    },
+    {
+        "hiragana": "これ",
+        "romanji": "kore",
+        "english": ["this", "this one"]
+    },
+    {
+        "hiragana": "それ",
+        "romanji": "sore",
+        "english": ["that", "that one"]
+    },
+    {
+        "hiragana": "私",
+        "romanji": "watashi",
+        "english": ["i"]
+    },
+    {
+        "hiragana": "仕事",
+        "romanji": "shigoto",
+        "english": ["work", "job"]
+    },
+    {
+        "hiragana": "いつ",
+        "romanji": "itsu",
+        "english": ["when"]
+    },
+    {
+        "hiragana": "する",
+        "romanji": "suru",
+        "english": ["do", "make"]
+    },
+    {
+        "hiragana": "出る",
+        "romanji": "deru",
+        "english": ["go out", "leave"]
+    },
+    {
+        "hiragana": "使う",
+        "romanji": "tsukau",
+        "english": ["use", "make use of"]
+    },
+    {
+        "hiragana": "所",
+        "romanji": "tokoro",
+        "english": ["place"]
+    },
+    {
+        "hiragana": "作る",
+        "romanji": "tsukuru",
+        "english": ["make", "create"]
+    },
+    {
+        "hiragana": "思う",
+        "romanji": "omou",
+        "english": ["think"]
+    },
+    {
+        "hiragana": "持つ",
+        "romanji": "motsu",
+        "english": ["have", "possess"]
+    },
+    {
+        "hiragana": "買う",
+        "romanji": "kau",
+        "english": ["buy"]
+    },
+    {
+        "hiragana": "時間",
+        "romanji": "jikan",
+        "english": ["time", "hour"]
+    },
+    {
+        "hiragana": "知る",
+        "romanji": "shiru",
+        "english": ["know"]
+    },
+    {
+        "hiragana": "同じ",
+        "romanji": "onaji",
+        "english": ["same", "identical"]
+    },
+    {
+        "hiragana": "今",
+        "romanji": "ima",
+        "english": ["now"]
+    },
+    {
+        "hiragana": "新しい",
+        "romanji": "atarashii",
+        "english": ["new"]
+    },
+    {
+        "hiragana": "なる",
+        "romanji": "naru",
+        "english": ["become"]
+    },
+    {
+        "hiragana": "まだ",
+        "romanji": "mada",
+        "english": ["(not) yet", "still"]
+    },
+    {
+        "hiragana": "あと",
+        "romanji": "ato",
+        "english": ["after"]
+    },
+    {
+        "hiragana": "聞く",
+        "romanji": "kiku",
+        "english": ["hear", "ask"]
+    },
+    {
+        "hiragana": "言う",
+        "romanji": "iu",
+        "english": ["say", "tell"]
+    },
+    {
+        "hiragana": "少ない",
+        "romanji": "sukunai",
+        "english": ["few", "little"]
+    },
+    {
+        "hiragana": "高い",
+        "romanji": "takai",
+        "english": ["high", "tall"]
+    },
+    {
+        "hiragana": "子供",
+        "romanji": "kodomo",
+        "english": ["child"]
+    },
+    {
+        "hiragana": "そう",
+        "romanji": "sou",
+        "english": ["so", "that way"]
+    },
+    {
+        "hiragana": "もう",
+        "romanji": "mou",
+        "english": ["already", "yet", "another", "again"]
+    },
+    {
+        "hiragana": "学生",
+        "romanji": "gakusei",
+        "english": ["student"]
+    },
+    {
+        "hiragana": "熱い",
+        "romanji": "atsui",
+        "english": ["hot (to touch)"]
+    },
+    {
+        "hiragana": "どうぞ",
+        "romanji": "douzo",
+        "english": ["please"]
+    },
+    {
+        "hiragana": "午後",
+        "romanji": "gogo",
+        "english": ["afternoon", "p.m."]
+    },
+    {
+        "hiragana": "長い",
+        "romanji": "nagai",
+        "english": ["long"]
+    },
+    {
+        "hiragana": "本",
+        "romanji": "hon",
+        "english": ["book", "volume"]
+    },
+    {
+        "hiragana": "今年",
+        "romanji": "kotoshi",
+        "english": ["this year (colloquial)"]
+    },
+    {
+        "hiragana": "よく",
+        "romanji": "yoku",
+        "english": ["often", "well"]
+    },
+    {
+        "hiragana": "彼女",
+        "romanji": "kanojo",
+        "english": ["she", "one’s girlfriend"]
+    },
+    {
+        "hiragana": "どう",
+        "romanji": "dou",
+        "english": ["how", "what"]
+    },
+    {
+        "hiragana": "言葉",
+        "romanji": "kotoba",
+        "english": ["word", "language"]
+    },
+    {
+        "hiragana": "顔",
+        "romanji": "kao",
+        "english": ["face"]
+    },
+    {
+        "hiragana": "終わる",
+        "romanji": "owaru",
+        "english": ["finish", "end"]
+    },
+    {
+        "hiragana": "一つ",
+        "romanji": "hitotsu",
+        "english": ["one (thing)"]
+    },
+    {
+        "hiragana": "あげる",
+        "romanji": "ageru",
+        "english": ["give", "offer (colloquial)"]
+    },
+    {
+        "hiragana": "こう",
+        "romanji": "kou",
+        "english": ["like this", "such"]
+    },
+    {
+        "hiragana": "学校",
+        "romanji": "gakkou",
+        "english": ["school"]
+    },
+    {
+        "hiragana": "くれる",
+        "romanji": "kureru",
+        "english": ["be given"]
+    },
+    {
+        "hiragana": "始める",
+        "romanji": "hajimeru",
+        "english": ["start (something)"]
+    },
+    {
+        "hiragana": "起きる",
+        "romanji": "okiru",
+        "english": [
+            "get up",
+            "get out of bed",
+            "occur",
+            "happen",
+            "wake up",
+            "get up",
+            "occur",
+            "happen",
+            "wake up",
+            "get up"
+        ]
+    },
+    {
+        "hiragana": "春",
+        "romanji": "haru",
+        "english": ["spring"]
+    },
+    {
+        "hiragana": "午前",
+        "romanji": "gozen",
+        "english": ["morning", "a.m."]
+    },
+    {
+        "hiragana": "別",
+        "romanji": "betsu",
+        "english": ["another", "different"]
+    },
+    {
+        "hiragana": "どこ",
+        "romanji": "doko",
+        "english": ["where"]
+    },
+    {
+        "hiragana": "部屋",
+        "romanji": "heya",
+        "english": ["room"]
+    },
+    {
+        "hiragana": "若い",
+        "romanji": "wakai",
+        "english": ["young"]
+    },
+    {
+        "hiragana": "車",
+        "romanji": "kuruma",
+        "english": ["car", "automobile"]
+    },
+    {
+        "hiragana": "置く",
+        "romanji": "oku",
+        "english": ["put", "place"]
+    },
+    {
+        "hiragana": "住む",
+        "romanji": "sumu",
+        "english": ["live", "reside"]
+    },
+    {
+        "hiragana": "働く",
+        "romanji": "hataraku",
+        "english": ["work"]
+    },
+    {
+        "hiragana": "難しい",
+        "romanji": "muzukashii",
+        "english": ["difficult"]
+    },
+    {
+        "hiragana": "先生",
+        "romanji": "sensei",
+        "english": ["teacher"]
+    },
+    {
+        "hiragana": "立つ",
+        "romanji": "tatsu",
+        "english": ["stand", "rise"]
+    },
+    {
+        "hiragana": "呼ぶ",
+        "romanji": "yobu",
+        "english": ["call", "name"]
+    },
+    {
+        "hiragana": "大学",
+        "romanji": "daigaku",
+        "english": ["university", "college"]
+    },
+    {
+        "hiragana": "安い",
+        "romanji": "yasui",
+        "english": ["cheap", "inexpensive"]
+    },
+    {
+        "hiragana": "もっと",
+        "romanji": "motto",
+        "english": ["more"]
+    },
+    {
+        "hiragana": "帰る",
+        "romanji": "kaeru",
+        "english": ["go back home"]
+    },
+    {
+        "hiragana": "分かる",
+        "romanji": "wakaru",
+        "english": ["understand"]
+    },
+    {
+        "hiragana": "広い",
+        "romanji": "hiroi",
+        "english": ["wide", "big"]
+    },
+    {
+        "hiragana": "数",
+        "romanji": "suu",
+        "english": ["number"]
+    },
+    {
+        "hiragana": "近い",
+        "romanji": "chikai",
+        "english": ["near", "close"]
+    },
+    {
+        "hiragana": "そこ",
+        "romanji": "soko",
+        "english": ["there"]
+    },
+    {
+        "hiragana": "走る",
+        "romanji": "hashiru",
+        "english": ["run"]
+    },
+    {
+        "hiragana": "入れる",
+        "romanji": "ireru",
+        "english": ["put in"]
+    },
+    {
+        "hiragana": "教える",
+        "romanji": "oshieru",
+        "english": ["teach", "tell"]
+    },
+    {
+        "hiragana": "歩く",
+        "romanji": "aruku",
+        "english": ["walk", "go on foot"]
+    },
+    {
+        "hiragana": "会う",
+        "romanji": "au",
+        "english": ["meet"]
+    },
+    {
+        "hiragana": "書く",
+        "romanji": "kaku",
+        "english": ["write"]
+    },
+    {
+        "hiragana": "頭",
+        "romanji": "atama",
+        "english": ["head"]
+    },
+    {
+        "hiragana": "売る",
+        "romanji": "uru",
+        "english": ["sell"]
+    },
+    {
+        "hiragana": "大好き",
+        "romanji": "daisuki",
+        "english": ["like (something) a lot"]
+    },
+    {
+        "hiragana": "体",
+        "romanji": "karada",
+        "english": ["body", "physique"]
+    },
+    {
+        "hiragana": "直ぐ",
+        "romanji": "sugu",
+        "english": ["at once", "soon"]
+    },
+    {
+        "hiragana": "飛ぶ",
+        "romanji": "tobu",
+        "english": ["fly"]
+    },
+    {
+        "hiragana": "とても",
+        "romanji": "totemo",
+        "english": ["very (colloquial)"]
+    },
+    {
+        "hiragana": "誰",
+        "romanji": "dare",
+        "english": ["who"]
+    },
+    {
+        "hiragana": "好き",
+        "romanji": "suki",
+        "english": ["favorite", "liked"]
+    },
+    {
+        "hiragana": "読む",
+        "romanji": "yomu",
+        "english": ["read"]
+    },
+    {
+        "hiragana": "次",
+        "romanji": "tsugi",
+        "english": ["next"]
+    },
+    {
+        "hiragana": "あなた",
+        "romanji": "anata",
+        "english": ["you"]
+    },
+    {
+        "hiragana": "飲む",
+        "romanji": "nomu",
+        "english": ["drink"]
+    },
+    {
+        "hiragana": "古い",
+        "romanji": "furui",
+        "english": ["old"]
+    },
+    {
+        "hiragana": "質問",
+        "romanji": "shitsumon",
+        "english": ["question"]
+    },
+    {
+        "hiragana": "今日",
+        "romanji": "kyou",
+        "english": ["today (colloquial)"]
+    },
+    {
+        "hiragana": "友達",
+        "romanji": "tomodachi",
+        "english": ["friend", "companion (colloquial)"]
+    },
+    {
+        "hiragana": "早い",
+        "romanji": "hayai",
+        "english": ["early"]
+    },
+    {
+        "hiragana": "どれ",
+        "romanji": "dore",
+        "english": ["what", "which"]
+    },
+    {
+        "hiragana": "美しい",
+        "romanji": "utsukushii",
+        "english": ["beautiful"]
+    },
+    {
+        "hiragana": "いつも",
+        "romanji": "itsumo",
+        "english": ["always (colloquial)"]
+    },
+    {
+        "hiragana": "足",
+        "romanji": "ashi",
+        "english": ["leg", "foot"]
+    },
+    {
+        "hiragana": "起こす",
+        "romanji": "okosu",
+        "english": ["wake (someone) up"]
+    },
+    {
+        "hiragana": "見せる",
+        "romanji": "miseru",
+        "english": ["show"]
+    },
+    {
+        "hiragana": "娘",
+        "romanji": "musume",
+        "english": ["daughter", "girl"]
+    },
+    {
+        "hiragana": "楽しむ",
+        "romanji": "tanoshimu",
+        "english": ["enjoy"]
+    },
+    {
+        "hiragana": "色",
+        "romanji": "iro",
+        "english": ["color"]
+    },
+    {
+        "hiragana": "みんな",
+        "romanji": "minna",
+        "english": ["everybody (colloquial)"]
+    },
+    {
+        "hiragana": "取る",
+        "romanji": "toru",
+        "english": ["take", "get"]
+    },
+    {
+        "hiragana": "勉強",
+        "romanji": "benkyou",
+        "english": ["study"]
+    },
+    {
+        "hiragana": "できる",
+        "romanji": "dekiru",
+        "english": ["can do", "be good at"]
+    },
+    {
+        "hiragana": "短い",
+        "romanji": "mijikai",
+        "english": ["short", "brief"]
+    },
+    {
+        "hiragana": "落ちる",
+        "romanji": "ochiru",
+        "english": ["fall", "come down"]
+    },
+    {
+        "hiragana": "息子",
+        "romanji": "musuko",
+        "english": ["son"]
+    },
+    {
+        "hiragana": "白い",
+        "romanji": "shiroi",
+        "english": ["white", "blank"]
+    },
+    {
+        "hiragana": "飛行機",
+        "romanji": "hikouki",
+        "english": ["airplane"]
+    },
+    {
+        "hiragana": "病気",
+        "romanji": "byouki",
+        "english": ["illness"]
+    },
+    {
+        "hiragana": "冬",
+        "romanji": "fuyu",
+        "english": ["winter"]
+    },
+    {
+        "hiragana": "年",
+        "romanji": "toshi",
+        "english": ["year", "age"]
+    },
+    {
+        "hiragana": "重い",
+        "romanji": "omoi",
+        "english": ["heavy"]
+    },
+    {
+        "hiragana": "胸",
+        "romanji": "mune",
+        "english": ["chest", "breast"]
+    },
+    {
+        "hiragana": "払う",
+        "romanji": "harau",
+        "english": ["pay (money", "respect", "attention", "etc.)"]
+    },
+    {
+        "hiragana": "軽い",
+        "romanji": "karui",
+        "english": ["light (of weight)"]
+    },
+    {
+        "hiragana": "見つける",
+        "romanji": "mitsukeru",
+        "english": ["find"]
+    },
+    {
+        "hiragana": "忘れる",
+        "romanji": "wasureru",
+        "english": ["forget", "leave behind"]
+    },
+    {
+        "hiragana": "酒",
+        "romanji": "sake",
+        "english": ["alcohol", "rice wine"]
+    },
+    {
+        "hiragana": "どちら",
+        "romanji": "dochira",
+        "english": ["which (polite)"]
+    },
+    {
+        "hiragana": "姉",
+        "romanji": "ane",
+        "english": ["(one’s own) older sister"]
+    },
+    {
+        "hiragana": "覚える",
+        "romanji": "oboeru",
+        "english": ["memorize", "learn"]
+    },
+    {
+        "hiragana": "狭い",
+        "romanji": "semai",
+        "english": ["narrow", "small"]
+    },
+    {
+        "hiragana": "赤い",
+        "romanji": "akai",
+        "english": ["red"]
+    },
+    {
+        "hiragana": "着る",
+        "romanji": "kiru",
+        "english": ["wear", "put on"]
+    },
+    {
+        "hiragana": "笑う",
+        "romanji": "warau",
+        "english": ["laugh", "smile"]
+    },
+    {
+        "hiragana": "一番",
+        "romanji": "ichiban",
+        "english": ["most", "best"]
+    },
+    {
+        "hiragana": "授業",
+        "romanji": "jugyou",
+        "english": ["class session", "lecture"]
+    },
+    {
+        "hiragana": "週",
+        "romanji": "shuu",
+        "english": ["week"]
+    },
+    {
+        "hiragana": "漢字",
+        "romanji": "kanji",
+        "english": ["Chinese character"]
+    },
+    {
+        "hiragana": "自転車",
+        "romanji": "jitensha",
+        "english": ["bicycle"]
+    },
+    {
+        "hiragana": "電車",
+        "romanji": "densha",
+        "english": ["train"]
+    },
+    {
+        "hiragana": "探す",
+        "romanji": "sagasu",
+        "english": ["search for", "look for"]
+    },
+    {
+        "hiragana": "紙",
+        "romanji": "kami",
+        "english": ["paper"]
+    },
+    {
+        "hiragana": "歌う",
+        "romanji": "utau",
+        "english": ["sing"]
+    },
+    {
+        "hiragana": "遅い",
+        "romanji": "osoi",
+        "english": ["slow", "late"]
+    },
+    {
+        "hiragana": "首",
+        "romanji": "kubi",
+        "english": ["neck"]
+    },
+    {
+        "hiragana": "速い",
+        "romanji": "hayai",
+        "english": ["fast"]
+    },
+    {
+        "hiragana": "一緒に",
+        "romanji": "issh",
+        "english": ["together", "at the same time"]
+    },
+    {
+        "hiragana": "今月",
+        "romanji": "kongetsu",
+        "english": ["this month"]
+    },
+    {
+        "hiragana": "遊ぶ",
+        "romanji": "asobu",
+        "english": ["play"]
+    },
+    {
+        "hiragana": "遠い",
+        "romanji": "tooi",
+        "english": ["far", "distant"]
+    },
+    {
+        "hiragana": "弱い",
+        "romanji": "yowai",
+        "english": ["weak"]
+    },
+    {
+        "hiragana": "耳",
+        "romanji": "mimi",
+        "english": ["ear"]
+    },
+    {
+        "hiragana": "座る",
+        "romanji": "suwaru",
+        "english": ["sit", "sit down"]
+    },
+    {
+        "hiragana": "右",
+        "romanji": "migi",
+        "english": ["right"]
+    },
+    {
+        "hiragana": "浴びる",
+        "romanji": "abiru",
+        "english": ["take (a shower)"]
+    },
+    {
+        "hiragana": "肩",
+        "romanji": "kata",
+        "english": ["shoulder"]
+    },
+    {
+        "hiragana": "寝る",
+        "romanji": "neru",
+        "english": ["lie down and sleep", "go to sleep"]
+    },
+    {
+        "hiragana": "消す",
+        "romanji": "kesu",
+        "english": ["switch off", "turn off"]
+    },
+    {
+        "hiragana": "元気",
+        "romanji": "genki",
+        "english": ["healthy", "energetic"]
+    },
+    {
+        "hiragana": "全部",
+        "romanji": "zenbu",
+        "english": ["all", "whole"]
+    },
+    {
+        "hiragana": "去年",
+        "romanji": "kyonen",
+        "english": ["last year (colloquial)"]
+    },
+    {
+        "hiragana": "引く",
+        "romanji": "hiku",
+        "english": ["draw", "pull"]
+    },
+    {
+        "hiragana": "図書館",
+        "romanji": "toshokan",
+        "english": ["library"]
+    },
+    {
+        "hiragana": "上げる",
+        "romanji": "ageru",
+        "english": ["raise", "lift"]
+    },
+    {
+        "hiragana": "緑",
+        "romanji": "midori",
+        "english": ["green"]
+    },
+    {
+        "hiragana": "腕",
+        "romanji": "ude",
+        "english": ["arm"]
+    },
+    {
+        "hiragana": "ドア",
+        "romanji": "doa",
+        "english": ["door (loan word)"]
+    },
+    {
+        "hiragana": "女の子",
+        "romanji": "onn",
+        "english": ["little girl"]
+    },
+    {
+        "hiragana": "男の子",
+        "romanji": "otok",
+        "english": ["boy"]
+    },
+    {
+        "hiragana": "私たち",
+        "romanji": "watashitachi",
+        "english": ["we (colloquial)"]
+    },
+    {
+        "hiragana": "近く",
+        "romanji": "chikaku",
+        "english": [
+            "near",
+            "close to",
+            "in the near future",
+            "before long",
+            "in the near future",
+            "before long"
+        ]
+    },
+    {
+        "hiragana": "やる",
+        "romanji": "yaru",
+        "english": ["do", "give", "give (to an inferior)"]
+    },
+    {
+        "hiragana": "かなり",
+        "romanji": "kanari",
+        "english": ["fairly", "rather"]
+    },
+    {
+        "hiragana": "国",
+        "romanji": "kuni",
+        "english": ["country"]
+    },
+    {
+        "hiragana": "起こる",
+        "romanji": "okoru",
+        "english": ["happen"]
+    },
+    {
+        "hiragana": "秋",
+        "romanji": "aki",
+        "english": ["autumn", "fall"]
+    },
+    {
+        "hiragana": "送る",
+        "romanji": "okuru",
+        "english": ["send"]
+    },
+    {
+        "hiragana": "死ぬ",
+        "romanji": "shinu",
+        "english": ["die"]
+    },
+    {
+        "hiragana": "気持ち",
+        "romanji": "kimochi",
+        "english": ["feeling", "sensation"]
+    },
+    {
+        "hiragana": "乗る",
+        "romanji": "noru",
+        "english": ["ride", "take"]
+    },
+    {
+        "hiragana": "いる",
+        "romanji": "iru",
+        "english": ["be present", "stay", "be present", "stay"]
+    },
+    {
+        "hiragana": "木",
+        "romanji": "ki",
+        "english": ["tree", "wood", "tree", "wood"]
+    },
+    {
+        "hiragana": "開ける",
+        "romanji": "akeru",
+        "english": [
+            "open",
+            "unlock (doors",
+            "windows",
+            "etc.)",
+            "open",
+            "unlock (doors",
+            "windows",
+            "etc.)"
+        ]
+    },
+    {
+        "hiragana": "閉める",
+        "romanji": "shimeru",
+        "english": [
+            "shut",
+            "close (doors",
+            "windows",
+            "etc.)",
+            "shut",
+            "close (doors",
+            "windows",
+            "etc.)"
+        ]
+    },
+    {
+        "hiragana": "続く",
+        "romanji": "tsuzuku",
+        "english": ["continue", "follow", "continue", "follow"]
+    },
+    {
+        "hiragana": "お医者さん",
+        "romanji": "oishasan",
+        "english": ["doctor (polite)", "doctor (polite)"]
+    },
+    {
+        "hiragana": "円",
+        "romanji": "en",
+        "english": ["Japanese yen", "Japanese yen", "circle"]
+    },
+    {
+        "hiragana": "ここ",
+        "romanji": "koko",
+        "english": ["here", "here"]
+    },
+    {
+        "hiragana": "待つ",
+        "romanji": "matsu",
+        "english": ["wait", "wait for", "wait", "wait for"]
+    },
+    {
+        "hiragana": "低い",
+        "romanji": "hikui",
+        "english": ["low", "short", "low", "short"]
+    },
+    {
+        "hiragana": "もらう",
+        "romanji": "morau",
+        "english": ["receive", "receive"]
+    },
+    {
+        "hiragana": "食べる",
+        "romanji": "taberu",
+        "english": ["eat", "eat"]
+    },
+    {
+        "hiragana": "兄",
+        "romanji": "ani",
+        "english": ["(one’s own) older brother", "(one’s own) older brother"]
+    },
+    {
+        "hiragana": "名前",
+        "romanji": "namae",
+        "english": ["name", "name"]
+    },
+    {
+        "hiragana": "夫",
+        "romanji": "otto",
+        "english": ["husband", "husband"]
+    },
+    {
+        "hiragana": "一",
+        "romanji": "ichi",
+        "english": ["one", "one"]
+    },
+    {
+        "hiragana": "結婚",
+        "romanji": "kekkon",
+        "english": ["marriage", "marriage"]
+    },
+    {
+        "hiragana": "親",
+        "romanji": "oya",
+        "english": ["parent", "parent"]
+    },
+    {
+        "hiragana": "話す",
+        "romanji": "hanasu",
+        "english": ["speak", "talk", "speak", "talk"]
+    },
+    {
+        "hiragana": "少し",
+        "romanji": "sukoshi",
+        "english": ["a bit", "a little while", "a bit", "a little while"]
+    },
+    {
+        "hiragana": "閉じる",
+        "romanji": "tojiru",
+        "english": [
+            "shut",
+            "close (books",
+            "eyes",
+            "etc.)",
+            "shut",
+            "close (books",
+            "eyes",
+            "etc.)"
+        ]
+    },
+    {
+        "hiragana": "時",
+        "romanji": "toki",
+        "english": ["time", "moment", "time", "moment"]
+    },
+    {
+        "hiragana": "米",
+        "romanji": "kome",
+        "english": ["rice (grain)", "rice (grain)"]
+    },
+    {
+        "hiragana": "切る",
+        "romanji": "kiru",
+        "english": ["cut", "cut"]
+    },
+    {
+        "hiragana": "楽しい",
+        "romanji": "tanoshii",
+        "english": ["fun", "enjoyable", "fun", "enjoyable"]
+    },
+    {
+        "hiragana": "服",
+        "romanji": "fuku",
+        "english": ["clothes (colloquial)", "clothes (colloquial)"]
+    },
+    {
+        "hiragana": "後ろ",
+        "romanji": "ushiro",
+        "english": ["back", "behind", "back", "behind"]
+    },
+    {
+        "hiragana": "嬉しい",
+        "romanji": "ureshii",
+        "english": ["happy", "glad", "happy", "glad"]
+    },
+    {
+        "hiragana": "腰",
+        "romanji": "koshi",
+        "english": ["waist", "lower back", "waist", "lower back"]
+    },
+    {
+        "hiragana": "日曜日",
+        "romanji": "nichiyoubi",
+        "english": ["Sunday", "Sunday"]
+    },
+    {
+        "hiragana": "昼",
+        "romanji": "hiru",
+        "english": ["daytime", "midday", "daytime", "midday"]
+    },
+    {
+        "hiragana": "お母さん",
+        "romanji": "okaasan",
+        "english": ["mother (colloquial)", "mother (colloquial)"]
+    },
+    {
+        "hiragana": "大学生",
+        "romanji": "daigakusei",
+        "english": ["university student", "university student"]
+    },
+    {
+        "hiragana": "終わり",
+        "romanji": "owari",
+        "english": ["end", "conclusion", "end", "conclusion"]
+    },
+    {
+        "hiragana": "背",
+        "romanji": "se",
+        "english": ["height", "stature", "height", "stature"]
+    },
+    {
+        "hiragana": "手伝う",
+        "romanji": "tetsudau",
+        "english": ["help", "assist", "help", "assist"]
+    },
+    {
+        "hiragana": "鼻",
+        "romanji": "hana",
+        "english": ["nose", "nose"]
+    },
+    {
+        "hiragana": "載せる",
+        "romanji": "noseru",
+        "english": ["place", "put on", "place", "put on"]
+    },
+    {
+        "hiragana": "悲しい",
+        "romanji": "kanashii",
+        "english": ["sad", "sad"]
+    },
+    {
+        "hiragana": "しゃべる",
+        "romanji": "shaberu",
+        "english": ["chat", "talk", "chat", "talk"]
+    },
+    {
+        "hiragana": "甘い",
+        "romanji": "amai",
+        "english": ["sweet", "sweet"]
+    },
+    {
+        "hiragana": "テーブル",
+        "romanji": "te-buru",
+        "english": ["table", "table"]
+    },
+    {
+        "hiragana": "食べ物",
+        "romanji": "tabemono",
+        "english": ["food (colloquial)", "food (colloquial)"]
+    },
+    {
+        "hiragana": "始まる",
+        "romanji": "hajimaru",
+        "english": ["begin", "begin"]
+    },
+    {
+        "hiragana": "ゲーム",
+        "romanji": "ge-mu",
+        "english": ["game", "game"]
+    },
+    {
+        "hiragana": "十",
+        "romanji": "juu",
+        "english": ["ten", "ten"]
+    },
+    {
+        "hiragana": "天気",
+        "romanji": "tenki",
+        "english": ["weather", "weather"]
+    },
+    {
+        "hiragana": "暑い",
+        "romanji": "atsui",
+        "english": ["hot (of weather)", "hot (of weather)"]
+    },
+    {
+        "hiragana": "太い",
+        "romanji": "futoi",
+        "english": ["thick", "fat", "thick", "fat"]
+    },
+    {
+        "hiragana": "晩",
+        "romanji": "ban",
+        "english": [
+            "evening",
+            "night (from sunset to bedtime)",
+            "evening",
+            "night (from sunset to bedtime)"
+        ]
+    },
+    {
+        "hiragana": "土曜日",
+        "romanji": "doyoubi",
+        "english": ["Saturday", "Saturday"]
+    },
+    {
+        "hiragana": "痛い",
+        "romanji": "itai",
+        "english": ["sore", "painful", "sore", "painful"]
+    },
+    {
+        "hiragana": "お父さん",
+        "romanji": "otousan",
+        "english": ["father", "dad (colloquial)", "father", "dad (colloquial)"]
+    },
+    {
+        "hiragana": "多分",
+        "romanji": "tabun",
+        "english": ["probably", "perhaps", "probably", "perhaps"]
+    },
+    {
+        "hiragana": "時計",
+        "romanji": "tokei",
+        "english": ["clock", "watch", "clock", "watch"]
+    },
+    {
+        "hiragana": "泊まる",
+        "romanji": "tomaru",
+        "english": ["stay overnight", "stay overnight"]
+    },
+    {
+        "hiragana": "どうして",
+        "romanji": "doushite",
+        "english": ["how come", "how come"]
+    },
+    {
+        "hiragana": "掛ける",
+        "romanji": "kakeru",
+        "english": ["hang", "put on", "hang", "put on"]
+    },
+    {
+        "hiragana": "曲がる",
+        "romanji": "magaru",
+        "english": ["make a turn", "turn"]
+    },
+    {
+        "hiragana": "お腹",
+        "romanji": "onaka",
+        "english": ["stomach", "belly"]
+    },
+    {
+        "hiragana": "ミーティング",
+        "romanji": "mi-tingu",
+        "english": ["meeting"]
+    },
+    {
+        "hiragana": "嫌い",
+        "romanji": "kirai",
+        "english": ["dislike (habitual)"]
+    },
+    {
+        "hiragana": "金曜日",
+        "romanji": "kinyoubi",
+        "english": ["Friday"]
+    },
+    {
+        "hiragana": "要る",
+        "romanji": "iru",
+        "english": ["need", "require"]
+    },
+    {
+        "hiragana": "無い",
+        "romanji": "nai",
+        "english": ["to not be"]
+    },
+    {
+        "hiragana": "風邪",
+        "romanji": "kaze",
+        "english": ["cold (illness)"]
+    },
+    {
+        "hiragana": "黄色い",
+        "romanji": "kiiroi",
+        "english": ["yellow"]
+    },
+    {
+        "hiragana": "優しい",
+        "romanji": "yasashii",
+        "english": ["gentle", "kind"]
+    },
+    {
+        "hiragana": "晴れる",
+        "romanji": "hareru",
+        "english": ["be sunny", "clear up"]
+    },
+    {
+        "hiragana": "汚い",
+        "romanji": "kitanai",
+        "english": ["dirty"]
+    },
+    {
+        "hiragana": "茶色",
+        "romanji": "chairo",
+        "english": ["brown"]
+    },
+    {
+        "hiragana": "空く",
+        "romanji": "suku",
+        "english": ["be empty", "become less crowded"]
+    },
+    {
+        "hiragana": "上る",
+        "romanji": "noboru",
+        "english": ["go up", "climb"]
+    },
+    {
+        "hiragana": "ご飯",
+        "romanji": "gohan",
+        "english": ["meal", "cooked rice"]
+    },
+    {
+        "hiragana": "日",
+        "romanji": "nichi",
+        "english": ["counter for days"]
+    },
+    {
+        "hiragana": "髪の毛",
+        "romanji": "kaminoke",
+        "english": ["hair", "each single hair"]
+    },
+    {
+        "hiragana": "つける",
+        "romanji": "tsukeru",
+        "english": ["switch on", "turn on"]
+    },
+    {
+        "hiragana": "月曜日",
+        "romanji": "getsuyoubi",
+        "english": ["Monday"]
+    },
+    {
+        "hiragana": "入る",
+        "romanji": "hairu",
+        "english": ["enter"]
+    },
+    {
+        "hiragana": "カタカナ",
+        "romanji": "katakana",
+        "english": ["katakana"]
+    },
+    {
+        "hiragana": "今週",
+        "romanji": "konshuu",
+        "english": ["this week"]
+    },
+    {
+        "hiragana": "開く",
+        "romanji": "hiraku",
+        "english": ["open (books", "eyes", "etc.)", "open"]
+    },
+    {
+        "hiragana": "水",
+        "romanji": "mizu",
+        "english": ["water"]
+    },
+    {
+        "hiragana": "あれ",
+        "romanji": "are",
+        "english": ["that (over there)"]
+    },
+    {
+        "hiragana": "二",
+        "romanji": "ni",
+        "english": ["two"]
+    },
+    {
+        "hiragana": "締める",
+        "romanji": "shimeru",
+        "english": ["tighten", "fasten"]
+    },
+    {
+        "hiragana": "まずい",
+        "romanji": "mazui",
+        "english": ["bad (taste)", "distasteful"]
+    },
+    {
+        "hiragana": "平仮名",
+        "romanji": "hiragana",
+        "english": ["hiragana"]
+    },
+    {
+        "hiragana": "曇る",
+        "romanji": "kumoru",
+        "english": ["become cloudy"]
+    },
+    {
+        "hiragana": "触る",
+        "romanji": "sawaru",
+        "english": ["touch", "feel"]
+    },
+    {
+        "hiragana": "駄目",
+        "romanji": "dame",
+        "english": ["no good"]
+    },
+    {
+        "hiragana": "飲み物",
+        "romanji": "nomimono",
+        "english": ["beverage", "drink"]
+    },
+    {
+        "hiragana": "木曜日",
+        "romanji": "mokuyoubi",
+        "english": ["Thursday"]
+    },
+    {
+        "hiragana": "曜日",
+        "romanji": "youbi",
+        "english": ["day of the week"]
+    },
+    {
+        "hiragana": "そば",
+        "romanji": "soba",
+        "english": ["side", "vicinity"]
+    },
+    {
+        "hiragana": "こっち",
+        "romanji": "kocchi",
+        "english": ["here", "this way (casual)"]
+    },
+    {
+        "hiragana": "火曜日",
+        "romanji": "kayoubi",
+        "english": ["Tuesday"]
+    },
+    {
+        "hiragana": "渇く",
+        "romanji": "kawaku",
+        "english": ["be thirsty"]
+    },
+    {
+        "hiragana": "三",
+        "romanji": "san",
+        "english": ["three"]
+    },
+    {
+        "hiragana": "水曜日",
+        "romanji": "suiyoubi",
+        "english": ["Wednesday"]
+    },
+    {
+        "hiragana": "二つ",
+        "romanji": "futatsu",
+        "english": ["two (things)"]
+    },
+    {
+        "hiragana": "今晩",
+        "romanji": "konban",
+        "english": ["this evening", "tonight"]
+    },
+    {
+        "hiragana": "千",
+        "romanji": "sen",
+        "english": ["thousand"]
+    },
+    {
+        "hiragana": "六日",
+        "romanji": "muika",
+        "english": ["six days", "sixth of the month"]
+    },
+    {
+        "hiragana": "お姉さん",
+        "romanji": "onesan",
+        "english": ["older sister"]
+    },
+    {
+        "hiragana": "直る",
+        "romanji": "naoru",
+        "english": ["be repaired", "get fixed"]
+    },
+    {
+        "hiragana": "ちょっと",
+        "romanji": "chotto",
+        "english": ["just a moment", "just a little"]
+    },
+    {
+        "hiragana": "四",
+        "romanji": "yon",
+        "english": ["four (Japanese origin)"]
+    },
+    {
+        "hiragana": "これから",
+        "romanji": "korekara",
+        "english": ["from now on", "after this"]
+    },
+    {
+        "hiragana": "考える",
+        "romanji": "kangaeru",
+        "english": ["think", "consider"]
+    },
+    {
+        "hiragana": "戻る",
+        "romanji": "modoru",
+        "english": ["return to a point of departure"]
+    },
+    {
+        "hiragana": "変える",
+        "romanji": "kaeru",
+        "english": ["change (something)", "alter"]
+    },
+    {
+        "hiragana": "朝",
+        "romanji": "asa",
+        "english": ["morning"]
+    },
+    {
+        "hiragana": "歯",
+        "romanji": "ha",
+        "english": ["tooth"]
+    },
+    {
+        "hiragana": "頑張る",
+        "romanji": "ganbaru",
+        "english": ["work hard", "do one’s best"]
+    },
+    {
+        "hiragana": "携帯電話",
+        "romanji": "keitaidenwa",
+        "english": ["cellular phone"]
+    },
+    {
+        "hiragana": "雨",
+        "romanji": "ame",
+        "english": ["rain"]
+    },
+    {
+        "hiragana": "金",
+        "romanji": "kane",
+        "english": ["money (colloquial)"]
+    },
+    {
+        "hiragana": "易しい",
+        "romanji": "yasashii",
+        "english": ["easy", "simple (colloquial)"]
+    },
+    {
+        "hiragana": "お兄さん",
+        "romanji": "oniisan",
+        "english": ["older brother"]
+    },
+    {
+        "hiragana": "大きい",
+        "romanji": "ooki",
+        "english": ["big"]
+    },
+    {
+        "hiragana": "小さい",
+        "romanji": "chiisai",
+        "english": ["small"]
+    },
+    {
+        "hiragana": "辛い",
+        "romanji": "karai",
+        "english": ["spicy", "hot"]
+    },
+    {
+        "hiragana": "八",
+        "romanji": "hachi",
+        "english": ["eight"]
+    },
+    {
+        "hiragana": "あそこ",
+        "romanji": "asoko",
+        "english": ["over there"]
+    },
+    {
+        "hiragana": "来る",
+        "romanji": "kuru",
+        "english": ["come"]
+    },
+    {
+        "hiragana": "前",
+        "romanji": "mae",
+        "english": ["front", "before"]
+    },
+    {
+        "hiragana": "五日",
+        "romanji": "itsuka",
+        "english": ["five days", "fifth of the month"]
+    },
+    {
+        "hiragana": "いっぱい",
+        "romanji": "ippai",
+        "english": ["full"]
+    },
+    {
+        "hiragana": "九",
+        "romanji": "kyu",
+        "english": ["nine (used before counter words\nand in decimal places)"]
+    },
+    {
+        "hiragana": "酸っぱい",
+        "romanji": "suppai",
+        "english": ["sour"]
+    },
+    {
+        "hiragana": "違う",
+        "romanji": "chigau",
+        "english": ["differ", "be wrong"]
+    },
+    {
+        "hiragana": "細い",
+        "romanji": "hosoi",
+        "english": ["thin", "slender"]
+    },
+    {
+        "hiragana": "三つ",
+        "romanji": "mittsu",
+        "english": ["three (things)"]
+    },
+    {
+        "hiragana": "八日",
+        "romanji": "youka",
+        "english": ["eight days", "eighth of the month"]
+    },
+    {
+        "hiragana": "高校生",
+        "romanji": "koukousei",
+        "english": ["high school student"]
+    },
+    {
+        "hiragana": "上手",
+        "romanji": "jouzu",
+        "english": ["good", "skilled"]
+    },
+    {
+        "hiragana": "強い",
+        "romanji": "tsuyoi",
+        "english": ["strong"]
+    },
+    {
+        "hiragana": "七",
+        "romanji": "nana",
+        "english": ["seven (Japanese origin)", "seven (Chinese origin)"]
+    },
+    {
+        "hiragana": "二十日",
+        "romanji": "hatsuka",
+        "english": ["20 days", "20th of the month"]
+    },
+    {
+        "hiragana": "左",
+        "romanji": "hidari",
+        "english": ["left"]
+    },
+    {
+        "hiragana": "二日",
+        "romanji": "futsuka",
+        "english": ["two days", "second of the month"]
+    },
+    {
+        "hiragana": "四つ",
+        "romanji": "yottsu",
+        "english": ["four (things)"]
+    },
+    {
+        "hiragana": "暖かい",
+        "romanji": "atatakai",
+        "english": ["warm"]
+    },
+    {
+        "hiragana": "ある",
+        "romanji": "aru",
+        "english": ["exist", "there is"]
+    },
+    {
+        "hiragana": "いい",
+        "romanji": "ii",
+        "english": ["good (informal/spoken form)"]
+    },
+    {
+        "hiragana": "上",
+        "romanji": "ue",
+        "english": ["up", "above"]
+    },
+    {
+        "hiragana": "駅",
+        "romanji": "eki",
+        "english": ["train station"]
+    },
+    {
+        "hiragana": "美味しい",
+        "romanji": "oishii",
+        "english": ["tasty"]
+    },
+    {
+        "hiragana": "昨日",
+        "romanji": "kinou",
+        "english": ["yesterday (colloquial)"]
+    },
+    {
+        "hiragana": "綺麗",
+        "romanji": "kirei",
+        "english": ["pretty", "clean"]
+    },
+    {
+        "hiragana": "五",
+        "romanji": "go",
+        "english": ["five"]
+    },
+    {
+        "hiragana": "九つ",
+        "romanji": "kokonotsu",
+        "english": ["nine (things)"]
+    },
+    {
+        "hiragana": "お願い",
+        "romanji": "onegai",
+        "english": ["favor"]
+    },
+    {
+        "hiragana": "答える",
+        "romanji": "kotaeru",
+        "english": ["give an answer"]
+    },
+    {
+        "hiragana": "先",
+        "romanji": "saki",
+        "english": ["ahead", "first"]
+    },
+    {
+        "hiragana": "寒い",
+        "romanji": "samui",
+        "english": ["cold (temperature of the air)"]
+    },
+    {
+        "hiragana": "四",
+        "romanji": "shi",
+        "english": ["four (Chinese origin)"]
+    },
+    {
+        "hiragana": "三日",
+        "romanji": "mikka",
+        "english": ["three days", "third of the month"]
+    },
+    {
+        "hiragana": "下",
+        "romanji": "shita",
+        "english": ["under", "below"]
+    },
+    {
+        "hiragana": "大丈夫",
+        "romanji": "daijoubu",
+        "english": ["all right", "OK"]
+    },
+    {
+        "hiragana": "大人",
+        "romanji": "otona",
+        "english": ["adult"]
+    },
+    {
+        "hiragana": "出す",
+        "romanji": "dasu",
+        "english": ["take out"]
+    },
+    {
+        "hiragana": "父",
+        "romanji": "chichi",
+        "english": ["(speaker’s) father"]
+    },
+    {
+        "hiragana": "母",
+        "romanji": "haha",
+        "english": ["(speaker’s) mother"]
+    },
+    {
+        "hiragana": "月",
+        "romanji": "tsuki",
+        "english": ["moon"]
+    },
+    {
+        "hiragana": "妹",
+        "romanji": "imouto",
+        "english": ["younger sister"]
+    },
+    {
+        "hiragana": "冷たい",
+        "romanji": "tsumetai",
+        "english": ["cold (to touch)"]
+    },
+    {
+        "hiragana": "弟",
+        "romanji": "otouto",
+        "english": ["younger brother"]
+    },
+    {
+        "hiragana": "手",
+        "romanji": "te",
+        "english": ["hand"]
+    },
+    {
+        "hiragana": "十日",
+        "romanji": "tooka",
+        "english": ["ten days", "tenth of the month"]
+    },
+    {
+        "hiragana": "口",
+        "romanji": "kuchi",
+        "english": ["mouth"]
+    },
+    {
+        "hiragana": "夏",
+        "romanji": "natsu",
+        "english": ["summer"]
+    },
+    {
+        "hiragana": "七つ",
+        "romanji": "nanatsu",
+        "english": ["seven (things)"]
+    },
+    {
+        "hiragana": "時々",
+        "romanji": "tokidoki",
+        "english": ["sometimes"]
+    },
+    {
+        "hiragana": "何",
+        "romanji": "nani",
+        "english": ["what"]
+    },
+    {
+        "hiragana": "人",
+        "romanji": "hito",
+        "english": ["person"]
+    },
+    {
+        "hiragana": "一人",
+        "romanji": "hitori",
+        "english": ["one person"]
+    },
+    {
+        "hiragana": "一日",
+        "romanji": "tsuitachi",
+        "english": ["first of the month"]
+    },
+    {
+        "hiragana": "九日",
+        "romanji": "kokonoka",
+        "english": ["nine days", "ninth of the month"]
+    },
+    {
+        "hiragana": "方",
+        "romanji": "hou",
+        "english": ["direction", "side"]
+    },
+    {
+        "hiragana": "他",
+        "romanji": "hoka",
+        "english": ["other (Japanese origin)"]
+    },
+    {
+        "hiragana": "僕",
+        "romanji": "boku",
+        "english": ["I", "me (usually used by young males)"]
+    },
+    {
+        "hiragana": "欲しい",
+        "romanji": "hoshii",
+        "english": ["want", "desire (of the speaker)"]
+    },
+    {
+        "hiragana": "万",
+        "romanji": "man",
+        "english": ["ten thousand"]
+    },
+    {
+        "hiragana": "見える",
+        "romanji": "mieru",
+        "english": ["be visible", "can see"]
+    },
+    {
+        "hiragana": "道",
+        "romanji": "michi",
+        "english": ["street", "way"]
+    },
+    {
+        "hiragana": "五つ",
+        "romanji": "itsutsu",
+        "english": ["five (things)"]
+    },
+    {
+        "hiragana": "目",
+        "romanji": "me",
+        "english": ["eye"]
+    },
+    {
+        "hiragana": "八つ",
+        "romanji": "yattsu",
+        "english": ["eight (things)"]
+    },
+    {
+        "hiragana": "止める",
+        "romanji": "tomeru",
+        "english": ["stop (a car…). 止める (yameru) give up"]
+    },
+    {
+        "hiragana": "四日",
+        "romanji": "yokka",
+        "english": ["four days", "fourth of the month"]
+    },
+    {
+        "hiragana": "夜",
+        "romanji": "yoru",
+        "english": ["night (from sunset to sunrise)"]
+    },
+    {
+        "hiragana": "来年",
+        "romanji": "rainen",
+        "english": ["next year"]
+    },
+    {
+        "hiragana": "六",
+        "romanji": "roku",
+        "english": ["six"]
+    },
+    {
+        "hiragana": "悪い",
+        "romanji": "warui",
+        "english": ["bad"]
+    },
+    {
+        "hiragana": "お手洗い",
+        "romanji": "otearai",
+        "english": ["toilet", "bathroom"]
+    },
+    {
+        "hiragana": "ご主人",
+        "romanji": "goshujin",
+        "english": ["(someone else’s) husband"]
+    },
+    {
+        "hiragana": "本当に",
+        "romanji": "hontouni",
+        "english": ["really", "truly"]
+    },
+    {
+        "hiragana": "自分",
+        "romanji": "jibun",
+        "english": ["self", "oneself"]
+    },
+    {
+        "hiragana": "ため",
+        "romanji": "tame",
+        "english": ["sake", "purpose"]
+    },
+    {
+        "hiragana": "見つかる",
+        "romanji": "mitsukaru",
+        "english": ["be found", "be caught"]
+    },
+    {
+        "hiragana": "休む",
+        "romanji": "yasumu",
+        "english": ["take a rest", "take a break"]
+    },
+    {
+        "hiragana": "ゆっくり",
+        "romanji": "yukkuri",
+        "english": ["slowly"]
+    },
+    {
+        "hiragana": "六つ",
+        "romanji": "muttsu",
+        "english": ["six (things)"]
+    },
+    {
+        "hiragana": "花",
+        "romanji": "hana",
+        "english": ["flower"]
+    },
+    {
+        "hiragana": "動く",
+        "romanji": "ugoku",
+        "english": ["move"]
+    },
+    {
+        "hiragana": "線",
+        "romanji": "sen",
+        "english": ["line"]
+    },
+    {
+        "hiragana": "七日",
+        "romanji": "nanoka",
+        "english": ["seven days", "seventh of the month"]
+    },
+    {
+        "hiragana": "以外",
+        "romanji": "igai",
+        "english": ["except for"]
+    },
+    {
+        "hiragana": "男",
+        "romanji": "otoko",
+        "english": ["man", "male"]
+    },
+    {
+        "hiragana": "彼",
+        "romanji": "kare",
+        "english": ["he", "one’s boyfriend"]
+    },
+    {
+        "hiragana": "女",
+        "romanji": "onna",
+        "english": ["woman"]
+    },
+    {
+        "hiragana": "妻",
+        "romanji": "tsuma",
+        "english": ["woman"]
+    },
+    {
+        "hiragana": "百",
+        "romanji": "hyaku",
+        "english": ["hundred"]
+    },
+    {
+        "hiragana": "辺",
+        "romanji": "atari",
+        "english": ["vicinity"]
+    },
+    {
+        "hiragana": "店",
+        "romanji": "mise",
+        "english": ["shop", "store"]
+    },
+    {
+        "hiragana": "閉まる",
+        "romanji": "shimaru",
+        "english": ["be shut", "be closed"]
+    },
+    {
+        "hiragana": "問題",
+        "romanji": "mondai",
+        "english": ["problem", "question"]
+    },
+    {
+        "hiragana": "必要",
+        "romanji": "hitsuyou",
+        "english": ["need", "necessary"]
+    },
+    {
+        "hiragana": "もつ",
+        "romanji": "motsu",
+        "english": ["last long", "be durable"]
+    },
+    {
+        "hiragana": "昨年",
+        "romanji": "sakunen",
+        "english": ["last year (formal", "often used in writing)"]
+    },
+    {
+        "hiragana": "治る",
+        "romanji": "naoru",
+        "english": ["be cured", "get well"]
+    },
+    {
+        "hiragana": "ドル",
+        "romanji": "doru",
+        "english": ["dollar"]
+    },
+    {
+        "hiragana": "システム",
+        "romanji": "shisutemu",
+        "english": ["system (loan word)"]
+    },
+    {
+        "hiragana": "以上",
+        "romanji": "ijou",
+        "english": ["more than", "not less than"]
+    },
+    {
+        "hiragana": "最近",
+        "romanji": "saikin",
+        "english": ["recent", "latest"]
+    },
+    {
+        "hiragana": "世界",
+        "romanji": "sekai",
+        "english": ["world"]
+    },
+    {
+        "hiragana": "コンピューター",
+        "romanji": "konpyu-ta-",
+        "english": ["computer"]
+    },
+    {
+        "hiragana": "意味",
+        "romanji": "imi",
+        "english": ["meaning", "sense"]
+    },
+    {
+        "hiragana": "増える",
+        "romanji": "fueru",
+        "english": ["increase", "accrue"]
+    },
+    {
+        "hiragana": "選ぶ",
+        "romanji": "erabu",
+        "english": ["choose", "elect"]
+    },
+    {
+        "hiragana": "生活",
+        "romanji": "seikatsu",
+        "english": ["life", "living"]
+    },
+    {
+        "hiragana": "進める",
+        "romanji": "susumeru",
+        "english": ["go ahead", "proceed"]
+    },
+    {
+        "hiragana": "続ける",
+        "romanji": "tsuzukeru",
+        "english": ["continue", "keep up"]
+    },
+    {
+        "hiragana": "ほとんど",
+        "romanji": "hotondo",
+        "english": ["almost", "hardly"]
+    },
+    {
+        "hiragana": "会社",
+        "romanji": "kaisha",
+        "english": ["company", "corporation"]
+    },
+    {
+        "hiragana": "多く",
+        "romanji": "ooku",
+        "english": ["much", "largely"]
+    },
+    {
+        "hiragana": "話",
+        "romanji": "hanashi",
+        "english": ["talk", "story"]
+    },
+    {
+        "hiragana": "上がる",
+        "romanji": "agaru",
+        "english": ["go up", "rise (physical movement)"]
+    },
+    {
+        "hiragana": "集める",
+        "romanji": "atsumeru",
+        "english": ["collect", "gather"]
+    },
+    {
+        "hiragana": "声",
+        "romanji": "koe",
+        "english": ["voice", "sound"]
+    },
+    {
+        "hiragana": "初めて",
+        "romanji": "hajimet",
+        "english": ["for the first time"]
+    },
+    {
+        "hiragana": "変わる",
+        "romanji": "kawaru",
+        "english": ["change", "turn into"]
+    },
+    {
+        "hiragana": "まず",
+        "romanji": "mazu",
+        "english": ["first of all", "to begin with"]
+    },
+    {
+        "hiragana": "社会",
+        "romanji": "shakai",
+        "english": ["society"]
+    },
+    {
+        "hiragana": "プログラム",
+        "romanji": "puroguramu",
+        "english": ["program booklet"]
+    },
+    {
+        "hiragana": "力",
+        "romanji": "chikara",
+        "english": ["strength", "power"]
+    },
+    {
+        "hiragana": "今回",
+        "romanji": "konkai",
+        "english": ["this time"]
+    },
+    {
+        "hiragana": "予定",
+        "romanji": "yotei",
+        "english": ["schedule", "plan"]
+    },
+    {
+        "hiragana": "まま",
+        "romanji": "mama",
+        "english": ["as is", "still (in the current state)"]
+    },
+    {
+        "hiragana": "テレビ",
+        "romanji": "terebi",
+        "english": ["television"]
+    },
+    {
+        "hiragana": "減る",
+        "romanji": "heru",
+        "english": ["decrease", "diminish"]
+    },
+    {
+        "hiragana": "消える",
+        "romanji": "kieru",
+        "english": ["be extinguished", "disappear"]
+    },
+    {
+        "hiragana": "家族",
+        "romanji": "kazoku",
+        "english": ["family", "household"]
+    },
+    {
+        "hiragana": "比べる",
+        "romanji": "kuraberu",
+        "english": ["compare", "contrast"]
+    },
+    {
+        "hiragana": "生まれる",
+        "romanji": "umareru",
+        "english": ["be born", "come into existence"]
+    },
+    {
+        "hiragana": "ただ",
+        "romanji": "tada",
+        "english": ["free"]
+    },
+    {
+        "hiragana": "これら",
+        "romanji": "korera",
+        "english": ["these"]
+    },
+    {
+        "hiragana": "調べる",
+        "romanji": "shiraberu",
+        "english": ["investigate", "check"]
+    },
+    {
+        "hiragana": "事故",
+        "romanji": "jiko",
+        "english": ["accident", "trouble"]
+    },
+    {
+        "hiragana": "電話",
+        "romanji": "denwa",
+        "english": ["telephone", "phone call"]
+    },
+    {
+        "hiragana": "外国",
+        "romanji": "gaikoku",
+        "english": ["foreign country"]
+    },
+    {
+        "hiragana": "銀行",
+        "romanji": "ginkou",
+        "english": ["bank"]
+    },
+    {
+        "hiragana": "十分",
+        "romanji": "juubun",
+        "english": ["enough", "plentiful"]
+    },
+    {
+        "hiragana": "あまり",
+        "romanji": "amari",
+        "english": ["(not) much"]
+    },
+    {
+        "hiragana": "写真",
+        "romanji": "shashin",
+        "english": ["photograph"]
+    },
+    {
+        "hiragana": "繰り返す",
+        "romanji": "kurikaesu",
+        "english": ["repeat"]
+    },
+    {
+        "hiragana": "種類",
+        "romanji": "shurui",
+        "english": ["kind", "type"]
+    },
+    {
+        "hiragana": "意見",
+        "romanji": "iken",
+        "english": ["opinion"]
+    },
+    {
+        "hiragana": "新聞",
+        "romanji": "shinbun",
+        "english": ["newspaper"]
+    },
+    {
+        "hiragana": "文章",
+        "romanji": "bunshou",
+        "english": ["sentence", "writing"]
+    },
+    {
+        "hiragana": "目立つ",
+        "romanji": "medatsu",
+        "english": ["stand out", "be conspicuous"]
+    },
+    {
+        "hiragana": "相手",
+        "romanji": "aite",
+        "english": ["opponent", "the other party"]
+    },
+    {
+        "hiragana": "病院",
+        "romanji": "byouin",
+        "english": ["hospital"]
+    },
+    {
+        "hiragana": "厚い",
+        "romanji": "atsui",
+        "english": ["thick", "bulky"]
+    },
+    {
+        "hiragana": "忙しい",
+        "romanji": "isogashii",
+        "english": ["busy", "occupied"]
+    },
+    {
+        "hiragana": "薄い",
+        "romanji": "usui",
+        "english": ["thin", "weak"]
+    },
+    {
+        "hiragana": "川",
+        "romanji": "kawa",
+        "english": ["river", "stream"]
+    },
+    {
+        "hiragana": "暗い",
+        "romanji": "kurai",
+        "english": ["dark", "gloomy"]
+    },
+    {
+        "hiragana": "クラス",
+        "romanji": "kurasu",
+        "english": ["class (in school)"]
+    },
+    {
+        "hiragana": "黒い",
+        "romanji": "kuroi",
+        "english": ["black", "dark"]
+    },
+    {
+        "hiragana": "バス",
+        "romanji": "basu",
+        "english": ["bus"]
+    },
+    {
+        "hiragana": "青い",
+        "romanji": "aoi",
+        "english": ["blue"]
+    },
+    {
+        "hiragana": "買い物",
+        "romanji": "kaimono",
+        "english": ["shopping", "purchase"]
+    },
+    {
+        "hiragana": "薬",
+        "romanji": "kusuri",
+        "english": ["drug", "medicine"]
+    },
+    {
+        "hiragana": "砂糖",
+        "romanji": "satou",
+        "english": ["sugar"]
+    },
+    {
+        "hiragana": "休み",
+        "romanji": "yasumi",
+        "english": ["holiday", "break"]
+    },
+    {
+        "hiragana": "郵便局",
+        "romanji": "yuubinkyoku",
+        "english": ["post office"]
+    },
+    {
+        "hiragana": "住所",
+        "romanji": "juusho",
+        "english": ["address"]
+    },
+    {
+        "hiragana": "こちら",
+        "romanji": "kochira",
+        "english": ["here", "this way (polite)"]
+    },
+    {
+        "hiragana": "財布",
+        "romanji": "saifu",
+        "english": ["purse", "wallet"]
+    },
+    {
+        "hiragana": "パスポート",
+        "romanji": "pasupo-to",
+        "english": ["passport"]
+    },
+    {
+        "hiragana": "椅子",
+        "romanji": "isu",
+        "english": ["chair"]
+    },
+    {
+        "hiragana": "可愛い",
+        "romanji": "kawaii",
+        "english": ["cute", "sweet"]
+    },
+    {
+        "hiragana": "お祖父さん",
+        "romanji": "ojiisan",
+        "english": ["grandfather (colloquial)"]
+    },
+    {
+        "hiragana": "切手",
+        "romanji": "kitte",
+        "english": ["postage stamp"]
+    },
+    {
+        "hiragana": "涼しい",
+        "romanji": "suzushii",
+        "english": ["cool (of temperature)"]
+    },
+    {
+        "hiragana": "いくつ",
+        "romanji": "ikutsu",
+        "english": ["how many", "how old"]
+    },
+    {
+        "hiragana": "メニュー",
+        "romanji": "menyu-",
+        "english": ["menu"]
+    },
+    {
+        "hiragana": "電気",
+        "romanji": "denki",
+        "english": ["electricity", "electric light"]
+    },
+    {
+        "hiragana": "勝つ",
+        "romanji": "katsu",
+        "english": ["win"]
+    },
+    {
+        "hiragana": "負ける",
+        "romanji": "makeru",
+        "english": ["lose"]
+    },
+    {
+        "hiragana": "建てる",
+        "romanji": "tateru",
+        "english": ["build", "erect"]
+    },
+    {
+        "hiragana": "日記",
+        "romanji": "nikki",
+        "english": ["diary"]
+    },
+    {
+        "hiragana": "売り切れ",
+        "romanji": "urikire",
+        "english": ["sell out"]
+    },
+    {
+        "hiragana": "お巡りさん",
+        "romanji": "omawarisan",
+        "english": ["police officer (colloquial)"]
+    },
+    {
+        "hiragana": "目覚まし時計",
+        "romanji": "mezamashitokei",
+        "english": ["alarm clock"]
+    },
+    {
+        "hiragana": "レシート",
+        "romanji": "reshi-to",
+        "english": ["receipt (loan word)"]
+    },
+    {
+        "hiragana": "ティッシュ",
+        "romanji": "tisshu",
+        "english": ["tissue"]
+    },
+    {
+        "hiragana": "歯ブラシ",
+        "romanji": "haburashi",
+        "english": ["toothbrush"]
+    },
+    {
+        "hiragana": "下りる",
+        "romanji": "oriru",
+        "english": ["go down", "come down"]
+    },
+    {
+        "hiragana": "洗う",
+        "romanji": "arau",
+        "english": ["wash"]
+    },
+    {
+        "hiragana": "パート",
+        "romanji": "pa-to",
+        "english": ["part-time"]
+    },
+    {
+        "hiragana": "氏名",
+        "romanji": "shimei",
+        "english": ["full name"]
+    },
+    {
+        "hiragana": "今夜",
+        "romanji": "konya",
+        "english": ["tonight", "this evening"]
+    },
+    {
+        "hiragana": "夜中",
+        "romanji": "yonaka",
+        "english": ["midnight"]
+    },
+    {
+        "hiragana": "来週",
+        "romanji": "raishuu",
+        "english": ["next week"]
+    },
+    {
+        "hiragana": "誰か",
+        "romanji": "dareka",
+        "english": ["someone"]
+    },
+    {
+        "hiragana": "何",
+        "romanji": "nan",
+        "english": ["what. それはなんですか. What is that?"]
+    },
+    {
+        "hiragana": "今朝",
+        "romanji": "kesa",
+        "english": ["this morning"]
+    },
+    {
+        "hiragana": "寿司",
+        "romanji": "sushi",
+        "english": ["sushi"]
+    },
+    {
+        "hiragana": "履く",
+        "romanji": "haku",
+        "english": ["put on (shoes)", "wear (pants", "skirt)"]
+    },
+    {
+        "hiragana": "おじさん",
+        "romanji": "ojisan",
+        "english": ["uncle"]
+    },
+    {
+        "hiragana": "おばさん",
+        "romanji": "obasan",
+        "english": ["aunt"]
+    },
+    {
+        "hiragana": "お祖母さん",
+        "romanji": "obaasan",
+        "english": ["grandmother (colloquial)"]
+    },
+    {
+        "hiragana": "いとこ",
+        "romanji": "itoko",
+        "english": ["cousin"]
+    },
+    {
+        "hiragana": "辞書",
+        "romanji": "jisho",
+        "english": ["dictionary (category)"]
+    },
+    {
+        "hiragana": "朝ご飯",
+        "romanji": "asagohan",
+        "english": ["breakfast"]
+    },
+    {
+        "hiragana": "白",
+        "romanji": "shiro",
+        "english": ["white"]
+    },
+    {
+        "hiragana": "どっち",
+        "romanji": "docchi",
+        "english": ["which (casual)"]
+    },
+    {
+        "hiragana": "そっち",
+        "romanji": "socchi",
+        "english": ["there (casual)"]
+    },
+    {
+        "hiragana": "明日",
+        "romanji": "ashita",
+        "english": ["tomorrow (colloquial)"]
+    },
+    {
+        "hiragana": "明後日",
+        "romanji": "myougonichi/asatte",
+        "english": ["day after tomorrow (colloquial)"]
+    },
+    {
+        "hiragana": "一昨日",
+        "romanji": "ototoi",
+        "english": ["the day before yesterday (colloquial)"]
+    },
+    {
+        "hiragana": "庭",
+        "romanji": "niwa",
+        "english": ["garden", "yard"]
+    },
+    {
+        "hiragana": "左側",
+        "romanji": "hidarigawa",
+        "english": ["left side"]
+    },
+    {
+        "hiragana": "右側",
+        "romanji": "migigawa",
+        "english": ["right side"]
+    },
+    {
+        "hiragana": "指",
+        "romanji": "yubi",
+        "english": ["finger", "toe"]
+    },
+    {
+        "hiragana": "眼鏡",
+        "romanji": "megane",
+        "english": ["glasses"]
+    },
+    {
+        "hiragana": "鞄",
+        "romanji": "kaban",
+        "english": ["bag", "handbag"]
+    },
+    {
+        "hiragana": "あっち",
+        "romanji": "acchi",
+        "english": ["other side", "over there (casual)"]
+    },
+    {
+        "hiragana": "大人しい",
+        "romanji": "otonashii",
+        "english": ["gentle", "quiet"]
+    },
+    {
+        "hiragana": "下手",
+        "romanji": "heta",
+        "english": ["not good at"]
+    },
+    {
+        "hiragana": "厳しい",
+        "romanji": "kibishii",
+        "english": ["strict", "severe"]
+    },
+    {
+        "hiragana": "一人で",
+        "romanji": "hitoride",
+        "english": ["by oneself", "alone"]
+    },
+    {
+        "hiragana": "答え",
+        "romanji": "kotae",
+        "english": ["answer", "solution"]
+    },
+    {
+        "hiragana": "この頃",
+        "romanji": "konogoro",
+        "english": ["these days", "recently"]
+    },
+    {
+        "hiragana": "残念",
+        "romanji": "zannen",
+        "english": ["regretful", "disappointing"]
+    },
+    {
+        "hiragana": "仕舞う",
+        "romanji": "shimau",
+        "english": ["put away", "put in"]
+    },
+    {
+        "hiragana": "心配",
+        "romanji": "shinpai",
+        "english": ["anxiety", "worry"]
+    },
+    {
+        "hiragana": "外",
+        "romanji": "soto",
+        "english": ["outside", "open air"]
+    },
+    {
+        "hiragana": "大切",
+        "romanji": "taisetsu",
+        "english": ["important", "valuable"]
+    },
+    {
+        "hiragana": "ちょうど",
+        "romanji": "choudo",
+        "english": ["just", "exactly"]
+    },
+    {
+        "hiragana": "助ける",
+        "romanji": "tasukeru",
+        "english": ["help", "save"]
+    },
+    {
+        "hiragana": "勤める",
+        "romanji": "tsutomeru",
+        "english": ["serve", "hold a job"]
+    },
+    {
+        "hiragana": "連れていく",
+        "romanji": "tsureteiku",
+        "english": ["take along", "bring along (a person)"]
+    },
+    {
+        "hiragana": "丈夫",
+        "romanji": "joubu",
+        "english": ["healthy", "sturdy"]
+    },
+    {
+        "hiragana": "賑やか",
+        "romanji": "nigiyaka",
+        "english": ["lively", "exciting"]
+    },
+    {
+        "hiragana": "眠い",
+        "romanji": "nemui",
+        "english": ["sleepy"]
+    },
+    {
+        "hiragana": "山",
+        "romanji": "yama",
+        "english": ["mountain"]
+    },
+    {
+        "hiragana": "橋",
+        "romanji": "hashi",
+        "english": ["bridge"]
+    },
+    {
+        "hiragana": "止まる",
+        "romanji": "tomaru",
+        "english": ["come to a stop", "cease"]
+    },
+    {
+        "hiragana": "降る",
+        "romanji": "furu",
+        "english": ["fall", "come down (rain", "snow", "etc.)"]
+    },
+    {
+        "hiragana": "本当",
+        "romanji": "hontou",
+        "english": ["reality", "genuine"]
+    },
+    {
+        "hiragana": "町",
+        "romanji": "machi",
+        "english": ["town", "city"]
+    },
+    {
+        "hiragana": "お菓子",
+        "romanji": "okashi",
+        "english": ["sweets", "snacks"]
+    },
+    {
+        "hiragana": "緩い",
+        "romanji": "yurui",
+        "english": ["slack", "loose"]
+    },
+    {
+        "hiragana": "良い",
+        "romanji": "yoi",
+        "english": ["good (formal/written form)"]
+    },
+    {
+        "hiragana": "ようこそ",
+        "romanji": "youkoso",
+        "english": ["welcome (greeting)"]
+    },
+    {
+        "hiragana": "お土産",
+        "romanji": "omiyage",
+        "english": ["souvenir (polite)"]
+    },
+    {
+        "hiragana": "両親",
+        "romanji": "ryoushin",
+        "english": ["parents"]
+    },
+    {
+        "hiragana": "ウェーター",
+        "romanji": "we-ta-",
+        "english": ["waiter"]
+    },
+    {
+        "hiragana": "ウェートレス",
+        "romanji": "we-toresu",
+        "english": ["waitress"]
+    },
+    {
+        "hiragana": "絶対に",
+        "romanji": "zettaini",
+        "english": ["absolutely", "definitely"]
+    },
+    {
+        "hiragana": "ごちそう",
+        "romanji": "gochisou",
+        "english": ["feast", "treat"]
+    },
+    {
+        "hiragana": "フォーク",
+        "romanji": "fo-ku",
+        "english": ["fork"]
+    },
+    {
+        "hiragana": "スプーン",
+        "romanji": "supu-n",
+        "english": ["spoon"]
+    },
+    {
+        "hiragana": "瓶",
+        "romanji": "bin",
+        "english": ["bottle"]
+    },
+    {
+        "hiragana": "つく",
+        "romanji": "tsuku",
+        "english": ["be on", "be switched on"]
+    },
+    {
+        "hiragana": "醤油",
+        "romanji": "shouyu",
+        "english": ["soy sauce"]
+    },
+    {
+        "hiragana": "茶碗",
+        "romanji": "chawan",
+        "english": ["rice bowl"]
+    },
+    {
+        "hiragana": "決める",
+        "romanji": "kimeru",
+        "english": ["decide", "agree upon"]
+    },
+    {
+        "hiragana": "感じる",
+        "romanji": "kanjiru",
+        "english": ["feel", "sense"]
+    },
+    {
+        "hiragana": "生きる",
+        "romanji": "ikiru",
+        "english": ["live (one’s life)"]
+    },
+    {
+        "hiragana": "動かす",
+        "romanji": "ugokasu",
+        "english": ["move (something)"]
+    },
+    {
+        "hiragana": "壊れる",
+        "romanji": "kowareru",
+        "english": ["break", "break down"]
+    },
+    {
+        "hiragana": "復習",
+        "romanji": "fukushuu",
+        "english": ["review"]
+    },
+    {
+        "hiragana": "眉",
+        "romanji": "mayu",
+        "english": ["eyebrow"]
+    },
+    {
+        "hiragana": "客",
+        "romanji": "kyaku",
+        "english": ["visitor", "customer"]
+    },
+    {
+        "hiragana": "机",
+        "romanji": "tsukue",
+        "english": ["desk"]
+    },
+    {
+        "hiragana": "風呂",
+        "romanji": "furo",
+        "english": ["bath"]
+    },
+    {
+        "hiragana": "湯",
+        "romanji": "yu",
+        "english": ["hot water"]
+    },
+    {
+        "hiragana": "ぬるい",
+        "romanji": "nurui",
+        "english": ["tepid", "lukewarm"]
+    },
+    {
+        "hiragana": "風邪薬",
+        "romanji": "kazegusuri",
+        "english": ["cold medicine"]
+    },
+    {
+        "hiragana": "靴下",
+        "romanji": "kutsushita",
+        "english": ["socks"]
+    },
+    {
+        "hiragana": "タバコ",
+        "romanji": "tabako",
+        "english": ["tobacco", "cigarette"]
+    },
+    {
+        "hiragana": "アイスコーヒー",
+        "romanji": "aisuko-hi-",
+        "english": ["iced coffee"]
+    },
+    {
+        "hiragana": "天ぷら",
+        "romanji": "tempura",
+        "english": ["Japanese deep-fried food"]
+    },
+    {
+        "hiragana": "肉",
+        "romanji": "niku",
+        "english": ["flesh", "meat"]
+    },
+    {
+        "hiragana": "昨夜",
+        "romanji": "sakuya",
+        "english": ["last night", "last evening (colloquial)"]
+    },
+    {
+        "hiragana": "流行る",
+        "romanji": "hayaru",
+        "english": ["be in fashion", "be popular"]
+    },
+    {
+        "hiragana": "連れて来る",
+        "romanji": "tsuretekuru",
+        "english": ["bring (a person)"]
+    },
+    {
+        "hiragana": "方",
+        "romanji": "kata",
+        "english": ["person (polite form)"]
+    },
+    {
+        "hiragana": "零",
+        "romanji": "rei",
+        "english": ["zero"]
+    },
+    {
+        "hiragana": "雲",
+        "romanji": "kumo",
+        "english": ["cloud"]
+    },
+    {
+        "hiragana": "空",
+        "romanji": "sora",
+        "english": ["sky"]
+    },
+    {
+        "hiragana": "人気",
+        "romanji": "ninki",
+        "english": ["popularity"]
+    },
+    {
+        "hiragana": "兄さん",
+        "romanji": "niisan",
+        "english": ["(one’s own) older brother (polite)"]
+    },
+    {
+        "hiragana": "姉さん",
+        "romanji": "neesan",
+        "english": ["(one’s own) older sister (polite)"]
+    },
+    {
+        "hiragana": "平成",
+        "romanji": "heisei",
+        "english": ["Heisei era"]
+    },
+    {
+        "hiragana": "毎月",
+        "romanji": "maitsuki",
+        "english": ["every month"]
+    },
+    {
+        "hiragana": "半日",
+        "romanji": "hannichi",
+        "english": ["half a day"]
+    },
+    {
+        "hiragana": "半月",
+        "romanji": "hantsuki",
+        "english": ["half a month"]
+    },
+    {
+        "hiragana": "なるほど",
+        "romanji": "naruhodo",
+        "english": ["I see", "really"]
+    },
+    {
+        "hiragana": "つまり",
+        "romanji": "tsumari",
+        "english": ["in short", "that is to say"]
+    },
+    {
+        "hiragana": "そのまま",
+        "romanji": "sonomama",
+        "english": ["as it is", "just like that"]
+    },
+    {
+        "hiragana": "はっきり",
+        "romanji": "hakkiri",
+        "english": ["clearly"]
+    },
+    {
+        "hiragana": "大変",
+        "romanji": "taihen",
+        "english": ["awful", "hard"]
+    },
+    {
+        "hiragana": "簡単",
+        "romanji": "kantan",
+        "english": ["simple", "easy"]
+    },
+    {
+        "hiragana": "似ている",
+        "romanji": "niteiru",
+        "english": ["look like", "resemble"]
+    },
+    {
+        "hiragana": "驚く",
+        "romanji": "odoroku",
+        "english": ["be surprised", "be startled"]
+    },
+    {
+        "hiragana": "嫌",
+        "romanji": "iya",
+        "english": ["dislike (situational)"]
+    },
+    {
+        "hiragana": "喧嘩",
+        "romanji": "kenka",
+        "english": ["fight", "argument"]
+    },
+    {
+        "hiragana": "遅れる",
+        "romanji": "okureru",
+        "english": ["be late"]
+    },
+    {
+        "hiragana": "にんじん",
+        "romanji": "ninjin",
+        "english": ["carrot"]
+    },
+    {
+        "hiragana": "ジャガイモ",
+        "romanji": "jagaimo",
+        "english": ["potato"]
+    },
+    {
+        "hiragana": "ナス",
+        "romanji": "nasu",
+        "english": ["eggplant"]
+    },
+    {
+        "hiragana": "やかん",
+        "romanji": "yakan",
+        "english": ["kettle"]
+    },
+    {
+        "hiragana": "話し合う",
+        "romanji": "hanashiau",
+        "english": ["discuss", "talk over"]
+    },
+    {
+        "hiragana": "残す",
+        "romanji": "nokosu",
+        "english": ["leave", "leave undone"]
+    },
+    {
+        "hiragana": "ごちそうする",
+        "romanji": "gochisousuru",
+        "english": ["treat", "host (a meal)"]
+    },
+    {
+        "hiragana": "合う",
+        "romanji": "au",
+        "english": ["fit", "match"]
+    },
+    {
+        "hiragana": "当たる",
+        "romanji": "ataru",
+        "english": ["(go straight and) hit", "strike"]
+    },
+    {
+        "hiragana": "集まる",
+        "romanji": "atsumaru",
+        "english": ["gather", "be collected"]
+    },
+    {
+        "hiragana": "場所",
+        "romanji": "basho",
+        "english": ["place", "space"]
+    },
+    {
+        "hiragana": "海",
+        "romanji": "umi",
+        "english": ["sea", "ocean"]
+    },
+    {
+        "hiragana": "少年",
+        "romanji": "shounen",
+        "english": ["boy (between 7 and 18 years old)"]
+    },
+    {
+        "hiragana": "孫",
+        "romanji": "mago",
+        "english": ["grandchild"]
+    },
+    {
+        "hiragana": "生徒",
+        "romanji": "seito",
+        "english": ["pupil", "student"]
+    },
+    {
+        "hiragana": "高校",
+        "romanji": "koukou",
+        "english": ["high school (for short)"]
+    },
+    {
+        "hiragana": "年上",
+        "romanji": "toshiue",
+        "english": ["older", "senior"]
+    },
+    {
+        "hiragana": "卒業",
+        "romanji": "sotsugyou",
+        "english": ["graduation"]
+    },
+    {
+        "hiragana": "運動",
+        "romanji": "undou",
+        "english": ["movement", "exercise"]
+    },
+    {
+        "hiragana": "選手",
+        "romanji": "senshu",
+        "english": ["athlete", "(sports) player"]
+    },
+    {
+        "hiragana": "映画",
+        "romanji": "eiga",
+        "english": ["movie"]
+    },
+    {
+        "hiragana": "英語",
+        "romanji": "eigo",
+        "english": ["English"]
+    },
+    {
+        "hiragana": "手紙",
+        "romanji": "tegami",
+        "english": ["letter"]
+    },
+    {
+        "hiragana": "動物",
+        "romanji": "doubutsu",
+        "english": ["animal"]
+    },
+    {
+        "hiragana": "音",
+        "romanji": "oto",
+        "english": ["sound", "noise"]
+    },
+    {
+        "hiragana": "海外",
+        "romanji": "kaigai",
+        "english": ["overseas", "abroad"]
+    },
+    {
+        "hiragana": "外国人",
+        "romanji": "gaikokujin",
+        "english": ["foreigner"]
+    },
+    {
+        "hiragana": "帰国",
+        "romanji": "kikoku",
+        "english": ["return to one’s country"]
+    },
+    {
+        "hiragana": "彼ら",
+        "romanji": "karera",
+        "english": ["they"]
+    },
+    {
+        "hiragana": "機械",
+        "romanji": "kikai",
+        "english": ["machine"]
+    },
+    {
+        "hiragana": "基本",
+        "romanji": "kihon",
+        "english": ["basics"]
+    },
+    {
+        "hiragana": "今度",
+        "romanji": "kondo",
+        "english": ["this time", "next time"]
+    },
+    {
+        "hiragana": "最後",
+        "romanji": "saigo",
+        "english": ["last"]
+    },
+    {
+        "hiragana": "最初",
+        "romanji": "saisho",
+        "english": ["first", "outset"]
+    },
+    {
+        "hiragana": "準備",
+        "romanji": "junbi",
+        "english": ["preparation", "arrangement"]
+    },
+    {
+        "hiragana": "進む",
+        "romanji": "susumu",
+        "english": ["advance", "move forward"]
+    },
+    {
+        "hiragana": "直接",
+        "romanji": "chokusetsu",
+        "english": ["directly"]
+    },
+    {
+        "hiragana": "特に",
+        "romanji": "tokuni",
+        "english": ["specially", "particularly"]
+    },
+    {
+        "hiragana": "届く",
+        "romanji": "todoku",
+        "english": ["reach", "be received"]
+    },
+    {
+        "hiragana": "なぜ",
+        "romanji": "naze",
+        "english": ["why"]
+    },
+    {
+        "hiragana": "並ぶ",
+        "romanji": "narabu",
+        "english": ["line up", "be parallel"]
+    },
+    {
+        "hiragana": "運ぶ",
+        "romanji": "hakobu",
+        "english": ["carry", "transport"]
+    },
+    {
+        "hiragana": "直す",
+        "romanji": "naosu",
+        "english": ["repair", "fix"]
+    },
+    {
+        "hiragana": "反対",
+        "romanji": "hantai",
+        "english": ["oppose", "object"]
+    },
+    {
+        "hiragana": "場合",
+        "romanji": "baai",
+        "english": ["situation", "case"]
+    },
+    {
+        "hiragana": "詳しい",
+        "romanji": "kuwashii",
+        "english": ["detailed"]
+    },
+    {
+        "hiragana": "いたずら",
+        "romanji": "itazura",
+        "english": ["mischief", "prank"]
+    },
+    {
+        "hiragana": "お祝い",
+        "romanji": "oiwai",
+        "english": ["celebrate"]
+    },
+    {
+        "hiragana": "くし",
+        "romanji": "kushi",
+        "english": ["comb"]
+    },
+    {
+        "hiragana": "こぼれる",
+        "romanji": "koboreru",
+        "english": ["spill", "overflow"]
+    },
+    {
+        "hiragana": "伝える",
+        "romanji": "tsutaeru",
+        "english": ["convey", "transmit"]
+    },
+    {
+        "hiragana": "膝",
+        "romanji": "hiza",
+        "english": ["knee"]
+    },
+    {
+        "hiragana": "肘",
+        "romanji": "hiji",
+        "english": ["elbow"]
+    },
+    {
+        "hiragana": "枕",
+        "romanji": "makura",
+        "english": ["pillow"]
+    },
+    {
+        "hiragana": "建物",
+        "romanji": "tatemono",
+        "english": ["building", "structure"]
+    },
+    {
+        "hiragana": "道路",
+        "romanji": "douro",
+        "english": ["road"]
+    },
+    {
+        "hiragana": "四つ角",
+        "romanji": "yotsukado",
+        "english": ["intersection"]
+    },
+    {
+        "hiragana": "曲がり角",
+        "romanji": "magarikado",
+        "english": ["corner (to turn)"]
+    },
+    {
+        "hiragana": "警察",
+        "romanji": "keisatsu",
+        "english": ["police"]
+    },
+    {
+        "hiragana": "空気",
+        "romanji": "kuuki",
+        "english": ["air", "atmosphere"]
+    },
+    {
+        "hiragana": "スポーツ",
+        "romanji": "supo-tsu",
+        "english": ["sport"]
+    },
+    {
+        "hiragana": "チャンス",
+        "romanji": "chansu",
+        "english": ["chance"]
+    },
+    {
+        "hiragana": "クリーニング",
+        "romanji": "kuri-ningu",
+        "english": ["dry cleaning"]
+    },
+    {
+        "hiragana": "サービス",
+        "romanji": "sa-bisu",
+        "english": ["service", "on the house"]
+    },
+    {
+        "hiragana": "グループ",
+        "romanji": "guru-pu",
+        "english": ["group"]
+    },
+    {
+        "hiragana": "自宅",
+        "romanji": "jitaku",
+        "english": ["one’s house", "one’s home"]
+    },
+    {
+        "hiragana": "家庭",
+        "romanji": "katei",
+        "english": ["home", "family"]
+    },
+    {
+        "hiragana": "期間",
+        "romanji": "kikan",
+        "english": ["term", "period"]
+    },
+    {
+        "hiragana": "年度",
+        "romanji": "nendo",
+        "english": ["year", "school year"]
+    },
+    {
+        "hiragana": "経験",
+        "romanji": "keiken",
+        "english": ["experience", "knowledge"]
+    },
+    {
+        "hiragana": "安全",
+        "romanji": "anzen",
+        "english": ["safety", "security"]
+    },
+    {
+        "hiragana": "危険",
+        "romanji": "kiken",
+        "english": ["danger", "dangerous"]
+    },
+    {
+        "hiragana": "注意",
+        "romanji": "chuui",
+        "english": ["attention", "care"]
+    },
+    {
+        "hiragana": "成功",
+        "romanji": "seikou",
+        "english": ["success"]
+    },
+    {
+        "hiragana": "努力",
+        "romanji": "doryoku",
+        "english": ["endeavor", "effort"]
+    },
+    {
+        "hiragana": "説明",
+        "romanji": "setsumei",
+        "english": ["explanation", "description"]
+    },
+    {
+        "hiragana": "地震",
+        "romanji": "jishin",
+        "english": ["earthquake"]
+    },
+    {
+        "hiragana": "手術",
+        "romanji": "shujutsu",
+        "english": ["surgical operation"]
+    },
+    {
+        "hiragana": "火傷",
+        "romanji": "yakedo",
+        "english": ["burn"]
+    },
+    {
+        "hiragana": "課題",
+        "romanji": "kadai",
+        "english": ["task", "assignment"]
+    },
+    {
+        "hiragana": "子",
+        "romanji": "ko",
+        "english": ["young child", "kid"]
+    },
+    {
+        "hiragana": "確認",
+        "romanji": "kakunin",
+        "english": ["confirmation"]
+    },
+    {
+        "hiragana": "実際",
+        "romanji": "jissai",
+        "english": ["reality", "actual state"]
+    },
+    {
+        "hiragana": "国際",
+        "romanji": "kokusai",
+        "english": ["international (used in compound nouns)"]
+    },
+    {
+        "hiragana": "会議",
+        "romanji": "kaigi",
+        "english": ["conference", "meeting"]
+    },
+    {
+        "hiragana": "提案",
+        "romanji": "teian",
+        "english": ["proposition", "proposal"]
+    },
+    {
+        "hiragana": "事務所",
+        "romanji": "jimusho",
+        "english": ["office", "one’s place of business"]
+    },
+    {
+        "hiragana": "教授",
+        "romanji": "kyouju",
+        "english": ["professor"]
+    },
+    {
+        "hiragana": "世紀",
+        "romanji": "seiki",
+        "english": ["century"]
+    },
+    {
+        "hiragana": "あちこち",
+        "romanji": "achikochi",
+        "english": ["all over", "here and there"]
+    },
+    {
+        "hiragana": "そちら",
+        "romanji": "sochira",
+        "english": ["there", "that way (polite)"]
+    },
+    {
+        "hiragana": "あちら",
+        "romanji": "achira",
+        "english": ["over there", "that way (polite)"]
+    },
+    {
+        "hiragana": "もし",
+        "romanji": "moshi",
+        "english": ["if", "in case of"]
+    },
+    {
+        "hiragana": "うるさい",
+        "romanji": "urusai",
+        "english": ["noisy", "annoying"]
+    },
+    {
+        "hiragana": "固い",
+        "romanji": "katai",
+        "english": ["stiff", "tight"]
+    },
+    {
+        "hiragana": "深い",
+        "romanji": "fukai",
+        "english": ["deep", "profound"]
+    },
+    {
+        "hiragana": "面白い",
+        "romanji": "omoshiroi",
+        "english": ["interesting", "amusing"]
+    },
+    {
+        "hiragana": "全く",
+        "romanji": "mattaku",
+        "english": ["entirely", "truly"]
+    },
+    {
+        "hiragana": "半分",
+        "romanji": "hanbun",
+        "english": ["half"]
+    },
+    {
+        "hiragana": "普通",
+        "romanji": "futsuu",
+        "english": ["normal", "regular"]
+    },
+    {
+        "hiragana": "分",
+        "romanji": "bun",
+        "english": ["amount", "share"]
+    },
+    {
+        "hiragana": "文化",
+        "romanji": "bunka",
+        "english": ["culture"]
+    },
+    {
+        "hiragana": "毎日",
+        "romanji": "mainichi",
+        "english": ["every day"]
+    },
+    {
+        "hiragana": "気を付ける",
+        "romanji": "kiwotsukeru",
+        "english": ["be careful about", "pay attention to"]
+    },
+    {
+        "hiragana": "守る",
+        "romanji": "mamoru",
+        "english": ["protect", "observe"]
+    },
+    {
+        "hiragana": "もちろん",
+        "romanji": "mochiron",
+        "english": ["of course"]
+    },
+    {
+        "hiragana": "やはり",
+        "romanji": "yahari",
+        "english": ["as expected"]
+    },
+    {
+        "hiragana": "いくら",
+        "romanji": "ikura",
+        "english": ["how much (money)"]
+    },
+    {
+        "hiragana": "よろしく",
+        "romanji": "yoroshiku",
+        "english": ["one’s regards"]
+    },
+    {
+        "hiragana": "どなた",
+        "romanji": "donata",
+        "english": ["who (polite)"]
+    },
+    {
+        "hiragana": "許す",
+        "romanji": "yurusu",
+        "english": ["permit", "forgive"]
+    },
+    {
+        "hiragana": "分ける",
+        "romanji": "wakeru",
+        "english": ["divide", "share"]
+    },
+    {
+        "hiragana": "自然",
+        "romanji": "shizen",
+        "english": ["nature", "natural"]
+    },
+    {
+        "hiragana": "アパート",
+        "romanji": "apa-to",
+        "english": ["apartment", "flat"]
+    },
+    {
+        "hiragana": "ホテル",
+        "romanji": "hoteru",
+        "english": ["hotel"]
+    },
+    {
+        "hiragana": "パソコン",
+        "romanji": "pasokon",
+        "english": ["personal computer"]
+    },
+    {
+        "hiragana": "うまい",
+        "romanji": "umai",
+        "english": ["good at", "sweet", "delicious"]
+    },
+    {
+        "hiragana": "明るい",
+        "romanji": "akarui",
+        "english": ["bright", "cheerful"]
+    },
+    {
+        "hiragana": "急ぐ",
+        "romanji": "isogu",
+        "english": ["hurry", "do quickly"]
+    },
+    {
+        "hiragana": "歌",
+        "romanji": "uta",
+        "english": ["song"]
+    },
+    {
+        "hiragana": "中学校",
+        "romanji": "chuugakkou",
+        "english": ["junior high school"]
+    },
+    {
+        "hiragana": "テスト",
+        "romanji": "tesuto",
+        "english": ["test"]
+    },
+    {
+        "hiragana": "ポスト",
+        "romanji": "posuto",
+        "english": ["postbox", "mailbox"]
+    },
+    {
+        "hiragana": "ハンカチ",
+        "romanji": "hankachi",
+        "english": ["handkerchief"]
+    },
+    {
+        "hiragana": "髪",
+        "romanji": "kami",
+        "english": ["hair", "hairstyle"]
+    },
+    {
+        "hiragana": "帽子",
+        "romanji": "boushi",
+        "english": ["hat", "cap"]
+    },
+    {
+        "hiragana": "被る",
+        "romanji": "kaburu",
+        "english": ["wear", "put on (on one’s head)"]
+    },
+    {
+        "hiragana": "ブラウス",
+        "romanji": "burausu",
+        "english": ["blouse"]
+    },
+    {
+        "hiragana": "週末",
+        "romanji": "shuumatsu",
+        "english": ["weekend"]
+    },
+    {
+        "hiragana": "先週",
+        "romanji": "senshuu",
+        "english": ["last week"]
+    },
+    {
+        "hiragana": "再来週",
+        "romanji": "saraishuu",
+        "english": ["the week after next"]
+    },
+    {
+        "hiragana": "いつか",
+        "romanji": "itsuka",
+        "english": ["some time", "some day"]
+    },
+    {
+        "hiragana": "宿題",
+        "romanji": "shukudai",
+        "english": ["homework"]
+    },
+    {
+        "hiragana": "鍵",
+        "romanji": "kagi",
+        "english": ["key", "lock"]
+    },
+    {
+        "hiragana": "傘",
+        "romanji": "kasa",
+        "english": ["umbrella", "parasol"]
+    },
+    {
+        "hiragana": "乗り換える",
+        "romanji": "norikaeru",
+        "english": ["change", "transfer"]
+    },
+    {
+        "hiragana": "向かう",
+        "romanji": "mukau",
+        "english": ["face", "head toward"]
+    },
+    {
+        "hiragana": "本屋",
+        "romanji": "honya",
+        "english": ["bookstore (colloquial)"]
+    },
+    {
+        "hiragana": "お茶",
+        "romanji": "ocha",
+        "english": ["tea (polite)"]
+    },
+    {
+        "hiragana": "改札口",
+        "romanji": "kaisatsuguchi",
+        "english": ["ticket gate"]
+    },
+    {
+        "hiragana": "晴れ",
+        "romanji": "hare",
+        "english": ["fine weather", "clear sky"]
+    },
+    {
+        "hiragana": "バス停",
+        "romanji": "basutei",
+        "english": ["bus stop"]
+    },
+    {
+        "hiragana": "曇り",
+        "romanji": "kumori",
+        "english": ["cloudy weather"]
+    },
+    {
+        "hiragana": "塩",
+        "romanji": "shio",
+        "english": ["salt"]
+    },
+    {
+        "hiragana": "たくさん",
+        "romanji": "takusan",
+        "english": ["a lot", "in large quantity"]
+    },
+    {
+        "hiragana": "大嫌い",
+        "romanji": "daikirai",
+        "english": ["hate"]
+    },
+    {
+        "hiragana": "中",
+        "romanji": "naka",
+        "english": ["inside", "middle"]
+    },
+    {
+        "hiragana": "二階",
+        "romanji": "nikai",
+        "english": ["second floor", "upstairs"]
+    },
+    {
+        "hiragana": "無くす",
+        "romanji": "nakusu",
+        "english": ["lose", "get rid of"]
+    },
+    {
+        "hiragana": "まあまあ",
+        "romanji": "maamaa",
+        "english": ["OK", "not bad"]
+    },
+    {
+        "hiragana": "黄色",
+        "romanji": "kiiro",
+        "english": ["yellow color"]
+    },
+    {
+        "hiragana": "ランチ",
+        "romanji": "ranchi",
+        "english": ["lunch (loan word)"]
+    },
+    {
+        "hiragana": "魚",
+        "romanji": "sakana",
+        "english": ["fish"]
+    },
+    {
+        "hiragana": "味",
+        "romanji": "aji",
+        "english": ["taste", "flavor"]
+    },
+    {
+        "hiragana": "りんご",
+        "romanji": "ringo",
+        "english": ["apple"]
+    },
+    {
+        "hiragana": "みかん",
+        "romanji": "mikan",
+        "english": ["tangerine"]
+    },
+    {
+        "hiragana": "皿",
+        "romanji": "sara",
+        "english": ["plate", "counter (for plates or helpings)"]
+    },
+    {
+        "hiragana": "コーヒー",
+        "romanji": "ko-hi-",
+        "english": ["coffee"]
+    },
+    {
+        "hiragana": "コップ",
+        "romanji": "koppu",
+        "english": ["cup", "glass"]
+    },
+    {
+        "hiragana": "二人",
+        "romanji": "futari",
+        "english": ["two persons"]
+    },
+    {
+        "hiragana": "止む",
+        "romanji": "yamu",
+        "english": ["stop", "cease"]
+    },
+    {
+        "hiragana": "九",
+        "romanji": "kyuu",
+        "english": ["nine"]
+    },
+    {
+        "hiragana": "昼間",
+        "romanji": "hiruma",
+        "english": ["daytime", "during the day"]
+    },
+    {
+        "hiragana": "いつ頃",
+        "romanji": "itsugoro",
+        "english": ["about when", "about what time"]
+    },
+    {
+        "hiragana": "字",
+        "romanji": "ji",
+        "english": ["(individual) character", "letter"]
+    },
+    {
+        "hiragana": "お釣り",
+        "romanji": "otsuri",
+        "english": ["change (of money)"]
+    },
+    {
+        "hiragana": "名字",
+        "romanji": "myouji",
+        "english": ["surname", "family name"]
+    },
+    {
+        "hiragana": "おじ",
+        "romanji": "oji",
+        "english": ["(one’s own) uncle"]
+    },
+    {
+        "hiragana": "おば",
+        "romanji": "oba",
+        "english": ["(one’s own) aunt"]
+    },
+    {
+        "hiragana": "祖父",
+        "romanji": "sofu",
+        "english": ["grandfather (formal)"]
+    },
+    {
+        "hiragana": "祖母",
+        "romanji": "sobo",
+        "english": ["grandmother (formal)"]
+    },
+    {
+        "hiragana": "大事",
+        "romanji": "daiji",
+        "english": ["importance"]
+    },
+    {
+        "hiragana": "見方",
+        "romanji": "mikata",
+        "english": ["view", "perspective"]
+    },
+    {
+        "hiragana": "鳥",
+        "romanji": "tori",
+        "english": ["bird", "poultry"]
+    },
+    {
+        "hiragana": "犬",
+        "romanji": "inu",
+        "english": ["dog"]
+    },
+    {
+        "hiragana": "返事",
+        "romanji": "henji",
+        "english": ["reply", "answer", "response"]
+    },
+    {
+        "hiragana": "また",
+        "romanji": "mata",
+        "english": ["again", "also", "or"]
+    },
+    {
+        "hiragana": "年間",
+        "romanji": "nenkan",
+        "english": ["period of one year"]
+    },
+    {
+        "hiragana": "青",
+        "romanji": "ao",
+        "english": ["blue", "green"]
+    },
+    {
+        "hiragana": "赤",
+        "romanji": "aka",
+        "english": ["red color"]
+    },
+    {
+        "hiragana": "信号",
+        "romanji": "shingou",
+        "english": ["signal", "traffic light"]
+    },
+    {
+        "hiragana": "非常に",
+        "romanji": "hijouni",
+        "english": ["very", "extremely"]
+    },
+    {
+        "hiragana": "複雑",
+        "romanji": "fukuzatsu",
+        "english": ["complicated", "intricate"]
+    },
+    {
+        "hiragana": "平和",
+        "romanji": "heiwa",
+        "english": ["peace", "harmony"]
+    },
+    {
+        "hiragana": "回る",
+        "romanji": "mawaru",
+        "english": ["turn round", "go around"]
+    },
+    {
+        "hiragana": "若者",
+        "romanji": "wakamono",
+        "english": ["young person", "youth"]
+    },
+    {
+        "hiragana": "雪",
+        "romanji": "yuki",
+        "english": ["snow", "snowfall"]
+    },
+    {
+        "hiragana": "思い出す",
+        "romanji": "omoidasu",
+        "english": ["recollect", "recall"]
+    },
+    {
+        "hiragana": "聞こえる",
+        "romanji": "kikoeru",
+        "english": ["hear", "be heard"]
+    },
+    {
+        "hiragana": "借りる",
+        "romanji": "kariru",
+        "english": ["borrow"]
+    },
+    {
+        "hiragana": "返す",
+        "romanji": "kaesu",
+        "english": ["return", "repay"]
+    },
+    {
+        "hiragana": "受け取る",
+        "romanji": "uketoru",
+        "english": ["receive", "get"]
+    },
+    {
+        "hiragana": "捨てる",
+        "romanji": "suteru",
+        "english": ["discard", "abandon"]
+    },
+    {
+        "hiragana": "一緒",
+        "romanji": "issho",
+        "english": ["together", "same (colloquial)"]
+    },
+    {
+        "hiragana": "遊び",
+        "romanji": "asobi",
+        "english": ["play", "amusement"]
+    },
+    {
+        "hiragana": "移す",
+        "romanji": "utsusu",
+        "english": ["move", "transfer"]
+    },
+    {
+        "hiragana": "大きさ",
+        "romanji": "ookisa",
+        "english": ["size", "dimension"]
+    },
+    {
+        "hiragana": "考え",
+        "romanji": "kangae",
+        "english": ["thought", "idea"]
+    },
+    {
+        "hiragana": "空港",
+        "romanji": "kuukou",
+        "english": ["airport (for public transportation)"]
+    },
+    {
+        "hiragana": "出発",
+        "romanji": "shuppatsu",
+        "english": ["departure", "starting"]
+    },
+    {
+        "hiragana": "地図",
+        "romanji": "chizu",
+        "english": ["map", "atlas"]
+    },
+    {
+        "hiragana": "運転",
+        "romanji": "unten",
+        "english": ["drive"]
+    },
+    {
+        "hiragana": "降りる",
+        "romanji": "oriru",
+        "english": ["get off", "land"]
+    },
+    {
+        "hiragana": "ガス",
+        "romanji": "gasu",
+        "english": ["gas (loan word)"]
+    },
+    {
+        "hiragana": "必ず",
+        "romanji": "kanarazu",
+        "english": ["without exception", "always"]
+    },
+    {
+        "hiragana": "カメラ",
+        "romanji": "kamera",
+        "english": ["camera"]
+    },
+    {
+        "hiragana": "通う",
+        "romanji": "kayou",
+        "english": ["go to and from", "frequent a place"]
+    },
+    {
+        "hiragana": "急に",
+        "romanji": "kyuuni",
+        "english": ["suddenly", "unexpectedly"]
+    },
+    {
+        "hiragana": "サラリーマン",
+        "romanji": "sarari-man",
+        "english": ["office worker", "company employee"]
+    },
+    {
+        "hiragana": "給料",
+        "romanji": "kyuuryou",
+        "english": ["salary", "pay"]
+    },
+    {
+        "hiragana": "曲",
+        "romanji": "kyoku",
+        "english": ["piece of music"]
+    },
+    {
+        "hiragana": "切れる",
+        "romanji": "kireru",
+        "english": ["cut well", "be sharp"]
+    },
+    {
+        "hiragana": "正しい",
+        "romanji": "tadashii",
+        "english": ["correct", "righteous"]
+    },
+    {
+        "hiragana": "苦しい",
+        "romanji": "kurushii",
+        "english": ["painful", "agonizing"]
+    },
+    {
+        "hiragana": "細かい",
+        "romanji": "komakai",
+        "english": ["minute", "fine"]
+    },
+    {
+        "hiragana": "静か",
+        "romanji": "shizuka",
+        "english": ["quiet", "tranquil"]
+    },
+    {
+        "hiragana": "健康",
+        "romanji": "kenkou",
+        "english": ["health"]
+    },
+    {
+        "hiragana": "ゴルフ",
+        "romanji": "gorufu",
+        "english": ["golf"]
+    },
+    {
+        "hiragana": "コース",
+        "romanji": "ko-su",
+        "english": ["course", "route"]
+    },
+    {
+        "hiragana": "頼む",
+        "romanji": "tanomu",
+        "english": ["order", "ask for"]
+    },
+    {
+        "hiragana": "困る",
+        "romanji": "komaru",
+        "english": ["be in trouble", "not know what to do"]
+    },
+    {
+        "hiragana": "ずっと",
+        "romanji": "zutto",
+        "english": ["all the time", "all through"]
+    },
+    {
+        "hiragana": "例えば",
+        "romanji": "tatoeba",
+        "english": ["for example"]
+    },
+    {
+        "hiragana": "つもり",
+        "romanji": "tsumori",
+        "english": ["intention", "purpose"]
+    },
+    {
+        "hiragana": "しばらく",
+        "romanji": "shibaraku",
+        "english": ["a little while", "a while"]
+    },
+    {
+        "hiragana": "紹介",
+        "romanji": "shoukai",
+        "english": ["introduction"]
+    },
+    {
+        "hiragana": "小学校",
+        "romanji": "shougakkou",
+        "english": ["elementary school"]
+    },
+    {
+        "hiragana": "公園",
+        "romanji": "kouen",
+        "english": ["park", "public garden"]
+    },
+    {
+        "hiragana": "中学",
+        "romanji": "chuugaku",
+        "english": ["junior high"]
+    },
+    {
+        "hiragana": "成績",
+        "romanji": "seiseki",
+        "english": ["results", "grade"]
+    },
+    {
+        "hiragana": "教科書",
+        "romanji": "kyoukasho",
+        "english": ["textbook", "schoolbook"]
+    },
+    {
+        "hiragana": "席",
+        "romanji": "seki",
+        "english": ["seat", "one’s place"]
+    },
+    {
+        "hiragana": "教室",
+        "romanji": "kyoushitsu",
+        "english": ["classroom", "class"]
+    },
+    {
+        "hiragana": "教師",
+        "romanji": "kyoushi",
+        "english": ["teacher", "instructor"]
+    },
+    {
+        "hiragana": "試験",
+        "romanji": "shiken",
+        "english": ["exam"]
+    },
+    {
+        "hiragana": "合格",
+        "romanji": "goukaku",
+        "english": ["pass an examination"]
+    },
+    {
+        "hiragana": "数学",
+        "romanji": "suugaku",
+        "english": ["mathematics"]
+    },
+    {
+        "hiragana": "数字",
+        "romanji": "suuji",
+        "english": ["numeric characters"]
+    },
+    {
+        "hiragana": "音楽",
+        "romanji": "ongaku",
+        "english": ["music"]
+    },
+    {
+        "hiragana": "食事",
+        "romanji": "shokuji",
+        "english": ["meal"]
+    },
+    {
+        "hiragana": "壁",
+        "romanji": "kabe",
+        "english": ["wall", "partition"]
+    },
+    {
+        "hiragana": "信じる",
+        "romanji": "shinjiru",
+        "english": ["believe", "trust"]
+    },
+    {
+        "hiragana": "育てる",
+        "romanji": "sodateru",
+        "english": ["bring up", "raise"]
+    },
+    {
+        "hiragana": "倒れる",
+        "romanji": "taoreru",
+        "english": ["fall over"]
+    },
+    {
+        "hiragana": "落とす",
+        "romanji": "otosu",
+        "english": ["drop"]
+    },
+    {
+        "hiragana": "代わる",
+        "romanji": "kawaru",
+        "english": ["substitute", "be substituted for"]
+    },
+    {
+        "hiragana": "タクシー",
+        "romanji": "takushi-",
+        "english": ["taxi"]
+    },
+    {
+        "hiragana": "確か",
+        "romanji": "tashika",
+        "english": ["for sure", "for certain"]
+    },
+    {
+        "hiragana": "立てる",
+        "romanji": "tateru",
+        "english": ["stand", "set up"]
+    },
+    {
+        "hiragana": "中学生",
+        "romanji": "chuugakusei",
+        "english": ["junior high school student"]
+    },
+    {
+        "hiragana": "売れる",
+        "romanji": "ureru",
+        "english": ["sell", "be in demand"]
+    },
+    {
+        "hiragana": "着く",
+        "romanji": "tsuku",
+        "english": ["arrive at", "reach"]
+    },
+    {
+        "hiragana": "決まる",
+        "romanji": "kimaru",
+        "english": ["be decided"]
+    },
+    {
+        "hiragana": "飾る",
+        "romanji": "kazaru",
+        "english": ["decorate"]
+    },
+    {
+        "hiragana": "殺す",
+        "romanji": "korosu",
+        "english": ["kill"]
+    },
+    {
+        "hiragana": "下げる",
+        "romanji": "sageru",
+        "english": ["lower", "turn down"]
+    },
+    {
+        "hiragana": "贈る",
+        "romanji": "okuru",
+        "english": ["offer", "give"]
+    },
+    {
+        "hiragana": "訪ねる",
+        "romanji": "tazuneru",
+        "english": ["visit", "go to see"]
+    },
+    {
+        "hiragana": "打つ",
+        "romanji": "utsu",
+        "english": ["hit", "strike"]
+    },
+    {
+        "hiragana": "相談",
+        "romanji": "soudan",
+        "english": ["consultation", "advice"]
+    },
+    {
+        "hiragana": "玄関",
+        "romanji": "genkan",
+        "english": ["entrance", "door"]
+    },
+    {
+        "hiragana": "兄弟",
+        "romanji": "kyoudai",
+        "english": ["sibling"]
+    },
+    {
+        "hiragana": "長男",
+        "romanji": "chounan",
+        "english": ["eldest son"]
+    },
+    {
+        "hiragana": "高さ",
+        "romanji": "takasa",
+        "english": ["height"]
+    },
+    {
+        "hiragana": "用",
+        "romanji": "you",
+        "english": ["things to do"]
+    },
+    {
+        "hiragana": "時代",
+        "romanji": "jidai",
+        "english": ["age", "era"]
+    },
+    {
+        "hiragana": "位置",
+        "romanji": "ichi",
+        "english": ["position", "location"]
+    },
+    {
+        "hiragana": "季節",
+        "romanji": "kisetsu",
+        "english": ["season"]
+    },
+    {
+        "hiragana": "穴",
+        "romanji": "ana",
+        "english": ["hole"]
+    },
+    {
+        "hiragana": "裏",
+        "romanji": "ura",
+        "english": ["the back", "the reverse side"]
+    },
+    {
+        "hiragana": "島",
+        "romanji": "shima",
+        "english": ["island (Japanese origin)"]
+    },
+    {
+        "hiragana": "海岸",
+        "romanji": "kaigan",
+        "english": ["seashore", "coast"]
+    },
+    {
+        "hiragana": "ガラス",
+        "romanji": "garasu",
+        "english": ["glass (material)"]
+    },
+    {
+        "hiragana": "風",
+        "romanji": "kaze",
+        "english": ["wind"]
+    },
+    {
+        "hiragana": "科学",
+        "romanji": "kagaku",
+        "english": ["science"]
+    },
+    {
+        "hiragana": "太陽",
+        "romanji": "taiyou",
+        "english": ["sun"]
+    },
+    {
+        "hiragana": "台風",
+        "romanji": "taifuu",
+        "english": ["typhoon"]
+    },
+    {
+        "hiragana": "北",
+        "romanji": "kita",
+        "english": ["north"]
+    },
+    {
+        "hiragana": "馬",
+        "romanji": "uma",
+        "english": ["horse"]
+    },
+    {
+        "hiragana": "牛肉",
+        "romanji": "gyuuniku",
+        "english": ["beef"]
+    },
+    {
+        "hiragana": "雑誌",
+        "romanji": "zasshi",
+        "english": ["magazine", "journal"]
+    },
+    {
+        "hiragana": "小説",
+        "romanji": "shousetsu",
+        "english": ["novel"]
+    },
+    {
+        "hiragana": "大使館",
+        "romanji": "taishikan",
+        "english": ["embassy"]
+    },
+    {
+        "hiragana": "故障",
+        "romanji": "koshou",
+        "english": ["malfunction", "breakdown"]
+    },
+    {
+        "hiragana": "温度",
+        "romanji": "ondo",
+        "english": ["temperature"]
+    },
+    {
+        "hiragana": "何か",
+        "romanji": "nanika",
+        "english": ["something", "some"]
+    },
+    {
+        "hiragana": "向こう",
+        "romanji": "mukou",
+        "english": ["over there", "on the other side"]
+    },
+    {
+        "hiragana": "真ん中",
+        "romanji": "mannaka",
+        "english": ["center", "middle (casual)"]
+    },
+    {
+        "hiragana": "遠く",
+        "romanji": "tooku",
+        "english": ["far away", "at a distance"]
+    },
+    {
+        "hiragana": "横",
+        "romanji": "yoko",
+        "english": ["side", "width across"]
+    },
+    {
+        "hiragana": "つまらない",
+        "romanji": "tsumaranai",
+        "english": ["boring", "dull"]
+    },
+    {
+        "hiragana": "素晴らしい",
+        "romanji": "subarashii",
+        "english": ["excellent", "wonderful"]
+    },
+    {
+        "hiragana": "毎年",
+        "romanji": "maitoshi",
+        "english": ["every year (colloquial)"]
+    },
+    {
+        "hiragana": "来月",
+        "romanji": "raigetsu",
+        "english": ["next month"]
+    },
+    {
+        "hiragana": "日時",
+        "romanji": "nichiji",
+        "english": ["date and time"]
+    },
+    {
+        "hiragana": "夕方",
+        "romanji": "yuugata",
+        "english": ["early evening", "at dusk"]
+    },
+    {
+        "hiragana": "通る",
+        "romanji": "tooru",
+        "english": ["pass", "go through"]
+    },
+    {
+        "hiragana": "自動車",
+        "romanji": "jidousha",
+        "english": ["automobile"]
+    },
+    {
+        "hiragana": "慣れる",
+        "romanji": "nareru",
+        "english": ["grow accustomed to", "get used to"]
+    },
+    {
+        "hiragana": "撮る",
+        "romanji": "toru",
+        "english": ["take (a photograph)", "film"]
+    },
+    {
+        "hiragana": "やっと",
+        "romanji": "yatto",
+        "english": ["at last", "finally"]
+    },
+    {
+        "hiragana": "どんどん",
+        "romanji": "dondon",
+        "english": ["knock", "bang"]
+    },
+    {
+        "hiragana": "並べる",
+        "romanji": "naraberu",
+        "english": ["line up", "arrange"]
+    },
+    {
+        "hiragana": "逃げる",
+        "romanji": "nigeru",
+        "english": ["escape", "run away"]
+    },
+    {
+        "hiragana": "渡す",
+        "romanji": "watasu",
+        "english": ["hand over", "give"]
+    },
+    {
+        "hiragana": "値段",
+        "romanji": "nedan",
+        "english": ["price"]
+    },
+    {
+        "hiragana": "両方",
+        "romanji": "ryouhou",
+        "english": ["both"]
+    },
+    {
+        "hiragana": "約束",
+        "romanji": "yakusoku",
+        "english": ["promise", "vow"]
+    },
+    {
+        "hiragana": "一部",
+        "romanji": "ichibu",
+        "english": ["part"]
+    },
+    {
+        "hiragana": "ラジオ",
+        "romanji": "rajio",
+        "english": ["radio"]
+    },
+    {
+        "hiragana": "入院",
+        "romanji": "nyuuin",
+        "english": ["be hospitalized"]
+    },
+    {
+        "hiragana": "ニュース",
+        "romanji": "nyu-su",
+        "english": ["news"]
+    },
+    {
+        "hiragana": "旅行",
+        "romanji": "ryokou",
+        "english": ["travel", "trip"]
+    },
+    {
+        "hiragana": "用意",
+        "romanji": "youi",
+        "english": ["preparation"]
+    },
+    {
+        "hiragana": "伸びる",
+        "romanji": "nobiru",
+        "english": ["stretch", "grow"]
+    },
+    {
+        "hiragana": "パーティー",
+        "romanji": "pa-ti-",
+        "english": ["party"]
+    },
+    {
+        "hiragana": "ビール",
+        "romanji": "bi-ru",
+        "english": ["beer"]
+    },
+    {
+        "hiragana": "早く",
+        "romanji": "hayaku",
+        "english": ["early", "soon"]
+    },
+    {
+        "hiragana": "番組",
+        "romanji": "bangumi",
+        "english": ["program"]
+    },
+    {
+        "hiragana": "ビデオ",
+        "romanji": "bideo",
+        "english": ["video"]
+    },
+    {
+        "hiragana": "増やす",
+        "romanji": "fuyasu",
+        "english": ["increase"]
+    },
+    {
+        "hiragana": "振る",
+        "romanji": "furu",
+        "english": ["wave", "shake"]
+    },
+    {
+        "hiragana": "迎える",
+        "romanji": "mukaeru",
+        "english": ["welcome", "receive (a visitor)"]
+    },
+    {
+        "hiragana": "無理",
+        "romanji": "muri",
+        "english": ["unreasonable", "impossible"]
+    },
+    {
+        "hiragana": "珍しい",
+        "romanji": "mezurashii",
+        "english": ["rare", "scarce"]
+    },
+    {
+        "hiragana": "有名",
+        "romanji": "yuumei",
+        "english": ["famous"]
+    },
+    {
+        "hiragana": "喜ぶ",
+        "romanji": "yorokobu",
+        "english": ["be happy", "be delighted"]
+    },
+    {
+        "hiragana": "留学",
+        "romanji": "ryuugaku",
+        "english": ["study abroad"]
+    },
+    {
+        "hiragana": "料理",
+        "romanji": "ryouri",
+        "english": ["cooking"]
+    },
+    {
+        "hiragana": "野菜",
+        "romanji": "yasai",
+        "english": ["vegetable"]
+    },
+    {
+        "hiragana": "分かれる",
+        "romanji": "wakareru",
+        "english": ["be divided", "split off"]
+    },
+    {
+        "hiragana": "特別",
+        "romanji": "tokubetsu",
+        "english": ["special"]
+    },
+    {
+        "hiragana": "理由",
+        "romanji": "riyuu",
+        "english": ["reason", "excuse"]
+    },
+    {
+        "hiragana": "自由",
+        "romanji": "jiyuu",
+        "english": ["freedom"]
+    },
+    {
+        "hiragana": "方向",
+        "romanji": "houkou",
+        "english": ["direction", "course"]
+    },
+    {
+        "hiragana": "残る",
+        "romanji": "nokoru",
+        "english": ["remain", "be left over"]
+    },
+    {
+        "hiragana": "ビル",
+        "romanji": "biru",
+        "english": ["building"]
+    },
+    {
+        "hiragana": "まとめる",
+        "romanji": "matomeru",
+        "english": ["gather together", "put in order"]
+    },
+    {
+        "hiragana": "流れる",
+        "romanji": "nagareru",
+        "english": ["flow", "run"]
+    },
+    {
+        "hiragana": "セーター",
+        "romanji": "se-ta-",
+        "english": ["sweater"]
+    },
+    {
+        "hiragana": "シャツ",
+        "romanji": "shatsu",
+        "english": ["shirt"]
+    },
+    {
+        "hiragana": "洗濯",
+        "romanji": "sentaku",
+        "english": ["laundry", "washing"]
+    },
+    {
+        "hiragana": "間違える",
+        "romanji": "machigaeru",
+        "english": ["make a mistake", "fail at"]
+    },
+    {
+        "hiragana": "アイスクリーム",
+        "romanji": "aisukuri-mu",
+        "english": ["ice cream"]
+    },
+    {
+        "hiragana": "乾く",
+        "romanji": "kawaku",
+        "english": ["become dry"]
+    },
+    {
+        "hiragana": "冷める",
+        "romanji": "sameru",
+        "english": ["cool off"]
+    },
+    {
+        "hiragana": "色々",
+        "romanji": "iroiro",
+        "english": ["a variety of"]
+    },
+    {
+        "hiragana": "持って行く",
+        "romanji": "motteiku",
+        "english": ["take", "bring"]
+    },
+    {
+        "hiragana": "着替える",
+        "romanji": "kigaeru",
+        "english": ["change clothes"]
+    },
+    {
+        "hiragana": "石鹸",
+        "romanji": "sekken",
+        "english": ["soap"]
+    },
+    {
+        "hiragana": "野球",
+        "romanji": "yakyuu",
+        "english": ["baseball"]
+    },
+    {
+        "hiragana": "昼食",
+        "romanji": "chyuushoku",
+        "english": ["lunch"]
+    },
+    {
+        "hiragana": "朝食",
+        "romanji": "choushoku",
+        "english": ["breakfast"]
+    },
+    {
+        "hiragana": "眠る",
+        "romanji": "nemuru",
+        "english": ["sleep", "lie idle"]
+    },
+    {
+        "hiragana": "初め",
+        "romanji": "hajime",
+        "english": ["beginning"]
+    },
+    {
+        "hiragana": "火",
+        "romanji": "hi",
+        "english": ["fire", "flame"]
+    },
+    {
+        "hiragana": "西",
+        "romanji": "nishi",
+        "english": ["west", "western"]
+    },
+    {
+        "hiragana": "東",
+        "romanji": "higashi",
+        "english": ["east", "eastern"]
+    },
+    {
+        "hiragana": "南",
+        "romanji": "minami",
+        "english": ["south"]
+    },
+    {
+        "hiragana": "夕食",
+        "romanji": "yuushoku",
+        "english": ["supper", "dinner"]
+    },
+    {
+        "hiragana": "なかなか",
+        "romanji": "nakanaka",
+        "english": ["rather", "pretty"]
+    },
+    {
+        "hiragana": "励ます",
+        "romanji": "hagemasu",
+        "english": ["encourage", "cheer up"]
+    },
+    {
+        "hiragana": "涙",
+        "romanji": "namida",
+        "english": ["tear"]
+    },
+    {
+        "hiragana": "夢",
+        "romanji": "yume",
+        "english": ["dream"]
+    },
+    {
+        "hiragana": "職場",
+        "romanji": "shokuba",
+        "english": ["place of work", "office"]
+    },
+    {
+        "hiragana": "隣",
+        "romanji": "tonari",
+        "english": ["next to", "next door"]
+    },
+    {
+        "hiragana": "マンション",
+        "romanji": "manshon",
+        "english": ["apartment", "residential building"]
+    },
+    {
+        "hiragana": "エレベーター",
+        "romanji": "erebe-ta-",
+        "english": ["elevator"]
+    },
+    {
+        "hiragana": "窓",
+        "romanji": "mado",
+        "english": ["window"]
+    },
+    {
+        "hiragana": "押す",
+        "romanji": "osu",
+        "english": ["push", "press down"]
+    },
+    {
+        "hiragana": "入学",
+        "romanji": "nyuugaku",
+        "english": ["enter a school", "matriculate"]
+    },
+    {
+        "hiragana": "戸",
+        "romanji": "to",
+        "english": ["door", "sliding door"]
+    },
+    {
+        "hiragana": "通り",
+        "romanji": "toori",
+        "english": ["street", "road"]
+    },
+    {
+        "hiragana": "亡くなる",
+        "romanji": "nakunaru",
+        "english": ["die", "pass away"]
+    },
+    {
+        "hiragana": "夫婦",
+        "romanji": "fuufu",
+        "english": ["husband and wife", "married couple"]
+    },
+    {
+        "hiragana": "女性",
+        "romanji": "josei",
+        "english": ["woman", "female (formal)"]
+    },
+    {
+        "hiragana": "森",
+        "romanji": "mori",
+        "english": ["forest"]
+    },
+    {
+        "hiragana": "トラック",
+        "romanji": "torakku",
+        "english": ["truck"]
+    },
+    {
+        "hiragana": "レコード",
+        "romanji": "reko-do",
+        "english": ["record"]
+    },
+    {
+        "hiragana": "熱",
+        "romanji": "netsu",
+        "english": ["heat", "fever"]
+    },
+    {
+        "hiragana": "ページ",
+        "romanji": "pe-ji",
+        "english": ["page"]
+    },
+    {
+        "hiragana": "踊る",
+        "romanji": "odoru",
+        "english": ["dance"]
+    },
+    {
+        "hiragana": "長さ",
+        "romanji": "nagasa",
+        "english": ["length"]
+    },
+    {
+        "hiragana": "厚さ",
+        "romanji": "atsusa",
+        "english": ["thickness"]
+    },
+    {
+        "hiragana": "秘密",
+        "romanji": "himitsu",
+        "english": ["secret", "privacy"]
+    }
+]
