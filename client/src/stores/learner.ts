@@ -74,7 +74,11 @@ export default class LearnerStore {
     nextWord = () => {
         const nextWordIndex = this.wordIndex + 1;
         const libraryLength = this.selectedLibrary.length;
-        this.wordIndex = nextWordIndex >= libraryLength ? 0 : nextWordIndex;
+        if (nextWordIndex >= libraryLength) {
+            this.reset();
+            return;
+        }
+        this.wordIndex = nextWordIndex;
         this.guessIsCorrect = false;
         this.shouldShowAnswer = false;
     };
