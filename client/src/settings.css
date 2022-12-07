@@ -57,3 +57,11 @@
 .range-slider .range-slider__range {
     background: rgba(255, 255, 255, 0.5);
 }
+
+.language {
+    padding-top: 0.5rem;
+}
+
+.language span {
+    padding-right: 0.5rem;
+}

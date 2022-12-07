@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.menu-container i {
+    padding-top: 0.5rem;
+}
+
 .menu-container button {
     width: 50%;
     margin-bottom: 1rem;

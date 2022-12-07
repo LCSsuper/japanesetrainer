@@ -1,0 +1,5062 @@
+[
+    {
+        "word": "凄い",
+        "description": "sugoi",
+        "translation": ["great", "incredible"]
+    },
+    {
+        "word": "親切",
+        "description": "shinsetsu",
+        "translation": ["kind", "kindhearted"]
+    },
+    {
+        "word": "絶対",
+        "description": "zettai",
+        "translation": ["absolutely", "never"]
+    },
+    {
+        "word": "先月",
+        "description": "sengetsu",
+        "translation": ["last month"]
+    },
+    {
+        "word": "一昨年",
+        "description": "ototoshi",
+        "translation": ["the year before last (colloquial)"]
+    },
+    {
+        "word": "冬休み",
+        "description": "fuyuyasumi",
+        "translation": ["winter vacation"]
+    },
+    {
+        "word": "夏休み",
+        "description": "natsuyasumi",
+        "translation": ["summer vacation"]
+    },
+    {
+        "word": "休日",
+        "description": "kyuujitsu",
+        "translation": ["day off", "holiday"]
+    },
+    {
+        "word": "正月",
+        "description": "shougatsu",
+        "translation": ["New Year", "January"]
+    },
+    {
+        "word": "思い出",
+        "description": "omoide",
+        "translation": ["memory"]
+    },
+    {
+        "word": "たまに",
+        "description": "tamani",
+        "translation": ["occasionally", "by chance"]
+    },
+    {
+        "word": "おかしい",
+        "description": "okashii",
+        "translation": ["strange", "peculiar", "funny", "comical"]
+    },
+    {
+        "word": "浅い",
+        "description": "asai",
+        "translation": ["shallow", "superficial"]
+    },
+    {
+        "word": "君",
+        "description": "kimi",
+        "translation": ["you (referring to fellows or subordinates)"]
+    },
+    {
+        "word": "奥さん",
+        "description": "okusan",
+        "translation": ["(somone else’s) wife", "married woman"]
+    },
+    {
+        "word": "赤ちゃん",
+        "description": "akachan",
+        "translation": ["baby (colloquial)"]
+    },
+    {
+        "word": "小学生",
+        "description": "shougakusei",
+        "translation": ["elementary school student"]
+    },
+    {
+        "word": "貸す",
+        "description": "kasu",
+        "translation": ["lend", "lease"]
+    },
+    {
+        "word": "数える",
+        "description": "kazoeru",
+        "translation": ["count"]
+    },
+    {
+        "word": "生む",
+        "description": "umu",
+        "translation": ["give birth", "produce"]
+    },
+    {
+        "word": "育つ",
+        "description": "sodatsu",
+        "translation": ["be brought up", "grow"]
+    },
+    {
+        "word": "是非",
+        "description": "zehi",
+        "translation": ["by all means", "please"]
+    },
+    {
+        "word": "黒",
+        "description": "kuro",
+        "translation": ["black"]
+    },
+    {
+        "word": "おもちゃ",
+        "description": "omocha",
+        "translation": ["toy", "plaything"]
+    },
+    {
+        "word": "靴",
+        "description": "kutsu",
+        "translation": ["shoes"]
+    },
+    {
+        "word": "連絡",
+        "description": "renraku",
+        "translation": ["contact", "communication"]
+    },
+    {
+        "word": "伝言",
+        "description": "dengon",
+        "translation": ["message"]
+    },
+    {
+        "word": "預ける",
+        "description": "azukeru",
+        "translation": ["deposit", "leave (something) with (someone)"]
+    },
+    {
+        "word": "下がる",
+        "description": "sagaru",
+        "translation": ["go down", "drop"]
+    },
+    {
+        "word": "泳ぐ",
+        "description": "oyogu",
+        "translation": ["swim"]
+    },
+    {
+        "word": "アルバイト",
+        "description": "arubaito",
+        "translation": ["part-time job"]
+    },
+    {
+        "word": "コート",
+        "description": "ko-to",
+        "translation": ["coat", "jacket (loan word)", "sports court"]
+    },
+    {
+        "word": "趣味",
+        "description": "shumi",
+        "translation": ["hobby", "interest"]
+    },
+    {
+        "word": "散歩",
+        "description": "sanpo",
+        "translation": ["walk", "stroll"]
+    },
+    {
+        "word": "幸せ",
+        "description": "shiawase",
+        "translation": ["happiness", "satisfied (colloquial)"]
+    },
+    {
+        "word": "安心",
+        "description": "anshin",
+        "translation": ["peace of mind", "relief"]
+    },
+    {
+        "word": "大勢",
+        "description": "oozei",
+        "translation": ["large numbers", "a lot of (people)"]
+    },
+    {
+        "word": "医者",
+        "description": "isha",
+        "translation": ["doctor (colloquial", "plain)"]
+    },
+    {
+        "word": "運転手",
+        "description": "untenshu",
+        "translation": ["driver"]
+    },
+    {
+        "word": "新幹線",
+        "description": "shinkansen",
+        "translation": ["bullet train"]
+    },
+    {
+        "word": "往復",
+        "description": "oufuku",
+        "translation": ["round trip"]
+    },
+    {
+        "word": "コピー",
+        "description": "kopi-",
+        "translation": ["copy", "photocopy"]
+    },
+    {
+        "word": "奥",
+        "description": "　oku",
+        "translation": ["inner part", "the back"]
+    },
+    {
+        "word": "重さ",
+        "description": "omosa",
+        "translation": ["weight"]
+    },
+    {
+        "word": "親しい",
+        "description": "shitashii",
+        "translation": ["intimate", "familiar"]
+    },
+    {
+        "word": "修理",
+        "description": "shuuri",
+        "translation": ["repair", "mending"]
+    },
+    {
+        "word": "カード",
+        "description": "ka-do",
+        "translation": ["card"]
+    },
+    {
+        "word": "挨拶",
+        "description": "aisatsu",
+        "translation": ["greet", "greeting"]
+    },
+    {
+        "word": "階段",
+        "description": "kaidan",
+        "translation": ["steps", "flight of stairs"]
+    },
+    {
+        "word": "配る",
+        "description": "kubaru",
+        "translation": ["hand out", "distribute"]
+    },
+    {
+        "word": "断る",
+        "description": "kotowaru",
+        "translation": ["refuse", "turn down"]
+    },
+    {
+        "word": "グラム",
+        "description": "guramu",
+        "translation": ["gram"]
+    },
+    {
+        "word": "濃い",
+        "description": "koi",
+        "translation": ["strong", "concentrated"]
+    },
+    {
+        "word": "壊す",
+        "description": "kowasu",
+        "translation": ["break (something)", "destroy"]
+    },
+    {
+        "word": "桜",
+        "description": "sakura",
+        "translation": ["cherry tree", "cherry blossom"]
+    },
+    {
+        "word": "仕方",
+        "description": "shikata",
+        "translation": ["way", "method"]
+    },
+    {
+        "word": "絵",
+        "description": "e",
+        "translation": ["picture", "painting"]
+    },
+    {
+        "word": "気温",
+        "description": "kion",
+        "translation": ["air temperature"]
+    },
+    {
+        "word": "品物",
+        "description": "shinamono",
+        "translation": ["article", "goods"]
+    },
+    {
+        "word": "吸う",
+        "description": "suu",
+        "translation": ["inhale", "suck"]
+    },
+    {
+        "word": "案内",
+        "description": "annai",
+        "translation": ["guide", "guidance"]
+    },
+    {
+        "word": "スキー",
+        "description": "suki-",
+        "translation": ["ski", "skiing"]
+    },
+    {
+        "word": "金持ち",
+        "description": "kanemochi",
+        "translation": ["wealthy person"]
+    },
+    {
+        "word": "尋ねる",
+        "description": "tazuneru",
+        "translation": ["inquire", "ask"]
+    },
+    {
+        "word": "叩く",
+        "description": "tataku",
+        "translation": ["tap", "hit"]
+    },
+    {
+        "word": "帰り",
+        "description": "kaeri",
+        "translation": ["return", "going home"]
+    },
+    {
+        "word": "卵",
+        "description": "tamago",
+        "translation": ["egg"]
+    },
+    {
+        "word": "氷",
+        "description": "koori",
+        "translation": ["ice"]
+    },
+    {
+        "word": "留学生",
+        "description": "ryuugakusei",
+        "translation": ["student studying abroad"]
+    },
+    {
+        "word": "ソフト",
+        "description": "sofuto",
+        "translation": ["software", "program"]
+    },
+    {
+        "word": "歯医者",
+        "description": "haisha",
+        "translation": ["dentist"]
+    },
+    {
+        "word": "蹴る",
+        "description": "keru",
+        "translation": ["kick"]
+    },
+    {
+        "word": "敷く",
+        "description": "shiku",
+        "translation": ["lay", "spread"]
+    },
+    {
+        "word": "ひととき",
+        "description": "hitotoki",
+        "translation": ["some moments", "a while"]
+    },
+    {
+        "word": "交通事故",
+        "description": "koutsuujiko",
+        "translation": ["traffic accident"]
+    },
+    {
+        "word": "遭う",
+        "description": "au",
+        "translation": ["meet", "encounter", "get caught in"]
+    },
+    {
+        "word": "招待",
+        "description": "shoutai",
+        "translation": ["invitation"]
+    },
+    {
+        "word": "咲く",
+        "description": "saku",
+        "translation": ["bloom", "blossom"]
+    },
+    {
+        "word": "二十歳",
+        "description": "hatachi",
+        "translation": ["20 years old"]
+    },
+    {
+        "word": "銀",
+        "description": "gin",
+        "translation": ["silver"]
+    },
+    {
+        "word": "内側",
+        "description": "uchigawa",
+        "translation": ["inside", "interior"]
+    },
+    {
+        "word": "池",
+        "description": "ike",
+        "translation": ["pond"]
+    },
+    {
+        "word": "石",
+        "description": "ishi",
+        "translation": ["stone", "small rock"]
+    },
+    {
+        "word": "愛",
+        "description": "ai",
+        "translation": ["love"]
+    },
+    {
+        "word": "課",
+        "description": "ka",
+        "translation": ["section", "division"]
+    },
+    {
+        "word": "大学院",
+        "description": "daigakuin",
+        "translation": ["graduate school"]
+    },
+    {
+        "word": "台所",
+        "description": "daidokoro",
+        "translation": ["kitchen"]
+    },
+    {
+        "word": "カラー",
+        "description": "kara-",
+        "translation": ["color (loan word)"]
+    },
+    {
+        "word": "すり",
+        "description": "suri",
+        "translation": ["pickpocket"]
+    },
+    {
+        "word": "キャンプ",
+        "description": "kyanpu",
+        "translation": ["camping", "camp"]
+    },
+    {
+        "word": "オートバイ",
+        "description": "o-tobai",
+        "translation": ["motorbike", "motorcycle"]
+    },
+    {
+        "word": "建つ",
+        "description": "tatsu",
+        "translation": ["be built", "be erected"]
+    },
+    {
+        "word": "刺す",
+        "description": "sasu",
+        "translation": ["sting", "stab"]
+    },
+    {
+        "word": "言い方",
+        "description": "iikata",
+        "translation": ["way of speaking", "expression"]
+    },
+    {
+        "word": "沈む",
+        "description": "shizumu",
+        "translation": ["sink"]
+    },
+    {
+        "word": "組み立てる",
+        "description": "kumitateru",
+        "translation": ["set up", "put together"]
+    },
+    {
+        "word": "恐ろしい",
+        "description": "osoroshii",
+        "translation": ["terrible", "awful"]
+    },
+    {
+        "word": "外人",
+        "description": "gaijin",
+        "translation": ["foreigner", "alien"]
+    },
+    {
+        "word": "牛",
+        "description": "ushi",
+        "translation": ["cattle", "cow"]
+    },
+    {
+        "word": "食堂",
+        "description": "shokudou",
+        "translation": ["cafeteria", "restaurant"]
+    },
+    {
+        "word": "毎年",
+        "description": "mainen",
+        "translation": ["every year (formal)"]
+    },
+    {
+        "word": "毎週",
+        "description": "maishuu",
+        "translation": ["every week"]
+    },
+    {
+        "word": "何度",
+        "description": "nando",
+        "translation": ["how many times", "how many degrees"]
+    },
+    {
+        "word": "なかなか",
+        "description": "nakanaka",
+        "translation": ["not easily", "not readily"]
+    },
+    {
+        "word": "さっき",
+        "description": "sakki",
+        "translation": ["earlier", "only a moment ago"]
+    },
+    {
+        "word": "久しぶり",
+        "description": "hisashiburi",
+        "translation": ["after a long time"]
+    },
+    {
+        "word": "便利",
+        "description": "benri",
+        "translation": ["convenience"]
+    },
+    {
+        "word": "迷惑",
+        "description": "meiwaku",
+        "translation": ["trouble", "annoyance"]
+    },
+    {
+        "word": "そんなに",
+        "description": "sonnani",
+        "translation": ["so much"]
+    },
+    {
+        "word": "びっくりする",
+        "description": "bikkurisuru",
+        "translation": ["be surprised", "be startled (casual)"]
+    },
+    {
+        "word": "足りる",
+        "description": "tariru",
+        "translation": ["suffice", "be enough"]
+    },
+    {
+        "word": "疲れる",
+        "description": "tsukareru",
+        "translation": ["get tired", "become fatigued"]
+    },
+    {
+        "word": "ひどい",
+        "description": "hidoi",
+        "translation": ["cruel", "awful"]
+    },
+    {
+        "word": "全然",
+        "description": "zenzen",
+        "translation": ["(not ) at all"]
+    },
+    {
+        "word": "猫",
+        "description": "neko",
+        "translation": ["cat"]
+    },
+    {
+        "word": "デパート",
+        "description": "depa-to",
+        "translation": ["department store (loan word)"]
+    },
+    {
+        "word": "トイレ",
+        "description": "toire",
+        "translation": ["toilet"]
+    },
+    {
+        "word": "地下鉄",
+        "description": "chikatetsu",
+        "translation": ["subway"]
+    },
+    {
+        "word": "駐車場",
+        "description": "chuushajou",
+        "translation": ["parking area", "parking lot"]
+    },
+    {
+        "word": "ぶつかる",
+        "description": "butsukaru",
+        "translation": ["hit", "bump into"]
+    },
+    {
+        "word": "運賃",
+        "description": "unchin",
+        "translation": ["(passenger) fare"]
+    },
+    {
+        "word": "通学",
+        "description": "tsuugaku",
+        "translation": ["commuting to school"]
+    },
+    {
+        "word": "見送る",
+        "description": "miokuru",
+        "translation": ["see (someone) off"]
+    },
+    {
+        "word": "泣く",
+        "description": "naku",
+        "translation": ["cry", "weep"]
+    },
+    {
+        "word": "レストラン",
+        "description": "resutoran",
+        "translation": ["restaurant"]
+    },
+    {
+        "word": "メモ",
+        "description": "memo",
+        "translation": ["memo", "note"]
+    },
+    {
+        "word": "予約",
+        "description": "yoyaku",
+        "translation": ["reservation", "appointment"]
+    },
+    {
+        "word": "番号",
+        "description": "bangou",
+        "translation": ["assigned number"]
+    },
+    {
+        "word": "注文",
+        "description": "chuumon",
+        "translation": ["order"]
+    },
+    {
+        "word": "パン",
+        "description": "pan",
+        "translation": ["bread"]
+    },
+    {
+        "word": "ワイン",
+        "description": "wain",
+        "translation": ["wine"]
+    },
+    {
+        "word": "材料",
+        "description": "zairyou",
+        "translation": ["material", "ingredient"]
+    },
+    {
+        "word": "豚肉",
+        "description": "butaniku",
+        "translation": ["pork"]
+    },
+    {
+        "word": "焼く",
+        "description": "yaku",
+        "translation": ["bake", "grill"]
+    },
+    {
+        "word": "匂い",
+        "description": "nioi",
+        "translation": ["(pleasant) smell", "odor"]
+    },
+    {
+        "word": "付ける",
+        "description": "tsukeru",
+        "translation": ["attach", "apply", "put"]
+    },
+    {
+        "word": "痩せる",
+        "description": "yaseru",
+        "translation": ["lose weight", "become thin"]
+    },
+    {
+        "word": "届ける",
+        "description": "todokeru",
+        "translation": ["deliver"]
+    },
+    {
+        "word": "間に合う",
+        "description": "maniau",
+        "translation": ["be in time", "suffice"]
+    },
+    {
+        "word": "向く",
+        "description": "muku",
+        "translation": ["turn", "face"]
+    },
+    {
+        "word": "強さ",
+        "description": "tsuyosa",
+        "translation": ["strength"]
+    },
+    {
+        "word": "得意",
+        "description": "tokui",
+        "translation": ["one’s specialty", "be good at"]
+    },
+    {
+        "word": "塗る",
+        "description": "nuru",
+        "translation": ["spread on", "paint"]
+    },
+    {
+        "word": "投げる",
+        "description": "nageru",
+        "translation": ["throw"]
+    },
+    {
+        "word": "習う",
+        "description": "narau",
+        "translation": ["learn", "take lessons"]
+    },
+    {
+        "word": "注目",
+        "description": "chuumoku",
+        "translation": ["attention", "notice"]
+    },
+    {
+        "word": "未来",
+        "description": "mirai",
+        "translation": ["future"]
+    },
+    {
+        "word": "箱",
+        "description": "hako",
+        "translation": ["box", "case"]
+    },
+    {
+        "word": "右手",
+        "description": "migite",
+        "translation": ["right hand"]
+    },
+    {
+        "word": "左手",
+        "description": "hidarite",
+        "translation": ["left hand"]
+    },
+    {
+        "word": "プール",
+        "description": "pu-ru",
+        "translation": ["pool"]
+    },
+    {
+        "word": "ピアノ",
+        "description": "piano",
+        "translation": ["piano"]
+    },
+    {
+        "word": "光る",
+        "description": "hikaru",
+        "translation": ["shine", "emit light", "sparkle"]
+    },
+    {
+        "word": "踏む",
+        "description": "fumu",
+        "translation": ["step on", "tread on"]
+    },
+    {
+        "word": "別々",
+        "description": "betsubetsu",
+        "translation": ["separately"]
+    },
+    {
+        "word": "ボール",
+        "description": "bo-ru",
+        "translation": ["ball"]
+    },
+    {
+        "word": "握る",
+        "description": "nigiru",
+        "translation": ["grasp", "grip", "hold"]
+    },
+    {
+        "word": "真っ赤",
+        "description": "makka",
+        "translation": ["deep red"]
+    },
+    {
+        "word": "拾う",
+        "description": "hirou",
+        "translation": ["pick up"]
+    },
+    {
+        "word": "回す",
+        "description": "mawasu",
+        "translation": ["turn", "rotate (something)"]
+    },
+    {
+        "word": "ノート",
+        "description": "no-to",
+        "translation": ["notebook (loan word)"]
+    },
+    {
+        "word": "辞める",
+        "description": "yameru",
+        "translation": ["resign", "leave (one’s job)", "quit"]
+    },
+    {
+        "word": "揺れる",
+        "description": "yureru",
+        "translation": ["shake", "sway"]
+    },
+    {
+        "word": "立派",
+        "description": "rippa",
+        "translation": ["fine", "elegant"]
+    },
+    {
+        "word": "練習",
+        "description": "renshuu",
+        "translation": ["practice", "training"]
+    },
+    {
+        "word": "割る",
+        "description": "waru",
+        "translation": ["divide", "split"]
+    },
+    {
+        "word": "部分",
+        "description": "bubun",
+        "translation": ["part", "section"]
+    },
+    {
+        "word": "拭く",
+        "description": "fuku",
+        "translation": ["wipe", "dry"]
+    },
+    {
+        "word": "招く",
+        "description": "maneku",
+        "translation": ["invite"]
+    },
+    {
+        "word": "急",
+        "description": "kyuu",
+        "translation": ["urgent", "steep"]
+    },
+    {
+        "word": "汚れる",
+        "description": "yogoreru",
+        "translation": ["become dirty"]
+    },
+    {
+        "word": "渡る",
+        "description": "wataru",
+        "translation": ["cross", "go across"]
+    },
+    {
+        "word": "途中",
+        "description": "tochuu",
+        "translation": ["on the way", "half way"]
+    },
+    {
+        "word": "インタビュー",
+        "description": "intabyu-",
+        "translation": ["interview (loan word)"]
+    },
+    {
+        "word": "盗む",
+        "description": "nusumu",
+        "translation": ["steal", "rob"]
+    },
+    {
+        "word": "普段",
+        "description": "fudan",
+        "translation": ["usual", "ordinary"]
+    },
+    {
+        "word": "旅館",
+        "description": "ryokan",
+        "translation": ["Japanese inn"]
+    },
+    {
+        "word": "博物館",
+        "description": "hakubutsukan",
+        "translation": ["museum"]
+    },
+    {
+        "word": "ホーム",
+        "description": "ho-mu",
+        "translation": ["platform (for short)"]
+    },
+    {
+        "word": "引っ越す",
+        "description": "hikkosu",
+        "translation": ["move", "relocate"]
+    },
+    {
+        "word": "荷物",
+        "description": "nimotsu",
+        "translation": ["baggage", "load"]
+    },
+    {
+        "word": "家賃",
+        "description": "yachin",
+        "translation": ["rent"]
+    },
+    {
+        "word": "計画",
+        "description": "keikaku",
+        "translation": ["plan"]
+    },
+    {
+        "word": "廊下",
+        "description": "rouka",
+        "translation": ["hallway", "corridor"]
+    },
+    {
+        "word": "天井",
+        "description": "tenjou",
+        "translation": ["ceiling"]
+    },
+    {
+        "word": "ベッド",
+        "description": "beddo",
+        "translation": ["bed"]
+    },
+    {
+        "word": "ソファー",
+        "description": "sofa-",
+        "translation": ["sofa", "couch"]
+    },
+    {
+        "word": "屋根",
+        "description": "yane",
+        "translation": ["roof"]
+    },
+    {
+        "word": "祭り",
+        "description": "matsuri",
+        "translation": ["festival"]
+    },
+    {
+        "word": "離婚",
+        "description": "rikon",
+        "translation": ["divorce"]
+    },
+    {
+        "word": "葉",
+        "description": "ha",
+        "translation": ["leaf"]
+    },
+    {
+        "word": "ボート",
+        "description": "bo-to",
+        "translation": ["light boat", "small craft"]
+    },
+    {
+        "word": "燃える",
+        "description": "moeru",
+        "translation": ["burn", "catch on fire"]
+    },
+    {
+        "word": "巻く",
+        "description": "maku",
+        "translation": ["roll up", "wrap"]
+    },
+    {
+        "word": "プラスチック",
+        "description": "purasuchikku",
+        "translation": ["plastic"]
+    },
+    {
+        "word": "訪れる",
+        "description": "otozureru",
+        "translation": ["go and visit (place)"]
+    },
+    {
+        "word": "破る",
+        "description": "yaburu",
+        "translation": ["tear", "breach"]
+    },
+    {
+        "word": "関係",
+        "description": "kankei",
+        "translation": ["relation", "relationship"]
+    },
+    {
+        "word": "録音",
+        "description": "rokuon",
+        "translation": ["(sound) recording"]
+    },
+    {
+        "word": "不幸",
+        "description": "fukou",
+        "translation": ["unhappiness", "misfortune"]
+    },
+    {
+        "word": "外国語",
+        "description": "gaikokugo",
+        "translation": ["language"]
+    },
+    {
+        "word": "着物",
+        "description": "kimono",
+        "translation": ["traditional Japanese clothes"]
+    },
+    {
+        "word": "牛乳",
+        "description": "gyuunyuu",
+        "translation": ["milk"]
+    },
+    {
+        "word": "救急車",
+        "description": "kyuukyuusha",
+        "translation": ["ambulance"]
+    },
+    {
+        "word": "果物",
+        "description": "kudamono",
+        "translation": ["fruit"]
+    },
+    {
+        "word": "間違い",
+        "description": "machigai",
+        "translation": ["mistake", "error"]
+    },
+    {
+        "word": "映画館",
+        "description": "eigakan",
+        "translation": ["movie theater"]
+    },
+    {
+        "word": "怖い",
+        "description": "kowai",
+        "translation": ["scary", "be afraid"]
+    },
+    {
+        "word": "鏡",
+        "description": "kagami",
+        "translation": ["mirror"]
+    },
+    {
+        "word": "草",
+        "description": "kusa",
+        "translation": ["grass", "weed"]
+    },
+    {
+        "word": "敬語",
+        "description": "keigo",
+        "translation": ["polite speech"]
+    },
+    {
+        "word": "欠席",
+        "description": "kesseki",
+        "translation": ["absence"]
+    },
+    {
+        "word": "スイッチ",
+        "description": "suicchi",
+        "translation": ["switch"]
+    },
+    {
+        "word": "掃除",
+        "description": "souji",
+        "translation": ["cleaning"]
+    },
+    {
+        "word": "畳",
+        "description": "tatami",
+        "translation": ["straw mat"]
+    },
+    {
+        "word": "速さ",
+        "description": "hayasa",
+        "translation": ["speed"]
+    },
+    {
+        "word": "林",
+        "description": "hayashi",
+        "translation": ["woods", "forest"]
+    },
+    {
+        "word": "プレゼント",
+        "description": "purezento",
+        "translation": ["present (loan word)"]
+    },
+    {
+        "word": "弁当",
+        "description": "bentou",
+        "translation": ["boxed lunch"]
+    },
+    {
+        "word": "いつでも",
+        "description": "itsudemo",
+        "translation": ["at all times", "any time"]
+    },
+    {
+        "word": "寂しい",
+        "description": "sabishii",
+        "translation": ["lonely", "desolate", "sad"]
+    },
+    {
+        "word": "少しも",
+        "description": "sukoshimo",
+        "translation": ["(not) in the least"]
+    },
+    {
+        "word": "尊敬",
+        "description": "sonkei",
+        "translation": ["respect", "esteem"]
+    },
+    {
+        "word": "テニス",
+        "description": "tenisu",
+        "translation": ["tennis"]
+    },
+    {
+        "word": "広さ",
+        "description": "hirosa",
+        "translation": ["area", "extent"]
+    },
+    {
+        "word": "読み",
+        "description": "yomi",
+        "translation": ["reading"]
+    },
+    {
+        "word": "我慢",
+        "description": "gaman",
+        "translation": ["patience", "endurance"]
+    },
+    {
+        "word": "国籍",
+        "description": "kokuseki",
+        "translation": ["nationality", "citizenship"]
+    },
+    {
+        "word": "恥ずかしい",
+        "description": "hazukashii",
+        "translation": ["embarrassed", "ashamed"]
+    },
+    {
+        "word": "ボタン",
+        "description": "botan",
+        "translation": ["button"]
+    },
+    {
+        "word": "洋服",
+        "description": "youfuku",
+        "translation": ["(western-style) clothes"]
+    },
+    {
+        "word": "油",
+        "description": "abura",
+        "translation": ["oil"]
+    },
+    {
+        "word": "余る",
+        "description": "amaru",
+        "translation": ["remain", "be in excess"]
+    },
+    {
+        "word": "正直",
+        "description": "shoujiki",
+        "translation": ["honest", "upright"]
+    },
+    {
+        "word": "ドラマ",
+        "description": "dorama",
+        "translation": ["drama"]
+    },
+    {
+        "word": "ビザ",
+        "description": "biza",
+        "translation": ["visa"]
+    },
+    {
+        "word": "水道",
+        "description": "suidou",
+        "translation": ["tap water"]
+    },
+    {
+        "word": "店員",
+        "description": "tenin",
+        "translation": ["clerk", "salesperson"]
+    },
+    {
+        "word": "電池",
+        "description": "denchi",
+        "translation": ["battery"]
+    },
+    {
+        "word": "ポケット",
+        "description": "poketto",
+        "translation": ["pocket"]
+    },
+    {
+        "word": "握手",
+        "description": "akushu",
+        "translation": ["handshake"]
+    },
+    {
+        "word": "そろそろ",
+        "description": "sorosoro",
+        "translation": ["soon", "it’s about time"]
+    },
+    {
+        "word": "ぶどう",
+        "description": "budou",
+        "translation": ["grapes"]
+    },
+    {
+        "word": "迷う",
+        "description": "mayou",
+        "translation": ["get lost"]
+    },
+    {
+        "word": "見物",
+        "description": "kenbutsu",
+        "translation": ["sightseeing", "visit"]
+    },
+    {
+        "word": "知らせる",
+        "description": "shiraseru",
+        "translation": ["let know", "inform"]
+    },
+    {
+        "word": "神社",
+        "description": "jinja",
+        "translation": ["Shinto shrine"]
+    },
+    {
+        "word": "注射",
+        "description": "chuusha",
+        "translation": ["injection", "shot"]
+    },
+    {
+        "word": "めったに",
+        "description": "mettani",
+        "translation": ["rarely", "seldom"]
+    },
+    {
+        "word": "作文",
+        "description": "sakubun",
+        "translation": ["composition", "essay"]
+    },
+    {
+        "word": "鳴る",
+        "description": "naru",
+        "translation": ["sound", "ring"]
+    },
+    {
+        "word": "真面目",
+        "description": "majime",
+        "translation": ["serious and sincere"]
+    },
+    {
+        "word": "申し込む",
+        "description": "moushikomu",
+        "translation": ["apply", "sign up"]
+    },
+    {
+        "word": "冷蔵庫",
+        "description": "reizouko",
+        "translation": ["refrigerator"]
+    },
+    {
+        "word": "気に入る",
+        "description": "kiniiru",
+        "translation": ["like", "be pleased with"]
+    },
+    {
+        "word": "クリスマス",
+        "description": "kurisumasu",
+        "translation": ["Christmas"]
+    },
+    {
+        "word": "ネクタイ",
+        "description": "nekutai",
+        "translation": ["tie", "necktie"]
+    },
+    {
+        "word": "誕生日",
+        "description": "tanjoubi",
+        "translation": ["birthday"]
+    },
+    {
+        "word": "独身",
+        "description": "dokushin",
+        "translation": ["single", "unmarried"]
+    },
+    {
+        "word": "苦い",
+        "description": "nigai",
+        "translation": ["bitter"]
+    },
+    {
+        "word": "バイオリン",
+        "description": "baiorin",
+        "translation": ["violin"]
+    },
+    {
+        "word": "バッグ",
+        "description": "baggu",
+        "translation": ["bag"]
+    },
+    {
+        "word": "今まで",
+        "description": "imamade",
+        "translation": ["until now"]
+    },
+    {
+        "word": "切符",
+        "description": "kippu",
+        "translation": ["ticket"]
+    },
+    {
+        "word": "ゴム",
+        "description": "gomu",
+        "translation": ["elastic", "rubber"]
+    },
+    {
+        "word": "少々",
+        "description": "shoushou",
+        "translation": ["a little", "a bit"]
+    },
+    {
+        "word": "随分",
+        "description": "zuibun",
+        "translation": ["extremely", "considerably"]
+    },
+    {
+        "word": "引っ張る",
+        "description": "hipparu",
+        "translation": ["pull", "drag"]
+    },
+    {
+        "word": "焼ける",
+        "description": "yakeru",
+        "translation": ["burn", "cook"]
+    },
+    {
+        "word": "鉛筆",
+        "description": "enpitsu",
+        "translation": ["pencil"]
+    },
+    {
+        "word": "会話",
+        "description": "kaiwa",
+        "translation": ["conversation"]
+    },
+    {
+        "word": "ギター",
+        "description": "gita-",
+        "translation": ["guitar"]
+    },
+    {
+        "word": "茶",
+        "description": "cha",
+        "translation": ["tea"]
+    },
+    {
+        "word": "暑さ",
+        "description": "atsusa",
+        "translation": ["heat (of weather)"]
+    },
+    {
+        "word": "胃",
+        "description": "i",
+        "translation": ["stomach"]
+    },
+    {
+        "word": "禁煙",
+        "description": "kinen",
+        "translation": ["non-smoking"]
+    },
+    {
+        "word": "丸い",
+        "description": "marui",
+        "translation": ["round"]
+    },
+    {
+        "word": "写る",
+        "description": "utsuru",
+        "translation": ["be photographed"]
+    },
+    {
+        "word": "喫茶店",
+        "description": "kissaten",
+        "translation": ["coffee shop", "café"]
+    },
+    {
+        "word": "やっぱり",
+        "description": "yappari",
+        "translation": ["just as I thought", "after all"]
+    },
+    {
+        "word": "週刊誌",
+        "description": "shuukanshi",
+        "translation": ["weekly magazine"]
+    },
+    {
+        "word": "棚",
+        "description": "tana",
+        "translation": ["shelf", "rack"]
+    },
+    {
+        "word": "震える",
+        "description": "furueru",
+        "translation": ["tremble", "shake"]
+    },
+    {
+        "word": "磨く",
+        "description": "migaku",
+        "translation": ["polish", "grind"]
+    },
+    {
+        "word": "カーテン",
+        "description": "ka-ten",
+        "translation": ["curtain"]
+    },
+    {
+        "word": "火事",
+        "description": "kaji",
+        "translation": ["fire", "blaze"]
+    },
+    {
+        "word": "ナイフ",
+        "description": "naifu",
+        "translation": ["knife"]
+    },
+    {
+        "word": "皆さん",
+        "description": "minasan",
+        "translation": ["everybody", "everyone (polite)"]
+    },
+    {
+        "word": "受ける",
+        "description": "ukeru",
+        "translation": ["receive", "take", "undergo"]
+    },
+    {
+        "word": "付く",
+        "description": "tsuku",
+        "translation": ["stick to", "cling to"]
+    },
+    {
+        "word": "私",
+        "description": "watakushi",
+        "translation": ["I (formal)"]
+    },
+    {
+        "word": "結構",
+        "description": "kekkou",
+        "translation": ["quite"]
+    },
+    {
+        "word": "悪口",
+        "description": "warukuchi",
+        "translation": ["slander", "abuse"]
+    },
+    {
+        "word": "広まる",
+        "description": "hiromaru",
+        "translation": ["spread", "get around"]
+    },
+    {
+        "word": "内緒",
+        "description": "naisho",
+        "translation": ["secrecy", "privacy"]
+    },
+    {
+        "word": "つぶる",
+        "description": "tsuburu",
+        "translation": ["close (eyes)"]
+    },
+    {
+        "word": "用件",
+        "description": "youken",
+        "translation": ["matter", "things to be done"]
+    },
+    {
+        "word": "ロマンチック",
+        "description": "romanchikku",
+        "translation": ["romantic"]
+    },
+    {
+        "word": "貯金",
+        "description": "chokin",
+        "translation": ["savings", "deposit"]
+    },
+    {
+        "word": "バイク",
+        "description": "baiku",
+        "translation": ["motorcycle"]
+    },
+    {
+        "word": "預かる",
+        "description": "azukaru",
+        "translation": ["take care of", "keep"]
+    },
+    {
+        "word": "オレンジ",
+        "description": "orenji",
+        "translation": ["orange"]
+    },
+    {
+        "word": "噛む",
+        "description": "kamu",
+        "translation": ["bite", "chew"]
+    },
+    {
+        "word": "きつい",
+        "description": "kitsui",
+        "translation": ["tight", "tough"]
+    },
+    {
+        "word": "越える",
+        "description": "koeru",
+        "translation": ["go over", "go across"]
+    },
+    {
+        "word": "小包",
+        "description": "kodutsumi",
+        "translation": ["parcel", "package"]
+    },
+    {
+        "word": "新年",
+        "description": "shinnen",
+        "translation": ["new year"]
+    },
+    {
+        "word": "配達",
+        "description": "haitatsu",
+        "translation": ["delivery"]
+    },
+    {
+        "word": "動物園",
+        "description": "doubutsuen",
+        "translation": ["zoo"]
+    },
+    {
+        "word": "封筒",
+        "description": "fuutou",
+        "translation": ["envelope"]
+    },
+    {
+        "word": "危ない",
+        "description": "abunai",
+        "translation": ["dangerous"]
+    },
+    {
+        "word": "テキスト",
+        "description": "tekisuto",
+        "translation": ["text", "textbook"]
+    },
+    {
+        "word": "ビニール",
+        "description": "bini-ru",
+        "translation": ["plastic", "vinyl"]
+    },
+    {
+        "word": "アルバム",
+        "description": "arubamu",
+        "translation": ["album"]
+    },
+    {
+        "word": "水泳",
+        "description": "suiei",
+        "translation": ["swimming"]
+    },
+    {
+        "word": "混む",
+        "description": "komu",
+        "translation": ["be crowded", "be congested"]
+    },
+    {
+        "word": "スカート",
+        "description": "suka-to",
+        "translation": ["skirt"]
+    },
+    {
+        "word": "取れる",
+        "description": "toreru",
+        "translation": ["come off", "be removed"]
+    },
+    {
+        "word": "ペン",
+        "description": "pen",
+        "translation": ["pen"]
+    },
+    {
+        "word": "物",
+        "description": "mono",
+        "translation": ["thing", "object"]
+    },
+    {
+        "word": "郵便",
+        "description": "yuubin",
+        "translation": ["mail service", "postal mail"]
+    },
+    {
+        "word": "割れる",
+        "description": "wareru",
+        "translation": ["crack", "split"]
+    },
+    {
+        "word": "駅員",
+        "description": "ekiin",
+        "translation": ["station attendant"]
+    },
+    {
+        "word": "おしゃべり",
+        "description": "oshaberi",
+        "translation": ["talkative", "chatty", "chatter", "idle talk"]
+    },
+    {
+        "word": "緑色",
+        "description": "midoriiro",
+        "translation": ["green color"]
+    },
+    {
+        "word": "毎朝",
+        "description": "maiasa",
+        "translation": ["every morning"]
+    },
+    {
+        "word": "曲げる",
+        "description": "mageru",
+        "translation": ["bend (something)"]
+    },
+    {
+        "word": "きっと",
+        "description": "kitto",
+        "translation": ["surely", "certainly"]
+    },
+    {
+        "word": "理科",
+        "description": "rika",
+        "translation": ["science (school subject)"]
+    },
+    {
+        "word": "下着",
+        "description": "shitagi",
+        "translation": ["underwear"]
+    },
+    {
+        "word": "太る",
+        "description": "futoru",
+        "translation": ["grow fat", "gain weight"]
+    },
+    {
+        "word": "冷房",
+        "description": "reibou",
+        "translation": ["air conditioning (cooling)"]
+    },
+    {
+        "word": "別れる",
+        "description": "wakareru",
+        "translation": ["separate", "part"]
+    },
+    {
+        "word": "空く",
+        "description": "aku",
+        "translation": ["become available or vacant"]
+    },
+    {
+        "word": "出掛ける",
+        "description": "dekakeru",
+        "translation": ["go out", "leave home"]
+    },
+    {
+        "word": "毎晩",
+        "description": "maiban",
+        "translation": ["every evening"]
+    },
+    {
+        "word": "指輪",
+        "description": "yubiwa",
+        "translation": ["ring"]
+    },
+    {
+        "word": "腐る",
+        "description": "kusaru",
+        "translation": ["rot", "go bad"]
+    },
+    {
+        "word": "貧乏",
+        "description": "binbou",
+        "translation": ["poverty", "destitution"]
+    },
+    {
+        "word": "おしゃれ",
+        "description": "oshare",
+        "translation": ["trendy", "fashionable"]
+    },
+    {
+        "word": "休憩",
+        "description": "kyuukei",
+        "translation": ["break"]
+    },
+    {
+        "word": "舌",
+        "description": "shita",
+        "translation": ["tongue"]
+    },
+    {
+        "word": "ジュース",
+        "description": "ju-su",
+        "translation": ["juice"]
+    },
+    {
+        "word": "ゼロ",
+        "description": "zero",
+        "translation": ["zero", "none (loan word)"]
+    },
+    {
+        "word": "朝刊",
+        "description": "choukan",
+        "translation": ["morning edition paper"]
+    },
+    {
+        "word": "丁寧",
+        "description": "teinei",
+        "translation": ["polite", "careful"]
+    },
+    {
+        "word": "苦手",
+        "description": "nigate",
+        "translation": ["not good at", "be bad at"]
+    },
+    {
+        "word": "日",
+        "description": "hi",
+        "translation": ["(specific) day", "sun", "daytime"]
+    },
+    {
+        "word": "引っ越し",
+        "description": "hikkoshi",
+        "translation": ["moving (house)"]
+    },
+    {
+        "word": "歩道",
+        "description": "hodou",
+        "translation": ["sidewalk", "pavement"]
+    },
+    {
+        "word": "折れる",
+        "description": "oreru",
+        "translation": ["break", "snap"]
+    },
+    {
+        "word": "見送り",
+        "description": "miokuri",
+        "translation": ["send-off"]
+    },
+    {
+        "word": "夕刊",
+        "description": "yuukan",
+        "translation": ["evening edition paper"]
+    },
+    {
+        "word": "この間",
+        "description": "konoaida",
+        "translation": ["the other day", "not so long ago"]
+    },
+    {
+        "word": "冷える",
+        "description": "hieru",
+        "translation": ["cool down", "get chilled"]
+    },
+    {
+        "word": "ピンク",
+        "description": "pinku",
+        "translation": ["pink"]
+    },
+    {
+        "word": "グラス",
+        "description": "gurasu",
+        "translation": ["glass"]
+    },
+    {
+        "word": "毛",
+        "description": "ke",
+        "translation": ["hair", "down"]
+    },
+    {
+        "word": "黒板",
+        "description": "kokuban",
+        "translation": ["blackboard"]
+    },
+    {
+        "word": "積もる",
+        "description": "tsumoru",
+        "translation": ["pile up"]
+    },
+    {
+        "word": "半年",
+        "description": "hantoshi",
+        "translation": ["half a year"]
+    },
+    {
+        "word": "現在",
+        "description": "genzai",
+        "translation": ["the present", "present time"]
+    },
+    {
+        "word": "利用",
+        "description": "riyou",
+        "translation": ["utilization", "usage"]
+    },
+    {
+        "word": "方法",
+        "description": "houhou",
+        "translation": ["method", "procedure"]
+    },
+    {
+        "word": "中心",
+        "description": "chuushin",
+        "translation": ["center (of a circle", "etc.)", "core"]
+    },
+    {
+        "word": "明らか",
+        "description": "akiraka",
+        "translation": ["clear", "obvious"]
+    },
+    {
+        "word": "社長",
+        "description": "shachou",
+        "translation": ["president (of a company)"]
+    },
+    {
+        "word": "ほぼ",
+        "description": "hobo",
+        "translation": ["almost", "nearly"]
+    },
+    {
+        "word": "商品",
+        "description": "shouhin",
+        "translation": ["goods", "commodities"]
+    },
+    {
+        "word": "大型",
+        "description": "oogata",
+        "translation": ["large", "large scale"]
+    },
+    {
+        "word": "限る",
+        "description": "kagiru",
+        "translation": ["be limited to"]
+    },
+    {
+        "word": "記録",
+        "description": "kiroku",
+        "translation": ["record", "documentation"]
+    },
+    {
+        "word": "具体的",
+        "description": "gutaiteki",
+        "translation": ["concrete", "specific"]
+    },
+    {
+        "word": "効果",
+        "description": "kouka",
+        "translation": ["effect", "result"]
+    },
+    {
+        "word": "公開",
+        "description": "koukai",
+        "translation": ["opening (to the public)"]
+    },
+    {
+        "word": "作品",
+        "description": "sakuhin",
+        "translation": ["work of art", "creation"]
+    },
+    {
+        "word": "迫る",
+        "description": "semaru",
+        "translation": ["close in on", "approach"]
+    },
+    {
+        "word": "大会",
+        "description": "taikai",
+        "translation": ["tournament", "event"]
+    },
+    {
+        "word": "背景",
+        "description": "haikei",
+        "translation": ["background", "backdrop"]
+    },
+    {
+        "word": "文字",
+        "description": "moji",
+        "translation": ["character", "letter", "writing"]
+    },
+    {
+        "word": "規則",
+        "description": "kisoku",
+        "translation": ["rule", "regulation"]
+    },
+    {
+        "word": "近所",
+        "description": "kinjo",
+        "translation": ["neighborhood"]
+    },
+    {
+        "word": "グラフ",
+        "description": "gurapu",
+        "translation": ["chart", "graph"]
+    },
+    {
+        "word": "首都",
+        "description": "shuto",
+        "translation": ["capital"]
+    },
+    {
+        "word": "減らす",
+        "description": "herasu",
+        "translation": ["reduce (something)"]
+    },
+    {
+        "word": "隠れる",
+        "description": "kakureru",
+        "translation": ["hide"]
+    },
+    {
+        "word": "美術館",
+        "description": "bijutsukan",
+        "translation": ["art museum"]
+    },
+    {
+        "word": "ばか",
+        "description": "baka",
+        "translation": ["foolish", "stupid"]
+    },
+    {
+        "word": "暇",
+        "description": "hima",
+        "translation": ["free time", "spare time"]
+    },
+    {
+        "word": "絵葉書",
+        "description": "ehagaki",
+        "translation": ["picture postcard"]
+    },
+    {
+        "word": "あんなに",
+        "description": "annani",
+        "translation": ["that much", "such"]
+    },
+    {
+        "word": "行き",
+        "description": "iki",
+        "translation": ["going", "bound for"]
+    },
+    {
+        "word": "通勤",
+        "description": "tsuukin",
+        "translation": ["commute"]
+    },
+    {
+        "word": "ちゃんと",
+        "description": "chanto",
+        "translation": ["correctly", "properly"]
+    },
+    {
+        "word": "のんびり",
+        "description": "nonbiri",
+        "translation": ["take it easy"]
+    },
+    {
+        "word": "緊張",
+        "description": "kinchou",
+        "translation": ["tension", "strain"]
+    },
+    {
+        "word": "気付く",
+        "description": "kiduku",
+        "translation": ["notice", "realize"]
+    },
+    {
+        "word": "物語",
+        "description": "monogatari",
+        "translation": ["story", "tale"]
+    },
+    {
+        "word": "出口",
+        "description": "deguchi",
+        "translation": ["exit"]
+    },
+    {
+        "word": "登る",
+        "description": "noboru",
+        "translation": ["climb", "go up"]
+    },
+    {
+        "word": "真っ白",
+        "description": "masshiro",
+        "translation": ["pure-white"]
+    },
+    {
+        "word": "下ろす",
+        "description": "orosu",
+        "translation": ["bring down", "take down"]
+    },
+    {
+        "word": "貸し出す",
+        "description": "kashidasu",
+        "translation": ["lend", "lend out"]
+    },
+    {
+        "word": "サッカー",
+        "description": "sakka-",
+        "translation": ["soccer", "football"]
+    },
+    {
+        "word": "暖房",
+        "description": "danbou",
+        "translation": ["heating"]
+    },
+    {
+        "word": "手袋",
+        "description": "tebukuro",
+        "translation": ["gloves"]
+    },
+    {
+        "word": "留守",
+        "description": "rusu",
+        "translation": ["not at home"]
+    },
+    {
+        "word": "嘘",
+        "description": "uso",
+        "translation": ["lie"]
+    },
+    {
+        "word": "遠慮",
+        "description": "enryo",
+        "translation": ["restraint", "hold back"]
+    },
+    {
+        "word": "折る",
+        "description": "oru",
+        "translation": ["break (something)", "fold (something)"]
+    },
+    {
+        "word": "スープ",
+        "description": "su-pu",
+        "translation": ["soup"]
+    },
+    {
+        "word": "バナナ",
+        "description": "banana",
+        "translation": ["banana"]
+    },
+    {
+        "word": "可哀相",
+        "description": "kawaisou",
+        "translation": ["poor", "pitiful"]
+    },
+    {
+        "word": "パトカー",
+        "description": "patoka-",
+        "translation": ["police car"]
+    },
+    {
+        "word": "ハンバーガー",
+        "description": "hanba-ga-",
+        "translation": ["hamburger"]
+    },
+    {
+        "word": "毛布",
+        "description": "moufu",
+        "translation": ["blanket"]
+    },
+    {
+        "word": "エスカレーター",
+        "description": "esukare-ta-",
+        "translation": ["escalator"]
+    },
+    {
+        "word": "お嬢さん",
+        "description": "ojousan",
+        "translation": ["young lady", "daughter"]
+    },
+    {
+        "word": "手帳",
+        "description": "techou",
+        "translation": ["pocket notebook", "pocket notebook"]
+    },
+    {
+        "word": "タオル",
+        "description": "taoru",
+        "translation": ["towel", "towel"]
+    },
+    {
+        "word": "売店",
+        "description": "baiten",
+        "translation": ["booth", "shop", "booth", "shop"]
+    },
+    {
+        "word": "パチンコ",
+        "description": "pachiko",
+        "translation": [
+            "pachinko (Japanese pinball)",
+            "pachinko (Japanese pinball)"
+        ]
+    },
+    {
+        "word": "謝る",
+        "description": "ayamaru",
+        "translation": ["apologize", "apologize"]
+    },
+    {
+        "word": "ケーキ",
+        "description": "ke-ki",
+        "translation": ["cake", "cake"]
+    },
+    {
+        "word": "天気予報",
+        "description": "tenkiyohou",
+        "translation": ["weather forecast", "weather forecast"]
+    },
+    {
+        "word": "変",
+        "description": "hen",
+        "translation": ["strange", "weird", "strange", "weird"]
+    },
+    {
+        "word": "一生懸命",
+        "description": "isshoukenmei",
+        "translation": [
+            "hard-working",
+            "doing one’s best",
+            "hard-working",
+            "doing one’s best"
+        ]
+    },
+    {
+        "word": "間違う",
+        "description": "machigau",
+        "translation": [
+            "make a mistake",
+            "be wrong",
+            "make a mistake",
+            "be wrong"
+        ]
+    },
+    {
+        "word": "事務室",
+        "description": "jimushitsu",
+        "translation": ["office", "office"]
+    },
+    {
+        "word": "スーツ",
+        "description": "su-tsu",
+        "translation": ["suit", "suit"]
+    },
+    {
+        "word": "チケット",
+        "description": "chiketto",
+        "translation": ["ticket (loan word)", "ticket (loan word)"]
+    },
+    {
+        "word": "チョコレート",
+        "description": "chokore-to",
+        "translation": ["chocolate", "chocolate"]
+    },
+    {
+        "word": "脱ぐ",
+        "description": "nugu",
+        "translation": ["take off (clothes)", "take off (clothes)"]
+    },
+    {
+        "word": "年賀状",
+        "description": "nenkajou",
+        "translation": ["New Year’s card", "New Year’s card"]
+    },
+    {
+        "word": "乗り物",
+        "description": "norimono",
+        "translation": [
+            "vehicle",
+            "transportation",
+            "vehicle",
+            "transportation"
+        ]
+    },
+    {
+        "word": "布団",
+        "description": "futon",
+        "translation": [
+            "Japanese-style padded mattress",
+            "Japanese-style padded mattress"
+        ]
+    },
+    {
+        "word": "役に立つ",
+        "description": "yakunitatsu",
+        "translation": ["be useful", "be helpful", "be useful", "be helpful"]
+    },
+    {
+        "word": "破れる",
+        "description": "yabureru",
+        "translation": ["tear", "rip open", "tear", "rip open"]
+    },
+    {
+        "word": "用事",
+        "description": "youji",
+        "translation": ["errand", "business", "errand", "business"]
+    },
+    {
+        "word": "写す",
+        "description": "utsusu",
+        "translation": ["copy", "photograph", "copy", "photograph"]
+    },
+    {
+        "word": "腕時計",
+        "description": "udedokei",
+        "translation": ["wrist watch", "wrist watch"]
+    },
+    {
+        "word": "贈り物",
+        "description": "okurimono",
+        "translation": ["present", "gift", "present", "gift"]
+    },
+    {
+        "word": "チャンネル",
+        "description": "channeru",
+        "translation": ["channel", "channel"]
+    },
+    {
+        "word": "冷やす",
+        "description": "hiyasu",
+        "translation": [
+            "chill (something)",
+            "cool down",
+            "chill (something)",
+            "cool down"
+        ]
+    },
+    {
+        "word": "片付ける",
+        "description": "katazukeru",
+        "translation": ["put in order", "clean up", "put in order", "clean up"]
+    },
+    {
+        "word": "乾杯",
+        "description": "kanpai",
+        "translation": [
+            "toast",
+            "drink (in celebration)",
+            "toast",
+            "drink (in celebration)"
+        ]
+    },
+    {
+        "word": "停車",
+        "description": "teisha",
+        "translation": ["stop (of a train)", "stop (of a train)"]
+    },
+    {
+        "word": "鳴く",
+        "description": "naku",
+        "translation": ["sing", "cry (of animals)", "sing", "cry (of animals)"]
+    },
+    {
+        "word": "ガソリンスタンド",
+        "description": "gasorinsutando",
+        "translation": ["gas station", "gas station"]
+    },
+    {
+        "word": "片道",
+        "description": "katamichi",
+        "translation": ["one way (trip)", "one way (trip)"]
+    },
+    {
+        "word": "交番",
+        "description": "kouban",
+        "translation": ["police box", "police box"]
+    },
+    {
+        "word": "大分",
+        "description": "daibu",
+        "translation": [
+            "greatly",
+            "fairly",
+            "highly",
+            "greatly",
+            "fairly",
+            "highly"
+        ]
+    },
+    {
+        "word": "デート",
+        "description": "de-to",
+        "translation": ["date", "romantic meeting", "date", "romantic meeting"]
+    },
+    {
+        "word": "梅雨",
+        "description": "tsuyu",
+        "translation": ["rainy season", "rainy season"]
+    },
+    {
+        "word": "真っ直ぐ",
+        "description": "massugu",
+        "translation": ["straight", "straight"]
+    },
+    {
+        "word": "レモン",
+        "description": "remon",
+        "translation": ["lemon", "lemon"]
+    },
+    {
+        "word": "上着",
+        "description": "uwagi",
+        "translation": [
+            "outerwear",
+            "coat",
+            "jacket",
+            "outerwear",
+            "coat",
+            "jacket"
+        ]
+    },
+    {
+        "word": "偉い",
+        "description": "erai",
+        "translation": ["great", "eminent", "great", "eminent"]
+    },
+    {
+        "word": "書き方",
+        "description": "kakikata",
+        "translation": [
+            "how to write",
+            "way of writing",
+            "how to write",
+            "way of writing"
+        ]
+    },
+    {
+        "word": "炊く",
+        "description": "taku",
+        "translation": ["cook (rice)", "cook (rice)"]
+    },
+    {
+        "word": "チーズ",
+        "description": "chi-zu",
+        "translation": ["cheese", "cheese"]
+    },
+    {
+        "word": "ドライブ",
+        "description": "doraibu",
+        "translation": ["drive (loan word)", "drive (loan word)"]
+    },
+    {
+        "word": "踏切",
+        "description": "fumikiri",
+        "translation": ["railroad crossing", "railroad crossing"]
+    },
+    {
+        "word": "ラケット",
+        "description": "raketto",
+        "translation": ["racket", "racket"]
+    },
+    {
+        "word": "受付",
+        "description": "uketsuke",
+        "translation": [
+            "receptionist",
+            "information office",
+            "receptionist",
+            "information office"
+        ]
+    },
+    {
+        "word": "怒る",
+        "description": "okoru",
+        "translation": ["get angry", "scold", "get angry", "scold"]
+    },
+    {
+        "word": "化粧",
+        "description": "keshou",
+        "translation": ["makeup", "makeup"]
+    },
+    {
+        "word": "都合",
+        "description": "tsugou",
+        "translation": [
+            "convenience",
+            "availability",
+            "convenience",
+            "availability"
+        ]
+    },
+    {
+        "word": "ひげ",
+        "description": "hige",
+        "translation": ["beard", "moustache", "beard", "moustache"]
+    },
+    {
+        "word": "本棚",
+        "description": "hondana",
+        "translation": ["bookshelf", "bookcase", "bookshelf", "bookcase"]
+    },
+    {
+        "word": "真っ暗",
+        "description": "makkura",
+        "translation": ["pitch-dark", "pitch-dark"]
+    },
+    {
+        "word": "沸く",
+        "description": "waku",
+        "translation": [
+            "boil",
+            "get loud (crowd applause etc.)",
+            "boil",
+            "get loud (crowd applause etc.)"
+        ]
+    },
+    {
+        "word": "売り切れる",
+        "description": "urikireru",
+        "translation": [
+            "sell out",
+            "go out of stock",
+            "sell out",
+            "go out of stock"
+        ]
+    },
+    {
+        "word": "押し入れ",
+        "description": "oshiire",
+        "translation": ["sliding-door closet", "sliding-door closet"]
+    },
+    {
+        "word": "革",
+        "description": "kawa",
+        "translation": ["leather", "leather"]
+    },
+    {
+        "word": "ぐっすり",
+        "description": "gussuri",
+        "translation": ["soundly", "soundly"]
+    },
+    {
+        "word": "紅茶",
+        "description": "koucha",
+        "translation": ["black tea", "black tea"]
+    },
+    {
+        "word": "邪魔",
+        "description": "jama",
+        "translation": ["disturbance", "blocking", "disturbance", "blocking"]
+    },
+    {
+        "word": "ソース",
+        "description": "so-su",
+        "translation": ["sauce"]
+    },
+    {
+        "word": "足す",
+        "description": "tasu",
+        "translation": ["add (things of the same kind)"]
+    },
+    {
+        "word": "トマト",
+        "description": "tomato",
+        "translation": ["tomato"]
+    },
+    {
+        "word": "バター",
+        "description": "bata-",
+        "translation": ["butter"]
+    },
+    {
+        "word": "発車",
+        "description": "hassha",
+        "translation": ["departure (of a vehicle)"]
+    },
+    {
+        "word": "バレーボール",
+        "description": "bare-ho-ru",
+        "translation": ["volleyball"]
+    },
+    {
+        "word": "おかず",
+        "description": "okazu",
+        "translation": ["dishes to go with the rice"]
+    },
+    {
+        "word": "カレンダー",
+        "description": "karenda-",
+        "translation": ["calendar"]
+    },
+    {
+        "word": "とにかく",
+        "description": "tonikaku",
+        "translation": ["in any case", "anyway"]
+    },
+    {
+        "word": "楽しみ",
+        "description": "tanoshimi",
+        "translation": ["enjoyment", "something looked forward to"]
+    },
+    {
+        "word": "読書",
+        "description": "dokusho",
+        "translation": ["reading books"]
+    },
+    {
+        "word": "寒気",
+        "description": "samuke",
+        "translation": ["chill"]
+    },
+    {
+        "word": "夕焼け",
+        "description": "yuuyake",
+        "translation": ["sunset glow"]
+    },
+    {
+        "word": "傷める",
+        "description": "itameru",
+        "translation": ["damage", "hurt"]
+    },
+    {
+        "word": "くすぐったい",
+        "description": "kusuguttai",
+        "translation": ["ticklish"]
+    },
+    {
+        "word": "泥棒",
+        "description": "dorobou",
+        "translation": ["thief", "burglar"]
+    },
+    {
+        "word": "襖",
+        "description": "fusuma",
+        "translation": ["paper sliding door"]
+    },
+    {
+        "word": "美人",
+        "description": "bijin",
+        "translation": ["beautiful woman"]
+    },
+    {
+        "word": "タイプライター",
+        "description": "taipuraita-",
+        "translation": ["typewriter"]
+    },
+    {
+        "word": "再来年",
+        "description": "sarainen",
+        "translation": ["the year after next"]
+    },
+    {
+        "word": "冗談",
+        "description": "joudan",
+        "translation": ["joke"]
+    },
+    {
+        "word": "近付く",
+        "description": "chikaduku",
+        "translation": ["approach", "come close"]
+    },
+    {
+        "word": "電話帳",
+        "description": "denwachou",
+        "translation": ["telephone book"]
+    },
+    {
+        "word": "ベル",
+        "description": "beru",
+        "translation": ["bell"]
+    },
+    {
+        "word": "干す（ほす）",
+        "description": "hosu",
+        "translation": ["hang (something) out to dry"]
+    },
+    {
+        "word": "金額",
+        "description": "kingaku",
+        "translation": ["amount of money", "sum"]
+    },
+    {
+        "word": "蚊",
+        "description": "ka",
+        "translation": ["mosquito"]
+    },
+    {
+        "word": "悲しむ",
+        "description": "kanashimu",
+        "translation": ["feel sad", "lament"]
+    },
+    {
+        "word": "クーラー",
+        "description": "ku-ra-",
+        "translation": ["air conditioner (cooling)"]
+    },
+    {
+        "word": "失礼",
+        "description": "shitsurei",
+        "translation": ["rudeness", "to excuse oneself"]
+    },
+    {
+        "word": "洗濯機",
+        "description": "sentakuki",
+        "translation": ["washing machine", "washer"]
+    },
+    {
+        "word": "豆腐",
+        "description": "toufu",
+        "translation": ["tofu"]
+    },
+    {
+        "word": "昼寝",
+        "description": "hirune",
+        "translation": ["nap"]
+    },
+    {
+        "word": "不便",
+        "description": "fuben",
+        "translation": ["inconvenient"]
+    },
+    {
+        "word": "ミルク",
+        "description": "miruku",
+        "translation": ["milk (loan word)"]
+    },
+    {
+        "word": "向こう側",
+        "description": "mukougawa",
+        "translation": ["other side"]
+    },
+    {
+        "word": "億",
+        "description": "oku",
+        "translation": ["hundred million"]
+    },
+    {
+        "word": "お礼",
+        "description": "orei",
+        "translation": ["thanks", "gratitude"]
+    },
+    {
+        "word": "着せる",
+        "description": "kiseru",
+        "translation": ["dress (someone)"]
+    },
+    {
+        "word": "サラダ",
+        "description": "sarada",
+        "translation": ["salad"]
+    },
+    {
+        "word": "代える",
+        "description": "kaeru",
+        "translation": ["substitute for"]
+    },
+    {
+        "word": "四角",
+        "description": "shikaku",
+        "translation": ["square"]
+    },
+    {
+        "word": "急行",
+        "description": "kyukou",
+        "translation": ["express train"]
+    },
+    {
+        "word": "交差点",
+        "description": "kousaten",
+        "translation": ["crossing", "intersection"]
+    },
+    {
+        "word": "覚める",
+        "description": "sameru",
+        "translation": ["awake", "wake up (naturally)"]
+    },
+    {
+        "word": "昼休み",
+        "description": "hiruyasumi",
+        "translation": ["lunch break"]
+    },
+    {
+        "word": "ベルト",
+        "description": "beruto",
+        "translation": ["belt"]
+    },
+    {
+        "word": "真っ黒",
+        "description": "makkuro",
+        "translation": ["black", "jet-black"]
+    },
+    {
+        "word": "皆様",
+        "description": "minasama",
+        "translation": ["everyone", "ladies and gentlemen"]
+    },
+    {
+        "word": "ラーメン",
+        "description": "ra-men",
+        "translation": ["ramen (Chinese noodles)"]
+    },
+    {
+        "word": "ライター",
+        "description": "raita-",
+        "translation": ["lighter"]
+    },
+    {
+        "word": "ワイシャツ",
+        "description": "waishatsu",
+        "translation": ["business shirt", "dress shirt"]
+    },
+    {
+        "word": "転ぶ",
+        "description": "korobu",
+        "translation": ["fall down", "fall over"]
+    },
+    {
+        "word": "シャワー",
+        "description": "shawa-",
+        "translation": ["shower"]
+    },
+    {
+        "word": "扇風機",
+        "description": "senpuuki",
+        "translation": ["electric fan"]
+    },
+    {
+        "word": "遅刻",
+        "description": "chikoku",
+        "translation": ["tardiness", "lateness"]
+    },
+    {
+        "word": "釣る",
+        "description": "tsuru",
+        "translation": ["fish", "catch"]
+    },
+    {
+        "word": "うどん",
+        "description": "udon",
+        "translation": ["Japanese wheat noodles"]
+    },
+    {
+        "word": "仮名",
+        "description": "kana",
+        "translation": ["kana"]
+    },
+    {
+        "word": "記念日",
+        "description": "kinenbi",
+        "translation": ["memorial day", "anniversary"]
+    },
+    {
+        "word": "下り",
+        "description": "kudari",
+        "translation": ["downhill", "going down"]
+    },
+    {
+        "word": "掲示板",
+        "description": "keijiban",
+        "translation": ["notice board", "bulletin board"]
+    },
+    {
+        "word": "凍る",
+        "description": "kooru",
+        "translation": ["freeze"]
+    },
+    {
+        "word": "ごみ",
+        "description": "gomi",
+        "translation": ["trash"]
+    },
+    {
+        "word": "スーパーマーケット",
+        "description": "su-pa-ma-ketto",
+        "translation": ["supermarket"]
+    },
+    {
+        "word": "ぶらぶら",
+        "description": "burabura",
+        "translation": ["wander", "walk around"]
+    },
+    {
+        "word": "アナウンサー",
+        "description": "anaunsa-",
+        "translation": ["announcer"]
+    },
+    {
+        "word": "自炊",
+        "description": "jisui",
+        "translation": ["cooking (for oneself)"]
+    },
+    {
+        "word": "止める",
+        "description": "tomeru",
+        "translation": ["stop (something/someone)"]
+    },
+    {
+        "word": "年下",
+        "description": "toshishita",
+        "translation": ["younger", "junior"]
+    },
+    {
+        "word": "治す",
+        "description": "naosu",
+        "translation": ["cure (something)"]
+    },
+    {
+        "word": "箸",
+        "description": "hashi",
+        "translation": ["chopsticks"]
+    },
+    {
+        "word": "花見",
+        "description": "hanami",
+        "translation": ["flower viewing"]
+    },
+    {
+        "word": "引き出し",
+        "description": "hikidashi",
+        "translation": ["drawer"]
+    },
+    {
+        "word": "訳",
+        "description": "yaku",
+        "translation": ["translation"]
+    },
+    {
+        "word": "いかが",
+        "description": "ikaga",
+        "translation": ["how"]
+    },
+    {
+        "word": "交通費",
+        "description": "koutsuuhi",
+        "translation": ["traveling expense", "transportation fee"]
+    },
+    {
+        "word": "ステレオ",
+        "description": "sutereo",
+        "translation": ["stereo"]
+    },
+    {
+        "word": "再会",
+        "description": "saikai",
+        "translation": ["meeting again", "reunion"]
+    },
+    {
+        "word": "滑る",
+        "description": "suberu",
+        "translation": ["slide", "slip"]
+    },
+    {
+        "word": "早口",
+        "description": "hayakuchi",
+        "translation": ["speaking fast"]
+    },
+    {
+        "word": "裏返す",
+        "description": "uragaesu",
+        "translation": ["turn over", "turn inside out"]
+    },
+    {
+        "word": "角",
+        "description": "kado",
+        "translation": ["corner", "edge"]
+    },
+    {
+        "word": "きらきら",
+        "description": "kirakira",
+        "translation": ["sparkling", "glittering"]
+    },
+    {
+        "word": "三角",
+        "description": "sankaku",
+        "translation": ["figure", "area etc."]
+    },
+    {
+        "word": "激しい",
+        "description": "hageshii",
+        "translation": ["violent", "intense"]
+    },
+    {
+        "word": "経営",
+        "description": "keiei",
+        "translation": ["management", "operation"]
+    },
+    {
+        "word": "拡大",
+        "description": "kakudai",
+        "translation": ["magnification", "enlargement"]
+    },
+    {
+        "word": "姿勢",
+        "description": "shisei",
+        "translation": ["posture", "attitude"]
+    },
+    {
+        "word": "周辺",
+        "description": "shuuhen",
+        "translation": ["area", "region"]
+    },
+    {
+        "word": "他",
+        "description": "ta",
+        "translation": ["other (Chinese origin)"]
+    },
+    {
+        "word": "達する",
+        "description": "tassuru",
+        "translation": ["attain", "reach"]
+    },
+    {
+        "word": "当時",
+        "description": "touji",
+        "translation": ["at that time"]
+    },
+    {
+        "word": "当然",
+        "description": "touzen",
+        "translation": ["natural", "as a matter of course"]
+    },
+    {
+        "word": "能力",
+        "description": "nouryoku",
+        "translation": ["capability", "performance ability of machine", "etc."]
+    },
+    {
+        "word": "判断",
+        "description": "handan",
+        "translation": ["judgment", "decision"]
+    },
+    {
+        "word": "過ぎる",
+        "description": "sugiru",
+        "translation": ["pass by", "go past"]
+    },
+    {
+        "word": "正確",
+        "description": "seikaku",
+        "translation": ["accurate", "precise"]
+    },
+    {
+        "word": "戦争",
+        "description": "sensou",
+        "translation": ["war between countries"]
+    },
+    {
+        "word": "放送",
+        "description": "housou",
+        "translation": ["broadcasting"]
+    },
+    {
+        "word": "習慣",
+        "description": "shuukan",
+        "translation": ["custom", "habit"]
+    },
+    {
+        "word": "フィルム",
+        "description": "fuirumu",
+        "translation": ["film"]
+    },
+    {
+        "word": "受け付ける",
+        "description": "uketsukeru",
+        "translation": ["receive", "accept"]
+    },
+    {
+        "word": "ダンス",
+        "description": "dansu",
+        "translation": ["dance", "dancing (loan word)"]
+    },
+    {
+        "word": "こんなに",
+        "description": "konnani",
+        "translation": ["this much", "such"]
+    },
+    {
+        "word": "吹く",
+        "description": "fuku",
+        "translation": ["blow", "play (a wind instrument)"]
+    },
+    {
+        "word": "まあ",
+        "description": "Maa",
+        "translation": ["well (interjection)"]
+    },
+    {
+        "word": "メール",
+        "description": "me-ru",
+        "translation": ["e-mail"]
+    },
+    {
+        "word": "インターネット",
+        "description": "inta-netto",
+        "translation": ["Internet"]
+    },
+    {
+        "word": "出身",
+        "description": "shusshin",
+        "translation": ["come from", "origin"]
+    },
+    {
+        "word": "職業",
+        "description": "shokugyou",
+        "translation": ["occupation", "job"]
+    },
+    {
+        "word": "スター",
+        "description": "suta-",
+        "translation": ["star"]
+    },
+    {
+        "word": "くだらない",
+        "description": "kudaranai",
+        "translation": ["worthless", "trifling"]
+    },
+    {
+        "word": "名簿",
+        "description": "Meibo",
+        "translation": ["name list"]
+    },
+    {
+        "word": "通常",
+        "description": "Tsuujou",
+        "translation": ["common", "usually", "typically"]
+    },
+    {
+        "word": "家内",
+        "description": "kanai",
+        "translation": ["one’s wife"]
+    },
+    {
+        "word": "消防署",
+        "description": "Shoubousho",
+        "translation": ["fire station"]
+    },
+    {
+        "word": "再び",
+        "description": "Futatabi",
+        "translation": ["again", "a second time"]
+    },
+    {
+        "word": "大統領",
+        "description": "Daitouryou",
+        "translation": ["president (of a country)"]
+    },
+    {
+        "word": "入場券",
+        "description": "Nyuujouken",
+        "translation": ["entrance ticket"]
+    },
+    {
+        "word": "ネックレス",
+        "description": "(",
+        "translation": ["necklace"]
+    },
+    {
+        "word": "パジャマ",
+        "description": "pajama",
+        "translation": ["pajamas"]
+    },
+    {
+        "word": "ボールペン",
+        "description": "Borupen",
+        "translation": ["ballpoint pen"]
+    },
+    {
+        "word": "かゆい",
+        "description": "kayui",
+        "translation": ["itchy"]
+    },
+    {
+        "word": "覚ます",
+        "description": "samasu",
+        "translation": ["awaken", "wake up"]
+    },
+    {
+        "word": "すいか",
+        "description": "Suika",
+        "translation": ["watermelon"]
+    },
+    {
+        "word": "そば",
+        "description": "Soba",
+        "translation": ["buckwheat noodles"]
+    },
+    {
+        "word": "特急",
+        "description": "tokkyuu",
+        "translation": ["super-express"]
+    },
+    {
+        "word": "のり",
+        "description": "Nori",
+        "translation": ["glue", "starch"]
+    },
+    {
+        "word": "大抵",
+        "description": "たいてい",
+        "translation": ["generally", "mostly"]
+    },
+    {
+        "word": "バスケットボール",
+        "description": "basukettobo-ru",
+        "translation": ["basketball"]
+    },
+    {
+        "word": "酔っ払う",
+        "description": "yopparau",
+        "translation": ["get drunk"]
+    },
+    {
+        "word": "どきどき",
+        "description": "Dokidoki",
+        "translation": ["feel excited", "feel nervous"]
+    },
+    {
+        "word": "欲しがる",
+        "description": "hoshigaru",
+        "translation": ["want", "desire (of the third person)"]
+    },
+    {
+        "word": "早起き",
+        "description": "Hayaoki",
+        "translation": ["getting up early"]
+    },
+    {
+        "word": "味噌汁",
+        "description": "misoshiru",
+        "translation": ["miso soup"]
+    },
+    {
+        "word": "読み方",
+        "description": "yomikata",
+        "translation": ["how to read", "way of reading"]
+    },
+    {
+        "word": "入り口",
+        "description": "iriguchi",
+        "translation": ["entrance"]
+    },
+    {
+        "word": "降ろす",
+        "description": "orosu",
+        "translation": ["unload", "set down"]
+    },
+    {
+        "word": "掛かる",
+        "description": "kakaru",
+        "translation": ["hang"]
+    },
+    {
+        "word": "サンドイッチ",
+        "description": "sandoicch",
+        "translation": ["sandwich"]
+    },
+    {
+        "word": "四角い",
+        "description": "Shikakui",
+        "translation": ["square-shaped"]
+    },
+    {
+        "word": "突き当たる",
+        "description": "tsukiataru",
+        "translation": ["run into", "come to the end (of a road)"]
+    },
+    {
+        "word": "乾かす",
+        "description": "kawakasu",
+        "translation": ["dry (something)"]
+    },
+    {
+        "word": "定期券",
+        "description": "Teikiken",
+        "translation": ["commuter pass"]
+    },
+    {
+        "word": "にこにこ",
+        "description": "nikoniko",
+        "translation": ["smilingly", "keep smiling"]
+    },
+    {
+        "word": "下る",
+        "description": "kudaru",
+        "translation": ["go down", "go away from"]
+    },
+    {
+        "word": "ウール",
+        "description": "(",
+        "translation": ["wool"]
+    },
+    {
+        "word": "コーラ",
+        "description": "ko-ra",
+        "translation": ["cola", "coke"]
+    },
+    {
+        "word": "トイレットペーパー",
+        "description": "Toirettopepa",
+        "translation": ["toilet paper"]
+    },
+    {
+        "word": "乗り換え",
+        "description": "norikae",
+        "translation": ["transfer", "change (trains)"]
+    },
+    {
+        "word": "灰皿",
+        "description": "haizara",
+        "translation": ["ashtray"]
+    },
+    {
+        "word": "ハム",
+        "description": "hamu",
+        "translation": ["ham"]
+    },
+    {
+        "word": "床",
+        "description": "yuka",
+        "translation": ["floor"]
+    },
+    {
+        "word": "ローマ字",
+        "description": "Ro-maj",
+        "translation": ["Roman alphabet"]
+    },
+    {
+        "word": "いちご",
+        "description": "ichigo",
+        "translation": ["strawberry"]
+    },
+    {
+        "word": "カレーライス",
+        "description": "kareaisu",
+        "translation": ["curry rice"]
+    },
+    {
+        "word": "キャッシュカード",
+        "description": "Kyasshukado",
+        "translation": ["cash card"]
+    },
+    {
+        "word": "停留所",
+        "description": "teiryuuj",
+        "translation": ["(bus) stop"]
+    },
+    {
+        "word": "床屋",
+        "description": "tokoya",
+        "translation": ["barber", "barbershop"]
+    },
+    {
+        "word": "歯磨き",
+        "description": "hamigaki",
+        "translation": ["brushing one’s teeth"]
+    },
+    {
+        "word": "夕飯",
+        "description": "ゆうはん",
+        "translation": ["evening meal", "dinner"]
+    },
+    {
+        "word": "酔っ払い",
+        "description": "yopparai",
+        "translation": ["drunkard", "drunk"]
+    },
+    {
+        "word": "例",
+        "description": "Rei",
+        "translation": ["example"]
+    },
+    {
+        "word": "お辞儀",
+        "description": "Ojigi",
+        "translation": ["bow"]
+    },
+    {
+        "word": "横断歩道",
+        "description": "Ouda",
+        "translation": ["pedestrian crossing", "crosswalk"]
+    },
+    {
+        "word": "ぐらぐら",
+        "description": "guragura",
+        "translation": ["shaky", "unstable"]
+    },
+    {
+        "word": "航空便",
+        "description": "Koukuubin",
+        "translation": ["airmail", "airfreight"]
+    },
+    {
+        "word": "ジャム",
+        "description": "Jamu",
+        "translation": ["jam"]
+    },
+    {
+        "word": "スリッパ",
+        "description": "Surippa",
+        "translation": ["slippers"]
+    },
+    {
+        "word": "畳む",
+        "description": "tatamu",
+        "translation": ["fold", "shut", "close"]
+    },
+    {
+        "word": "トランプ",
+        "description": "toranpu",
+        "translation": ["playing cards"]
+    },
+    {
+        "word": "日陰",
+        "description": "hikage",
+        "translation": ["shade of the sun"]
+    },
+    {
+        "word": "文房具",
+        "description": "bunbougu",
+        "translation": ["stationery", "writing materials"]
+    },
+    {
+        "word": "免許証",
+        "description": "menkyoshou",
+        "translation": ["license"]
+    },
+    {
+        "word": "訳す",
+        "description": "yakusu",
+        "translation": ["translate"]
+    },
+    {
+        "word": "よろしい",
+        "description": "yoroshii",
+        "translation": ["all right"]
+    },
+    {
+        "word": "両替",
+        "description": "ryougae",
+        "translation": ["money exchange"]
+    },
+    {
+        "word": "片付く",
+        "description": "kataduku",
+        "translation": ["be put in order", "be finished"]
+    },
+    {
+        "word": "カップ",
+        "description": "(",
+        "translation": ["cup"]
+    },
+    {
+        "word": "消しゴム",
+        "description": "keshigomi",
+        "translation": ["eraser"]
+    },
+    {
+        "word": "スケート",
+        "description": "suket",
+        "translation": ["skate", "skates"]
+    },
+    {
+        "word": "鍋",
+        "description": "nabe",
+        "translation": ["pan"]
+    },
+    {
+        "word": "寝坊",
+        "description": "nebou",
+        "translation": ["oversleeping"]
+    },
+    {
+        "word": "鋏",
+        "description": "hasami",
+        "translation": ["scissors"]
+    },
+    {
+        "word": "真っ青",
+        "description": "massao",
+        "translation": ["deep-blue", "pale"]
+    },
+    {
+        "word": "汚す",
+        "description": "yogosu",
+        "translation": ["make (something) dirty"]
+    },
+    {
+        "word": "忘れ物",
+        "description": "wasuremono",
+        "translation": ["something left behind", "lost item"]
+    },
+    {
+        "word": "掛け算",
+        "description": "kakezan",
+        "translation": ["multiplication"]
+    },
+    {
+        "word": "臭い",
+        "description": "kusai",
+        "translation": ["stinky"]
+    },
+    {
+        "word": "突き当たり",
+        "description": "tsukiatari",
+        "translation": ["end of a street"]
+    },
+    {
+        "word": "マフラー",
+        "description": "mafura-",
+        "translation": ["scarf", "muffler"]
+    },
+    {
+        "word": "桃",
+        "description": "momo",
+        "translation": ["peach"]
+    },
+    {
+        "word": "アクセサリー",
+        "description": "akusesari-",
+        "translation": ["accessories", "jewelry"]
+    },
+    {
+        "word": "あくび",
+        "description": "akubi",
+        "translation": ["yawn"]
+    },
+    {
+        "word": "あめ",
+        "description": "ame",
+        "translation": ["candy"]
+    },
+    {
+        "word": "上り",
+        "description": "nobori",
+        "translation": ["going up", "ascent"]
+    },
+    {
+        "word": "なるべく",
+        "description": "narubeku",
+        "translation": ["as…as possible", "if possible"]
+    },
+    {
+        "word": "じっと",
+        "description": "jitto",
+        "translation": ["without moving", "still"]
+    },
+    {
+        "word": "食器",
+        "description": "shokki",
+        "translation": ["tableware"]
+    },
+    {
+        "word": "延ばす",
+        "description": "nobasu",
+        "translation": ["extend", "postpone"]
+    },
+    {
+        "word": "薬局",
+        "description": "yakkyoku",
+        "translation": ["drugstore", "pharmacy"]
+    },
+    {
+        "word": "雄",
+        "description": "osu",
+        "translation": ["male (animal)"]
+    },
+    {
+        "word": "雌",
+        "description": "mesu",
+        "translation": ["female (animal)"]
+    },
+    {
+        "word": "和風",
+        "description": "wafuu",
+        "translation": ["Japanese inspired"]
+    },
+    {
+        "word": "いびき",
+        "description": "ibiki",
+        "translation": ["snoring"]
+    },
+    {
+        "word": "ピクニック",
+        "description": "pikunikku",
+        "translation": ["picnic"]
+    },
+    {
+        "word": "地域",
+        "description": "chiiki",
+        "translation": ["region", "area"]
+    },
+    {
+        "word": "勘違い",
+        "description": "kanchigai",
+        "translation": ["misunderstanding", "wrong idea or assumption"]
+    },
+    {
+        "word": "重要",
+        "description": "juuyou",
+        "translation": ["important", "essential"]
+    },
+    {
+        "word": "主人",
+        "description": "shujin",
+        "translation": ["one’s husband", "master"]
+    },
+    {
+        "word": "お宅",
+        "description": "otaku",
+        "translation": ["(someone else’s) home"]
+    },
+    {
+        "word": "ハイキング",
+        "description": "haikingu",
+        "translation": ["hiking"]
+    },
+    {
+        "word": "畑",
+        "description": "hatake",
+        "translation": ["field", "farm"]
+    },
+    {
+        "word": "ボーイフレンド",
+        "description": "boifurendo",
+        "translation": ["boyfriend"]
+    },
+    {
+        "word": "イヤリング",
+        "description": "iyaringu",
+        "translation": ["earrings"]
+    },
+    {
+        "word": "ガールフレンド",
+        "description": "(",
+        "translation": ["girlfriend"]
+    },
+    {
+        "word": "柔らか",
+        "description": "yawaraka",
+        "translation": ["soft", "gentle"]
+    },
+    {
+        "word": "納豆",
+        "description": "natto",
+        "translation": ["fermented soybeans"]
+    },
+    {
+        "word": "別に",
+        "description": "Betsuni",
+        "translation": ["particularly", "not really"]
+    },
+    {
+        "word": "どうしても",
+        "description": "Doushitemo",
+        "translation": ["by any means", "really"]
+    },
+    {
+        "word": "父親",
+        "description": "chichioya",
+        "translation": ["father"]
+    },
+    {
+        "word": "誘う",
+        "description": "sasou",
+        "translation": ["invite", "ask out"]
+    },
+    {
+        "word": "母親",
+        "description": "hahaoya",
+        "translation": ["mother", "female parent"]
+    },
+    {
+        "word": "昼前",
+        "description": "hirumae",
+        "translation": ["in the morning", "before noon"]
+    },
+    {
+        "word": "ふらふら",
+        "description": "furafura",
+        "translation": ["be dizzy", "lightheaded"]
+    },
+    {
+        "word": "こぼす",
+        "description": "kobosu",
+        "translation": ["spill (something)"]
+    },
+    {
+        "word": "持ってくる",
+        "description": "mottekuru",
+        "translation": ["bring"]
+    },
+    {
+        "word": "振り向く",
+        "description": "Furimuku",
+        "translation": ["turn around", "look back"]
+    },
+    {
+        "word": "洗面所",
+        "description": "Senmenjou",
+        "translation": ["washroom", "bathroom"]
+    },
+    {
+        "word": "外側",
+        "description": "sotogawa",
+        "translation": ["exterior", "outside"]
+    },
+    {
+        "word": "段々",
+        "description": "dandan",
+        "translation": ["gradually", "little by little"]
+    },
+    {
+        "word": "包む",
+        "description": "tsutsumu",
+        "translation": ["wrap", "pack"]
+    },
+    {
+        "word": "無くなる",
+        "description": "nakunaru",
+        "translation": ["get lost", "go missing"]
+    },
+    {
+        "word": "豚",
+        "description": "buta",
+        "translation": ["pig"]
+    },
+    {
+        "word": "褒める",
+        "description": "homeru",
+        "translation": ["praise", "compliment"]
+    },
+    {
+        "word": "沸かす",
+        "description": "wakasu",
+        "translation": ["boil (water)"]
+    },
+    {
+        "word": "暖める",
+        "description": "atatameru",
+        "translation": ["warm (something) up"]
+    },
+    {
+        "word": "換える",
+        "description": "kaeru",
+        "translation": ["exchange", "convert"]
+    },
+    {
+        "word": "安っぽい",
+        "description": "yasuppoi",
+        "translation": ["cheap-looking", "tacky"]
+    },
+    {
+        "word": "ぎらぎら",
+        "description": "giragira",
+        "translation": ["glaring", "blinding"]
+    },
+    {
+        "word": "何とか",
+        "description": "nantoka",
+        "translation": ["somehow", "please"]
+    },
+    {
+        "word": "いよいよ",
+        "description": "iyoiyo",
+        "translation": ["finally", "any moment"]
+    },
+    {
+        "word": "がらがら",
+        "description": "garagara",
+        "translation": ["not crowded"]
+    },
+    {
+        "word": "缶詰",
+        "description": "kantzume",
+        "translation": ["canned food"]
+    },
+    {
+        "word": "怪我",
+        "description": "kega",
+        "translation": ["injury"]
+    },
+    {
+        "word": "寒さ",
+        "description": "samusa",
+        "translation": ["coldness", "cold"]
+    },
+    {
+        "word": "祝日",
+        "description": "shukujitsu",
+        "translation": ["holiday"]
+    },
+    {
+        "word": "すき焼き",
+        "description": "Sukiyaki",
+        "translation": ["sukiyaki"]
+    },
+    {
+        "word": "葉書",
+        "description": "hagaki",
+        "translation": ["postcard"]
+    },
+    {
+        "word": "掃く",
+        "description": "haku",
+        "translation": ["sweep"]
+    },
+    {
+        "word": "何しろ",
+        "description": "nanishiro",
+        "translation": ["anyhow", "as you may know"]
+    },
+    {
+        "word": "どんどん",
+        "description": "dondon",
+        "translation": ["quickly", "rapidly"]
+    },
+    {
+        "word": "ぺこぺこ",
+        "description": "pekopeko",
+        "translation": ["hungry", "starving"]
+    },
+    {
+        "word": "ぺらぺら",
+        "description": "perapera",
+        "translation": ["fluently"]
+    },
+    {
+        "word": "レインコート",
+        "description": "reinkoto",
+        "translation": ["raincoat"]
+    },
+    {
+        "word": "アイス",
+        "description": "aisu",
+        "translation": ["ice cream (for short)"]
+    },
+    {
+        "word": "塩辛い",
+        "description": "shiokarai",
+        "translation": ["salty"]
+    },
+    {
+        "word": "セロテープ",
+        "description": "serote-pu",
+        "translation": ["scotch tape"]
+    },
+    {
+        "word": "大幅",
+        "description": "oohaba",
+        "translation": ["drastically", "substantially"]
+    },
+    {
+        "word": "教育",
+        "description": "Kyouiku",
+        "translation": ["education"]
+    },
+    {
+        "word": "工事",
+        "description": "Kouji",
+        "translation": ["construction", "repairing"]
+    },
+    {
+        "word": "担当",
+        "description": "tantou",
+        "translation": ["person in charge (of official duties)"]
+    },
+    {
+        "word": "法律",
+        "description": "Houritsu",
+        "translation": ["law"]
+    },
+    {
+        "word": "丸",
+        "description": "maru",
+        "translation": ["circle", "round"]
+    },
+    {
+        "word": "発表",
+        "description": "happyo",
+        "translation": ["announcement"]
+    },
+    {
+        "word": "研究",
+        "description": "kenkyuu",
+        "translation": ["research", "study"]
+    },
+    {
+        "word": "一方",
+        "description": "ippou",
+        "translation": ["one way", "the other party"]
+    },
+    {
+        "word": "国内",
+        "description": "kokunai",
+        "translation": ["domestic", "internal"]
+    },
+    {
+        "word": "全体",
+        "description": "zentai",
+        "translation": ["whole", "total"]
+    },
+    {
+        "word": "後",
+        "description": "nochi",
+        "translation": ["after", "afterward"]
+    },
+    {
+        "word": "人間",
+        "description": "ningen",
+        "translation": ["human being"]
+    },
+    {
+        "word": "刺身",
+        "description": "sashimi",
+        "translation": ["sliced raw fish or meat"]
+    },
+    {
+        "word": "ばら",
+        "description": "Bara",
+        "translation": ["rose"]
+    },
+    {
+        "word": "ねずみ",
+        "description": "nezumi",
+        "translation": ["rat", "mouse"]
+    },
+    {
+        "word": "以下",
+        "description": "ika",
+        "translation": ["below"]
+    },
+    {
+        "word": "昔",
+        "description": "mukashi",
+        "translation": ["old times", "the old days"]
+    },
+    {
+        "word": "訳",
+        "description": "wake",
+        "translation": ["reason", "sense"]
+    },
+    {
+        "word": "違い",
+        "description": "chigai",
+        "translation": ["difference", "mistake"]
+    },
+    {
+        "word": "しっかり",
+        "description": "shikkari",
+        "translation": ["mature", "responsible"]
+    },
+    {
+        "word": "将来",
+        "description": "Shourai",
+        "translation": ["future", "in the future"]
+    },
+    {
+        "word": "不思議",
+        "description": "fushigi",
+        "translation": ["mystery", "wonder"]
+    },
+    {
+        "word": "決して",
+        "description": "kesshite",
+        "translation": ["never", "by no means"]
+    },
+    {
+        "word": "失敗",
+        "description": "shippai",
+        "translation": ["failure", "mistake"]
+    },
+    {
+        "word": "番",
+        "description": "ban",
+        "translation": ["one’s turn", "watch"]
+    },
+    {
+        "word": "出会う",
+        "description": "deau",
+        "translation": ["meet", "encounter"]
+    },
+    {
+        "word": "悩む",
+        "description": "nayamu",
+        "translation": ["be troubled", "suffer"]
+    },
+    {
+        "word": "汗",
+        "description": "ase",
+        "translation": ["sweat"]
+    },
+    {
+        "word": "すっかり",
+        "description": "sukkari",
+        "translation": ["all", "completely"]
+    },
+    {
+        "word": "代わり",
+        "description": "kawari",
+        "translation": ["substitution", "alternative"]
+    },
+    {
+        "word": "一言",
+        "description": "hitokoto",
+        "translation": ["single word", "brief speech"]
+    },
+    {
+        "word": "豊か",
+        "description": "yutaka",
+        "translation": ["rich", "ample"]
+    },
+    {
+        "word": "接続",
+        "description": "setsuzoku",
+        "translation": ["connection", "joining"]
+    },
+    {
+        "word": "抱える",
+        "description": "kakaeru",
+        "translation": ["hold in one’s arms"]
+    },
+    {
+        "word": "エンジン",
+        "description": "enjin",
+        "translation": ["engine"]
+    },
+    {
+        "word": "少女",
+        "description": "shoujo",
+        "translation": ["young girl"]
+    },
+    {
+        "word": "無駄",
+        "description": "muda",
+        "translation": ["pointless", "waste"]
+    },
+    {
+        "word": "自動",
+        "description": "jidou",
+        "translation": ["automatic operation"]
+    },
+    {
+        "word": "先輩",
+        "description": "senpai",
+        "translation": ["senior", "superior"]
+    },
+    {
+        "word": "眺める",
+        "description": "nagameru",
+        "translation": ["look out", "gaze"]
+    },
+    {
+        "word": "書類",
+        "description": "Shorui",
+        "translation": ["documents", "papers"]
+    },
+    {
+        "word": "年月",
+        "description": "nengetsu",
+        "translation": ["years", "period of time"]
+    },
+    {
+        "word": "燃やす",
+        "description": "moyasu",
+        "translation": ["burn (something)"]
+    },
+    {
+        "word": "線路",
+        "description": "senro",
+        "translation": ["railway track", "line"]
+    },
+    {
+        "word": "水着",
+        "description": "mizugi",
+        "translation": ["bathing suit", "swimsuit"]
+    },
+    {
+        "word": "可愛らしい",
+        "description": "kawairashii",
+        "translation": ["lovely", "charming"]
+    },
+    {
+        "word": "仲良し",
+        "description": "nakayoshi",
+        "translation": ["good friend"]
+    },
+    {
+        "word": "梅干し",
+        "description": "umeboshi",
+        "translation": ["pickled plum"]
+    },
+    {
+        "word": "ドレス",
+        "description": "doresu",
+        "translation": ["formal dress"]
+    },
+    {
+        "word": "尽くす",
+        "description": "tsukusu",
+        "translation": ["make utmost efforts", "devote to"]
+    },
+    {
+        "word": "地球",
+        "description": "chikyuu",
+        "translation": ["the earth"]
+    },
+    {
+        "word": "不親切",
+        "description": "fushinsetsu",
+        "translation": ["unkind", "inconsiderate"]
+    },
+    {
+        "word": "からから",
+        "description": "karakara",
+        "translation": ["very thirsty", "very dry"]
+    },
+    {
+        "word": "本箱",
+        "description": "honbako",
+        "translation": ["bookcase"]
+    },
+    {
+        "word": "横書き",
+        "description": "yokogaki",
+        "translation": ["horizontal writing"]
+    },
+    {
+        "word": "そば屋",
+        "description": "sobaya",
+        "translation": ["buckwheat noodle shop"]
+    },
+    {
+        "word": "加工",
+        "description": "kakou",
+        "translation": ["processing"]
+    },
+    {
+        "word": "実験",
+        "description": "jikken",
+        "translation": ["experiment"]
+    },
+    {
+        "word": "愛する",
+        "description": "aisuru",
+        "translation": ["love", "care for"]
+    },
+    {
+        "word": "あんまり",
+        "description": "anmari",
+        "translation": ["(not) that much", "(not) so much"]
+    },
+    {
+        "word": "いきなり",
+        "description": "ikinari",
+        "translation": ["all of a sudden", "suddenly"]
+    },
+    {
+        "word": "表",
+        "description": "omote",
+        "translation": ["front", "outside"]
+    },
+    {
+        "word": "汚れ",
+        "description": "yogore",
+        "translation": ["dirt", "blot"]
+    },
+    {
+        "word": "間",
+        "description": "aida",
+        "translation": ["interval", "space between things"]
+    },
+    {
+        "word": "紫",
+        "description": "murasaki",
+        "translation": ["purple"]
+    },
+    {
+        "word": "灰色",
+        "description": "haiiro",
+        "translation": ["ash color", "gray"]
+    },
+    {
+        "word": "血",
+        "description": "chi",
+        "translation": ["blood (colloquial)"]
+    },
+    {
+        "word": "顎",
+        "description": "ago",
+        "translation": ["jaw", "chin"]
+    },
+    {
+        "word": "始めに",
+        "description": "hajimeni",
+        "translation": ["in the beginning", "first"]
+    },
+    {
+        "word": "暖まる",
+        "description": "atatameru",
+        "translation": ["get warm"]
+    },
+    {
+        "word": "お世辞",
+        "description": "oseji",
+        "translation": ["compliment", "flattery"]
+    },
+    {
+        "word": "袋",
+        "description": "fukuro",
+        "translation": ["bag", "sack"]
+    },
+    {
+        "word": "長袖",
+        "description": "nagasode",
+        "translation": ["long sleeves"]
+    },
+    {
+        "word": "半袖",
+        "description": "hansode",
+        "translation": ["short sleeves"]
+    },
+    {
+        "word": "形",
+        "description": "katachi",
+        "translation": ["shape", "form"]
+    },
+    {
+        "word": "景色",
+        "description": "keshiki",
+        "translation": ["natural scenery or landscape"]
+    },
+    {
+        "word": "ざあざあ",
+        "description": "zaazaa",
+        "translation": ["pouring"]
+    },
+    {
+        "word": "再来月",
+        "description": "saraigetsu",
+        "translation": ["the month after next"]
+    },
+    {
+        "word": "泊める",
+        "description": "tomeru",
+        "translation": ["let (someone) stay over"]
+    },
+    {
+        "word": "叱る",
+        "description": "shikaru",
+        "translation": ["scold", "reprimand"]
+    },
+    {
+        "word": "騒ぐ",
+        "description": "sawagu",
+        "translation": ["make a noise", "make a racket"]
+    },
+    {
+        "word": "車道",
+        "description": "Shadou",
+        "translation": ["road", "roadway (for cars)"]
+    },
+    {
+        "word": "掃除機",
+        "description": "Soujiki",
+        "translation": ["vacuum cleaner"]
+    },
+    {
+        "word": "剃る",
+        "description": "soru",
+        "translation": ["shave"]
+    },
+    {
+        "word": "貼る",
+        "description": "haru",
+        "translation": ["stick", "paste", "put"]
+    },
+    {
+        "word": "台",
+        "description": "dai",
+        "translation": ["stand", "table"]
+    },
+    {
+        "word": "主に",
+        "description": "omoni",
+        "translation": ["mostly", "predominantly"]
+    },
+    {
+        "word": "倒す",
+        "description": "taosu",
+        "translation": ["knock down", "overthrow"]
+    },
+    {
+        "word": "星",
+        "description": "hoshi",
+        "translation": ["star", "planet"]
+    },
+    {
+        "word": "長女",
+        "description": "choujo",
+        "translation": ["eldest daughter"]
+    },
+    {
+        "word": "爪",
+        "description": "tsume",
+        "translation": ["nail", "claw"]
+    },
+    {
+        "word": "缶",
+        "description": "kan",
+        "translation": ["can", "tin"]
+    },
+    {
+        "word": "とんとん",
+        "description": "tonton",
+        "translation": ["tapping", "patting"]
+    },
+    {
+        "word": "袖",
+        "description": "sode",
+        "translation": ["sleeve"]
+    },
+    {
+        "word": "濡れる",
+        "description": "nureru",
+        "translation": ["get wet"]
+    },
+    {
+        "word": "パーセント",
+        "description": "pa-sento",
+        "translation": ["percent"]
+    },
+    {
+        "word": "上がる",
+        "description": "agaru",
+        "translation": ["go up", "increase (in quality or quantity)"]
+    },
+    {
+        "word": "拍手",
+        "description": "hakushu",
+        "translation": ["applause", "clapping"]
+    },
+    {
+        "word": "弾く",
+        "description": "hiku",
+        "translation": ["play (instruments)"]
+    },
+    {
+        "word": "ひも",
+        "description": "himo",
+        "translation": ["laces", "string"]
+    },
+    {
+        "word": "昼過ぎ",
+        "description": "hirusugi",
+        "translation": ["early afternoon"]
+    },
+    {
+        "word": "船",
+        "description": "fune",
+        "translation": ["ship", "vessel"]
+    },
+    {
+        "word": "まく",
+        "description": "maku",
+        "translation": ["scatter", "sprinkle"]
+    },
+    {
+        "word": "姪",
+        "description": "mei",
+        "translation": ["niece"]
+    },
+    {
+        "word": "個人",
+        "description": "kojin",
+        "translation": ["individual person"]
+    },
+    {
+        "word": "歌手",
+        "description": "kashu",
+        "translation": ["singer"]
+    },
+    {
+        "word": "社員",
+        "description": "Shain",
+        "translation": ["staff member", "employee"]
+    },
+    {
+        "word": "不動産屋",
+        "description": "fudousanya",
+        "translation": ["real estate agent"]
+    },
+    {
+        "word": "最大",
+        "description": "saidai",
+        "translation": ["biggest", "largest"]
+    },
+    {
+        "word": "動き",
+        "description": "ugoki",
+        "translation": ["movement", "motion"]
+    },
+    {
+        "word": "事件",
+        "description": "jiken",
+        "translation": ["affair", "incident"]
+    },
+    {
+        "word": "過去",
+        "description": "kako",
+        "translation": ["the past"]
+    },
+    {
+        "word": "協力",
+        "description": "kyouryoku",
+        "translation": ["cooperation", "collaboration"]
+    },
+    {
+        "word": "時期",
+        "description": "jiki",
+        "translation": ["time", "season"]
+    },
+    {
+        "word": "経つ",
+        "description": "tatsu",
+        "translation": ["pass", "elapse"]
+    },
+    {
+        "word": "雷",
+        "description": "kaminari",
+        "translation": ["thunder", "lightning"]
+    },
+    {
+        "word": "責任",
+        "description": "sekinin",
+        "translation": ["responsibility"]
+    },
+    {
+        "word": "願う",
+        "description": "negau",
+        "translation": ["wish", "desire"]
+    },
+    {
+        "word": "発見",
+        "description": "hakken",
+        "translation": ["discovery", "revelation"]
+    },
+    {
+        "word": "気",
+        "description": "ki",
+        "translation": ["spirit", "temperament"]
+    },
+    {
+        "word": "美容院",
+        "description": "byouin",
+        "translation": ["hair salon"]
+    },
+    {
+        "word": "状況",
+        "description": "joukyou",
+        "translation": ["state of affairs", "conditions"]
+    },
+    {
+        "word": "目的",
+        "description": "mokuteki",
+        "translation": ["objective", "purpose"]
+    },
+    {
+        "word": "企業",
+        "description": "kigyou",
+        "translation": ["corporation", "business"]
+    },
+    {
+        "word": "釣り",
+        "description": "tsuri",
+        "translation": ["fishing"]
+    },
+    {
+        "word": "漫画",
+        "description": "manga",
+        "translation": ["comics", "cartoon"]
+    },
+    {
+        "word": "温泉",
+        "description": "onsen",
+        "translation": ["hot spring"]
+    },
+    {
+        "word": "トレーニング",
+        "description": "tore-ningu",
+        "translation": ["training", "workout"]
+    },
+    {
+        "word": "噂",
+        "description": "uwasa",
+        "translation": ["gossip", "rumor"]
+    },
+    {
+        "word": "本物",
+        "description": "honmono",
+        "translation": ["real", "truly worthy (things", "people)"]
+    },
+    {
+        "word": "アイデア",
+        "description": "aidea",
+        "translation": ["idea"]
+    },
+    {
+        "word": "地下",
+        "description": "chika",
+        "translation": ["underground"]
+    },
+    {
+        "word": "マーケット",
+        "description": "ma-ketto",
+        "translation": ["market"]
+    },
+    {
+        "word": "スケジュール",
+        "description": "sukeju-ru",
+        "translation": ["schedule (loan word)"]
+    },
+    {
+        "word": "出張",
+        "description": "shucchou",
+        "translation": ["business trip"]
+    },
+    {
+        "word": "コック",
+        "description": "kokku",
+        "translation": ["cook", "chef"]
+    },
+    {
+        "word": "正午",
+        "description": "shougo",
+        "translation": ["noon"]
+    },
+    {
+        "word": "ブラシ",
+        "description": "burashi",
+        "translation": ["brush"]
+    },
+    {
+        "word": "書き取る",
+        "description": "kakitoru",
+        "translation": ["write down", "note down"]
+    },
+    {
+        "word": "歓迎",
+        "description": "kangei",
+        "translation": ["welcome", "greet"]
+    },
+    {
+        "word": "開発",
+        "description": "kaihatsu",
+        "translation": ["development"]
+    },
+    {
+        "word": "郵便屋さん",
+        "description": "yuubinyasan",
+        "translation": ["mail carrier"]
+    },
+    {
+        "word": "会長",
+        "description": "kaichou",
+        "translation": ["president", "chairperson"]
+    },
+    {
+        "word": "金",
+        "description": "kin",
+        "translation": ["gold"]
+    },
+    {
+        "word": "灰",
+        "description": "hai",
+        "translation": ["ashes"]
+    },
+    {
+        "word": "骨",
+        "description": "hone",
+        "translation": ["bone"]
+    },
+    {
+        "word": "風呂屋",
+        "description": "furoya",
+        "translation": ["bathhouse", "public bath"]
+    },
+    {
+        "word": "細か",
+        "description": "komaka",
+        "translation": ["small", "fine", "detailed"]
+    },
+    {
+        "word": "行き",
+        "description": "yuki",
+        "translation": ["going", "bound for (traditional reading)"]
+    },
+    {
+        "word": "人々",
+        "description": "hitobito",
+        "translation": ["people"]
+    },
+    {
+        "word": "寺",
+        "description": "tera",
+        "translation": ["temple"]
+    },
+    {
+        "word": "鶏",
+        "description": "niwatori",
+        "translation": ["rooster", "hen"]
+    },
+    {
+        "word": "港",
+        "description": "minato",
+        "translation": ["port", "harbor"]
+    },
+    {
+        "word": "移る",
+        "description": "utsuru",
+        "translation": ["move", "shift"]
+    },
+    {
+        "word": "異なる",
+        "description": "kotonaru",
+        "translation": ["differ"]
+    },
+    {
+        "word": "提供",
+        "description": "teikyou",
+        "translation": ["offer", "provide"]
+    },
+    {
+        "word": "市民",
+        "description": "shimin",
+        "translation": ["citizens"]
+    },
+    {
+        "word": "患者",
+        "description": "kanja",
+        "translation": ["patient"]
+    },
+    {
+        "word": "元旦",
+        "description": "gantan",
+        "translation": ["morning of the January 1st", "New Year’s Day"]
+    },
+    {
+        "word": "柔らかい",
+        "description": "yawarakai",
+        "translation": ["soft", "gentle"]
+    },
+    {
+        "word": "似合う",
+        "description": "niau",
+        "translation": ["suit", "match well"]
+    },
+    {
+        "word": "確かめる",
+        "description": "tashikameru",
+        "translation": ["check", "confirm"]
+    },
+    {
+        "word": "背中",
+        "description": "senaka",
+        "translation": ["(one’s) back"]
+    },
+    {
+        "word": "肌",
+        "description": "hada",
+        "translation": ["human skin", "surface"]
+    },
+    {
+        "word": "順番",
+        "description": "junban",
+        "translation": ["order", "turn"]
+    },
+    {
+        "word": "まとも",
+        "description": "matomo",
+        "translation": ["sane", "reasonable"]
+    },
+    {
+        "word": "ぴったり",
+        "description": "pittari",
+        "translation": ["exactly right", "perfect"]
+    },
+    {
+        "word": "思わず",
+        "description": "omowazu",
+        "translation": ["unintentionally", "unconsciously"]
+    },
+    {
+        "word": "より",
+        "description": "yori",
+        "translation": ["even more ~", "even less ~"]
+    },
+    {
+        "word": "もったいない",
+        "description": "mottainai",
+        "translation": ["wasteful", "a shame"]
+    },
+    {
+        "word": "情報",
+        "description": "jouhou",
+        "translation": ["information"]
+    },
+    {
+        "word": "諦める",
+        "description": "akirameru",
+        "translation": ["abandon", "give up"]
+    },
+    {
+        "word": "懐かしい",
+        "description": "natsukashii",
+        "translation": ["fondly-remembered", "long-forgotten"]
+    },
+    {
+        "word": "怪しい",
+        "description": "ayashii",
+        "translation": ["suspicious", "dubious"]
+    },
+    {
+        "word": "示す",
+        "description": "shimesu",
+        "translation": ["show", "indicate"]
+    },
+    {
+        "word": "たっぷり",
+        "description": "tappuri",
+        "translation": ["fully", "amply"]
+    },
+    {
+        "word": "早速",
+        "description": "sassoku",
+        "translation": ["immediately", "right away"]
+    },
+    {
+        "word": "偶然",
+        "description": "guuzen",
+        "translation": ["by chance", "coincidence"]
+    },
+    {
+        "word": "続き",
+        "description": "tsuduki",
+        "translation": ["continuation", "sequel"]
+    },
+    {
+        "word": "合計",
+        "description": "goukei",
+        "translation": ["sum", "total"]
+    },
+    {
+        "word": "傷",
+        "description": "kizu",
+        "translation": ["wound", "scar"]
+    },
+    {
+        "word": "面倒",
+        "description": "mendou",
+        "translation": ["troublesome", "difficult"]
+    },
+    {
+        "word": "具合",
+        "description": "guai",
+        "translation": ["condition", "health"]
+    },
+    {
+        "word": "中止",
+        "description": "chuushi",
+        "translation": ["suspension", "cancellation"]
+    },
+    {
+        "word": "手続き",
+        "description": "tetsuduki",
+        "translation": ["procedure", "proceeding"]
+    },
+    {
+        "word": "結果",
+        "description": "kekka",
+        "translation": ["result", "outcome"]
+    },
+    {
+        "word": "建設",
+        "description": "kensetsu",
+        "translation": [
+            "construction (of a building",
+            "road",
+            "bridge",
+            "etc.)"
+        ]
+    },
+    {
+        "word": "販売",
+        "description": "(",
+        "translation": ["sale", "selling"]
+    },
+    {
+        "word": "機能",
+        "description": "kinou",
+        "translation": ["function", "feature"]
+    },
+    {
+        "word": "頃",
+        "description": "koro",
+        "translation": ["time", "the time when ~"]
+    },
+    {
+        "word": "日中",
+        "description": "Nicchuu",
+        "translation": ["during the day"]
+    },
+    {
+        "word": "今後",
+        "description": "Kong",
+        "translation": ["in the future", "from now on"]
+    },
+    {
+        "word": "影響",
+        "description": "eikyou",
+        "translation": ["influence", "effect"]
+    },
+    {
+        "word": "分野",
+        "description": "(",
+        "translation": ["field", "area"]
+    },
+    {
+        "word": "関する",
+        "description": "kansuru",
+        "translation": ["relate to", "regarding"]
+    },
+    {
+        "word": "状態",
+        "description": "joutai",
+        "translation": ["state", "condition"]
+    },
+    {
+        "word": "価格",
+        "description": "kakaku",
+        "translation": ["price", "value"]
+    },
+    {
+        "word": "姿",
+        "description": "sugata",
+        "translation": ["figure", "appearance"]
+    },
+    {
+        "word": "期待",
+        "description": "kitai",
+        "translation": ["expectation", "anticipation"]
+    },
+    {
+        "word": "除く",
+        "description": "nozoku",
+        "translation": ["remove", "exclude"]
+    },
+    {
+        "word": "一般",
+        "description": "ippan",
+        "translation": ["general", "common"]
+    },
+    {
+        "word": "表現",
+        "description": "hyougen",
+        "translation": ["expression"]
+    },
+    {
+        "word": "完成",
+        "description": "kansei",
+        "translation": ["completion", "finish making or building something"]
+    },
+    {
+        "word": "変化",
+        "description": "henka",
+        "translation": ["change", "alteration"]
+    },
+    {
+        "word": "参加",
+        "description": "sanka",
+        "translation": ["participation"]
+    },
+    {
+        "word": "土地",
+        "description": "tochi",
+        "translation": ["land"]
+    },
+    {
+        "word": "検討",
+        "description": "kentou",
+        "translation": ["examination and consideration"]
+    },
+    {
+        "word": "開始",
+        "description": "kaishi",
+        "translation": ["beginning"]
+    },
+    {
+        "word": "備える",
+        "description": "sonaete",
+        "translation": ["provide for", "prepare for"]
+    },
+    {
+        "word": "内容",
+        "description": "naiyou",
+        "translation": ["content"]
+    },
+    {
+        "word": "与える",
+        "description": "ataeru",
+        "translation": ["give (formal)"]
+    },
+    {
+        "word": "広がる",
+        "description": "hirogaru",
+        "translation": ["spread out", "extend"]
+    },
+    {
+        "word": "事実",
+        "description": "(",
+        "translation": ["fact", "truth"]
+    },
+    {
+        "word": "決定",
+        "description": "kettei",
+        "translation": ["decision"]
+    },
+    {
+        "word": "住宅",
+        "description": "juutaku",
+        "translation": ["housing", "residence"]
+    },
+    {
+        "word": "代表",
+        "description": "daihyo",
+        "translation": ["representative"]
+    },
+    {
+        "word": "命令",
+        "description": "meirei",
+        "translation": ["command", "order"]
+    },
+    {
+        "word": "立場",
+        "description": "tachiba",
+        "translation": ["standpoint", "position"]
+    },
+    {
+        "word": "なお",
+        "description": "Nao",
+        "translation": ["still", "in addition"]
+    },
+    {
+        "word": "計算",
+        "description": "keisan",
+        "translation": ["calculation"]
+    },
+    {
+        "word": "可能",
+        "description": "kanou",
+        "translation": ["possible", "potential"]
+    },
+    {
+        "word": "報告",
+        "description": "houkoku",
+        "translation": ["report"]
+    },
+    {
+        "word": "都市",
+        "description": "toshi",
+        "translation": ["city", "town"]
+    },
+    {
+        "word": "政治",
+        "description": "seiji",
+        "translation": ["politics"]
+    },
+    {
+        "word": "競争",
+        "description": "kyousou",
+        "translation": ["competition"]
+    },
+    {
+        "word": "原因",
+        "description": "genin",
+        "translation": ["cause", "origin"]
+    },
+    {
+        "word": "活動",
+        "description": "katsudou",
+        "translation": ["activity"]
+    },
+    {
+        "word": "歴史",
+        "description": "rekishi",
+        "translation": ["history"]
+    },
+    {
+        "word": "表",
+        "description": "hyou",
+        "translation": ["table", "list"]
+    },
+    {
+        "word": "サイト",
+        "description": "saito",
+        "translation": ["website"]
+    },
+    {
+        "word": "土産",
+        "description": "miyage",
+        "translation": ["souvenir (plain)"]
+    },
+    {
+        "word": "臭い",
+        "description": "nioi",
+        "translation": ["(bad) smell"]
+    },
+    {
+        "word": "現金",
+        "description": "genkin",
+        "translation": ["cash"]
+    },
+    {
+        "word": "虫",
+        "description": "mushi",
+        "translation": ["insect", "bug"]
+    },
+    {
+        "word": "寄る",
+        "description": "yoru",
+        "translation": ["stop by", "stop off"]
+    },
+    {
+        "word": "田舎",
+        "description": "inaka",
+        "translation": ["hometown", "countryside"]
+    },
+    {
+        "word": "帰宅",
+        "description": "kitaku",
+        "translation": ["return home", "come home"]
+    },
+    {
+        "word": "重大",
+        "description": "juudai",
+        "translation": ["important", "serious"]
+    },
+    {
+        "word": "マイナス",
+        "description": "mainasu",
+        "translation": ["minus", "below zero"]
+    },
+    {
+        "word": "稼ぐ",
+        "description": "kasegu",
+        "translation": ["earn", "make money"]
+    },
+    {
+        "word": "左右",
+        "description": "sayuu",
+        "translation": ["right and left"]
+    },
+    {
+        "word": "痛み",
+        "description": "itami",
+        "translation": ["pain", "ache"]
+    },
+    {
+        "word": "誤解",
+        "description": "gokai",
+        "translation": ["misunderstanding"]
+    },
+    {
+        "word": "文句",
+        "description": "monku",
+        "translation": ["complaint", "grumble"]
+    },
+    {
+        "word": "欧米",
+        "description": "oubei",
+        "translation": ["Europe and America"]
+    },
+    {
+        "word": "面接",
+        "description": "mensetsu",
+        "translation": ["interview"]
+    },
+    {
+        "word": "サイン",
+        "description": "sain",
+        "translation": ["signature", "autograph"]
+    },
+    {
+        "word": "年中",
+        "description": "nenjuu",
+        "translation": ["all year"]
+    },
+    {
+        "word": "機嫌",
+        "description": "kigen",
+        "translation": ["mood", "health"]
+    },
+    {
+        "word": "居間",
+        "description": "ima",
+        "translation": ["living room"]
+    },
+    {
+        "word": "度々",
+        "description": "tabitabi",
+        "translation": ["often"]
+    },
+    {
+        "word": "例文",
+        "description": "reibun",
+        "translation": ["example sentence"]
+    },
+    {
+        "word": "怠ける",
+        "description": "namakeru",
+        "translation": ["be lazy", "slack off"]
+    },
+    {
+        "word": "転勤",
+        "description": "tenkin",
+        "translation": ["change of job location", "relocation"]
+    },
+    {
+        "word": "政府",
+        "description": "seifu",
+        "translation": ["government", "administration"]
+    },
+    {
+        "word": "所有",
+        "description": "shoyuu",
+        "translation": ["ownership", "own"]
+    },
+    {
+        "word": "いずれ",
+        "description": "izure",
+        "translation": ["sometime later", "eventually"]
+    },
+    {
+        "word": "対する",
+        "description": "taisuru",
+        "translation": ["face", "be in response to"]
+    },
+    {
+        "word": "教会",
+        "description": "kyoukai",
+        "translation": ["church"]
+    }
+]

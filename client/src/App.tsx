@@ -5,6 +5,8 @@ import Menu from "./Menu";
 import Settings from "./Settings";
 import { useMobxStores } from "./hooks/useMobxStores";
 import { observer } from "mobx-react-lite";
+import Challenge from "./Challenge";
+import FAQ from "./FAQ";
 
 const App = observer(() => {
     const {
@@ -26,9 +28,11 @@ const App = observer(() => {
 
             <div className={`container ${darkMode ? "dark" : "light"}`}>
                 <div className="inner-container">
-                    {currentRoute === "learner" && <Learner />}
                     {currentRoute === "menu" && <Menu />}
+                    {currentRoute === "learner" && <Learner />}
+                    {currentRoute === "challenge" && <Challenge />}
                     {currentRoute === "settings" && <Settings />}
+                    {currentRoute === "faq" && <FAQ />}
                 </div>
             </div>
         </StoreProvider>

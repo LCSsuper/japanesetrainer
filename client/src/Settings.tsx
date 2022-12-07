@@ -12,8 +12,10 @@ const Settings = observer(() => {
             setRange,
             darkMode,
             setDarkMode,
-            showRomanji,
-            setShowRomanji,
+            showDescription,
+            setShowDescription,
+            setLanguage,
+            language,
         },
         learnerStore: { library },
     } = useMobxStores();
@@ -30,6 +32,20 @@ const Settings = observer(() => {
                     onChange={() => setDarkMode(!darkMode)}
                 />
                 <label htmlFor="darkmode">Dark mode</label>
+            </div>
+            <div className="language">
+                <span>Language: </span>
+                <select
+                    name="language"
+                    id="language"
+                    onChange={(e) => {
+                        setLanguage(e.target.value);
+                    }}
+                    value={language}
+                >
+                    <option value="japanese">Japanese</option>
+                    <option value="spanish">Spanish</option>
+                </select>
             </div>
             <div className="header">Training</div>
             <i>{`The library contains ${library.length} words. Choose a selection that you want to train`}</i>
@@ -78,12 +94,14 @@ const Settings = observer(() => {
             <div className="checkbox">
                 <input
                     type="checkbox"
-                    id="showromanji"
-                    name="showromanji"
-                    checked={showRomanji}
-                    onChange={() => setShowRomanji(!showRomanji)}
+                    id="showdescription"
+                    name="showdescription"
+                    checked={showDescription}
+                    onChange={() => setShowDescription(!showDescription)}
                 />
-                <label htmlFor="showromanji">Show romanji</label>
+                <label htmlFor="showdescription">
+                    Show description (e.g. romanji for japanese)
+                </label>
             </div>
         </div>
     );

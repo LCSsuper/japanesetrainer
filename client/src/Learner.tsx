@@ -2,7 +2,6 @@ import React from "react";
 import { observer } from "mobx-react-lite";
 import { useMobxStores } from "./hooks/useMobxStores";
 import "./learner.css";
-import { useEffect } from "react";
 
 const ENTER = 13;
 
@@ -19,7 +18,7 @@ const Learner = observer(() => {
             selectedLibrary,
             wordIndex,
         },
-        settingsStore: { showRomanji },
+        settingsStore: { showDescription },
     } = useMobxStores();
 
     const onInputChange = (e: any) => {
@@ -50,15 +49,15 @@ const Learner = observer(() => {
             <div id="count">{`${wordIndex + 1} of ${
                 selectedLibrary.length
             }`}</div>
-            <div id="hiragana-container">{currentWord.hiragana}</div>
-            <div id="romanji-container">
-                {showRomanji || guessIsCorrect || shouldShowAnswer
-                    ? currentWord.romanji
+            <div id="word-container">{currentWord.word}</div>
+            <div id="description-container">
+                {showDescription || guessIsCorrect || shouldShowAnswer
+                    ? currentWord.description
                     : ""}
             </div>
             <div id="answers-container">
                 {guessIsCorrect || shouldShowAnswer
-                    ? `Correct answers: ${currentWord.english.join(", ")}`
+                    ? `Correct answers: ${currentWord.translation.join(", ")}`
                     : ""}
             </div>
             <div id="input-container">

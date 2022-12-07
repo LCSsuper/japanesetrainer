@@ -12,13 +12,13 @@
     color: rgb(200, 116, 116) !important;
 }
 
-#hiragana-container {
+#word-container {
     padding-top: 5rem;
     flex: 0 0 10rem;
     font-size: 8rem;
 }
 
-#romanji-container {
+#description-container {
     flex: 0 0 5rem;
     font-size: 3rem;
     color: #999;
@@ -69,13 +69,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #hiragana-container {
+    #word-container {
         padding-top: 1rem;
         flex: 0 0 5rem;
         font-size: 4rem;
     }
 
-    #romanji-container {
+    #description-container {
         flex: 0 0 3rem;
         font-size: 2.5rem;
     }

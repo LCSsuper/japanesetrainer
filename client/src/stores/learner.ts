@@ -1,28 +1,20 @@
-import { makeAutoObservable, runInAction } from "mobx";
+import { makeAutoObservable } from "mobx";
 import autoBind from "auto-bind";
 
-import library from "./data/0-1000-translations.json";
+import japaneseLibrary from "./data/0-1000-japanese.json";
+import spanishLibrary from "./data/0-1000-spanish.json";
 import SettingsStore from "./settings";
+import { shuffle } from "./utils/shuffle";
 
 export type Word = {
-    hiragana: string;
-    romanji: string;
-    english: string[];
+    word: string;
+    description: string;
+    translation: string[];
 };
 
-const shuffle = (array: any[]): void => {
-    let currentIndex = array.length,
-        randomIndex;
-
-    while (currentIndex !== 0) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex],
-            array[currentIndex],
-        ];
-    }
+const libraries = {
+    japanese: japaneseLibrary,
+    spanish: spanishLibrary,
 };
 
 export default class LearnerStore {
@@ -37,12 +29,14 @@ export default class LearnerStore {
     constructor(settingsStore: SettingsStore) {
         makeAutoObservable(this);
         this.settingsStore = settingsStore;
-        this.library = library;
+        this.library = libraries[settingsStore.language];
         autoBind(this);
     }
 
     reset = () => {
-        this.selectedLibrary = library.slice(...this.settingsStore.range);
+        this.selectedLibrary = libraries[this.settingsStore.language].slice(
+            ...this.settingsStore.range
+        );
         shuffle(this.selectedLibrary);
         this.wordIndex = 0;
         this.guessIsCorrect = false;
@@ -54,20 +48,18 @@ export default class LearnerStore {
     }
 
     setCurrentGuess = (guess: string) => {
-        runInAction(() => {
-            this.currentGuess = guess;
-        });
+        this.currentGuess = guess;
         this.checkCurrentGuess();
     };
 
     checkCurrentGuess = () => {
         if (
-            this.currentWord.english.includes(this.currentGuess.toLowerCase())
+            this.currentWord.translation.includes(
+                this.currentGuess.toLowerCase()
+            )
         ) {
-            runInAction(() => {
-                this.guessIsCorrect = true;
-                this.currentGuess = "";
-            });
+            this.guessIsCorrect = true;
+            this.currentGuess = "";
         }
     };
 
@@ -79,6 +71,7 @@ export default class LearnerStore {
             return;
         }
         this.wordIndex = nextWordIndex;
+        this.currentGuess = "";
         this.guessIsCorrect = false;
         this.shouldShowAnswer = false;
     };
