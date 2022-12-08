@@ -6,12 +6,13 @@ import "./menu.css";
 const flags = {
     japanese: "🇯🇵",
     spanish: "🇪🇸",
+    english: "🇬🇧",
 };
 
 const Menu = observer(() => {
     const {
         routerStore: { setCurrentRoute },
-        learnerStore: { reset },
+        learnerStore: { reset, setEnglishToJapanese },
         challengeStore: { initialize },
         settingsStore: { language },
     } = useMobxStores();
@@ -19,18 +20,30 @@ const Menu = observer(() => {
     return (
         <>
             <div className="menu-container">
-                <i>{`Selected language: ${flags[language]} ${language}`}</i>
+                <i
+                    onClick={() => setCurrentRoute("settings")}
+                >{`Selected language: ${flags[language]} ${language}`}</i>
                 <div id="title">Language Trainer</div>
                 <div id="subtitle">
                     Learn a language by learning the most common words
                 </div>
                 <button
                     onClick={() => {
+                        setEnglishToJapanese(false);
                         reset();
                         setCurrentRoute("learner");
                     }}
                 >
-                    Training
+                    {`Training (${flags[language]} - ${flags["english"]})`}
+                </button>
+                <button
+                    onClick={() => {
+                        setEnglishToJapanese(true);
+                        reset();
+                        setCurrentRoute("learner");
+                    }}
+                >
+                    {`Training (${flags["english"]} - ${flags[language]})`}
                 </button>
                 <button
                     onClick={() => {
@@ -38,7 +51,7 @@ const Menu = observer(() => {
                         setCurrentRoute("challenge");
                     }}
                 >
-                    Daily Challenge
+                    {`Daily Challenge (${flags[language]} - ${flags["english"]})`}
                 </button>
                 <button onClick={() => setCurrentRoute("settings")}>
                     Settings

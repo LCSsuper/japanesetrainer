@@ -9,6 +9,10 @@
     padding-top: 0.5rem;
 }
 
+.menu-container i:hover {
+    cursor: pointer;
+}
+
 .menu-container button {
     width: 50%;
     margin-bottom: 1rem;

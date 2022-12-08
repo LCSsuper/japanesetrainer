@@ -25,6 +25,7 @@ export default class LearnerStore {
     shouldShowAnswer: boolean = false;
     library: Word[];
     selectedLibrary: Word[] = [];
+    englishToJapanese: boolean = false;
 
     constructor(settingsStore: SettingsStore) {
         makeAutoObservable(this);
@@ -37,6 +38,13 @@ export default class LearnerStore {
         this.selectedLibrary = libraries[this.settingsStore.language].slice(
             ...this.settingsStore.range
         );
+        if (this.englishToJapanese) {
+            this.selectedLibrary = this.selectedLibrary.map((lib) => ({
+                word: lib.translation.join(", "),
+                description: "",
+                translation: [lib.word, lib.description].filter((e) => !!e),
+            }));
+        }
         shuffle(this.selectedLibrary);
         this.wordIndex = 0;
         this.guessIsCorrect = false;
@@ -56,7 +64,12 @@ export default class LearnerStore {
         if (
             this.currentWord.translation.includes(
                 this.currentGuess.toLowerCase()
-            )
+            ) ||
+            this.currentWord.translation
+                .map((answer) =>
+                    answer.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                )
+                .includes(this.currentGuess.toLowerCase())
         ) {
             this.guessIsCorrect = true;
             this.currentGuess = "";
@@ -64,6 +77,7 @@ export default class LearnerStore {
     };
 
     nextWord = () => {
+        document.documentElement.scrollTop = 0;
         const nextWordIndex = this.wordIndex + 1;
         const libraryLength = this.selectedLibrary.length;
         if (nextWordIndex >= libraryLength) {
@@ -78,5 +92,9 @@ export default class LearnerStore {
 
     showAnswer = () => {
         this.shouldShowAnswer = true;
+    };
+
+    setEnglishToJapanese = (onOrOff: boolean) => {
+        this.englishToJapanese = onOrOff;
     };
 }

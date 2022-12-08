@@ -67,6 +67,12 @@ const Challenge = observer(() => {
         setTimeout(() => setShowCopied(false), 2000);
     };
 
+    const onFocus = () => {
+        setTimeout(() => {
+            document.documentElement.scrollTop = 0;
+        }, 100);
+    };
+
     return (
         <div className="challenge-container">
             <Timer timeLeft={timeLeft}></Timer>
@@ -140,6 +146,7 @@ const Challenge = observer(() => {
                                     onChange={onInputChange}
                                     value={currentGuess}
                                     onKeyDown={onKeyDown}
+                                    onFocus={onFocus}
                                 />
                                 <div id="button-container">
                                     <button onClick={onSkip}>next</button>

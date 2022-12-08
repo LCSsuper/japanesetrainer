@@ -40,6 +40,12 @@ const Learner = observer(() => {
         showAnswer();
     };
 
+    const onFocus = () => {
+        setTimeout(() => {
+            document.documentElement.scrollTop = 0;
+        }, 100);
+    };
+
     return (
         <div
             className={`learner-container ${guessIsCorrect ? "correct" : ""} ${
@@ -73,6 +79,7 @@ const Learner = observer(() => {
                             onChange={onInputChange}
                             value={currentGuess}
                             onKeyDown={onKeyDown}
+                            onFocus={onFocus}
                         />
                         <div id="button-container">
                             <button onClick={onSkip}>next</button>

@@ -24,6 +24,8 @@ const libraries = {
     spanish: spanishLibrary,
 };
 
+const challengeLength = 3;
+
 export default class ChallengeStore {
     settingsStore: SettingsStore;
     wordIndex: number = 0;
@@ -44,6 +46,7 @@ export default class ChallengeStore {
     finished: boolean = false;
     wordsShown: Set<number> = new Set<number>();
     wordsSkipped: Set<number> = new Set<number>();
+    wordsCorrect: Set<number> = new Set<number>();
 
     constructor(settingsStore: SettingsStore) {
         makeAutoObservable(this);
@@ -62,10 +65,11 @@ export default class ChallengeStore {
         };
         shuffle(this.library);
         let index = Math.floor(Math.random() * 1000);
-        if (index >= this.library.length - 10) index = index - 10;
+        if (index >= this.library.length - challengeLength)
+            index = index - challengeLength;
         this.selectedLibrary = libraries[this.settingsStore.language].slice(
             index,
-            index + 10
+            index + challengeLength
         );
         this.wordIndex = 0;
         this.guessIsCorrect = false;
@@ -89,12 +93,21 @@ export default class ChallengeStore {
             )
         ) {
             this.score.correct = this.score.correct + 1;
+            this.wordsCorrect.add(this.wordIndex);
             this.guessIsCorrect = true;
             this.currentGuess = "";
+            if (this.wordsCorrect.size === challengeLength) {
+                clearInterval(this.intervalId);
+                this.challengeOngoing = false;
+                this.finished = true;
+                this.timeLeft = 0;
+                this.saveScore();
+            }
         }
     };
 
     nextWord = (isSkip = false) => {
+        document.documentElement.scrollTop = 0;
         if (
             isSkip &&
             !this.shouldShowAnswer &&
@@ -103,12 +116,14 @@ export default class ChallengeStore {
             this.score.skipped = this.score.skipped + 1;
             this.wordsSkipped.add(this.wordIndex);
         }
-        const nextWordIndex = this.wordIndex + 1;
         const libraryLength = this.selectedLibrary.length;
         this.currentGuess = "";
         this.guessIsCorrect = false;
         this.shouldShowAnswer = false;
-        this.wordIndex = nextWordIndex >= libraryLength ? 0 : nextWordIndex;
+        do {
+            const nextWordIndex = this.wordIndex + 1;
+            this.wordIndex = nextWordIndex >= libraryLength ? 0 : nextWordIndex;
+        } while (this.wordsCorrect.has(this.wordIndex));
     };
 
     showAnswer = () => {
