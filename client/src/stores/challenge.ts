@@ -24,8 +24,6 @@ const libraries = {
     spanish: spanishLibrary,
 };
 
-const challengeLength = 3;
-
 export default class ChallengeStore {
     settingsStore: SettingsStore;
     wordIndex: number = 0;
@@ -47,6 +45,7 @@ export default class ChallengeStore {
     wordsShown: Set<number> = new Set<number>();
     wordsSkipped: Set<number> = new Set<number>();
     wordsCorrect: Set<number> = new Set<number>();
+    challengeLength: number = 10;
 
     constructor(settingsStore: SettingsStore) {
         makeAutoObservable(this);
@@ -65,11 +64,11 @@ export default class ChallengeStore {
         };
         shuffle(this.library);
         let index = Math.floor(Math.random() * 1000);
-        if (index >= this.library.length - challengeLength)
-            index = index - challengeLength;
+        if (index >= this.library.length - this.challengeLength)
+            index = index - this.challengeLength;
         this.selectedLibrary = libraries[this.settingsStore.language].slice(
             index,
-            index + challengeLength
+            index + this.challengeLength
         );
         this.wordIndex = 0;
         this.guessIsCorrect = false;
@@ -96,7 +95,7 @@ export default class ChallengeStore {
             this.wordsCorrect.add(this.wordIndex);
             this.guessIsCorrect = true;
             this.currentGuess = "";
-            if (this.wordsCorrect.size === challengeLength) {
+            if (this.wordsCorrect.size === this.challengeLength) {
                 clearInterval(this.intervalId);
                 this.challengeOngoing = false;
                 this.finished = true;

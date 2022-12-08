@@ -34,6 +34,7 @@ const Challenge = observer(() => {
             startChallenge,
             finished,
             score,
+            challengeLength,
         },
         settingsStore: { showDescription },
     } = useMobxStores();
@@ -80,8 +81,8 @@ const Challenge = observer(() => {
                 <>
                     <div className="explanation">
                         <div>
-                            In the daily challenge, you have to guess 10 random
-                            words within 30 seconds.
+                            In the daily challenge, you have to guess{" "}
+                            {challengeLength} random words within 30 seconds.
                         </div>
                         <div>
                             You are allowed to show the answer and return to the
