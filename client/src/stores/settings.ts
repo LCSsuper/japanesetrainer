@@ -5,7 +5,7 @@ export default class SettingsStore {
     range: [number, number] = [0, 10];
     showDescription: boolean = true;
     darkMode: boolean = true;
-    language: "japanese" | "spanish" = "japanese";
+    language: "japanese" | "spanish" | "swedish" = "japanese";
 
     constructor() {
         makeAutoObservable(this);
@@ -29,7 +29,7 @@ export default class SettingsStore {
     };
 
     setLanguage = (language: string) => {
-        this.language = language as "japanese" | "spanish";
+        this.language = language as "japanese" | "spanish" | "swedish";
         this.saveSettings();
     };
 

@@ -3,6 +3,7 @@ import autoBind from "auto-bind";
 
 import japaneseLibrary from "./data/0-1000-japanese.json";
 import spanishLibrary from "./data/0-1000-spanish.json";
+import swedishLibrary from "./data/0-1000-swedish.json";
 import SettingsStore from "./settings";
 import { shuffle } from "./utils/shuffle";
 
@@ -15,6 +16,7 @@ export type Word = {
 const libraries = {
     japanese: japaneseLibrary,
     spanish: spanishLibrary,
+    swedish: swedishLibrary,
 };
 
 export default class LearnerStore {

@@ -45,6 +45,7 @@ const Settings = observer(() => {
                 >
                     <option value="japanese">Japanese</option>
                     <option value="spanish">Spanish</option>
+                    <option value="swedish">Swedish</option>
                 </select>
             </div>
             <div className="header">Training</div>

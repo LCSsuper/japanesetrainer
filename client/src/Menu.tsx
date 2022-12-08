@@ -7,6 +7,7 @@ const flags = {
     japanese: "🇯🇵",
     spanish: "🇪🇸",
     english: "🇬🇧",
+    swedish: "🇸🇪",
 };
 
 const Menu = observer(() => {
