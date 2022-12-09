@@ -8,6 +8,7 @@ const flags = {
     spanish: "🇪🇸",
     english: "🇬🇧",
     swedish: "🇸🇪",
+    papiamento: "🇦🇼",
 };
 
 const Menu = observer(() => {

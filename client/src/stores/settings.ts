@@ -1,11 +1,13 @@
 import { makeAutoObservable } from "mobx";
 import autoBind from "auto-bind";
 
+type Language = "japanese" | "spanish" | "swedish" | "papiamento";
+
 export default class SettingsStore {
     range: [number, number] = [0, 10];
     showDescription: boolean = true;
     darkMode: boolean = true;
-    language: "japanese" | "spanish" | "swedish" = "japanese";
+    language: Language = "japanese";
 
     constructor() {
         makeAutoObservable(this);
@@ -29,7 +31,7 @@ export default class SettingsStore {
     };
 
     setLanguage = (language: string) => {
-        this.language = language as "japanese" | "spanish" | "swedish";
+        this.language = language as Language;
         this.saveSettings();
     };
 

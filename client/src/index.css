@@ -27,7 +27,7 @@ input {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container.dark,
@@ -96,9 +96,10 @@ input {
 .inner-container {
     max-width: 100vw;
     width: 80rem;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     padding: 0 3rem;
+    padding-bottom: 3rem;
 }
 
 #menu-button {

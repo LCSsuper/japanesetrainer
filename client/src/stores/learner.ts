@@ -4,6 +4,7 @@ import autoBind from "auto-bind";
 import japaneseLibrary from "./data/0-1000-japanese.json";
 import spanishLibrary from "./data/0-1000-spanish.json";
 import swedishLibrary from "./data/0-1000-swedish.json";
+import papiamentoLibrary from "./data/0-264-papiamento.json";
 import SettingsStore from "./settings";
 import { shuffle } from "./utils/shuffle";
 
@@ -17,6 +18,7 @@ const libraries = {
     japanese: japaneseLibrary,
     spanish: spanishLibrary,
     swedish: swedishLibrary,
+    papiamento: papiamentoLibrary,
 };
 
 export default class LearnerStore {
@@ -25,15 +27,17 @@ export default class LearnerStore {
     currentGuess: string = "";
     guessIsCorrect: boolean = false;
     shouldShowAnswer: boolean = false;
-    library: Word[];
     selectedLibrary: Word[] = [];
     englishToJapanese: boolean = false;
 
     constructor(settingsStore: SettingsStore) {
         makeAutoObservable(this);
         this.settingsStore = settingsStore;
-        this.library = libraries[settingsStore.language];
         autoBind(this);
+    }
+
+    get library() {
+        return libraries[this.settingsStore.language];
     }
 
     reset = () => {
