@@ -68,6 +68,11 @@
     box-sizing: border-box;
 }
 
+#input-container #input {
+    box-sizing: border-box;
+    padding: 0.3rem;
+}
+
 @media only screen and (max-width: 768px) {
     #word-container {
         padding-top: 1rem;
@@ -94,13 +99,35 @@
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    #input-container #button-container span {
+        font-size: 0.4rem;
+    }
+}
+
 #input-container #button-container {
     display: flex;
     flex-direction: row;
 }
 
-#input-container #button-container button {
+#input-container #button-container div {
     flex: 1 1 auto;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#input-container #button-container button {
+    width: 100%;
+}
+
+#input-container #button-container span {
+    position: absolute;
+    left: 1rem;
+    bottom: 0.5rem;
+    background: none;
+    opacity: 0.5;
+    font-style: italic;
 }
 
 .learner-container #count {
@@ -108,4 +135,18 @@
     right: 0.5rem;
     top: 0.5rem;
     display: inline-block;
+}
+
+.learner-container #range-explanation {
+    position: absolute;
+    left: 50vw;
+    transform: translateX(-50%);
+    bottom: 1rem;
+    opacity: 0.5;
+    font-size: 0.9rem;
+    padding-top: 0.2rem;
+}
+
+.learner-container #range-explanation:hover {
+    cursor: pointer;
 }

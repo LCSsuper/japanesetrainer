@@ -4,6 +4,8 @@ import { useMobxStores } from "./hooks/useMobxStores";
 import "./challenge.css";
 
 const ENTER = 13;
+const ONE = 49;
+const TWO = 50;
 
 const Timer = ({ timeLeft }: { timeLeft: number }) => {
     if (timeLeft === 0) return <></>;
@@ -47,9 +49,12 @@ const Challenge = observer(() => {
     };
 
     const onKeyDown = (e: any) => {
-        if ((!guessIsCorrect && !shouldShowAnswer) || e.keyCode !== ENTER)
-            return;
-        nextWord();
+        if (![ONE, TWO, ENTER].includes(e.keyCode)) return;
+        e.preventDefault();
+        if (e.keyCode === ONE) nextWord();
+        if (e.keyCode === TWO) showAnswer();
+        if (!guessIsCorrect && !shouldShowAnswer) return;
+        if (e.keyCode === ENTER) nextWord();
     };
 
     const onSkip = () => {
@@ -142,23 +147,32 @@ const Challenge = observer(() => {
                                         ? "(press Enter for the next word)"
                                         : ""}
                                 </p>
-                                <input
-                                    type="text"
-                                    onChange={onInputChange}
-                                    value={currentGuess}
-                                    onKeyDown={onKeyDown}
-                                    onFocus={onFocus}
-                                />
+                                <div id="input">
+                                    <input
+                                        type="text"
+                                        onChange={onInputChange}
+                                        value={currentGuess}
+                                        onKeyDown={onKeyDown}
+                                        onFocus={onFocus}
+                                    />
+                                </div>
                                 <div id="button-container">
-                                    <button onClick={onSkip}>next</button>
-                                    <button
-                                        disabled={
-                                            shouldShowAnswer || guessIsCorrect
-                                        }
-                                        onClick={onShowAnswer}
-                                    >
-                                        show answer
-                                    </button>
+                                    <div>
+                                        <button onClick={onSkip}>next</button>
+                                        <span>Press 1</span>
+                                    </div>
+                                    <div>
+                                        <button
+                                            disabled={
+                                                shouldShowAnswer ||
+                                                guessIsCorrect
+                                            }
+                                            onClick={onShowAnswer}
+                                        >
+                                            show answer
+                                        </button>
+                                        <span>Press 2</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

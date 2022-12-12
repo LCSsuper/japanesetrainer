@@ -167,7 +167,7 @@
     {
         "word": "熱い",
         "description": "atsui",
-        "translation": ["hot (to touch)"]
+        "translation": ["hot", "hot to touch"]
     },
     {
         "word": "どうぞ",
@@ -227,7 +227,7 @@
     {
         "word": "一つ",
         "description": "hitotsu",
-        "translation": ["one (thing)"]
+        "translation": ["one", "one (thing)"]
     },
     {
         "word": "あげる",
@@ -252,7 +252,7 @@
     {
         "word": "始める",
         "description": "hajimeru",
-        "translation": ["start (something)"]
+        "translation": ["start", "start (something)"]
     },
     {
         "word": "起きる",
@@ -262,12 +262,7 @@
             "get out of bed",
             "occur",
             "happen",
-            "wake up",
-            "get up",
-            "occur",
-            "happen",
-            "wake up",
-            "get up"
+            "wake up"
         ]
     },
     {
@@ -428,7 +423,7 @@
     {
         "word": "大好き",
         "description": "daisuki",
-        "translation": ["like (something) a lot"]
+        "translation": ["like a lot", "like (something) a lot"]
     },
     {
         "word": "体",
@@ -528,7 +523,7 @@
     {
         "word": "起こす",
         "description": "okosu",
-        "translation": ["wake (someone) up"]
+        "translation": ["wake up", "wake (someone) up"]
     },
     {
         "word": "見せる",
@@ -623,12 +618,12 @@
     {
         "word": "払う",
         "description": "harau",
-        "translation": ["pay (money", "respect", "attention", "etc.)"]
+        "translation": ["pay", "pay (money, respect, attention, etc.)"]
     },
     {
         "word": "軽い",
         "description": "karui",
-        "translation": ["light (of weight)"]
+        "translation": ["light", "light (of weight)"]
     },
     {
         "word": "見つける",
@@ -648,12 +643,12 @@
     {
         "word": "どちら",
         "description": "dochira",
-        "translation": ["which (polite)"]
+        "translation": ["which", "which (polite)"]
     },
     {
         "word": "姉",
         "description": "ane",
-        "translation": ["(one’s own) older sister"]
+        "translation": ["older sister", "(one’s own) older sister"]
     },
     {
         "word": "覚える",
@@ -783,7 +778,7 @@
     {
         "word": "浴びる",
         "description": "abiru",
-        "translation": ["take (a shower)"]
+        "translation": ["take", "take (a shower)"]
     },
     {
         "word": "肩",
@@ -843,7 +838,7 @@
     {
         "word": "ドア",
         "description": "doa",
-        "translation": ["door (loan word)"]
+        "translation": ["door"]
     },
     {
         "word": "女の子",
@@ -863,14 +858,7 @@
     {
         "word": "近く",
         "description": "chikaku",
-        "translation": [
-            "near",
-            "close to",
-            "in the near future",
-            "before long",
-            "in the near future",
-            "before long"
-        ]
+        "translation": ["near", "close to", "in the near future", "before long"]
     },
     {
         "word": "やる",
@@ -920,327 +908,292 @@
     {
         "word": "いる",
         "description": "iru",
-        "translation": ["be present", "stay", "be present", "stay"]
+        "translation": ["be present", "stay"]
     },
     {
         "word": "木",
         "description": "ki",
-        "translation": ["tree", "wood", "tree", "wood"]
+        "translation": ["tree", "wood"]
     },
     {
         "word": "開ける",
         "description": "akeru",
-        "translation": [
-            "open",
-            "unlock (doors",
-            "windows",
-            "etc.)",
-            "open",
-            "unlock (doors",
-            "windows",
-            "etc.)"
-        ]
+        "translation": ["open", "unlock", "unlock (doors, windows, etc.)"]
     },
     {
         "word": "閉める",
         "description": "shimeru",
-        "translation": [
-            "shut",
-            "close (doors",
-            "windows",
-            "etc.)",
-            "shut",
-            "close (doors",
-            "windows",
-            "etc.)"
-        ]
+        "translation": ["shut", "close", "close (doors, windows, etc.)"]
     },
     {
         "word": "続く",
         "description": "tsuzuku",
-        "translation": ["continue", "follow", "continue", "follow"]
+        "translation": ["continue", "follow"]
     },
     {
         "word": "お医者さん",
         "description": "oishasan",
-        "translation": ["doctor (polite)", "doctor (polite)"]
+        "translation": ["doctor", "doctor (polite)"]
     },
     {
         "word": "円",
         "description": "en",
-        "translation": ["Japanese yen", "Japanese yen", "circle"]
+        "translation": ["Japanese yen", "circle"]
     },
     {
         "word": "ここ",
         "description": "koko",
-        "translation": ["here", "here"]
+        "translation": ["here"]
     },
     {
         "word": "待つ",
         "description": "matsu",
-        "translation": ["wait", "wait for", "wait", "wait for"]
+        "translation": ["wait", "wait for"]
     },
     {
         "word": "低い",
         "description": "hikui",
-        "translation": ["low", "short", "low", "short"]
+        "translation": ["low", "short"]
     },
     {
         "word": "もらう",
         "description": "morau",
-        "translation": ["receive", "receive"]
+        "translation": ["receive"]
     },
     {
         "word": "食べる",
         "description": "taberu",
-        "translation": ["eat", "eat"]
+        "translation": ["eat"]
     },
     {
         "word": "兄",
         "description": "ani",
-        "translation": [
-            "(one’s own) older brother",
-            "(one’s own) older brother"
-        ]
+        "translation": ["older brother", "(one’s own) older brother"]
     },
     {
         "word": "名前",
         "description": "namae",
-        "translation": ["name", "name"]
+        "translation": ["name"]
     },
     {
         "word": "夫",
         "description": "otto",
-        "translation": ["husband", "husband"]
+        "translation": ["husband"]
     },
     {
         "word": "一",
         "description": "ichi",
-        "translation": ["one", "one"]
+        "translation": ["one"]
     },
     {
         "word": "結婚",
         "description": "kekkon",
-        "translation": ["marriage", "marriage"]
+        "translation": ["marriage"]
     },
     {
         "word": "親",
         "description": "oya",
-        "translation": ["parent", "parent"]
+        "translation": ["parent"]
     },
     {
         "word": "話す",
         "description": "hanasu",
-        "translation": ["speak", "talk", "speak", "talk"]
+        "translation": ["speak", "talk"]
     },
     {
         "word": "少し",
         "description": "sukoshi",
-        "translation": ["a bit", "a little while", "a bit", "a little while"]
+        "translation": ["a bit", "a little while"]
     },
     {
         "word": "閉じる",
         "description": "tojiru",
-        "translation": [
-            "shut",
-            "close (books",
-            "eyes",
-            "etc.)",
-            "shut",
-            "close (books",
-            "eyes",
-            "etc.)"
-        ]
+        "translation": ["shut", "close", "close (books, eyes, etc.)"]
     },
     {
         "word": "時",
         "description": "toki",
-        "translation": ["time", "moment", "time", "moment"]
+        "translation": ["time", "moment"]
     },
     {
         "word": "米",
         "description": "kome",
-        "translation": ["rice (grain)", "rice (grain)"]
+        "translation": ["rice", "rice (grain)"]
     },
     {
         "word": "切る",
         "description": "kiru",
-        "translation": ["cut", "cut"]
+        "translation": ["cut"]
     },
     {
         "word": "楽しい",
         "description": "tanoshii",
-        "translation": ["fun", "enjoyable", "fun", "enjoyable"]
+        "translation": ["fun", "enjoyable"]
     },
     {
         "word": "服",
         "description": "fuku",
-        "translation": ["clothes", "clothes"]
+        "translation": ["clothes"]
     },
     {
         "word": "後ろ",
         "description": "ushiro",
-        "translation": ["back", "behind", "back", "behind"]
+        "translation": ["back", "behind"]
     },
     {
         "word": "嬉しい",
         "description": "ureshii",
-        "translation": ["happy", "glad", "happy", "glad"]
+        "translation": ["happy", "glad"]
     },
     {
         "word": "腰",
         "description": "koshi",
-        "translation": ["waist", "lower back", "waist", "lower back"]
+        "translation": ["waist", "lower back"]
     },
     {
         "word": "日曜日",
         "description": "nichiyoubi",
-        "translation": ["Sunday", "Sunday"]
+        "translation": ["Sunday"]
     },
     {
         "word": "昼",
         "description": "hiru",
-        "translation": ["daytime", "midday", "daytime", "midday"]
+        "translation": ["daytime", "midday"]
     },
     {
         "word": "お母さん",
         "description": "okaasan",
-        "translation": ["mother", "mother"]
+        "translation": ["mother"]
     },
     {
         "word": "大学生",
         "description": "daigakusei",
-        "translation": ["university student", "university student"]
+        "translation": ["university student"]
     },
     {
         "word": "終わり",
         "description": "owari",
-        "translation": ["end", "conclusion", "end", "conclusion"]
+        "translation": ["end", "conclusion"]
     },
     {
         "word": "背",
         "description": "se",
-        "translation": ["height", "stature", "height", "stature"]
+        "translation": ["height", "stature"]
     },
     {
         "word": "手伝う",
         "description": "tetsudau",
-        "translation": ["help", "assist", "help", "assist"]
+        "translation": ["help", "assist"]
     },
     {
         "word": "鼻",
         "description": "hana",
-        "translation": ["nose", "nose"]
+        "translation": ["nose"]
     },
     {
         "word": "載せる",
         "description": "noseru",
-        "translation": ["place", "put on", "place", "put on"]
+        "translation": ["place", "put on"]
     },
     {
         "word": "悲しい",
         "description": "kanashii",
-        "translation": ["sad", "sad"]
+        "translation": ["sad"]
     },
     {
         "word": "しゃべる",
         "description": "shaberu",
-        "translation": ["chat", "talk", "chat", "talk"]
+        "translation": ["chat", "talk"]
     },
     {
         "word": "甘い",
         "description": "amai",
-        "translation": ["sweet", "sweet"]
+        "translation": ["sweet"]
     },
     {
         "word": "テーブル",
         "description": "te-buru",
-        "translation": ["table", "table"]
+        "translation": ["table"]
     },
     {
         "word": "食べ物",
         "description": "tabemono",
-        "translation": ["food", "food"]
+        "translation": ["food"]
     },
     {
         "word": "始まる",
         "description": "hajimaru",
-        "translation": ["begin", "begin"]
+        "translation": ["begin"]
     },
     {
         "word": "ゲーム",
         "description": "ge-mu",
-        "translation": ["game", "game"]
+        "translation": ["game"]
     },
     {
         "word": "十",
         "description": "juu",
-        "translation": ["ten", "ten"]
+        "translation": ["ten"]
     },
     {
         "word": "天気",
         "description": "tenki",
-        "translation": ["weather", "weather"]
+        "translation": ["weather"]
     },
     {
         "word": "暑い",
         "description": "atsui",
-        "translation": ["hot (of weather)", "hot (of weather)"]
+        "translation": ["hot", "hot of weather"]
     },
     {
         "word": "太い",
         "description": "futoi",
-        "translation": ["thick", "fat", "thick", "fat"]
+        "translation": ["thick", "fat"]
     },
     {
         "word": "晩",
         "description": "ban",
-        "translation": [
-            "evening",
-            "night (from sunset to bedtime)",
-            "evening",
-            "night (from sunset to bedtime)"
-        ]
+        "translation": ["evening", "night", "night (from sunset to bedtime)"]
     },
     {
         "word": "土曜日",
         "description": "doyoubi",
-        "translation": ["Saturday", "Saturday"]
+        "translation": ["Saturday"]
     },
     {
         "word": "痛い",
         "description": "itai",
-        "translation": ["sore", "painful", "sore", "painful"]
+        "translation": ["sore", "painful"]
     },
     {
         "word": "お父さん",
         "description": "otousan",
-        "translation": ["father", "dad", "father", "dad"]
+        "translation": ["father", "dad"]
     },
     {
         "word": "多分",
         "description": "tabun",
-        "translation": ["probably", "perhaps", "probably", "perhaps"]
+        "translation": ["probably", "perhaps"]
     },
     {
         "word": "時計",
         "description": "tokei",
-        "translation": ["clock", "watch", "clock", "watch"]
+        "translation": ["clock", "watch"]
     },
     {
         "word": "泊まる",
         "description": "tomaru",
-        "translation": ["stay overnight", "stay overnight"]
+        "translation": ["stay overnight"]
     },
     {
         "word": "どうして",
         "description": "doushite",
-        "translation": ["how come", "how come"]
+        "translation": ["how come"]
     },
     {
         "word": "掛ける",
         "description": "kakeru",
-        "translation": ["hang", "put on", "hang", "put on"]
+        "translation": ["hang", "put on"]
     },
     {
         "word": "曲がる",
@@ -1260,7 +1213,7 @@
     {
         "word": "嫌い",
         "description": "kirai",
-        "translation": ["dislike (habitual)"]
+        "translation": ["dislike", "dislike (habitual)"]
     },
     {
         "word": "金曜日",
@@ -1280,7 +1233,7 @@
     {
         "word": "風邪",
         "description": "kaze",
-        "translation": ["cold (illness)"]
+        "translation": ["cold", "cold (illness)"]
     },
     {
         "word": "黄色い",
@@ -1295,7 +1248,7 @@
     {
         "word": "晴れる",
         "description": "hareru",
-        "translation": ["be sunny", "clear up"]
+        "translation": ["sunny", "be sunny", "clear up"]
     },
     {
         "word": "汚い",
@@ -1360,7 +1313,7 @@
     {
         "word": "開く",
         "description": "hiraku",
-        "translation": ["open (books", "eyes", "etc.)", "open"]
+        "translation": ["open", "open (books, eyes, etc.)"]
     },
     {
         "word": "水",
@@ -1370,7 +1323,7 @@
     {
         "word": "あれ",
         "description": "are",
-        "translation": ["that (over there)"]
+        "translation": ["that", "that (over there)"]
     },
     {
         "word": "二",
@@ -1385,7 +1338,7 @@
     {
         "word": "まずい",
         "description": "mazui",
-        "translation": ["bad (taste)", "distasteful"]
+        "translation": ["bad taste", "distasteful"]
     },
     {
         "word": "平仮名",
@@ -1430,7 +1383,7 @@
     {
         "word": "こっち",
         "description": "kocchi",
-        "translation": ["here", "this way (casual)"]
+        "translation": ["here", "this way", "this way (casual)"]
     },
     {
         "word": "火曜日",
@@ -1455,7 +1408,7 @@
     {
         "word": "二つ",
         "description": "futatsu",
-        "translation": ["two (things)"]
+        "translation": ["two", "two things"]
     },
     {
         "word": "今晩",
@@ -1490,7 +1443,7 @@
     {
         "word": "四",
         "description": "yon",
-        "translation": ["four (Japanese origin)"]
+        "translation": ["four", "four (Japanese origin)"]
     },
     {
         "word": "これから",
@@ -1510,7 +1463,7 @@
     {
         "word": "変える",
         "description": "kaeru",
-        "translation": ["change (something)", "alter"]
+        "translation": ["change", "change (something)", "alter"]
     },
     {
         "word": "朝",
@@ -1601,7 +1554,8 @@
         "word": "九",
         "description": "kyu",
         "translation": [
-            "nine (used before counter words\nand in decimal places)"
+            "nine",
+            "nine (used before counter words and in decimal places)"
         ]
     },
     {
@@ -1622,7 +1576,7 @@
     {
         "word": "三つ",
         "description": "mittsu",
-        "translation": ["three (things)"]
+        "translation": ["three", "three (things)"]
     },
     {
         "word": "八日",
@@ -1647,7 +1601,7 @@
     {
         "word": "七",
         "description": "nana",
-        "translation": ["seven (Japanese origin)", "seven (Chinese origin)"]
+        "translation": ["seven", "seven (Japanese and Chinese origin)"]
     },
     {
         "word": "二十日",
@@ -1667,7 +1621,7 @@
     {
         "word": "四つ",
         "description": "yottsu",
-        "translation": ["four (things)"]
+        "translation": ["four", "four (things)"]
     },
     {
         "word": "暖かい",
@@ -1682,7 +1636,7 @@
     {
         "word": "いい",
         "description": "ii",
-        "translation": ["good (informal/spoken form)"]
+        "translation": ["good", "good (informal/spoken form)"]
     },
     {
         "word": "上",
@@ -1717,7 +1671,7 @@
     {
         "word": "九つ",
         "description": "kokonotsu",
-        "translation": ["nine (things)"]
+        "translation": ["nine", "nine (things)"]
     },
     {
         "word": "お願い",
@@ -1737,12 +1691,12 @@
     {
         "word": "寒い",
         "description": "samui",
-        "translation": ["cold (temperature of the air)"]
+        "translation": ["cold", "cold (temperature of the air)"]
     },
     {
         "word": "四",
         "description": "shi",
-        "translation": ["four (Chinese origin)"]
+        "translation": ["four", "four (Chinese origin)"]
     },
     {
         "word": "三日",
@@ -1772,12 +1726,12 @@
     {
         "word": "父",
         "description": "chichi",
-        "translation": ["(speaker’s) father"]
+        "translation": ["father", "(speaker’s) father"]
     },
     {
         "word": "母",
         "description": "haha",
-        "translation": ["(speaker’s) mother"]
+        "translation": ["mother", "(speaker’s) mother"]
     },
     {
         "word": "月",
@@ -1792,7 +1746,7 @@
     {
         "word": "冷たい",
         "description": "tsumetai",
-        "translation": ["cold (to touch)"]
+        "translation": ["cold", "cold (to touch)"]
     },
     {
         "word": "弟",
@@ -1822,7 +1776,7 @@
     {
         "word": "七つ",
         "description": "nanatsu",
-        "translation": ["seven (things)"]
+        "translation": ["seven", "seven (things)"]
     },
     {
         "word": "時々",
@@ -1862,7 +1816,7 @@
     {
         "word": "他",
         "description": "hoka",
-        "translation": ["other (Japanese origin)"]
+        "translation": ["other", "other (Japanese origin)"]
     },
     {
         "word": "僕",
@@ -1892,7 +1846,7 @@
     {
         "word": "五つ",
         "description": "itsutsu",
-        "translation": ["five (things)"]
+        "translation": ["five", "five (things)"]
     },
     {
         "word": "目",
@@ -1902,12 +1856,17 @@
     {
         "word": "八つ",
         "description": "yattsu",
-        "translation": ["eight (things)"]
+        "translation": ["eight", "eight (things)"]
     },
     {
         "word": "止める",
         "description": "tomeru",
-        "translation": ["stop (a car…). 止める (yameru) give up"]
+        "translation": ["stop", "stop (a car)"]
+    },
+    {
+        "word": "止める",
+        "description": "yameru",
+        "translation": ["stop", "stop (give up)"]
     },
     {
         "word": "四日",
@@ -1917,7 +1876,7 @@
     {
         "word": "夜",
         "description": "yoru",
-        "translation": ["night (from sunset to sunrise)"]
+        "translation": ["night", "night (from sunset to sunrise)"]
     },
     {
         "word": "来年",
@@ -1942,7 +1901,7 @@
     {
         "word": "ご主人",
         "description": "goshujin",
-        "translation": ["(someone else’s) husband"]
+        "translation": ["husband", "(someone else’s) husband"]
     },
     {
         "word": "本当に",
@@ -1977,7 +1936,7 @@
     {
         "word": "六つ",
         "description": "muttsu",
-        "translation": ["six (things)"]
+        "translation": ["six", "six (things)"]
     },
     {
         "word": "花",
@@ -2062,7 +2021,10 @@
     {
         "word": "昨年",
         "description": "sakunen",
-        "translation": ["last year (formal", "often used in writing)"]
+        "translation": [
+            "last year",
+            "last year (formal, often used in handwriting)"
+        ]
     },
     {
         "word": "治る",
@@ -2077,7 +2039,7 @@
     {
         "word": "システム",
         "description": "shisutemu",
-        "translation": ["system (loan word)"]
+        "translation": ["system"]
     },
     {
         "word": "以上",
@@ -2152,7 +2114,7 @@
     {
         "word": "上がる",
         "description": "agaru",
-        "translation": ["go up", "rise (physical movement)"]
+        "translation": ["go up", "rise", "rise (physical movement)"]
     },
     {
         "word": "集める",
@@ -2282,7 +2244,7 @@
     {
         "word": "あまり",
         "description": "amari",
-        "translation": ["(not) much"]
+        "translation": ["much", "not much", "(not) much"]
     },
     {
         "word": "写真",
@@ -2357,7 +2319,7 @@
     {
         "word": "クラス",
         "description": "kurasu",
-        "translation": ["class (in school)"]
+        "translation": ["class", "class (in school)"]
     },
     {
         "word": "黒い",
@@ -2407,7 +2369,7 @@
     {
         "word": "こちら",
         "description": "kochira",
-        "translation": ["here", "this way (polite)"]
+        "translation": ["here", "this way", "this way (polite)"]
     },
     {
         "word": "財布",
@@ -2442,7 +2404,7 @@
     {
         "word": "涼しい",
         "description": "suzushii",
-        "translation": ["cool (of temperature)"]
+        "translation": ["cool", "cool (of temperature)"]
     },
     {
         "word": "いくつ",
@@ -2497,7 +2459,7 @@
     {
         "word": "レシート",
         "description": "reshi-to",
-        "translation": ["receipt (loan word)"]
+        "translation": ["receipt"]
     },
     {
         "word": "ティッシュ",
@@ -2522,7 +2484,7 @@
     {
         "word": "パート",
         "description": "pa-to",
-        "translation": ["part-time"]
+        "translation": ["parttime", "part-time"]
     },
     {
         "word": "氏名",
@@ -2552,7 +2514,7 @@
     {
         "word": "何",
         "description": "nan",
-        "translation": ["what. それはなんですか. What is that?"]
+        "translation": ["what"]
     },
     {
         "word": "今朝",
@@ -2567,7 +2529,12 @@
     {
         "word": "履く",
         "description": "haku",
-        "translation": ["put on (shoes)", "wear (pants", "skirt)"]
+        "translation": [
+            "put on",
+            "put on (shoes)",
+            "wear",
+            "wear (pants, skirt)"
+        ]
     },
     {
         "word": "おじさん",
@@ -2592,7 +2559,7 @@
     {
         "word": "辞書",
         "description": "jisho",
-        "translation": ["dictionary (category)"]
+        "translation": ["dictionary", "dictionary (category)"]
     },
     {
         "word": "朝ご飯",
@@ -2607,12 +2574,12 @@
     {
         "word": "どっち",
         "description": "docchi",
-        "translation": ["which (casual)"]
+        "translation": ["which", "which (casual)"]
     },
     {
         "word": "そっち",
         "description": "socchi",
-        "translation": ["there (casual)"]
+        "translation": ["socchi", "there (casual)"]
     },
     {
         "word": "明日",
@@ -2772,7 +2739,7 @@
     {
         "word": "降る",
         "description": "furu",
-        "translation": ["fall", "come down (rain", "snow", "etc.)"]
+        "translation": ["fall", "come down", "come down (rain, snow, etc.)"]
     },
     {
         "word": "本当",
@@ -2797,17 +2764,17 @@
     {
         "word": "良い",
         "description": "yoi",
-        "translation": ["good (formal/written form)"]
+        "translation": ["good", "good (formal/written form)"]
     },
     {
         "word": "ようこそ",
         "description": "youkoso",
-        "translation": ["welcome (greeting)"]
+        "translation": ["welcome", "welcome (greeting)"]
     },
     {
         "word": "お土産",
         "description": "omiyage",
-        "translation": ["souvenir (polite)"]
+        "translation": ["souvenir", "souvenir (polite)"]
     },
     {
         "word": "両親",
@@ -2877,12 +2844,12 @@
     {
         "word": "生きる",
         "description": "ikiru",
-        "translation": ["live (one’s life)"]
+        "translation": ["live", "live (one’s life)"]
     },
     {
         "word": "動かす",
         "description": "ugokasu",
-        "translation": ["move (something)"]
+        "translation": ["move", "move (something)"]
     },
     {
         "word": "壊れる",
@@ -2947,7 +2914,7 @@
     {
         "word": "天ぷら",
         "description": "tempura",
-        "translation": ["Japanese deep-fried food"]
+        "translation": ["deep fried food", "Japanese deep-fried food"]
     },
     {
         "word": "肉",
@@ -2967,12 +2934,12 @@
     {
         "word": "連れて来る",
         "description": "tsuretekuru",
-        "translation": ["bring (a person)"]
+        "translation": ["bring someone", "bring (a person)"]
     },
     {
         "word": "方",
         "description": "kata",
-        "translation": ["person (polite form)"]
+        "translation": ["person", "person (polite form)"]
     },
     {
         "word": "零",
@@ -2997,12 +2964,12 @@
     {
         "word": "兄さん",
         "description": "niisan",
-        "translation": ["(one’s own) older brother (polite)"]
+        "translation": ["older brother", "(one’s own) older brother (polite)"]
     },
     {
         "word": "姉さん",
         "description": "neesan",
-        "translation": ["(one’s own) older sister (polite)"]
+        "translation": ["older sister", "(one’s own) older sister (polite)"]
     },
     {
         "word": "平成",
@@ -3067,7 +3034,7 @@
     {
         "word": "嫌",
         "description": "iya",
-        "translation": ["dislike (situational)"]
+        "translation": ["dislike", "dislike (situational)"]
     },
     {
         "word": "喧嘩",
@@ -3122,7 +3089,7 @@
     {
         "word": "当たる",
         "description": "ataru",
-        "translation": ["(go straight and) hit", "strike"]
+        "translation": ["hit", "(go straight and) hit", "strike"]
     },
     {
         "word": "集まる",
@@ -3142,7 +3109,7 @@
     {
         "word": "少年",
         "description": "shounen",
-        "translation": ["boy (between 7 and 18 years old)"]
+        "translation": ["boy", "boy (between 7 and 18 years old)"]
     },
     {
         "word": "孫",
@@ -3367,7 +3334,7 @@
     {
         "word": "曲がり角",
         "description": "magarikado",
-        "translation": ["corner (to turn)"]
+        "translation": ["corner", "corner (to turn)"]
     },
     {
         "word": "警察",
@@ -3617,7 +3584,7 @@
     {
         "word": "いくら",
         "description": "ikura",
-        "translation": ["how much (money)"]
+        "translation": ["how much", "how much (money)"]
     },
     {
         "word": "よろしく",
@@ -3837,7 +3804,7 @@
     {
         "word": "ランチ",
         "description": "ranchi",
-        "translation": ["lunch (loan word)"]
+        "translation": ["lunch"]
     },
     {
         "word": "魚",
@@ -3917,22 +3884,22 @@
     {
         "word": "おじ",
         "description": "oji",
-        "translation": ["(one’s own) uncle"]
+        "translation": ["uncle", "(one’s own) uncle"]
     },
     {
         "word": "おば",
         "description": "oba",
-        "translation": ["(one’s own) aunt"]
+        "translation": ["aunt", "(one’s own) aunt"]
     },
     {
         "word": "祖父",
         "description": "sofu",
-        "translation": ["grandfather (formal)"]
+        "translation": ["grandfather", "grandfather (formal)"]
     },
     {
         "word": "祖母",
         "description": "sobo",
-        "translation": ["grandmother (formal)"]
+        "translation": ["grandmother", "grandmother (formal)"]
     },
     {
         "word": "大事",
@@ -4072,7 +4039,7 @@
     {
         "word": "空港",
         "description": "kuukou",
-        "translation": ["airport (for public transportation)"]
+        "translation": ["airport", "airport (for public transportation)"]
     },
     {
         "word": "出発",
@@ -4097,7 +4064,7 @@
     {
         "word": "ガス",
         "description": "gasu",
-        "translation": ["gas (loan word)"]
+        "translation": ["gas"]
     },
     {
         "word": "必ず",
@@ -4442,7 +4409,7 @@
     {
         "word": "ガラス",
         "description": "garasu",
-        "translation": ["glass (material)"]
+        "translation": ["glass", "glass (material)"]
     },
     {
         "word": "風",
@@ -4577,7 +4544,7 @@
     {
         "word": "撮る",
         "description": "toru",
-        "translation": ["take (a photograph)", "film"]
+        "translation": ["take", "take (a photograph)", "film"]
     },
     {
         "word": "やっと",
