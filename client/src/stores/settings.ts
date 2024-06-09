@@ -1,7 +1,7 @@
 import { makeAutoObservable } from "mobx";
 import autoBind from "auto-bind";
 
-type Language = "japanese" | "spanish" | "swedish" | "papiamento";
+type Language = "japanese" | "spanish" | "swedish" | "papiamento" | "korean";
 
 export default class SettingsStore {
     range: [number, number] = [0, 10];

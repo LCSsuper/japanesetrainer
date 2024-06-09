@@ -5,6 +5,7 @@ import japaneseLibrary from "./data/0-1000-japanese.json";
 import spanishLibrary from "./data/0-1000-spanish.json";
 import swedishLibrary from "./data/0-1000-swedish.json";
 import papiamentoLibrary from "./data/0-264-papiamento.json";
+import koreanLibrary from "./data/0-1000-korean.json";
 import SettingsStore from "./settings";
 import { shuffle } from "./utils/shuffle";
 
@@ -26,6 +27,7 @@ const libraries = {
     spanish: spanishLibrary,
     swedish: swedishLibrary,
     papiamento: papiamentoLibrary,
+    korean: koreanLibrary,
 };
 
 export default class ChallengeStore {

@@ -9,6 +9,7 @@ const flags = {
     english: "🇬🇧",
     swedish: "🇸🇪",
     papiamento: "🇦🇼",
+    korean: "🇰🇷",
 };
 
 const Menu = observer(() => {

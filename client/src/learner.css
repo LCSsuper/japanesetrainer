@@ -24,10 +24,16 @@
     color: #999;
 }
 
-#answers-container {
+#guesses-container {
     flex: 0 0 2rem;
     font-size: 1.5rem;
     color: #999;
+}
+
+#answers-container {
+    flex: 0 0 2rem;
+    font-size: 1.5rem;
+    color: #999 !important;
 }
 
 #input-container {

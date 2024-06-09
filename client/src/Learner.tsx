@@ -15,17 +15,19 @@ const Learner = observer(() => {
             setCurrentGuess,
             currentGuess,
             guessIsCorrect,
-            shouldShowAnswer,
+            answerRevealed,
             showAnswer,
             selectedLibrary,
             wordIndex,
+            guessedTranslations,
+            remainingAnswers,
         },
         settingsStore: { showDescription },
         routerStore: { setCurrentRoute },
     } = useMobxStores();
 
     const onInputChange = (e: any) => {
-        if (guessIsCorrect || shouldShowAnswer) return;
+        if (!remainingAnswers.length) return;
         setCurrentGuess(e.target.value);
     };
 
@@ -34,7 +36,7 @@ const Learner = observer(() => {
         e.preventDefault();
         if (e.keyCode === ONE) nextWord();
         if (e.keyCode === TWO) showAnswer();
-        if (!guessIsCorrect && !shouldShowAnswer) return;
+        if (!guessIsCorrect && !answerRevealed) return;
         if (e.keyCode === ENTER) nextWord();
     };
 
@@ -52,12 +54,14 @@ const Learner = observer(() => {
         }, 100);
     };
 
+    const getWordClassName = () => {
+        if (guessIsCorrect) return "correct";
+        if (answerRevealed) return "incorrect";
+        return "";
+    };
+
     return (
-        <div
-            className={`learner-container ${guessIsCorrect ? "correct" : ""} ${
-                shouldShowAnswer ? "incorrect" : ""
-            }`}
-        >
+        <div className={`learner-container ${getWordClassName()}`}>
             <div id="count">{`${wordIndex + 1} of ${
                 selectedLibrary.length
             }`}</div>
@@ -69,12 +73,29 @@ const Learner = observer(() => {
             </div>
             <div id="word-container">{currentWord.word}</div>
             <div id="description-container">
-                {showDescription || guessIsCorrect || shouldShowAnswer
+                {showDescription || guessIsCorrect || answerRevealed
                     ? currentWord.description
                     : ""}
             </div>
+            <div id="guesses-container">
+                {guessIsCorrect
+                    ? `Guessed answers: ${
+                          guessIsCorrect
+                              ? guessedTranslations.join(", ")
+                              : currentWord.translation.join(", ")
+                      }`
+                    : ""}
+            </div>
+            <div id="remaining-answers">
+                {guessIsCorrect &&
+                !answerRevealed &&
+                remainingAnswers.length > 0
+                    ? `Remaining answers: ${remainingAnswers.length}`
+                    : ""}
+            </div>
             <div id="answers-container">
-                {guessIsCorrect || shouldShowAnswer
+                {(guessIsCorrect && remainingAnswers.length === 0) ||
+                answerRevealed
                     ? `Correct answers: ${currentWord.translation.join(", ")}`
                     : ""}
             </div>
@@ -82,8 +103,8 @@ const Learner = observer(() => {
                 <div>
                     <div>
                         <p>
-                            {guessIsCorrect || shouldShowAnswer
-                                ? "(press Enter for the next word)"
+                            {guessIsCorrect || answerRevealed
+                                ? "(press Enter to continue)"
                                 : ""}
                         </p>
                         <div id="input">
@@ -103,7 +124,8 @@ const Learner = observer(() => {
                             <div>
                                 <button
                                     disabled={
-                                        shouldShowAnswer || guessIsCorrect
+                                        answerRevealed ||
+                                        remainingAnswers.length === 0
                                     }
                                     onClick={onShowAnswer}
                                 >

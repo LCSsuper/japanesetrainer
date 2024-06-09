@@ -5,6 +5,7 @@ import japaneseLibrary from "./data/0-1000-japanese.json";
 import spanishLibrary from "./data/0-1000-spanish.json";
 import swedishLibrary from "./data/0-1000-swedish.json";
 import papiamentoLibrary from "./data/0-264-papiamento.json";
+import koreanLibrary from "./data/0-1000-korean.json";
 import SettingsStore from "./settings";
 import { shuffle } from "./utils/shuffle";
 
@@ -19,6 +20,7 @@ const libraries = {
     spanish: spanishLibrary,
     swedish: swedishLibrary,
     papiamento: papiamentoLibrary,
+    korean: koreanLibrary,
 };
 
 export default class LearnerStore {
@@ -26,8 +28,9 @@ export default class LearnerStore {
     wordIndex: number = 0;
     currentGuess: string = "";
     guessIsCorrect: boolean = false;
-    shouldShowAnswer: boolean = false;
+    answerRevealed: boolean = false;
     selectedLibrary: Word[] = [];
+    guessedTranslations: string[] = [];
     englishToJapanese: boolean = false;
 
     constructor(settingsStore: SettingsStore) {
@@ -54,7 +57,9 @@ export default class LearnerStore {
         shuffle(this.selectedLibrary);
         this.wordIndex = 0;
         this.guessIsCorrect = false;
-        this.shouldShowAnswer = false;
+        this.answerRevealed = false;
+        this.currentGuess = "";
+        this.guessedTranslations = [];
     };
 
     get currentWord(): Word {
@@ -68,16 +73,18 @@ export default class LearnerStore {
 
     checkCurrentGuess = () => {
         if (
-            this.currentWord.translation.includes(
+            (this.currentWord.translation.includes(
                 this.currentGuess.toLowerCase()
             ) ||
-            this.currentWord.translation
-                .map((answer) =>
-                    answer.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-                )
-                .includes(this.currentGuess.toLowerCase())
+                this.currentWord.translation
+                    .map((answer) =>
+                        answer.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                    )
+                    .includes(this.currentGuess.toLowerCase())) &&
+            !this.guessedTranslations.includes(this.currentGuess)
         ) {
             this.guessIsCorrect = true;
+            this.guessedTranslations.push(this.currentGuess);
             this.currentGuess = "";
         }
     };
@@ -92,15 +99,22 @@ export default class LearnerStore {
         }
         this.wordIndex = nextWordIndex;
         this.currentGuess = "";
+        this.guessedTranslations = [];
         this.guessIsCorrect = false;
-        this.shouldShowAnswer = false;
+        this.answerRevealed = false;
     };
 
     showAnswer = () => {
-        this.shouldShowAnswer = true;
+        this.answerRevealed = true;
     };
 
     setEnglishToJapanese = (onOrOff: boolean) => {
         this.englishToJapanese = onOrOff;
     };
+
+    get remainingAnswers() {
+        return this.currentWord.translation.filter(
+            (answer) => !this.guessedTranslations.includes(answer)
+        );
+    }
 }

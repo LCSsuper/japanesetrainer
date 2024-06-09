@@ -1,0 +1,19 @@
+{
+    "name": "scraper",
+    "version": "1.0.0",
+    "description": "Scrapes the top 1000 korean words from some site",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/puppeteer": "^7.0.4",
+        "aromanize": "^0.1.5",
+        "puppeteer": "^19.2.2",
+        "ts-node": "^10.9.1",
+        "tsc": "^2.0.4",
+        "typescript": "^4.9.3"
+    }
+}
