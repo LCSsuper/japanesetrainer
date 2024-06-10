@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { observer } from "mobx-react-lite";
 import { useMobxStores } from "./hooks/useMobxStores";
 import "./learner.css";
@@ -26,6 +26,8 @@ const Learner = observer(() => {
         routerStore: { setCurrentRoute },
     } = useMobxStores();
 
+    const inputRef = useRef<HTMLInputElement | null>(null);
+
     const onInputChange = (e: any) => {
         if (!remainingAnswers.length) return;
         setCurrentGuess(e.target.value);
@@ -37,7 +39,13 @@ const Learner = observer(() => {
         if (e.keyCode === ONE) nextWord();
         if (e.keyCode === TWO) showAnswer();
         if (!guessIsCorrect && !answerRevealed) return;
-        if (e.keyCode === ENTER) nextWord();
+        if (e.keyCode === ENTER) {
+            nextWord();
+            inputRef.current?.blur();
+            setTimeout(() => {
+                inputRef.current?.focus();
+            }, 0);
+        }
     };
 
     const onSkip = () => {
@@ -109,6 +117,7 @@ const Learner = observer(() => {
                         </p>
                         <div id="input">
                             <input
+                                ref={inputRef}
                                 type="text"
                                 onChange={onInputChange}
                                 value={currentGuess}
