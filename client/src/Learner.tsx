@@ -1,6 +1,7 @@
 import { observer } from "mobx-react-lite";
 import { useMobxStores } from "./hooks/useMobxStores";
 import "./learner.css";
+import { useRef } from "react";
 
 const ENTER = 13;
 const ONE = 49;
@@ -25,6 +26,8 @@ const Learner = observer(() => {
         settingsStore: { showDescription, ISOlanguage },
         routerStore: { setCurrentRoute },
     } = useMobxStores();
+
+    const ref = useRef<HTMLInputElement | null>(null);
 
     const onInputChange = (e: any) => {
         if (!remainingAnswers.length) return;
@@ -51,6 +54,7 @@ const Learner = observer(() => {
     };
 
     const onFocus = () => {
+        ref?.current?.removeAttribute("readonly");
         setTimeout(() => {
             document.documentElement.scrollTop = 0;
         }, 100);
@@ -111,14 +115,13 @@ const Learner = observer(() => {
                         </p>
                         <div id="input">
                             <input
+                                ref={ref}
                                 type="text"
                                 onChange={onInputChange}
                                 value={currentGuess}
                                 onKeyDown={onKeyDown}
                                 onFocus={onFocus}
-                                autoFocus
-                                autoComplete="new-passord"
-                                autoCorrect="off"
+                                readOnly
                                 lang={englishToJapanese ? ISOlanguage : "en"}
                             />
                         </div>
@@ -135,7 +138,7 @@ const Learner = observer(() => {
                                     }
                                     onClick={onShowAnswer}
                                 >
-                                    show test
+                                    show answer
                                 </button>
                                 <span>Press 2</span>
                             </div>
