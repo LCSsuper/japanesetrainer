@@ -57,4 +57,20 @@ export default class SettingsStore {
             language: this.language,
         } = JSON.parse(settings));
     };
+
+    get ISOlanguage() {
+        switch (this.language) {
+            case "japanese":
+                return "ja";
+            case "spanish":
+                return "es";
+            case "swedish":
+                return "sv";
+            case "papiamento":
+                return "pap";
+            case "korean":
+                return "ko";
+        }
+        return "en";
+    }
 }

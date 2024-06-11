@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from "react";
 import { observer } from "mobx-react-lite";
 import { useMobxStores } from "./hooks/useMobxStores";
 import "./learner.css";
@@ -21,8 +20,9 @@ const Learner = observer(() => {
             wordIndex,
             guessedTranslations,
             remainingAnswers,
+            englishToJapanese,
         },
-        settingsStore: { showDescription },
+        settingsStore: { showDescription, ISOlanguage },
         routerStore: { setCurrentRoute },
     } = useMobxStores();
 
@@ -118,6 +118,8 @@ const Learner = observer(() => {
                                 onFocus={onFocus}
                                 autoFocus
                                 autoComplete="off"
+                                autoCorrect="off"
+                                lang={englishToJapanese ? ISOlanguage : "en"}
                             />
                         </div>
                         <div id="button-container">
