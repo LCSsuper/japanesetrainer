@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { observer } from "mobx-react-lite";
 import { useMobxStores } from "./hooks/useMobxStores";
 import "./learner.css";
@@ -28,6 +28,16 @@ const Learner = observer(() => {
 
     const inputRef = useRef<HTMLInputElement | null>(null);
 
+    useEffect(() => {
+        if (!inputRef.current) return;
+        inputRef.current.blur();
+        inputRef.current.textContent = "";
+        setTimeout(() => {
+            if (!inputRef.current) return;
+            inputRef.current.focus();
+        }, 0);
+    }, [guessedTranslations]);
+
     const onInputChange = (e: any) => {
         if (!remainingAnswers.length) return;
         setCurrentGuess(e.target.value);
@@ -41,10 +51,6 @@ const Learner = observer(() => {
         if (!guessIsCorrect && !answerRevealed) return;
         if (e.keyCode === ENTER) {
             nextWord();
-            inputRef.current?.blur();
-            setTimeout(() => {
-                inputRef.current?.focus();
-            }, 0);
         }
     };
 
