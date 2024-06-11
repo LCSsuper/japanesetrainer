@@ -117,7 +117,7 @@ const Learner = observer(() => {
                                 onKeyDown={onKeyDown}
                                 onFocus={onFocus}
                                 autoFocus
-                                autoComplete="off"
+                                autoComplete="new-passord"
                                 autoCorrect="off"
                                 lang={englishToJapanese ? ISOlanguage : "en"}
                             />
