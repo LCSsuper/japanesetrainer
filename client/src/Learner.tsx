@@ -135,7 +135,7 @@ const Learner = observer(() => {
                                     }
                                     onClick={onShowAnswer}
                                 >
-                                    show answer
+                                    show test
                                 </button>
                                 <span>Press 2</span>
                             </div>
