@@ -26,18 +26,6 @@ const Learner = observer(() => {
         routerStore: { setCurrentRoute },
     } = useMobxStores();
 
-    const inputRef = useRef<HTMLInputElement | null>(null);
-
-    useEffect(() => {
-        if (!inputRef.current) return;
-        inputRef.current.blur();
-        inputRef.current.textContent = "";
-        setTimeout(() => {
-            if (!inputRef.current) return;
-            inputRef.current.focus();
-        }, 0);
-    }, [guessedTranslations]);
-
     const onInputChange = (e: any) => {
         if (!remainingAnswers.length) return;
         setCurrentGuess(e.target.value);
@@ -123,12 +111,13 @@ const Learner = observer(() => {
                         </p>
                         <div id="input">
                             <input
-                                ref={inputRef}
                                 type="text"
                                 onChange={onInputChange}
                                 value={currentGuess}
                                 onKeyDown={onKeyDown}
                                 onFocus={onFocus}
+                                autoFocus
+                                autoComplete="off"
                             />
                         </div>
                         <div id="button-container">
