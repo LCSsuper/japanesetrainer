@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
 import { useMobxStores } from "./hooks/useMobxStores";
 import "./learner.css";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const ENTER = 13;
 const ONE = 49;
@@ -29,6 +29,12 @@ const Learner = observer(() => {
 
     const ref = useRef<HTMLInputElement | null>(null);
 
+    useEffect(() => {
+        if (!ref.current) return;
+        if (guessedTranslations.length === 0) ref.current.focus();
+        if (guessedTranslations.length > 0) ref.current.blur();
+    }, [guessedTranslations]);
+
     const onInputChange = (e: any) => {
         if (!remainingAnswers.length) return;
         setCurrentGuess(e.target.value);
@@ -54,7 +60,6 @@ const Learner = observer(() => {
     };
 
     const onFocus = () => {
-        ref?.current?.removeAttribute("readonly");
         setTimeout(() => {
             document.documentElement.scrollTop = 0;
         }, 100);
@@ -121,7 +126,6 @@ const Learner = observer(() => {
                                 value={currentGuess}
                                 onKeyDown={onKeyDown}
                                 onFocus={onFocus}
-                                readOnly
                                 lang={englishToJapanese ? ISOlanguage : "en"}
                             />
                         </div>
