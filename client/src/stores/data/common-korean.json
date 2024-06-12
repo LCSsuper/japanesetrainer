@@ -46,7 +46,7 @@
     },
     {
         "word": "실례합니다",
-        "description": "jillyehabnida",
+        "description": "sillyehabnida",
         "translation": ["excuse me"]
     },
     {
@@ -461,17 +461,17 @@
     },
     {
         "word": "흥미롭다",
-        "description": "heungmilobda",
+        "description": "heungmirobda",
         "translation": ["to be interesting"]
     },
     {
         "word": "지루하다",
-        "description": "jiluhada",
+        "description": "jiruhada",
         "translation": ["to be boring"]
     },
     {
         "word": "어렵다",
-        "description": "eolyeobda",
+        "description": "eoryeobda",
         "translation": ["to be difficult"]
     },
     {
@@ -486,12 +486,12 @@
     },
     {
         "word": "더러워지다",
-        "description": "deoleowojida",
+        "description": "deoreowojida",
         "translation": ["to be dirty"]
     },
     {
         "word": "빠르다",
-        "description": "ppaleuda",
+        "description": "ppareuda",
         "translation": ["to be fast"]
     },
     {
@@ -521,7 +521,7 @@
     },
     {
         "word": "느리게",
-        "description": "neulige",
+        "description": "neurige",
         "translation": ["slow"]
     },
     {
