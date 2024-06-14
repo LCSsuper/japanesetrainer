@@ -10,13 +10,13 @@
         "translation": ["please"]
     },
     {
-        "word": "죄송합니다",
-        "description": "joesonghabnida",
+        "word": "미안해요",
+        "description": "mianhaeyo",
         "translation": ["sorry"]
     },
     {
         "word": "감사합니다",
-        "description": "gamsahabnida",
+        "description": "gamsahamnida",
         "translation": ["thank you"]
     },
     {
@@ -35,8 +35,8 @@
         "translation": ["maybe"]
     },
     {
-        "word": "도와 주세요",
-        "description": "dowa juseyo",
+        "word": "도와줘",
+        "description": "dowajwo",
         "translation": ["help"]
     },
     {
@@ -46,18 +46,8 @@
     },
     {
         "word": "실례합니다",
-        "description": "sillyehabnida",
+        "description": "sillyehamnida",
         "translation": ["excuse me"]
-    },
-    {
-        "word": "하늘",
-        "description": "haneul",
-        "translation": ["sky"]
-    },
-    {
-        "word": "비",
-        "description": "bi",
-        "translation": ["rain"]
     },
     {
         "word": "고양이",
@@ -67,47 +57,27 @@
     {
         "word": "강아지",
         "description": "gang-aji",
-        "translation": ["puppy"]
+        "translation": ["puppy", "dog"]
+    },
+    {
+        "word": "돼지",
+        "description": "dwaeji",
+        "translation": ["pig"]
+    },
+    {
+        "word": "닭",
+        "description": "dak",
+        "translation": ["chicken"]
+    },
+    {
+        "word": "소",
+        "description": "so",
+        "translation": ["cow"]
     },
     {
         "word": "사람",
         "description": "saram",
         "translation": ["person"]
-    },
-    {
-        "word": "바람",
-        "description": "baram",
-        "translation": ["wind"]
-    },
-    {
-        "word": "마음",
-        "description": "ma-eum",
-        "translation": ["mind", "heart"]
-    },
-    {
-        "word": "강",
-        "description": "gang",
-        "translation": ["river"]
-    },
-    {
-        "word": "바다",
-        "description": "bada",
-        "translation": ["ocean"]
-    },
-    {
-        "word": "비행",
-        "description": "bihaeng",
-        "translation": ["to fly"]
-    },
-    {
-        "word": "날개",
-        "description": "nalgae",
-        "translation": ["wing"]
-    },
-    {
-        "word": "세계",
-        "description": "segye",
-        "translation": ["world"]
     },
     {
         "word": "집",
@@ -185,9 +155,24 @@
         "translation": ["when"]
     },
     {
-        "word": "천만에요",
-        "description": "cheonman-eyo",
-        "translation": ["you're welcome"]
+        "word": "뭐",
+        "description": "mwo",
+        "translation": ["what"]
+    },
+    {
+        "word": "누구",
+        "description": "nugu",
+        "translation": ["who"]
+    },
+    {
+        "word": "어디",
+        "description": "eodi",
+        "translation": ["where"]
+    },
+    {
+        "word": "괜찮아요",
+        "description": "gwaenchanayo",
+        "translation": ["no problem"]
     },
     {
         "word": "좋아요",
@@ -218,6 +203,116 @@
         "word": "안 좋아요",
         "description": "an joh-ayo",
         "translation": ["not good"]
+    },
+    {
+        "word": "매우",
+        "description": "maeu",
+        "translation": ["very"]
+    },
+    {
+        "word": "상당히",
+        "description": "sangdanghi",
+        "translation": ["quite"]
+    },
+    {
+        "word": "거의",
+        "description": "geoui",
+        "translation": ["almost"]
+    },
+    {
+        "word": "빨리",
+        "description": "ppalli",
+        "translation": ["fast"]
+    },
+    {
+        "word": "느리게",
+        "description": "neurige",
+        "translation": ["slow"]
+    },
+    {
+        "word": "주의하여",
+        "description": "juuihayeo",
+        "translation": ["carefully"]
+    },
+    {
+        "word": "항상",
+        "description": "hangsang",
+        "translation": ["always"]
+    },
+    {
+        "word": "자주",
+        "description": "jaju",
+        "translation": ["frequently"]
+    },
+    {
+        "word": "보통",
+        "description": "botong",
+        "translation": ["usually"]
+    },
+    {
+        "word": "때때로",
+        "description": "ttaettaelo",
+        "translation": ["sometimes", "occasionally"]
+    },
+    {
+        "word": "드물게",
+        "description": "deumulga",
+        "translation": ["rarely", "seldom"]
+    },
+    {
+        "word": "절대",
+        "description": "jeoldae",
+        "translation": ["never"]
+    },
+    {
+        "word": "하나",
+        "description": "hana",
+        "translation": ["one"]
+    },
+    {
+        "word": "둘",
+        "description": "dul",
+        "translation": ["two"]
+    },
+    {
+        "word": "셋",
+        "description": "set",
+        "translation": ["three"]
+    },
+    {
+        "word": "넷",
+        "description": "net",
+        "translation": ["four"]
+    },
+    {
+        "word": "다섯",
+        "description": "daseot",
+        "translation": ["five"]
+    },
+    {
+        "word": "여섯",
+        "description": "yeoseot",
+        "translation": ["six"]
+    },
+    {
+        "word": "일곱",
+        "description": "ilgop",
+        "translation": ["seven"]
+    },
+    {
+        "word": "여덟",
+        "description": "yeodeol",
+        "translation": ["eight"]
+    },
+    {
+        "word": "아홉",
+        "description": "ahop",
+        "translation": ["nine"]
+    },
+    {
+        "word": "열",
+        "description": "yeol",
+        "translation": ["ten"]
     },
     {
         "word": "물",
@@ -270,6 +365,461 @@
         "translation": ["soju"]
     },
     {
+        "word": "시간",
+        "description": "sigan",
+        "translation": ["time", "hour", "period"]
+    },
+    {
+        "word": "지금",
+        "description": "jigeum",
+        "translation": ["now"]
+    },
+    {
+        "word": "가다",
+        "description": "gada",
+        "translation": ["to go"]
+    },
+    {
+        "word": "가요",
+        "description": "gayo",
+        "translation": ["going"]
+    },
+    {
+        "word": "갈 거예요",
+        "description": "gal geoyeyo",
+        "translation": ["will go"]
+    },
+    {
+        "word": "갔어요",
+        "description": "gasseoyo",
+        "translation": ["went"]
+    },
+    {
+        "word": "오다",
+        "description": "oda",
+        "translation": ["to come"]
+    },
+    {
+        "word": "와요",
+        "description": "wayo",
+        "translation": ["coming"]
+    },
+    {
+        "word": "올 거예요",
+        "description": "ol geoyeyo",
+        "translation": ["will come"]
+    },
+    {
+        "word": "왔어요",
+        "description": "wasseoyo",
+        "translation": ["came"]
+    },
+    {
+        "word": "있다",
+        "description": "itda",
+        "translation": ["to have"]
+    },
+    {
+        "word": "있어요",
+        "description": "isseoyo",
+        "translation": ["have", "has"]
+    },
+    {
+        "word": "있을 거예요",
+        "description": "isseul geoyeyo",
+        "translation": ["will have"]
+    },
+    {
+        "word": "있었어요",
+        "description": "isseosseoyo",
+        "translation": ["had"]
+    },
+    {
+        "word": "이다",
+        "description": "ida",
+        "translation": ["to be"]
+    },
+    {
+        "word": "예요",
+        "description": "yeyo",
+        "translation": ["am"]
+    },
+    {
+        "word": "일 거예요",
+        "description": "il geoyeyo",
+        "translation": ["will be"]
+    },
+    {
+        "word": "였어요",
+        "description": "yeosseoyo",
+        "translation": ["was", "were"]
+    },
+    {
+        "word": "먹다",
+        "description": "meokda",
+        "translation": ["to eat"]
+    },
+    {
+        "word": "먹어요",
+        "description": "meogeoyo",
+        "translation": ["eat", "eats"]
+    },
+    {
+        "word": "먹을 거예요",
+        "description": "meogeul geoyeyo",
+        "translation": ["will eat"]
+    },
+    {
+        "word": "먹었어요",
+        "description": "meogeosseoyo",
+        "translation": ["ate"]
+    },
+    {
+        "word": "마시다",
+        "description": "masida",
+        "translation": ["to drink"]
+    },
+    {
+        "word": "마셔요",
+        "description": "masyeoyo",
+        "translation": ["drink", "drinks"]
+    },
+    {
+        "word": "마실 거예요",
+        "description": "masil geoyeyo",
+        "translation": ["will drink"]
+    },
+    {
+        "word": "마셨어요",
+        "description": "masyeosseoyo",
+        "translation": ["drank"]
+    },
+    {
+        "word": "주다",
+        "description": "juda",
+        "translation": ["to give"]
+    },
+    {
+        "word": "줘요",
+        "description": "jwoyo",
+        "translation": ["give", "gives"]
+    },
+    {
+        "word": "줄 거예요",
+        "description": "jul geoyeyo",
+        "translation": ["will give"]
+    },
+    {
+        "word": "줬어요",
+        "description": "jwosseoyo",
+        "translation": ["gave"]
+    },
+    {
+        "word": "보다",
+        "description": "boda",
+        "translation": ["to see"]
+    },
+    {
+        "word": "봐요",
+        "description": "bwayo",
+        "translation": ["see", "sees"]
+    },
+    {
+        "word": "볼 거예요",
+        "description": "bol geoyeyo",
+        "translation": ["will see"]
+    },
+    {
+        "word": "봤어요",
+        "description": "bwasseoyo",
+        "translation": ["saw"]
+    },
+    {
+        "word": "자다",
+        "description": "jada",
+        "translation": ["to sleep"]
+    },
+    {
+        "word": "자요",
+        "description": "jayo",
+        "translation": ["sleep", "sleeps"]
+    },
+    {
+        "word": "잘 거예요",
+        "description": "jal geoyeyo",
+        "translation": ["will sleep"]
+    },
+    {
+        "word": "잤어요",
+        "description": "jasseoyo",
+        "translation": ["slept"]
+    },
+    {
+        "word": "일어나다",
+        "description": "ileonada",
+        "translation": ["to get up"]
+    },
+    {
+        "word": "일어나요",
+        "description": "ileonayo",
+        "translation": ["get up", "gets up"]
+    },
+    {
+        "word": "일어날 거예요",
+        "description": "ileonal geoyeyo",
+        "translation": ["will get up"]
+    },
+    {
+        "word": "일어났어요",
+        "description": "ileonasseoyo",
+        "translation": ["got up"]
+    },
+    {
+        "word": "사다",
+        "description": "sada",
+        "translation": ["to buy"]
+    },
+    {
+        "word": "사요",
+        "description": "sayo",
+        "translation": ["buy", "buys"]
+    },
+    {
+        "word": "살 거예요",
+        "description": "sal geoyeyo",
+        "translation": ["will buy"]
+    },
+    {
+        "word": "샀어요",
+        "description": "sasseoyo",
+        "translation": ["bought"]
+    },
+    {
+        "word": "쓰다",
+        "description": "sseuda",
+        "translation": ["to write"]
+    },
+    {
+        "word": "씁니다",
+        "description": "sseumnida",
+        "translation": ["write", "writes"]
+    },
+    {
+        "word": "쓸 거예요",
+        "description": "sseul geoyeyo",
+        "translation": ["will write"]
+    },
+    {
+        "word": "썼어요",
+        "description": "sseosseoyo",
+        "translation": ["wrote"]
+    },
+    {
+        "word": "웃다",
+        "description": "utda",
+        "translation": ["to laugh"]
+    },
+    {
+        "word": "웃어요",
+        "description": "useoyo",
+        "translation": ["laugh", "laughs"]
+    },
+    {
+        "word": "웃을 거예요",
+        "description": "useul geoyeyo",
+        "translation": ["will laugh"]
+    },
+    {
+        "word": "웃었어요",
+        "description": "useosseoyo",
+        "translation": ["laughed"]
+    },
+    {
+        "word": "울다",
+        "description": "ulda",
+        "translation": ["to cry"]
+    },
+    {
+        "word": "울어요",
+        "description": "uleoyo",
+        "translation": ["cry", "cries"]
+    },
+    {
+        "word": "울 거예요",
+        "description": "ul geoyeyo",
+        "translation": ["will cry"]
+    },
+    {
+        "word": "울었어요",
+        "description": "uleosseoyo",
+        "translation": ["cried"]
+    },
+    {
+        "word": "입다",
+        "description": "ipda",
+        "translation": ["to wear"]
+    },
+    {
+        "word": "입어요",
+        "description": "ibeoyo",
+        "translation": ["wear", "wears"]
+    },
+    {
+        "word": "입을 거예요",
+        "description": "ibeul geoyeyo",
+        "translation": ["will wear"]
+    },
+    {
+        "word": "입었어요",
+        "description": "ibeosseoyo",
+        "translation": ["wore"]
+    },
+    {
+        "word": "걷다",
+        "description": "geotda",
+        "translation": ["to walk"]
+    },
+    {
+        "word": "걷어요",
+        "description": "geo-eyo",
+        "translation": ["walk", "walks"]
+    },
+    {
+        "word": "걸을 거예요",
+        "description": "georeul geoyeyo",
+        "translation": ["will walk"]
+    },
+    {
+        "word": "걸었어요",
+        "description": "georeosseoyo",
+        "translation": ["walked"]
+    },
+    {
+        "word": "읽다",
+        "description": "ikda",
+        "translation": ["to read"]
+    },
+    {
+        "word": "읽어요",
+        "description": "ik-eoyo",
+        "translation": ["read", "reads"]
+    },
+    {
+        "word": "읽을 거예요",
+        "description": "ik-eul geoyeyo",
+        "translation": ["will read"]
+    },
+    {
+        "word": "읽었어요",
+        "description": "ik-eosseoyo",
+        "translation": ["read"]
+    },
+    {
+        "word": "배우다",
+        "description": "baeuda",
+        "translation": ["to learn"]
+    },
+    {
+        "word": "배워요",
+        "description": "baewoyo",
+        "translation": ["learn", "learns"]
+    },
+    {
+        "word": "배울 거예요",
+        "description": "baeul geoyeyo",
+        "translation": ["will learn"]
+    },
+    {
+        "word": "배웠어요",
+        "description": "baewosseoyo",
+        "translation": ["learned"]
+    },
+    {
+        "word": "공부하다",
+        "description": "gongbuhada",
+        "translation": ["to study"]
+    },
+    {
+        "word": "공부해요",
+        "description": "gongbuhaeyo",
+        "translation": ["study", "studies"]
+    },
+    {
+        "word": "공부할 거예요",
+        "description": "gongbuhal geoyeyo",
+        "translation": ["will study"]
+    },
+    {
+        "word": "공부했어요",
+        "description": "gongbuhaesseoyo",
+        "translation": ["studied"]
+    },
+    {
+        "word": "만나다",
+        "description": "mannada",
+        "translation": ["to meet"]
+    },
+    {
+        "word": "만나요",
+        "description": "mannoyo",
+        "translation": ["meet", "meets"]
+    },
+    {
+        "word": "만날 거예요",
+        "description": "mannal geoyeyo",
+        "translation": ["will meet"]
+    },
+    {
+        "word": "만났어요",
+        "description": "mannasseoyo",
+        "translation": ["met"]
+    },
+    {
+        "word": "바람",
+        "description": "baram",
+        "translation": ["wind"]
+    },
+    {
+        "word": "마음",
+        "description": "ma-eum",
+        "translation": ["mind", "heart"]
+    },
+    {
+        "word": "강",
+        "description": "gang",
+        "translation": ["river"]
+    },
+    {
+        "word": "바다",
+        "description": "bada",
+        "translation": ["ocean"]
+    },
+    {
+        "word": "하늘",
+        "description": "haneul",
+        "translation": ["sky"]
+    },
+    {
+        "word": "비",
+        "description": "bi",
+        "translation": ["rain"]
+    },
+    {
+        "word": "비행",
+        "description": "bihaeng",
+        "translation": ["to fly"]
+    },
+    {
+        "word": "날개",
+        "description": "nalgae",
+        "translation": ["wing"]
+    },
+    {
+        "word": "세계",
+        "description": "segye",
+        "translation": ["world"]
+    },
+    {
         "word": "친구",
         "description": "chingu",
         "translation": ["friend"]
@@ -313,116 +863,6 @@
         "word": "아내",
         "description": "anae",
         "translation": ["wife"]
-    },
-    {
-        "word": "시간",
-        "description": "sigan",
-        "translation": ["time", "hour", "period"]
-    },
-    {
-        "word": "지금",
-        "description": "jigeum",
-        "translation": ["now"]
-    },
-    {
-        "word": "가다",
-        "description": "gada",
-        "translation": ["go", "take"]
-    },
-    {
-        "word": "오다",
-        "description": "oda",
-        "translation": ["come"]
-    },
-    {
-        "word": "있다",
-        "description": "itda",
-        "translation": ["have", "there is"]
-    },
-    {
-        "word": "이다",
-        "description": "ida",
-        "translation": ["am", "be"]
-    },
-    {
-        "word": "먹다",
-        "description": "meokda",
-        "translation": ["eat"]
-    },
-    {
-        "word": "마시다",
-        "description": "masida",
-        "translation": ["drink"]
-    },
-    {
-        "word": "주다",
-        "description": "juda",
-        "translation": ["give", "grant"]
-    },
-    {
-        "word": "보다",
-        "description": "boda",
-        "translation": ["see"]
-    },
-    {
-        "word": "자다",
-        "description": "jada",
-        "translation": ["sleep"]
-    },
-    {
-        "word": "일어나다",
-        "description": "ir-eonada",
-        "translation": ["wake up", "rise"]
-    },
-    {
-        "word": "사다",
-        "description": "sada",
-        "translation": ["buy"]
-    },
-    {
-        "word": "쓰다",
-        "description": "sseuda",
-        "translation": ["write", "use"]
-    },
-    {
-        "word": "웃다",
-        "description": "utda",
-        "translation": ["laugh", "smile"]
-    },
-    {
-        "word": "울다",
-        "description": "ulda",
-        "translation": ["cry"]
-    },
-    {
-        "word": "입다",
-        "description": "ipda",
-        "translation": ["wear", "put on"]
-    },
-    {
-        "word": "걷다",
-        "description": "geotda",
-        "translation": ["walk"]
-    },
-    {
-        "word": "읽다",
-        "description": "iktta",
-        "translation": ["read"]
-    },
-    {
-        "word": "배우다",
-        "description": "baeuda",
-        "translation": ["learn"]
-    },
-    {
-        "word": "공부하다",
-        "description": "gongbuhada",
-        "translation": ["study"]
-    },
-    {
-        "word": "만나다",
-        "description": "mannada",
-        "translation": ["meet"]
     },
     {
         "word": "좋아지다",
@@ -498,65 +938,5 @@
         "word": "천천히",
         "description": "cheoncheonhi",
         "translation": ["to be slow", "slowly"]
-    },
-    {
-        "word": "매우",
-        "description": "maeu",
-        "translation": ["very"]
-    },
-    {
-        "word": "상당히",
-        "description": "sangdanghi",
-        "translation": ["quite"]
-    },
-    {
-        "word": "거의",
-        "description": "geoui",
-        "translation": ["almost"]
-    },
-    {
-        "word": "빨리",
-        "description": "ppalli",
-        "translation": ["fast"]
-    },
-    {
-        "word": "느리게",
-        "description": "neurige",
-        "translation": ["slow"]
-    },
-    {
-        "word": "주의하여",
-        "description": "juuihayeo",
-        "translation": ["carefully"]
-    },
-    {
-        "word": "항상",
-        "description": "hangsang",
-        "translation": ["always"]
-    },
-    {
-        "word": "자주",
-        "description": "jaju",
-        "translation": ["frequently"]
-    },
-    {
-        "word": "보통",
-        "description": "botong",
-        "translation": ["usually"]
-    },
-    {
-        "word": "때때로",
-        "description": "ttaettaelo",
-        "translation": ["sometimes", "occasionally"]
-    },
-    {
-        "word": "드물게",
-        "description": "deumulga",
-        "translation": ["rarely", "seldom"]
-    },
-    {
-        "word": "절대",
-        "description": "jeoldae",
-        "translation": ["never"]
     }
 ]
