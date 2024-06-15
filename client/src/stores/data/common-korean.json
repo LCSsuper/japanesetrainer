@@ -177,7 +177,7 @@
     {
         "word": "좋아요",
         "description": "joh-ayo",
-        "translation": ["okay"]
+        "translation": ["okay", "good"]
     },
     {
         "word": "몰라요",
@@ -193,11 +193,6 @@
         "word": "이해해요",
         "description": "ihaehaeyo",
         "translation": ["i understand"]
-    },
-    {
-        "word": "좋아요",
-        "description": "joh-ayo",
-        "translation": ["good"]
     },
     {
         "word": "안 좋아요",
