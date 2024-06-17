@@ -200,66 +200,6 @@
         "translation": ["not good"]
     },
     {
-        "word": "매우",
-        "description": "maeu",
-        "translation": ["very"]
-    },
-    {
-        "word": "상당히",
-        "description": "sangdanghi",
-        "translation": ["quite"]
-    },
-    {
-        "word": "거의",
-        "description": "geoui",
-        "translation": ["almost"]
-    },
-    {
-        "word": "빨리",
-        "description": "ppalli",
-        "translation": ["fast"]
-    },
-    {
-        "word": "느리게",
-        "description": "neurige",
-        "translation": ["slow"]
-    },
-    {
-        "word": "주의하여",
-        "description": "juuihayeo",
-        "translation": ["carefully"]
-    },
-    {
-        "word": "항상",
-        "description": "hangsang",
-        "translation": ["always"]
-    },
-    {
-        "word": "자주",
-        "description": "jaju",
-        "translation": ["frequently"]
-    },
-    {
-        "word": "보통",
-        "description": "botong",
-        "translation": ["usually"]
-    },
-    {
-        "word": "때때로",
-        "description": "ttaettaelo",
-        "translation": ["sometimes", "occasionally"]
-    },
-    {
-        "word": "드물게",
-        "description": "deumulga",
-        "translation": ["rarely", "seldom"]
-    },
-    {
-        "word": "절대",
-        "description": "jeoldae",
-        "translation": ["never"]
-    },
-    {
         "word": "하나",
         "description": "hana",
         "translation": ["one"]
@@ -933,5 +873,65 @@
         "word": "천천히",
         "description": "cheoncheonhi",
         "translation": ["to be slow", "slowly"]
+    },
+    {
+        "word": "매우",
+        "description": "maeu",
+        "translation": ["very"]
+    },
+    {
+        "word": "상당히",
+        "description": "sangdanghi",
+        "translation": ["quite"]
+    },
+    {
+        "word": "거의",
+        "description": "geoui",
+        "translation": ["almost"]
+    },
+    {
+        "word": "빨리",
+        "description": "ppalli",
+        "translation": ["fast"]
+    },
+    {
+        "word": "느리게",
+        "description": "neurige",
+        "translation": ["slow"]
+    },
+    {
+        "word": "주의하여",
+        "description": "juuihayeo",
+        "translation": ["carefully"]
+    },
+    {
+        "word": "항상",
+        "description": "hangsang",
+        "translation": ["always"]
+    },
+    {
+        "word": "자주",
+        "description": "jaju",
+        "translation": ["frequently"]
+    },
+    {
+        "word": "보통",
+        "description": "botong",
+        "translation": ["usually"]
+    },
+    {
+        "word": "때때로",
+        "description": "ttaettaelo",
+        "translation": ["sometimes", "occasionally"]
+    },
+    {
+        "word": "드물게",
+        "description": "deumulga",
+        "translation": ["rarely", "seldom"]
+    },
+    {
+        "word": "절대",
+        "description": "jeoldae",
+        "translation": ["never"]
     }
 ]
