@@ -1,7 +1,21 @@
 import { makeAutoObservable } from "mobx";
 import autoBind from "auto-bind";
 
-type Language = "japanese" | "spanish" | "swedish" | "papiamento" | "korean";
+export type Language =
+    | "japanese"
+    | "spanish"
+    | "swedish"
+    | "papiamento"
+    | "korean";
+
+const flags = {
+    japanese: "🇯🇵",
+    spanish: "🇪🇸",
+    english: "🇬🇧",
+    swedish: "🇸🇪",
+    papiamento: "🇦🇼",
+    korean: "🇰🇷",
+};
 
 export default class SettingsStore {
     range: [number, number] = [0, 10];
@@ -72,5 +86,9 @@ export default class SettingsStore {
                 return "ko";
         }
         return "en";
+    }
+
+    get flag() {
+        return flags[this.language];
     }
 }

@@ -1,7 +1,7 @@
-import { observer } from "mobx-react-lite";
-import { useMobxStores } from "./hooks/useMobxStores";
-import "./learner.css";
 import { useEffect, useRef } from "react";
+import { observer } from "mobx-react-lite";
+import { useMobxStores } from "../../hooks/useMobxStores";
+import "./index.css";
 
 const ENTER = 13;
 const ONE = 49;
@@ -24,7 +24,6 @@ const Learner = observer(() => {
             englishToJapanese,
         },
         settingsStore: { showDescription, ISOlanguage },
-        routerStore: { setCurrentRoute },
     } = useMobxStores();
 
     const ref = useRef<HTMLInputElement | null>(null);
@@ -76,12 +75,6 @@ const Learner = observer(() => {
             <div id="count">{`${wordIndex + 1} of ${
                 selectedLibrary.length
             }`}</div>
-            <div
-                id="range-explanation"
-                onClick={() => setCurrentRoute("settings")}
-            >
-                The range of words can be changed in the settings
-            </div>
             <div id="word-container">{currentWord.word}</div>
             <div id="description-container">
                 {showDescription || guessIsCorrect || answerRevealed

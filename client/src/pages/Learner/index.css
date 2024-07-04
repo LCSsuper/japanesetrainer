@@ -138,7 +138,8 @@
 
 .learner-container #count {
     position: absolute;
-    right: 0.5rem;
+    left: 0;
+    right: 0;
     top: 0.5rem;
     display: inline-block;
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
 }
 
-.header {
+.settings-header {
     padding-top: 4rem;
     margin-bottom: 1rem;
     border-bottom: 1px solid #555;

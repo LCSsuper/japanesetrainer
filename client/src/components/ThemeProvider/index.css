@@ -1,0 +1,73 @@
+.theme {
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* .theme.dark,
+.theme.dark * {
+    background: #000000;
+    color: white;
+}
+
+.theme.dark button,
+.theme.dark .range-slider .range-slider__range {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.theme.dark input {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.theme.dark .range-slider .range-slider__thumb {
+    background: white;
+}
+
+.theme.dark button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.theme.dark button:disabled:hover,
+.theme.dark button:disabled {
+    background: rgba(255, 255, 255, 0.05);
+    color: #aaa;
+}
+
+.theme.light,
+.theme.light * {
+    background: rgb(250, 250, 250);
+    color: #111;
+}
+
+.theme.light button {
+    background: rgba(0, 0, 0, 0.1);
+    color: #555;
+}
+
+.theme.light button:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.theme.light button:disabled:hover,
+.theme.light button:disabled {
+    background: rgba(0, 0, 0, 0.05);
+    color: #555;
+}
+
+.theme.light button,
+.theme.light .range-slider {
+    background: rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.theme.light input {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.theme.light .range-slider .range-slider__thumb {
+    background: black;
+}
+
+.theme.light .range-slider .range-slider__range {
+    background: rgba(0, 0, 0, 0.2);
+} */
