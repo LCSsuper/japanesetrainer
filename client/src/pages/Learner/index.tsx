@@ -1,11 +1,45 @@
-import { useEffect, useRef } from "react";
 import { observer } from "mobx-react-lite";
 import { useMobxStores } from "../../hooks/useMobxStores";
-import "./index.css";
+import {
+    Badge,
+    Box,
+    Button,
+    Card,
+    Center,
+    Grid,
+    Group,
+    Kbd,
+    Pill,
+    Progress,
+    Space,
+    Text,
+    TextInput,
+    Title,
+} from "@mantine/core";
+import {
+    HotkeyItem,
+    getHotkeyHandler,
+    useHotkeys,
+    useViewportSize,
+} from "@mantine/hooks";
 
-const ENTER = 13;
-const ONE = 49;
-const TWO = 50;
+const wordSize = (width: number) => {
+    if (width > 900) return "6rem";
+    if (width > 600) return "4rem";
+    return "3rem";
+};
+
+const wordColor = (guessedCount: number, translationCount: number) => {
+    if (guessedCount === 0) return "";
+    if (guessedCount === translationCount) return "green";
+    return "blue";
+};
+
+const guessesBadgeColor = (guessedCount: number, translationCount: number) => {
+    if (guessedCount === 0) return "gray";
+    if (guessedCount === translationCount) return "green";
+    return "blue";
+};
 
 const Learner = observer(() => {
     const {
@@ -21,42 +55,36 @@ const Learner = observer(() => {
             wordIndex,
             guessedTranslations,
             remainingAnswers,
-            englishToJapanese,
+            guessedCount,
+            translationCount,
+            remainingCount,
+            canContinue,
+            progressPercentage,
+            englishToLanguage,
         },
-        settingsStore: { showDescription, ISOlanguage },
+        settingsStore: { showDescription },
     } = useMobxStores();
 
-    const ref = useRef<HTMLInputElement | null>(null);
-
-    useEffect(() => {
-        if (!ref.current) return;
-        if (guessedTranslations.length === 0) ref.current.focus();
-        if (guessedTranslations.length > 0) ref.current.blur();
-    }, [guessedTranslations]);
-
     const onInputChange = (e: any) => {
-        if (!remainingAnswers.length) return;
+        if (!remainingAnswers.length || answerRevealed) return;
         setCurrentGuess(e.target.value);
     };
 
-    const onKeyDown = (e: any) => {
-        if (![ONE, TWO, ENTER].includes(e.keyCode)) return;
-        e.preventDefault();
-        if (e.keyCode === ONE) nextWord();
-        if (e.keyCode === TWO) showAnswer();
-        if (!guessIsCorrect && !answerRevealed) return;
-        if (e.keyCode === ENTER) {
-            nextWord();
-        }
-    };
+    const { width } = useViewportSize();
 
-    const onSkip = () => {
-        nextWord();
-    };
+    const hotkeys: HotkeyItem[] = [
+        ["1", () => showAnswer()],
+        ["2", () => nextWord()],
+        [
+            "enter",
+            () => {
+                if (!guessIsCorrect && !answerRevealed) return;
+                nextWord();
+            },
+        ],
+    ];
 
-    const onShowAnswer = () => {
-        showAnswer();
-    };
+    useHotkeys(hotkeys);
 
     const onFocus = () => {
         setTimeout(() => {
@@ -64,86 +92,129 @@ const Learner = observer(() => {
         }, 100);
     };
 
-    const getWordClassName = () => {
-        if (guessIsCorrect) return "correct";
-        if (answerRevealed) return "incorrect";
-        return "";
-    };
-
     return (
-        <div className={`learner-container ${getWordClassName()}`}>
-            <div id="count">{`${wordIndex + 1} of ${
-                selectedLibrary.length
-            }`}</div>
-            <div id="word-container">{currentWord.word}</div>
-            <div id="description-container">
-                {showDescription || guessIsCorrect || answerRevealed
-                    ? currentWord.description
-                    : ""}
-            </div>
-            <div id="guesses-container">
-                {guessIsCorrect
-                    ? `Guessed answers: ${
-                          guessIsCorrect
-                              ? guessedTranslations.join(", ")
-                              : currentWord.translation.join(", ")
-                      }`
-                    : ""}
-            </div>
-            <div id="remaining-answers">
-                {guessIsCorrect &&
-                !answerRevealed &&
-                remainingAnswers.length > 0
-                    ? `Remaining answers: ${remainingAnswers.length}`
-                    : ""}
-            </div>
-            <div id="answers-container">
-                {(guessIsCorrect && remainingAnswers.length === 0) ||
-                answerRevealed
-                    ? `Correct answers: ${currentWord.translation.join(", ")}`
-                    : ""}
-            </div>
-            <div id="input-container">
-                <div>
-                    <div>
-                        <p>
-                            {guessIsCorrect || answerRevealed
-                                ? "(press Enter to continue)"
-                                : ""}
-                        </p>
-                        <div id="input">
-                            <input
-                                ref={ref}
-                                type="text"
-                                onChange={onInputChange}
-                                value={currentGuess}
-                                onKeyDown={onKeyDown}
-                                onFocus={onFocus}
-                                lang={englishToJapanese ? ISOlanguage : "en"}
-                            />
-                        </div>
-                        <div id="button-container">
-                            <div>
-                                <button onClick={onSkip}>next</button>
-                                <span>Press 1</span>
-                            </div>
-                            <div>
-                                <button
-                                    disabled={
-                                        answerRevealed ||
-                                        remainingAnswers.length === 0
-                                    }
-                                    onClick={onShowAnswer}
+        <Box>
+            <Center>
+                <Grid w={"50rem"} maw={"100vw"} p={"1rem"}>
+                    <Grid.Col>
+                        <Card shadow={"xl"}>
+                            <Group justify="space-between" align="start">
+                                <Text c="dimmed">Guess:</Text>
+                                <Group>
+                                    <Pill>{`${wordIndex + 1} of ${
+                                        selectedLibrary.length
+                                    }`}</Pill>
+                                </Group>
+                            </Group>
+                            <Group justify="center">
+                                <Title
+                                    size={wordSize(width)}
+                                    c={wordColor(
+                                        guessedCount,
+                                        translationCount
+                                    )}
                                 >
-                                    show answer
-                                </button>
-                                <span>Press 2</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                                    {currentWord.word}
+                                </Title>
+                            </Group>
+                            <Group justify="center" h={"2rem"}>
+                                <Text size="xl" c="dimmed">
+                                    {englishToLanguage ||
+                                    showDescription ||
+                                    guessIsCorrect ||
+                                    answerRevealed
+                                        ? currentWord.description
+                                        : ""}
+                                </Text>
+                            </Group>
+                            <Space h={"md"} />
+                            <Progress value={progressPercentage} />
+                        </Card>
+                    </Grid.Col>
+                    <Grid.Col>
+                        <Card shadow={"xl"} radius={"md"}>
+                            <Group>
+                                <TextInput
+                                    autoFocus
+                                    placeholder="Answer..."
+                                    variant="filled"
+                                    size="xl"
+                                    w={"100%"}
+                                    onKeyDown={getHotkeyHandler(hotkeys)}
+                                    onChange={onInputChange}
+                                    onFocus={onFocus}
+                                    value={currentGuess}
+                                    rightSectionWidth={"12rem"}
+                                    rightSection={
+                                        canContinue && (
+                                            <Group gap="5px">
+                                                <Text c="dimmed" size="sm">
+                                                    Press
+                                                </Text>
+                                                <Kbd>Enter</Kbd>
+                                                <Text c="dimmed" size="sm">
+                                                    to continue
+                                                </Text>
+                                            </Group>
+                                        )
+                                    }
+                                />
+                            </Group>
+                            <Space h={"md"} />
+                            <Group justify="space-between">
+                                <Group>
+                                    <Badge
+                                        color={guessesBadgeColor(
+                                            guessedCount,
+                                            translationCount
+                                        )}
+                                    >{`${guessedCount} of ${translationCount}`}</Badge>
+                                    {guessIsCorrect && (
+                                        <Group gap={5}>
+                                            <Text c="dimmed">Guessed: </Text>
+                                            {guessedTranslations.map((t) => (
+                                                <Pill ml={0}>{t}</Pill>
+                                            ))}
+                                        </Group>
+                                    )}
+                                    {answerRevealed &&
+                                        remainingAnswers.length && (
+                                            <Group gap={5}>
+                                                <Text c="dimmed">
+                                                    Not guessed:{" "}
+                                                </Text>
+                                                {remainingAnswers.map((t) => (
+                                                    <Pill ml={0}>{t}</Pill>
+                                                ))}
+                                            </Group>
+                                        )}
+                                </Group>
+
+                                <Group>
+                                    <Button
+                                        leftSection={<Kbd>1</Kbd>}
+                                        disabled={
+                                            answerRevealed || !remainingCount
+                                        }
+                                        variant="default"
+                                        onClick={showAnswer}
+                                    >
+                                        Show answer
+                                    </Button>
+                                    <Button
+                                        leftSection={<Kbd>2</Kbd>}
+                                        variant="light"
+                                        onClick={nextWord}
+                                    >
+                                        Skip
+                                    </Button>
+                                </Group>
+                            </Group>
+                        </Card>
+                    </Grid.Col>
+                </Grid>
+            </Center>
+        </Box>
     );
 });
 

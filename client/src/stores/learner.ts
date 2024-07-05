@@ -31,7 +31,7 @@ export default class LearnerStore {
     answerRevealed: boolean = false;
     selectedLibrary: Word[] = [];
     guessedTranslations: string[] = [];
-    englishToJapanese: boolean = false;
+    englishToLanguage: boolean = false;
 
     constructor(settingsStore: SettingsStore) {
         makeAutoObservable(this);
@@ -47,12 +47,18 @@ export default class LearnerStore {
         this.selectedLibrary = libraries[this.settingsStore.language].slice(
             ...this.settingsStore.range
         );
-        if (this.englishToJapanese) {
-            this.selectedLibrary = this.selectedLibrary.map((lib) => ({
-                word: lib.translation.join(", "),
-                description: "",
-                translation: [lib.word, lib.description].filter((e) => !!e),
-            }));
+        if (this.englishToLanguage) {
+            this.selectedLibrary = this.selectedLibrary
+                .map((lib) =>
+                    lib.translation.map((translation) => ({
+                        word: translation,
+                        description: "",
+                        translation: [lib.word, lib.description].filter(
+                            (e) => !!e
+                        ),
+                    }))
+                )
+                .flat();
         }
         shuffle(this.selectedLibrary);
         this.wordIndex = 0;
@@ -106,15 +112,36 @@ export default class LearnerStore {
 
     showAnswer = () => {
         this.answerRevealed = true;
+        this.currentGuess = "";
     };
 
-    setEnglishToJapanese = (onOrOff: boolean) => {
-        this.englishToJapanese = onOrOff;
+    setEnglishToLanguage = (onOrOff: boolean) => {
+        this.englishToLanguage = onOrOff;
     };
+
+    get translationCount() {
+        return this.currentWord.translation.length;
+    }
+
+    get guessedCount() {
+        return this.guessedTranslations.length;
+    }
+
+    get remainingCount() {
+        return this.remainingAnswers.length;
+    }
 
     get remainingAnswers() {
         return this.currentWord.translation.filter(
             (answer) => !this.guessedTranslations.includes(answer)
         );
+    }
+
+    get canContinue() {
+        return this.guessedTranslations.length || this.answerRevealed;
+    }
+
+    get progressPercentage() {
+        return ((this.wordIndex + 1) / this.selectedLibrary.length) * 100;
     }
 }

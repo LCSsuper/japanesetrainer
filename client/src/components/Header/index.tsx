@@ -49,6 +49,7 @@ export const Header = observer(() => {
                                 {darkMode ? <IconLamp /> : <IconLampOff />}
                             </ActionIcon>
                             <ActionIcon
+                                disabled
                                 size={"lg"}
                                 onClick={() => setCurrentRoute("settings")}
                             >
