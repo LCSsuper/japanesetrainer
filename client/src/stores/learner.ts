@@ -8,12 +8,9 @@ import papiamentoLibrary from "./data/0-264-papiamento.json";
 import koreanLibrary from "./data/common-korean.json";
 import SettingsStore from "./settings";
 import { shuffle } from "./utils/shuffle";
+import { Word } from "../types";
 
-export type Word = {
-    word: string;
-    description: string;
-    translation: string[];
-};
+export type PracticeMode = "eng_to_lang" | "lang_to_eng";
 
 const libraries = {
     japanese: japaneseLibrary,
@@ -31,7 +28,7 @@ export default class LearnerStore {
     answerRevealed: boolean = false;
     selectedLibrary: Word[] = [];
     guessedTranslations: string[] = [];
-    englishToLanguage: boolean = false;
+    practiceMode: PracticeMode = "lang_to_eng";
 
     constructor(settingsStore: SettingsStore) {
         makeAutoObservable(this);
@@ -47,7 +44,8 @@ export default class LearnerStore {
         this.selectedLibrary = libraries[this.settingsStore.language].slice(
             ...this.settingsStore.range
         );
-        if (this.englishToLanguage) {
+        if (this.practiceMode === "eng_to_lang") {
+            // TODO @Lucas there could be multiple words with the same translation...
             this.selectedLibrary = this.selectedLibrary
                 .map((lib) =>
                     lib.translation.map((translation) => ({
@@ -115,8 +113,8 @@ export default class LearnerStore {
         this.currentGuess = "";
     };
 
-    setEnglishToLanguage = (onOrOff: boolean) => {
-        this.englishToLanguage = onOrOff;
+    setPracticeMode = (practiceMode: PracticeMode) => {
+        this.practiceMode = practiceMode;
     };
 
     get translationCount() {

@@ -6,10 +6,16 @@ import { observer } from "mobx-react-lite";
 import { AppShell, Center, MantineProvider, createTheme } from "@mantine/core";
 import "@mantine/core/styles.layer.css";
 import { Header } from "./components/Header";
+import { useViewportSize } from "@mantine/hooks";
 
-const theme = createTheme({
+const desktopTheme = createTheme({
     primaryColor: "cyan",
     scale: 1.3,
+});
+
+const mobileTheme = createTheme({
+    primaryColor: "cyan",
+    scale: 1,
 });
 
 const App = observer(() => {
@@ -18,11 +24,13 @@ const App = observer(() => {
         settingsStore: { darkMode },
     } = useMobxStores();
 
+    const { width } = useViewportSize();
+
     return (
         <StoreProvider>
             <MantineProvider
                 forceColorScheme={darkMode ? "dark" : "light"}
-                theme={theme}
+                theme={width > 600 ? desktopTheme : mobileTheme}
             >
                 <AppShell header={{ height: 60 }} padding="md">
                     <AppShell.Header>
