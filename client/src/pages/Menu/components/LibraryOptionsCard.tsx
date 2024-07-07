@@ -10,12 +10,19 @@ import {
     Button,
 } from "@mantine/core";
 import { IconLibrary, IconInfoCircle } from "@tabler/icons-react";
+
 import { useMobxStores } from "../../../hooks/useMobxStores";
 import { observer } from "mobx-react-lite";
 
 export const LibraryOptionsCard = observer(() => {
     const {
-        settingsStore: { showDescription, setShowDescription, range, setRange },
+        libraryStore: {
+            showRomanization,
+            setShowRomanization,
+            range,
+            setRange,
+        },
+        routerStore: { setCurrentRoute },
         learnerStore: { library },
     } = useMobxStores();
 
@@ -46,8 +53,8 @@ export const LibraryOptionsCard = observer(() => {
                 />
                 <Space h={"lg"} />
                 <Switch
-                    checked={showDescription}
-                    onChange={() => setShowDescription(!showDescription)}
+                    checked={showRomanization}
+                    onChange={() => setShowRomanization(!showRomanization)}
                     label="Show romanization"
                 />
                 <Space h={"sm"} />
@@ -57,10 +64,14 @@ export const LibraryOptionsCard = observer(() => {
                 </Group>
                 <Space h={"sm"} />
                 <Group justify="space-between">
-                    <Button disabled variant="gradient">
+                    <Button
+                        variant="gradient"
+                        disabled
+                        onClick={() => setCurrentRoute("library")}
+                    >
                         Open library
                     </Button>
-                    <Badge color="gray">coming soon</Badge>
+                    <Badge color="gray">work in progress</Badge>
                 </Group>
             </Title>
         </Card>

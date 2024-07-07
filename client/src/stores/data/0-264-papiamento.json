@@ -2,1321 +2,2128 @@
     {
         "word": "mi",
         "description": "",
-        "translation": ["i"]
+        "translation": [
+            "i"
+        ],
+        "id": "571328e3-a885-4c59-ab17-0d8be7d2d060"
     },
     {
         "word": "ami",
         "description": "",
-        "translation": ["i"]
+        "translation": [
+            "i"
+        ],
+        "id": "9d059955-71af-4608-8ec4-98582abb7d3f"
     },
     {
         "word": "bo",
         "description": "",
-        "translation": ["you", "you (singular)"]
+        "translation": [
+            "you",
+            "you (singular)"
+        ],
+        "id": "15062a15-e568-4496-aae1-f47a2c6340e5"
     },
     {
         "word": "abo",
         "description": "",
-        "translation": ["you", "you (singular)"]
+        "translation": [
+            "you",
+            "you (singular)"
+        ],
+        "id": "d5d6fef2-4af0-49e6-ba20-087ad8a947ea"
     },
     {
         "word": "e",
         "description": "",
-        "translation": ["he"]
+        "translation": [
+            "he"
+        ],
+        "id": "5efdcde8-3d2f-4702-bff5-95f3e2c95eaa"
     },
     {
         "word": "nos",
         "description": "",
-        "translation": ["we"]
+        "translation": [
+            "we"
+        ],
+        "id": "e68481b2-2106-412b-8bd7-3cc79a94fa5c"
     },
     {
         "word": "boso",
         "description": "",
-        "translation": ["you", "you (plural)"]
+        "translation": [
+            "you",
+            "you (plural)"
+        ],
+        "id": "fc48100e-658a-4b68-bc43-eb4fbb2a52e9"
     },
     {
         "word": "nan",
         "description": "",
-        "translation": ["they"]
+        "translation": [
+            "they"
+        ],
+        "id": "60a0df4a-55a5-41af-9a42-af41d19646d6"
     },
     {
         "word": "aki",
         "description": "",
-        "translation": ["this"]
+        "translation": [
+            "this"
+        ],
+        "id": "c7aca061-d86b-422b-b3a9-c0b8e2a329ee"
     },
     {
         "word": "esaki",
         "description": "",
-        "translation": ["this"]
+        "translation": [
+            "this"
+        ],
+        "id": "ed8f07cc-b678-45b5-94a0-69a46b5f689b"
     },
     {
         "word": "esei",
         "description": "",
-        "translation": ["that"]
+        "translation": [
+            "that"
+        ],
+        "id": "b01e7eff-4183-4bb5-a805-296cef9f3ea2"
     },
     {
         "word": "esaya",
         "description": "",
-        "translation": ["that"]
+        "translation": [
+            "that"
+        ],
+        "id": "befa63be-4212-4240-9775-11c30c8103cd"
     },
     {
         "word": "aki",
         "description": "",
-        "translation": ["here"]
+        "translation": [
+            "here"
+        ],
+        "id": "9319b835-a37e-43e3-a857-97afae2fae0c"
     },
     {
         "word": "aya",
         "description": "",
-        "translation": ["there"]
+        "translation": [
+            "there"
+        ],
+        "id": "48d14e6c-343b-4c84-bc14-ac98a05412a8"
     },
     {
         "word": "ei",
         "description": "",
-        "translation": ["there"]
+        "translation": [
+            "there"
+        ],
+        "id": "f027e8f3-9f7d-41eb-a842-9760e5ad700c"
     },
     {
         "word": "ken",
         "description": "",
-        "translation": ["who"]
+        "translation": [
+            "who"
+        ],
+        "id": "13d48670-d9d5-459c-81d5-9b15998a45bf"
     },
     {
         "word": "kende",
         "description": "",
-        "translation": ["who"]
+        "translation": [
+            "who"
+        ],
+        "id": "27ad4941-411d-48b1-bd15-c9d7a61b7a50"
     },
     {
         "word": "ki",
         "description": "",
-        "translation": ["what"]
+        "translation": [
+            "what"
+        ],
+        "id": "19ee2c39-55a1-4998-bff0-311f78725959"
     },
     {
         "word": "kiko",
         "description": "",
-        "translation": ["what"]
+        "translation": [
+            "what"
+        ],
+        "id": "6ebe7712-35a8-4811-b48e-a05915cb27b5"
     },
     {
         "word": "unda",
         "description": "",
-        "translation": ["where"]
+        "translation": [
+            "where"
+        ],
+        "id": "25e5ac28-cc91-4e88-9984-858f64cd38a3"
     },
     {
         "word": "ki ora",
         "description": "",
-        "translation": ["when"]
+        "translation": [
+            "when"
+        ],
+        "id": "dd7097ed-ee13-4891-92e3-b4626901544f"
     },
     {
         "word": "ki dia",
         "description": "",
-        "translation": ["when"]
+        "translation": [
+            "when"
+        ],
+        "id": "3d0b25d1-527c-4f8e-ae27-9f072f0d6680"
     },
     {
         "word": "kon",
         "description": "",
-        "translation": ["how"]
+        "translation": [
+            "how"
+        ],
+        "id": "547a0823-add9-4f29-92b5-69b1478a7cf6"
     },
     {
         "word": "no",
         "description": "",
-        "translation": ["not"]
+        "translation": [
+            "not"
+        ],
+        "id": "0d155e8a-a54a-4da6-8360-1f7f73b9c94c"
     },
     {
         "word": "tur",
         "description": "",
-        "translation": ["all"]
+        "translation": [
+            "all"
+        ],
+        "id": "2d9b8706-1d9a-4448-ba46-e61991744048"
     },
     {
         "word": "hopi",
         "description": "",
-        "translation": ["many"]
+        "translation": [
+            "many"
+        ],
+        "id": "bdbc96b5-0ce2-4c20-ad24-4bba726f2ede"
     },
     {
         "word": "mashá",
         "description": "",
-        "translation": ["many"]
+        "translation": [
+            "many"
+        ],
+        "id": "329a58f5-1c3e-4e12-b264-58d08eca261a"
     },
     {
         "word": "algun",
         "description": "",
-        "translation": ["some"]
+        "translation": [
+            "some"
+        ],
+        "id": "c25052ae-969c-42ab-beff-885eca07ee5e"
     },
     {
         "word": "poko",
         "description": "",
-        "translation": ["few"]
+        "translation": [
+            "few"
+        ],
+        "id": "d38c6d4d-9965-4c47-aa09-275a9cf7f1ad"
     },
     {
         "word": "otro",
         "description": "",
-        "translation": ["other"]
+        "translation": [
+            "other"
+        ],
+        "id": "14532234-5e28-4569-a65e-a3f3a9f06ff4"
     },
     {
         "word": "un",
         "description": "",
-        "translation": ["one"]
+        "translation": [
+            "one"
+        ],
+        "id": "9fc5623b-1552-4198-bf5d-136a3a9e2558"
     },
     {
         "word": "unu",
         "description": "",
-        "translation": ["one"]
+        "translation": [
+            "one"
+        ],
+        "id": "11c5c80a-2cd3-4143-a2f0-bc8cc2c2ff58"
     },
     {
         "word": "dos",
         "description": "",
-        "translation": ["two"]
+        "translation": [
+            "two"
+        ],
+        "id": "724d5419-204b-4948-bd38-379a660cf555"
     },
     {
         "word": "tres",
         "description": "",
-        "translation": ["three"]
+        "translation": [
+            "three"
+        ],
+        "id": "49b2c938-c2cc-47b3-b28f-7a949547ac14"
     },
     {
         "word": "kuater",
         "description": "",
-        "translation": ["four"]
+        "translation": [
+            "four"
+        ],
+        "id": "07317d79-6692-4480-843b-da8503b542e8"
     },
     {
         "word": "sinku",
         "description": "",
-        "translation": ["five"]
+        "translation": [
+            "five"
+        ],
+        "id": "83a31e05-2d77-4e54-8470-cdc1684b2c9b"
     },
     {
         "word": "grandi",
         "description": "",
-        "translation": ["big"]
+        "translation": [
+            "big"
+        ],
+        "id": "41528bff-8aa6-47cb-8cd0-061775f8ff06"
     },
     {
         "word": "largu",
         "description": "",
-        "translation": ["long"]
+        "translation": [
+            "long"
+        ],
+        "id": "e8592d48-4195-4778-ba4c-be1895047c65"
     },
     {
         "word": "anchu",
         "description": "",
-        "translation": ["wide"]
+        "translation": [
+            "wide"
+        ],
+        "id": "76f373ea-318f-4d01-9e3f-34a52bc27b11"
     },
     {
         "word": "hanchu",
         "description": "",
-        "translation": ["wide"]
+        "translation": [
+            "wide"
+        ],
+        "id": "f510a7b2-7229-40cf-a626-dfdcd099d0ae"
     },
     {
         "word": "diki",
         "description": "",
-        "translation": ["thick"]
+        "translation": [
+            "thick"
+        ],
+        "id": "226832a4-5541-49ac-8d82-5514f068d338"
     },
     {
         "word": "gordo",
         "description": "",
-        "translation": ["thick"]
+        "translation": [
+            "thick"
+        ],
+        "id": "bd1d0319-fe15-4fa3-a54a-a6ab473ac2a5"
     },
     {
         "word": "pisá",
         "description": "",
-        "translation": ["heavy"]
+        "translation": [
+            "heavy"
+        ],
+        "id": "5532f9c4-da89-4742-a43b-0a6aae6a2e70"
     },
     {
         "word": "chikí",
         "description": "",
-        "translation": ["small"]
+        "translation": [
+            "small"
+        ],
+        "id": "097677e9-3020-4220-82e3-314b36c548ff"
     },
     {
         "word": "kòrtiku",
         "description": "",
-        "translation": ["short"]
+        "translation": [
+            "short"
+        ],
+        "id": "dfe59f34-2106-42bb-be97-089381e422eb"
     },
     {
         "word": "smal",
         "description": "",
-        "translation": ["narrow"]
+        "translation": [
+            "narrow"
+        ],
+        "id": "4b86dc88-2e4a-4e21-a4db-d7444ea59fb3"
     },
     {
         "word": "delegá",
         "description": "",
-        "translation": ["thin"]
+        "translation": [
+            "thin"
+        ],
+        "id": "157ef1e3-cfb7-4916-b645-bb857c0cd321"
     },
     {
         "word": "flaku",
         "description": "",
-        "translation": ["thin"]
+        "translation": [
+            "thin"
+        ],
+        "id": "f0901946-b55e-484e-b5ad-654c70571566"
     },
     {
         "word": "muhé",
         "description": "",
-        "translation": ["woman"]
+        "translation": [
+            "woman"
+        ],
+        "id": "769c5116-64e9-4ed3-81b7-d595d1104821"
     },
     {
         "word": "hòmber",
         "description": "",
-        "translation": ["man", "man (adult male)"]
+        "translation": [
+            "man",
+            "man (adult male)"
+        ],
+        "id": "8cb6a5f4-c98b-4dd3-bb2a-1f797aea1099"
     },
     {
         "word": "hende",
         "description": "",
-        "translation": ["man", "man (human being)"]
+        "translation": [
+            "man",
+            "man (human being)"
+        ],
+        "id": "87fe0e4c-97b5-43b4-bd54-570041068b3d"
     },
     {
         "word": "yu",
         "description": "",
-        "translation": ["child"]
+        "translation": [
+            "child"
+        ],
+        "id": "aa279440-64a0-49b8-84e9-09c2d34bcadf"
     },
     {
         "word": "yiu",
         "description": "",
-        "translation": ["child"]
+        "translation": [
+            "child"
+        ],
+        "id": "5af841be-0df8-4156-9955-6d832b5e285e"
     },
     {
         "word": "mucha",
         "description": "",
-        "translation": ["child"]
+        "translation": [
+            "child"
+        ],
+        "id": "1da8f3c5-ad21-4291-8fba-e26e4ab17594"
     },
     {
         "word": "esposa",
         "description": "",
-        "translation": ["wife"]
+        "translation": [
+            "wife"
+        ],
+        "id": "807b02b9-0186-4e99-9245-00ce9ecf5121"
     },
     {
         "word": "kasá",
         "description": "",
-        "translation": ["wife"]
+        "translation": [
+            "wife"
+        ],
+        "id": "4b382faa-76c6-4370-8064-30327a8e6d46"
     },
     {
         "word": "esposo",
         "description": "",
-        "translation": ["husband"]
+        "translation": [
+            "husband"
+        ],
+        "id": "d8295617-c14e-4880-b5e6-a66bdefdd5b2"
     },
     {
         "word": "kasá",
         "description": "",
-        "translation": ["husband"]
+        "translation": [
+            "husband"
+        ],
+        "id": "38678730-8022-4a73-834f-39504ff3d7cf"
     },
     {
         "word": "mama",
         "description": "",
-        "translation": ["mother"]
+        "translation": [
+            "mother"
+        ],
+        "id": "5960970b-643d-4dbf-a828-585ec97f3361"
     },
     {
         "word": "tata",
         "description": "",
-        "translation": ["father"]
+        "translation": [
+            "father"
+        ],
+        "id": "e2a9347e-0992-4ef7-b49e-e5f01039cb47"
     },
     {
         "word": "papa",
         "description": "",
-        "translation": ["father"]
+        "translation": [
+            "father"
+        ],
+        "id": "ecda0688-f190-4ca4-868d-73c282b9a445"
     },
     {
         "word": "bestia",
         "description": "",
-        "translation": ["animal"]
+        "translation": [
+            "animal"
+        ],
+        "id": "c56657cd-62e0-4a82-9761-716c428e2545"
     },
     {
         "word": "animal",
         "description": "",
-        "translation": ["animal"]
+        "translation": [
+            "animal"
+        ],
+        "id": "8cba3e8c-cc16-493c-b9ce-f675047e916c"
     },
     {
         "word": "piská",
         "description": "",
-        "translation": ["fish"]
+        "translation": [
+            "fish"
+        ],
+        "id": "8924398b-4ee8-45b3-8e4f-ae90106d88f6"
     },
     {
         "word": "para",
         "description": "",
-        "translation": ["bird"]
+        "translation": [
+            "bird"
+        ],
+        "id": "323e29c1-6970-4eb4-b921-390535165005"
     },
     {
         "word": "kachó",
         "description": "",
-        "translation": ["dog"]
+        "translation": [
+            "dog"
+        ],
+        "id": "daa7521f-83e6-44a6-a273-d6df44bce08f"
     },
     {
         "word": "pieu",
         "description": "",
-        "translation": ["louse"]
+        "translation": [
+            "louse"
+        ],
+        "id": "c561d5cc-8d7e-4803-b807-c277dade656b"
     },
     {
         "word": "kolebra",
         "description": "",
-        "translation": ["snake"]
+        "translation": [
+            "snake"
+        ],
+        "id": "3e984845-5d3b-4cae-8536-1269538c19ef"
     },
     {
         "word": "bichi",
         "description": "",
-        "translation": ["worm"]
+        "translation": [
+            "worm"
+        ],
+        "id": "1ebc99c3-e3f3-46e3-8b20-7f74cd0109fe"
     },
     {
         "word": "palu",
         "description": "",
-        "translation": ["tree"]
+        "translation": [
+            "tree"
+        ],
+        "id": "38b4a016-d1d4-4ee4-b50c-55e81b4077fb"
     },
     {
         "word": "mondi",
         "description": "",
-        "translation": ["forest"]
+        "translation": [
+            "forest"
+        ],
+        "id": "ebd1042a-16af-479e-ba4d-60eb047519c4"
     },
     {
         "word": "baston",
         "description": "",
-        "translation": ["stick"]
+        "translation": [
+            "stick"
+        ],
+        "id": "ef59e928-acc7-45ad-b0f3-1f2b829ed57c"
     },
     {
         "word": "palu",
         "description": "",
-        "translation": ["stick"]
+        "translation": [
+            "stick"
+        ],
+        "id": "8406573f-9f47-40c8-bfec-ff3269001a7c"
     },
     {
         "word": "fruta",
         "description": "",
-        "translation": ["fruit"]
+        "translation": [
+            "fruit"
+        ],
+        "id": "4f1b7ec4-e10e-4d21-9996-d01f7f00a969"
     },
     {
         "word": "simia",
         "description": "",
-        "translation": ["seed"]
+        "translation": [
+            "seed"
+        ],
+        "id": "36ae5bfb-e454-4cd4-871d-7f3aa1a75d03"
     },
     {
         "word": "blachi",
         "description": "",
-        "translation": ["leaf"]
+        "translation": [
+            "leaf"
+        ],
+        "id": "1b00cb86-fa19-4d3b-8136-f56c1e8828c3"
     },
     {
         "word": "foya",
         "description": "",
-        "translation": ["leaf"]
+        "translation": [
+            "leaf"
+        ],
+        "id": "965591f6-698b-42ef-93a8-fba91f009218"
     },
     {
         "word": "rais",
         "description": "",
-        "translation": ["root"]
+        "translation": [
+            "root"
+        ],
+        "id": "6e78dd96-2cdc-4623-ba8a-60abddb8927e"
     },
     {
         "word": "kaska",
         "description": "",
-        "translation": ["bark", "bark (of a tree)"]
+        "translation": [
+            "bark",
+            "bark (of a tree)"
+        ],
+        "id": "1c62924d-89d9-4a12-a567-cf884955839e"
     },
     {
         "word": "flor",
         "description": "",
-        "translation": ["flower"]
+        "translation": [
+            "flower"
+        ],
+        "id": "13901458-c07c-4345-9bc5-5fa2b52e592d"
     },
     {
         "word": "yerba",
         "description": "",
-        "translation": ["grass"]
+        "translation": [
+            "grass"
+        ],
+        "id": "28be9673-45cb-4450-a096-1c7ca6b39e1f"
     },
     {
         "word": "kabuya",
         "description": "",
-        "translation": ["rope"]
+        "translation": [
+            "rope"
+        ],
+        "id": "0daf48d2-c5a6-4dec-9661-f9cb1ffd5e25"
     },
     {
         "word": "liña",
         "description": "",
-        "translation": ["rope"]
+        "translation": [
+            "rope"
+        ],
+        "id": "56424f39-b68a-45bd-aabd-76b54b87d214"
     },
     {
         "word": "kueru",
         "description": "",
-        "translation": ["skin"]
+        "translation": [
+            "skin"
+        ],
+        "id": "5ae7cc4b-c7d7-4c72-9f3e-9cdb8eaea61b"
     },
     {
         "word": "karni",
         "description": "",
-        "translation": ["meat"]
+        "translation": [
+            "meat"
+        ],
+        "id": "ba25e63e-c63b-4f74-8474-4327b6624bf3"
     },
     {
         "word": "sanger",
         "description": "",
-        "translation": ["blood"]
+        "translation": [
+            "blood"
+        ],
+        "id": "a406a467-02ce-49bb-a2d4-ef126d56fe44"
     },
     {
         "word": "wesu",
         "description": "",
-        "translation": ["bone"]
+        "translation": [
+            "bone"
+        ],
+        "id": "a53c988a-ef42-4252-8a96-b924ec84ec18"
     },
     {
         "word": "vèt",
         "description": "",
-        "translation": ["fat", "fat (noun)"]
+        "translation": [
+            "fat",
+            "fat (noun)"
+        ],
+        "id": "e047932c-7774-462f-8698-0f8c06835af5"
     },
     {
         "word": "sebu",
         "description": "",
-        "translation": ["fat", "fat (noun)"]
+        "translation": [
+            "fat",
+            "fat (noun)"
+        ],
+        "id": "1f38867e-5579-41bb-b17a-e37511c1fe70"
     },
     {
         "word": "webu",
         "description": "",
-        "translation": ["egg"]
+        "translation": [
+            "egg"
+        ],
+        "id": "447003b1-f23a-431c-9076-49d2aa724490"
     },
     {
         "word": "kachu",
         "description": "",
-        "translation": ["horn"]
+        "translation": [
+            "horn"
+        ],
+        "id": "cca73dec-8bb1-40e2-894b-4d4c8cbe2042"
     },
     {
         "word": "rabu",
         "description": "",
-        "translation": ["tail"]
+        "translation": [
+            "tail"
+        ],
+        "id": "e277fa0f-8827-4932-a280-6d6d319e0e6a"
     },
     {
         "word": "pluma",
         "description": "",
-        "translation": ["feather"]
+        "translation": [
+            "feather"
+        ],
+        "id": "57eb8c70-83e2-4e98-ad9b-65b525a9b53f"
     },
     {
         "word": "kabei",
         "description": "",
-        "translation": ["hair"]
+        "translation": [
+            "hair"
+        ],
+        "id": "daf66f83-66ef-47fe-8021-76324036415f"
     },
     {
         "word": "kabes",
         "description": "",
-        "translation": ["head"]
+        "translation": [
+            "head"
+        ],
+        "id": "46292122-5498-426b-a62c-7f46f4bdaa07"
     },
     {
         "word": "orea",
         "description": "",
-        "translation": ["ear"]
+        "translation": [
+            "ear"
+        ],
+        "id": "8652ba29-f778-4ec1-8fe7-4616d5e42261"
     },
     {
         "word": "wowo",
         "description": "",
-        "translation": ["eye"]
+        "translation": [
+            "eye"
+        ],
+        "id": "08341a0e-19fa-4261-959c-85da59176457"
     },
     {
         "word": "nanishi",
         "description": "",
-        "translation": ["nose"]
+        "translation": [
+            "nose"
+        ],
+        "id": "f9bf070a-2811-4a6e-a1cd-6f4f7288e61e"
     },
     {
         "word": "boka",
         "description": "",
-        "translation": ["mouth"]
+        "translation": [
+            "mouth"
+        ],
+        "id": "4d4ff0a2-81f3-4139-9b3c-0ad77cfe974e"
     },
     {
         "word": "djente",
         "description": "",
-        "translation": ["tooth"]
+        "translation": [
+            "tooth"
+        ],
+        "id": "64388637-08fb-477e-81ed-c6b26f39d9ae"
     },
     {
         "word": "lenga",
         "description": "",
-        "translation": ["tongue", "tongue (organ)"]
+        "translation": [
+            "tongue",
+            "tongue (organ)"
+        ],
+        "id": "c28048bf-b9c6-4011-848f-454c622a72fb"
     },
     {
         "word": "uña",
         "description": "",
-        "translation": ["fingernail"]
+        "translation": [
+            "fingernail"
+        ],
+        "id": "124bd71d-a321-4451-b0f3-cdc7fc0103ee"
     },
     {
         "word": "pia",
         "description": "",
-        "translation": ["foot"]
+        "translation": [
+            "foot"
+        ],
+        "id": "e2d2c0ce-c01f-4efa-bd70-3b03e5ad12b2"
     },
     {
         "word": "pia",
         "description": "",
-        "translation": ["leg"]
+        "translation": [
+            "leg"
+        ],
+        "id": "331c9758-8e02-49b0-a0c0-cadf1d2de01f"
     },
     {
         "word": "pata",
         "description": "",
-        "translation": ["leg"]
+        "translation": [
+            "leg"
+        ],
+        "id": "3c493dab-016a-45ae-b452-f8a4cf732587"
     },
     {
         "word": "rudia",
         "description": "",
-        "translation": ["knee"]
+        "translation": [
+            "knee"
+        ],
+        "id": "19b54038-3d26-479f-ba5c-ea5262ae28ba"
     },
     {
         "word": "man",
         "description": "",
-        "translation": ["hand"]
+        "translation": [
+            "hand"
+        ],
+        "id": "1bb53890-d62f-4654-b51e-357afafcefb9"
     },
     {
         "word": "ala",
         "description": "",
-        "translation": ["wing"]
+        "translation": [
+            "wing"
+        ],
+        "id": "80c3cbdd-2a7f-446f-b9ff-3ff4f0bdc921"
     },
     {
         "word": "hala",
         "description": "",
-        "translation": ["wing"]
+        "translation": [
+            "wing"
+        ],
+        "id": "e07f2062-989a-4503-aa55-235aec7dab79"
     },
     {
         "word": "barika",
         "description": "",
-        "translation": ["belly"]
+        "translation": [
+            "belly"
+        ],
+        "id": "dd033ca6-3f62-48c4-bc5d-a2a8a8181c9c"
     },
     {
         "word": "tripa",
         "description": "",
-        "translation": ["guts"]
+        "translation": [
+            "guts"
+        ],
+        "id": "77aa44d4-eaf3-40f3-8553-0497d25d947c"
     },
     {
         "word": "mondongo",
         "description": "",
-        "translation": ["guts"]
+        "translation": [
+            "guts"
+        ],
+        "id": "da10154d-6548-443e-8b32-9c7fe966b9d6"
     },
     {
         "word": "garganta",
         "description": "",
-        "translation": ["neck"]
+        "translation": [
+            "neck"
+        ],
+        "id": "3b6e318f-9ee4-46c3-b081-93dd7b538a15"
     },
     {
         "word": "nèk",
         "description": "",
-        "translation": ["neck"]
+        "translation": [
+            "neck"
+        ],
+        "id": "1df03dd1-f1a6-4b39-9b2d-37e732713b24"
     },
     {
         "word": "lomba",
         "description": "",
-        "translation": ["back"]
+        "translation": [
+            "back"
+        ],
+        "id": "3a255285-a7e1-4838-9089-e17f6597a70a"
     },
     {
         "word": "pechu",
         "description": "",
-        "translation": ["breast"]
+        "translation": [
+            "breast"
+        ],
+        "id": "a62f4ea8-7dc8-4adb-b900-a4c1275299c6"
     },
     {
         "word": "kurason",
         "description": "",
-        "translation": ["heart"]
+        "translation": [
+            "heart"
+        ],
+        "id": "f9e3161e-6505-4ac3-b89a-063edb493fa4"
     },
     {
         "word": "higra",
         "description": "",
-        "translation": ["liver"]
+        "translation": [
+            "liver"
+        ],
+        "id": "b4200de1-55e1-4cc8-8f66-233d0d51c2af"
     },
     {
         "word": "bebe",
         "description": "",
-        "translation": ["to drink"]
+        "translation": [
+            "to drink"
+        ],
+        "id": "4424056d-70b9-46c5-8c0f-206737427154"
     },
     {
         "word": "kome",
         "description": "",
-        "translation": ["to eat"]
+        "translation": [
+            "to eat"
+        ],
+        "id": "8890ac74-2eef-49f5-adcd-e2f9e3bb052c"
     },
     {
         "word": "morde",
         "description": "",
-        "translation": ["to bite"]
+        "translation": [
+            "to bite"
+        ],
+        "id": "c3ba31e5-8402-4209-b747-639f214d7f4b"
     },
     {
         "word": "chupa",
         "description": "",
-        "translation": ["to suck"]
+        "translation": [
+            "to suck"
+        ],
+        "id": "81553e91-5371-41bf-b37a-351a483692fc"
     },
     {
         "word": "skupi",
         "description": "",
-        "translation": ["to spit"]
+        "translation": [
+            "to spit"
+        ],
+        "id": "d248d3cd-b4a7-48e7-b954-8c1ac7eef670"
     },
     {
         "word": "arohá",
         "description": "",
-        "translation": ["to vomit"]
+        "translation": [
+            "to vomit"
+        ],
+        "id": "50f51e90-2560-446e-9741-869da1585eb5"
     },
     {
         "word": "saka",
         "description": "",
-        "translation": ["to vomit"]
+        "translation": [
+            "to vomit"
+        ],
+        "id": "a2932676-5076-416d-bd76-38bcf007c86b"
     },
     {
         "word": "supla",
         "description": "",
-        "translation": ["to blow"]
+        "translation": [
+            "to blow"
+        ],
+        "id": "aba60fba-9cfb-463a-98e2-c09de4fd4bf7"
     },
     {
         "word": "blas",
         "description": "",
-        "translation": ["to blow"]
+        "translation": [
+            "to blow"
+        ],
+        "id": "68fa5b50-c188-470e-9495-aee3d2f34d84"
     },
     {
         "word": "hala rosea",
         "description": "",
-        "translation": ["to breathe"]
+        "translation": [
+            "to breathe"
+        ],
+        "id": "c266b80b-adb1-4330-b557-15f848f61d91"
     },
     {
         "word": "respirá",
         "description": "",
-        "translation": ["to breathe"]
+        "translation": [
+            "to breathe"
+        ],
+        "id": "03daedc0-d6b7-42be-ba34-f586dacd1576"
     },
     {
         "word": "hari",
         "description": "",
-        "translation": ["to laugh"]
+        "translation": [
+            "to laugh"
+        ],
+        "id": "b3469176-6c16-4058-aa91-e92085124f85"
     },
     {
         "word": "mira",
         "description": "",
-        "translation": ["to see"]
+        "translation": [
+            "to see"
+        ],
+        "id": "9571f853-31a3-441d-abe7-8d9a686688e2"
     },
     {
         "word": "weta",
         "description": "",
-        "translation": ["to see"]
+        "translation": [
+            "to see"
+        ],
+        "id": "09b73ffe-5d51-473e-b4cc-7e378fcd6777"
     },
     {
         "word": "tende",
         "description": "",
-        "translation": ["to hear"]
+        "translation": [
+            "to hear"
+        ],
+        "id": "7840e171-cb16-46f6-b750-7abb1f75c1fd"
     },
     {
         "word": "sa",
         "description": "",
-        "translation": ["to know"]
+        "translation": [
+            "to know"
+        ],
+        "id": "c110ac6f-22db-4b3f-9355-b643569607c4"
     },
     {
         "word": "sabi",
         "description": "",
-        "translation": ["to know"]
+        "translation": [
+            "to know"
+        ],
+        "id": "b7c89b0f-c41e-4267-811d-61f90bb5db0a"
     },
     {
         "word": "pensa",
         "description": "",
-        "translation": ["to think"]
+        "translation": [
+            "to think"
+        ],
+        "id": "8b117e4e-d6c1-4a12-a85b-9cd654a76947"
     },
     {
         "word": "kere",
         "description": "",
-        "translation": ["to think"]
+        "translation": [
+            "to think"
+        ],
+        "id": "4a104004-b85d-41b9-a10a-b86ae6914837"
     },
     {
         "word": "ole",
         "description": "",
-        "translation": ["to smell"]
+        "translation": [
+            "to smell"
+        ],
+        "id": "d467928c-b1a0-4c2a-8a91-4646a1b96229"
     },
     {
         "word": "tin miedu",
         "description": "",
-        "translation": ["to fear"]
+        "translation": [
+            "to fear"
+        ],
+        "id": "e7eb1298-ccfa-468c-b3f8-673e5089d505"
     },
     {
         "word": "drumi",
         "description": "",
-        "translation": ["to sleep"]
+        "translation": [
+            "to sleep"
+        ],
+        "id": "651c82d2-e63f-462b-aa9e-5c9748a509dd"
     },
     {
         "word": "biba",
         "description": "",
-        "translation": ["to live"]
+        "translation": [
+            "to live"
+        ],
+        "id": "cd2606dd-40b9-4011-ac3b-24ffa3f9ee95"
     },
     {
         "word": "muri",
         "description": "",
-        "translation": ["to die"]
+        "translation": [
+            "to die"
+        ],
+        "id": "28e4d48b-4bb1-4ae3-8196-5ac29f4ff8b2"
     },
     {
         "word": "mata",
         "description": "",
-        "translation": ["to kill"]
+        "translation": [
+            "to kill"
+        ],
+        "id": "efa5d422-22ea-4a63-8f21-b6de6a564b44"
     },
     {
         "word": "bringa",
         "description": "",
-        "translation": ["to fight"]
+        "translation": [
+            "to fight"
+        ],
+        "id": "46c71771-ec10-41d5-b581-3a14afc34dc6"
     },
     {
         "word": "yag",
         "description": "",
-        "translation": ["to hunt"]
+        "translation": [
+            "to hunt"
+        ],
+        "id": "05a16891-df3a-42f5-b6fa-b5bd4cf3abf4"
     },
     {
         "word": "raka",
         "description": "",
-        "translation": ["to hit"]
+        "translation": [
+            "to hit"
+        ],
+        "id": "d9089596-d6b9-4b10-8b3b-c7f4f4b410b9"
     },
     {
         "word": "bati",
         "description": "",
-        "translation": ["to hit"]
+        "translation": [
+            "to hit"
+        ],
+        "id": "a4fdbbb6-b6b5-4aed-a563-765bade40640"
     },
     {
         "word": "dal",
         "description": "",
-        "translation": ["to hit"]
+        "translation": [
+            "to hit"
+        ],
+        "id": "22231635-b112-427f-b944-a475a446065e"
     },
     {
         "word": "kòrta",
         "description": "",
-        "translation": ["to cut"]
+        "translation": [
+            "to cut"
+        ],
+        "id": "6873891f-0998-49dd-9af6-d3fd89ee57f9"
     },
     {
         "word": "separá",
         "description": "",
-        "translation": ["to split"]
+        "translation": [
+            "to split"
+        ],
+        "id": "8cdef3ad-f830-4507-a67d-963788c31c9e"
     },
     {
         "word": "apartá",
         "description": "",
-        "translation": ["to split"]
+        "translation": [
+            "to split"
+        ],
+        "id": "db54a545-86ba-4024-a384-bfe1aa22239c"
     },
     {
         "word": "hinka",
         "description": "",
-        "translation": ["to stab"]
+        "translation": [
+            "to stab"
+        ],
+        "id": "90f38770-d400-4320-9cd6-93e0fdfc3786"
     },
     {
         "word": "staka",
         "description": "",
-        "translation": ["to stab"]
+        "translation": [
+            "to stab"
+        ],
+        "id": "34cbf1cf-b57c-4d44-a3ed-fcd2e6026f7f"
     },
     {
         "word": "huña",
         "description": "",
-        "translation": ["to scratch"]
+        "translation": [
+            "to scratch"
+        ],
+        "id": "b2a08d75-ce51-45ae-b748-9f411dfba7df"
     },
     {
         "word": "raspa",
         "description": "",
-        "translation": ["to scratch"]
+        "translation": [
+            "to scratch"
+        ],
+        "id": "ef423306-7d68-462a-a4e2-b33f835cea42"
     },
     {
         "word": "koba",
         "description": "",
-        "translation": ["to dig"]
+        "translation": [
+            "to dig"
+        ],
+        "id": "c72bb88a-f6fa-44c5-b12a-17b271f6805d"
     },
     {
         "word": "landa",
         "description": "",
-        "translation": ["to swim"]
+        "translation": [
+            "to swim"
+        ],
+        "id": "e6a13ede-27ca-4e34-9c4f-0d4eb03ba491"
     },
     {
         "word": "bula",
         "description": "",
-        "translation": ["to fly"]
+        "translation": [
+            "to fly"
+        ],
+        "id": "a97abe5c-9bf9-459c-b7a9-309c55b7e328"
     },
     {
         "word": "kana",
         "description": "",
-        "translation": ["to walk"]
+        "translation": [
+            "to walk"
+        ],
+        "id": "69fecd21-4074-4f93-8225-a5431ee5232e"
     },
     {
         "word": "bin",
         "description": "",
-        "translation": ["to come"]
+        "translation": [
+            "to come"
+        ],
+        "id": "52f7f5d2-1347-48fa-85b8-b05c08ee9668"
     },
     {
         "word": "bini",
         "description": "",
-        "translation": ["to come"]
+        "translation": [
+            "to come"
+        ],
+        "id": "469f0db4-3931-4d94-a5dd-58e1aa754d2a"
     },
     {
         "word": "keda",
         "description": "",
-        "translation": ["to lie", "to lie (as in a bed)"]
+        "translation": [
+            "to lie",
+            "to lie (as in a bed)"
+        ],
+        "id": "77ecd047-a433-412c-af08-a48c7d36ac6d"
     },
     {
         "word": "sinta",
         "description": "",
-        "translation": ["to sit"]
+        "translation": [
+            "to sit"
+        ],
+        "id": "1d1b7375-d838-4198-821c-8373b26d3954"
     },
     {
         "word": "para",
         "description": "",
-        "translation": ["to stand"]
+        "translation": [
+            "to stand"
+        ],
+        "id": "5e65eefe-7c54-4452-8b3d-06d8e08bd497"
     },
     {
         "word": "drai",
         "description": "",
-        "translation": ["to turn", "to turn (intransitive)"]
+        "translation": [
+            "to turn",
+            "to turn (intransitive)"
+        ],
+        "id": "82556f1d-ef77-4957-b069-675f66033ffc"
     },
     {
         "word": "bira",
         "description": "",
-        "translation": ["to turn", "to turn (intransitive)"]
+        "translation": [
+            "to turn",
+            "to turn (intransitive)"
+        ],
+        "id": "422a6abc-9fd5-403b-bd7a-50b58acdbc26"
     },
     {
         "word": "kai",
         "description": "",
-        "translation": ["to fall"]
+        "translation": [
+            "to fall"
+        ],
+        "id": "50ef2f56-a9d7-4914-9d82-c68190ec2d78"
     },
     {
         "word": "dal abou",
         "description": "",
-        "translation": ["to fall"]
+        "translation": [
+            "to fall"
+        ],
+        "id": "0b6c8bf6-03c4-4e6a-a2db-a201fa88a8b4"
     },
     {
         "word": "duna",
         "description": "",
-        "translation": ["to give"]
+        "translation": [
+            "to give"
+        ],
+        "id": "5fa8c2eb-4214-4067-bbde-b9042afb7fe3"
     },
     {
         "word": "tene",
         "description": "",
-        "translation": ["to hold"]
+        "translation": [
+            "to hold"
+        ],
+        "id": "bb787492-3621-410a-b93f-618ab57c7257"
     },
     {
         "word": "primi",
         "description": "",
-        "translation": ["to squeeze"]
+        "translation": [
+            "to squeeze"
+        ],
+        "id": "a18a98e1-04f5-474b-a2e9-defd07e372ac"
     },
     {
         "word": "kinipí",
         "description": "",
-        "translation": ["to squeeze"]
+        "translation": [
+            "to squeeze"
+        ],
+        "id": "9cc931e3-c2de-4d41-97b9-09a405f33616"
     },
     {
         "word": "frega",
         "description": "",
-        "translation": ["to rub"]
+        "translation": [
+            "to rub"
+        ],
+        "id": "12af390e-6194-47e4-aa28-b1439e60cb40"
     },
     {
         "word": "laba",
         "description": "",
-        "translation": ["to wash"]
+        "translation": [
+            "to wash"
+        ],
+        "id": "690f1eb1-cdde-44d2-b84e-c7c26d838304"
     },
     {
         "word": "bari",
         "description": "",
-        "translation": ["to wipe"]
+        "translation": [
+            "to wipe"
+        ],
+        "id": "a6deeb1f-5a90-4893-ac8f-04dd0bee0f8c"
     },
     {
         "word": "hala",
         "description": "",
-        "translation": ["to pull"]
+        "translation": [
+            "to pull"
+        ],
+        "id": "73c7b11b-90db-4962-a333-3608a19d6c23"
     },
     {
         "word": "trèk",
         "description": "",
-        "translation": ["to pull"]
+        "translation": [
+            "to pull"
+        ],
+        "id": "8a0e2b45-5976-40ee-b2a7-e5d32e634a50"
     },
     {
         "word": "pusha",
         "description": "",
-        "translation": ["to push"]
+        "translation": [
+            "to push"
+        ],
+        "id": "f656b6c2-117f-4c63-9098-b93951daa96b"
     },
     {
         "word": "benta",
         "description": "",
-        "translation": ["to throw"]
+        "translation": [
+            "to throw"
+        ],
+        "id": "448360b2-698a-4d0e-b265-1cfe6bb7b6a9"
     },
     {
         "word": "tira",
         "description": "",
-        "translation": ["to throw"]
+        "translation": [
+            "to throw"
+        ],
+        "id": "5a5eca9a-32ec-418d-b6cd-6cb7b45a99cb"
     },
     {
         "word": "mara",
         "description": "",
-        "translation": ["to tie"]
+        "translation": [
+            "to tie"
+        ],
+        "id": "42c673c0-101c-4712-bac7-7321dab3331c"
     },
     {
         "word": "kose",
         "description": "",
-        "translation": ["to sew"]
+        "translation": [
+            "to sew"
+        ],
+        "id": "89d46113-73c9-4b4f-b60b-f93863ceb4eb"
     },
     {
         "word": "konta",
         "description": "",
-        "translation": ["to count"]
+        "translation": [
+            "to count"
+        ],
+        "id": "c27679d0-c424-47bc-9351-1654606a1448"
     },
     {
         "word": "rek",
         "description": "",
-        "translation": ["to count"]
+        "translation": [
+            "to count"
+        ],
+        "id": "f18c30e2-f556-4895-9250-ceb5de5086d1"
     },
     {
         "word": "bisa",
         "description": "",
-        "translation": ["to say"]
+        "translation": [
+            "to say"
+        ],
+        "id": "c8757c33-e46a-475b-9b4b-8394bec3ccb1"
     },
     {
         "word": "kanta",
         "description": "",
-        "translation": ["to sing"]
+        "translation": [
+            "to sing"
+        ],
+        "id": "6ad6b2dd-eb3b-4ccf-8030-8825894dc097"
     },
     {
         "word": "hunga",
         "description": "",
-        "translation": ["to play"]
+        "translation": [
+            "to play"
+        ],
+        "id": "0a9d6e86-9f4f-4b07-ad43-2edc73e8f4e8"
     },
     {
         "word": "drif",
         "description": "",
-        "translation": ["to float"]
+        "translation": [
+            "to float"
+        ],
+        "id": "0c1ec64e-ca86-4b60-aa04-138655fa80af"
     },
     {
         "word": "kore",
         "description": "",
-        "translation": ["to flow"]
+        "translation": [
+            "to flow"
+        ],
+        "id": "fbf7797f-5935-47b6-83b1-8ea77e79e20f"
     },
     {
         "word": "fris",
         "description": "",
-        "translation": ["to freeze"]
+        "translation": [
+            "to freeze"
+        ],
+        "id": "64e1a80e-bef8-4b06-bef0-0544fe268355"
     },
     {
         "word": "hincha",
         "description": "",
-        "translation": ["to swell"]
+        "translation": [
+            "to swell"
+        ],
+        "id": "a5d2955d-e2bf-421c-8d2e-8d4666368c65"
     },
     {
         "word": "solo",
         "description": "",
-        "translation": ["sun"]
+        "translation": [
+            "sun"
+        ],
+        "id": "70aebbb5-e5a9-4fef-931a-47f30296b1ac"
     },
     {
         "word": "luna",
         "description": "",
-        "translation": ["moon"]
+        "translation": [
+            "moon"
+        ],
+        "id": "8755470d-c82f-4885-8b15-a27b30394ab3"
     },
     {
         "word": "strea",
         "description": "",
-        "translation": ["star"]
+        "translation": [
+            "star"
+        ],
+        "id": "d874dc85-2db1-43b1-9fdf-de3374b4d449"
     },
     {
         "word": "awa",
         "description": "",
-        "translation": ["water"]
+        "translation": [
+            "water"
+        ],
+        "id": "db4da496-71cc-47f9-9183-f4124543481f"
     },
     {
         "word": "awaseru",
         "description": "",
-        "translation": ["rain"]
+        "translation": [
+            "rain"
+        ],
+        "id": "5bfe1835-e7ce-4c6c-bc58-ecb25f0b8edb"
     },
     {
         "word": "riu",
         "description": "",
-        "translation": ["river"]
+        "translation": [
+            "river"
+        ],
+        "id": "73d794be-8c9e-44f9-8a1c-2a55b0c8a75f"
     },
     {
         "word": "lago",
         "description": "",
-        "translation": ["lake"]
+        "translation": [
+            "lake"
+        ],
+        "id": "d943e3c5-8183-4562-a031-4fcf45079671"
     },
     {
         "word": "laman",
         "description": "",
-        "translation": ["sea"]
+        "translation": [
+            "sea"
+        ],
+        "id": "f850fe94-c888-4b4c-a67a-83ff374c2406"
     },
     {
         "word": "salu",
         "description": "",
-        "translation": ["salt"]
+        "translation": [
+            "salt"
+        ],
+        "id": "426f2d6a-1b01-4432-a2f8-ab2f936fab43"
     },
     {
         "word": "piedra",
         "description": "",
-        "translation": ["stone"]
+        "translation": [
+            "stone"
+        ],
+        "id": "f8354e0d-ddc7-46f6-af63-a8b7fd54fdd8"
     },
     {
         "word": "pieda",
         "description": "",
-        "translation": ["stone"]
+        "translation": [
+            "stone"
+        ],
+        "id": "6137149c-0de2-4141-a00c-45833c7a9b18"
     },
     {
         "word": "santu",
         "description": "",
-        "translation": ["sand"]
+        "translation": [
+            "sand"
+        ],
+        "id": "a43eb946-8795-4724-9d90-db349e441aa1"
     },
     {
         "word": "stòf",
         "description": "",
-        "translation": ["dust"]
+        "translation": [
+            "dust"
+        ],
+        "id": "63003f5e-8a01-4165-ad6d-873357203135"
     },
     {
         "word": "tera",
         "description": "",
-        "translation": ["earth"]
+        "translation": [
+            "earth"
+        ],
+        "id": "73df4b10-b869-426b-9bbf-563c296e7f03"
     },
     {
         "word": "nubia",
         "description": "",
-        "translation": ["cloud"]
+        "translation": [
+            "cloud"
+        ],
+        "id": "52354830-9880-4f16-91b7-0a474000ad59"
     },
     {
         "word": "neblina",
         "description": "",
-        "translation": ["fog"]
+        "translation": [
+            "fog"
+        ],
+        "id": "0fdb7a9c-cdaa-4b8a-a383-b40b66377985"
     },
     {
         "word": "shelu",
         "description": "",
-        "translation": ["sky"]
+        "translation": [
+            "sky"
+        ],
+        "id": "14cc98a9-82b0-4596-be8a-ae4833915948"
     },
     {
         "word": "bientu",
         "description": "",
-        "translation": ["wind"]
+        "translation": [
+            "wind"
+        ],
+        "id": "aa130459-96a7-4916-8032-423826846af9"
     },
     {
         "word": "sneu",
         "description": "",
-        "translation": ["snow"]
+        "translation": [
+            "snow"
+        ],
+        "id": "dd6b19c0-a99e-4cf0-ba24-52e63bf5ab13"
     },
     {
         "word": "eis",
         "description": "",
-        "translation": ["ice"]
+        "translation": [
+            "ice"
+        ],
+        "id": "ca29b734-71bb-43e1-ac58-65ed86e5b1c6"
     },
     {
         "word": "huma",
         "description": "",
-        "translation": ["smoke"]
+        "translation": [
+            "smoke"
+        ],
+        "id": "38e5a77b-558e-447c-a5b4-e3cea4cd1822"
     },
     {
         "word": "kandela",
         "description": "",
-        "translation": ["fire"]
+        "translation": [
+            "fire"
+        ],
+        "id": "ddb9bf20-76bb-430b-b70f-803c17398df2"
     },
     {
         "word": "shinishi",
         "description": "",
-        "translation": ["ash"]
+        "translation": [
+            "ash"
+        ],
+        "id": "e1dd3b2e-1a77-44dd-a069-34d02226bd52"
     },
     {
         "word": "kima",
         "description": "",
-        "translation": ["to burn"]
+        "translation": [
+            "to burn"
+        ],
+        "id": "3a681f0e-176c-4667-afbb-2aac3fc62115"
     },
     {
         "word": "kaminda",
         "description": "",
-        "translation": ["road"]
+        "translation": [
+            "road"
+        ],
+        "id": "76020a4e-5afd-4d4a-a3cf-caeaf0f1f9f8"
     },
     {
         "word": "karetera",
         "description": "",
-        "translation": ["road"]
+        "translation": [
+            "road"
+        ],
+        "id": "7dd9f377-4bad-4f19-9228-9a8407001eed"
     },
     {
         "word": "seru",
         "description": "",
-        "translation": ["mountain"]
+        "translation": [
+            "mountain"
+        ],
+        "id": "0becfe87-e108-4884-9f29-c2ff215b7492"
     },
     {
         "word": "kòrá",
         "description": "",
-        "translation": ["red"]
+        "translation": [
+            "red"
+        ],
+        "id": "36388461-7e4c-4f79-9a4a-794772884ff1"
     },
     {
         "word": "bèrdè",
         "description": "",
-        "translation": ["green"]
+        "translation": [
+            "green"
+        ],
+        "id": "898e8e3b-1f5f-408f-af2b-2139f5e62136"
     },
     {
         "word": "hel",
         "description": "",
-        "translation": ["yellow"]
+        "translation": [
+            "yellow"
+        ],
+        "id": "195c208d-9428-4bea-899b-dbaca72624ee"
     },
     {
         "word": "blanku",
         "description": "",
-        "translation": ["white"]
+        "translation": [
+            "white"
+        ],
+        "id": "d8484b4f-e365-4ff1-aa90-253b6178d70c"
     },
     {
         "word": "pretu",
         "description": "",
-        "translation": ["black"]
+        "translation": [
+            "black"
+        ],
+        "id": "3ee18508-4586-4036-827c-191efed27f12"
     },
     {
         "word": "nochi",
         "description": "",
-        "translation": ["night"]
+        "translation": [
+            "night"
+        ],
+        "id": "8eb65713-8e79-43aa-adb8-87a91311b2c0"
     },
     {
         "word": "anochi",
         "description": "",
-        "translation": ["night"]
+        "translation": [
+            "night"
+        ],
+        "id": "913ec1e5-d571-447d-a1ff-5cb057e69936"
     },
     {
         "word": "dia",
         "description": "",
-        "translation": ["day"]
+        "translation": [
+            "day"
+        ],
+        "id": "12794447-411d-479c-aea2-51d906ae28e7"
     },
     {
         "word": "aña",
         "description": "",
-        "translation": ["year"]
+        "translation": [
+            "year"
+        ],
+        "id": "18820e4f-de14-4251-b090-f15934ed103a"
     },
     {
         "word": "kayente",
         "description": "",
-        "translation": ["warm"]
+        "translation": [
+            "warm"
+        ],
+        "id": "cc2100c8-e50d-45f7-9905-ab64d2d41598"
     },
     {
         "word": "kalor",
         "description": "",
-        "translation": ["warm"]
+        "translation": [
+            "warm"
+        ],
+        "id": "b018a156-9c6d-46c7-a46e-3cf1aa4bb0f1"
     },
     {
         "word": "friu",
         "description": "",
-        "translation": ["cold"]
+        "translation": [
+            "cold"
+        ],
+        "id": "53179fc5-d154-483f-b9e6-b44003661f3b"
     },
     {
         "word": "yen",
         "description": "",
-        "translation": ["full"]
+        "translation": [
+            "full"
+        ],
+        "id": "c3f19614-a226-4228-b411-f46d6f59107a"
     },
     {
         "word": "nobo",
         "description": "",
-        "translation": ["new"]
+        "translation": [
+            "new"
+        ],
+        "id": "981c192d-121e-498e-911a-3dffca726f4d"
     },
     {
         "word": "bieu",
         "description": "",
-        "translation": ["old"]
+        "translation": [
+            "old"
+        ],
+        "id": "063b6360-6c2b-48b1-833f-5f41f237d99c"
     },
     {
         "word": "bon",
         "description": "",
-        "translation": ["good"]
+        "translation": [
+            "good"
+        ],
+        "id": "a7941ab3-909a-4c3d-8d92-4e0e59f3b6cf"
     },
     {
         "word": "malu",
         "description": "",
-        "translation": ["bad"]
+        "translation": [
+            "bad"
+        ],
+        "id": "c6b025d6-4a01-459f-9cb1-384a6c40b4f0"
     },
     {
         "word": "putrí",
         "description": "",
-        "translation": ["rotten"]
+        "translation": [
+            "rotten"
+        ],
+        "id": "a7642637-d069-4bd1-b853-6d78626f443c"
     },
     {
         "word": "sushi",
         "description": "",
-        "translation": ["dirty"]
+        "translation": [
+            "dirty"
+        ],
+        "id": "d01f5bbe-4f12-4a4e-8100-773f08325ee6"
     },
     {
         "word": "fis",
         "description": "",
-        "translation": ["dirty"]
+        "translation": [
+            "dirty"
+        ],
+        "id": "16193cd6-58ca-4370-a495-7c9f4be9ffe0"
     },
     {
         "word": "stret",
         "description": "",
-        "translation": ["straight"]
+        "translation": [
+            "straight"
+        ],
+        "id": "c34c6858-054b-4021-bfe9-ad5e73806bce"
     },
     {
         "word": "dirèkt",
         "description": "",
-        "translation": ["straight"]
+        "translation": [
+            "straight"
+        ],
+        "id": "4aa8ae00-c6a9-4a14-8487-5d67db1db9d3"
     },
     {
         "word": "rònt",
         "description": "",
-        "translation": ["round"]
+        "translation": [
+            "round"
+        ],
+        "id": "c8e643a5-1f73-440d-91c4-9ee7d0f907fc"
     },
     {
         "word": "rondó",
         "description": "",
-        "translation": ["round"]
+        "translation": [
+            "round"
+        ],
+        "id": "149645dd-dc06-440d-9cb5-f77bb4640658"
     },
     {
         "word": "skèrpi",
         "description": "",
-        "translation": ["sharp", "sharp (as a knife)"]
+        "translation": [
+            "sharp",
+            "sharp (as a knife)"
+        ],
+        "id": "5ce40a15-fae7-492e-a2b2-6ecdbc01fc3c"
     },
     {
         "word": "bòt",
         "description": "",
-        "translation": ["dull", "dull (as a knife)"]
+        "translation": [
+            "dull",
+            "dull (as a knife)"
+        ],
+        "id": "821dbd43-d602-40c2-8073-c41af43416a1"
     },
     {
         "word": "stòmpi",
         "description": "",
-        "translation": ["dull", "dull (as a knife)"]
+        "translation": [
+            "dull",
+            "dull (as a knife)"
+        ],
+        "id": "33172684-1224-46e7-967b-cd6aeeef6d2f"
     },
     {
         "word": "lizu",
         "description": "",
-        "translation": ["smooth"]
+        "translation": [
+            "smooth"
+        ],
+        "id": "1c756972-3990-4aa8-ac12-f9434a2e3e8d"
     },
     {
         "word": "muhá",
         "description": "",
-        "translation": ["wet"]
+        "translation": [
+            "wet"
+        ],
+        "id": "5e430df5-c2dd-43da-8a7b-2ceb75834054"
     },
     {
         "word": "seku",
         "description": "",
-        "translation": ["dry"]
+        "translation": [
+            "dry"
+        ],
+        "id": "11ec2065-81bc-415d-99af-3be6ac50bd51"
     },
     {
         "word": "korekto",
         "description": "",
-        "translation": ["correct"]
+        "translation": [
+            "correct"
+        ],
+        "id": "02adc9fe-38b0-4ca1-a77c-de295ac59da6"
     },
     {
         "word": "eksakto",
         "description": "",
-        "translation": ["correct"]
+        "translation": [
+            "correct"
+        ],
+        "id": "1c99e750-c325-4642-87f8-17139e1710e7"
     },
     {
         "word": "serka",
         "description": "",
-        "translation": ["near"]
+        "translation": [
+            "near"
+        ],
+        "id": "6769a8c7-214f-47ce-8be3-77d19b48eb15"
     },
     {
         "word": "leu",
         "description": "",
-        "translation": ["far"]
+        "translation": [
+            "far"
+        ],
+        "id": "efba4026-fe99-4fb7-a88d-5e19e03b3b26"
     },
     {
         "word": "drechi",
         "description": "",
-        "translation": ["right"]
+        "translation": [
+            "right"
+        ],
+        "id": "fffc5b97-43e5-4c26-8a41-b36c9b475a7f"
     },
     {
         "word": "robes",
         "description": "",
-        "translation": ["left"]
+        "translation": [
+            "left"
+        ],
+        "id": "07c04944-7c9d-4253-b6a4-ce0ea71711dd"
     },
     {
         "word": "na",
         "description": "",
-        "translation": ["at"]
+        "translation": [
+            "at"
+        ],
+        "id": "630dcd18-d9c4-4976-907a-6fa7ae25b4c7"
     },
     {
         "word": "den",
         "description": "",
-        "translation": ["in"]
+        "translation": [
+            "in"
+        ],
+        "id": "66a55849-c171-4f39-8336-836f33cb9f20"
     },
     {
         "word": "na",
         "description": "",
-        "translation": ["in"]
+        "translation": [
+            "in"
+        ],
+        "id": "324530c8-8199-4df6-b542-e5848e118a7d"
     },
     {
         "word": "ku",
         "description": "",
-        "translation": ["with"]
+        "translation": [
+            "with"
+        ],
+        "id": "cd25f3ea-f425-4e33-bf75-009bbb295b37"
     },
     {
         "word": "i",
         "description": "",
-        "translation": ["and"]
+        "translation": [
+            "and"
+        ],
+        "id": "349549d5-83f8-41c3-83a6-faa51d5fbc5b"
     },
     {
         "word": "ku",
         "description": "",
-        "translation": ["and"]
+        "translation": [
+            "and"
+        ],
+        "id": "d5d754e3-669b-49f1-83b0-e7be549c5817"
     },
     {
         "word": "si",
         "description": "",
-        "translation": ["if"]
+        "translation": [
+            "if"
+        ],
+        "id": "09572f89-d09b-493a-bc38-c9d0d03c2507"
     },
     {
         "word": "komo",
         "description": "",
-        "translation": ["because"]
+        "translation": [
+            "because"
+        ],
+        "id": "4d0f1d7f-354a-4126-83ef-02d30e52e308"
     },
     {
         "word": "pasobra",
         "description": "",
-        "translation": ["because"]
+        "translation": [
+            "because"
+        ],
+        "id": "503905f4-ff8e-4591-b356-1a4fb1700c85"
     },
     {
         "word": "nòmber",
         "description": "",
-        "translation": ["name"]
+        "translation": [
+            "name"
+        ],
+        "id": "1d576d24-23d4-4e42-b13a-a418056b677e"
     }
 ]

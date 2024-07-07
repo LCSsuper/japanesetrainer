@@ -8,6 +8,7 @@ import {
     Title,
 } from "@mantine/core";
 import { observer } from "mobx-react-lite";
+
 import { useMobxStores } from "../../../hooks/useMobxStores";
 import { PracticeMode } from "../../../types";
 
@@ -61,7 +62,7 @@ const PracticeText = ({
 
 export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
     const {
-        settingsStore: { flag, language },
+        libraryStore: { flag, language },
         learnerStore: { reset, setPracticeMode },
         routerStore: { setCurrentRoute },
     } = useMobxStores();

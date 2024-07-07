@@ -12,6 +12,7 @@ import {
 } from "@mantine/core";
 import { HotkeyItem, getHotkeyHandler, useHotkeys } from "@mantine/hooks";
 import { observer } from "mobx-react-lite";
+
 import { useMobxStores } from "../../../hooks/useMobxStores";
 
 const guessesBadgeColor = (guessedCount: number, translationCount: number) => {

@@ -1,4 +1,5 @@
 import { Box, Center, Grid } from "@mantine/core";
+
 import { WordCard } from "./components/WordCard";
 import { AnswerCard } from "./components/AnswerCard";
 

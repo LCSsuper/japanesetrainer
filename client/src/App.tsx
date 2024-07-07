@@ -1,12 +1,14 @@
+import { AppShell, Center, MantineProvider, createTheme } from "@mantine/core";
+import { useViewportSize } from "@mantine/hooks";
+import { observer } from "mobx-react-lite";
+import "@mantine/core/styles.layer.css";
+
 import Learner from "./pages/Learner";
 import Menu from "./pages/Menu";
-import Settings from "./pages/Settings";
+import Library from "./pages/Library";
 import { StoreProvider, useMobxStores } from "./hooks/useMobxStores";
-import { observer } from "mobx-react-lite";
-import { AppShell, Center, MantineProvider, createTheme } from "@mantine/core";
-import "@mantine/core/styles.layer.css";
 import { Header } from "./components/Header";
-import { useViewportSize } from "@mantine/hooks";
+import { useState } from "react";
 
 const desktopTheme = createTheme({
     primaryColor: "cyan",
@@ -21,8 +23,9 @@ const mobileTheme = createTheme({
 const App = observer(() => {
     const {
         routerStore: { currentRoute },
-        settingsStore: { darkMode },
     } = useMobxStores();
+
+    const [darkMode, setDarkMode] = useState(true);
 
     const { width } = useViewportSize();
 
@@ -34,13 +37,13 @@ const App = observer(() => {
             >
                 <AppShell header={{ height: 60 }} padding="md">
                     <AppShell.Header>
-                        <Header />
+                        <Header setDarkMode={setDarkMode} darkMode={darkMode} />
                     </AppShell.Header>
                     <AppShell.Main>
                         <Center h={"100%"}>
                             {currentRoute === "menu" && <Menu />}
                             {currentRoute === "learner" && <Learner />}
-                            {currentRoute === "settings" && <Settings />}
+                            {currentRoute === "library" && <Library />}
                         </Center>
                     </AppShell.Main>
                 </AppShell>

@@ -1,17 +1,18 @@
 import { Context, createContext, ReactNode, useContext } from "react";
+
 import LearnerStore from "../stores/learner";
 import RouterStore from "../stores/router";
-import SettingsStore from "../stores/settings";
+import LibraryStore from "../stores/library";
 
 class RootStore {
     routerStore: RouterStore;
-    settingsStore: SettingsStore;
+    libraryStore: LibraryStore;
     learnerStore: LearnerStore;
 
     constructor() {
         this.routerStore = new RouterStore();
-        this.settingsStore = new SettingsStore();
-        this.learnerStore = new LearnerStore(this.settingsStore);
+        this.libraryStore = new LibraryStore();
+        this.learnerStore = new LearnerStore(this.libraryStore);
     }
 }
 

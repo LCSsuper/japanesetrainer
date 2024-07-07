@@ -14,66 +14,64 @@ import {
     IconSettings,
 } from "@tabler/icons-react";
 import { observer } from "mobx-react-lite";
-import { useMobxStores } from "../../hooks/useMobxStores";
-import { Language } from "../../stores/settings";
 
-export const Header = observer(() => {
-    const {
-        settingsStore: { setLanguage, language },
-        routerStore: { currentRoute, setCurrentRoute },
-        settingsStore: { setDarkMode, darkMode },
-    } = useMobxStores();
-    return (
-        <Box className="">
-            <header>
-                <Group justify="space-between" h="100%" p={10}>
-                    <Box>
-                        {currentRoute !== "menu" && (
-                            <Button
-                                variant="light"
-                                pl={7}
-                                onClick={() => setCurrentRoute("menu")}
-                            >
-                                <IconChevronLeft />
-                                menu
-                            </Button>
-                        )}
-                    </Box>
-                    <Box>
-                        <Group gap={"xs"}>
-                            <ActionIcon
-                                variant="light"
-                                size={"lg"}
-                                onClick={() => setDarkMode(!darkMode)}
-                            >
-                                {darkMode ? <IconLamp /> : <IconLampOff />}
-                            </ActionIcon>
-                            <ActionIcon
-                                disabled
-                                size={"lg"}
-                                onClick={() => setCurrentRoute("settings")}
-                            >
-                                <IconSettings />
-                            </ActionIcon>
-                            <LanguageSelect
-                                disabled={currentRoute === "learner"}
-                                setLanguage={setLanguage}
-                                language={language}
-                            />
-                        </Group>
-                    </Box>
-                </Group>
-            </header>
-        </Box>
-    );
-});
+import { useMobxStores } from "../../hooks/useMobxStores";
+import { Language } from "../../types";
+
+export const Header = observer(
+    ({ setDarkMode, darkMode }: { setDarkMode: any; darkMode: boolean }) => {
+        const {
+            routerStore: { currentRoute, setCurrentRoute },
+            libraryStore: { language, setLanguage },
+        } = useMobxStores();
+        return (
+            <Box className="">
+                <header>
+                    <Group justify="space-between" h="100%" p={10}>
+                        <Box>
+                            {currentRoute !== "menu" && (
+                                <Button
+                                    variant="light"
+                                    pl={7}
+                                    onClick={() => setCurrentRoute("menu")}
+                                >
+                                    <IconChevronLeft />
+                                    menu
+                                </Button>
+                            )}
+                        </Box>
+                        <Box>
+                            <Group gap={"xs"}>
+                                <ActionIcon
+                                    variant="light"
+                                    size={"lg"}
+                                    onClick={() => setDarkMode(!darkMode)}
+                                >
+                                    {darkMode ? <IconLamp /> : <IconLampOff />}
+                                </ActionIcon>
+                                <ActionIcon disabled size={"lg"}>
+                                    <IconSettings />
+                                </ActionIcon>
+                                <LanguageSelect
+                                    disabled={currentRoute === "learner"}
+                                    setLanguage={setLanguage}
+                                    language={language}
+                                />
+                            </Group>
+                        </Box>
+                    </Group>
+                </header>
+            </Box>
+        );
+    }
+);
 
 const languages = {
     korean: "🇰🇷 korean",
     japanese: "🇯🇵 japanese",
     spanish: "🇪🇸 spanish",
     swedish: "🇸🇪 swedish",
-    papiamento: "🇦🇼 papiamento",
+    arabic: "🇦🇪 arabic",
 };
 
 export const LanguageSelect = ({

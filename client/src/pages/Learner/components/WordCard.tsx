@@ -1,7 +1,7 @@
 import { Card, Group, Pill, Progress, Space, Text, Title } from "@mantine/core";
 import { useViewportSize } from "@mantine/hooks";
-import { Word } from "../../../types";
 import { observer } from "mobx-react-lite";
+
 import { useMobxStores } from "../../../hooks/useMobxStores";
 
 const wordSize = (width: number) => {
@@ -29,11 +29,11 @@ export const WordCard = observer(() => {
             answerRevealed,
             progressPercentage,
         },
-        settingsStore: { showDescription },
+        libraryStore: { showRomanization },
     } = useMobxStores();
 
-    const showRomanization =
-        showDescription || guessIsCorrect || answerRevealed;
+    const romanizationVisible =
+        showRomanization || guessIsCorrect || answerRevealed;
 
     return (
         <Card shadow={"xl"}>
@@ -55,7 +55,7 @@ export const WordCard = observer(() => {
             </Group>
             <Group justify="center" h={"2rem"}>
                 <Text size="xl" c="dimmed">
-                    {showRomanization && currentWord.description}
+                    {romanizationVisible && currentWord.description}
                 </Text>
             </Group>
             <Space h={"md"} />
