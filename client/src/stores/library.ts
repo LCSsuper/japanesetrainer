@@ -7,37 +7,32 @@ import spanishLibrary from "./data/0-1000-spanish.json";
 import swedishLibrary from "./data/0-1000-swedish.json";
 import koreanLibrary from "./data/common-korean.json";
 import arabicLibrary from "./data/0-100-arabic.json";
-import { Language, Word } from "../types";
+import { Language, Word, WordType } from "../types";
+import { flags } from "../constants";
 
 const invertLibrary = (library: Word[]): Word[] => {
     const invertedLibrary = library.reduce((map, word) => {
-        for (const translation of word.translation) {
+        for (const translation of word.translations) {
             const invertedWord: Word = map.get(translation) || {
                 id: v4(),
                 word: translation,
-                description: "",
-                translation: [],
+                romanization: "",
+                translations: [],
                 type: word.type,
             };
 
-            invertedWord.translation.push(word.word);
-            if (word.description) {
-                invertedWord.translation.push(word.description);
+            invertedWord.translations.push(word.word);
+            if (word.romanization) {
+                invertedWord.translations.push(word.romanization);
             }
+
+            map.set(translation, invertedWord);
         }
 
         return map;
     }, new Map<string, Word>());
 
     return Array.from(invertedLibrary.values());
-};
-
-const flags = {
-    korean: "🇰🇷",
-    japanese: "🇯🇵",
-    spanish: "🇪🇸",
-    swedish: "🇸🇪",
-    arabic: "🇦🇪",
 };
 
 const libraries: {
@@ -56,8 +51,8 @@ const libraries: {
         eng_to_lang: invertLibrary(swedishLibrary),
     },
     korean: {
-        lang_to_eng: koreanLibrary,
-        eng_to_lang: invertLibrary(koreanLibrary),
+        lang_to_eng: koreanLibrary as Word[],
+        eng_to_lang: invertLibrary(koreanLibrary as Word[]),
     },
     arabic: {
         lang_to_eng: arabicLibrary,
@@ -71,7 +66,7 @@ export default class LibraryStore {
     showWordType: boolean = true;
     randomize: boolean = true;
     language: Language = "korean";
-    practiceWordIds: Set<string> = new Set();
+    selectedWordIds: Set<string> = new Set();
 
     constructor() {
         makeAutoObservable(this);
@@ -81,7 +76,15 @@ export default class LibraryStore {
 
     setRange = (from: number, to: number) => {
         this.range = [from, to];
+        this.updateSelectedWordIdsBasedOnRange(); // TODO @Lucas this is a side effect (only when using range selection)
         this.saveLibraryOptionsToLocalStorage();
+    };
+
+    updateSelectedWordIdsBasedOnRange = () => {
+        this.selectedWordIds.clear();
+        for (let i = this.range[0]; i < this.range[1]; i++) {
+            this.selectedWordIds.add(this.library.lang_to_eng[i].id);
+        }
     };
 
     setShowRomanization = (showRomanization: boolean) => {
@@ -101,6 +104,8 @@ export default class LibraryStore {
 
     setLanguage = (language: string) => {
         this.language = language as Language;
+        this.selectedWordIds.clear();
+        this.updateSelectedWordIdsBasedOnRange(); // TODO @Lucas this is a side effect (only when using range selection)
         this.saveLibraryOptionsToLocalStorage();
     };
 
@@ -120,14 +125,39 @@ export default class LibraryStore {
     getLibraryOptionsFromLocalStorage = () => {
         const libraryOptions = window.localStorage.getItem("libraryOptions");
         if (!libraryOptions) return;
-        ({
-            range: this.range,
-            showRomanization: this.showRomanization,
-            showWordType: this.showWordType,
-            randomize: this.randomize,
-            language: this.language,
-        } = JSON.parse(libraryOptions));
+        const { range, showRomanization, showWordType, randomize, language } =
+            JSON.parse(libraryOptions);
+
+        this.setRange(range[0], range[1]);
+        this.setShowRomanization(showRomanization);
+        this.setShowWordType(showWordType);
+        this.setRandomize(randomize);
+        this.setLanguage(language);
     };
+
+    toggleAll = () => {
+        if (this.selectedWordIds.size) this.selectedWordIds.clear();
+        else {
+            this.library.lang_to_eng.forEach((word) =>
+                this.selectedWordIds.add(word.id)
+            );
+        }
+    };
+
+    toggleAllWithWordType = (type: WordType) => {
+        if (this.hasWordTypeInSelection(type)) {
+            this.library.lang_to_eng
+                .filter((word) => word.type === type)
+                .forEach((word) => this.selectedWordIds.delete(word.id));
+        } else {
+            this.library.lang_to_eng
+                .filter((word) => word.type === type)
+                .forEach((word) => this.selectedWordIds.add(word.id));
+        }
+    };
+
+    hasWordTypeInSelection = (type: WordType) =>
+        this.practiceLibrary.lang_to_eng.some((word) => word.type === type);
 
     get ISOlanguage() {
         switch (this.language) {
@@ -151,17 +181,18 @@ export default class LibraryStore {
         return libraries[this.language];
     }
 
+    // TODO @Lucas for performance, probably better to filter the library once
     get practiceLibrary() {
-        if (!this.practiceWordIds.size) return this.library;
+        // TODO @lucas range should only be used if user creates a subset by range
+        let filtered = this.range
+            ? this.library.lang_to_eng.slice(...this.range)
+            : this.library.lang_to_eng;
+
         return {
-            lang_to_eng: this.library.lang_to_eng.filter(
-                this.inPracticeSelection
-            ),
-            eng_to_lang: this.library.eng_to_lang.filter(
-                this.inPracticeSelection
-            ),
+            lang_to_eng: filtered,
+            eng_to_lang: invertLibrary(filtered),
         };
     }
 
-    inPracticeSelection = (word: Word) => this.practiceWordIds.has(word.id);
+    inPracticeSelection = (word: Word) => this.selectedWordIds.has(word.id);
 }

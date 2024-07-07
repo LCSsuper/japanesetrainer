@@ -73,7 +73,9 @@ export const AnswerCard = observer(() => {
                 <Group gap={5}>
                     <Text c="dimmed">Guessed: </Text>
                     {guessedTranslations.map((t) => (
-                        <Pill ml={0}>{t}</Pill>
+                        <Pill ml={0} key={t}>
+                            {t}
+                        </Pill>
                     ))}
                 </Group>
             )}
@@ -81,7 +83,9 @@ export const AnswerCard = observer(() => {
                 <Group gap={5}>
                     <Text c="dimmed">Not guessed: </Text>
                     {remainingAnswers.map((t) => (
-                        <Pill ml={0}>{t}</Pill>
+                        <Pill ml={0} key={t}>
+                            {t}
+                        </Pill>
                     ))}
                 </Group>
             )}

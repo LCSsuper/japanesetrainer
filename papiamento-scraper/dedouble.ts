@@ -3,7 +3,7 @@ import * as fs from "fs";
 type Word = {
     word: string;
     description: string;
-    translation: string[];
+    translations: string[];
 };
 
 const translations: Word[] = JSON.parse(
@@ -11,9 +11,9 @@ const translations: Word[] = JSON.parse(
 );
 
 const newTranslations: Word[] = [];
-for (const { word, description, translation } of translations) {
+for (const { word, description, translations: translation } of translations) {
     if (!newTranslations.find((row) => row.word === word)) {
-        newTranslations.push({ word, description, translation });
+        newTranslations.push({ word, description, translations: translation });
         continue;
     }
     const index = newTranslations.findIndex((row) => row.word === word);

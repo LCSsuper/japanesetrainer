@@ -1,25 +1,9 @@
 import { makeAutoObservable } from "mobx";
 import autoBind from "auto-bind";
-import { v4 } from "uuid";
 
-import japaneseLibrary from "./data/0-1000-japanese.json";
-import spanishLibrary from "./data/0-1000-spanish.json";
-import swedishLibrary from "./data/0-1000-swedish.json";
-import koreanLibrary from "./data/common-korean.json";
-import arabicLibrary from "./data/0-100-arabic.json";
 import { shuffle } from "./utils/shuffle";
-import { Word } from "../types";
+import { PracticeMode, Word } from "../types";
 import LibraryStore from "./library";
-
-export type PracticeMode = "eng_to_lang" | "lang_to_eng";
-
-const libraries = {
-    japanese: japaneseLibrary,
-    spanish: spanishLibrary,
-    swedish: swedishLibrary,
-    korean: koreanLibrary,
-    arabic: arabicLibrary,
-};
 
 export default class LearnerStore {
     libraryStore: LibraryStore;
@@ -27,9 +11,9 @@ export default class LearnerStore {
     currentGuess: string = "";
     guessIsCorrect: boolean = false;
     answerRevealed: boolean = false;
-    selectedLibrary: Word[] = [];
     guessedTranslations: string[] = [];
     practiceMode: PracticeMode = "lang_to_eng";
+    words: Word[] = [];
 
     constructor(libraryStore: LibraryStore) {
         makeAutoObservable(this);
@@ -37,30 +21,12 @@ export default class LearnerStore {
         autoBind(this);
     }
 
-    get library() {
-        return libraries[this.libraryStore.language];
-    }
-
     reset = () => {
-        this.selectedLibrary = libraries[this.libraryStore.language].slice(
-            ...this.libraryStore.range
+        this.words = JSON.parse(
+            JSON.stringify(this.libraryStore.practiceLibrary[this.practiceMode])
         );
-        if (this.practiceMode === "eng_to_lang") {
-            // TODO @Lucas there could be multiple words with the same translation...
-            this.selectedLibrary = this.selectedLibrary
-                .map((lib) =>
-                    lib.translation.map((translation) => ({
-                        id: v4(),
-                        word: translation,
-                        description: "",
-                        translation: [lib.word, lib.description].filter(
-                            (e) => !!e
-                        ),
-                    }))
-                )
-                .flat();
-        }
-        shuffle(this.selectedLibrary);
+
+        if (this.libraryStore.randomize) shuffle(this.words);
         this.wordIndex = 0;
         this.guessIsCorrect = false;
         this.answerRevealed = false;
@@ -69,7 +35,7 @@ export default class LearnerStore {
     };
 
     get currentWord(): Word {
-        return this.selectedLibrary[this.wordIndex];
+        return this.words[this.wordIndex];
     }
 
     setCurrentGuess = (guess: string) => {
@@ -79,10 +45,10 @@ export default class LearnerStore {
 
     checkCurrentGuess = () => {
         if (
-            (this.currentWord.translation.includes(
+            (this.currentWord.translations.includes(
                 this.currentGuess.toLowerCase()
             ) ||
-                this.currentWord.translation
+                this.currentWord.translations
                     .map((answer) =>
                         answer.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
                     )
@@ -98,7 +64,7 @@ export default class LearnerStore {
     nextWord = () => {
         document.documentElement.scrollTop = 0;
         const nextWordIndex = this.wordIndex + 1;
-        const libraryLength = this.selectedLibrary.length;
+        const libraryLength = this.words.length;
         if (nextWordIndex >= libraryLength) {
             this.reset();
             return;
@@ -120,7 +86,7 @@ export default class LearnerStore {
     };
 
     get translationCount() {
-        return this.currentWord.translation.length;
+        return this.currentWord.translations.length;
     }
 
     get guessedCount() {
@@ -132,7 +98,7 @@ export default class LearnerStore {
     }
 
     get remainingAnswers() {
-        return this.currentWord.translation.filter(
+        return this.currentWord.translations.filter(
             (answer) => !this.guessedTranslations.includes(answer)
         );
     }
@@ -142,6 +108,6 @@ export default class LearnerStore {
     }
 
     get progressPercentage() {
-        return ((this.wordIndex + 1) / this.selectedLibrary.length) * 100;
+        return ((this.wordIndex + 1) / this.words.length) * 100;
     }
 }

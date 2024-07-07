@@ -3,9 +3,18 @@ export type PracticeMode = "eng_to_lang" | "lang_to_eng";
 export type Word = {
     id: string;
     word: string;
-    description: string;
-    translation: string[];
-    type?: string;
+    romanization: string;
+    translations: string[];
+    type?: WordType;
 };
+
+export type WordType =
+    | "verb"
+    | "noun"
+    | "adjective"
+    | "adverb"
+    | "preposition"
+    | "pronoun"
+    | "interjection";
 
 export type Language = "korean" | "japanese" | "spanish" | "swedish" | "arabic";

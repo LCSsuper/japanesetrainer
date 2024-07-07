@@ -21,7 +21,7 @@ export const WordCard = observer(() => {
     const {
         learnerStore: {
             wordIndex,
-            selectedLibrary,
+            words,
             guessedCount,
             translationCount,
             currentWord,
@@ -29,7 +29,7 @@ export const WordCard = observer(() => {
             answerRevealed,
             progressPercentage,
         },
-        libraryStore: { showRomanization },
+        libraryStore: { showRomanization, showWordType },
     } = useMobxStores();
 
     const romanizationVisible =
@@ -40,9 +40,10 @@ export const WordCard = observer(() => {
             <Group justify="space-between" align="start">
                 <Text c="dimmed">Guess:</Text>
                 <Group>
-                    <Pill>{`${wordIndex + 1} of ${
-                        selectedLibrary.length
-                    }`}</Pill>
+                    {showWordType && currentWord.type && (
+                        <Pill>{currentWord.type}</Pill>
+                    )}
+                    <Pill>{`${wordIndex + 1} of ${words.length}`}</Pill>
                 </Group>
             </Group>
             <Group justify="center">
@@ -55,7 +56,7 @@ export const WordCard = observer(() => {
             </Group>
             <Group justify="center" h={"2rem"}>
                 <Text size="xl" c="dimmed">
-                    {romanizationVisible && currentWord.description}
+                    {romanizationVisible && currentWord.romanization}
                 </Text>
             </Group>
             <Space h={"md"} />

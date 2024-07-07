@@ -33,7 +33,7 @@ const scrapeTopSpanishWords = async () => {
     const translations: {
         word: string;
         description: string;
-        translation: string[];
+        translations: string[];
     }[] = [];
     const { browser, page } = await initializePuppeteer();
 
@@ -57,7 +57,7 @@ const scrapeTopSpanishWords = async () => {
             translations.push({
                 word: spanish || "",
                 description: "",
-                translation: [english || ""],
+                translations: [english || ""],
             });
         }
     } catch (e) {

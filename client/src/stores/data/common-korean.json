@@ -1,1715 +1,1310 @@
 [
     {
         "word": "안녕하세요",
-        "description": "annyeonghaseyo",
-        "translation": [
-            "hello"
-        ],
+        "romanization": "annyeonghaseyo",
+        "translations": ["hello"],
         "type": "interjection",
         "id": "b8f6f0ec-4574-439c-9fa6-77f662067c6f"
     },
     {
         "word": "주세요",
-        "description": "juseyo",
-        "translation": [
-            "please"
-        ],
+        "romanization": "juseyo",
+        "translations": ["please"],
         "type": "adverb",
         "id": "b2b55944-c981-428e-a8ed-e0d0d00019ed"
     },
     {
         "word": "미안해요",
-        "description": "mianhaeyo",
-        "translation": [
-            "sorry"
-        ],
+        "romanization": "mianhaeyo",
+        "translations": ["sorry"],
         "type": "interjection",
         "id": "5665680b-13e8-4c1f-af46-0cf84ff7d22d"
     },
     {
         "word": "감사합니다",
-        "description": "gamsahamnida",
-        "translation": [
-            "thank you"
-        ],
+        "romanization": "gamsahamnida",
+        "translations": ["thank you"],
         "type": "interjection",
         "id": "bb3a41fe-b199-4634-bbd7-ff20c0cca498"
     },
     {
         "word": "네",
-        "description": "ne",
-        "translation": [
-            "yes"
-        ],
+        "romanization": "ne",
+        "translations": ["yes"],
         "type": "adverb",
         "id": "cf9603ec-897d-46a0-a6f6-d068ff6eaa55"
     },
     {
         "word": "아니요",
-        "description": "aniyo",
-        "translation": [
-            "no"
-        ],
+        "romanization": "aniyo",
+        "translations": ["no"],
         "type": "adverb",
         "id": "15ea9be8-a1da-4f19-a65f-9f7d199ae5c7"
     },
     {
         "word": "아마도",
-        "description": "amado",
-        "translation": [
-            "maybe"
-        ],
+        "romanization": "amado",
+        "translations": ["maybe"],
         "type": "adverb",
         "id": "50e3ffbc-9be1-424e-969c-c74c263cac72"
     },
     {
         "word": "도와줘",
-        "description": "dowajwo",
-        "translation": [
-            "help"
-        ],
+        "romanization": "dowajwo",
+        "translations": ["help"],
         "type": "interjection",
         "id": "f5f20b4d-0a46-42f9-8ca7-8b4bb4b0ef87"
     },
     {
         "word": "저기요",
-        "description": "jeogiyo",
-        "translation": [
-            "hey"
-        ],
+        "romanization": "jeogiyo",
+        "translations": ["hey"],
         "type": "interjection",
         "id": "d046ec2d-341d-44b3-8553-80404291d3e2"
     },
     {
         "word": "실례합니다",
-        "description": "sillyehamnida",
-        "translation": [
-            "excuse me"
-        ],
+        "romanization": "sillyehamnida",
+        "translations": ["excuse me"],
         "type": "interjection",
         "id": "cfa1c6af-fe0c-421a-8c06-e98db6ffc8da"
     },
     {
         "word": "고양이",
-        "description": "goyang-i",
-        "translation": [
-            "cat"
-        ],
+        "romanization": "goyang-i",
+        "translations": ["cat"],
         "type": "noun",
         "id": "a4711b0d-4270-4817-a424-200444c5e146"
     },
     {
         "word": "강아지",
-        "description": "gang-aji",
-        "translation": [
-            "puppy",
-            "dog"
-        ],
+        "romanization": "gang-aji",
+        "translations": ["puppy", "dog"],
         "type": "noun",
         "id": "8be0fbb3-64ec-4645-9a6d-fd53bdb674c6"
     },
     {
         "word": "돼지",
-        "description": "dwaeji",
-        "translation": [
-            "pig"
-        ],
+        "romanization": "dwaeji",
+        "translations": ["pig"],
         "type": "noun",
         "id": "fda88b79-8d7f-4bf8-8612-d6d78536d825"
     },
     {
         "word": "닭",
-        "description": "dak",
-        "translation": [
-            "chicken"
-        ],
+        "romanization": "dak",
+        "translations": ["chicken"],
         "type": "noun",
         "id": "14229e4d-864f-44ef-9709-7c65609c2c06"
     },
     {
         "word": "소",
-        "description": "so",
-        "translation": [
-            "cow"
-        ],
+        "romanization": "so",
+        "translations": ["cow"],
         "type": "noun",
         "id": "65ee324b-8dcc-4edc-a5af-f5ea0d1bcc73"
     },
     {
         "word": "사람",
-        "description": "saram",
-        "translation": [
-            "person"
-        ],
+        "romanization": "saram",
+        "translations": ["person"],
         "type": "noun",
         "id": "343ff939-020a-4e75-8e70-d1bf61cd2cc5"
     },
     {
         "word": "집",
-        "description": "jip",
-        "translation": [
-            "house"
-        ],
+        "romanization": "jip",
+        "translations": ["house"],
         "type": "noun",
         "id": "0beccddc-e590-47e9-8e1c-b9ff61379a2e"
     },
     {
         "word": "화장실",
-        "description": "hwajangsil",
-        "translation": [
-            "restroom"
-        ],
+        "romanization": "hwajangsil",
+        "translations": ["restroom"],
         "type": "noun",
         "id": "2d635333-000f-4004-822e-fa03c0f540bf"
     },
     {
         "word": "나라",
-        "description": "nara",
-        "translation": [
-            "country",
-            "nation"
-        ],
+        "romanization": "nara",
+        "translations": ["country", "nation"],
         "type": "noun",
         "id": "ca88c0b3-b8eb-4efe-a9d8-30f4b9133afa"
     },
     {
         "word": "애교",
-        "description": "aegyo",
-        "translation": [
-            "acting cute",
-            "being lovely",
-            "attractiveness"
-        ],
+        "romanization": "aegyo",
+        "translations": ["acting cute", "being lovely", "attractiveness"],
         "type": "interjection",
         "id": "5d9502d9-52f5-4f62-8b39-7c2faeb5342d"
     },
     {
         "word": "직업",
-        "description": "jig-eop",
-        "translation": [
-            "job"
-        ],
+        "romanization": "jig-eop",
+        "translations": ["job"],
         "type": "noun",
         "id": "b2405fb3-4b79-4b41-bf53-37b6139ea697"
     },
     {
         "word": "왼쪽",
-        "description": "oenjjok",
-        "translation": [
-            "left"
-        ],
+        "romanization": "oenjjok",
+        "translations": ["left"],
         "type": "noun",
         "id": "e585ea4f-db79-4cb6-9f15-ce057047a086"
     },
     {
         "word": "오른쪽",
-        "description": "oreunjjok",
-        "translation": [
-            "right"
-        ],
+        "romanization": "oreunjjok",
+        "translations": ["right"],
         "type": "noun",
         "id": "a04a0066-8a50-4457-922a-8b13c7f12c13"
     },
     {
         "word": "우리",
-        "description": "uri",
-        "translation": [
-            "we"
-        ],
+        "romanization": "uri",
+        "translations": ["we"],
         "type": "pronoun",
         "id": "a841af94-ff7e-495c-ba5f-343efc17b037"
     },
     {
         "word": "오늘",
-        "description": "oneul",
-        "translation": [
-            "today"
-        ],
+        "romanization": "oneul",
+        "translations": ["today"],
         "type": "noun",
         "id": "c0b91bdb-8041-4f7a-a2f6-521e5e2da0ae"
     },
     {
         "word": "어제",
-        "description": "eoje",
-        "translation": [
-            "yesterday"
-        ],
+        "romanization": "eoje",
+        "translations": ["yesterday"],
         "type": "noun",
         "id": "7dab18ee-3898-4a9e-a75b-8ee75b2f79c3"
     },
     {
         "word": "내일",
-        "description": "naeil",
-        "translation": [
-            "tomorrow"
-        ],
+        "romanization": "naeil",
+        "translations": ["tomorrow"],
         "type": "noun",
         "id": "503607e0-b19b-4e0c-97e4-3a5276b48601"
     },
     {
         "word": "밤",
-        "description": "bam",
-        "translation": [
-            "night",
-            "evening"
-        ],
+        "romanization": "bam",
+        "translations": ["night", "evening"],
         "type": "noun",
         "id": "391578f2-2708-4530-9459-4652693f7466"
     },
     {
         "word": "아침",
-        "description": "achim",
-        "translation": [
-            "morning"
-        ],
+        "romanization": "achim",
+        "translations": ["morning"],
         "type": "noun",
         "id": "166aa777-8eb4-469b-80c8-b74bd1ed123c"
     },
     {
         "word": "왜",
-        "description": "wae",
-        "translation": [
-            "why"
-        ],
+        "romanization": "wae",
+        "translations": ["why"],
         "type": "interjection",
         "id": "bc59e289-c160-441a-beaa-89ab759c0cb7"
     },
     {
         "word": "언제",
-        "description": "eonje",
-        "translation": [
-            "when"
-        ],
+        "romanization": "eonje",
+        "translations": ["when"],
         "type": "interjection",
         "id": "f736d06a-64e8-470b-86e4-4d303785b13b"
     },
     {
         "word": "뭐",
-        "description": "mwo",
-        "translation": [
-            "what"
-        ],
+        "romanization": "mwo",
+        "translations": ["what"],
         "type": "interjection",
         "id": "171ecb3c-ea01-4e36-aa94-292e3f68ab23"
     },
     {
         "word": "누구",
-        "description": "nugu",
-        "translation": [
-            "who"
-        ],
+        "romanization": "nugu",
+        "translations": ["who"],
         "type": "interjection",
         "id": "da1d1145-eec7-40b7-b50b-ca1a94095ec0"
     },
     {
         "word": "어디",
-        "description": "eodi",
-        "translation": [
-            "where"
-        ],
+        "romanization": "eodi",
+        "translations": ["where"],
         "type": "interjection",
         "id": "25be50d0-31d1-418f-9ebe-12409d3425fa"
     },
     {
         "word": "괜찮아요",
-        "description": "gwaenchanayo",
-        "translation": [
-            "no problem"
-        ],
+        "romanization": "gwaenchanayo",
+        "translations": ["no problem"],
         "type": "interjection",
         "id": "3c79b41e-476b-4a82-a44a-90af426a6004"
     },
     {
         "word": "좋아요",
-        "description": "joh-ayo",
-        "translation": [
-            "okay",
-            "good"
-        ],
+        "romanization": "joh-ayo",
+        "translations": ["okay", "good"],
         "type": "adjective",
         "id": "48d686c8-a182-4b0c-a4fc-101c2a0b3c9f"
     },
     {
         "word": "몰라요",
-        "description": "mollayo",
-        "translation": [
-            "i don't know"
-        ],
+        "romanization": "mollayo",
+        "translations": ["i don't know"],
         "type": "interjection",
         "id": "45ad27c5-79d6-4bee-a4fc-5bf3c82e9a8a"
     },
     {
         "word": "알아요",
-        "description": "al-ayo",
-        "translation": [
-            "i know"
-        ],
+        "romanization": "al-ayo",
+        "translations": ["i know"],
         "type": "interjection",
         "id": "67a9e49c-2998-4b17-9f57-0ff1b03130d8"
     },
     {
         "word": "이해해요",
-        "description": "ihaehaeyo",
-        "translation": [
-            "i understand"
-        ],
+        "romanization": "ihaehaeyo",
+        "translations": ["i understand"],
         "type": "interjection",
         "id": "97cc080e-12e8-4b69-b281-72aaaa2e9388"
     },
     {
         "word": "안 좋아요",
-        "description": "an joh-ayo",
-        "translation": [
-            "not good"
-        ],
+        "romanization": "an joh-ayo",
+        "translations": ["not good"],
         "type": "adjective",
         "id": "8a130448-c200-482b-8dc4-0de765c2659c"
     },
     {
         "word": "하나",
-        "description": "hana",
-        "translation": [
-            "one"
-        ],
+        "romanization": "hana",
+        "translations": ["one"],
         "type": "noun",
         "id": "d59769fa-a6dd-471a-a9ae-d73e681e125c"
     },
     {
         "word": "둘",
-        "description": "dul",
-        "translation": [
-            "two"
-        ],
+        "romanization": "dul",
+        "translations": ["two"],
         "type": "noun",
         "id": "39bafd67-16c8-48dc-9720-fde01f470d75"
     },
     {
         "word": "셋",
-        "description": "set",
-        "translation": [
-            "three"
-        ],
+        "romanization": "set",
+        "translations": ["three"],
         "type": "noun",
         "id": "b5c2d07b-5d47-4ee3-a77b-caa6d71a9f67"
     },
     {
         "word": "넷",
-        "description": "net",
-        "translation": [
-            "four"
-        ],
+        "romanization": "net",
+        "translations": ["four"],
         "type": "noun",
         "id": "e23bb6e5-aecb-4b2c-ad4f-5e4dcf4e7fd3"
     },
     {
         "word": "다섯",
-        "description": "daseot",
-        "translation": [
-            "five"
-        ],
+        "romanization": "daseot",
+        "translations": ["five"],
         "type": "noun",
         "id": "1d361380-5f14-4920-b161-d2ebe4c7c298"
     },
     {
         "word": "여섯",
-        "description": "yeoseot",
-        "translation": [
-            "six"
-        ],
+        "romanization": "yeoseot",
+        "translations": ["six"],
         "type": "noun",
         "id": "d08cf292-9d1c-48af-9589-e7ce90adaaa3"
     },
     {
         "word": "일곱",
-        "description": "ilgop",
-        "translation": [
-            "seven"
-        ],
+        "romanization": "ilgop",
+        "translations": ["seven"],
         "type": "noun",
         "id": "2d306cd4-0e95-44c7-8f28-21e5b0cc2ff3"
     },
     {
         "word": "여덟",
-        "description": "yeodeol",
-        "translation": [
-            "eight"
-        ],
+        "romanization": "yeodeol",
+        "translations": ["eight"],
         "type": "noun",
         "id": "dd3837fd-ac10-457a-b437-0e169416bb4f"
     },
     {
         "word": "아홉",
-        "description": "ahop",
-        "translation": [
-            "nine"
-        ],
+        "romanization": "ahop",
+        "translations": ["nine"],
         "type": "noun",
         "id": "234bab80-7b92-46ab-b1cf-e1358493f03a"
     },
     {
         "word": "열",
-        "description": "yeol",
-        "translation": [
-            "ten"
-        ],
+        "romanization": "yeol",
+        "translations": ["ten"],
         "type": "noun",
         "id": "00fdbf99-345f-446a-a751-6186cde549ba"
     },
     {
         "word": "물",
-        "description": "mul",
-        "translation": [
-            "water"
-        ],
+        "romanization": "mul",
+        "translations": ["water"],
         "type": "noun",
         "id": "e81ec7a8-b2b6-458f-b2ab-ea84a1ee1358"
     },
     {
         "word": "밥",
-        "description": "bap",
-        "translation": [
-            "rice",
-            "meal"
-        ],
+        "romanization": "bap",
+        "translations": ["rice", "meal"],
         "type": "noun",
         "id": "f58d7d05-058c-48e1-9b78-66e9df63b74f"
     },
     {
         "word": "야채",
-        "description": "yachae",
-        "translation": [
-            "vegetable",
-            "vegetables"
-        ],
+        "romanization": "yachae",
+        "translations": ["vegetable", "vegetables"],
         "type": "noun",
         "id": "15121393-8598-4fa2-ae3e-0f3cf538a6e0"
     },
     {
         "word": "과일",
-        "description": "gwail",
-        "translation": [
-            "fruit"
-        ],
+        "romanization": "gwail",
+        "translations": ["fruit"],
         "type": "noun",
         "id": "c5a95ada-ca63-440b-9904-4f9cb2243abe"
     },
     {
         "word": "고기",
-        "description": "gogi",
-        "translation": [
-            "meat"
-        ],
+        "romanization": "gogi",
+        "translations": ["meat"],
         "type": "noun",
         "id": "7f3dac74-33dc-4d29-bf02-31a8a80fa6ce"
     },
     {
         "word": "빵",
-        "description": "ppang",
-        "translation": [
-            "bread"
-        ],
+        "romanization": "ppang",
+        "translations": ["bread"],
         "type": "noun",
         "id": "a47be479-bb85-4fde-9e84-6d3fc8bb2478"
     },
     {
         "word": "생선",
-        "description": "saengseon",
-        "translation": [
-            "fish"
-        ],
+        "romanization": "saengseon",
+        "translations": ["fish"],
         "type": "noun",
         "id": "7e776ff4-84fd-4e7a-9eef-bc37b0a18686"
     },
     {
         "word": "커피",
-        "description": "keopi",
-        "translation": [
-            "coffee"
-        ],
+        "romanization": "keopi",
+        "translations": ["coffee"],
         "type": "noun",
         "id": "d9f11a27-7d7e-4db0-b9da-7ac6884fab43"
     },
     {
         "word": "맥주",
-        "description": "maekju",
-        "translation": [
-            "beer"
-        ],
+        "romanization": "maekju",
+        "translations": ["beer"],
         "type": "noun",
         "id": "3954f4a3-aca2-4e45-b70a-1168743f3014"
     },
     {
         "word": "소주",
-        "description": "soju",
-        "translation": [
-            "soju"
-        ],
+        "romanization": "soju",
+        "translations": ["soju"],
         "type": "noun",
         "id": "ca081204-bd9c-4913-b536-b8737cea11ea"
     },
     {
         "word": "시간",
-        "description": "sigan",
-        "translation": [
-            "time",
-            "hour",
-            "period"
-        ],
+        "romanization": "sigan",
+        "translations": ["time", "hour", "period"],
         "type": "noun",
         "id": "f936bfa0-57e3-4442-91d1-340ffb8d83ed"
     },
     {
         "word": "지금",
-        "description": "jigeum",
-        "translation": [
-            "now"
-        ],
+        "romanization": "jigeum",
+        "translations": ["now"],
         "type": "noun",
         "id": "bb6be2a5-cba4-417d-ae57-b84ede688865"
     },
     {
         "word": "가다",
-        "description": "gada",
-        "translation": [
-            "to go"
-        ],
+        "romanization": "gada",
+        "translations": ["to go"],
         "type": "verb",
         "id": "fcadba78-6cdd-4767-8253-f59073c2261a"
     },
     {
         "word": "가요",
-        "description": "gayo",
-        "translation": [
-            "going"
-        ],
+        "romanization": "gayo",
+        "translations": ["going"],
         "type": "verb",
         "id": "f6554165-4441-427c-b24b-5be77ff7a3dc"
     },
     {
         "word": "갈 거예요",
-        "description": "gal geoyeyo",
-        "translation": [
-            "will go"
-        ],
+        "romanization": "gal geoyeyo",
+        "translations": ["will go"],
         "type": "verb",
         "id": "166340f5-a790-4dab-9b9e-a76740b7b010"
     },
     {
         "word": "갔어요",
-        "description": "gasseoyo",
-        "translation": [
-            "went"
-        ],
+        "romanization": "gasseoyo",
+        "translations": ["went"],
         "type": "verb",
         "id": "7b6fbc46-bf7d-43f1-b8fe-694114f495f4"
     },
     {
         "word": "오다",
-        "description": "oda",
-        "translation": [
-            "to come"
-        ],
+        "romanization": "oda",
+        "translations": ["to come"],
         "type": "verb",
         "id": "7ac2e341-2087-4763-bca5-3929fdb88b89"
     },
     {
         "word": "와요",
-        "description": "wayo",
-        "translation": [
-            "coming"
-        ],
+        "romanization": "wayo",
+        "translations": ["coming"],
         "type": "verb",
         "id": "475eaa81-074d-43fe-858b-3fbb2fa38ca3"
     },
     {
         "word": "올 거예요",
-        "description": "ol geoyeyo",
-        "translation": [
-            "will come"
-        ],
+        "romanization": "ol geoyeyo",
+        "translations": ["will come"],
         "type": "verb",
         "id": "cef91958-82c1-4897-bc28-8a1873f7b4a8"
     },
     {
         "word": "왔어요",
-        "description": "wasseoyo",
-        "translation": [
-            "came"
-        ],
+        "romanization": "wasseoyo",
+        "translations": ["came"],
         "type": "verb",
         "id": "39bbfcb7-5713-4fad-8b53-2c04fc3a625c"
     },
     {
         "word": "있다",
-        "description": "itda",
-        "translation": [
-            "to have"
-        ],
+        "romanization": "itda",
+        "translations": ["to have"],
         "type": "verb",
         "id": "fa797b40-ac22-4dac-96fc-e57dfdabdccc"
     },
     {
         "word": "있어요",
-        "description": "isseoyo",
-        "translation": [
-            "have",
-            "has"
-        ],
+        "romanization": "isseoyo",
+        "translations": ["have", "has"],
         "type": "verb",
         "id": "e87797cc-3530-4e64-bb00-0360d00c86a6"
     },
     {
         "word": "있을 거예요",
-        "description": "isseul geoyeyo",
-        "translation": [
-            "will have"
-        ],
+        "romanization": "isseul geoyeyo",
+        "translations": ["will have"],
         "type": "verb",
         "id": "0cb9fc88-8c2c-4610-9279-46aa1f7ed59b"
     },
     {
         "word": "있었어요",
-        "description": "isseosseoyo",
-        "translation": [
-            "had"
-        ],
+        "romanization": "isseosseoyo",
+        "translations": ["had"],
         "type": "verb",
         "id": "5aaf856e-4029-4cbb-be25-a21624b8b078"
     },
     {
         "word": "이다",
-        "description": "ida",
-        "translation": [
-            "to be"
-        ],
+        "romanization": "ida",
+        "translations": ["to be"],
         "type": "verb",
         "id": "71491439-d89b-4bef-9144-a777eb745b9e"
     },
     {
         "word": "예요",
-        "description": "yeyo",
-        "translation": [
-            "am"
-        ],
+        "romanization": "yeyo",
+        "translations": ["am"],
         "type": "verb",
         "id": "a1badf6e-5889-4f42-af88-344be016a04d"
     },
     {
         "word": "일 거예요",
-        "description": "il geoyeyo",
-        "translation": [
-            "will be"
-        ],
+        "romanization": "il geoyeyo",
+        "translations": ["will be"],
         "type": "verb",
         "id": "f15c50d9-1861-43d5-85f5-bfdfeb16c593"
     },
     {
         "word": "였어요",
-        "description": "yeosseoyo",
-        "translation": [
-            "was",
-            "were"
-        ],
+        "romanization": "yeosseoyo",
+        "translations": ["was", "were"],
         "type": "verb",
         "id": "8c3d34df-e3d8-40a3-923c-c4d816693548"
     },
     {
         "word": "먹다",
-        "description": "meokda",
-        "translation": [
-            "to eat"
-        ],
+        "romanization": "meokda",
+        "translations": ["to eat"],
         "type": "verb",
         "id": "2b6365fd-fa06-4627-9c60-7737deaf9687"
     },
     {
         "word": "먹어요",
-        "description": "meogeoyo",
-        "translation": [
-            "eat",
-            "eats"
-        ],
+        "romanization": "meogeoyo",
+        "translations": ["eat", "eats"],
         "type": "verb",
         "id": "f283277c-d085-4e09-8ec8-3d2ae2d3be83"
     },
     {
         "word": "먹을 거예요",
-        "description": "meogeul geoyeyo",
-        "translation": [
-            "will eat"
-        ],
+        "romanization": "meogeul geoyeyo",
+        "translations": ["will eat"],
         "type": "verb",
         "id": "c3015dda-3afa-4786-a59c-bfaec0ced9ca"
     },
     {
         "word": "먹었어요",
-        "description": "meogeosseoyo",
-        "translation": [
-            "ate"
-        ],
+        "romanization": "meogeosseoyo",
+        "translations": ["ate"],
         "type": "verb",
         "id": "a1595554-abb6-4a25-a7fb-8b58faaac9b0"
     },
     {
         "word": "마시다",
-        "description": "masida",
-        "translation": [
-            "to drink"
-        ],
+        "romanization": "masida",
+        "translations": ["to drink"],
         "type": "verb",
         "id": "1179d887-d2f0-4bc6-b39d-7610e1c6bb8d"
     },
     {
         "word": "마셔요",
-        "description": "masyeoyo",
-        "translation": [
-            "drink",
-            "drinks"
-        ],
+        "romanization": "masyeoyo",
+        "translations": ["drink", "drinks"],
         "type": "verb",
         "id": "6e8fcf32-a02a-4a55-8fa3-480c83f451a7"
     },
     {
         "word": "마실 거예요",
-        "description": "masil geoyeyo",
-        "translation": [
-            "will drink"
-        ],
+        "romanization": "masil geoyeyo",
+        "translations": ["will drink"],
         "type": "verb",
         "id": "caf61167-7486-4c88-a6c7-0de7070541c7"
     },
     {
         "word": "마셨어요",
-        "description": "masyeosseoyo",
-        "translation": [
-            "drank"
-        ],
+        "romanization": "masyeosseoyo",
+        "translations": ["drank"],
         "type": "verb",
         "id": "67130353-0d65-4a8f-b064-48096614adbb"
     },
     {
         "word": "주다",
-        "description": "juda",
-        "translation": [
-            "to give"
-        ],
+        "romanization": "juda",
+        "translations": ["to give"],
         "type": "verb",
         "id": "835e2a17-b87b-4ba3-9d8b-d4fce788627f"
     },
     {
         "word": "줘요",
-        "description": "jwoyo",
-        "translation": [
-            "give",
-            "gives"
-        ],
+        "romanization": "jwoyo",
+        "translations": ["give", "gives"],
         "type": "verb",
         "id": "c7f870d8-43db-4a87-8ca5-7456fe153168"
     },
     {
         "word": "줄 거예요",
-        "description": "jul geoyeyo",
-        "translation": [
-            "will give"
-        ],
+        "romanization": "jul geoyeyo",
+        "translations": ["will give"],
         "type": "verb",
         "id": "4375539a-a7b7-4a64-ad8c-4476a0758264"
     },
     {
         "word": "줬어요",
-        "description": "jwosseoyo",
-        "translation": [
-            "gave"
-        ],
+        "romanization": "jwosseoyo",
+        "translations": ["gave"],
         "type": "verb",
         "id": "850ee3fc-b7a1-4284-8668-34d091094f45"
     },
     {
         "word": "보다",
-        "description": "boda",
-        "translation": [
-            "to see"
-        ],
+        "romanization": "boda",
+        "translations": ["to see"],
         "type": "verb",
         "id": "77b1f9f8-7c84-464a-b7fe-b430ea684465"
     },
     {
         "word": "봐요",
-        "description": "bwayo",
-        "translation": [
-            "see",
-            "sees"
-        ],
+        "romanization": "bwayo",
+        "translations": ["see", "sees"],
         "type": "verb",
         "id": "e1975413-528e-40a7-a16a-1441be00565d"
     },
     {
         "word": "볼 거예요",
-        "description": "bol geoyeyo",
-        "translation": [
-            "will see"
-        ],
+        "romanization": "bol geoyeyo",
+        "translations": ["will see"],
         "type": "verb",
         "id": "943c5f35-65b8-49d6-ad23-2514fb57288d"
     },
     {
         "word": "봤어요",
-        "description": "bwasseoyo",
-        "translation": [
-            "saw"
-        ],
+        "romanization": "bwasseoyo",
+        "translations": ["saw"],
         "type": "verb",
         "id": "9e0a3cfc-91c5-4b21-a303-0f57157159a9"
     },
     {
         "word": "자다",
-        "description": "jada",
-        "translation": [
-            "to sleep"
-        ],
+        "romanization": "jada",
+        "translations": ["to sleep"],
         "type": "verb",
         "id": "567b4771-95fe-4979-b29d-d892a2e5dd7c"
     },
     {
         "word": "자요",
-        "description": "jayo",
-        "translation": [
-            "sleep",
-            "sleeps"
-        ],
+        "romanization": "jayo",
+        "translations": ["sleep", "sleeps"],
         "type": "verb",
         "id": "8bcc01c4-9b90-4ab3-bd66-95e03cdf0192"
     },
     {
         "word": "잘 거예요",
-        "description": "jal geoyeyo",
-        "translation": [
-            "will sleep"
-        ],
+        "romanization": "jal geoyeyo",
+        "translations": ["will sleep"],
         "type": "verb",
         "id": "cf1b2a78-2ac9-44f3-8017-372b69dc620e"
     },
     {
         "word": "잤어요",
-        "description": "jasseoyo",
-        "translation": [
-            "slept"
-        ],
+        "romanization": "jasseoyo",
+        "translations": ["slept"],
         "type": "verb",
         "id": "3ea56b98-d684-484c-93b8-dec3929a13d6"
     },
     {
         "word": "일어나다",
-        "description": "ileonada",
-        "translation": [
-            "to get up"
-        ],
+        "romanization": "ileonada",
+        "translations": ["to get up"],
         "type": "verb",
         "id": "3ae8470c-bff1-4dca-8ad4-ccfcaa1ea204"
     },
     {
         "word": "일어나요",
-        "description": "ileonayo",
-        "translation": [
-            "get up",
-            "gets up"
-        ],
+        "romanization": "ileonayo",
+        "translations": ["get up", "gets up"],
         "type": "verb",
         "id": "3b2d8d2d-eeee-46e2-be48-07fadaec1f8e"
     },
     {
         "word": "일어날 거예요",
-        "description": "ileonal geoyeyo",
-        "translation": [
-            "will get up"
-        ],
+        "romanization": "ileonal geoyeyo",
+        "translations": ["will get up"],
         "type": "verb",
         "id": "349866b9-4a4a-4bf6-9502-cc92432110ee"
     },
     {
         "word": "일어났어요",
-        "description": "ileonasseoyo",
-        "translation": [
-            "got up"
-        ],
+        "romanization": "ileonasseoyo",
+        "translations": ["got up"],
         "type": "verb",
         "id": "9e1fc3b1-e036-412f-b988-396070b6eed3"
     },
     {
         "word": "사다",
-        "description": "sada",
-        "translation": [
-            "to buy"
-        ],
+        "romanization": "sada",
+        "translations": ["to buy"],
         "type": "verb",
         "id": "6b31f4db-c568-44de-bfc3-928125a8150d"
     },
     {
         "word": "사요",
-        "description": "sayo",
-        "translation": [
-            "buy",
-            "buys"
-        ],
+        "romanization": "sayo",
+        "translations": ["buy", "buys"],
         "type": "verb",
         "id": "c8eff6e1-3d9e-4cab-9b66-f10a819c95c8"
     },
     {
         "word": "살 거예요",
-        "description": "sal geoyeyo",
-        "translation": [
-            "will buy"
-        ],
+        "romanization": "sal geoyeyo",
+        "translations": ["will buy"],
         "type": "verb",
         "id": "1c73d8c8-500c-4a67-8d0b-fa3f7ea14144"
     },
     {
         "word": "샀어요",
-        "description": "sasseoyo",
-        "translation": [
-            "bought"
-        ],
+        "romanization": "sasseoyo",
+        "translations": ["bought"],
         "type": "verb",
         "id": "4f627338-f73f-468c-bca1-840779f2a932"
     },
     {
         "word": "쓰다",
-        "description": "sseuda",
-        "translation": [
-            "to write"
-        ],
+        "romanization": "sseuda",
+        "translations": ["to write"],
         "type": "verb",
         "id": "61056ee1-ac9b-472a-a5ad-22af37e5930e"
     },
     {
         "word": "씁니다",
-        "description": "sseumnida",
-        "translation": [
-            "write",
-            "writes"
-        ],
+        "romanization": "sseumnida",
+        "translations": ["write", "writes"],
         "type": "verb",
         "id": "46d85252-1127-40cd-9200-fd92f56600cb"
     },
     {
         "word": "쓸 거예요",
-        "description": "sseul geoyeyo",
-        "translation": [
-            "will write"
-        ],
+        "romanization": "sseul geoyeyo",
+        "translations": ["will write"],
         "type": "verb",
         "id": "6f13bb7e-0d41-48fa-bee6-7387fe6f6182"
     },
     {
         "word": "썼어요",
-        "description": "sseosseoyo",
-        "translation": [
-            "wrote"
-        ],
+        "romanization": "sseosseoyo",
+        "translations": ["wrote"],
         "type": "verb",
         "id": "c487faed-7360-4570-8343-df333137db14"
     },
     {
         "word": "웃다",
-        "description": "utda",
-        "translation": [
-            "to laugh"
-        ],
+        "romanization": "utda",
+        "translations": ["to laugh"],
         "type": "verb",
         "id": "070be3c4-207a-4c0d-aa8f-6a4fbb58dd49"
     },
     {
         "word": "웃어요",
-        "description": "useoyo",
-        "translation": [
-            "laugh",
-            "laughs"
-        ],
+        "romanization": "useoyo",
+        "translations": ["laugh", "laughs"],
         "type": "verb",
         "id": "4e195c07-7866-441c-9e46-820b96415524"
     },
     {
         "word": "웃을 거예요",
-        "description": "useul geoyeyo",
-        "translation": [
-            "will laugh"
-        ],
+        "romanization": "useul geoyeyo",
+        "translations": ["will laugh"],
         "type": "verb",
         "id": "5a707713-69bf-4201-a675-4d3d345ea204"
     },
     {
         "word": "웃었어요",
-        "description": "useosseoyo",
-        "translation": [
-            "laughed"
-        ],
+        "romanization": "useosseoyo",
+        "translations": ["laughed"],
         "type": "verb",
         "id": "5ce01ed4-0ad3-488b-a3fd-ac38fa556408"
     },
     {
         "word": "울다",
-        "description": "ulda",
-        "translation": [
-            "to cry"
-        ],
+        "romanization": "ulda",
+        "translations": ["to cry"],
         "type": "verb",
         "id": "660630e0-59ec-4fb0-ac0f-afcb838ebeb5"
     },
     {
         "word": "울어요",
-        "description": "uleoyo",
-        "translation": [
-            "cry",
-            "cries"
-        ],
+        "romanization": "uleoyo",
+        "translations": ["cry", "cries"],
         "type": "verb",
         "id": "3f18c175-29a7-471b-8af2-f2c64f7b7fbc"
     },
     {
         "word": "울 거예요",
-        "description": "ul geoyeyo",
-        "translation": [
-            "will cry"
-        ],
+        "romanization": "ul geoyeyo",
+        "translations": ["will cry"],
         "type": "verb",
         "id": "03576a4d-a78b-4800-9d0c-627284bfd431"
     },
     {
         "word": "울었어요",
-        "description": "uleosseoyo",
-        "translation": [
-            "cried"
-        ],
+        "romanization": "uleosseoyo",
+        "translations": ["cried"],
         "type": "verb",
         "id": "5c4a0a64-a152-4b82-ab32-a62582058c03"
     },
     {
         "word": "입다",
-        "description": "ipda",
-        "translation": [
-            "to wear"
-        ],
+        "romanization": "ipda",
+        "translations": ["to wear"],
         "type": "verb",
         "id": "3d18e886-56f2-4012-8387-b803c5f05b3b"
     },
     {
         "word": "입어요",
-        "description": "ibeoyo",
-        "translation": [
-            "wear",
-            "wears"
-        ],
+        "romanization": "ibeoyo",
+        "translations": ["wear", "wears"],
         "type": "verb",
         "id": "08e84c3c-a915-418a-bc2c-c98aa23d474f"
     },
     {
         "word": "입을 거예요",
-        "description": "ibeul geoyeyo",
-        "translation": [
-            "will wear"
-        ],
+        "romanization": "ibeul geoyeyo",
+        "translations": ["will wear"],
         "type": "verb",
         "id": "ed0f7c64-8b36-419c-b843-8be7d4be41f3"
     },
     {
         "word": "입었어요",
-        "description": "ibeosseoyo",
-        "translation": [
-            "wore"
-        ],
+        "romanization": "ibeosseoyo",
+        "translations": ["wore"],
         "type": "verb",
         "id": "a3ecd8f2-5463-470d-97e0-935b25376128"
     },
     {
         "word": "걷다",
-        "description": "geotda",
-        "translation": [
-            "to walk"
-        ],
+        "romanization": "geotda",
+        "translations": ["to walk"],
         "type": "verb",
         "id": "1a85429c-ed90-4ace-8939-02c89b8c2c5d"
     },
     {
         "word": "걷어요",
-        "description": " geoyeyo",
-        "translation": [
-            "walk",
-            "walks"
-        ],
+        "romanization": " geoyeyo",
+        "translations": ["walk", "walks"],
         "type": "verb",
         "id": "fae8a065-c1b4-476e-aff2-eada6bb1c6b0"
     },
     {
         "word": "걸을 거예요",
-        "description": "georeul geoyeyo",
-        "translation": [
-            "will walk"
-        ],
+        "romanization": "georeul geoyeyo",
+        "translations": ["will walk"],
         "type": "verb",
         "id": "e814a302-fd75-4ea8-bd89-e2152e966011"
     },
     {
         "word": "걸었어요",
-        "description": "georeosseoyo",
-        "translation": [
-            "walked"
-        ],
+        "romanization": "georeosseoyo",
+        "translations": ["walked"],
         "type": "verb",
         "id": "1daf04a1-76f4-4933-9f0e-200823a3159c"
     },
     {
         "word": "읽다",
-        "description": "ikda",
-        "translation": [
-            "to read"
-        ],
+        "romanization": "ikda",
+        "translations": ["to read"],
         "type": "verb",
         "id": "fbc7af65-2aa9-42af-87b9-cd68e06e8678"
     },
     {
         "word": "읽어요",
-        "description": "ik-eoyo",
-        "translation": [
-            "read",
-            "reads"
-        ],
+        "romanization": "ik-eoyo",
+        "translations": ["read", "reads"],
         "type": "verb",
         "id": "fdd9e1fe-6887-4da0-b893-001b9e684acc"
     },
     {
         "word": "읽을 거예요",
-        "description": "ik-eul geoyeyo",
-        "translation": [
-            "will read"
-        ],
+        "romanization": "ik-eul geoyeyo",
+        "translations": ["will read"],
         "type": "verb",
         "id": "b9a9e430-8b00-4609-b87d-eaaaaab4a505"
     },
     {
         "word": "읽었어요",
-        "description": "ik-eosseoyo",
-        "translation": [
-            "read"
-        ],
+        "romanization": "ik-eosseoyo",
+        "translations": ["read"],
         "type": "verb",
         "id": "35f0a82c-3e12-42d5-9dec-24262d67ee4a"
     },
     {
         "word": "배우다",
-        "description": "baeuda",
-        "translation": [
-            "to learn"
-        ],
+        "romanization": "baeuda",
+        "translations": ["to learn"],
         "type": "verb",
         "id": "bf66f354-fd2f-4ae9-bafd-dcb8ee2c90db"
     },
     {
         "word": "배워요",
-        "description": "baewoyo",
-        "translation": [
-            "learn",
-            "learns"
-        ],
+        "romanization": "baewoyo",
+        "translations": ["learn", "learns"],
         "type": "verb",
         "id": "0cd08858-5746-4b32-95d2-fe31fbdb1a81"
     },
     {
         "word": "배울 거예요",
-        "description": "baeul geoyeyo",
-        "translation": [
-            "will learn"
-        ],
+        "romanization": "baeul geoyeyo",
+        "translations": ["will learn"],
         "type": "verb",
         "id": "98247303-4b76-4e15-b8ea-2c66b23a081b"
     },
     {
         "word": "배웠어요",
-        "description": "baewosseoyo",
-        "translation": [
-            "learned"
-        ],
+        "romanization": "baewosseoyo",
+        "translations": ["learned"],
         "type": "verb",
         "id": "eef1b715-2cc5-4b68-ac39-58b06a9a5dff"
     },
     {
         "word": "공부하다",
-        "description": "gongbuhada",
-        "translation": [
-            "to study"
-        ],
+        "romanization": "gongbuhada",
+        "translations": ["to study"],
         "type": "verb",
         "id": "78d84950-95b4-4901-9bb5-802e08f5569a"
     },
     {
         "word": "공부해요",
-        "description": "gongbuhaeyo",
-        "translation": [
-            "study",
-            "studies"
-        ],
+        "romanization": "gongbuhaeyo",
+        "translations": ["study", "studies"],
         "type": "verb",
         "id": "52324e83-1e5a-4f55-9c08-ce1e52ab0987"
     },
     {
         "word": "공부할 거예요",
-        "description": "gongbuhal geoyeyo",
-        "translation": [
-            "will study"
-        ],
+        "romanization": "gongbuhal geoyeyo",
+        "translations": ["will study"],
         "type": "verb",
         "id": "39472fe7-4337-4877-a4f5-b6905ac58923"
     },
     {
         "word": "공부했어요",
-        "description": "gongbuhaesseoyo",
-        "translation": [
-            "studied"
-        ],
+        "romanization": "gongbuhaesseoyo",
+        "translations": ["studied"],
         "type": "verb",
         "id": "d835ca01-a2cc-4588-85c0-c0113d90a68b"
     },
     {
         "word": "만나다",
-        "description": "mannada",
-        "translation": [
-            "to meet"
-        ],
+        "romanization": "mannada",
+        "translations": ["to meet"],
         "type": "verb",
         "id": "0d845c44-5e2d-43ff-af2e-37500d190686"
     },
     {
         "word": "만나요",
-        "description": "mannoyo",
-        "translation": [
-            "meet",
-            "meets"
-        ],
+        "romanization": "mannoyo",
+        "translations": ["meet", "meets"],
         "type": "verb",
         "id": "53e76769-10e5-4cf3-819e-bd6ba0bd680c"
     },
     {
         "word": "만날 거예요",
-        "description": "mannal geoyeyo",
-        "translation": [
-            "will meet"
-        ],
+        "romanization": "mannal geoyeyo",
+        "translations": ["will meet"],
         "type": "verb",
         "id": "3d0fabb5-839c-44db-9bd3-6b69e3385de8"
     },
     {
         "word": "만났어요",
-        "description": "mannasseoyo",
-        "translation": [
-            "met"
-        ],
+        "romanization": "mannasseoyo",
+        "translations": ["met"],
         "type": "verb",
         "id": "9ea98e2e-8d42-449b-943c-d957027a9c6b"
     },
     {
         "word": "바람",
-        "description": "baram",
-        "translation": [
-            "wind"
-        ],
+        "romanization": "baram",
+        "translations": ["wind"],
         "type": "noun",
         "id": "5f0ccd66-0fe9-4b33-9e80-b27d76c509be"
     },
     {
         "word": "마음",
-        "description": "ma-eum",
-        "translation": [
-            "mind",
-            "heart"
-        ],
+        "romanization": "ma-eum",
+        "translations": ["mind", "heart"],
         "type": "noun",
         "id": "9831f5a8-d5ca-4850-949a-497294baa9a4"
     },
     {
         "word": "강",
-        "description": "gang",
-        "translation": [
-            "river"
-        ],
+        "romanization": "gang",
+        "translations": ["river"],
         "type": "noun",
         "id": "32ba5afe-9ea7-429b-a43b-fafb76bd40ba"
     },
     {
         "word": "바다",
-        "description": "bada",
-        "translation": [
-            "ocean"
-        ],
+        "romanization": "bada",
+        "translations": ["ocean"],
         "type": "noun",
         "id": "add016a9-236c-4e84-b4a3-dacb460b59ad"
     },
     {
         "word": "하늘",
-        "description": "haneul",
-        "translation": [
-            "sky"
-        ],
+        "romanization": "haneul",
+        "translations": ["sky"],
         "type": "noun",
         "id": "e5978767-06db-412c-a499-a55faaf31b26"
     },
     {
         "word": "비",
-        "description": "bi",
-        "translation": [
-            "rain"
-        ],
+        "romanization": "bi",
+        "translations": ["rain"],
         "type": "noun",
         "id": "ec79e71c-7c8d-40e1-bbe0-038d281c1a0d"
     },
     {
         "word": "비행",
-        "description": "bihaeng",
-        "translation": [
-            "to fly"
-        ],
+        "romanization": "bihaeng",
+        "translations": ["to fly"],
         "type": "verb",
         "id": "5beda1c1-7b3a-4337-8fc3-57d212470eaf"
     },
     {
         "word": "날개",
-        "description": "nalgae",
-        "translation": [
-            "wing"
-        ],
+        "romanization": "nalgae",
+        "translations": ["wing"],
         "type": "noun",
         "id": "0bd2c8ee-1b84-44bb-a675-553f5910a2d8"
     },
     {
         "word": "세계",
-        "description": "segye",
-        "translation": [
-            "world"
-        ],
+        "romanization": "segye",
+        "translations": ["world"],
         "type": "noun",
         "id": "ee95cc6f-2413-4e16-a581-9fda7165f651"
     },
     {
         "word": "친구",
-        "description": "chingu",
-        "translation": [
-            "friend"
-        ],
+        "romanization": "chingu",
+        "translations": ["friend"],
         "type": "noun",
         "id": "af432198-72c5-485c-831d-84ea7c60954a"
     },
     {
         "word": "가족",
-        "description": "gajok",
-        "translation": [
-            "family"
-        ],
+        "romanization": "gajok",
+        "translations": ["family"],
         "type": "noun",
         "id": "7194e80c-3786-400c-8812-e83873738caf"
     },
     {
         "word": "아빠",
-        "description": "appa",
-        "translation": [
-            "dad"
-        ],
+        "romanization": "appa",
+        "translations": ["dad"],
         "type": "noun",
         "id": "52e8c68b-c84a-4151-b1ca-6da2a2036831"
     },
     {
         "word": "엄마",
-        "description": "eomma",
-        "translation": [
-            "mom"
-        ],
+        "romanization": "eomma",
+        "translations": ["mom"],
         "type": "noun",
         "id": "8c6f3bee-d896-48c8-b738-adc3d03efc15"
     },
     {
         "word": "남자 친구",
-        "description": "namja chingu",
-        "translation": [
-            "boyfriend"
-        ],
+        "romanization": "namja chingu",
+        "translations": ["boyfriend"],
         "type": "noun",
         "id": "426871b9-b703-4e48-b86b-841a8a70bb6a"
     },
     {
         "word": "여자 친구",
-        "description": "yeoja chingu",
-        "translation": [
-            "girlfriend"
-        ],
+        "romanization": "yeoja chingu",
+        "translations": ["girlfriend"],
         "type": "noun",
         "id": "5ae8e073-6fc8-41d0-87c6-67e0689a3bd1"
     },
     {
         "word": "결혼",
-        "description": "gyeolhon",
-        "translation": [
-            "marriage"
-        ],
+        "romanization": "gyeolhon",
+        "translations": ["marriage"],
         "type": "noun",
         "id": "2adc4323-be63-40f3-9c70-a9efaaae409c"
     },
     {
         "word": "남편",
-        "description": "nampyeon",
-        "translation": [
-            "husband"
-        ],
+        "romanization": "nampyeon",
+        "translations": ["husband"],
         "type": "noun",
         "id": "690322c6-268a-4cb0-a80f-2a2513cb3cb2"
     },
     {
         "word": "아내",
-        "description": "anae",
-        "translation": [
-            "wife"
-        ],
+        "romanization": "anae",
+        "translations": ["wife"],
         "type": "noun",
         "id": "8366bb0d-9d77-424a-a3a0-03af7078df86"
     },
     {
         "word": "좋아지다",
-        "description": "joh-ajida",
-        "translation": [
-            "to be good"
-        ],
+        "romanization": "joh-ajida",
+        "translations": ["to be good"],
         "type": "verb",
         "id": "13f7553a-5cba-4942-8e52-7372f5f17529"
     },
     {
         "word": "나쁘다",
-        "description": "nappeuda",
-        "translation": [
-            "to be bad"
-        ],
+        "romanization": "nappeuda",
+        "translations": ["to be bad"],
         "type": "verb",
         "id": "10c4f35c-1773-4978-9b42-e7975c21bdd2"
     },
     {
         "word": "뜨거워지다",
-        "description": "tteugeowojida",
-        "translation": [
-            "to be hot"
-        ],
+        "romanization": "tteugeowojida",
+        "translations": ["to be hot"],
         "type": "verb",
         "id": "c57c8cad-64fc-432f-9d27-de7150411562"
     },
     {
         "word": "추워지다",
-        "description": "chuwojida",
-        "translation": [
-            "to be cold"
-        ],
+        "romanization": "chuwojida",
+        "translations": ["to be cold"],
         "type": "verb",
         "id": "48f99016-37ef-4837-9e7e-0ef1855d0064"
     },
     {
         "word": "슬퍼하다",
-        "description": "seulpeohada",
-        "translation": [
-            "to be sad"
-        ],
+        "romanization": "seulpeohada",
+        "translations": ["to be sad"],
         "type": "verb",
         "id": "49864c6a-aea2-4637-b4b7-6c45b599f5eb"
     },
     {
         "word": "아프다",
-        "description": "apeuda",
-        "translation": [
-            "to be sick"
-        ],
+        "romanization": "apeuda",
+        "translations": ["to be sick"],
         "type": "verb",
         "id": "bacf8d05-61e1-4eb6-8987-1bc1068d05a3"
     },
     {
         "word": "피곤하다",
-        "description": "pigonhada",
-        "translation": [
-            "to be tired"
-        ],
+        "romanization": "pigonhada",
+        "translations": ["to be tired"],
         "type": "verb",
         "id": "70618f7b-de1d-4998-83a1-db8aff13d167"
     },
     {
         "word": "흥미롭다",
-        "description": "heungmirobda",
-        "translation": [
-            "to be interesting"
-        ],
+        "romanization": "heungmirobda",
+        "translations": ["to be interesting"],
         "type": "verb",
         "id": "e3f14080-7d60-46b2-9376-68b3ef94ad62"
     },
     {
         "word": "지루하다",
-        "description": "jiruhada",
-        "translation": [
-            "to be boring"
-        ],
+        "romanization": "jiruhada",
+        "translations": ["to be boring"],
         "type": "verb",
         "id": "cd4e8570-b4a3-4076-9f97-5e1525a8539f"
     },
     {
         "word": "어렵다",
-        "description": "eoryeobda",
-        "translation": [
-            "to be difficult"
-        ],
+        "romanization": "eoryeobda",
+        "translations": ["to be difficult"],
         "type": "verb",
         "id": "ce33653e-577e-40df-bcce-e0af430775ab"
     },
     {
         "word": "쉽게",
-        "description": "swibge",
-        "translation": [
-            "to be easy"
-        ],
+        "romanization": "swibge",
+        "translations": ["to be easy"],
         "type": "verb",
         "id": "77e57b2c-ec28-48c2-9007-5ff4ff8af984"
     },
     {
         "word": "깨끗하다",
-        "description": "kkaekkeushada",
-        "translation": [
-            "to be clean"
-        ],
+        "romanization": "kkaekkeushada",
+        "translations": ["to be clean"],
         "type": "verb",
         "id": "2ce16fb9-5b35-4aed-9627-57c9038603d6"
     },
     {
         "word": "더러워지다",
-        "description": "deoreowojida",
-        "translation": [
-            "to be dirty"
-        ],
+        "romanization": "deoreowojida",
+        "translations": ["to be dirty"],
         "type": "verb",
         "id": "ee34b35b-ee4d-4f2e-82bb-1989a922215d"
     },
     {
         "word": "빠르다",
-        "description": "ppareuda",
-        "translation": [
-            "to be fast"
-        ],
+        "romanization": "ppareuda",
+        "translations": ["to be fast"],
         "type": "verb",
         "id": "b004fc2b-4a03-4188-a98c-55d9d71efa15"
     },
     {
         "word": "천천히다",
-        "description": "cheoncheonhida",
-        "translation": [
-            "to be slow"
-        ],
+        "romanization": "cheoncheonhida",
+        "translations": ["to be slow"],
         "type": "verb",
         "id": "b9a34771-443a-4be1-b5b8-8752106e2321"
     },
     {
         "word": "천천히",
-        "description": "cheoncheonhi",
-        "translation": [
-            "slowly"
-        ],
+        "romanization": "cheoncheonhi",
+        "translations": ["slowly"],
         "type": "adverb",
         "id": "7782114a-e2d5-4cfe-9bdf-af127bfd5113"
     },
     {
         "word": "매우",
-        "description": "maeu",
-        "translation": [
-            "very"
-        ],
+        "romanization": "maeu",
+        "translations": ["very"],
         "type": "adverb",
         "id": "42c8ce4d-f903-4f5f-9b75-227c130c334d"
     },
     {
         "word": "상당히",
-        "description": "sangdanghi",
-        "translation": [
-            "quite"
-        ],
+        "romanization": "sangdanghi",
+        "translations": ["quite"],
         "type": "adverb",
         "id": "f618bb5e-6071-4d19-8f00-b973dfaa2d54"
     },
     {
         "word": "거의",
-        "description": "geoui",
-        "translation": [
-            "almost"
-        ],
+        "romanization": "geoui",
+        "translations": ["almost"],
         "type": "adverb",
         "id": "b2fa1e71-0fb2-4288-a0e9-7c1812c641b1"
     },
     {
         "word": "빨리",
-        "description": "ppalli",
-        "translation": [
-            "fast"
-        ],
+        "romanization": "ppalli",
+        "translations": ["fast"],
         "type": "adverb",
         "id": "cd9fed96-170b-4ba9-b592-dd40181bf1ce"
     },
     {
         "word": "주의하여",
-        "description": "juuihayeo",
-        "translation": [
-            "carefully"
-        ],
+        "romanization": "juuihayeo",
+        "translations": ["carefully"],
         "type": "adverb",
         "id": "d8e095ee-25e8-4820-b20a-a54276fa4a5e"
     },
     {
         "word": "항상",
-        "description": "hangsang",
-        "translation": [
-            "always"
-        ],
+        "romanization": "hangsang",
+        "translations": ["always"],
         "type": "adverb",
         "id": "804897b0-48b9-4a10-9623-066535461147"
     },
     {
         "word": "자주",
-        "description": "jaju",
-        "translation": [
-            "frequently"
-        ],
+        "romanization": "jaju",
+        "translations": ["frequently"],
         "type": "adverb",
         "id": "78432eda-81cf-4bcf-8463-055a6e310673"
     },
     {
         "word": "보통",
-        "description": "botong",
-        "translation": [
-            "usually"
-        ],
+        "romanization": "botong",
+        "translations": ["usually"],
         "type": "adverb",
         "id": "46422ea5-c7d4-41e2-b904-5cf6608e1281"
     },
     {
         "word": "때때로",
-        "description": "ttaettaelo",
-        "translation": [
-            "sometimes",
-            "occasionally"
-        ],
+        "romanization": "ttaettaelo",
+        "translations": ["sometimes", "occasionally"],
         "type": "adverb",
         "id": "dff7da3c-685a-4649-a8fe-aecff8d8420e"
     },
     {
         "word": "드물게",
-        "description": "deumulga",
-        "translation": [
-            "rarely",
-            "seldom"
-        ],
+        "romanization": "deumulga",
+        "translations": ["rarely", "seldom"],
         "type": "adverb",
         "id": "5e4bb3a6-6c91-4d4e-a3f9-cee985fc0fd3"
     },
     {
         "word": "절대",
-        "description": "jeoldae",
-        "translation": [
-            "never"
-        ],
+        "romanization": "jeoldae",
+        "translations": ["never"],
         "type": "adverb",
         "id": "2fb5026a-b389-48e3-8bc8-f5270e6a4fde"
     }

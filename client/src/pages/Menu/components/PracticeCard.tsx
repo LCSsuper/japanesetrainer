@@ -6,6 +6,7 @@ import {
     Group,
     Text,
     Title,
+    Tooltip,
 } from "@mantine/core";
 import { observer } from "mobx-react-lite";
 
@@ -62,7 +63,7 @@ const PracticeText = ({
 
 export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
     const {
-        libraryStore: { flag, language },
+        libraryStore: { flag, language, practiceLibrary },
         learnerStore: { reset, setPracticeMode },
         routerStore: { setCurrentRoute },
     } = useMobxStores();
@@ -84,16 +85,22 @@ export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
                         </>
                     )}
                 </Text>
-                <Button
-                    variant="gradient"
-                    onClick={() => {
-                        setPracticeMode(mode);
-                        reset();
-                        setCurrentRoute("learner");
-                    }}
+                <Tooltip
+                    disabled={!!practiceLibrary[mode].length}
+                    label={"Practice selection is empty"}
                 >
-                    Practice!
-                </Button>
+                    <Button
+                        disabled={!practiceLibrary[mode].length}
+                        variant="gradient"
+                        onClick={() => {
+                            setPracticeMode(mode);
+                            reset();
+                            setCurrentRoute("learner");
+                        }}
+                    >
+                        Practice!
+                    </Button>
+                </Tooltip>
             </Group>
         </Card>
     );

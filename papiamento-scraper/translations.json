@@ -2,1321 +2,1321 @@
     {
         "word": "mi",
         "description": "",
-        "translation": ["i"]
+        "translations": ["i"]
     },
     {
         "word": "ami",
         "description": "",
-        "translation": ["i"]
+        "translations": ["i"]
     },
     {
         "word": "bo",
         "description": "",
-        "translation": ["you", "you (singular)"]
+        "translations": ["you", "you (singular)"]
     },
     {
         "word": "abo",
         "description": "",
-        "translation": ["you", "you (singular)"]
+        "translations": ["you", "you (singular)"]
     },
     {
         "word": "e",
         "description": "",
-        "translation": ["he"]
+        "translations": ["he"]
     },
     {
         "word": "nos",
         "description": "",
-        "translation": ["we"]
+        "translations": ["we"]
     },
     {
         "word": "boso",
         "description": "",
-        "translation": ["you", "you (plural)"]
+        "translations": ["you", "you (plural)"]
     },
     {
         "word": "nan",
         "description": "",
-        "translation": ["they"]
+        "translations": ["they"]
     },
     {
         "word": "aki",
         "description": "",
-        "translation": ["this"]
+        "translations": ["this"]
     },
     {
         "word": "esaki",
         "description": "",
-        "translation": ["this"]
+        "translations": ["this"]
     },
     {
         "word": "esei",
         "description": "",
-        "translation": ["that"]
+        "translations": ["that"]
     },
     {
         "word": "esaya",
         "description": "",
-        "translation": ["that"]
+        "translations": ["that"]
     },
     {
         "word": "aki",
         "description": "",
-        "translation": ["here"]
+        "translations": ["here"]
     },
     {
         "word": "aya",
         "description": "",
-        "translation": ["there"]
+        "translations": ["there"]
     },
     {
         "word": "ei",
         "description": "",
-        "translation": ["there"]
+        "translations": ["there"]
     },
     {
         "word": "ken",
         "description": "",
-        "translation": ["who"]
+        "translations": ["who"]
     },
     {
         "word": "kende",
         "description": "",
-        "translation": ["who"]
+        "translations": ["who"]
     },
     {
         "word": "ki",
         "description": "",
-        "translation": ["what"]
+        "translations": ["what"]
     },
     {
         "word": "kiko",
         "description": "",
-        "translation": ["what"]
+        "translations": ["what"]
     },
     {
         "word": "unda",
         "description": "",
-        "translation": ["where"]
+        "translations": ["where"]
     },
     {
         "word": "ki ora",
         "description": "",
-        "translation": ["when"]
+        "translations": ["when"]
     },
     {
         "word": "ki dia",
         "description": "",
-        "translation": ["when"]
+        "translations": ["when"]
     },
     {
         "word": "kon",
         "description": "",
-        "translation": ["how"]
+        "translations": ["how"]
     },
     {
         "word": "no",
         "description": "",
-        "translation": ["not"]
+        "translations": ["not"]
     },
     {
         "word": "tur",
         "description": "",
-        "translation": ["all"]
+        "translations": ["all"]
     },
     {
         "word": "hopi",
         "description": "",
-        "translation": ["many"]
+        "translations": ["many"]
     },
     {
         "word": "mashá",
         "description": "",
-        "translation": ["many"]
+        "translations": ["many"]
     },
     {
         "word": "algun",
         "description": "",
-        "translation": ["some"]
+        "translations": ["some"]
     },
     {
         "word": "poko",
         "description": "",
-        "translation": ["few"]
+        "translations": ["few"]
     },
     {
         "word": "otro",
         "description": "",
-        "translation": ["other"]
+        "translations": ["other"]
     },
     {
         "word": "un",
         "description": "",
-        "translation": ["one"]
+        "translations": ["one"]
     },
     {
         "word": "unu",
         "description": "",
-        "translation": ["one"]
+        "translations": ["one"]
     },
     {
         "word": "dos",
         "description": "",
-        "translation": ["two"]
+        "translations": ["two"]
     },
     {
         "word": "tres",
         "description": "",
-        "translation": ["three"]
+        "translations": ["three"]
     },
     {
         "word": "kuater",
         "description": "",
-        "translation": ["four"]
+        "translations": ["four"]
     },
     {
         "word": "sinku",
         "description": "",
-        "translation": ["five"]
+        "translations": ["five"]
     },
     {
         "word": "grandi",
         "description": "",
-        "translation": ["big"]
+        "translations": ["big"]
     },
     {
         "word": "largu",
         "description": "",
-        "translation": ["long"]
+        "translations": ["long"]
     },
     {
         "word": "anchu",
         "description": "",
-        "translation": ["wide"]
+        "translations": ["wide"]
     },
     {
         "word": "hanchu",
         "description": "",
-        "translation": ["wide"]
+        "translations": ["wide"]
     },
     {
         "word": "diki",
         "description": "",
-        "translation": ["thick"]
+        "translations": ["thick"]
     },
     {
         "word": "gordo",
         "description": "",
-        "translation": ["thick"]
+        "translations": ["thick"]
     },
     {
         "word": "pisá",
         "description": "",
-        "translation": ["heavy"]
+        "translations": ["heavy"]
     },
     {
         "word": "chikí",
         "description": "",
-        "translation": ["small"]
+        "translations": ["small"]
     },
     {
         "word": "kòrtiku",
         "description": "",
-        "translation": ["short"]
+        "translations": ["short"]
     },
     {
         "word": "smal",
         "description": "",
-        "translation": ["narrow"]
+        "translations": ["narrow"]
     },
     {
         "word": "delegá",
         "description": "",
-        "translation": ["thin"]
+        "translations": ["thin"]
     },
     {
         "word": "flaku",
         "description": "",
-        "translation": ["thin"]
+        "translations": ["thin"]
     },
     {
         "word": "muhé",
         "description": "",
-        "translation": ["woman"]
+        "translations": ["woman"]
     },
     {
         "word": "hòmber",
         "description": "",
-        "translation": ["man", "man (adult male)"]
+        "translations": ["man", "man (adult male)"]
     },
     {
         "word": "hende",
         "description": "",
-        "translation": ["man", "man (human being)"]
+        "translations": ["man", "man (human being)"]
     },
     {
         "word": "yu",
         "description": "",
-        "translation": ["child"]
+        "translations": ["child"]
     },
     {
         "word": "yiu",
         "description": "",
-        "translation": ["child"]
+        "translations": ["child"]
     },
     {
         "word": "mucha",
         "description": "",
-        "translation": ["child"]
+        "translations": ["child"]
     },
     {
         "word": "esposa",
         "description": "",
-        "translation": ["wife"]
+        "translations": ["wife"]
     },
     {
         "word": "kasá",
         "description": "",
-        "translation": ["wife"]
+        "translations": ["wife"]
     },
     {
         "word": "esposo",
         "description": "",
-        "translation": ["husband"]
+        "translations": ["husband"]
     },
     {
         "word": "kasá",
         "description": "",
-        "translation": ["husband"]
+        "translations": ["husband"]
     },
     {
         "word": "mama",
         "description": "",
-        "translation": ["mother"]
+        "translations": ["mother"]
     },
     {
         "word": "tata",
         "description": "",
-        "translation": ["father"]
+        "translations": ["father"]
     },
     {
         "word": "papa",
         "description": "",
-        "translation": ["father"]
+        "translations": ["father"]
     },
     {
         "word": "bestia",
         "description": "",
-        "translation": ["animal"]
+        "translations": ["animal"]
     },
     {
         "word": "animal",
         "description": "",
-        "translation": ["animal"]
+        "translations": ["animal"]
     },
     {
         "word": "piská",
         "description": "",
-        "translation": ["fish"]
+        "translations": ["fish"]
     },
     {
         "word": "para",
         "description": "",
-        "translation": ["bird"]
+        "translations": ["bird"]
     },
     {
         "word": "kachó",
         "description": "",
-        "translation": ["dog"]
+        "translations": ["dog"]
     },
     {
         "word": "pieu",
         "description": "",
-        "translation": ["louse"]
+        "translations": ["louse"]
     },
     {
         "word": "kolebra",
         "description": "",
-        "translation": ["snake"]
+        "translations": ["snake"]
     },
     {
         "word": "bichi",
         "description": "",
-        "translation": ["worm"]
+        "translations": ["worm"]
     },
     {
         "word": "palu",
         "description": "",
-        "translation": ["tree"]
+        "translations": ["tree"]
     },
     {
         "word": "mondi",
         "description": "",
-        "translation": ["forest"]
+        "translations": ["forest"]
     },
     {
         "word": "baston",
         "description": "",
-        "translation": ["stick"]
+        "translations": ["stick"]
     },
     {
         "word": "palu",
         "description": "",
-        "translation": ["stick"]
+        "translations": ["stick"]
     },
     {
         "word": "fruta",
         "description": "",
-        "translation": ["fruit"]
+        "translations": ["fruit"]
     },
     {
         "word": "simia",
         "description": "",
-        "translation": ["seed"]
+        "translations": ["seed"]
     },
     {
         "word": "blachi",
         "description": "",
-        "translation": ["leaf"]
+        "translations": ["leaf"]
     },
     {
         "word": "foya",
         "description": "",
-        "translation": ["leaf"]
+        "translations": ["leaf"]
     },
     {
         "word": "rais",
         "description": "",
-        "translation": ["root"]
+        "translations": ["root"]
     },
     {
         "word": "kaska",
         "description": "",
-        "translation": ["bark", "bark (of a tree)"]
+        "translations": ["bark", "bark (of a tree)"]
     },
     {
         "word": "flor",
         "description": "",
-        "translation": ["flower"]
+        "translations": ["flower"]
     },
     {
         "word": "yerba",
         "description": "",
-        "translation": ["grass"]
+        "translations": ["grass"]
     },
     {
         "word": "kabuya",
         "description": "",
-        "translation": ["rope"]
+        "translations": ["rope"]
     },
     {
         "word": "liña",
         "description": "",
-        "translation": ["rope"]
+        "translations": ["rope"]
     },
     {
         "word": "kueru",
         "description": "",
-        "translation": ["skin"]
+        "translations": ["skin"]
     },
     {
         "word": "karni",
         "description": "",
-        "translation": ["meat"]
+        "translations": ["meat"]
     },
     {
         "word": "sanger",
         "description": "",
-        "translation": ["blood"]
+        "translations": ["blood"]
     },
     {
         "word": "wesu",
         "description": "",
-        "translation": ["bone"]
+        "translations": ["bone"]
     },
     {
         "word": "vèt",
         "description": "",
-        "translation": ["fat", "fat (noun)"]
+        "translations": ["fat", "fat (noun)"]
     },
     {
         "word": "sebu",
         "description": "",
-        "translation": ["fat", "fat (noun)"]
+        "translations": ["fat", "fat (noun)"]
     },
     {
         "word": "webu",
         "description": "",
-        "translation": ["egg"]
+        "translations": ["egg"]
     },
     {
         "word": "kachu",
         "description": "",
-        "translation": ["horn"]
+        "translations": ["horn"]
     },
     {
         "word": "rabu",
         "description": "",
-        "translation": ["tail"]
+        "translations": ["tail"]
     },
     {
         "word": "pluma",
         "description": "",
-        "translation": ["feather"]
+        "translations": ["feather"]
     },
     {
         "word": "kabei",
         "description": "",
-        "translation": ["hair"]
+        "translations": ["hair"]
     },
     {
         "word": "kabes",
         "description": "",
-        "translation": ["head"]
+        "translations": ["head"]
     },
     {
         "word": "orea",
         "description": "",
-        "translation": ["ear"]
+        "translations": ["ear"]
     },
     {
         "word": "wowo",
         "description": "",
-        "translation": ["eye"]
+        "translations": ["eye"]
     },
     {
         "word": "nanishi",
         "description": "",
-        "translation": ["nose"]
+        "translations": ["nose"]
     },
     {
         "word": "boka",
         "description": "",
-        "translation": ["mouth"]
+        "translations": ["mouth"]
     },
     {
         "word": "djente",
         "description": "",
-        "translation": ["tooth"]
+        "translations": ["tooth"]
     },
     {
         "word": "lenga",
         "description": "",
-        "translation": ["tongue", "tongue (organ)"]
+        "translations": ["tongue", "tongue (organ)"]
     },
     {
         "word": "uña",
         "description": "",
-        "translation": ["fingernail"]
+        "translations": ["fingernail"]
     },
     {
         "word": "pia",
         "description": "",
-        "translation": ["foot"]
+        "translations": ["foot"]
     },
     {
         "word": "pia",
         "description": "",
-        "translation": ["leg"]
+        "translations": ["leg"]
     },
     {
         "word": "pata",
         "description": "",
-        "translation": ["leg"]
+        "translations": ["leg"]
     },
     {
         "word": "rudia",
         "description": "",
-        "translation": ["knee"]
+        "translations": ["knee"]
     },
     {
         "word": "man",
         "description": "",
-        "translation": ["hand"]
+        "translations": ["hand"]
     },
     {
         "word": "ala",
         "description": "",
-        "translation": ["wing"]
+        "translations": ["wing"]
     },
     {
         "word": "hala",
         "description": "",
-        "translation": ["wing"]
+        "translations": ["wing"]
     },
     {
         "word": "barika",
         "description": "",
-        "translation": ["belly"]
+        "translations": ["belly"]
     },
     {
         "word": "tripa",
         "description": "",
-        "translation": ["guts"]
+        "translations": ["guts"]
     },
     {
         "word": "mondongo",
         "description": "",
-        "translation": ["guts"]
+        "translations": ["guts"]
     },
     {
         "word": "garganta",
         "description": "",
-        "translation": ["neck"]
+        "translations": ["neck"]
     },
     {
         "word": "nèk",
         "description": "",
-        "translation": ["neck"]
+        "translations": ["neck"]
     },
     {
         "word": "lomba",
         "description": "",
-        "translation": ["back"]
+        "translations": ["back"]
     },
     {
         "word": "pechu",
         "description": "",
-        "translation": ["breast"]
+        "translations": ["breast"]
     },
     {
         "word": "kurason",
         "description": "",
-        "translation": ["heart"]
+        "translations": ["heart"]
     },
     {
         "word": "higra",
         "description": "",
-        "translation": ["liver"]
+        "translations": ["liver"]
     },
     {
         "word": "bebe",
         "description": "",
-        "translation": ["to drink"]
+        "translations": ["to drink"]
     },
     {
         "word": "kome",
         "description": "",
-        "translation": ["to eat"]
+        "translations": ["to eat"]
     },
     {
         "word": "morde",
         "description": "",
-        "translation": ["to bite"]
+        "translations": ["to bite"]
     },
     {
         "word": "chupa",
         "description": "",
-        "translation": ["to suck"]
+        "translations": ["to suck"]
     },
     {
         "word": "skupi",
         "description": "",
-        "translation": ["to spit"]
+        "translations": ["to spit"]
     },
     {
         "word": "arohá",
         "description": "",
-        "translation": ["to vomit"]
+        "translations": ["to vomit"]
     },
     {
         "word": "saka",
         "description": "",
-        "translation": ["to vomit"]
+        "translations": ["to vomit"]
     },
     {
         "word": "supla",
         "description": "",
-        "translation": ["to blow"]
+        "translations": ["to blow"]
     },
     {
         "word": "blas",
         "description": "",
-        "translation": ["to blow"]
+        "translations": ["to blow"]
     },
     {
         "word": "hala rosea",
         "description": "",
-        "translation": ["to breathe"]
+        "translations": ["to breathe"]
     },
     {
         "word": "respirá",
         "description": "",
-        "translation": ["to breathe"]
+        "translations": ["to breathe"]
     },
     {
         "word": "hari",
         "description": "",
-        "translation": ["to laugh"]
+        "translations": ["to laugh"]
     },
     {
         "word": "mira",
         "description": "",
-        "translation": ["to see"]
+        "translations": ["to see"]
     },
     {
         "word": "weta",
         "description": "",
-        "translation": ["to see"]
+        "translations": ["to see"]
     },
     {
         "word": "tende",
         "description": "",
-        "translation": ["to hear"]
+        "translations": ["to hear"]
     },
     {
         "word": "sa",
         "description": "",
-        "translation": ["to know"]
+        "translations": ["to know"]
     },
     {
         "word": "sabi",
         "description": "",
-        "translation": ["to know"]
+        "translations": ["to know"]
     },
     {
         "word": "pensa",
         "description": "",
-        "translation": ["to think"]
+        "translations": ["to think"]
     },
     {
         "word": "kere",
         "description": "",
-        "translation": ["to think"]
+        "translations": ["to think"]
     },
     {
         "word": "ole",
         "description": "",
-        "translation": ["to smell"]
+        "translations": ["to smell"]
     },
     {
         "word": "tin miedu",
         "description": "",
-        "translation": ["to fear"]
+        "translations": ["to fear"]
     },
     {
         "word": "drumi",
         "description": "",
-        "translation": ["to sleep"]
+        "translations": ["to sleep"]
     },
     {
         "word": "biba",
         "description": "",
-        "translation": ["to live"]
+        "translations": ["to live"]
     },
     {
         "word": "muri",
         "description": "",
-        "translation": ["to die"]
+        "translations": ["to die"]
     },
     {
         "word": "mata",
         "description": "",
-        "translation": ["to kill"]
+        "translations": ["to kill"]
     },
     {
         "word": "bringa",
         "description": "",
-        "translation": ["to fight"]
+        "translations": ["to fight"]
     },
     {
         "word": "yag",
         "description": "",
-        "translation": ["to hunt"]
+        "translations": ["to hunt"]
     },
     {
         "word": "raka",
         "description": "",
-        "translation": ["to hit"]
+        "translations": ["to hit"]
     },
     {
         "word": "bati",
         "description": "",
-        "translation": ["to hit"]
+        "translations": ["to hit"]
     },
     {
         "word": "dal",
         "description": "",
-        "translation": ["to hit"]
+        "translations": ["to hit"]
     },
     {
         "word": "kòrta",
         "description": "",
-        "translation": ["to cut"]
+        "translations": ["to cut"]
     },
     {
         "word": "separá",
         "description": "",
-        "translation": ["to split"]
+        "translations": ["to split"]
     },
     {
         "word": "apartá",
         "description": "",
-        "translation": ["to split"]
+        "translations": ["to split"]
     },
     {
         "word": "hinka",
         "description": "",
-        "translation": ["to stab"]
+        "translations": ["to stab"]
     },
     {
         "word": "staka",
         "description": "",
-        "translation": ["to stab"]
+        "translations": ["to stab"]
     },
     {
         "word": "huña",
         "description": "",
-        "translation": ["to scratch"]
+        "translations": ["to scratch"]
     },
     {
         "word": "raspa",
         "description": "",
-        "translation": ["to scratch"]
+        "translations": ["to scratch"]
     },
     {
         "word": "koba",
         "description": "",
-        "translation": ["to dig"]
+        "translations": ["to dig"]
     },
     {
         "word": "landa",
         "description": "",
-        "translation": ["to swim"]
+        "translations": ["to swim"]
     },
     {
         "word": "bula",
         "description": "",
-        "translation": ["to fly"]
+        "translations": ["to fly"]
     },
     {
         "word": "kana",
         "description": "",
-        "translation": ["to walk"]
+        "translations": ["to walk"]
     },
     {
         "word": "bin",
         "description": "",
-        "translation": ["to come"]
+        "translations": ["to come"]
     },
     {
         "word": "bini",
         "description": "",
-        "translation": ["to come"]
+        "translations": ["to come"]
     },
     {
         "word": "keda",
         "description": "",
-        "translation": ["to lie", "to lie (as in a bed)"]
+        "translations": ["to lie", "to lie (as in a bed)"]
     },
     {
         "word": "sinta",
         "description": "",
-        "translation": ["to sit"]
+        "translations": ["to sit"]
     },
     {
         "word": "para",
         "description": "",
-        "translation": ["to stand"]
+        "translations": ["to stand"]
     },
     {
         "word": "drai",
         "description": "",
-        "translation": ["to turn", "to turn (intransitive)"]
+        "translations": ["to turn", "to turn (intransitive)"]
     },
     {
         "word": "bira",
         "description": "",
-        "translation": ["to turn", "to turn (intransitive)"]
+        "translations": ["to turn", "to turn (intransitive)"]
     },
     {
         "word": "kai",
         "description": "",
-        "translation": ["to fall"]
+        "translations": ["to fall"]
     },
     {
         "word": "dal abou",
         "description": "",
-        "translation": ["to fall"]
+        "translations": ["to fall"]
     },
     {
         "word": "duna",
         "description": "",
-        "translation": ["to give"]
+        "translations": ["to give"]
     },
     {
         "word": "tene",
         "description": "",
-        "translation": ["to hold"]
+        "translations": ["to hold"]
     },
     {
         "word": "primi",
         "description": "",
-        "translation": ["to squeeze"]
+        "translations": ["to squeeze"]
     },
     {
         "word": "kinipí",
         "description": "",
-        "translation": ["to squeeze"]
+        "translations": ["to squeeze"]
     },
     {
         "word": "frega",
         "description": "",
-        "translation": ["to rub"]
+        "translations": ["to rub"]
     },
     {
         "word": "laba",
         "description": "",
-        "translation": ["to wash"]
+        "translations": ["to wash"]
     },
     {
         "word": "bari",
         "description": "",
-        "translation": ["to wipe"]
+        "translations": ["to wipe"]
     },
     {
         "word": "hala",
         "description": "",
-        "translation": ["to pull"]
+        "translations": ["to pull"]
     },
     {
         "word": "trèk",
         "description": "",
-        "translation": ["to pull"]
+        "translations": ["to pull"]
     },
     {
         "word": "pusha",
         "description": "",
-        "translation": ["to push"]
+        "translations": ["to push"]
     },
     {
         "word": "benta",
         "description": "",
-        "translation": ["to throw"]
+        "translations": ["to throw"]
     },
     {
         "word": "tira",
         "description": "",
-        "translation": ["to throw"]
+        "translations": ["to throw"]
     },
     {
         "word": "mara",
         "description": "",
-        "translation": ["to tie"]
+        "translations": ["to tie"]
     },
     {
         "word": "kose",
         "description": "",
-        "translation": ["to sew"]
+        "translations": ["to sew"]
     },
     {
         "word": "konta",
         "description": "",
-        "translation": ["to count"]
+        "translations": ["to count"]
     },
     {
         "word": "rek",
         "description": "",
-        "translation": ["to count"]
+        "translations": ["to count"]
     },
     {
         "word": "bisa",
         "description": "",
-        "translation": ["to say"]
+        "translations": ["to say"]
     },
     {
         "word": "kanta",
         "description": "",
-        "translation": ["to sing"]
+        "translations": ["to sing"]
     },
     {
         "word": "hunga",
         "description": "",
-        "translation": ["to play"]
+        "translations": ["to play"]
     },
     {
         "word": "drif",
         "description": "",
-        "translation": ["to float"]
+        "translations": ["to float"]
     },
     {
         "word": "kore",
         "description": "",
-        "translation": ["to flow"]
+        "translations": ["to flow"]
     },
     {
         "word": "fris",
         "description": "",
-        "translation": ["to freeze"]
+        "translations": ["to freeze"]
     },
     {
         "word": "hincha",
         "description": "",
-        "translation": ["to swell"]
+        "translations": ["to swell"]
     },
     {
         "word": "solo",
         "description": "",
-        "translation": ["sun"]
+        "translations": ["sun"]
     },
     {
         "word": "luna",
         "description": "",
-        "translation": ["moon"]
+        "translations": ["moon"]
     },
     {
         "word": "strea",
         "description": "",
-        "translation": ["star"]
+        "translations": ["star"]
     },
     {
         "word": "awa",
         "description": "",
-        "translation": ["water"]
+        "translations": ["water"]
     },
     {
         "word": "awaseru",
         "description": "",
-        "translation": ["rain"]
+        "translations": ["rain"]
     },
     {
         "word": "riu",
         "description": "",
-        "translation": ["river"]
+        "translations": ["river"]
     },
     {
         "word": "lago",
         "description": "",
-        "translation": ["lake"]
+        "translations": ["lake"]
     },
     {
         "word": "laman",
         "description": "",
-        "translation": ["sea"]
+        "translations": ["sea"]
     },
     {
         "word": "salu",
         "description": "",
-        "translation": ["salt"]
+        "translations": ["salt"]
     },
     {
         "word": "piedra",
         "description": "",
-        "translation": ["stone"]
+        "translations": ["stone"]
     },
     {
         "word": "pieda",
         "description": "",
-        "translation": ["stone"]
+        "translations": ["stone"]
     },
     {
         "word": "santu",
         "description": "",
-        "translation": ["sand"]
+        "translations": ["sand"]
     },
     {
         "word": "stòf",
         "description": "",
-        "translation": ["dust"]
+        "translations": ["dust"]
     },
     {
         "word": "tera",
         "description": "",
-        "translation": ["earth"]
+        "translations": ["earth"]
     },
     {
         "word": "nubia",
         "description": "",
-        "translation": ["cloud"]
+        "translations": ["cloud"]
     },
     {
         "word": "neblina",
         "description": "",
-        "translation": ["fog"]
+        "translations": ["fog"]
     },
     {
         "word": "shelu",
         "description": "",
-        "translation": ["sky"]
+        "translations": ["sky"]
     },
     {
         "word": "bientu",
         "description": "",
-        "translation": ["wind"]
+        "translations": ["wind"]
     },
     {
         "word": "sneu",
         "description": "",
-        "translation": ["snow"]
+        "translations": ["snow"]
     },
     {
         "word": "eis",
         "description": "",
-        "translation": ["ice"]
+        "translations": ["ice"]
     },
     {
         "word": "huma",
         "description": "",
-        "translation": ["smoke"]
+        "translations": ["smoke"]
     },
     {
         "word": "kandela",
         "description": "",
-        "translation": ["fire"]
+        "translations": ["fire"]
     },
     {
         "word": "shinishi",
         "description": "",
-        "translation": ["ash"]
+        "translations": ["ash"]
     },
     {
         "word": "kima",
         "description": "",
-        "translation": ["to burn"]
+        "translations": ["to burn"]
     },
     {
         "word": "kaminda",
         "description": "",
-        "translation": ["road"]
+        "translations": ["road"]
     },
     {
         "word": "karetera",
         "description": "",
-        "translation": ["road"]
+        "translations": ["road"]
     },
     {
         "word": "seru",
         "description": "",
-        "translation": ["mountain"]
+        "translations": ["mountain"]
     },
     {
         "word": "kòrá",
         "description": "",
-        "translation": ["red"]
+        "translations": ["red"]
     },
     {
         "word": "bèrdè",
         "description": "",
-        "translation": ["green"]
+        "translations": ["green"]
     },
     {
         "word": "hel",
         "description": "",
-        "translation": ["yellow"]
+        "translations": ["yellow"]
     },
     {
         "word": "blanku",
         "description": "",
-        "translation": ["white"]
+        "translations": ["white"]
     },
     {
         "word": "pretu",
         "description": "",
-        "translation": ["black"]
+        "translations": ["black"]
     },
     {
         "word": "nochi",
         "description": "",
-        "translation": ["night"]
+        "translations": ["night"]
     },
     {
         "word": "anochi",
         "description": "",
-        "translation": ["night"]
+        "translations": ["night"]
     },
     {
         "word": "dia",
         "description": "",
-        "translation": ["day"]
+        "translations": ["day"]
     },
     {
         "word": "aña",
         "description": "",
-        "translation": ["year"]
+        "translations": ["year"]
     },
     {
         "word": "kayente",
         "description": "",
-        "translation": ["warm"]
+        "translations": ["warm"]
     },
     {
         "word": "kalor",
         "description": "",
-        "translation": ["warm"]
+        "translations": ["warm"]
     },
     {
         "word": "friu",
         "description": "",
-        "translation": ["cold"]
+        "translations": ["cold"]
     },
     {
         "word": "yen",
         "description": "",
-        "translation": ["full"]
+        "translations": ["full"]
     },
     {
         "word": "nobo",
         "description": "",
-        "translation": ["new"]
+        "translations": ["new"]
     },
     {
         "word": "bieu",
         "description": "",
-        "translation": ["old"]
+        "translations": ["old"]
     },
     {
         "word": "bon",
         "description": "",
-        "translation": ["good"]
+        "translations": ["good"]
     },
     {
         "word": "malu",
         "description": "",
-        "translation": ["bad"]
+        "translations": ["bad"]
     },
     {
         "word": "putrí",
         "description": "",
-        "translation": ["rotten"]
+        "translations": ["rotten"]
     },
     {
         "word": "sushi",
         "description": "",
-        "translation": ["dirty"]
+        "translations": ["dirty"]
     },
     {
         "word": "fis",
         "description": "",
-        "translation": ["dirty"]
+        "translations": ["dirty"]
     },
     {
         "word": "stret",
         "description": "",
-        "translation": ["straight"]
+        "translations": ["straight"]
     },
     {
         "word": "dirèkt",
         "description": "",
-        "translation": ["straight"]
+        "translations": ["straight"]
     },
     {
         "word": "rònt",
         "description": "",
-        "translation": ["round"]
+        "translations": ["round"]
     },
     {
         "word": "rondó",
         "description": "",
-        "translation": ["round"]
+        "translations": ["round"]
     },
     {
         "word": "skèrpi",
         "description": "",
-        "translation": ["sharp", "sharp (as a knife)"]
+        "translations": ["sharp", "sharp (as a knife)"]
     },
     {
         "word": "bòt",
         "description": "",
-        "translation": ["dull", "dull (as a knife)"]
+        "translations": ["dull", "dull (as a knife)"]
     },
     {
         "word": "stòmpi",
         "description": "",
-        "translation": ["dull", "dull (as a knife)"]
+        "translations": ["dull", "dull (as a knife)"]
     },
     {
         "word": "lizu",
         "description": "",
-        "translation": ["smooth"]
+        "translations": ["smooth"]
     },
     {
         "word": "muhá",
         "description": "",
-        "translation": ["wet"]
+        "translations": ["wet"]
     },
     {
         "word": "seku",
         "description": "",
-        "translation": ["dry"]
+        "translations": ["dry"]
     },
     {
         "word": "korekto",
         "description": "",
-        "translation": ["correct"]
+        "translations": ["correct"]
     },
     {
         "word": "eksakto",
         "description": "",
-        "translation": ["correct"]
+        "translations": ["correct"]
     },
     {
         "word": "serka",
         "description": "",
-        "translation": ["near"]
+        "translations": ["near"]
     },
     {
         "word": "leu",
         "description": "",
-        "translation": ["far"]
+        "translations": ["far"]
     },
     {
         "word": "drechi",
         "description": "",
-        "translation": ["right"]
+        "translations": ["right"]
     },
     {
         "word": "robes",
         "description": "",
-        "translation": ["left"]
+        "translations": ["left"]
     },
     {
         "word": "na",
         "description": "",
-        "translation": ["at"]
+        "translations": ["at"]
     },
     {
         "word": "den",
         "description": "",
-        "translation": ["in"]
+        "translations": ["in"]
     },
     {
         "word": "na",
         "description": "",
-        "translation": ["in"]
+        "translations": ["in"]
     },
     {
         "word": "ku",
         "description": "",
-        "translation": ["with"]
+        "translations": ["with"]
     },
     {
         "word": "i",
         "description": "",
-        "translation": ["and"]
+        "translations": ["and"]
     },
     {
         "word": "ku",
         "description": "",
-        "translation": ["and"]
+        "translations": ["and"]
     },
     {
         "word": "si",
         "description": "",
-        "translation": ["if"]
+        "translations": ["if"]
     },
     {
         "word": "komo",
         "description": "",
-        "translation": ["because"]
+        "translations": ["because"]
     },
     {
         "word": "pasobra",
         "description": "",
-        "translation": ["because"]
+        "translations": ["because"]
     },
     {
         "word": "nòmber",
         "description": "",
-        "translation": ["name"]
+        "translations": ["name"]
     }
 ]

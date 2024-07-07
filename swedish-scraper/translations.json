@@ -2,7001 +2,5001 @@
     {
         "word": "som",
         "description": "",
-        "translation": [
-            "as"
-        ]
+        "translations": ["as"]
     },
     {
         "word": "jag",
         "description": "",
-        "translation": [
-            "i"
-        ]
+        "translations": ["i"]
     },
     {
         "word": "hans",
         "description": "",
-        "translation": [
-            "his"
-        ]
+        "translations": ["his"]
     },
     {
         "word": "att",
         "description": "",
-        "translation": [
-            "that"
-        ]
+        "translations": ["that"]
     },
     {
         "word": "han",
         "description": "",
-        "translation": [
-            "he"
-        ]
+        "translations": ["he"]
     },
     {
         "word": "var",
         "description": "",
-        "translation": [
-            "was"
-        ]
+        "translations": ["was"]
     },
     {
         "word": "för",
         "description": "",
-        "translation": [
-            "for"
-        ]
+        "translations": ["for"]
     },
     {
         "word": "på",
         "description": "",
-        "translation": [
-            "on"
-        ]
+        "translations": ["on"]
     },
     {
         "word": "är",
         "description": "",
-        "translation": [
-            "are"
-        ]
+        "translations": ["are"]
     },
     {
         "word": "med",
         "description": "",
-        "translation": [
-            "with"
-        ]
+        "translations": ["with"]
     },
     {
         "word": "de",
         "description": "",
-        "translation": [
-            "they"
-        ]
+        "translations": ["they"]
     },
     {
         "word": "vara",
         "description": "",
-        "translation": [
-            "be"
-        ]
+        "translations": ["be"]
     },
     {
         "word": "vid",
         "description": "",
-        "translation": [
-            "at"
-        ]
+        "translations": ["at"]
     },
     {
         "word": "ett",
         "description": "",
-        "translation": [
-            "one"
-        ]
+        "translations": ["one"]
     },
     {
         "word": "ha",
         "description": "",
-        "translation": [
-            "have"
-        ]
+        "translations": ["have"]
     },
     {
         "word": "detta",
         "description": "",
-        "translation": [
-            "this"
-        ]
+        "translations": ["this"]
     },
     {
         "word": "från",
         "description": "",
-        "translation": [
-            "from"
-        ]
+        "translations": ["from"]
     },
     {
         "word": "genom",
         "description": "",
-        "translation": [
-            "by"
-        ]
+        "translations": ["by"]
     },
     {
         "word": "het",
         "description": "",
-        "translation": [
-            "hot"
-        ]
+        "translations": ["hot"]
     },
     {
         "word": "ord",
         "description": "",
-        "translation": [
-            "word"
-        ]
+        "translations": ["word"]
     },
     {
         "word": "men",
         "description": "",
-        "translation": [
-            "but"
-        ]
+        "translations": ["but"]
     },
     {
         "word": "vad",
         "description": "",
-        "translation": [
-            "what"
-        ]
+        "translations": ["what"]
     },
     {
         "word": "några",
         "description": "",
-        "translation": [
-            "some"
-        ]
+        "translations": ["some"]
     },
     {
         "word": "är",
         "description": "",
-        "translation": [
-            "is"
-        ]
+        "translations": ["is"]
     },
     {
         "word": "den",
         "description": "",
-        "translation": [
-            "it"
-        ]
+        "translations": ["it"]
     },
     {
         "word": "du",
         "description": "",
-        "translation": [
-            "you"
-        ]
+        "translations": ["you"]
     },
     {
         "word": "eller",
         "description": "",
-        "translation": [
-            "or"
-        ]
+        "translations": ["or"]
     },
     {
         "word": "hade",
         "description": "",
-        "translation": [
-            "had"
-        ]
+        "translations": ["had"]
     },
     {
         "word": "den",
         "description": "",
-        "translation": [
-            "the"
-        ]
+        "translations": ["the"]
     },
     {
         "word": "av",
         "description": "",
-        "translation": [
-            "of"
-        ]
+        "translations": ["of"]
     },
     {
         "word": "till",
         "description": "",
-        "translation": [
-            "to"
-        ]
+        "translations": ["to"]
     },
     {
         "word": "och",
         "description": "",
-        "translation": [
-            "and"
-        ]
+        "translations": ["and"]
     },
     {
         "word": "en",
         "description": "",
-        "translation": [
-            "a"
-        ]
+        "translations": ["a"]
     },
     {
         "word": "i",
         "description": "",
-        "translation": [
-            "in"
-        ]
+        "translations": ["in"]
     },
     {
         "word": "vi",
         "description": "",
-        "translation": [
-            "we"
-        ]
+        "translations": ["we"]
     },
     {
         "word": "kan",
         "description": "",
-        "translation": [
-            "can"
-        ]
+        "translations": ["can"]
     },
     {
         "word": "ut",
         "description": "",
-        "translation": [
-            "out"
-        ]
+        "translations": ["out"]
     },
     {
         "word": "andra",
         "description": "",
-        "translation": [
-            "other"
-        ]
+        "translations": ["other"]
     },
     {
         "word": "var",
         "description": "",
-        "translation": [
-            "were"
-        ]
+        "translations": ["were"]
     },
     {
         "word": "vilken",
         "description": "",
-        "translation": [
-            "which"
-        ]
+        "translations": ["which"]
     },
     {
         "word": "göra",
         "description": "",
-        "translation": [
-            "do"
-        ]
+        "translations": ["do"]
     },
     {
         "word": "deras",
         "description": "",
-        "translation": [
-            "their"
-        ]
+        "translations": ["their"]
     },
     {
         "word": "tid",
         "description": "",
-        "translation": [
-            "time"
-        ]
+        "translations": ["time"]
     },
     {
         "word": "om",
         "description": "",
-        "translation": [
-            "if"
-        ]
+        "translations": ["if"]
     },
     {
         "word": "kommer",
         "description": "",
-        "translation": [
-            "will"
-        ]
+        "translations": ["will"]
     },
     {
         "word": "hur",
         "description": "",
-        "translation": [
-            "how"
-        ]
+        "translations": ["how"]
     },
     {
         "word": "sa",
         "description": "",
-        "translation": [
-            "said"
-        ]
+        "translations": ["said"]
     },
     {
         "word": "ett",
         "description": "",
-        "translation": [
-            "an"
-        ]
+        "translations": ["an"]
     },
     {
         "word": "varje",
         "description": "",
-        "translation": [
-            "each"
-        ]
+        "translations": ["each"]
     },
     {
         "word": "berätta",
         "description": "",
-        "translation": [
-            "tell"
-        ]
+        "translations": ["tell"]
     },
     {
         "word": "gör",
         "description": "",
-        "translation": [
-            "does"
-        ]
+        "translations": ["does"]
     },
     {
         "word": "uppsättning",
         "description": "",
-        "translation": [
-            "set"
-        ]
+        "translations": ["set"]
     },
     {
         "word": "tre",
         "description": "",
-        "translation": [
-            "three"
-        ]
+        "translations": ["three"]
     },
     {
         "word": "vill",
         "description": "",
-        "translation": [
-            "want"
-        ]
+        "translations": ["want"]
     },
     {
         "word": "luft",
         "description": "",
-        "translation": [
-            "air"
-        ]
+        "translations": ["air"]
     },
     {
         "word": "väl",
         "description": "",
-        "translation": [
-            "well"
-        ]
+        "translations": ["well"]
     },
     {
         "word": "också",
         "description": "",
-        "translation": [
-            "also"
-        ]
+        "translations": ["also"]
     },
     {
         "word": "spela",
         "description": "",
-        "translation": [
-            "play"
-        ]
+        "translations": ["play"]
     },
     {
         "word": "liten",
         "description": "",
-        "translation": [
-            "small"
-        ]
+        "translations": ["small"]
     },
     {
         "word": "ände",
         "description": "",
-        "translation": [
-            "end"
-        ]
+        "translations": ["end"]
     },
     {
         "word": "sätta",
         "description": "",
-        "translation": [
-            "put"
-        ]
+        "translations": ["put"]
     },
     {
         "word": "hem",
         "description": "",
-        "translation": [
-            "home"
-        ]
+        "translations": ["home"]
     },
     {
         "word": "läsa",
         "description": "",
-        "translation": [
-            "read"
-        ]
+        "translations": ["read"]
     },
     {
         "word": "sidan",
         "description": "",
-        "translation": [
-            "hand"
-        ]
+        "translations": ["hand"]
     },
     {
         "word": "port",
         "description": "",
-        "translation": [
-            "port"
-        ]
+        "translations": ["port"]
     },
     {
         "word": "stor",
         "description": "",
-        "translation": [
-            "large"
-        ]
+        "translations": ["large"]
     },
     {
         "word": "stava",
         "description": "",
-        "translation": [
-            "spell"
-        ]
+        "translations": ["spell"]
     },
     {
         "word": "lägg",
         "description": "",
-        "translation": [
-            "add"
-        ]
+        "translations": ["add"]
     },
     {
         "word": "även",
         "description": "",
-        "translation": [
-            "even"
-        ]
+        "translations": ["even"]
     },
     {
         "word": "mark",
         "description": "",
-        "translation": [
-            "land"
-        ]
+        "translations": ["land"]
     },
     {
         "word": "här",
         "description": "",
-        "translation": [
-            "here"
-        ]
+        "translations": ["here"]
     },
     {
         "word": "must",
         "description": "",
-        "translation": [
-            "must"
-        ]
+        "translations": ["must"]
     },
     {
         "word": "stor",
         "description": "",
-        "translation": [
-            "big"
-        ]
+        "translations": ["big"]
     },
     {
         "word": "hög",
         "description": "",
-        "translation": [
-            "high"
-        ]
+        "translations": ["high"]
     },
     {
         "word": "sådan",
         "description": "",
-        "translation": [
-            "such"
-        ]
+        "translations": ["such"]
     },
     {
         "word": "följ",
         "description": "",
-        "translation": [
-            "follow"
-        ]
+        "translations": ["follow"]
     },
     {
         "word": "handling",
         "description": "",
-        "translation": [
-            "act"
-        ]
+        "translations": ["act"]
     },
     {
         "word": "varför",
         "description": "",
-        "translation": [
-            "why"
-        ]
+        "translations": ["why"]
     },
     {
         "word": "be",
         "description": "",
-        "translation": [
-            "ask"
-        ]
+        "translations": ["ask"]
     },
     {
         "word": "män",
         "description": "",
-        "translation": [
-            "men"
-        ]
+        "translations": ["men"]
     },
     {
         "word": "förändring",
         "description": "",
-        "translation": [
-            "change"
-        ]
+        "translations": ["change"]
     },
     {
         "word": "gick",
         "description": "",
-        "translation": [
-            "went"
-        ]
+        "translations": ["went"]
     },
     {
         "word": "ljus",
         "description": "",
-        "translation": [
-            "light"
-        ]
+        "translations": ["light"]
     },
     {
         "word": "slag",
         "description": "",
-        "translation": [
-            "kind"
-        ]
+        "translations": ["kind"]
     },
     {
         "word": "off",
         "description": "",
-        "translation": [
-            "off"
-        ]
+        "translations": ["off"]
     },
     {
         "word": "behöver",
         "description": "",
-        "translation": [
-            "need"
-        ]
+        "translations": ["need"]
     },
     {
         "word": "hus",
         "description": "",
-        "translation": [
-            "house"
-        ]
+        "translations": ["house"]
     },
     {
         "word": "bilden",
         "description": "",
-        "translation": [
-            "picture"
-        ]
+        "translations": ["picture"]
     },
     {
         "word": "försök",
         "description": "",
-        "translation": [
-            "try"
-        ]
+        "translations": ["try"]
     },
     {
         "word": "oss",
         "description": "",
-        "translation": [
-            "us"
-        ]
+        "translations": ["us"]
     },
     {
         "word": "igen",
         "description": "",
-        "translation": [
-            "again"
-        ]
+        "translations": ["again"]
     },
     {
         "word": "djur",
         "description": "",
-        "translation": [
-            "animal"
-        ]
+        "translations": ["animal"]
     },
     {
         "word": "punkt",
         "description": "",
-        "translation": [
-            "point"
-        ]
+        "translations": ["point"]
     },
     {
         "word": "mor",
         "description": "",
-        "translation": [
-            "mother"
-        ]
+        "translations": ["mother"]
     },
     {
         "word": "världen",
         "description": "",
-        "translation": [
-            "world"
-        ]
+        "translations": ["world"]
     },
     {
         "word": "nära",
         "description": "",
-        "translation": [
-            "near"
-        ]
+        "translations": ["near"]
     },
     {
         "word": "bygga",
         "description": "",
-        "translation": [
-            "build"
-        ]
+        "translations": ["build"]
     },
     {
         "word": "själv",
         "description": "",
-        "translation": [
-            "self"
-        ]
+        "translations": ["self"]
     },
     {
         "word": "jord",
         "description": "",
-        "translation": [
-            "earth"
-        ]
+        "translations": ["earth"]
     },
     {
         "word": "far",
         "description": "",
-        "translation": [
-            "father"
-        ]
+        "translations": ["father"]
     },
     {
         "word": "någon",
         "description": "",
-        "translation": [
-            "any"
-        ]
+        "translations": ["any"]
     },
     {
         "word": "ny",
         "description": "",
-        "translation": [
-            "new"
-        ]
+        "translations": ["new"]
     },
     {
         "word": "arbete",
         "description": "",
-        "translation": [
-            "work"
-        ]
+        "translations": ["work"]
     },
     {
         "word": "delen",
         "description": "",
-        "translation": [
-            "part"
-        ]
+        "translations": ["part"]
     },
     {
         "word": "ta",
         "description": "",
-        "translation": [
-            "take"
-        ]
+        "translations": ["take"]
     },
     {
         "word": "få",
         "description": "",
-        "translation": [
-            "get"
-        ]
+        "translations": ["get"]
     },
     {
         "word": "plats",
         "description": "",
-        "translation": [
-            "place"
-        ]
+        "translations": ["place"]
     },
     {
         "word": "gjort",
         "description": "",
-        "translation": [
-            "made"
-        ]
+        "translations": ["made"]
     },
     {
         "word": "lever",
         "description": "",
-        "translation": [
-            "live"
-        ]
+        "translations": ["live"]
     },
     {
         "word": "där",
         "description": "",
-        "translation": [
-            "where"
-        ]
+        "translations": ["where"]
     },
     {
         "word": "efter",
         "description": "",
-        "translation": [
-            "after"
-        ]
+        "translations": ["after"]
     },
     {
         "word": "tillbaka",
         "description": "",
-        "translation": [
-            "back"
-        ]
+        "translations": ["back"]
     },
     {
         "word": "liten",
         "description": "",
-        "translation": [
-            "little"
-        ]
+        "translations": ["little"]
     },
     {
         "word": "endast",
         "description": "",
-        "translation": [
-            "only"
-        ]
+        "translations": ["only"]
     },
     {
         "word": "rund",
         "description": "",
-        "translation": [
-            "round"
-        ]
+        "translations": ["round"]
     },
     {
         "word": "människa",
         "description": "",
-        "translation": [
-            "man"
-        ]
+        "translations": ["man"]
     },
     {
         "word": "år",
         "description": "",
-        "translation": [
-            "year"
-        ]
+        "translations": ["year"]
     },
     {
         "word": "kom",
         "description": "",
-        "translation": [
-            "came"
-        ]
+        "translations": ["came"]
     },
     {
         "word": "visar",
         "description": "",
-        "translation": [
-            "show"
-        ]
+        "translations": ["show"]
     },
     {
         "word": "varje",
         "description": "",
-        "translation": [
-            "every"
-        ]
+        "translations": ["every"]
     },
     {
         "word": "bra",
         "description": "",
-        "translation": [
-            "good"
-        ]
+        "translations": ["good"]
     },
     {
         "word": "mig",
         "description": "",
-        "translation": [
-            "me"
-        ]
+        "translations": ["me"]
     },
     {
         "word": "ge",
         "description": "",
-        "translation": [
-            "give"
-        ]
+        "translations": ["give"]
     },
     {
         "word": "vår",
         "description": "",
-        "translation": [
-            "our"
-        ]
+        "translations": ["our"]
     },
     {
         "word": "enligt",
         "description": "",
-        "translation": [
-            "under"
-        ]
+        "translations": ["under"]
     },
     {
         "word": "namn",
         "description": "",
-        "translation": [
-            "name"
-        ]
+        "translations": ["name"]
     },
     {
         "word": "mycket",
         "description": "",
-        "translation": [
-            "very"
-        ]
+        "translations": ["very"]
     },
     {
         "word": "genom",
         "description": "",
-        "translation": [
-            "through"
-        ]
+        "translations": ["through"]
     },
     {
         "word": "bara",
         "description": "",
-        "translation": [
-            "just"
-        ]
+        "translations": ["just"]
     },
     {
         "word": "formulär",
         "description": "",
-        "translation": [
-            "form"
-        ]
+        "translations": ["form"]
     },
     {
         "word": "meningen",
         "description": "",
-        "translation": [
-            "sentence"
-        ]
+        "translations": ["sentence"]
     },
     {
         "word": "bra",
         "description": "",
-        "translation": [
-            "great"
-        ]
+        "translations": ["great"]
     },
     {
         "word": "tro",
         "description": "",
-        "translation": [
-            "think"
-        ]
+        "translations": ["think"]
     },
     {
         "word": "säga",
         "description": "",
-        "translation": [
-            "say"
-        ]
+        "translations": ["say"]
     },
     {
         "word": "hjälpa",
         "description": "",
-        "translation": [
-            "help"
-        ]
+        "translations": ["help"]
     },
     {
         "word": "låg",
         "description": "",
-        "translation": [
-            "low"
-        ]
+        "translations": ["low"]
     },
     {
         "word": "linje",
         "description": "",
-        "translation": [
-            "line"
-        ]
+        "translations": ["line"]
     },
     {
         "word": "skiljer",
         "description": "",
-        "translation": [
-            "differ"
-        ]
+        "translations": ["differ"]
     },
     {
         "word": "tur",
         "description": "",
-        "translation": [
-            "turn"
-        ]
+        "translations": ["turn"]
     },
     {
         "word": "orsak",
         "description": "",
-        "translation": [
-            "cause"
-        ]
+        "translations": ["cause"]
     },
     {
         "word": "mycket",
         "description": "",
-        "translation": [
-            "much"
-        ]
+        "translations": ["much"]
     },
     {
         "word": "betyda",
         "description": "",
-        "translation": [
-            "mean"
-        ]
+        "translations": ["mean"]
     },
     {
         "word": "före",
         "description": "",
-        "translation": [
-            "before"
-        ]
+        "translations": ["before"]
     },
     {
         "word": "drag",
         "description": "",
-        "translation": [
-            "move"
-        ]
+        "translations": ["move"]
     },
     {
         "word": "höger",
         "description": "",
-        "translation": [
-            "right"
-        ]
+        "translations": ["right"]
     },
     {
         "word": "pojke",
         "description": "",
-        "translation": [
-            "boy"
-        ]
+        "translations": ["boy"]
     },
     {
         "word": "gammal",
         "description": "",
-        "translation": [
-            "old"
-        ]
+        "translations": ["old"]
     },
     {
         "word": "alltför",
         "description": "",
-        "translation": [
-            "too"
-        ]
+        "translations": ["too"]
     },
     {
         "word": "samma",
         "description": "",
-        "translation": [
-            "same"
-        ]
+        "translations": ["same"]
     },
     {
         "word": "hon",
         "description": "",
-        "translation": [
-            "she"
-        ]
+        "translations": ["she"]
     },
     {
         "word": "alla",
         "description": "",
-        "translation": [
-            "all"
-        ]
+        "translations": ["all"]
     },
     {
         "word": "där",
         "description": "",
-        "translation": [
-            "there"
-        ]
+        "translations": ["there"]
     },
     {
         "word": "när",
         "description": "",
-        "translation": [
-            "when"
-        ]
+        "translations": ["when"]
     },
     {
         "word": "upp",
         "description": "",
-        "translation": [
-            "up"
-        ]
+        "translations": ["up"]
     },
     {
         "word": "använda",
         "description": "",
-        "translation": [
-            "use"
-        ]
+        "translations": ["use"]
     },
     {
         "word": "din",
         "description": "",
-        "translation": [
-            "your"
-        ]
+        "translations": ["your"]
     },
     {
         "word": "sätt",
         "description": "",
-        "translation": [
-            "way"
-        ]
+        "translations": ["way"]
     },
     {
         "word": "ca",
         "description": "",
-        "translation": [
-            "about"
-        ]
+        "translations": ["about"]
     },
     {
         "word": "många",
         "description": "",
-        "translation": [
-            "many"
-        ]
+        "translations": ["many"]
     },
     {
         "word": "cykelverkstad",
         "description": "",
-        "translation": [
-            "bicycle shop"
-        ]
+        "translations": ["bicycle shop"]
     },
     {
         "word": "dem",
         "description": "",
-        "translation": [
-            "them"
-        ]
+        "translations": ["them"]
     },
     {
         "word": "skriva",
         "description": "",
-        "translation": [
-            "write"
-        ]
+        "translations": ["write"]
     },
     {
         "word": "skulle",
         "description": "",
-        "translation": [
-            "would"
-        ]
+        "translations": ["would"]
     },
     {
         "word": "liknande",
         "description": "",
-        "translation": [
-            "like"
-        ]
+        "translations": ["like"]
     },
     {
         "word": "så",
         "description": "",
-        "translation": [
-            "so"
-        ]
+        "translations": ["so"]
     },
     {
         "word": "dessa",
         "description": "",
-        "translation": [
-            "these"
-        ]
+        "translations": ["these"]
     },
     {
         "word": "hennes",
         "description": "",
-        "translation": [
-            "her"
-        ]
+        "translations": ["her"]
     },
     {
         "word": "lång",
         "description": "",
-        "translation": [
-            "long"
-        ]
+        "translations": ["long"]
     },
     {
         "word": "göra",
         "description": "",
-        "translation": [
-            "make"
-        ]
+        "translations": ["make"]
     },
     {
         "word": "sak",
         "description": "",
-        "translation": [
-            "thing"
-        ]
+        "translations": ["thing"]
     },
     {
         "word": "se",
         "description": "",
-        "translation": [
-            "see"
-        ]
+        "translations": ["see"]
     },
     {
         "word": "honom",
         "description": "",
-        "translation": [
-            "him"
-        ]
+        "translations": ["him"]
     },
     {
         "word": "två",
         "description": "",
-        "translation": [
-            "two"
-        ]
+        "translations": ["two"]
     },
     {
         "word": "har",
         "description": "",
-        "translation": [
-            "has"
-        ]
+        "translations": ["has"]
     },
     {
         "word": "ser",
         "description": "",
-        "translation": [
-            "look"
-        ]
+        "translations": ["look"]
     },
     {
         "word": "mer",
         "description": "",
-        "translation": [
-            "more"
-        ]
+        "translations": ["more"]
     },
     {
         "word": "dag",
         "description": "",
-        "translation": [
-            "day"
-        ]
+        "translations": ["day"]
     },
     {
         "word": "kunde",
         "description": "",
-        "translation": [
-            "could"
-        ]
+        "translations": ["could"]
     },
     {
         "word": "gå",
         "description": "",
-        "translation": [
-            "go"
-        ]
+        "translations": ["go"]
     },
     {
         "word": "komma",
         "description": "",
-        "translation": [
-            "come"
-        ]
+        "translations": ["come"]
     },
     {
         "word": "gjorde",
         "description": "",
-        "translation": [
-            "did"
-        ]
+        "translations": ["did"]
     },
     {
         "word": "antal",
         "description": "",
-        "translation": [
-            "number"
-        ]
+        "translations": ["number"]
     },
     {
         "word": "sund",
         "description": "",
-        "translation": [
-            "sound"
-        ]
+        "translations": ["sound"]
     },
     {
         "word": "nej",
         "description": "",
-        "translation": [
-            "no"
-        ]
+        "translations": ["no"]
     },
     {
         "word": "mest",
         "description": "",
-        "translation": [
-            "most"
-        ]
+        "translations": ["most"]
     },
     {
         "word": "människor",
         "description": "",
-        "translation": [
-            "people"
-        ]
+        "translations": ["people"]
     },
     {
         "word": "min",
         "description": "",
-        "translation": [
-            "my"
-        ]
+        "translations": ["my"]
     },
     {
         "word": "över",
         "description": "",
-        "translation": [
-            "over"
-        ]
+        "translations": ["over"]
     },
     {
         "word": "vet",
         "description": "",
-        "translation": [
-            "know"
-        ]
+        "translations": ["know"]
     },
     {
         "word": "vatten",
         "description": "",
-        "translation": [
-            "water"
-        ]
+        "translations": ["water"]
     },
     {
         "word": "än",
         "description": "",
-        "translation": [
-            "than"
-        ]
+        "translations": ["than"]
     },
     {
         "word": "samtal",
         "description": "",
-        "translation": [
-            "call"
-        ]
+        "translations": ["call"]
     },
     {
         "word": "först",
         "description": "",
-        "translation": [
-            "first"
-        ]
+        "translations": ["first"]
     },
     {
         "word": "som",
         "description": "",
-        "translation": [
-            "who"
-        ]
+        "translations": ["who"]
     },
     {
         "word": "får",
         "description": "",
-        "translation": [
-            "may"
-        ]
+        "translations": ["may"]
     },
     {
         "word": "ner",
         "description": "",
-        "translation": [
-            "down"
-        ]
+        "translations": ["down"]
     },
     {
         "word": "sida",
         "description": "",
-        "translation": [
-            "side"
-        ]
+        "translations": ["side"]
     },
     {
         "word": "varit",
         "description": "",
-        "translation": [
-            "been"
-        ]
+        "translations": ["been"]
     },
     {
         "word": "nu",
         "description": "",
-        "translation": [
-            "now"
-        ]
+        "translations": ["now"]
     },
     {
         "word": "hitta",
         "description": "",
-        "translation": [
-            "find"
-        ]
+        "translations": ["find"]
     },
     {
         "word": "huvud",
         "description": "",
-        "translation": [
-            "head"
-        ]
+        "translations": ["head"]
     },
     {
         "word": "stå",
         "description": "",
-        "translation": [
-            "stand"
-        ]
+        "translations": ["stand"]
     },
     {
         "word": "egen",
         "description": "",
-        "translation": [
-            "own"
-        ]
+        "translations": ["own"]
     },
     {
         "word": "sida",
         "description": "",
-        "translation": [
-            "page"
-        ]
+        "translations": ["page"]
     },
     {
         "word": "bör",
         "description": "",
-        "translation": [
-            "should"
-        ]
+        "translations": ["should"]
     },
     {
         "word": "land",
         "description": "",
-        "translation": [
-            "country"
-        ]
+        "translations": ["country"]
     },
     {
         "word": "funnen",
         "description": "",
-        "translation": [
-            "found"
-        ]
+        "translations": ["found"]
     },
     {
         "word": "svar",
         "description": "",
-        "translation": [
-            "answer"
-        ]
+        "translations": ["answer"]
     },
     {
         "word": "skola",
         "description": "",
-        "translation": [
-            "school"
-        ]
+        "translations": ["school"]
     },
     {
         "word": "växa",
         "description": "",
-        "translation": [
-            "grow"
-        ]
+        "translations": ["grow"]
     },
     {
         "word": "studie",
         "description": "",
-        "translation": [
-            "study"
-        ]
+        "translations": ["study"]
     },
     {
         "word": "fortfarande",
         "description": "",
-        "translation": [
-            "still"
-        ]
+        "translations": ["still"]
     },
     {
         "word": "lära",
         "description": "",
-        "translation": [
-            "learn"
-        ]
+        "translations": ["learn"]
     },
     {
         "word": "växt",
         "description": "",
-        "translation": [
-            "plant"
-        ]
+        "translations": ["plant"]
     },
     {
         "word": "lock",
         "description": "",
-        "translation": [
-            "cover"
-        ]
+        "translations": ["cover"]
     },
     {
         "word": "mat",
         "description": "",
-        "translation": [
-            "food"
-        ]
+        "translations": ["food"]
     },
     {
         "word": "sol",
         "description": "",
-        "translation": [
-            "sun"
-        ]
+        "translations": ["sun"]
     },
     {
         "word": "fyra",
         "description": "",
-        "translation": [
-            "four"
-        ]
+        "translations": ["four"]
     },
     {
         "word": "mellan",
         "description": "",
-        "translation": [
-            "between"
-        ]
+        "translations": ["between"]
     },
     {
         "word": "tillstånd",
         "description": "",
-        "translation": [
-            "state"
-        ]
+        "translations": ["state"]
     },
     {
         "word": "hålla",
         "description": "",
-        "translation": [
-            "keep"
-        ]
+        "translations": ["keep"]
     },
     {
         "word": "öga",
         "description": "",
-        "translation": [
-            "eye"
-        ]
+        "translations": ["eye"]
     },
     {
         "word": "aldrig",
         "description": "",
-        "translation": [
-            "never"
-        ]
+        "translations": ["never"]
     },
     {
         "word": "sista",
         "description": "",
-        "translation": [
-            "last"
-        ]
+        "translations": ["last"]
     },
     {
         "word": "låt",
         "description": "",
-        "translation": [
-            "let"
-        ]
+        "translations": ["let"]
     },
     {
         "word": "trodde",
         "description": "",
-        "translation": [
-            "thought"
-        ]
+        "translations": ["thought"]
     },
     {
         "word": "ort",
         "description": "",
-        "translation": [
-            "city"
-        ]
+        "translations": ["city"]
     },
     {
         "word": "träd",
         "description": "",
-        "translation": [
-            "tree"
-        ]
+        "translations": ["tree"]
     },
     {
         "word": "korsa",
         "description": "",
-        "translation": [
-            "cross"
-        ]
+        "translations": ["cross"]
     },
     {
         "word": "gård",
         "description": "",
-        "translation": [
-            "farm"
-        ]
+        "translations": ["farm"]
     },
     {
         "word": "hård",
         "description": "",
-        "translation": [
-            "hard"
-        ]
+        "translations": ["hard"]
     },
     {
         "word": "start",
         "description": "",
-        "translation": [
-            "start"
-        ]
+        "translations": ["start"]
     },
     {
         "word": "kanske",
         "description": "",
-        "translation": [
-            "might"
-        ]
+        "translations": ["might"]
     },
     {
         "word": "berättelse",
         "description": "",
-        "translation": [
-            "story"
-        ]
+        "translations": ["story"]
     },
     {
         "word": "sågen",
         "description": "",
-        "translation": [
-            "saw"
-        ]
+        "translations": ["saw"]
     },
     {
         "word": "långt",
         "description": "",
-        "translation": [
-            "far"
-        ]
+        "translations": ["far"]
     },
     {
         "word": "hav",
         "description": "",
-        "translation": [
-            "sea"
-        ]
+        "translations": ["sea"]
     },
     {
         "word": "rita",
         "description": "",
-        "translation": [
-            "draw"
-        ]
+        "translations": ["draw"]
     },
     {
         "word": "vänster",
         "description": "",
-        "translation": [
-            "left"
-        ]
+        "translations": ["left"]
     },
     {
         "word": "sen",
         "description": "",
-        "translation": [
-            "late"
-        ]
+        "translations": ["late"]
     },
     {
         "word": "köra",
         "description": "",
-        "translation": [
-            "run"
-        ]
+        "translations": ["run"]
     },
     {
         "word": "inte",
         "description": "",
-        "translation": [
-            "don’t"
-        ]
+        "translations": ["don’t"]
     },
     {
         "word": "medan",
         "description": "",
-        "translation": [
-            "while"
-        ]
+        "translations": ["while"]
     },
     {
         "word": "tryck",
         "description": "",
-        "translation": [
-            "press"
-        ]
+        "translations": ["press"]
     },
     {
         "word": "nära",
         "description": "",
-        "translation": [
-            "close"
-        ]
+        "translations": ["close"]
     },
     {
         "word": "natt",
         "description": "",
-        "translation": [
-            "night"
-        ]
+        "translations": ["night"]
     },
     {
         "word": "verklig",
         "description": "",
-        "translation": [
-            "real"
-        ]
+        "translations": ["real"]
     },
     {
         "word": "liv",
         "description": "",
-        "translation": [
-            "life"
-        ]
+        "translations": ["life"]
     },
     {
         "word": "några",
         "description": "",
-        "translation": [
-            "few"
-        ]
+        "translations": ["few"]
     },
     {
         "word": "norr",
         "description": "",
-        "translation": [
-            "north"
-        ]
+        "translations": ["north"]
     },
     {
         "word": "boken",
         "description": "",
-        "translation": [
-            "book"
-        ]
+        "translations": ["book"]
     },
     {
         "word": "bära",
         "description": "",
-        "translation": [
-            "carry"
-        ]
+        "translations": ["carry"]
     },
     {
         "word": "tog",
         "description": "",
-        "translation": [
-            "took"
-        ]
+        "translations": ["took"]
     },
     {
         "word": "vetenskap",
         "description": "",
-        "translation": [
-            "science"
-        ]
+        "translations": ["science"]
     },
     {
         "word": "äta",
         "description": "",
-        "translation": [
-            "eat"
-        ]
+        "translations": ["eat"]
     },
     {
         "word": "rum",
         "description": "",
-        "translation": [
-            "room"
-        ]
+        "translations": ["room"]
     },
     {
         "word": "vän",
         "description": "",
-        "translation": [
-            "friend"
-        ]
+        "translations": ["friend"]
     },
     {
         "word": "började",
         "description": "",
-        "translation": [
-            "began"
-        ]
+        "translations": ["began"]
     },
     {
         "word": "idé",
         "description": "",
-        "translation": [
-            "idea"
-        ]
+        "translations": ["idea"]
     },
     {
         "word": "fisk",
         "description": "",
-        "translation": [
-            "fish"
-        ]
+        "translations": ["fish"]
     },
     {
         "word": "berg",
         "description": "",
-        "translation": [
-            "mountain"
-        ]
+        "translations": ["mountain"]
     },
     {
         "word": "stoppa",
         "description": "",
-        "translation": [
-            "stop"
-        ]
+        "translations": ["stop"]
     },
     {
         "word": "en gång",
         "description": "",
-        "translation": [
-            "once"
-        ]
+        "translations": ["once"]
     },
     {
         "word": "bas",
         "description": "",
-        "translation": [
-            "base"
-        ]
+        "translations": ["base"]
     },
     {
         "word": "höra",
         "description": "",
-        "translation": [
-            "hear"
-        ]
+        "translations": ["hear"]
     },
     {
         "word": "häst",
         "description": "",
-        "translation": [
-            "horse"
-        ]
+        "translations": ["horse"]
     },
     {
         "word": "snitt",
         "description": "",
-        "translation": [
-            "cut"
-        ]
+        "translations": ["cut"]
     },
     {
         "word": "säker",
         "description": "",
-        "translation": [
-            "sure"
-        ]
+        "translations": ["sure"]
     },
     {
         "word": "klocka",
         "description": "",
-        "translation": [
-            "watch"
-        ]
+        "translations": ["watch"]
     },
     {
         "word": "färg",
         "description": "",
-        "translation": [
-            "color"
-        ]
+        "translations": ["color"]
     },
     {
         "word": "ansikte",
         "description": "",
-        "translation": [
-            "face"
-        ]
+        "translations": ["face"]
     },
     {
         "word": "trä",
         "description": "",
-        "translation": [
-            "wood"
-        ]
+        "translations": ["wood"]
     },
     {
         "word": "huvud",
         "description": "",
-        "translation": [
-            "main"
-        ]
+        "translations": ["main"]
     },
     {
         "word": "öppen",
         "description": "",
-        "translation": [
-            "open"
-        ]
+        "translations": ["open"]
     },
     {
         "word": "tyckas",
         "description": "",
-        "translation": [
-            "seem"
-        ]
+        "translations": ["seem"]
     },
     {
         "word": "tillsammans",
         "description": "",
-        "translation": [
-            "together"
-        ]
+        "translations": ["together"]
     },
     {
         "word": "nästa",
         "description": "",
-        "translation": [
-            "next"
-        ]
+        "translations": ["next"]
     },
     {
         "word": "vit",
         "description": "",
-        "translation": [
-            "white"
-        ]
+        "translations": ["white"]
     },
     {
         "word": "barn",
         "description": "",
-        "translation": [
-            "children"
-        ]
+        "translations": ["children"]
     },
     {
         "word": "börja",
         "description": "",
-        "translation": [
-            "begin"
-        ]
+        "translations": ["begin"]
     },
     {
         "word": "fick",
         "description": "",
-        "translation": [
-            "got"
-        ]
+        "translations": ["got"]
     },
     {
         "word": "gå",
         "description": "",
-        "translation": [
-            "walk"
-        ]
+        "translations": ["walk"]
     },
     {
         "word": "exempel",
         "description": "",
-        "translation": [
-            "example"
-        ]
+        "translations": ["example"]
     },
     {
         "word": "lindra",
         "description": "",
-        "translation": [
-            "ease"
-        ]
+        "translations": ["ease"]
     },
     {
         "word": "papper",
         "description": "",
-        "translation": [
-            "paper"
-        ]
+        "translations": ["paper"]
     },
     {
         "word": "grupp",
         "description": "",
-        "translation": [
-            "group"
-        ]
+        "translations": ["group"]
     },
     {
         "word": "alltid",
         "description": "",
-        "translation": [
-            "always"
-        ]
+        "translations": ["always"]
     },
     {
         "word": "musik",
         "description": "",
-        "translation": [
-            "music"
-        ]
+        "translations": ["music"]
     },
     {
         "word": "de som",
         "description": "",
-        "translation": [
-            "those"
-        ]
+        "translations": ["those"]
     },
     {
         "word": "båda",
         "description": "",
-        "translation": [
-            "both"
-        ]
+        "translations": ["both"]
     },
     {
         "word": "märke",
         "description": "",
-        "translation": [
-            "mark"
-        ]
+        "translations": ["mark"]
     },
     {
         "word": "ofta",
         "description": "",
-        "translation": [
-            "often"
-        ]
+        "translations": ["often"]
     },
     {
         "word": "bokstav",
         "description": "",
-        "translation": [
-            "letter"
-        ]
+        "translations": ["letter"]
     },
     {
         "word": "tills",
         "description": "",
-        "translation": [
-            "until"
-        ]
+        "translations": ["until"]
     },
     {
         "word": "mil",
         "description": "",
-        "translation": [
-            "mile"
-        ]
+        "translations": ["mile"]
     },
     {
         "word": "flod",
         "description": "",
-        "translation": [
-            "river"
-        ]
+        "translations": ["river"]
     },
     {
         "word": "bil",
         "description": "",
-        "translation": [
-            "car"
-        ]
+        "translations": ["car"]
     },
     {
         "word": "fot",
         "description": "",
-        "translation": [
-            "feet"
-        ]
+        "translations": ["feet"]
     },
     {
         "word": "vård",
         "description": "",
-        "translation": [
-            "care"
-        ]
+        "translations": ["care"]
     },
     {
         "word": "andra",
         "description": "",
-        "translation": [
-            "second"
-        ]
+        "translations": ["second"]
     },
     {
         "word": "tillräckligt",
         "description": "",
-        "translation": [
-            "enough"
-        ]
+        "translations": ["enough"]
     },
     {
         "word": "vanlig",
         "description": "",
-        "translation": [
-            "plain"
-        ]
+        "translations": ["plain"]
     },
     {
         "word": "flicka",
         "description": "",
-        "translation": [
-            "girl"
-        ]
+        "translations": ["girl"]
     },
     {
         "word": "vanligt",
         "description": "",
-        "translation": [
-            "usual"
-        ]
+        "translations": ["usual"]
     },
     {
         "word": "ung",
         "description": "",
-        "translation": [
-            "young"
-        ]
+        "translations": ["young"]
     },
     {
         "word": "klar",
         "description": "",
-        "translation": [
-            "ready"
-        ]
+        "translations": ["ready"]
     },
     {
         "word": "ovan",
         "description": "",
-        "translation": [
-            "above"
-        ]
+        "translations": ["above"]
     },
     {
         "word": "någonsin",
         "description": "",
-        "translation": [
-            "ever"
-        ]
+        "translations": ["ever"]
     },
     {
         "word": "röd",
         "description": "",
-        "translation": [
-            "red"
-        ]
+        "translations": ["red"]
     },
     {
         "word": "lista",
         "description": "",
-        "translation": [
-            "list"
-        ]
+        "translations": ["list"]
     },
     {
         "word": "though",
         "description": "",
-        "translation": [
-            "though"
-        ]
+        "translations": ["though"]
     },
     {
         "word": "känna",
         "description": "",
-        "translation": [
-            "feel"
-        ]
+        "translations": ["feel"]
     },
     {
         "word": "diskussion",
         "description": "",
-        "translation": [
-            "talk"
-        ]
+        "translations": ["talk"]
     },
     {
         "word": "fågel",
         "description": "",
-        "translation": [
-            "bird"
-        ]
+        "translations": ["bird"]
     },
     {
         "word": "snart",
         "description": "",
-        "translation": [
-            "soon"
-        ]
+        "translations": ["soon"]
     },
     {
         "word": "kropp",
         "description": "",
-        "translation": [
-            "body"
-        ]
+        "translations": ["body"]
     },
     {
         "word": "hund",
         "description": "",
-        "translation": [
-            "dog"
-        ]
+        "translations": ["dog"]
     },
     {
         "word": "familj",
         "description": "",
-        "translation": [
-            "family"
-        ]
+        "translations": ["family"]
     },
     {
         "word": "direkt",
         "description": "",
-        "translation": [
-            "direct"
-        ]
+        "translations": ["direct"]
     },
     {
         "word": "pose",
         "description": "",
-        "translation": [
-            "pose"
-        ]
+        "translations": ["pose"]
     },
     {
         "word": "lämna",
         "description": "",
-        "translation": [
-            "leave"
-        ]
+        "translations": ["leave"]
     },
     {
         "word": "sång",
         "description": "",
-        "translation": [
-            "song"
-        ]
+        "translations": ["song"]
     },
     {
         "word": "mäta",
         "description": "",
-        "translation": [
-            "measure"
-        ]
+        "translations": ["measure"]
     },
     {
         "word": "dörr",
         "description": "",
-        "translation": [
-            "door"
-        ]
+        "translations": ["door"]
     },
     {
         "word": "produkt",
         "description": "",
-        "translation": [
-            "product"
-        ]
+        "translations": ["product"]
     },
     {
         "word": "svart",
         "description": "",
-        "translation": [
-            "black"
-        ]
+        "translations": ["black"]
     },
     {
         "word": "kort",
         "description": "",
-        "translation": [
-            "short"
-        ]
+        "translations": ["short"]
     },
     {
         "word": "siffran",
         "description": "",
-        "translation": [
-            "numeral"
-        ]
+        "translations": ["numeral"]
     },
     {
         "word": "klass",
         "description": "",
-        "translation": [
-            "class"
-        ]
+        "translations": ["class"]
     },
     {
         "word": "vind",
         "description": "",
-        "translation": [
-            "wind"
-        ]
+        "translations": ["wind"]
     },
     {
         "word": "fråga",
         "description": "",
-        "translation": [
-            "question"
-        ]
+        "translations": ["question"]
     },
     {
         "word": "hända",
         "description": "",
-        "translation": [
-            "happen"
-        ]
+        "translations": ["happen"]
     },
     {
         "word": "fullständig",
         "description": "",
-        "translation": [
-            "complete"
-        ]
+        "translations": ["complete"]
     },
     {
         "word": "skepp",
         "description": "",
-        "translation": [
-            "ship"
-        ]
+        "translations": ["ship"]
     },
     {
         "word": "område",
         "description": "",
-        "translation": [
-            "area"
-        ]
+        "translations": ["area"]
     },
     {
         "word": "halv",
         "description": "",
-        "translation": [
-            "half"
-        ]
+        "translations": ["half"]
     },
     {
         "word": "vagga",
         "description": "",
-        "translation": [
-            "rock"
-        ]
+        "translations": ["rock"]
     },
     {
         "word": "för",
         "description": "",
-        "translation": [
-            "order"
-        ]
+        "translations": ["order"]
     },
     {
         "word": "eld",
         "description": "",
-        "translation": [
-            "fire"
-        ]
+        "translations": ["fire"]
     },
     {
         "word": "söder",
         "description": "",
-        "translation": [
-            "south"
-        ]
+        "translations": ["south"]
     },
     {
         "word": "problemet",
         "description": "",
-        "translation": [
-            "problem"
-        ]
+        "translations": ["problem"]
     },
     {
         "word": "stycke",
         "description": "",
-        "translation": [
-            "piece"
-        ]
+        "translations": ["piece"]
     },
     {
         "word": "sa",
         "description": "",
-        "translation": [
-            "told"
-        ]
+        "translations": ["told"]
     },
     {
         "word": "visste",
         "description": "",
-        "translation": [
-            "knew"
-        ]
+        "translations": ["knew"]
     },
     {
         "word": "passera",
         "description": "",
-        "translation": [
-            "pass"
-        ]
+        "translations": ["pass"]
     },
     {
         "word": "sedan",
         "description": "",
-        "translation": [
-            "since"
-        ]
+        "translations": ["since"]
     },
     {
         "word": "topp",
         "description": "",
-        "translation": [
-            "top"
-        ]
+        "translations": ["top"]
     },
     {
         "word": "hela",
         "description": "",
-        "translation": [
-            "whole"
-        ]
+        "translations": ["whole"]
     },
     {
         "word": "kung",
         "description": "",
-        "translation": [
-            "king"
-        ]
+        "translations": ["king"]
     },
     {
         "word": "gata",
         "description": "",
-        "translation": [
-            "street"
-        ]
+        "translations": ["street"]
     },
     {
         "word": "tum",
         "description": "",
-        "translation": [
-            "inch"
-        ]
+        "translations": ["inch"]
     },
     {
         "word": "multiplicera",
         "description": "",
-        "translation": [
-            "multiply"
-        ]
+        "translations": ["multiply"]
     },
     {
         "word": "ingenting",
         "description": "",
-        "translation": [
-            "nothing"
-        ]
+        "translations": ["nothing"]
     },
     {
         "word": "naturligtvis",
         "description": "",
-        "translation": [
-            "course"
-        ]
+        "translations": ["course"]
     },
     {
         "word": "bo",
         "description": "",
-        "translation": [
-            "stay"
-        ]
+        "translations": ["stay"]
     },
     {
         "word": "hjul",
         "description": "",
-        "translation": [
-            "wheel"
-        ]
+        "translations": ["wheel"]
     },
     {
         "word": "fullständig",
         "description": "",
-        "translation": [
-            "full"
-        ]
+        "translations": ["full"]
     },
     {
         "word": "kraft",
         "description": "",
-        "translation": [
-            "force"
-        ]
+        "translations": ["force"]
     },
     {
         "word": "blå",
         "description": "",
-        "translation": [
-            "blue"
-        ]
+        "translations": ["blue"]
     },
     {
         "word": "objektet",
         "description": "",
-        "translation": [
-            "object"
-        ]
+        "translations": ["object"]
     },
     {
         "word": "besluta",
         "description": "",
-        "translation": [
-            "decide"
-        ]
+        "translations": ["decide"]
     },
     {
         "word": "yta",
         "description": "",
-        "translation": [
-            "surface"
-        ]
+        "translations": ["surface"]
     },
     {
         "word": "djup",
         "description": "",
-        "translation": [
-            "deep"
-        ]
+        "translations": ["deep"]
     },
     {
         "word": "månen",
         "description": "",
-        "translation": [
-            "moon"
-        ]
+        "translations": ["moon"]
     },
     {
         "word": "ö",
         "description": "",
-        "translation": [
-            "island"
-        ]
+        "translations": ["island"]
     },
     {
         "word": "fot",
         "description": "",
-        "translation": [
-            "foot"
-        ]
+        "translations": ["foot"]
     },
     {
         "word": "systemet",
         "description": "",
-        "translation": [
-            "system"
-        ]
+        "translations": ["system"]
     },
     {
         "word": "upptagen",
         "description": "",
-        "translation": [
-            "busy"
-        ]
+        "translations": ["busy"]
     },
     {
         "word": "testet",
         "description": "",
-        "translation": [
-            "test"
-        ]
+        "translations": ["test"]
     },
     {
         "word": "register",
         "description": "",
-        "translation": [
-            "record"
-        ]
+        "translations": ["record"]
     },
     {
         "word": "båt",
         "description": "",
-        "translation": [
-            "boat"
-        ]
+        "translations": ["boat"]
     },
     {
         "word": "gemensam",
         "description": "",
-        "translation": [
-            "common"
-        ]
+        "translations": ["common"]
     },
     {
         "word": "guld",
         "description": "",
-        "translation": [
-            "gold"
-        ]
+        "translations": ["gold"]
     },
     {
         "word": "möjlig",
         "description": "",
-        "translation": [
-            "possible"
-        ]
+        "translations": ["possible"]
     },
     {
         "word": "plan",
         "description": "",
-        "translation": [
-            "plane"
-        ]
+        "translations": ["plane"]
     },
     {
         "word": "stead",
         "description": "",
-        "translation": [
-            "stead"
-        ]
+        "translations": ["stead"]
     },
     {
         "word": "torka",
         "description": "",
-        "translation": [
-            "dry"
-        ]
+        "translations": ["dry"]
     },
     {
         "word": "undra",
         "description": "",
-        "translation": [
-            "wonder"
-        ]
+        "translations": ["wonder"]
     },
     {
         "word": "skratt",
         "description": "",
-        "translation": [
-            "laugh"
-        ]
+        "translations": ["laugh"]
     },
     {
         "word": "tusen",
         "description": "",
-        "translation": [
-            "thousand"
-        ]
+        "translations": ["thousand"]
     },
     {
         "word": "sedan",
         "description": "",
-        "translation": [
-            "ago"
-        ]
+        "translations": ["ago"]
     },
     {
         "word": "ran",
         "description": "",
-        "translation": [
-            "ran"
-        ]
+        "translations": ["ran"]
     },
     {
         "word": "ta",
         "description": "",
-        "translation": [
-            "check"
-        ]
+        "translations": ["check"]
     },
     {
         "word": "spel",
         "description": "",
-        "translation": [
-            "game"
-        ]
+        "translations": ["game"]
     },
     {
         "word": "form",
         "description": "",
-        "translation": [
-            "shape"
-        ]
+        "translations": ["shape"]
     },
     {
         "word": "likställa",
         "description": "",
-        "translation": [
-            "equate"
-        ]
+        "translations": ["equate"]
     },
     {
         "word": "het",
         "description": "",
-        "translation": [
-            "hot"
-        ]
+        "translations": ["hot"]
     },
     {
         "word": "miss",
         "description": "",
-        "translation": [
-            "miss"
-        ]
+        "translations": ["miss"]
     },
     {
         "word": "bringas",
         "description": "",
-        "translation": [
-            "brought"
-        ]
+        "translations": ["brought"]
     },
     {
         "word": "hetta",
         "description": "",
-        "translation": [
-            "heat"
-        ]
+        "translations": ["heat"]
     },
     {
         "word": "snö",
         "description": "",
-        "translation": [
-            "snow"
-        ]
+        "translations": ["snow"]
     },
     {
         "word": "däcket",
         "description": "",
-        "translation": [
-            "tire"
-        ]
+        "translations": ["tire"]
     },
     {
         "word": "bringa",
         "description": "",
-        "translation": [
-            "bring"
-        ]
+        "translations": ["bring"]
     },
     {
         "word": "ja",
         "description": "",
-        "translation": [
-            "yes"
-        ]
+        "translations": ["yes"]
     },
     {
         "word": "avlägsen",
         "description": "",
-        "translation": [
-            "distant"
-        ]
+        "translations": ["distant"]
     },
     {
         "word": "fylla",
         "description": "",
-        "translation": [
-            "fill"
-        ]
+        "translations": ["fill"]
     },
     {
         "word": "öst",
         "description": "",
-        "translation": [
-            "east"
-        ]
+        "translations": ["east"]
     },
     {
         "word": "måla",
         "description": "",
-        "translation": [
-            "paint"
-        ]
+        "translations": ["paint"]
     },
     {
         "word": "språk",
         "description": "",
-        "translation": [
-            "language"
-        ]
+        "translations": ["language"]
     },
     {
         "word": "bland",
         "description": "",
-        "translation": [
-            "among"
-        ]
+        "translations": ["among"]
     },
     {
         "word": "enhet",
         "description": "",
-        "translation": [
-            "unit"
-        ]
+        "translations": ["unit"]
     },
     {
         "word": "kraft",
         "description": "",
-        "translation": [
-            "power"
-        ]
+        "translations": ["power"]
     },
     {
         "word": "stad",
         "description": "",
-        "translation": [
-            "town"
-        ]
+        "translations": ["town"]
     },
     {
         "word": "fin",
         "description": "",
-        "translation": [
-            "fine"
-        ]
+        "translations": ["fine"]
     },
     {
         "word": "viss",
         "description": "",
-        "translation": [
-            "certain"
-        ]
+        "translations": ["certain"]
     },
     {
         "word": "flyga",
         "description": "",
-        "translation": [
-            "fly"
-        ]
+        "translations": ["fly"]
     },
     {
         "word": "falla",
         "description": "",
-        "translation": [
-            "fall"
-        ]
+        "translations": ["fall"]
     },
     {
         "word": "bly",
         "description": "",
-        "translation": [
-            "lead"
-        ]
+        "translations": ["lead"]
     },
     {
         "word": "rop",
         "description": "",
-        "translation": [
-            "cry"
-        ]
+        "translations": ["cry"]
     },
     {
         "word": "mörk",
         "description": "",
-        "translation": [
-            "dark"
-        ]
+        "translations": ["dark"]
     },
     {
         "word": "maskin",
         "description": "",
-        "translation": [
-            "machine"
-        ]
+        "translations": ["machine"]
     },
     {
         "word": "anteckning",
         "description": "",
-        "translation": [
-            "note"
-        ]
+        "translations": ["note"]
     },
     {
         "word": "vänta",
         "description": "",
-        "translation": [
-            "wait"
-        ]
+        "translations": ["wait"]
     },
     {
         "word": "planen",
         "description": "",
-        "translation": [
-            "plan"
-        ]
+        "translations": ["plan"]
     },
     {
         "word": "figur",
         "description": "",
-        "translation": [
-            "figure"
-        ]
+        "translations": ["figure"]
     },
     {
         "word": "stjärna",
         "description": "",
-        "translation": [
-            "star"
-        ]
+        "translations": ["star"]
     },
     {
         "word": "låda",
         "description": "",
-        "translation": [
-            "box"
-        ]
+        "translations": ["box"]
     },
     {
         "word": "subst",
         "description": "",
-        "translation": [
-            "noun"
-        ]
+        "translations": ["noun"]
     },
     {
         "word": "fält",
         "description": "",
-        "translation": [
-            "field"
-        ]
+        "translations": ["field"]
     },
     {
         "word": "resten",
         "description": "",
-        "translation": [
-            "rest"
-        ]
+        "translations": ["rest"]
     },
     {
         "word": "korrekt",
         "description": "",
-        "translation": [
-            "correct"
-        ]
+        "translations": ["correct"]
     },
     {
         "word": "kunna",
         "description": "",
-        "translation": [
-            "able"
-        ]
+        "translations": ["able"]
     },
     {
         "word": "pund",
         "description": "",
-        "translation": [
-            "pound"
-        ]
+        "translations": ["pound"]
     },
     {
         "word": "klar",
         "description": "",
-        "translation": [
-            "done"
-        ]
+        "translations": ["done"]
     },
     {
         "word": "skönhet",
         "description": "",
-        "translation": [
-            "beauty"
-        ]
+        "translations": ["beauty"]
     },
     {
         "word": "enhet",
         "description": "",
-        "translation": [
-            "drive"
-        ]
+        "translations": ["drive"]
     },
     {
         "word": "stod",
         "description": "",
-        "translation": [
-            "stood"
-        ]
+        "translations": ["stood"]
     },
     {
         "word": "innehålla",
         "description": "",
-        "translation": [
-            "contain"
-        ]
+        "translations": ["contain"]
     },
     {
         "word": "främre",
         "description": "",
-        "translation": [
-            "front"
-        ]
+        "translations": ["front"]
     },
     {
         "word": "undervisa",
         "description": "",
-        "translation": [
-            "teach"
-        ]
+        "translations": ["teach"]
     },
     {
         "word": "vecka",
         "description": "",
-        "translation": [
-            "week"
-        ]
+        "translations": ["week"]
     },
     {
         "word": "slutlig",
         "description": "",
-        "translation": [
-            "final"
-        ]
+        "translations": ["final"]
     },
     {
         "word": "gav",
         "description": "",
-        "translation": [
-            "gave"
-        ]
+        "translations": ["gave"]
     },
     {
         "word": "grön",
         "description": "",
-        "translation": [
-            "green"
-        ]
+        "translations": ["green"]
     },
     {
         "word": "ack",
         "description": "",
-        "translation": [
-            "oh"
-        ]
+        "translations": ["oh"]
     },
     {
         "word": "sammanfattning",
         "description": "",
-        "translation": [
-            "quick"
-        ]
+        "translations": ["quick"]
     },
     {
         "word": "utveckla",
         "description": "",
-        "translation": [
-            "develop"
-        ]
+        "translations": ["develop"]
     },
     {
         "word": "ocean",
         "description": "",
-        "translation": [
-            "ocean"
-        ]
+        "translations": ["ocean"]
     },
     {
         "word": "varm",
         "description": "",
-        "translation": [
-            "warm"
-        ]
+        "translations": ["warm"]
     },
     {
         "word": "fri",
         "description": "",
-        "translation": [
-            "free"
-        ]
+        "translations": ["free"]
     },
     {
         "word": "minut",
         "description": "",
-        "translation": [
-            "minute"
-        ]
+        "translations": ["minute"]
     },
     {
         "word": "stark",
         "description": "",
-        "translation": [
-            "strong"
-        ]
+        "translations": ["strong"]
     },
     {
         "word": "speciell",
         "description": "",
-        "translation": [
-            "special"
-        ]
+        "translations": ["special"]
     },
     {
         "word": "sinne",
         "description": "",
-        "translation": [
-            "mind"
-        ]
+        "translations": ["mind"]
     },
     {
         "word": "bakom",
         "description": "",
-        "translation": [
-            "behind"
-        ]
+        "translations": ["behind"]
     },
     {
         "word": "klar",
         "description": "",
-        "translation": [
-            "clear"
-        ]
+        "translations": ["clear"]
     },
     {
         "word": "svans",
         "description": "",
-        "translation": [
-            "tail"
-        ]
+        "translations": ["tail"]
     },
     {
         "word": "producera",
         "description": "",
-        "translation": [
-            "produce"
-        ]
+        "translations": ["produce"]
     },
     {
         "word": "faktum",
         "description": "",
-        "translation": [
-            "fact"
-        ]
+        "translations": ["fact"]
     },
     {
         "word": "space",
         "description": "",
-        "translation": [
-            "space"
-        ]
+        "translations": ["space"]
     },
     {
         "word": "hört",
         "description": "",
-        "translation": [
-            "heard"
-        ]
+        "translations": ["heard"]
     },
     {
         "word": "bäst",
         "description": "",
-        "translation": [
-            "best"
-        ]
+        "translations": ["best"]
     },
     {
         "word": "timme",
         "description": "",
-        "translation": [
-            "hour"
-        ]
+        "translations": ["hour"]
     },
     {
         "word": "bättre",
         "description": "",
-        "translation": [
-            "better"
-        ]
+        "translations": ["better"]
     },
     {
         "word": "sant",
         "description": "",
-        "translation": [
-            "true"
-        ]
+        "translations": ["true"]
     },
     {
         "word": "under",
         "description": "",
-        "translation": [
-            "during"
-        ]
+        "translations": ["during"]
     },
     {
         "word": "hundra",
         "description": "",
-        "translation": [
-            "hundred"
-        ]
+        "translations": ["hundred"]
     },
     {
         "word": "fem",
         "description": "",
-        "translation": [
-            "five"
-        ]
+        "translations": ["five"]
     },
     {
         "word": "minnas",
         "description": "",
-        "translation": [
-            "remember"
-        ]
+        "translations": ["remember"]
     },
     {
         "word": "steg",
         "description": "",
-        "translation": [
-            "step"
-        ]
+        "translations": ["step"]
     },
     {
         "word": "tidig",
         "description": "",
-        "translation": [
-            "early"
-        ]
+        "translations": ["early"]
     },
     {
         "word": "håll",
         "description": "",
-        "translation": [
-            "hold"
-        ]
+        "translations": ["hold"]
     },
     {
         "word": "väster",
         "description": "",
-        "translation": [
-            "west"
-        ]
+        "translations": ["west"]
     },
     {
         "word": "jord",
         "description": "",
-        "translation": [
-            "ground"
-        ]
+        "translations": ["ground"]
     },
     {
         "word": "intresse",
         "description": "",
-        "translation": [
-            "interest"
-        ]
+        "translations": ["interest"]
     },
     {
         "word": "nå",
         "description": "",
-        "translation": [
-            "reach"
-        ]
+        "translations": ["reach"]
     },
     {
         "word": "snabb",
         "description": "",
-        "translation": [
-            "fast"
-        ]
+        "translations": ["fast"]
     },
     {
         "word": "verb",
         "description": "",
-        "translation": [
-            "verb"
-        ]
+        "translations": ["verb"]
     },
     {
         "word": "sjunger",
         "description": "",
-        "translation": [
-            "sing"
-        ]
+        "translations": ["sing"]
     },
     {
         "word": "lyssna",
         "description": "",
-        "translation": [
-            "listen"
-        ]
+        "translations": ["listen"]
     },
     {
         "word": "sex",
         "description": "",
-        "translation": [
-            "six"
-        ]
+        "translations": ["six"]
     },
     {
         "word": "tabell",
         "description": "",
-        "translation": [
-            "table"
-        ]
+        "translations": ["table"]
     },
     {
         "word": "resor",
         "description": "",
-        "translation": [
-            "travel"
-        ]
+        "translations": ["travel"]
     },
     {
         "word": "mindre",
         "description": "",
-        "translation": [
-            "less"
-        ]
+        "translations": ["less"]
     },
     {
         "word": "morgon",
         "description": "",
-        "translation": [
-            "morning"
-        ]
+        "translations": ["morning"]
     },
     {
         "word": "tio",
         "description": "",
-        "translation": [
-            "ten"
-        ]
+        "translations": ["ten"]
     },
     {
         "word": "enkel",
         "description": "",
-        "translation": [
-            "simple"
-        ]
+        "translations": ["simple"]
     },
     {
         "word": "flera",
         "description": "",
-        "translation": [
-            "several"
-        ]
+        "translations": ["several"]
     },
     {
         "word": "vokal",
         "description": "",
-        "translation": [
-            "vowel"
-        ]
+        "translations": ["vowel"]
     },
     {
         "word": "mot",
         "description": "",
-        "translation": [
-            "toward"
-        ]
+        "translations": ["toward"]
     },
     {
         "word": "krig",
         "description": "",
-        "translation": [
-            "war"
-        ]
+        "translations": ["war"]
     },
     {
         "word": "låg",
         "description": "",
-        "translation": [
-            "lay"
-        ]
+        "translations": ["lay"]
     },
     {
         "word": "mot",
         "description": "",
-        "translation": [
-            "against"
-        ]
+        "translations": ["against"]
     },
     {
         "word": "mönster",
         "description": "",
-        "translation": [
-            "pattern"
-        ]
+        "translations": ["pattern"]
     },
     {
         "word": "långsam",
         "description": "",
-        "translation": [
-            "slow"
-        ]
+        "translations": ["slow"]
     },
     {
         "word": "centrum",
         "description": "",
-        "translation": [
-            "center"
-        ]
+        "translations": ["center"]
     },
     {
         "word": "kärlek",
         "description": "",
-        "translation": [
-            "love"
-        ]
+        "translations": ["love"]
     },
     {
         "word": "personen",
         "description": "",
-        "translation": [
-            "person"
-        ]
+        "translations": ["person"]
     },
     {
         "word": "pengar",
         "description": "",
-        "translation": [
-            "money"
-        ]
+        "translations": ["money"]
     },
     {
         "word": "tjäna",
         "description": "",
-        "translation": [
-            "serve"
-        ]
+        "translations": ["serve"]
     },
     {
         "word": "synas",
         "description": "",
-        "translation": [
-            "appear"
-        ]
+        "translations": ["appear"]
     },
     {
         "word": "väg",
         "description": "",
-        "translation": [
-            "road"
-        ]
+        "translations": ["road"]
     },
     {
         "word": "karta",
         "description": "",
-        "translation": [
-            "map"
-        ]
+        "translations": ["map"]
     },
     {
         "word": "regn",
         "description": "",
-        "translation": [
-            "rain"
-        ]
+        "translations": ["rain"]
     },
     {
         "word": "regel",
         "description": "",
-        "translation": [
-            "rule"
-        ]
+        "translations": ["rule"]
     },
     {
         "word": "regera",
         "description": "",
-        "translation": [
-            "govern"
-        ]
+        "translations": ["govern"]
     },
     {
         "word": "dra",
         "description": "",
-        "translation": [
-            "pull"
-        ]
+        "translations": ["pull"]
     },
     {
         "word": "förkylning",
         "description": "",
-        "translation": [
-            "cold"
-        ]
+        "translations": ["cold"]
     },
     {
         "word": "meddelande",
         "description": "",
-        "translation": [
-            "notice"
-        ]
+        "translations": ["notice"]
     },
     {
         "word": "röst",
         "description": "",
-        "translation": [
-            "voice"
-        ]
+        "translations": ["voice"]
     },
     {
         "word": "energi",
         "description": "",
-        "translation": [
-            "energy"
-        ]
+        "translations": ["energy"]
     },
     {
         "word": "jakt",
         "description": "",
-        "translation": [
-            "hunt"
-        ]
+        "translations": ["hunt"]
     },
     {
         "word": "trolig",
         "description": "",
-        "translation": [
-            "probable"
-        ]
+        "translations": ["probable"]
     },
     {
         "word": "bädd",
         "description": "",
-        "translation": [
-            "bed"
-        ]
+        "translations": ["bed"]
     },
     {
         "word": "bror",
         "description": "",
-        "translation": [
-            "brother"
-        ]
+        "translations": ["brother"]
     },
     {
         "word": "ägg",
         "description": "",
-        "translation": [
-            "egg"
-        ]
+        "translations": ["egg"]
     },
     {
         "word": "ritt",
         "description": "",
-        "translation": [
-            "ride"
-        ]
+        "translations": ["ride"]
     },
     {
         "word": "cell",
         "description": "",
-        "translation": [
-            "cell"
-        ]
+        "translations": ["cell"]
     },
     {
         "word": "tro",
         "description": "",
-        "translation": [
-            "believe"
-        ]
+        "translations": ["believe"]
     },
     {
         "word": "kanske",
         "description": "",
-        "translation": [
-            "perhaps"
-        ]
+        "translations": ["perhaps"]
     },
     {
         "word": "plocka",
         "description": "",
-        "translation": [
-            "pick"
-        ]
+        "translations": ["pick"]
     },
     {
         "word": "plötslig",
         "description": "",
-        "translation": [
-            "sudden"
-        ]
+        "translations": ["sudden"]
     },
     {
         "word": "räkna",
         "description": "",
-        "translation": [
-            "count"
-        ]
+        "translations": ["count"]
     },
     {
         "word": "kvadrat",
         "description": "",
-        "translation": [
-            "square"
-        ]
+        "translations": ["square"]
     },
     {
         "word": "anledningen",
         "description": "",
-        "translation": [
-            "reason"
-        ]
+        "translations": ["reason"]
     },
     {
         "word": "längd",
         "description": "",
-        "translation": [
-            "length"
-        ]
+        "translations": ["length"]
     },
     {
         "word": "representerar",
         "description": "",
-        "translation": [
-            "represent"
-        ]
+        "translations": ["represent"]
     },
     {
         "word": "teknikområdet",
         "description": "",
-        "translation": [
-            "art"
-        ]
+        "translations": ["art"]
     },
     {
         "word": "ämne",
         "description": "",
-        "translation": [
-            "subject"
-        ]
+        "translations": ["subject"]
     },
     {
         "word": "region",
         "description": "",
-        "translation": [
-            "region"
-        ]
+        "translations": ["region"]
     },
     {
         "word": "storlek",
         "description": "",
-        "translation": [
-            "size"
-        ]
+        "translations": ["size"]
     },
     {
         "word": "varierar",
         "description": "",
-        "translation": [
-            "vary"
-        ]
+        "translations": ["vary"]
     },
     {
         "word": "sedimentera",
         "description": "",
-        "translation": [
-            "settle"
-        ]
+        "translations": ["settle"]
     },
     {
         "word": "tala",
         "description": "",
-        "translation": [
-            "speak"
-        ]
+        "translations": ["speak"]
     },
     {
         "word": "vikt",
         "description": "",
-        "translation": [
-            "weight"
-        ]
+        "translations": ["weight"]
     },
     {
         "word": "allmän",
         "description": "",
-        "translation": [
-            "general"
-        ]
+        "translations": ["general"]
     },
     {
         "word": "is",
         "description": "",
-        "translation": [
-            "ice"
-        ]
+        "translations": ["ice"]
     },
     {
         "word": "materia",
         "description": "",
-        "translation": [
-            "matter"
-        ]
+        "translations": ["matter"]
     },
     {
         "word": "cirkel",
         "description": "",
-        "translation": [
-            "circle"
-        ]
+        "translations": ["circle"]
     },
     {
         "word": "par",
         "description": "",
-        "translation": [
-            "pair"
-        ]
+        "translations": ["pair"]
     },
     {
         "word": "inkluderar",
         "description": "",
-        "translation": [
-            "include"
-        ]
+        "translations": ["include"]
     },
     {
         "word": "divide",
         "description": "",
-        "translation": [
-            "divide"
-        ]
+        "translations": ["divide"]
     },
     {
         "word": "stavelse",
         "description": "",
-        "translation": [
-            "syllable"
-        ]
+        "translations": ["syllable"]
     },
     {
         "word": "kände",
         "description": "",
-        "translation": [
-            "felt"
-        ]
+        "translations": ["felt"]
     },
     {
         "word": "stors",
         "description": "",
-        "translation": [
-            "grand"
-        ]
+        "translations": ["grand"]
     },
     {
         "word": "boll",
         "description": "",
-        "translation": [
-            "ball"
-        ]
+        "translations": ["ball"]
     },
     {
         "word": "ännu",
         "description": "",
-        "translation": [
-            "yet"
-        ]
+        "translations": ["yet"]
     },
     {
         "word": "våg",
         "description": "",
-        "translation": [
-            "wave"
-        ]
+        "translations": ["wave"]
     },
     {
         "word": "släpp",
         "description": "",
-        "translation": [
-            "drop"
-        ]
+        "translations": ["drop"]
     },
     {
         "word": "hjärta",
         "description": "",
-        "translation": [
-            "heart"
-        ]
+        "translations": ["heart"]
     },
     {
         "word": "jag",
         "description": "",
-        "translation": [
-            "am"
-        ]
+        "translations": ["am"]
     },
     {
         "word": "föreliggande",
         "description": "",
-        "translation": [
-            "present"
-        ]
+        "translations": ["present"]
     },
     {
         "word": "tung",
         "description": "",
-        "translation": [
-            "heavy"
-        ]
+        "translations": ["heavy"]
     },
     {
         "word": "dans",
         "description": "",
-        "translation": [
-            "dance"
-        ]
+        "translations": ["dance"]
     },
     {
         "word": "motor",
         "description": "",
-        "translation": [
-            "engine"
-        ]
+        "translations": ["engine"]
     },
     {
         "word": "ställning",
         "description": "",
-        "translation": [
-            "position"
-        ]
+        "translations": ["position"]
     },
     {
         "word": "beväpnar",
         "description": "",
-        "translation": [
-            "arm"
-        ]
+        "translations": ["arm"]
     },
     {
         "word": "bred",
         "description": "",
-        "translation": [
-            "wide"
-        ]
+        "translations": ["wide"]
     },
     {
         "word": "segel",
         "description": "",
-        "translation": [
-            "sail"
-        ]
+        "translations": ["sail"]
     },
     {
         "word": "materialet",
         "description": "",
-        "translation": [
-            "material"
-        ]
+        "translations": ["material"]
     },
     {
         "word": "fraktion",
         "description": "",
-        "translation": [
-            "fraction"
-        ]
+        "translations": ["fraction"]
     },
     {
         "word": "skog",
         "description": "",
-        "translation": [
-            "forest"
-        ]
+        "translations": ["forest"]
     },
     {
         "word": "sitta",
         "description": "",
-        "translation": [
-            "sit"
-        ]
+        "translations": ["sit"]
     },
     {
         "word": "ras",
         "description": "",
-        "translation": [
-            "race"
-        ]
+        "translations": ["race"]
     },
     {
         "word": "fönster",
         "description": "",
-        "translation": [
-            "window"
-        ]
+        "translations": ["window"]
     },
     {
         "word": "lagra",
         "description": "",
-        "translation": [
-            "store"
-        ]
+        "translations": ["store"]
     },
     {
         "word": "sommar",
         "description": "",
-        "translation": [
-            "summer"
-        ]
+        "translations": ["summer"]
     },
     {
         "word": "tåg",
         "description": "",
-        "translation": [
-            "train"
-        ]
+        "translations": ["train"]
     },
     {
         "word": "sömn",
         "description": "",
-        "translation": [
-            "sleep"
-        ]
+        "translations": ["sleep"]
     },
     {
         "word": "bevisa",
         "description": "",
-        "translation": [
-            "prove"
-        ]
+        "translations": ["prove"]
     },
     {
         "word": "ensam",
         "description": "",
-        "translation": [
-            "lone"
-        ]
+        "translations": ["lone"]
     },
     {
         "word": "ben",
         "description": "",
-        "translation": [
-            "leg"
-        ]
+        "translations": ["leg"]
     },
     {
         "word": "övning",
         "description": "",
-        "translation": [
-            "exercise"
-        ]
+        "translations": ["exercise"]
     },
     {
         "word": "vägg",
         "description": "",
-        "translation": [
-            "wall"
-        ]
+        "translations": ["wall"]
     },
     {
         "word": "fångst",
         "description": "",
-        "translation": [
-            "catch"
-        ]
+        "translations": ["catch"]
     },
     {
         "word": "fäste",
         "description": "",
-        "translation": [
-            "mount"
-        ]
+        "translations": ["mount"]
     },
     {
         "word": "vill",
         "description": "",
-        "translation": [
-            "wish"
-        ]
+        "translations": ["wish"]
     },
     {
         "word": "himmelsblå",
         "description": "",
-        "translation": [
-            "sky"
-        ]
+        "translations": ["sky"]
     },
     {
         "word": "ombord",
         "description": "",
-        "translation": [
-            "board"
-        ]
+        "translations": ["board"]
     },
     {
         "word": "glädje",
         "description": "",
-        "translation": [
-            "joy"
-        ]
+        "translations": ["joy"]
     },
     {
         "word": "vinter",
         "description": "",
-        "translation": [
-            "winter"
-        ]
+        "translations": ["winter"]
     },
     {
         "word": "satellit",
         "description": "",
-        "translation": [
-            "sat"
-        ]
+        "translations": ["sat"]
     },
     {
         "word": "skriven",
         "description": "",
-        "translation": [
-            "written"
-        ]
+        "translations": ["written"]
     },
     {
         "word": "vild",
         "description": "",
-        "translation": [
-            "wild"
-        ]
+        "translations": ["wild"]
     },
     {
         "word": "instrumentet",
         "description": "",
-        "translation": [
-            "instrument"
-        ]
+        "translations": ["instrument"]
     },
     {
         "word": "hålls",
         "description": "",
-        "translation": [
-            "kept"
-        ]
+        "translations": ["kept"]
     },
     {
         "word": "glas",
         "description": "",
-        "translation": [
-            "glass"
-        ]
+        "translations": ["glass"]
     },
     {
         "word": "gräs",
         "description": "",
-        "translation": [
-            "grass"
-        ]
+        "translations": ["grass"]
     },
     {
         "word": "ko",
         "description": "",
-        "translation": [
-            "cow"
-        ]
+        "translations": ["cow"]
     },
     {
         "word": "jobb",
         "description": "",
-        "translation": [
-            "job"
-        ]
+        "translations": ["job"]
     },
     {
         "word": "kanten",
         "description": "",
-        "translation": [
-            "edge"
-        ]
+        "translations": ["edge"]
     },
     {
         "word": "tecken",
         "description": "",
-        "translation": [
-            "sign"
-        ]
+        "translations": ["sign"]
     },
     {
         "word": "besök",
         "description": "",
-        "translation": [
-            "visit"
-        ]
+        "translations": ["visit"]
     },
     {
         "word": "förbi",
         "description": "",
-        "translation": [
-            "past"
-        ]
+        "translations": ["past"]
     },
     {
         "word": "mjuk",
         "description": "",
-        "translation": [
-            "soft"
-        ]
+        "translations": ["soft"]
     },
     {
         "word": "kul",
         "description": "",
-        "translation": [
-            "fun"
-        ]
+        "translations": ["fun"]
     },
     {
         "word": "ljust",
         "description": "",
-        "translation": [
-            "bright"
-        ]
+        "translations": ["bright"]
     },
     {
         "word": "gas",
         "description": "",
-        "translation": [
-            "gas"
-        ]
+        "translations": ["gas"]
     },
     {
         "word": "väder",
         "description": "",
-        "translation": [
-            "weather"
-        ]
+        "translations": ["weather"]
     },
     {
         "word": "månad",
         "description": "",
-        "translation": [
-            "month"
-        ]
+        "translations": ["month"]
     },
     {
         "word": "miljoner",
         "description": "",
-        "translation": [
-            "million"
-        ]
+        "translations": ["million"]
     },
     {
         "word": "bära",
         "description": "",
-        "translation": [
-            "bear"
-        ]
+        "translations": ["bear"]
     },
     {
         "word": "yta",
         "description": "",
-        "translation": [
-            "finish"
-        ]
+        "translations": ["finish"]
     },
     {
         "word": "lycklig",
         "description": "",
-        "translation": [
-            "happy"
-        ]
+        "translations": ["happy"]
     },
     {
         "word": "hoppas",
         "description": "",
-        "translation": [
-            "hope"
-        ]
+        "translations": ["hope"]
     },
     {
         "word": "blombud",
         "description": "",
-        "translation": [
-            "flower delivery"
-        ]
+        "translations": ["flower delivery"]
     },
     {
         "word": "kläder",
         "description": "",
-        "translation": [
-            "clothe"
-        ]
+        "translations": ["clothe"]
     },
     {
         "word": "främmande",
         "description": "",
-        "translation": [
-            "strange"
-        ]
+        "translations": ["strange"]
     },
     {
         "word": "borta",
         "description": "",
-        "translation": [
-            "gone"
-        ]
+        "translations": ["gone"]
     },
     {
         "word": "handel",
         "description": "",
-        "translation": [
-            "trade"
-        ]
+        "translations": ["trade"]
     },
     {
         "word": "melodi",
         "description": "",
-        "translation": [
-            "melody"
-        ]
+        "translations": ["melody"]
     },
     {
         "word": "resa",
         "description": "",
-        "translation": [
-            "trip"
-        ]
+        "translations": ["trip"]
     },
     {
         "word": "kontor",
         "description": "",
-        "translation": [
-            "office"
-        ]
+        "translations": ["office"]
     },
     {
         "word": "motta",
         "description": "",
-        "translation": [
-            "receive"
-        ]
+        "translations": ["receive"]
     },
     {
         "word": "rad",
         "description": "",
-        "translation": [
-            "row"
-        ]
+        "translations": ["row"]
     },
     {
         "word": "mun",
         "description": "",
-        "translation": [
-            "mouth"
-        ]
+        "translations": ["mouth"]
     },
     {
         "word": "exakta",
         "description": "",
-        "translation": [
-            "exact"
-        ]
+        "translations": ["exact"]
     },
     {
         "word": "symbol",
         "description": "",
-        "translation": [
-            "symbol"
-        ]
+        "translations": ["symbol"]
     },
     {
         "word": "dö",
         "description": "",
-        "translation": [
-            "die"
-        ]
+        "translations": ["die"]
     },
     {
         "word": "minst",
         "description": "",
-        "translation": [
-            "least"
-        ]
+        "translations": ["least"]
     },
     {
         "word": "besvär",
         "description": "",
-        "translation": [
-            "trouble"
-        ]
+        "translations": ["trouble"]
     },
     {
         "word": "rop",
         "description": "",
-        "translation": [
-            "shout"
-        ]
+        "translations": ["shout"]
     },
     {
         "word": "utom",
         "description": "",
-        "translation": [
-            "except"
-        ]
+        "translations": ["except"]
     },
     {
         "word": "skrev",
         "description": "",
-        "translation": [
-            "wrote"
-        ]
+        "translations": ["wrote"]
     },
     {
         "word": "frö",
         "description": "",
-        "translation": [
-            "seed"
-        ]
+        "translations": ["seed"]
     },
     {
         "word": "ton",
         "description": "",
-        "translation": [
-            "tone"
-        ]
+        "translations": ["tone"]
     },
     {
         "word": "ansluta",
         "description": "",
-        "translation": [
-            "join"
-        ]
+        "translations": ["join"]
     },
     {
         "word": "föreslår",
         "description": "",
-        "translation": [
-            "suggest"
-        ]
+        "translations": ["suggest"]
     },
     {
         "word": "ren",
         "description": "",
-        "translation": [
-            "clean"
-        ]
+        "translations": ["clean"]
     },
     {
         "word": "paus",
         "description": "",
-        "translation": [
-            "break"
-        ]
+        "translations": ["break"]
     },
     {
         "word": "damen",
         "description": "",
-        "translation": [
-            "lady"
-        ]
+        "translations": ["lady"]
     },
     {
         "word": "gård",
         "description": "",
-        "translation": [
-            "yard"
-        ]
+        "translations": ["yard"]
     },
     {
         "word": "stiga",
         "description": "",
-        "translation": [
-            "rise"
-        ]
+        "translations": ["rise"]
     },
     {
         "word": "dålig",
         "description": "",
-        "translation": [
-            "bad"
-        ]
+        "translations": ["bad"]
     },
     {
         "word": "smäll",
         "description": "",
-        "translation": [
-            "blow"
-        ]
+        "translations": ["blow"]
     },
     {
         "word": "olja",
         "description": "",
-        "translation": [
-            "oil"
-        ]
+        "translations": ["oil"]
     },
     {
         "word": "blod",
         "description": "",
-        "translation": [
-            "blood"
-        ]
+        "translations": ["blood"]
     },
     {
         "word": "rör",
         "description": "",
-        "translation": [
-            "touch"
-        ]
+        "translations": ["touch"]
     },
     {
         "word": "växte",
         "description": "",
-        "translation": [
-            "grew"
-        ]
+        "translations": ["grew"]
     },
     {
         "word": "cent",
         "description": "",
-        "translation": [
-            "cent"
-        ]
+        "translations": ["cent"]
     },
     {
         "word": "blanda",
         "description": "",
-        "translation": [
-            "mix"
-        ]
+        "translations": ["mix"]
     },
     {
         "word": "lag",
         "description": "",
-        "translation": [
-            "team"
-        ]
+        "translations": ["team"]
     },
     {
         "word": "tråd",
         "description": "",
-        "translation": [
-            "wire"
-        ]
+        "translations": ["wire"]
     },
     {
         "word": "kostnad",
         "description": "",
-        "translation": [
-            "cost"
-        ]
+        "translations": ["cost"]
     },
     {
         "word": "förlorat",
         "description": "",
-        "translation": [
-            "lost"
-        ]
+        "translations": ["lost"]
     },
     {
         "word": "brun",
         "description": "",
-        "translation": [
-            "brown"
-        ]
+        "translations": ["brown"]
     },
     {
         "word": "slitage",
         "description": "",
-        "translation": [
-            "wear"
-        ]
+        "translations": ["wear"]
     },
     {
         "word": "trädgård",
         "description": "",
-        "translation": [
-            "garden"
-        ]
+        "translations": ["garden"]
     },
     {
         "word": "lika",
         "description": "",
-        "translation": [
-            "equal"
-        ]
+        "translations": ["equal"]
     },
     {
         "word": "skickat",
         "description": "",
-        "translation": [
-            "sent"
-        ]
+        "translations": ["sent"]
     },
     {
         "word": "välja",
         "description": "",
-        "translation": [
-            "choose"
-        ]
+        "translations": ["choose"]
     },
     {
         "word": "föll",
         "description": "",
-        "translation": [
-            "fell"
-        ]
+        "translations": ["fell"]
     },
     {
         "word": "passa",
         "description": "",
-        "translation": [
-            "fit"
-        ]
+        "translations": ["fit"]
     },
     {
         "word": "flöde",
         "description": "",
-        "translation": [
-            "flow"
-        ]
+        "translations": ["flow"]
     },
     {
         "word": "verkligt",
         "description": "",
-        "translation": [
-            "fair"
-        ]
+        "translations": ["fair"]
     },
     {
         "word": "bank",
         "description": "",
-        "translation": [
-            "bank"
-        ]
+        "translations": ["bank"]
     },
     {
         "word": "samla",
         "description": "",
-        "translation": [
-            "collect"
-        ]
+        "translations": ["collect"]
     },
     {
         "word": "spara",
         "description": "",
-        "translation": [
-            "save"
-        ]
+        "translations": ["save"]
     },
     {
         "word": "kontroll",
         "description": "",
-        "translation": [
-            "control"
-        ]
+        "translations": ["control"]
     },
     {
         "word": "decimala",
         "description": "",
-        "translation": [
-            "decimal"
-        ]
+        "translations": ["decimal"]
     },
     {
         "word": "örat",
         "description": "",
-        "translation": [
-            "ear"
-        ]
+        "translations": ["ear"]
     },
     {
         "word": "annars",
         "description": "",
-        "translation": [
-            "else"
-        ]
+        "translations": ["else"]
     },
     {
         "word": "ganska",
         "description": "",
-        "translation": [
-            "quite"
-        ]
+        "translations": ["quite"]
     },
     {
         "word": "bröt",
         "description": "",
-        "translation": [
-            "broke"
-        ]
+        "translations": ["broke"]
     },
     {
         "word": "fall",
         "description": "",
-        "translation": [
-            "case"
-        ]
+        "translations": ["case"]
     },
     {
         "word": "mitten",
         "description": "",
-        "translation": [
-            "middle"
-        ]
+        "translations": ["middle"]
     },
     {
         "word": "döda",
         "description": "",
-        "translation": [
-            "kill"
-        ]
+        "translations": ["kill"]
     },
     {
         "word": "son",
         "description": "",
-        "translation": [
-            "son"
-        ]
+        "translations": ["son"]
     },
     {
         "word": "sjö",
         "description": "",
-        "translation": [
-            "lake"
-        ]
+        "translations": ["lake"]
     },
     {
         "word": "ögonblick",
         "description": "",
-        "translation": [
-            "moment"
-        ]
+        "translations": ["moment"]
     },
     {
         "word": "skala",
         "description": "",
-        "translation": [
-            "scale"
-        ]
+        "translations": ["scale"]
     },
     {
         "word": "högt",
         "description": "",
-        "translation": [
-            "loud"
-        ]
+        "translations": ["loud"]
     },
     {
         "word": "fjäder",
         "description": "",
-        "translation": [
-            "spring"
-        ]
+        "translations": ["spring"]
     },
     {
         "word": "observera",
         "description": "",
-        "translation": [
-            "observe"
-        ]
+        "translations": ["observe"]
     },
     {
         "word": "barn",
         "description": "",
-        "translation": [
-            "child"
-        ]
+        "translations": ["child"]
     },
     {
         "word": "rak",
         "description": "",
-        "translation": [
-            "straight"
-        ]
+        "translations": ["straight"]
     },
     {
         "word": "konsonant",
         "description": "",
-        "translation": [
-            "consonant"
-        ]
+        "translations": ["consonant"]
     },
     {
         "word": "nation",
         "description": "",
-        "translation": [
-            "nation"
-        ]
+        "translations": ["nation"]
     },
     {
         "word": "ordbok",
         "description": "",
-        "translation": [
-            "dictionary"
-        ]
+        "translations": ["dictionary"]
     },
     {
         "word": "mjölk",
         "description": "",
-        "translation": [
-            "milk"
-        ]
+        "translations": ["milk"]
     },
     {
         "word": "hastighet",
         "description": "",
-        "translation": [
-            "speed"
-        ]
+        "translations": ["speed"]
     },
     {
         "word": "metod",
         "description": "",
-        "translation": [
-            "method"
-        ]
+        "translations": ["method"]
     },
     {
         "word": "organ",
         "description": "",
-        "translation": [
-            "organ"
-        ]
+        "translations": ["organ"]
     },
     {
         "word": "betala",
         "description": "",
-        "translation": [
-            "pay"
-        ]
+        "translations": ["pay"]
     },
     {
         "word": "okänd",
         "description": "",
-        "translation": [
-            "age"
-        ]
+        "translations": ["age"]
     },
     {
         "word": "sektion",
         "description": "",
-        "translation": [
-            "section"
-        ]
+        "translations": ["section"]
     },
     {
         "word": "klänning",
         "description": "",
-        "translation": [
-            "dress"
-        ]
+        "translations": ["dress"]
     },
     {
         "word": "moln",
         "description": "",
-        "translation": [
-            "cloud"
-        ]
+        "translations": ["cloud"]
     },
     {
         "word": "överraskning",
         "description": "",
-        "translation": [
-            "surprise"
-        ]
+        "translations": ["surprise"]
     },
     {
         "word": "ro",
         "description": "",
-        "translation": [
-            "quiet"
-        ]
+        "translations": ["quiet"]
     },
     {
         "word": "sten",
         "description": "",
-        "translation": [
-            "stone"
-        ]
+        "translations": ["stone"]
     },
     {
         "word": "liten",
         "description": "",
-        "translation": [
-            "tiny"
-        ]
+        "translations": ["tiny"]
     },
     {
         "word": "klättra",
         "description": "",
-        "translation": [
-            "climb"
-        ]
+        "translations": ["climb"]
     },
     {
         "word": "sval",
         "description": "",
-        "translation": [
-            "cool"
-        ]
+        "translations": ["cool"]
     },
     {
         "word": "konstruktion",
         "description": "",
-        "translation": [
-            "design"
-        ]
+        "translations": ["design"]
     },
     {
         "word": "dålig",
         "description": "",
-        "translation": [
-            "poor"
-        ]
+        "translations": ["poor"]
     },
     {
         "word": "mycket",
         "description": "",
-        "translation": [
-            "lot"
-        ]
+        "translations": ["lot"]
     },
     {
         "word": "experiment",
         "description": "",
-        "translation": [
-            "experiment"
-        ]
+        "translations": ["experiment"]
     },
     {
         "word": "botten",
         "description": "",
-        "translation": [
-            "bottom"
-        ]
+        "translations": ["bottom"]
     },
     {
         "word": "nyckel",
         "description": "",
-        "translation": [
-            "key"
-        ]
+        "translations": ["key"]
     },
     {
         "word": "järn",
         "description": "",
-        "translation": [
-            "iron"
-        ]
+        "translations": ["iron"]
     },
     {
         "word": "singel",
         "description": "",
-        "translation": [
-            "single"
-        ]
+        "translations": ["single"]
     },
     {
         "word": "pinne",
         "description": "",
-        "translation": [
-            "stick"
-        ]
+        "translations": ["stick"]
     },
     {
         "word": "platt",
         "description": "",
-        "translation": [
-            "flat"
-        ]
+        "translations": ["flat"]
     },
     {
         "word": "tjugo",
         "description": "",
-        "translation": [
-            "twenty"
-        ]
+        "translations": ["twenty"]
     },
     {
         "word": "hud",
         "description": "",
-        "translation": [
-            "skin"
-        ]
+        "translations": ["skin"]
     },
     {
         "word": "le",
         "description": "",
-        "translation": [
-            "smile"
-        ]
+        "translations": ["smile"]
     },
     {
         "word": "veck",
         "description": "",
-        "translation": [
-            "crease"
-        ]
+        "translations": ["crease"]
     },
     {
         "word": "hål",
         "description": "",
-        "translation": [
-            "hole"
-        ]
+        "translations": ["hole"]
     },
     {
         "word": "hoppa",
         "description": "",
-        "translation": [
-            "jump"
-        ]
+        "translations": ["jump"]
     },
     {
         "word": "barn",
         "description": "",
-        "translation": [
-            "baby"
-        ]
+        "translations": ["baby"]
     },
     {
         "word": "åtta",
         "description": "",
-        "translation": [
-            "eight"
-        ]
+        "translations": ["eight"]
     },
     {
         "word": "by",
         "description": "",
-        "translation": [
-            "village"
-        ]
+        "translations": ["village"]
     },
     {
         "word": "möts",
         "description": "",
-        "translation": [
-            "meet"
-        ]
+        "translations": ["meet"]
     },
     {
         "word": "rot",
         "description": "",
-        "translation": [
-            "root"
-        ]
+        "translations": ["root"]
     },
     {
         "word": "köpa",
         "description": "",
-        "translation": [
-            "buy"
-        ]
+        "translations": ["buy"]
     },
     {
         "word": "höja",
         "description": "",
-        "translation": [
-            "raise"
-        ]
+        "translations": ["raise"]
     },
     {
         "word": "lösa",
         "description": "",
-        "translation": [
-            "solve"
-        ]
+        "translations": ["solve"]
     },
     {
         "word": "metall",
         "description": "",
-        "translation": [
-            "metal"
-        ]
+        "translations": ["metal"]
     },
     {
         "word": "huruvida",
         "description": "",
-        "translation": [
-            "whether"
-        ]
+        "translations": ["whether"]
     },
     {
         "word": "tryck",
         "description": "",
-        "translation": [
-            "push"
-        ]
+        "translations": ["push"]
     },
     {
         "word": "sju",
         "description": "",
-        "translation": [
-            "seven"
-        ]
+        "translations": ["seven"]
     },
     {
         "word": "punkt",
         "description": "",
-        "translation": [
-            "paragraph"
-        ]
+        "translations": ["paragraph"]
     },
     {
         "word": "tredje",
         "description": "",
-        "translation": [
-            "third"
-        ]
+        "translations": ["third"]
     },
     {
         "word": "skall",
         "description": "",
-        "translation": [
-            "shall"
-        ]
+        "translations": ["shall"]
     },
     {
         "word": "vänt",
         "description": "",
-        "translation": [
-            "held"
-        ]
+        "translations": ["held"]
     },
     {
         "word": "hår",
         "description": "",
-        "translation": [
-            "hair"
-        ]
+        "translations": ["hair"]
     },
     {
         "word": "beskriva",
         "description": "",
-        "translation": [
-            "describe"
-        ]
+        "translations": ["describe"]
     },
     {
         "word": "kock",
         "description": "",
-        "translation": [
-            "cook"
-        ]
+        "translations": ["cook"]
     },
     {
         "word": "våningen",
         "description": "",
-        "translation": [
-            "floor"
-        ]
+        "translations": ["floor"]
     },
     {
         "word": "antingen",
         "description": "",
-        "translation": [
-            "either"
-        ]
+        "translations": ["either"]
     },
     {
         "word": "resultat",
         "description": "",
-        "translation": [
-            "result"
-        ]
+        "translations": ["result"]
     },
     {
         "word": "bränna",
         "description": "",
-        "translation": [
-            "burn"
-        ]
+        "translations": ["burn"]
     },
     {
         "word": "kulle",
         "description": "",
-        "translation": [
-            "hill"
-        ]
+        "translations": ["hill"]
     },
     {
         "word": "säker",
         "description": "",
-        "translation": [
-            "safe"
-        ]
+        "translations": ["safe"]
     },
     {
         "word": "cat",
         "description": "",
-        "translation": [
-            "cat"
-        ]
+        "translations": ["cat"]
     },
     {
         "word": "talet",
         "description": "",
-        "translation": [
-            "century"
-        ]
+        "translations": ["century"]
     },
     {
         "word": "överväga",
         "description": "",
-        "translation": [
-            "consider"
-        ]
+        "translations": ["consider"]
     },
     {
         "word": "typ",
         "description": "",
-        "translation": [
-            "type"
-        ]
+        "translations": ["type"]
     },
     {
         "word": "lag",
         "description": "",
-        "translation": [
-            "law"
-        ]
+        "translations": ["law"]
     },
     {
         "word": "bitars",
         "description": "",
-        "translation": [
-            "bit"
-        ]
+        "translations": ["bit"]
     },
     {
         "word": "kust",
         "description": "",
-        "translation": [
-            "coast"
-        ]
+        "translations": ["coast"]
     },
     {
         "word": "kopia",
         "description": "",
-        "translation": [
-            "copy"
-        ]
+        "translations": ["copy"]
     },
     {
         "word": "fras",
         "description": "",
-        "translation": [
-            "phrase"
-        ]
+        "translations": ["phrase"]
     },
     {
         "word": "tyst",
         "description": "",
-        "translation": [
-            "silent"
-        ]
+        "translations": ["silent"]
     },
     {
         "word": "tall",
         "description": "",
-        "translation": [
-            "tall"
-        ]
+        "translations": ["tall"]
     },
     {
         "word": "sand",
         "description": "",
-        "translation": [
-            "sand"
-        ]
+        "translations": ["sand"]
     },
     {
         "word": "jord",
         "description": "",
-        "translation": [
-            "soil"
-        ]
+        "translations": ["soil"]
     },
     {
         "word": "rulle",
         "description": "",
-        "translation": [
-            "roll"
-        ]
+        "translations": ["roll"]
     },
     {
         "word": "temperatur",
         "description": "",
-        "translation": [
-            "temperature"
-        ]
+        "translations": ["temperature"]
     },
     {
         "word": "finger",
         "description": "",
-        "translation": [
-            "finger"
-        ]
+        "translations": ["finger"]
     },
     {
         "word": "industrin",
         "description": "",
-        "translation": [
-            "industry"
-        ]
+        "translations": ["industry"]
     },
     {
         "word": "värde",
         "description": "",
-        "translation": [
-            "value"
-        ]
+        "translations": ["value"]
     },
     {
         "word": "slagsmål",
         "description": "",
-        "translation": [
-            "fight"
-        ]
+        "translations": ["fight"]
     },
     {
         "word": "lie",
         "description": "",
-        "translation": [
-            "lie"
-        ]
+        "translations": ["lie"]
     },
     {
         "word": "slå",
         "description": "",
-        "translation": [
-            "beat"
-        ]
+        "translations": ["beat"]
     },
     {
         "word": "excitera",
         "description": "",
-        "translation": [
-            "excite"
-        ]
+        "translations": ["excite"]
     },
     {
         "word": "naturlig",
         "description": "",
-        "translation": [
-            "natural"
-        ]
+        "translations": ["natural"]
     },
     {
         "word": "vy",
         "description": "",
-        "translation": [
-            "view"
-        ]
+        "translations": ["view"]
     },
     {
         "word": "känsla",
         "description": "",
-        "translation": [
-            "sense"
-        ]
+        "translations": ["sense"]
     },
     {
         "word": "kapital",
         "description": "",
-        "translation": [
-            "capital"
-        ]
+        "translations": ["capital"]
     },
     {
         "word": "kommer inte",
         "description": "",
-        "translation": [
-            "won’t"
-        ]
+        "translations": ["won’t"]
     },
     {
         "word": "stol",
         "description": "",
-        "translation": [
-            "chair"
-        ]
+        "translations": ["chair"]
     },
     {
         "word": "fara",
         "description": "",
-        "translation": [
-            "danger"
-        ]
+        "translations": ["danger"]
     },
     {
         "word": "frukt",
         "description": "",
-        "translation": [
-            "fruit"
-        ]
+        "translations": ["fruit"]
     },
     {
         "word": "rik",
         "description": "",
-        "translation": [
-            "rich"
-        ]
+        "translations": ["rich"]
     },
     {
         "word": "tjock",
         "description": "",
-        "translation": [
-            "thick"
-        ]
+        "translations": ["thick"]
     },
     {
         "word": "soldat",
         "description": "",
-        "translation": [
-            "soldier"
-        ]
+        "translations": ["soldier"]
     },
     {
         "word": "processen",
         "description": "",
-        "translation": [
-            "process"
-        ]
+        "translations": ["process"]
     },
     {
         "word": "fungera",
         "description": "",
-        "translation": [
-            "operate"
-        ]
+        "translations": ["operate"]
     },
     {
         "word": "praktiken",
         "description": "",
-        "translation": [
-            "practice"
-        ]
+        "translations": ["practice"]
     },
     {
         "word": "separat",
         "description": "",
-        "translation": [
-            "separate"
-        ]
+        "translations": ["separate"]
     },
     {
         "word": "svårt",
         "description": "",
-        "translation": [
-            "difficult"
-        ]
+        "translations": ["difficult"]
     },
     {
         "word": "läkare",
         "description": "",
-        "translation": [
-            "doctor"
-        ]
+        "translations": ["doctor"]
     },
     {
         "word": "vänligen",
         "description": "",
-        "translation": [
-            "please"
-        ]
+        "translations": ["please"]
     },
     {
         "word": "skydda",
         "description": "",
-        "translation": [
-            "protect"
-        ]
+        "translations": ["protect"]
     },
     {
         "word": "middagstid",
         "description": "",
-        "translation": [
-            "noon"
-        ]
+        "translations": ["noon"]
     },
     {
         "word": "gröda",
         "description": "",
-        "translation": [
-            "crop"
-        ]
+        "translations": ["crop"]
     },
     {
         "word": "moderna",
         "description": "",
-        "translation": [
-            "modern"
-        ]
+        "translations": ["modern"]
     },
     {
         "word": "elementet",
         "description": "",
-        "translation": [
-            "element"
-        ]
+        "translations": ["element"]
     },
     {
         "word": "hit",
         "description": "",
-        "translation": [
-            "hit"
-        ]
+        "translations": ["hit"]
     },
     {
         "word": "studenten",
         "description": "",
-        "translation": [
-            "student"
-        ]
+        "translations": ["student"]
     },
     {
         "word": "hörn",
         "description": "",
-        "translation": [
-            "corner"
-        ]
+        "translations": ["corner"]
     },
     {
         "word": "parti",
         "description": "",
-        "translation": [
-            "party"
-        ]
+        "translations": ["party"]
     },
     {
         "word": "försörjning",
         "description": "",
-        "translation": [
-            "supply"
-        ]
+        "translations": ["supply"]
     },
     {
         "word": "vars",
         "description": "",
-        "translation": [
-            "whose"
-        ]
+        "translations": ["whose"]
     },
     {
         "word": "lokalisera",
         "description": "",
-        "translation": [
-            "locate"
-        ]
+        "translations": ["locate"]
     },
     {
         "word": "ring",
         "description": "",
-        "translation": [
-            "ring"
-        ]
+        "translations": ["ring"]
     },
     {
         "word": "karaktär",
         "description": "",
-        "translation": [
-            "character"
-        ]
+        "translations": ["character"]
     },
     {
         "word": "insekt",
         "description": "",
-        "translation": [
-            "insect"
-        ]
+        "translations": ["insect"]
     },
     {
         "word": "fångad",
         "description": "",
-        "translation": [
-            "caught"
-        ]
+        "translations": ["caught"]
     },
     {
         "word": "period",
         "description": "",
-        "translation": [
-            "period"
-        ]
+        "translations": ["period"]
     },
     {
         "word": "indikerar",
         "description": "",
-        "translation": [
-            "indicate"
-        ]
+        "translations": ["indicate"]
     },
     {
         "word": "radio",
         "description": "",
-        "translation": [
-            "radio"
-        ]
+        "translations": ["radio"]
     },
     {
         "word": "talade",
         "description": "",
-        "translation": [
-            "spoke"
-        ]
+        "translations": ["spoke"]
     },
     {
         "word": "atomen",
         "description": "",
-        "translation": [
-            "atom"
-        ]
+        "translations": ["atom"]
     },
     {
         "word": "humant",
         "description": "",
-        "translation": [
-            "human"
-        ]
+        "translations": ["human"]
     },
     {
         "word": "historia",
         "description": "",
-        "translation": [
-            "history"
-        ]
+        "translations": ["history"]
     },
     {
         "word": "effekt",
         "description": "",
-        "translation": [
-            "effect"
-        ]
+        "translations": ["effect"]
     },
     {
         "word": "elektrisk",
         "description": "",
-        "translation": [
-            "electric"
-        ]
+        "translations": ["electric"]
     },
     {
         "word": "förvänta",
         "description": "",
-        "translation": [
-            "expect"
-        ]
+        "translations": ["expect"]
     },
     {
         "word": "ben",
         "description": "",
-        "translation": [
-            "bone"
-        ]
+        "translations": ["bone"]
     },
     {
         "word": "skena",
         "description": "",
-        "translation": [
-            "rail"
-        ]
+        "translations": ["rail"]
     },
     {
         "word": "föreställa sig",
         "description": "",
-        "translation": [
-            "imagine"
-        ]
+        "translations": ["imagine"]
     },
     {
         "word": "tillhandahålla",
         "description": "",
-        "translation": [
-            "provide"
-        ]
+        "translations": ["provide"]
     },
     {
         "word": "enas",
         "description": "",
-        "translation": [
-            "agree"
-        ]
+        "translations": ["agree"]
     },
     {
         "word": "sålunda",
         "description": "",
-        "translation": [
-            "thus"
-        ]
+        "translations": ["thus"]
     },
     {
         "word": "mild",
         "description": "",
-        "translation": [
-            "gentle"
-        ]
+        "translations": ["gentle"]
     },
     {
         "word": "kvinna",
         "description": "",
-        "translation": [
-            "woman"
-        ]
+        "translations": ["woman"]
     },
     {
         "word": "kapten",
         "description": "",
-        "translation": [
-            "captain"
-        ]
+        "translations": ["captain"]
     },
     {
         "word": "gissa",
         "description": "",
-        "translation": [
-            "guess"
-        ]
+        "translations": ["guess"]
     },
     {
         "word": "nödvändig",
         "description": "",
-        "translation": [
-            "necessary"
-        ]
+        "translations": ["necessary"]
     },
     {
         "word": "skarp",
         "description": "",
-        "translation": [
-            "sharp"
-        ]
+        "translations": ["sharp"]
     },
     {
         "word": "vinge",
         "description": "",
-        "translation": [
-            "wing"
-        ]
+        "translations": ["wing"]
     },
     {
         "word": "skapa",
         "description": "",
-        "translation": [
-            "create"
-        ]
+        "translations": ["create"]
     },
     {
         "word": "granne",
         "description": "",
-        "translation": [
-            "neighbor"
-        ]
+        "translations": ["neighbor"]
     },
     {
         "word": "tvätt",
         "description": "",
-        "translation": [
-            "wash"
-        ]
+        "translations": ["wash"]
     },
     {
         "word": "slagträ",
         "description": "",
-        "translation": [
-            "bat"
-        ]
+        "translations": ["bat"]
     },
     {
         "word": "snarare",
         "description": "",
-        "translation": [
-            "rather"
-        ]
+        "translations": ["rather"]
     },
     {
         "word": "publiken",
         "description": "",
-        "translation": [
-            "crowd"
-        ]
+        "translations": ["crowd"]
     },
     {
         "word": "majs",
         "description": "",
-        "translation": [
-            "corn"
-        ]
+        "translations": ["corn"]
     },
     {
         "word": "jämföra",
         "description": "",
-        "translation": [
-            "compare"
-        ]
+        "translations": ["compare"]
     },
     {
         "word": "dikt",
         "description": "",
-        "translation": [
-            "poem"
-        ]
+        "translations": ["poem"]
     },
     {
         "word": "sträng",
         "description": "",
-        "translation": [
-            "string"
-        ]
+        "translations": ["string"]
     },
     {
         "word": "klocka",
         "description": "",
-        "translation": [
-            "bell"
-        ]
+        "translations": ["bell"]
     },
     {
         "word": "bero",
         "description": "",
-        "translation": [
-            "depend"
-        ]
+        "translations": ["depend"]
     },
     {
         "word": "kött",
         "description": "",
-        "translation": [
-            "meat"
-        ]
+        "translations": ["meat"]
     },
     {
         "word": "gnida",
         "description": "",
-        "translation": [
-            "rub"
-        ]
+        "translations": ["rub"]
     },
     {
         "word": "röret",
         "description": "",
-        "translation": [
-            "tube"
-        ]
+        "translations": ["tube"]
     },
     {
         "word": "känd",
         "description": "",
-        "translation": [
-            "famous"
-        ]
+        "translations": ["famous"]
     },
     {
         "word": "dollarn",
         "description": "",
-        "translation": [
-            "dollar"
-        ]
+        "translations": ["dollar"]
     },
     {
         "word": "ström",
         "description": "",
-        "translation": [
-            "stream"
-        ]
+        "translations": ["stream"]
     },
     {
         "word": "rädsla",
         "description": "",
-        "translation": [
-            "fear"
-        ]
+        "translations": ["fear"]
     },
     {
         "word": "syn",
         "description": "",
-        "translation": [
-            "sight"
-        ]
+        "translations": ["sight"]
     },
     {
         "word": "tunn",
         "description": "",
-        "translation": [
-            "thin"
-        ]
+        "translations": ["thin"]
     },
     {
         "word": "triangel",
         "description": "",
-        "translation": [
-            "triangle"
-        ]
+        "translations": ["triangle"]
     },
     {
         "word": "planet",
         "description": "",
-        "translation": [
-            "planet"
-        ]
+        "translations": ["planet"]
     },
     {
         "word": "skynda",
         "description": "",
-        "translation": [
-            "hurry"
-        ]
+        "translations": ["hurry"]
     },
     {
         "word": "chef",
         "description": "",
-        "translation": [
-            "chief"
-        ]
+        "translations": ["chief"]
     },
     {
         "word": "koloni",
         "description": "",
-        "translation": [
-            "colony"
-        ]
+        "translations": ["colony"]
     },
     {
         "word": "klocka",
         "description": "",
-        "translation": [
-            "clock"
-        ]
+        "translations": ["clock"]
     },
     {
         "word": "gruva",
         "description": "",
-        "translation": [
-            "mine"
-        ]
+        "translations": ["mine"]
     },
     {
         "word": "slips",
         "description": "",
-        "translation": [
-            "tie"
-        ]
+        "translations": ["tie"]
     },
     {
         "word": "ange",
         "description": "",
-        "translation": [
-            "enter"
-        ]
+        "translations": ["enter"]
     },
     {
         "word": "större",
         "description": "",
-        "translation": [
-            "major"
-        ]
+        "translations": ["major"]
     },
     {
         "word": "färsk",
         "description": "",
-        "translation": [
-            "fresh"
-        ]
+        "translations": ["fresh"]
     },
     {
         "word": "sök",
         "description": "",
-        "translation": [
-            "search"
-        ]
+        "translations": ["search"]
     },
     {
         "word": "skicka",
         "description": "",
-        "translation": [
-            "send"
-        ]
+        "translations": ["send"]
     },
     {
         "word": "gul",
         "description": "",
-        "translation": [
-            "yellow"
-        ]
+        "translations": ["yellow"]
     },
     {
         "word": "pistol",
         "description": "",
-        "translation": [
-            "gun"
-        ]
+        "translations": ["gun"]
     },
     {
         "word": "tillåta",
         "description": "",
-        "translation": [
-            "allow"
-        ]
+        "translations": ["allow"]
     },
     {
         "word": "tryck",
         "description": "",
-        "translation": [
-            "print"
-        ]
+        "translations": ["print"]
     },
     {
         "word": "död",
         "description": "",
-        "translation": [
-            "dead"
-        ]
+        "translations": ["dead"]
     },
     {
         "word": "fläck",
         "description": "",
-        "translation": [
-            "spot"
-        ]
+        "translations": ["spot"]
     },
     {
         "word": "öken",
         "description": "",
-        "translation": [
-            "desert"
-        ]
+        "translations": ["desert"]
     },
     {
         "word": "kostym",
         "description": "",
-        "translation": [
-            "suit"
-        ]
+        "translations": ["suit"]
     },
     {
         "word": "ström",
         "description": "",
-        "translation": [
-            "current"
-        ]
+        "translations": ["current"]
     },
     {
         "word": "lift",
         "description": "",
-        "translation": [
-            "lift"
-        ]
+        "translations": ["lift"]
     },
     {
         "word": "ros",
         "description": "",
-        "translation": [
-            "rose"
-        ]
+        "translations": ["rose"]
     },
     {
         "word": "anländer",
         "description": "",
-        "translation": [
-            "arrive"
-        ]
+        "translations": ["arrive"]
     },
     {
         "word": "mästare",
         "description": "",
-        "translation": [
-            "master"
-        ]
+        "translations": ["master"]
     },
     {
         "word": "spår",
         "description": "",
-        "translation": [
-            "track"
-        ]
+        "translations": ["track"]
     },
     {
         "word": "förälder",
         "description": "",
-        "translation": [
-            "parent"
-        ]
+        "translations": ["parent"]
     },
     {
         "word": "stranden",
         "description": "",
-        "translation": [
-            "shore"
-        ]
+        "translations": ["shore"]
     },
     {
         "word": "delning",
         "description": "",
-        "translation": [
-            "division"
-        ]
+        "translations": ["division"]
     },
     {
         "word": "ark",
         "description": "",
-        "translation": [
-            "sheet"
-        ]
+        "translations": ["sheet"]
     },
     {
         "word": "substans",
         "description": "",
-        "translation": [
-            "substance"
-        ]
+        "translations": ["substance"]
     },
     {
         "word": "gynna",
         "description": "",
-        "translation": [
-            "favor"
-        ]
+        "translations": ["favor"]
     },
     {
         "word": "ansluta",
         "description": "",
-        "translation": [
-            "connect"
-        ]
+        "translations": ["connect"]
     },
     {
         "word": "inlägg",
         "description": "",
-        "translation": [
-            "post"
-        ]
+        "translations": ["post"]
     },
     {
         "word": "spendera",
         "description": "",
-        "translation": [
-            "spend"
-        ]
+        "translations": ["spend"]
     },
     {
         "word": "ackord",
         "description": "",
-        "translation": [
-            "chord"
-        ]
+        "translations": ["chord"]
     },
     {
         "word": "fett",
         "description": "",
-        "translation": [
-            "fat"
-        ]
+        "translations": ["fat"]
     },
     {
         "word": "glad",
         "description": "",
-        "translation": [
-            "glad"
-        ]
+        "translations": ["glad"]
     },
     {
         "word": "original",
         "description": "",
-        "translation": [
-            "original"
-        ]
+        "translations": ["original"]
     },
     {
         "word": "andel",
         "description": "",
-        "translation": [
-            "share"
-        ]
+        "translations": ["share"]
     },
     {
         "word": "station",
         "description": "",
-        "translation": [
-            "station"
-        ]
+        "translations": ["station"]
     },
     {
         "word": "pappa",
         "description": "",
-        "translation": [
-            "dad"
-        ]
+        "translations": ["dad"]
     },
     {
         "word": "bröd",
         "description": "",
-        "translation": [
-            "bread"
-        ]
+        "translations": ["bread"]
     },
     {
         "word": "debitera",
         "description": "",
-        "translation": [
-            "charge"
-        ]
+        "translations": ["charge"]
     },
     {
         "word": "ordentlig",
         "description": "",
-        "translation": [
-            "proper"
-        ]
+        "translations": ["proper"]
     },
     {
         "word": "baren",
         "description": "",
-        "translation": [
-            "bar"
-        ]
+        "translations": ["bar"]
     },
     {
         "word": "erbjudandet",
         "description": "",
-        "translation": [
-            "offer"
-        ]
+        "translations": ["offer"]
     },
     {
         "word": "segment",
         "description": "",
-        "translation": [
-            "segment"
-        ]
+        "translations": ["segment"]
     },
     {
         "word": "slav",
         "description": "",
-        "translation": [
-            "slave"
-        ]
+        "translations": ["slave"]
     },
     {
         "word": "anka",
         "description": "",
-        "translation": [
-            "duck"
-        ]
+        "translations": ["duck"]
     },
     {
         "word": "omedelbar",
         "description": "",
-        "translation": [
-            "instant"
-        ]
+        "translations": ["instant"]
     },
     {
         "word": "marknad",
         "description": "",
-        "translation": [
-            "market"
-        ]
+        "translations": ["market"]
     },
     {
         "word": "grad",
         "description": "",
-        "translation": [
-            "degree"
-        ]
+        "translations": ["degree"]
     },
     {
         "word": "befolka",
         "description": "",
-        "translation": [
-            "populate"
-        ]
+        "translations": ["populate"]
     },
     {
         "word": "fågelunge",
         "description": "",
-        "translation": [
-            "chick"
-        ]
+        "translations": ["chick"]
     },
     {
         "word": "kära",
         "description": "",
-        "translation": [
-            "dear"
-        ]
+        "translations": ["dear"]
     },
     {
         "word": "fiende",
         "description": "",
-        "translation": [
-            "enemy"
-        ]
+        "translations": ["enemy"]
     },
     {
         "word": "svara",
         "description": "",
-        "translation": [
-            "reply"
-        ]
+        "translations": ["reply"]
     },
     {
         "word": "dryck",
         "description": "",
-        "translation": [
-            "drink"
-        ]
+        "translations": ["drink"]
     },
     {
         "word": "inträffa",
         "description": "",
-        "translation": [
-            "occur"
-        ]
+        "translations": ["occur"]
     },
     {
         "word": "stöd",
         "description": "",
-        "translation": [
-            "support"
-        ]
+        "translations": ["support"]
     },
     {
         "word": "tal",
         "description": "",
-        "translation": [
-            "speech"
-        ]
+        "translations": ["speech"]
     },
     {
         "word": "natur",
         "description": "",
-        "translation": [
-            "nature"
-        ]
+        "translations": ["nature"]
     },
     {
         "word": "intervall",
         "description": "",
-        "translation": [
-            "range"
-        ]
+        "translations": ["range"]
     },
     {
         "word": "ånga",
         "description": "",
-        "translation": [
-            "steam"
-        ]
+        "translations": ["steam"]
     },
     {
         "word": "rörelse",
         "description": "",
-        "translation": [
-            "motion"
-        ]
+        "translations": ["motion"]
     },
     {
         "word": "bana",
         "description": "",
-        "translation": [
-            "path"
-        ]
+        "translations": ["path"]
     },
     {
         "word": "vätska",
         "description": "",
-        "translation": [
-            "liquid"
-        ]
+        "translations": ["liquid"]
     },
     {
         "word": "logga",
         "description": "",
-        "translation": [
-            "log"
-        ]
+        "translations": ["log"]
     },
     {
         "word": "innebar",
         "description": "",
-        "translation": [
-            "meant"
-        ]
+        "translations": ["meant"]
     },
     {
         "word": "kvoten",
         "description": "",
-        "translation": [
-            "quotient"
-        ]
+        "translations": ["quotient"]
     },
     {
         "word": "tänder",
         "description": "",
-        "translation": [
-            "teeth"
-        ]
+        "translations": ["teeth"]
     },
     {
         "word": "skal",
         "description": "",
-        "translation": [
-            "shell"
-        ]
+        "translations": ["shell"]
     },
     {
         "word": "hals",
         "description": "",
-        "translation": [
-            "neck"
-        ]
+        "translations": ["neck"]
     },
     {
         "word": "syre",
         "description": "",
-        "translation": [
-            "oxygen"
-        ]
+        "translations": ["oxygen"]
     },
     {
         "word": "socker",
         "description": "",
-        "translation": [
-            "sugar"
-        ]
+        "translations": ["sugar"]
     },
     {
         "word": "död",
         "description": "",
-        "translation": [
-            "death"
-        ]
+        "translations": ["death"]
     },
     {
         "word": "ganska",
         "description": "",
-        "translation": [
-            "pretty"
-        ]
+        "translations": ["pretty"]
     },
     {
         "word": "förmåga",
         "description": "",
-        "translation": [
-            "skill"
-        ]
+        "translations": ["skill"]
     },
     {
         "word": "kvinnor",
         "description": "",
-        "translation": [
-            "women"
-        ]
+        "translations": ["women"]
     },
     {
         "word": "säsong",
         "description": "",
-        "translation": [
-            "season"
-        ]
+        "translations": ["season"]
     },
     {
         "word": "lösning",
         "description": "",
-        "translation": [
-            "solution"
-        ]
+        "translations": ["solution"]
     },
     {
         "word": "magnet",
         "description": "",
-        "translation": [
-            "magnet"
-        ]
+        "translations": ["magnet"]
     },
     {
         "word": "silver",
         "description": "",
-        "translation": [
-            "silver"
-        ]
+        "translations": ["silver"]
     },
     {
         "word": "tack",
         "description": "",
-        "translation": [
-            "thank"
-        ]
+        "translations": ["thank"]
     },
     {
         "word": "gren",
         "description": "",
-        "translation": [
-            "branch"
-        ]
+        "translations": ["branch"]
     },
     {
         "word": "matchen",
         "description": "",
-        "translation": [
-            "match"
-        ]
+        "translations": ["match"]
     },
     {
         "word": "suffixet",
         "description": "",
-        "translation": [
-            "suffix"
-        ]
+        "translations": ["suffix"]
     },
     {
         "word": "speciellt",
         "description": "",
-        "translation": [
-            "especially"
-        ]
+        "translations": ["especially"]
     },
     {
         "word": "fig",
         "description": "",
-        "translation": [
-            "fig"
-        ]
+        "translations": ["fig"]
     },
     {
         "word": "rädd",
         "description": "",
-        "translation": [
-            "afraid"
-        ]
+        "translations": ["afraid"]
     },
     {
         "word": "enormt",
         "description": "",
-        "translation": [
-            "huge"
-        ]
+        "translations": ["huge"]
     },
     {
         "word": "syster",
         "description": "",
-        "translation": [
-            "sister"
-        ]
+        "translations": ["sister"]
     },
     {
         "word": "stål",
         "description": "",
-        "translation": [
-            "steel"
-        ]
+        "translations": ["steel"]
     },
     {
         "word": "diskutera",
         "description": "",
-        "translation": [
-            "discuss"
-        ]
+        "translations": ["discuss"]
     },
     {
         "word": "framåt",
         "description": "",
-        "translation": [
-            "forward"
-        ]
+        "translations": ["forward"]
     },
     {
         "word": "liknande",
         "description": "",
-        "translation": [
-            "similar"
-        ]
+        "translations": ["similar"]
     },
     {
         "word": "guide",
         "description": "",
-        "translation": [
-            "guide"
-        ]
+        "translations": ["guide"]
     },
     {
         "word": "erfarenhet",
         "description": "",
-        "translation": [
-            "experience"
-        ]
+        "translations": ["experience"]
     },
     {
         "word": "poäng",
         "description": "",
-        "translation": [
-            "score"
-        ]
+        "translations": ["score"]
     },
     {
         "word": "äpple",
         "description": "",
-        "translation": [
-            "apple"
-        ]
+        "translations": ["apple"]
     },
     {
         "word": "köpt",
         "description": "",
-        "translation": [
-            "bought"
-        ]
+        "translations": ["bought"]
     },
     {
         "word": "ledde",
         "description": "",
-        "translation": [
-            "led"
-        ]
+        "translations": ["led"]
     },
     {
         "word": "tonhöjd",
         "description": "",
-        "translation": [
-            "pitch"
-        ]
+        "translations": ["pitch"]
     },
     {
         "word": "kappa",
         "description": "",
-        "translation": [
-            "coat"
-        ]
+        "translations": ["coat"]
     },
     {
         "word": "massa",
         "description": "",
-        "translation": [
-            "mass"
-        ]
+        "translations": ["mass"]
     },
     {
         "word": "kort",
         "description": "",
-        "translation": [
-            "card"
-        ]
+        "translations": ["card"]
     },
     {
         "word": "band",
         "description": "",
-        "translation": [
-            "band"
-        ]
+        "translations": ["band"]
     },
     {
         "word": "rep",
         "description": "",
-        "translation": [
-            "rope"
-        ]
+        "translations": ["rope"]
     },
     {
         "word": "halka",
         "description": "",
-        "translation": [
-            "slip"
-        ]
+        "translations": ["slip"]
     },
     {
         "word": "win",
         "description": "",
-        "translation": [
-            "win"
-        ]
+        "translations": ["win"]
     },
     {
         "word": "dröm",
         "description": "",
-        "translation": [
-            "dream"
-        ]
+        "translations": ["dream"]
     },
     {
         "word": "kväll",
         "description": "",
-        "translation": [
-            "evening"
-        ]
+        "translations": ["evening"]
     },
     {
         "word": "tillstånd",
         "description": "",
-        "translation": [
-            "condition"
-        ]
+        "translations": ["condition"]
     },
     {
         "word": "foder",
         "description": "",
-        "translation": [
-            "feed"
-        ]
+        "translations": ["feed"]
     },
     {
         "word": "verktyg",
         "description": "",
-        "translation": [
-            "tool"
-        ]
+        "translations": ["tool"]
     },
     {
         "word": "totalt",
         "description": "",
-        "translation": [
-            "total"
-        ]
+        "translations": ["total"]
     },
     {
         "word": "grundläggande",
         "description": "",
-        "translation": [
-            "basic"
-        ]
+        "translations": ["basic"]
     },
     {
         "word": "lukt",
         "description": "",
-        "translation": [
-            "smell"
-        ]
+        "translations": ["smell"]
     },
     {
         "word": "dal",
         "description": "",
-        "translation": [
-            "valley"
-        ]
+        "translations": ["valley"]
     },
     {
         "word": "eller",
         "description": "",
-        "translation": [
-            "nor"
-        ]
+        "translations": ["nor"]
     },
     {
         "word": "dubbel",
         "description": "",
-        "translation": [
-            "double"
-        ]
+        "translations": ["double"]
     },
     {
         "word": "säte",
         "description": "",
-        "translation": [
-            "seat"
-        ]
+        "translations": ["seat"]
     },
     {
         "word": "fortsätta",
         "description": "",
-        "translation": [
-            "continue"
-        ]
+        "translations": ["continue"]
     },
     {
         "word": "blocket",
         "description": "",
-        "translation": [
-            "block"
-        ]
+        "translations": ["block"]
     },
     {
         "word": "diagram",
         "description": "",
-        "translation": [
-            "chart"
-        ]
+        "translations": ["chart"]
     },
     {
         "word": "keps",
         "description": "",
-        "translation": [
-            "hat"
-        ]
+        "translations": ["hat"]
     },
     {
         "word": "sälja",
         "description": "",
-        "translation": [
-            "sell"
-        ]
+        "translations": ["sell"]
     },
     {
         "word": "framgång",
         "description": "",
-        "translation": [
-            "success"
-        ]
+        "translations": ["success"]
     },
     {
         "word": "företaget",
         "description": "",
-        "translation": [
-            "company"
-        ]
+        "translations": ["company"]
     },
     {
         "word": "subtrahera",
         "description": "",
-        "translation": [
-            "subtract"
-        ]
+        "translations": ["subtract"]
     },
     {
         "word": "händelse",
         "description": "",
-        "translation": [
-            "event"
-        ]
+        "translations": ["event"]
     },
     {
         "word": "särskilt",
         "description": "",
-        "translation": [
-            "particular"
-        ]
+        "translations": ["particular"]
     },
     {
         "word": "affär",
         "description": "",
-        "translation": [
-            "deal"
-        ]
+        "translations": ["deal"]
     },
     {
         "word": "simma",
         "description": "",
-        "translation": [
-            "swim"
-        ]
+        "translations": ["swim"]
     },
     {
         "word": "term",
         "description": "",
-        "translation": [
-            "term"
-        ]
+        "translations": ["term"]
     },
     {
         "word": "motsatt",
         "description": "",
-        "translation": [
-            "opposite"
-        ]
+        "translations": ["opposite"]
     },
     {
         "word": "fru",
         "description": "",
-        "translation": [
-            "wife"
-        ]
+        "translations": ["wife"]
     },
     {
         "word": "sko",
         "description": "",
-        "translation": [
-            "shoe"
-        ]
+        "translations": ["shoe"]
     },
     {
         "word": "innovation",
         "description": "",
-        "translation": [
-            "innovation"
-        ]
+        "translations": ["innovation"]
     },
     {
         "word": "spridning",
         "description": "",
-        "translation": [
-            "spread"
-        ]
+        "translations": ["spread"]
     },
     {
         "word": "ordna",
         "description": "",
-        "translation": [
-            "arrange"
-        ]
+        "translations": ["arrange"]
     },
     {
         "word": "läger",
         "description": "",
-        "translation": [
-            "camp"
-        ]
+        "translations": ["camp"]
     },
     {
         "word": "uppfinna",
         "description": "",
-        "translation": [
-            "invent"
-        ]
+        "translations": ["invent"]
     },
     {
         "word": "bomull",
         "description": "",
-        "translation": [
-            "cotton"
-        ]
+        "translations": ["cotton"]
     },
     {
         "word": "född",
         "description": "",
-        "translation": [
-            "born"
-        ]
+        "translations": ["born"]
     },
     {
         "word": "bestämma",
         "description": "",
-        "translation": [
-            "determine"
-        ]
+        "translations": ["determine"]
     },
     {
         "word": "quart",
         "description": "",
-        "translation": [
-            "quart"
-        ]
+        "translations": ["quart"]
     },
     {
         "word": "nio",
         "description": "",
-        "translation": [
-            "nine"
-        ]
+        "translations": ["nine"]
     },
     {
         "word": "lastbil",
         "description": "",
-        "translation": [
-            "truck"
-        ]
+        "translations": ["truck"]
     },
     {
         "word": "buller",
         "description": "",
-        "translation": [
-            "noise"
-        ]
+        "translations": ["noise"]
     },
     {
         "word": "nivå",
         "description": "",
-        "translation": [
-            "level"
-        ]
+        "translations": ["level"]
     },
     {
         "word": "chans",
         "description": "",
-        "translation": [
-            "chance"
-        ]
+        "translations": ["chance"]
     },
     {
         "word": "samla",
         "description": "",
-        "translation": [
-            "gather"
-        ]
+        "translations": ["gather"]
     },
     {
         "word": "butik",
         "description": "",
-        "translation": [
-            "shop"
-        ]
+        "translations": ["shop"]
     },
     {
         "word": "sträcka",
         "description": "",
-        "translation": [
-            "stretch"
-        ]
+        "translations": ["stretch"]
     },
     {
         "word": "kasta",
         "description": "",
-        "translation": [
-            "throw"
-        ]
+        "translations": ["throw"]
     },
     {
         "word": "glans",
         "description": "",
-        "translation": [
-            "shine"
-        ]
+        "translations": ["shine"]
     },
     {
         "word": "egenskap",
         "description": "",
-        "translation": [
-            "property"
-        ]
+        "translations": ["property"]
     },
     {
         "word": "kolonn",
         "description": "",
-        "translation": [
-            "column"
-        ]
+        "translations": ["column"]
     },
     {
         "word": "molekyl",
         "description": "",
-        "translation": [
-            "molecule"
-        ]
+        "translations": ["molecule"]
     },
     {
         "word": "välj",
         "description": "",
-        "translation": [
-            "select"
-        ]
+        "translations": ["select"]
     },
     {
         "word": "fel",
         "description": "",
-        "translation": [
-            "wrong"
-        ]
+        "translations": ["wrong"]
     },
     {
         "word": "grå",
         "description": "",
-        "translation": [
-            "gray"
-        ]
+        "translations": ["gray"]
     },
     {
         "word": "upprepning",
         "description": "",
-        "translation": [
-            "repeat"
-        ]
+        "translations": ["repeat"]
     },
     {
         "word": "kräva",
         "description": "",
-        "translation": [
-            "require"
-        ]
+        "translations": ["require"]
     },
     {
         "word": "bred",
         "description": "",
-        "translation": [
-            "broad"
-        ]
+        "translations": ["broad"]
     },
     {
         "word": "förbereda",
         "description": "",
-        "translation": [
-            "prepare"
-        ]
+        "translations": ["prepare"]
     },
     {
         "word": "salt",
         "description": "",
-        "translation": [
-            "salt"
-        ]
+        "translations": ["salt"]
     },
     {
         "word": "näsa",
         "description": "",
-        "translation": [
-            "nose"
-        ]
+        "translations": ["nose"]
     },
     {
         "word": "plural",
         "description": "",
-        "translation": [
-            "plural"
-        ]
+        "translations": ["plural"]
     },
     {
         "word": "ilska",
         "description": "",
-        "translation": [
-            "anger"
-        ]
+        "translations": ["anger"]
     },
     {
         "word": "krav",
         "description": "",
-        "translation": [
-            "claim"
-        ]
+        "translations": ["claim"]
     },
     {
         "word": "kontinent",
         "description": "",
-        "translation": [
-            "continent"
-        ]
+        "translations": ["continent"]
     }
 ]

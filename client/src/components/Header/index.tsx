@@ -17,6 +17,7 @@ import { observer } from "mobx-react-lite";
 
 import { useMobxStores } from "../../hooks/useMobxStores";
 import { Language } from "../../types";
+import { languages } from "../../constants";
 
 export const Header = observer(
     ({ setDarkMode, darkMode }: { setDarkMode: any; darkMode: boolean }) => {
@@ -65,14 +66,6 @@ export const Header = observer(
         );
     }
 );
-
-const languages = {
-    korean: "🇰🇷 korean",
-    japanese: "🇯🇵 japanese",
-    spanish: "🇪🇸 spanish",
-    swedish: "🇸🇪 swedish",
-    arabic: "🇦🇪 arabic",
-};
 
 export const LanguageSelect = ({
     disabled,

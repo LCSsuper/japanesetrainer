@@ -57,7 +57,7 @@ const scrapeTopKoreanWords = async () => {
             translations.push({
                 word: korean || "",
                 description: "",
-                translation: [english || ""],
+                translations: [english || ""],
             });
         }
     } catch (e) {

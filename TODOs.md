@@ -3,11 +3,18 @@ TODOs:
 -   Mobile UI
     -   Learner
         -   Compact version of guess card (answers card not visible without scrolling) STILL NEEDED
+    -   Library
+        -   type falls off the screen
+        -   Two smaller cards need to be full width
+-   Menu
+    -   Rename LibraryOptionsCard to LibraryInfoCard
+    -   Add toggles to LibraryInfoCard
 -   New page: Library
-    -   Show all items in library
-    -   Ability to change range, or: (range interaction should be easier (some libraries contain 1000+ words))
-    -   Ability to make selection of words to practice (save as lessons?)
--   Data: word type S/O/V + visualization
+    -   Break up into components
+    -   Show selected words when using range
+    -   Ability to toggle between selection types
+    -   Improve efficiency of making your own selection
+    -   Ability to save selections of words to practice (save as lessons?)
 -   Data: some verbs don't have tenses
 -   Data: too little adjectives
 -   Data: too little pronouns
