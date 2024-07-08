@@ -4,13 +4,17 @@ import {
     Card,
     Group,
     Kbd,
-    Pill,
     Space,
     TextInput,
     Text,
     Grid,
 } from "@mantine/core";
-import { HotkeyItem, getHotkeyHandler, useHotkeys } from "@mantine/hooks";
+import {
+    HotkeyItem,
+    getHotkeyHandler,
+    useHotkeys,
+    useViewportSize,
+} from "@mantine/hooks";
 import { observer } from "mobx-react-lite";
 
 import { useMobxStores } from "../../../hooks/useMobxStores";
@@ -19,6 +23,11 @@ const guessesBadgeColor = (guessedCount: number, translationCount: number) => {
     if (guessedCount === 0) return "gray";
     if (guessedCount === translationCount) return "green";
     return "blue";
+};
+
+const inputSize = (width: number) => {
+    if (width > 600) return "xl";
+    return "sm";
 };
 
 export const AnswerCard = observer(() => {
@@ -38,6 +47,7 @@ export const AnswerCard = observer(() => {
             remainingCount,
         },
     } = useMobxStores();
+    const { width } = useViewportSize();
 
     const hotkeys: HotkeyItem[] = [
         ["1", () => showAnswer()],
@@ -65,30 +75,23 @@ export const AnswerCard = observer(() => {
     };
 
     const Guesses = () => (
-        <Group>
+        <Group gap={5}>
             <Badge
+                size="sm"
                 color={guessesBadgeColor(guessedCount, translationCount)}
             >{`${guessedCount} of ${translationCount}`}</Badge>
-            {guessIsCorrect && (
-                <Group gap={5}>
-                    <Text c="dimmed">Guessed: </Text>
-                    {guessedTranslations.map((t) => (
-                        <Pill ml={0} key={t}>
-                            {t}
-                        </Pill>
-                    ))}
-                </Group>
-            )}
-            {answerRevealed && remainingAnswers.length && (
-                <Group gap={5}>
-                    <Text c="dimmed">Not guessed: </Text>
-                    {remainingAnswers.map((t) => (
-                        <Pill ml={0} key={t}>
-                            {t}
-                        </Pill>
-                    ))}
-                </Group>
-            )}
+            {guessedTranslations.map((t) => (
+                <Badge size="sm" color="green" tt="none" key={t}>
+                    {t}
+                </Badge>
+            ))}
+            {answerRevealed &&
+                remainingAnswers.length &&
+                remainingAnswers.map((t) => (
+                    <Badge size="sm" color="yellow" tt="none" key={t}>
+                        {t}
+                    </Badge>
+                ))}
         </Group>
     );
 
@@ -122,21 +125,21 @@ export const AnswerCard = observer(() => {
                     autoFocus
                     placeholder="Answer..."
                     variant="filled"
-                    size="xl"
+                    size={inputSize(width)}
                     w={"100%"}
                     onKeyDown={getHotkeyHandler(hotkeys)}
                     onChange={onInputChange}
                     onFocus={onFocus}
                     value={currentGuess}
-                    rightSectionWidth={"12rem"}
+                    rightSectionWidth={"10rem"}
                     rightSection={
                         canContinue && (
-                            <Group gap="5px">
-                                <Text c="dimmed" size="sm">
+                            <Group gap="5px" onClick={nextWord}>
+                                <Text c="dimmed" size="xs">
                                     Press
                                 </Text>
-                                <Kbd>Enter</Kbd>
-                                <Text c="dimmed" size="sm">
+                                <Kbd size="xs">Enter</Kbd>
+                                <Text c="dimmed" size="xs">
                                     to continue
                                 </Text>
                             </Group>

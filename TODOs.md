@@ -1,21 +1,14 @@
 TODOs:
 
--   Mobile UI
-    -   Learner
-        -   Compact version of guess card (answers card not visible without scrolling) STILL NEEDED
-    -   Library
-        -   type falls off the screen
-        -   Two smaller cards need to be full width
--   Menu
-    -   Rename LibraryOptionsCard to LibraryInfoCard
-    -   Add toggles to LibraryInfoCard
+-   Learner
+    -   Mobile bug: Compact version of guess card (answers card not visible without scrolling) NEEDS TO BE CHECKED
 -   New page: Library
-    -   Break up into components
-    -   Show selected words when using range
-    -   Ability to toggle between selection types
-    -   Improve efficiency of making your own selection
-    -   Ability to save selections of words to practice (save as lessons?)
--   Data: some verbs don't have tenses
--   Data: too little adjectives
--   Data: too little pronouns
--   Data: no prepositions
+    -   Rework: Improve efficiency of making your own selection
+    -   Mobile bug: translations can fall off the table (japanese)
+    -   New feature: Ability to save selections of words to practice (save as lessons?)
+-   Data:
+    -   Some verbs don't have tenses
+    -   Too little adjectives
+    -   Too little pronouns
+    -   No prepositions
+    -   Other languages need word type

@@ -7,7 +7,17 @@ import { useMobxStores } from "../../../hooks/useMobxStores";
 const wordSize = (width: number) => {
     if (width > 900) return "6rem";
     if (width > 600) return "4rem";
-    return "3rem";
+    return "2rem";
+};
+
+const romanizationBoxSize = (width: number) => {
+    if (width > 600) return "2rem";
+    return "1rem";
+};
+
+const romanizationSize = (width: number) => {
+    if (width > 600) return "xl";
+    return "sm";
 };
 
 const wordColor = (guessedCount: number, translationCount: number) => {
@@ -17,7 +27,6 @@ const wordColor = (guessedCount: number, translationCount: number) => {
 };
 
 export const WordCard = observer(() => {
-    const { width } = useViewportSize();
     const {
         learnerStore: {
             wordIndex,
@@ -31,6 +40,7 @@ export const WordCard = observer(() => {
         },
         libraryStore: { showRomanization, showWordType },
     } = useMobxStores();
+    const { width } = useViewportSize();
 
     const romanizationVisible =
         showRomanization || guessIsCorrect || answerRevealed;
@@ -54,8 +64,8 @@ export const WordCard = observer(() => {
                     {currentWord.word}
                 </Title>
             </Group>
-            <Group justify="center" h={"2rem"}>
-                <Text size="xl" c="dimmed">
+            <Group justify="center" h={romanizationBoxSize(width)}>
+                <Text size={romanizationSize(width)} c="dimmed">
                     {romanizationVisible && currentWord.romanization}
                 </Text>
             </Group>

@@ -67,6 +67,7 @@ export default class LibraryStore {
     randomize: boolean = true;
     language: Language = "korean";
     selectedWordIds: Set<string> = new Set();
+    selectionMode: "range" | "custom" = "range";
 
     constructor() {
         makeAutoObservable(this);
@@ -74,17 +75,14 @@ export default class LibraryStore {
         this.getLibraryOptionsFromLocalStorage();
     }
 
-    setRange = (from: number, to: number) => {
-        this.range = [from, to];
-        this.updateSelectedWordIdsBasedOnRange(); // TODO @Lucas this is a side effect (only when using range selection)
+    setSelectionMode = (selectionMode: "range" | "custom") => {
+        this.selectionMode = selectionMode;
         this.saveLibraryOptionsToLocalStorage();
     };
 
-    updateSelectedWordIdsBasedOnRange = () => {
-        this.selectedWordIds.clear();
-        for (let i = this.range[0]; i < this.range[1]; i++) {
-            this.selectedWordIds.add(this.library.lang_to_eng[i].id);
-        }
+    setRange = (from: number, to: number) => {
+        this.range = [from, to];
+        this.saveLibraryOptionsToLocalStorage();
     };
 
     setShowRomanization = (showRomanization: boolean) => {
@@ -105,7 +103,6 @@ export default class LibraryStore {
     setLanguage = (language: string) => {
         this.language = language as Language;
         this.selectedWordIds.clear();
-        this.updateSelectedWordIdsBasedOnRange(); // TODO @Lucas this is a side effect (only when using range selection)
         this.saveLibraryOptionsToLocalStorage();
     };
 
@@ -118,6 +115,8 @@ export default class LibraryStore {
                 showWordType: this.showWordType,
                 randomize: this.randomize,
                 language: this.language,
+                selectionMode: this.selectionMode,
+                selectedWordIds: Array.from(this.selectedWordIds),
             })
         );
     };
@@ -125,14 +124,23 @@ export default class LibraryStore {
     getLibraryOptionsFromLocalStorage = () => {
         const libraryOptions = window.localStorage.getItem("libraryOptions");
         if (!libraryOptions) return;
-        const { range, showRomanization, showWordType, randomize, language } =
-            JSON.parse(libraryOptions);
+        const {
+            range = [0, 10],
+            showRomanization = true,
+            showWordType = true,
+            randomize = true,
+            language = "korean" as Language,
+            selectionMode = "range" as "range" | "custom",
+            selectedWordIds = [],
+        } = JSON.parse(libraryOptions);
 
         this.setRange(range[0], range[1]);
         this.setShowRomanization(showRomanization);
         this.setShowWordType(showWordType);
         this.setRandomize(randomize);
         this.setLanguage(language);
+        this.setSelectionMode(selectionMode);
+        this.selectedWordIds = new Set(selectedWordIds);
     };
 
     toggleAll = () => {
@@ -142,6 +150,7 @@ export default class LibraryStore {
                 this.selectedWordIds.add(word.id)
             );
         }
+        this.saveLibraryOptionsToLocalStorage();
     };
 
     toggleAllWithWordType = (type: WordType) => {
@@ -154,10 +163,25 @@ export default class LibraryStore {
                 .filter((word) => word.type === type)
                 .forEach((word) => this.selectedWordIds.add(word.id));
         }
+        this.saveLibraryOptionsToLocalStorage();
+    };
+
+    toggleWord = (wordId: string) => {
+        if (this.selectedWordIds.has(wordId)) {
+            this.selectedWordIds.delete(wordId);
+        } else {
+            this.selectedWordIds.add(wordId);
+        }
+        this.saveLibraryOptionsToLocalStorage();
     };
 
     hasWordTypeInSelection = (type: WordType) =>
         this.practiceLibrary.lang_to_eng.some((word) => word.type === type);
+
+    isSelected = (wordId: string, index: number): boolean =>
+        this.selectionMode === "custom"
+            ? this.selectedWordIds.has(wordId)
+            : index >= this.range[0] && index < this.range[1];
 
     get ISOlanguage() {
         switch (this.language) {
@@ -181,12 +205,19 @@ export default class LibraryStore {
         return libraries[this.language];
     }
 
+    get selectedWordCount() {
+        return this.selectionMode === "custom"
+            ? this.selectedWordIds.size
+            : this.range[1] - this.range[0];
+    }
+
     // TODO @Lucas for performance, probably better to filter the library once
     get practiceLibrary() {
         // TODO @lucas range should only be used if user creates a subset by range
-        let filtered = this.range
-            ? this.library.lang_to_eng.slice(...this.range)
-            : this.library.lang_to_eng;
+        let filtered =
+            this.selectionMode === "range"
+                ? this.library.lang_to_eng.slice(...this.range)
+                : this.library.lang_to_eng.filter(this.inPracticeSelection);
 
         return {
             lang_to_eng: filtered,

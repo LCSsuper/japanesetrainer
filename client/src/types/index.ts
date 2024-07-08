@@ -18,3 +18,8 @@ export type WordType =
     | "interjection";
 
 export type Language = "korean" | "japanese" | "spanish" | "swedish" | "arabic";
+
+export type Library = {
+    lang_to_eng: Word[];
+    eng_to_lang: Word[];
+};
