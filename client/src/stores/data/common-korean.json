@@ -161,11 +161,53 @@
         "id": "a04a0066-8a50-4457-922a-8b13c7f12c13"
     },
     {
+        "word": "나",
+        "romanization": "na",
+        "translations": ["me", "i"],
+        "type": "pronoun",
+        "id": "6a20e2b9-888b-4fea-bd74-2f36a79f346f"
+    },
+    {
+        "word": "너",
+        "romanization": "neo",
+        "translations": ["you"],
+        "type": "pronoun",
+        "id": "b1e0835f-a925-4e80-a075-b7b90a2a40fa"
+    },
+    {
+        "word": "그",
+        "romanization": "geu",
+        "translations": ["he", "him"],
+        "type": "pronoun",
+        "id": "9b3ba788-59e4-43f2-ac2b-91928f0ebf26"
+    },
+    {
+        "word": "그녀",
+        "romanization": "geu-nyeo",
+        "translations": ["she", "her"],
+        "type": "pronoun",
+        "id": "9b361dba-365d-480c-bf49-922ff954822b"
+    },
+    {
         "word": "우리",
         "romanization": "uri",
-        "translations": ["we"],
+        "translations": ["we", "us"],
         "type": "pronoun",
         "id": "a841af94-ff7e-495c-ba5f-343efc17b037"
+    },
+    {
+        "word": "너희",
+        "romanization": "neo-hui",
+        "translations": ["you (plural)"],
+        "type": "pronoun",
+        "id": "11704fd4-2a69-4467-8bbd-26c203714f0d"
+    },
+    {
+        "word": "그들",
+        "romanization": "geu-deul",
+        "translations": ["they", "them"],
+        "type": "pronoun",
+        "id": "b0aebfd5-8822-4e57-8219-952800a8781d"
     },
     {
         "word": "오늘",
@@ -437,561 +479,617 @@
         "word": "가다",
         "romanization": "gada",
         "translations": ["to go"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "fcadba78-6cdd-4767-8253-f59073c2261a"
     },
     {
         "word": "가요",
         "romanization": "gayo",
         "translations": ["going"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "f6554165-4441-427c-b24b-5be77ff7a3dc"
     },
     {
         "word": "갈 거예요",
         "romanization": "gal geoyeyo",
         "translations": ["will go"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "166340f5-a790-4dab-9b9e-a76740b7b010"
     },
     {
         "word": "갔어요",
         "romanization": "gasseoyo",
         "translations": ["went"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "7b6fbc46-bf7d-43f1-b8fe-694114f495f4"
     },
     {
         "word": "오다",
         "romanization": "oda",
         "translations": ["to come"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "7ac2e341-2087-4763-bca5-3929fdb88b89"
     },
     {
         "word": "와요",
         "romanization": "wayo",
         "translations": ["coming"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "475eaa81-074d-43fe-858b-3fbb2fa38ca3"
     },
     {
         "word": "올 거예요",
         "romanization": "ol geoyeyo",
         "translations": ["will come"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "cef91958-82c1-4897-bc28-8a1873f7b4a8"
     },
     {
         "word": "왔어요",
         "romanization": "wasseoyo",
         "translations": ["came"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "39bbfcb7-5713-4fad-8b53-2c04fc3a625c"
     },
     {
         "word": "있다",
         "romanization": "itda",
         "translations": ["to have"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "fa797b40-ac22-4dac-96fc-e57dfdabdccc"
     },
     {
         "word": "있어요",
         "romanization": "isseoyo",
         "translations": ["have", "has"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "e87797cc-3530-4e64-bb00-0360d00c86a6"
     },
     {
         "word": "있을 거예요",
         "romanization": "isseul geoyeyo",
         "translations": ["will have"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "0cb9fc88-8c2c-4610-9279-46aa1f7ed59b"
     },
     {
         "word": "있었어요",
         "romanization": "isseosseoyo",
         "translations": ["had"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "5aaf856e-4029-4cbb-be25-a21624b8b078"
     },
     {
         "word": "이다",
         "romanization": "ida",
         "translations": ["to be"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "71491439-d89b-4bef-9144-a777eb745b9e"
     },
     {
         "word": "예요",
         "romanization": "yeyo",
-        "translations": ["am"],
-        "type": "verb",
+        "translations": ["am", "are", "is"],
+        "type": "verb (present)",
         "id": "a1badf6e-5889-4f42-af88-344be016a04d"
     },
     {
         "word": "일 거예요",
         "romanization": "il geoyeyo",
         "translations": ["will be"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "f15c50d9-1861-43d5-85f5-bfdfeb16c593"
     },
     {
         "word": "였어요",
         "romanization": "yeosseoyo",
         "translations": ["was", "were"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "8c3d34df-e3d8-40a3-923c-c4d816693548"
     },
     {
         "word": "먹다",
         "romanization": "meokda",
         "translations": ["to eat"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "2b6365fd-fa06-4627-9c60-7737deaf9687"
     },
     {
         "word": "먹어요",
         "romanization": "meogeoyo",
         "translations": ["eat", "eats"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "f283277c-d085-4e09-8ec8-3d2ae2d3be83"
     },
     {
         "word": "먹을 거예요",
         "romanization": "meogeul geoyeyo",
         "translations": ["will eat"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "c3015dda-3afa-4786-a59c-bfaec0ced9ca"
     },
     {
         "word": "먹었어요",
         "romanization": "meogeosseoyo",
         "translations": ["ate"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "a1595554-abb6-4a25-a7fb-8b58faaac9b0"
     },
     {
         "word": "마시다",
         "romanization": "masida",
         "translations": ["to drink"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "1179d887-d2f0-4bc6-b39d-7610e1c6bb8d"
     },
     {
         "word": "마셔요",
         "romanization": "masyeoyo",
         "translations": ["drink", "drinks"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "6e8fcf32-a02a-4a55-8fa3-480c83f451a7"
     },
     {
         "word": "마실 거예요",
         "romanization": "masil geoyeyo",
         "translations": ["will drink"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "caf61167-7486-4c88-a6c7-0de7070541c7"
     },
     {
         "word": "마셨어요",
         "romanization": "masyeosseoyo",
         "translations": ["drank"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "67130353-0d65-4a8f-b064-48096614adbb"
     },
     {
         "word": "주다",
         "romanization": "juda",
         "translations": ["to give"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "835e2a17-b87b-4ba3-9d8b-d4fce788627f"
     },
     {
         "word": "줘요",
         "romanization": "jwoyo",
         "translations": ["give", "gives"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "c7f870d8-43db-4a87-8ca5-7456fe153168"
     },
     {
         "word": "줄 거예요",
         "romanization": "jul geoyeyo",
         "translations": ["will give"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "4375539a-a7b7-4a64-ad8c-4476a0758264"
     },
     {
         "word": "줬어요",
         "romanization": "jwosseoyo",
         "translations": ["gave"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "850ee3fc-b7a1-4284-8668-34d091094f45"
     },
     {
         "word": "보다",
         "romanization": "boda",
         "translations": ["to see"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "77b1f9f8-7c84-464a-b7fe-b430ea684465"
     },
     {
         "word": "봐요",
         "romanization": "bwayo",
         "translations": ["see", "sees"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "e1975413-528e-40a7-a16a-1441be00565d"
     },
     {
         "word": "볼 거예요",
         "romanization": "bol geoyeyo",
         "translations": ["will see"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "943c5f35-65b8-49d6-ad23-2514fb57288d"
     },
     {
         "word": "봤어요",
         "romanization": "bwasseoyo",
         "translations": ["saw"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "9e0a3cfc-91c5-4b21-a303-0f57157159a9"
     },
     {
         "word": "자다",
         "romanization": "jada",
         "translations": ["to sleep"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "567b4771-95fe-4979-b29d-d892a2e5dd7c"
     },
     {
         "word": "자요",
         "romanization": "jayo",
         "translations": ["sleep", "sleeps"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "8bcc01c4-9b90-4ab3-bd66-95e03cdf0192"
     },
     {
         "word": "잘 거예요",
         "romanization": "jal geoyeyo",
         "translations": ["will sleep"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "cf1b2a78-2ac9-44f3-8017-372b69dc620e"
     },
     {
         "word": "잤어요",
         "romanization": "jasseoyo",
         "translations": ["slept"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "3ea56b98-d684-484c-93b8-dec3929a13d6"
     },
     {
         "word": "일어나다",
         "romanization": "ileonada",
         "translations": ["to get up"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "3ae8470c-bff1-4dca-8ad4-ccfcaa1ea204"
     },
     {
         "word": "일어나요",
         "romanization": "ileonayo",
         "translations": ["get up", "gets up"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "3b2d8d2d-eeee-46e2-be48-07fadaec1f8e"
     },
     {
         "word": "일어날 거예요",
         "romanization": "ileonal geoyeyo",
         "translations": ["will get up"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "349866b9-4a4a-4bf6-9502-cc92432110ee"
     },
     {
         "word": "일어났어요",
         "romanization": "ileonasseoyo",
         "translations": ["got up"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "9e1fc3b1-e036-412f-b988-396070b6eed3"
     },
     {
         "word": "사다",
         "romanization": "sada",
         "translations": ["to buy"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "6b31f4db-c568-44de-bfc3-928125a8150d"
     },
     {
         "word": "사요",
         "romanization": "sayo",
         "translations": ["buy", "buys"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "c8eff6e1-3d9e-4cab-9b66-f10a819c95c8"
     },
     {
         "word": "살 거예요",
         "romanization": "sal geoyeyo",
         "translations": ["will buy"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "1c73d8c8-500c-4a67-8d0b-fa3f7ea14144"
     },
     {
         "word": "샀어요",
         "romanization": "sasseoyo",
         "translations": ["bought"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "4f627338-f73f-468c-bca1-840779f2a932"
+    },
+    {
+        "word": "일하다",
+        "romanization": "ilhada",
+        "translations": ["to work"],
+        "type": "verb (base)",
+        "id": "d1418462-d239-4d32-9f94-2b9c46b4646a"
+    },
+    {
+        "word": "일해요",
+        "romanization": "ilhaeyo",
+        "translations": ["work", "works"],
+        "type": "verb (present)",
+        "id": "59dfac68-7ef0-41ec-840f-4ba1a809d708"
+    },
+    {
+        "word": "일할 거예요",
+        "romanization": "ilhal geoyeyo",
+        "translations": ["will work"],
+        "type": "verb (future)",
+        "id": "2f3775b2-ee96-4060-a9b4-525cf9945d3f"
+    },
+    {
+        "word": "일했어요",
+        "romanization": "ilhaesseoyo",
+        "translations": ["worked"],
+        "type": "verb (past)",
+        "id": "842ca664-8d95-4023-b83e-b03d7ca0d850"
     },
     {
         "word": "쓰다",
         "romanization": "sseuda",
         "translations": ["to write"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "61056ee1-ac9b-472a-a5ad-22af37e5930e"
     },
     {
         "word": "씁니다",
         "romanization": "sseumnida",
         "translations": ["write", "writes"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "46d85252-1127-40cd-9200-fd92f56600cb"
     },
     {
         "word": "쓸 거예요",
         "romanization": "sseul geoyeyo",
         "translations": ["will write"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "6f13bb7e-0d41-48fa-bee6-7387fe6f6182"
     },
     {
         "word": "썼어요",
         "romanization": "sseosseoyo",
         "translations": ["wrote"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "c487faed-7360-4570-8343-df333137db14"
     },
     {
         "word": "웃다",
         "romanization": "utda",
         "translations": ["to laugh"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "070be3c4-207a-4c0d-aa8f-6a4fbb58dd49"
     },
     {
         "word": "웃어요",
         "romanization": "useoyo",
         "translations": ["laugh", "laughs"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "4e195c07-7866-441c-9e46-820b96415524"
     },
     {
         "word": "웃을 거예요",
         "romanization": "useul geoyeyo",
         "translations": ["will laugh"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "5a707713-69bf-4201-a675-4d3d345ea204"
     },
     {
         "word": "웃었어요",
         "romanization": "useosseoyo",
         "translations": ["laughed"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "5ce01ed4-0ad3-488b-a3fd-ac38fa556408"
     },
     {
         "word": "울다",
         "romanization": "ulda",
         "translations": ["to cry"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "660630e0-59ec-4fb0-ac0f-afcb838ebeb5"
     },
     {
         "word": "울어요",
         "romanization": "uleoyo",
         "translations": ["cry", "cries"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "3f18c175-29a7-471b-8af2-f2c64f7b7fbc"
     },
     {
         "word": "울 거예요",
         "romanization": "ul geoyeyo",
         "translations": ["will cry"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "03576a4d-a78b-4800-9d0c-627284bfd431"
     },
     {
         "word": "울었어요",
         "romanization": "uleosseoyo",
         "translations": ["cried"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "5c4a0a64-a152-4b82-ab32-a62582058c03"
     },
     {
         "word": "입다",
         "romanization": "ipda",
         "translations": ["to wear"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "3d18e886-56f2-4012-8387-b803c5f05b3b"
     },
     {
         "word": "입어요",
         "romanization": "ibeoyo",
         "translations": ["wear", "wears"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "08e84c3c-a915-418a-bc2c-c98aa23d474f"
     },
     {
         "word": "입을 거예요",
         "romanization": "ibeul geoyeyo",
         "translations": ["will wear"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "ed0f7c64-8b36-419c-b843-8be7d4be41f3"
     },
     {
         "word": "입었어요",
         "romanization": "ibeosseoyo",
         "translations": ["wore"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "a3ecd8f2-5463-470d-97e0-935b25376128"
     },
     {
         "word": "걷다",
         "romanization": "geotda",
         "translations": ["to walk"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "1a85429c-ed90-4ace-8939-02c89b8c2c5d"
     },
     {
         "word": "걷어요",
         "romanization": " geoyeyo",
         "translations": ["walk", "walks"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "fae8a065-c1b4-476e-aff2-eada6bb1c6b0"
     },
     {
         "word": "걸을 거예요",
         "romanization": "georeul geoyeyo",
         "translations": ["will walk"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "e814a302-fd75-4ea8-bd89-e2152e966011"
     },
     {
         "word": "걸었어요",
         "romanization": "georeosseoyo",
         "translations": ["walked"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "1daf04a1-76f4-4933-9f0e-200823a3159c"
     },
     {
         "word": "읽다",
         "romanization": "ikda",
         "translations": ["to read"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "fbc7af65-2aa9-42af-87b9-cd68e06e8678"
     },
     {
         "word": "읽어요",
         "romanization": "ik-eoyo",
         "translations": ["read", "reads"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "fdd9e1fe-6887-4da0-b893-001b9e684acc"
     },
     {
         "word": "읽을 거예요",
         "romanization": "ik-eul geoyeyo",
         "translations": ["will read"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "b9a9e430-8b00-4609-b87d-eaaaaab4a505"
     },
     {
         "word": "읽었어요",
         "romanization": "ik-eosseoyo",
         "translations": ["read"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "35f0a82c-3e12-42d5-9dec-24262d67ee4a"
     },
     {
         "word": "배우다",
         "romanization": "baeuda",
         "translations": ["to learn"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "bf66f354-fd2f-4ae9-bafd-dcb8ee2c90db"
     },
     {
         "word": "배워요",
         "romanization": "baewoyo",
         "translations": ["learn", "learns"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "0cd08858-5746-4b32-95d2-fe31fbdb1a81"
     },
     {
         "word": "배울 거예요",
         "romanization": "baeul geoyeyo",
         "translations": ["will learn"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "98247303-4b76-4e15-b8ea-2c66b23a081b"
     },
     {
         "word": "배웠어요",
         "romanization": "baewosseoyo",
         "translations": ["learned"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "eef1b715-2cc5-4b68-ac39-58b06a9a5dff"
     },
     {
         "word": "공부하다",
         "romanization": "gongbuhada",
         "translations": ["to study"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "78d84950-95b4-4901-9bb5-802e08f5569a"
     },
     {
         "word": "공부해요",
         "romanization": "gongbuhaeyo",
         "translations": ["study", "studies"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "52324e83-1e5a-4f55-9c08-ce1e52ab0987"
     },
     {
         "word": "공부할 거예요",
         "romanization": "gongbuhal geoyeyo",
         "translations": ["will study"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "39472fe7-4337-4877-a4f5-b6905ac58923"
     },
     {
         "word": "공부했어요",
         "romanization": "gongbuhaesseoyo",
         "translations": ["studied"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "d835ca01-a2cc-4588-85c0-c0113d90a68b"
     },
     {
         "word": "만나다",
         "romanization": "mannada",
         "translations": ["to meet"],
-        "type": "verb",
+        "type": "verb (base)",
         "id": "0d845c44-5e2d-43ff-af2e-37500d190686"
     },
     {
         "word": "만나요",
         "romanization": "mannoyo",
         "translations": ["meet", "meets"],
-        "type": "verb",
+        "type": "verb (present)",
         "id": "53e76769-10e5-4cf3-819e-bd6ba0bd680c"
     },
     {
         "word": "만날 거예요",
         "romanization": "mannal geoyeyo",
         "translations": ["will meet"],
-        "type": "verb",
+        "type": "verb (future)",
         "id": "3d0fabb5-839c-44db-9bd3-6b69e3385de8"
     },
     {
         "word": "만났어요",
         "romanization": "mannasseoyo",
         "translations": ["met"],
-        "type": "verb",
+        "type": "verb (past)",
         "id": "9ea98e2e-8d42-449b-943c-d957027a9c6b"
+    },
+    {
+        "word": "날다",
+        "romanization": "nalda",
+        "translations": ["to fly"],
+        "type": "verb (base)",
+        "id": "5beda1c1-7b3a-4337-8fc3-57d212470eaf"
+    },
+    {
+        "word": "날아요",
+        "romanization": "nalayo",
+        "translations": ["fly", "flies"],
+        "type": "verb (present)",
+        "id": "e2d08560-b2e8-4caa-9a2d-55b42db05658"
+    },
+    {
+        "word": "날 거예요",
+        "romanization": "nal geoyeyo",
+        "translations": ["will fly"],
+        "type": "verb (future)",
+        "id": "67ba01c8-c566-4fd4-ada5-2846b20e739e"
+    },
+    {
+        "word": "날았어요",
+        "romanization": "nalasseoyo",
+        "translations": ["flew"],
+        "type": "verb (past)",
+        "id": "0e69e30c-699d-41fc-aaaa-ceb92020575f"
     },
     {
         "word": "바람",
@@ -1034,13 +1132,6 @@
         "translations": ["rain"],
         "type": "noun",
         "id": "ec79e71c-7c8d-40e1-bbe0-038d281c1a0d"
-    },
-    {
-        "word": "비행",
-        "romanization": "bihaeng",
-        "translations": ["to fly"],
-        "type": "verb",
-        "id": "5beda1c1-7b3a-4337-8fc3-57d212470eaf"
     },
     {
         "word": "날개",
@@ -1118,111 +1209,6 @@
         "translations": ["wife"],
         "type": "noun",
         "id": "8366bb0d-9d77-424a-a3a0-03af7078df86"
-    },
-    {
-        "word": "좋아지다",
-        "romanization": "joh-ajida",
-        "translations": ["to be good"],
-        "type": "verb",
-        "id": "13f7553a-5cba-4942-8e52-7372f5f17529"
-    },
-    {
-        "word": "나쁘다",
-        "romanization": "nappeuda",
-        "translations": ["to be bad"],
-        "type": "verb",
-        "id": "10c4f35c-1773-4978-9b42-e7975c21bdd2"
-    },
-    {
-        "word": "뜨거워지다",
-        "romanization": "tteugeowojida",
-        "translations": ["to be hot"],
-        "type": "verb",
-        "id": "c57c8cad-64fc-432f-9d27-de7150411562"
-    },
-    {
-        "word": "추워지다",
-        "romanization": "chuwojida",
-        "translations": ["to be cold"],
-        "type": "verb",
-        "id": "48f99016-37ef-4837-9e7e-0ef1855d0064"
-    },
-    {
-        "word": "슬퍼하다",
-        "romanization": "seulpeohada",
-        "translations": ["to be sad"],
-        "type": "verb",
-        "id": "49864c6a-aea2-4637-b4b7-6c45b599f5eb"
-    },
-    {
-        "word": "아프다",
-        "romanization": "apeuda",
-        "translations": ["to be sick"],
-        "type": "verb",
-        "id": "bacf8d05-61e1-4eb6-8987-1bc1068d05a3"
-    },
-    {
-        "word": "피곤하다",
-        "romanization": "pigonhada",
-        "translations": ["to be tired"],
-        "type": "verb",
-        "id": "70618f7b-de1d-4998-83a1-db8aff13d167"
-    },
-    {
-        "word": "흥미롭다",
-        "romanization": "heungmirobda",
-        "translations": ["to be interesting"],
-        "type": "verb",
-        "id": "e3f14080-7d60-46b2-9376-68b3ef94ad62"
-    },
-    {
-        "word": "지루하다",
-        "romanization": "jiruhada",
-        "translations": ["to be boring"],
-        "type": "verb",
-        "id": "cd4e8570-b4a3-4076-9f97-5e1525a8539f"
-    },
-    {
-        "word": "어렵다",
-        "romanization": "eoryeobda",
-        "translations": ["to be difficult"],
-        "type": "verb",
-        "id": "ce33653e-577e-40df-bcce-e0af430775ab"
-    },
-    {
-        "word": "쉽게",
-        "romanization": "swibge",
-        "translations": ["to be easy"],
-        "type": "verb",
-        "id": "77e57b2c-ec28-48c2-9007-5ff4ff8af984"
-    },
-    {
-        "word": "깨끗하다",
-        "romanization": "kkaekkeushada",
-        "translations": ["to be clean"],
-        "type": "verb",
-        "id": "2ce16fb9-5b35-4aed-9627-57c9038603d6"
-    },
-    {
-        "word": "더러워지다",
-        "romanization": "deoreowojida",
-        "translations": ["to be dirty"],
-        "type": "verb",
-        "id": "ee34b35b-ee4d-4f2e-82bb-1989a922215d"
-    },
-    {
-        "word": "빠르다",
-        "romanization": "ppareuda",
-        "translations": ["to be fast"],
-        "type": "verb",
-        "id": "b004fc2b-4a03-4188-a98c-55d9d71efa15"
-    },
-    {
-        "word": "천천히다",
-        "romanization": "cheoncheonhida",
-        "translations": ["to be slow"],
-        "type": "verb",
-        "id": "b9a34771-443a-4be1-b5b8-8752106e2321"
     },
     {
         "word": "천천히",

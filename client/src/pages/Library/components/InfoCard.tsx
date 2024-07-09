@@ -13,7 +13,7 @@ export const InfoCard = ({
     <Card shadow="xl">
         <Group>
             <IconInfoCircle size="2rem" />
-            <Title order={2}>Information</Title>
+            <Title order={3}>Information</Title>
         </Group>
         <Space h="sm" />
         <Group gap={4}>

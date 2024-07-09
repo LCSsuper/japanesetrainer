@@ -24,6 +24,7 @@ export const LibraryInfoCard = observer(() => {
             showRomanization,
             showWordType,
             randomize,
+            language,
         },
     } = useMobxStores();
 
@@ -35,6 +36,9 @@ export const LibraryInfoCard = observer(() => {
                     <Title order={3}>Library</Title>
                 </Group>
                 <Space h={"xs"} />
+                <Text c="dimmed" size="sm">
+                    {`The selected library is ${language}.`}
+                </Text>
                 <Text c="dimmed" size="sm">
                     {`This library contains ${library.lang_to_eng.length}
                                             words.`}
@@ -51,14 +55,13 @@ export const LibraryInfoCard = observer(() => {
                 <ToggleInfo enabled={showWordType} text="Show word type is" />
                 <ToggleInfo enabled={randomize} text="Randomize words is" />
                 <Space h={"sm"} />
-                <Group>
+                <Group justify="end">
                     <Button
                         variant="gradient"
                         onClick={() => setCurrentRoute("library")}
                     >
                         Library options
                     </Button>
-                    <Badge color="gray">beta</Badge>
                 </Group>
             </Title>
         </Card>

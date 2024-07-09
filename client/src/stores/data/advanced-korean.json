@@ -1,0 +1,107 @@
+[
+    {
+        "word": "좋아지다",
+        "romanization": "joh-ajida",
+        "translations": ["to be good"],
+        "type": "verb (base)",
+        "id": "13f7553a-5cba-4942-8e52-7372f5f17529"
+    },
+    {
+        "word": "나쁘다",
+        "romanization": "nappeuda",
+        "translations": ["to be bad"],
+        "type": "verb (base)",
+        "id": "10c4f35c-1773-4978-9b42-e7975c21bdd2"
+    },
+    {
+        "word": "뜨거워지다",
+        "romanization": "tteugeowojida",
+        "translations": ["to be hot"],
+        "type": "verb (base)",
+        "id": "c57c8cad-64fc-432f-9d27-de7150411562"
+    },
+    {
+        "word": "추워지다",
+        "romanization": "chuwojida",
+        "translations": ["to be cold"],
+        "type": "verb (base)",
+        "id": "48f99016-37ef-4837-9e7e-0ef1855d0064"
+    },
+    {
+        "word": "슬퍼하다",
+        "romanization": "seulpeohada",
+        "translations": ["to be sad"],
+        "type": "verb (base)",
+        "id": "49864c6a-aea2-4637-b4b7-6c45b599f5eb"
+    },
+    {
+        "word": "아프다",
+        "romanization": "apeuda",
+        "translations": ["to be sick"],
+        "type": "verb (base)",
+        "id": "bacf8d05-61e1-4eb6-8987-1bc1068d05a3"
+    },
+    {
+        "word": "피곤하다",
+        "romanization": "pigonhada",
+        "translations": ["to be tired"],
+        "type": "verb (base)",
+        "id": "70618f7b-de1d-4998-83a1-db8aff13d167"
+    },
+    {
+        "word": "흥미롭다",
+        "romanization": "heungmirobda",
+        "translations": ["to be interesting"],
+        "type": "verb (base)",
+        "id": "e3f14080-7d60-46b2-9376-68b3ef94ad62"
+    },
+    {
+        "word": "지루하다",
+        "romanization": "jiruhada",
+        "translations": ["to be boring"],
+        "type": "verb (base)",
+        "id": "cd4e8570-b4a3-4076-9f97-5e1525a8539f"
+    },
+    {
+        "word": "어렵다",
+        "romanization": "eoryeobda",
+        "translations": ["to be difficult"],
+        "type": "verb (base)",
+        "id": "ce33653e-577e-40df-bcce-e0af430775ab"
+    },
+    {
+        "word": "쉽게",
+        "romanization": "swibge",
+        "translations": ["to be easy"],
+        "type": "verb (base)",
+        "id": "77e57b2c-ec28-48c2-9007-5ff4ff8af984"
+    },
+    {
+        "word": "깨끗하다",
+        "romanization": "kkaekkeushada",
+        "translations": ["to be clean"],
+        "type": "verb (base)",
+        "id": "2ce16fb9-5b35-4aed-9627-57c9038603d6"
+    },
+    {
+        "word": "더러워지다",
+        "romanization": "deoreowojida",
+        "translations": ["to be dirty"],
+        "type": "verb (base)",
+        "id": "ee34b35b-ee4d-4f2e-82bb-1989a922215d"
+    },
+    {
+        "word": "빠르다",
+        "romanization": "ppareuda",
+        "translations": ["to be fast"],
+        "type": "verb (base)",
+        "id": "b004fc2b-4a03-4188-a98c-55d9d71efa15"
+    },
+    {
+        "word": "천천히다",
+        "romanization": "cheoncheonhida",
+        "translations": ["to be slow"],
+        "type": "verb (base)",
+        "id": "b9a34771-443a-4be1-b5b8-8752106e2321"
+    }
+]

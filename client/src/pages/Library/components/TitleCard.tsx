@@ -7,7 +7,7 @@ export const TitleCard = ({ language }: { language: Language }) => (
     <Card shadow="xl">
         <Group>
             <IconLibrary size="2rem" />
-            <Title order={2}>Library options</Title>
+            <Title order={3}>Library options</Title>
         </Group>
         <Space h="sm" />
         <Text>{`The selected language to practice is ${language}. A selection of words can be made to practice with.`}</Text>

@@ -10,6 +10,10 @@ export const flags = {
 
 export const wordTypes: WordType[] = [
     "verb",
+    "verb (base)",
+    "verb (past)",
+    "verb (present)",
+    "verb (future)",
     "noun",
     "adjective",
     "adverb",
@@ -19,9 +23,9 @@ export const wordTypes: WordType[] = [
 ];
 
 export const languages = {
-    korean: "🇰🇷 korean",
-    japanese: "🇯🇵 japanese",
-    spanish: "🇪🇸 spanish",
-    swedish: "🇸🇪 swedish",
-    arabic: "🇦🇪 arabic",
+    korean: "🇰🇷 Korean",
+    japanese: "🇯🇵 Japanese",
+    spanish: "🇪🇸 Spanish",
+    swedish: "🇸🇪 Swedish",
+    arabic: "🇦🇪 Arabic",
 };

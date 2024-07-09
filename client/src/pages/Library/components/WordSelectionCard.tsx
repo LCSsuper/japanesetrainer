@@ -9,7 +9,6 @@ import {
     Chip,
     Table,
     Checkbox,
-    Pill,
     Text,
     Box,
 } from "@mantine/core";
@@ -18,6 +17,12 @@ import { observer } from "mobx-react-lite";
 
 import { wordTypes } from "../../../constants";
 import { useMobxStores } from "../../../hooks/useMobxStores";
+import { useViewportSize } from "@mantine/hooks";
+
+const selectionSize = (width: number) => {
+    if (width > 900) return "6rem";
+    return "8rem";
+};
 
 export const WordSelectionCard = observer(() => {
     const {
@@ -34,15 +39,17 @@ export const WordSelectionCard = observer(() => {
             setSelectionMode,
             selectedWordCount,
             isSelected,
+            wordTypeCounts,
         },
     } = useMobxStores();
+    const { width } = useViewportSize();
 
     return (
         <Card shadow="xl">
             <Group justify="space-between" align="start">
                 <Group>
                     <IconCheckbox size="2rem" />
-                    <Title order={2}>Word selection</Title>
+                    <Title order={3}>Word selection</Title>
                 </Group>
                 <Title order={6}>{`${selectedWordCount} selected`}</Title>
             </Group>
@@ -50,18 +57,18 @@ export const WordSelectionCard = observer(() => {
             <Group>
                 <Radio
                     size="xs"
-                    label="Select based on range"
+                    label="Select range"
                     checked={selectionMode === "range"}
                     onChange={() => setSelectionMode("range")}
                 />
                 <Radio
                     size="xs"
-                    label="Make custom selection"
+                    label="Custom selection"
                     checked={selectionMode === "custom"}
                     onChange={() => setSelectionMode("custom")}
                 />
             </Group>
-            <Box h="6rem">
+            <Box h={selectionSize(width)}>
                 <Space h="md" />
                 {selectionMode === "range" && (
                     <>
@@ -83,20 +90,25 @@ export const WordSelectionCard = observer(() => {
                     <>
                         <Text size="sm">Select word types:</Text>
                         <Group gap={5}>
-                            {wordTypes.map((type) => {
-                                const checked = hasWordTypeInSelection(type);
+                            {wordTypes
+                                .filter((type) => !!wordTypeCounts.get(type))
+                                .map((type) => {
+                                    const checked =
+                                        hasWordTypeInSelection(type);
 
-                                return (
-                                    <Chip
-                                        checked={checked}
-                                        onClick={() =>
-                                            toggleAllWithWordType(type)
-                                        }
-                                        size="xs"
-                                        key={type}
-                                    >{`${type}s`}</Chip>
-                                );
-                            })}
+                                    return (
+                                        <Chip
+                                            checked={checked}
+                                            onClick={() =>
+                                                toggleAllWithWordType(type)
+                                            }
+                                            size="xs"
+                                            key={type}
+                                        >
+                                            {type}
+                                        </Chip>
+                                    );
+                                })}
                         </Group>
                         <Space h="xs" />
                     </>
@@ -154,11 +166,7 @@ export const WordSelectionCard = observer(() => {
                             </Table.Td>
                             <Table.Td>
                                 <Group gap={4}>
-                                    {word.translations.map((translation) => (
-                                        <Pill key={translation}>
-                                            {translation}
-                                        </Pill>
-                                    ))}
+                                    {word.translations.join(", ")}
                                 </Group>
                             </Table.Td>
                             <Table.Td visibleFrom="sm">

@@ -20,7 +20,7 @@ export const OptionsCard = ({
         <Card shadow="xl">
             <Group>
                 <IconToggleRight size="2rem" />
-                <Title order={2}>Options</Title>
+                <Title order={3}>Practice options</Title>
             </Group>
             <Space h="sm" />
             <Switch

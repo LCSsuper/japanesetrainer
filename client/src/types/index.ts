@@ -10,6 +10,10 @@ export type Word = {
 
 export type WordType =
     | "verb"
+    | "verb (base)"
+    | "verb (past)"
+    | "verb (present)"
+    | "verb (future)"
     | "noun"
     | "adjective"
     | "adverb"

@@ -46,12 +46,10 @@ export default class LearnerStore {
     checkCurrentGuess = () => {
         if (
             (this.currentWord.translations.includes(
-                this.currentGuess.toLowerCase()
+                this.currentGuess.toLowerCase().trim()
             ) ||
                 this.currentWord.translations
-                    .map((answer) =>
-                        answer.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-                    )
+                    .map((answer) => answer.replace(/-/g, ""))
                     .includes(this.currentGuess.toLowerCase())) &&
             !this.guessedTranslations.includes(this.currentGuess)
         ) {

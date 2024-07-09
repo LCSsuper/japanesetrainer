@@ -68,6 +68,7 @@ export default class LibraryStore {
     language: Language = "korean";
     selectedWordIds: Set<string> = new Set();
     selectionMode: "range" | "custom" = "range";
+    wordTypeCounts: Map<WordType, number> = new Map();
 
     constructor() {
         makeAutoObservable(this);
@@ -104,6 +105,16 @@ export default class LibraryStore {
         this.language = language as Language;
         this.selectedWordIds.clear();
         this.saveLibraryOptionsToLocalStorage();
+        this.calculateWordTypeCounts();
+    };
+
+    calculateWordTypeCounts = () => {
+        this.wordTypeCounts.clear();
+        for (const word of this.library.lang_to_eng) {
+            if (!word.type) continue;
+            const count = this.wordTypeCounts.get(word.type) || 0;
+            this.wordTypeCounts.set(word.type, count + 1);
+        }
     };
 
     saveLibraryOptionsToLocalStorage = () => {
@@ -141,6 +152,7 @@ export default class LibraryStore {
         this.setLanguage(language);
         this.setSelectionMode(selectionMode);
         this.selectedWordIds = new Set(selectedWordIds);
+        this.saveLibraryOptionsToLocalStorage();
     };
 
     toggleAll = () => {
