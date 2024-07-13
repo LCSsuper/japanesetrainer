@@ -1,13 +1,13 @@
 import {
     Badge,
     Button,
-    Card,
     Group,
     Kbd,
     Space,
     TextInput,
     Text,
     Grid,
+    Box,
 } from "@mantine/core";
 import {
     HotkeyItem,
@@ -18,6 +18,7 @@ import {
 import { observer } from "mobx-react-lite";
 
 import { useMobxStores } from "../../../hooks/useMobxStores";
+import { useState } from "react";
 
 const guessesBadgeColor = (guessedCount: number, translationCount: number) => {
     if (guessedCount === 0) return "gray";
@@ -30,7 +31,7 @@ const inputSize = (width: number) => {
     return "sm";
 };
 
-export const AnswerCard = observer(() => {
+export const AnswerBox = observer(() => {
     const {
         learnerStore: {
             showAnswer,
@@ -48,6 +49,8 @@ export const AnswerCard = observer(() => {
         },
     } = useMobxStores();
     const { width } = useViewportSize();
+    const [error, setError] = useState(false);
+    const [timeoutId, setTimeoutId] = useState<NodeJS.Timeout | null>(null);
 
     const hotkeys: HotkeyItem[] = [
         ["1", () => showAnswer()],
@@ -55,13 +58,27 @@ export const AnswerCard = observer(() => {
         [
             "enter",
             () => {
-                if (!guessIsCorrect && !answerRevealed) return;
+                if (!guessIsCorrect && !answerRevealed) {
+                    onError();
+                    return;
+                }
                 nextWord();
             },
         ],
     ];
 
     useHotkeys(hotkeys);
+
+    const onError = () => {
+        setError(true);
+
+        if (timeoutId) clearTimeout(timeoutId);
+        setTimeoutId(
+            setTimeout(() => {
+                setError(false);
+            }, 1000)
+        );
+    };
 
     const onFocus = () => {
         setTimeout(() => {
@@ -119,37 +136,40 @@ export const AnswerCard = observer(() => {
     );
 
     return (
-        <Card shadow={"xl"} radius={"md"}>
+        <Box>
             <Group>
-                <TextInput
-                    autoFocus
-                    placeholder="Answer..."
-                    variant="filled"
-                    size={inputSize(width)}
-                    w={"100%"}
-                    onKeyDown={getHotkeyHandler(hotkeys)}
-                    onChange={onInputChange}
-                    onFocus={onFocus}
-                    value={currentGuess}
-                    rightSectionWidth={"10rem"}
-                    rightSection={
-                        canContinue && (
-                            <Group gap="5px" onClick={nextWord}>
-                                <Text c="dimmed" size="xs">
-                                    Press
-                                </Text>
-                                <Kbd size="xs">Enter</Kbd>
-                                <Text c="dimmed" size="xs">
-                                    to continue
-                                </Text>
-                            </Group>
-                        )
-                    }
-                />
+                <form autoComplete="off" style={{ width: "100%" }}>
+                    <TextInput
+                        autoComplete="off"
+                        error={error}
+                        autoFocus
+                        placeholder="Answer..."
+                        variant="filled"
+                        size={inputSize(width)}
+                        w={"100%"}
+                        onKeyDown={getHotkeyHandler(hotkeys)}
+                        onChange={onInputChange}
+                        onFocus={onFocus}
+                        value={currentGuess}
+                        rightSectionWidth={"10rem"}
+                        rightSection={
+                            canContinue && (
+                                <Group gap="5px" onClick={nextWord}>
+                                    <Text c="dimmed" size="xs">
+                                        Press
+                                    </Text>
+                                    <Kbd size="xs">Enter</Kbd>
+                                    <Text c="dimmed" size="xs">
+                                        to continue
+                                    </Text>
+                                </Group>
+                            )
+                        }
+                    />
+                </form>
             </Group>
-            <Space h={"md"} />
-            <Group justify="space-between">
-                <Guesses />
+            <Space h="sm" />
+            <Group justify="end">
                 <Group visibleFrom="md">
                     <ShowAnswerButton />
                     <SkipButton />
@@ -163,6 +183,6 @@ export const AnswerCard = observer(() => {
                     </Grid.Col>
                 </Grid>
             </Group>
-        </Card>
+        </Box>
     );
 });

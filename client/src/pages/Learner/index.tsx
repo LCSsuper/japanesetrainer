@@ -1,17 +1,17 @@
-import { Box, Center, Grid } from "@mantine/core";
+import { Box, Card, Center, Grid } from "@mantine/core";
 
-import { WordCard } from "./components/WordCard";
-import { AnswerCard } from "./components/AnswerCard";
+import { PracticeBox } from "./components/PracticeBox";
+import { AnswerBox } from "./components/AnswerBox";
 
 const Learner = () => (
     <Box>
         <Center>
             <Grid w={"50rem"} maw={"100vw"} p={"1rem"}>
                 <Grid.Col>
-                    <WordCard />
-                </Grid.Col>
-                <Grid.Col>
-                    <AnswerCard />
+                    <Card shadow={"xl"} radius={"md"}>
+                        <PracticeBox />
+                        <AnswerBox />
+                    </Card>
                 </Grid.Col>
             </Grid>
         </Center>

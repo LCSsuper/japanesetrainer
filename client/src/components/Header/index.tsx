@@ -7,12 +7,7 @@ import {
     InputBase,
     ActionIcon,
 } from "@mantine/core";
-import {
-    IconChevronLeft,
-    IconLamp,
-    IconLampOff,
-    IconSettings,
-} from "@tabler/icons-react";
+import { IconChevronLeft, IconMoon, IconSun } from "@tabler/icons-react";
 import { observer } from "mobx-react-lite";
 
 import { useMobxStores } from "../../hooks/useMobxStores";
@@ -48,10 +43,7 @@ export const Header = observer(
                                     size={"lg"}
                                     onClick={() => setDarkMode(!darkMode)}
                                 >
-                                    {darkMode ? <IconLamp /> : <IconLampOff />}
-                                </ActionIcon>
-                                <ActionIcon disabled size={"lg"}>
-                                    <IconSettings />
+                                    {darkMode ? <IconSun /> : <IconMoon />}
                                 </ActionIcon>
                                 <LanguageSelect
                                     disabled={currentRoute === "learner"}
