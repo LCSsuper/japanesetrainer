@@ -1,6 +1,7 @@
 import {
     Badge,
     Box,
+    Center,
     Flex,
     Grid,
     Group,
@@ -34,12 +35,6 @@ const wordColor = (guessedCount: number, translationCount: number) => {
     return "blue";
 };
 
-const guessesBadgeColor = (guessedCount: number, translationCount: number) => {
-    if (guessedCount === 0) return "gray";
-    if (guessedCount === translationCount) return "green";
-    return "blue";
-};
-
 export const PracticeBox = observer(() => {
     const {
         learnerStore: {
@@ -54,7 +49,7 @@ export const PracticeBox = observer(() => {
             guessedTranslations,
             remainingAnswers,
         },
-        libraryStore: { showRomanization, showWordType },
+        settingsStore: { showRomanization, showWordType },
     } = useMobxStores();
     const { width } = useViewportSize();
 
@@ -77,11 +72,24 @@ export const PracticeBox = observer(() => {
                     >
                         {currentWord.word}
                     </Title>
+                    <Group h="1.5rem">
+                        {romanizationVisible && currentWord.romanization && (
+                            <Text size={textInfoSize(width)} c="dimmed">
+                                {`(${currentWord.romanization})`}
+                            </Text>
+                        )}
+                        {showWordType && currentWord.type && (
+                            <Pill size={textInfoSize(width)}>
+                                {currentWord.type}
+                            </Pill>
+                        )}
+                    </Group>
                 </Grid.Col>
                 <Grid.Col span={4}>
-                    <Flex justify="end" direction="column" h="100%">
-                        {guessedTranslations.map((t) => (
-                            <Group justify="end" pb={5}>
+                    <Center h="100%">
+                        <Flex direction="column" align="center" gap={5}>
+                            <Text c="dimmed">answers:</Text>
+                            {guessedTranslations.map((t) => (
                                 <Badge
                                     size={textInfoSize(width)}
                                     color="green"
@@ -90,12 +98,20 @@ export const PracticeBox = observer(() => {
                                 >
                                     {t}
                                 </Badge>
-                            </Group>
-                        ))}
-                        {answerRevealed &&
-                            remainingAnswers.length &&
-                            remainingAnswers.map((t) => (
-                                <Group justify="end" pb={5}>
+                            ))}
+                            {!answerRevealed &&
+                                remainingAnswers.map((t) => (
+                                    <Badge
+                                        size={textInfoSize(width)}
+                                        tt="none"
+                                        key={t}
+                                        w={"5rem"}
+                                    >
+                                        ?
+                                    </Badge>
+                                ))}
+                            {answerRevealed &&
+                                remainingAnswers.map((t) => (
                                     <Badge
                                         size={textInfoSize(width)}
                                         color="yellow"
@@ -104,37 +120,11 @@ export const PracticeBox = observer(() => {
                                     >
                                         {t}
                                     </Badge>
-                                </Group>
-                            ))}
-                    </Flex>
+                                ))}
+                        </Flex>
+                    </Center>
                 </Grid.Col>
             </Grid>
-            <Group justify="space-between">
-                <Group>
-                    {romanizationVisible && currentWord.romanization && (
-                        <Text size={textInfoSize(width)} c="dimmed">
-                            {`(${currentWord.romanization})`}
-                        </Text>
-                    )}
-                    {showWordType && currentWord.type && (
-                        <Pill size={textInfoSize(width)}>
-                            {currentWord.type}
-                        </Pill>
-                    )}
-                </Group>
-                <Group gap={5} align="center" justify="end" wrap="nowrap">
-                    <Badge
-                        size={textInfoSize(width)}
-                        color={guessesBadgeColor(
-                            guessedCount,
-                            translationCount
-                        )}
-                    >{`${guessedCount} of ${translationCount}`}</Badge>
-                    <Text c="dimmed" size={textInfoSize(width)}>
-                        answered
-                    </Text>
-                </Group>
-            </Group>
             <Space h={"sm"} />
         </Box>
     );

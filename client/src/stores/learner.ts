@@ -4,9 +4,11 @@ import autoBind from "auto-bind";
 import { shuffle } from "./utils/shuffle";
 import { PracticeMode, Word } from "../types";
 import LibraryStore from "./library";
+import SettingsStore from "./settings";
 
 export default class LearnerStore {
     libraryStore: LibraryStore;
+    settingsStore: SettingsStore;
     wordIndex: number = 0;
     currentGuess: string = "";
     guessIsCorrect: boolean = false;
@@ -15,9 +17,10 @@ export default class LearnerStore {
     practiceMode: PracticeMode = "lang_to_eng";
     words: Word[] = [];
 
-    constructor(libraryStore: LibraryStore) {
+    constructor(libraryStore: LibraryStore, settingsStore: SettingsStore) {
         makeAutoObservable(this);
         this.libraryStore = libraryStore;
+        this.settingsStore = settingsStore;
         autoBind(this);
     }
 
@@ -26,7 +29,7 @@ export default class LearnerStore {
             JSON.stringify(this.libraryStore.practiceLibrary[this.practiceMode])
         );
 
-        if (this.libraryStore.randomize) shuffle(this.words);
+        if (this.settingsStore.randomize) shuffle(this.words);
         this.wordIndex = 0;
         this.guessIsCorrect = false;
         this.answerRevealed = false;

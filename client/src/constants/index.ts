@@ -2,6 +2,7 @@ import { WordType } from "../types";
 
 export const flags = {
     korean: "🇰🇷",
+    tomikorean: "🇰🇷",
     japanese: "🇯🇵",
     spanish: "🇪🇸",
     swedish: "🇸🇪",
@@ -24,6 +25,7 @@ export const wordTypes: WordType[] = [
 
 export const languages = {
     korean: "🇰🇷 Korean",
+    tomikorean: "🇰🇷 Tomi Korean",
     japanese: "🇯🇵 Japanese",
     spanish: "🇪🇸 Spanish",
     swedish: "🇸🇪 Swedish",

@@ -1,5 +1,4 @@
 import {
-    Badge,
     Button,
     Group,
     Kbd,
@@ -8,6 +7,7 @@ import {
     Text,
     Grid,
     Box,
+    Flex,
 } from "@mantine/core";
 import {
     HotkeyItem,
@@ -19,12 +19,7 @@ import { observer } from "mobx-react-lite";
 
 import { useMobxStores } from "../../../hooks/useMobxStores";
 import { useState } from "react";
-
-const guessesBadgeColor = (guessedCount: number, translationCount: number) => {
-    if (guessedCount === 0) return "gray";
-    if (guessedCount === translationCount) return "green";
-    return "blue";
-};
+import { OptionsButton } from "./Options";
 
 const inputSize = (width: number) => {
     if (width > 600) return "xl";
@@ -42,9 +37,6 @@ export const AnswerBox = observer(() => {
             currentGuess,
             setCurrentGuess,
             canContinue,
-            guessedCount,
-            translationCount,
-            guessedTranslations,
             remainingCount,
         },
     } = useMobxStores();
@@ -91,34 +83,20 @@ export const AnswerBox = observer(() => {
         setCurrentGuess(e.target.value);
     };
 
-    const Guesses = () => (
-        <Group gap={5}>
-            <Badge
-                size="sm"
-                color={guessesBadgeColor(guessedCount, translationCount)}
-            >{`${guessedCount} of ${translationCount}`}</Badge>
-            {guessedTranslations.map((t) => (
-                <Badge size="sm" color="green" tt="none" key={t}>
-                    {t}
-                </Badge>
-            ))}
-            {answerRevealed &&
-                remainingAnswers.length &&
-                remainingAnswers.map((t) => (
-                    <Badge size="sm" color="yellow" tt="none" key={t}>
-                        {t}
-                    </Badge>
-                ))}
-        </Group>
-    );
-
-    const ShowAnswerButton = ({ fullWidth }: { fullWidth?: boolean }) => (
+    const ShowAnswerButton = ({
+        fullWidth,
+        flex,
+    }: {
+        fullWidth?: boolean;
+        flex?: number;
+    }) => (
         <Button
             leftSection={<Kbd>1</Kbd>}
             disabled={answerRevealed || !remainingCount}
             variant="default"
             onClick={showAnswer}
             fullWidth={fullWidth}
+            flex={flex}
         >
             Show answer
         </Button>
@@ -171,14 +149,18 @@ export const AnswerBox = observer(() => {
             <Space h="sm" />
             <Group justify="end">
                 <Group visibleFrom="md">
+                    <OptionsButton />
                     <ShowAnswerButton />
                     <SkipButton />
                 </Group>
                 <Grid hiddenFrom="md" w="100%">
-                    <Grid.Col span={6}>
-                        <ShowAnswerButton fullWidth />
+                    <Grid.Col span={8}>
+                        <Flex gap="md">
+                            <OptionsButton />
+                            <ShowAnswerButton flex={1} />
+                        </Flex>
                     </Grid.Col>
-                    <Grid.Col span={6}>
+                    <Grid.Col span={4}>
                         <SkipButton fullWidth />
                     </Grid.Col>
                 </Grid>

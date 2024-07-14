@@ -1,0 +1,402 @@
+[
+    {
+        "word": "옷",
+        "romanization": "ot",
+        "translations": ["clothes"],
+        "type": "noun",
+        "id": "cb115e12-c26b-4ed7-91e0-9958f9b51430",
+        "category": "household items"
+    },
+    {
+        "word": "속엇",
+        "romanization": "so-got",
+        "translations": ["underwear"],
+        "type": "noun",
+        "id": "612cb91c-4bb4-40e6-8580-1424dfc5f155",
+        "category": "household items"
+    },
+    {
+        "word": "신발",
+        "romanization": "sin-bal",
+        "translations": ["shoes"],
+        "type": "noun",
+        "id": "fbeeb7d2-b2d3-4b92-be8d-4f84e23dc20f",
+        "category": "household items"
+    },
+    {
+        "word": "양말",
+        "romanization": "yang-mal",
+        "translations": ["socks"],
+        "type": "noun",
+        "id": "95f52bfa-5c67-4c62-b374-6b04f65096f6",
+        "category": "household items"
+    },
+    {
+        "word": "가방",
+        "romanization": "ga-bang",
+        "translations": ["bag"],
+        "type": "noun",
+        "id": "935ec9dd-36ff-452e-a1b5-f10a200d05ef",
+        "category": "household items"
+    },
+    {
+        "word": "모자",
+        "romanization": "mo-ja",
+        "translations": ["hat"],
+        "type": "noun",
+        "id": "5f190f00-be4d-458d-8eed-eb687b11d3ce",
+        "category": "household items"
+    },
+    {
+        "word": "그릇",
+        "romanization": "geu-reut",
+        "translations": ["bowl"],
+        "type": "noun",
+        "id": "6ccd1e76-efec-4a1a-adac-595b015de082",
+        "category": "household items"
+    },
+    {
+        "word": "접시",
+        "romanization": "jeob-si",
+        "translations": ["plate"],
+        "type": "noun",
+        "id": "02e677b9-6717-490f-9fca-c4664acfa52d",
+        "category": "household items"
+    },
+    {
+        "word": "숟가락",
+        "romanization": "sut-kka-rak",
+        "translations": ["spoon"],
+        "type": "noun",
+        "id": "868ae598-77ba-41f3-930c-bc07d3731892",
+        "category": "household items"
+    },
+    {
+        "word": "젓가락",
+        "romanization": "jeot-kka-rak",
+        "translations": ["chopsticks"],
+        "type": "noun",
+        "id": "605b9e2c-a7ef-4a9f-8656-041022658c4d",
+        "category": "household items"
+    },
+    {
+        "word": "포크",
+        "romanization": "po-keu",
+        "translations": ["fork"],
+        "type": "noun",
+        "id": "899e8dae-2f83-4912-8f09-76d26f45c537",
+        "category": "household items"
+    },
+    {
+        "word": "나이프",
+        "romanization": "na-i-peu",
+        "translations": ["knife"],
+        "type": "noun",
+        "id": "04b7f162-71cf-4676-9208-63d715c1a2f6",
+        "category": "household items"
+    },
+    {
+        "word": "냄비",
+        "romanization": "naem-bi",
+        "translations": ["cooking pot"],
+        "type": "noun",
+        "id": "59886cdb-1b8f-4010-a5cd-8a86b5cd0f17",
+        "category": "household items"
+    },
+    {
+        "word": "프라이팬",
+        "romanization": "peu-ra-i-paen",
+        "translations": ["frying pan"],
+        "type": "noun",
+        "id": "e5094119-6ce9-4198-8b64-69332426a967",
+        "category": "household items"
+    },
+    {
+        "word": "주전자",
+        "romanization": "ju-jeon-ja",
+        "translations": ["kettle"],
+        "type": "noun",
+        "id": "3a18b654-e725-45f8-9a35-cee078d0e139",
+        "category": "household items"
+    },
+    {
+        "word": "컵",
+        "romanization": "keob",
+        "translations": ["cup"],
+        "type": "noun",
+        "id": "da5b52f2-293e-4bb3-b8a0-b3b13c6e3abb",
+        "category": "household items"
+    },
+    {
+        "word": "식칼",
+        "romanization": "sik-kal",
+        "translations": ["kitchen knife"],
+        "type": "noun",
+        "id": "e0d262e6-424b-4aa4-939f-1873941c6ff3",
+        "category": "household items"
+    },
+    {
+        "word": "도마",
+        "romanization": "do-ma",
+        "translations": ["chopping board"],
+        "type": "noun",
+        "id": "c13cd4ad-d00c-4a15-a141-638a0b9e73f4",
+        "category": "household items"
+    },
+    {
+        "word": "수건",
+        "romanization": "su-geon",
+        "translations": ["towel"],
+        "type": "noun",
+        "id": "f936d738-b99e-4993-9453-1de6ca0e3bd4",
+        "category": "household items"
+    },
+    {
+        "word": "휴지",
+        "romanization": "hyu-ji",
+        "translations": ["toilet paper"],
+        "type": "noun",
+        "id": "29a89dcb-12fe-442d-9389-d6376d376443",
+        "category": "household items"
+    },
+    {
+        "word": "칫솔",
+        "romanization": "chit-ssol",
+        "translations": ["toothbrush"],
+        "type": "noun",
+        "id": "72a435aa-d339-4cfc-a13a-b3ad54ccc0ac",
+        "category": "household items"
+    },
+    {
+        "word": "치약",
+        "romanization": "chi-yak",
+        "translations": ["toothpaste"],
+        "type": "noun",
+        "id": "62eb028f-2189-4eaf-9528-69049c9aca44",
+        "category": "household items"
+    },
+    {
+        "word": "비누",
+        "romanization": "bi-nu",
+        "translations": ["soap"],
+        "type": "noun",
+        "id": "c7994ac9-76e7-4ce8-94b2-61b36ce3b2e6",
+        "category": "household items"
+    },
+    {
+        "word": "화장품",
+        "romanization": "hwa-jang-pum",
+        "translations": ["cosmetics"],
+        "type": "noun",
+        "id": "1abea654-cdeb-4d2d-b42f-097c078a8443",
+        "category": "household items"
+    },
+    {
+        "word": "이불",
+        "romanization": "i-bul",
+        "translations": ["duvet"],
+        "type": "noun",
+        "id": "708ce380-e480-4534-a5c3-1b4fdd9b027f",
+        "category": "household items"
+    },
+    {
+        "word": "베개",
+        "romanization": "be-gae",
+        "translations": ["pillow"],
+        "type": "noun",
+        "id": "fff2d703-3eb8-458a-a007-6b9a49c5d24b",
+        "category": "household items"
+    },
+    {
+        "word": "담요",
+        "romanization": "dam-nyo",
+        "translations": ["blanket"],
+        "type": "noun",
+        "id": "f0c1a722-084c-46fa-ac14-11a563544745",
+        "category": "household items"
+    },
+    {
+        "word": "쿠션",
+        "romanization": "ku-syeon",
+        "translations": ["cushion"],
+        "type": "noun",
+        "id": "b550fec9-ea0c-4617-bfd7-ea8943b00d1e",
+        "category": "household items"
+    },
+    {
+        "word": "화분",
+        "romanization": "hwa-bun",
+        "translations": ["potted plant"],
+        "type": "noun",
+        "id": "5bceaed8-4435-4686-b1e8-3b3de583a314",
+        "category": "household items"
+    },
+    {
+        "word": "액자",
+        "romanization": "aek-ja",
+        "translations": ["frame"],
+        "type": "noun",
+        "id": "c3ec3f21-0eea-4d83-be50-b3575bcec598",
+        "category": "household items"
+    },
+    {
+        "word": "책",
+        "romanization": "chaek",
+        "translations": ["book"],
+        "type": "noun",
+        "id": "867d023e-3d2f-4146-97fd-104b2e6dc29f",
+        "category": "household items"
+    },
+    {
+        "word": "공책",
+        "romanization": "gong-chaek",
+        "translations": ["notebook"],
+        "type": "noun",
+        "id": "e1452100-f09e-4a43-bc1e-f637d077a927",
+        "category": "household items"
+    },
+    {
+        "word": "펜",
+        "romanization": "pen",
+        "translations": ["pen"],
+        "type": "noun",
+        "id": "802ec81d-6d0c-4a22-bdc1-2b79e7b6a2fd",
+        "category": "household items"
+    },
+    {
+        "word": "연필",
+        "romanization": "yeon-pil",
+        "translations": ["pencil"],
+        "type": "noun",
+        "id": "2cc9bd5b-5b01-4e4d-8fc5-4870d3d75316",
+        "category": "household items"
+    },
+    {
+        "word": "필통",
+        "romanization": "pil-tong",
+        "translations": ["pencilcase"],
+        "type": "noun",
+        "id": "17fd312e-1792-49a4-abcb-3ae358e12b23",
+        "category": "household items"
+    },
+    {
+        "word": "지우개",
+        "romanization": "ji-u-gae",
+        "translations": ["eraser"],
+        "type": "noun",
+        "id": "4c59c418-7b21-49a6-9b01-221b4b2aa416",
+        "category": "household items"
+    },
+    {
+        "word": "컴퓨터",
+        "romanization": "keom-pyu-teo",
+        "translations": ["computer"],
+        "type": "noun",
+        "id": "c31567f9-01a9-455f-9964-492e037709b6",
+        "category": "household items"
+    },
+    {
+        "word": "노트북",
+        "romanization": "no-teu-buk",
+        "translations": ["laptop"],
+        "type": "noun",
+        "id": "d1dc8628-eb28-4a2c-9678-078520c784a2",
+        "category": "household items"
+    },
+    {
+        "word": "모니터",
+        "romanization": "mo-ni-teo",
+        "translations": ["monitor"],
+        "type": "noun",
+        "id": "0b841684-6e6b-414e-b76e-1d916c02fb60",
+        "category": "household items"
+    },
+    {
+        "word": "키보드",
+        "romanization": "ki-bo-deu",
+        "translations": ["keyboard"],
+        "type": "noun",
+        "id": "336bc769-5dcc-4384-9ece-5db58743a7c4",
+        "category": "household items"
+    },
+    {
+        "word": "마우스",
+        "romanization": "ma-u-seu",
+        "translations": ["mouse"],
+        "type": "noun",
+        "id": "d84fbc62-548c-4123-9a43-53fc6ff21b6a",
+        "category": "household items"
+    },
+    {
+        "word": "프린터",
+        "romanization": "peu-lin-teo",
+        "translations": ["printer"],
+        "type": "noun",
+        "id": "a2077461-f070-4019-9051-7a84478a7e06",
+        "category": "household items"
+    },
+    {
+        "word": "핸드폰",
+        "romanization": "haen-deu-pon",
+        "translations": ["cell phone"],
+        "type": "noun",
+        "id": "2251c3a6-4488-403f-bf41-2b5295ee13a9",
+        "category": "household items"
+    },
+    {
+        "word": "충전기",
+        "romanization": "chung-jeon-gi",
+        "translations": ["charger"],
+        "type": "noun",
+        "id": "4cd88215-4f67-4616-83a4-40219bd0926e",
+        "category": "household items"
+    },
+    {
+        "word": "스피커",
+        "romanization": "seu-pi-keo",
+        "translations": ["speaker"],
+        "type": "noun",
+        "id": "46ffcf69-b13b-42a0-977c-88f258a678f5",
+        "category": "household items"
+    },
+    {
+        "word": "리모컨",
+        "romanization": "li-mo-keon",
+        "translations": ["remote control"],
+        "type": "noun",
+        "id": "32acf0b9-281e-41fd-9283-82360286fb36",
+        "category": "household items"
+    },
+    {
+        "word": "열쇠",
+        "romanization": "yeol-soe",
+        "translations": ["key"],
+        "type": "noun",
+        "id": "97afe8b0-c072-4ab8-87da-1809df50010a",
+        "category": "household items"
+    },
+    {
+        "word": "지갑",
+        "romanization": "ji-gab",
+        "translations": ["wallet"],
+        "type": "noun",
+        "id": "a59f1f43-9f09-47d9-ad75-90a0ac40f948",
+        "category": "household items"
+    },
+    {
+        "word": "그림",
+        "romanization": "geu-lim",
+        "translations": ["painting"],
+        "type": "noun",
+        "id": "32083e57-cf07-477b-b3b6-a820f868f108",
+        "category": "household items"
+    },
+    {
+        "word": "사진",
+        "romanization": "sa-jin",
+        "translations": ["photo"],
+        "type": "noun",
+        "id": "efda28ca-f824-44b7-ae11-bdd52184f366",
+        "category": "household items"
+    }
+]

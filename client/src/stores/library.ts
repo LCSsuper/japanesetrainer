@@ -6,6 +6,7 @@ import japaneseLibrary from "./data/0-1000-japanese.json";
 import spanishLibrary from "./data/0-1000-spanish.json";
 import swedishLibrary from "./data/0-1000-swedish.json";
 import koreanLibrary from "./data/common-korean.json";
+import tomiKoreanLibrary from "./data/tomi-korean.json";
 import arabicLibrary from "./data/0-100-arabic.json";
 import { Language, Word, WordType } from "../types";
 import { flags } from "../constants";
@@ -54,6 +55,10 @@ const libraries: {
         lang_to_eng: koreanLibrary as Word[],
         eng_to_lang: invertLibrary(koreanLibrary as Word[]),
     },
+    tomikorean: {
+        lang_to_eng: tomiKoreanLibrary as Word[],
+        eng_to_lang: invertLibrary(tomiKoreanLibrary as Word[]),
+    },
     arabic: {
         lang_to_eng: arabicLibrary,
         eng_to_lang: invertLibrary(arabicLibrary),
@@ -62,9 +67,6 @@ const libraries: {
 
 export default class LibraryStore {
     range: [number, number] = [0, 10];
-    showRomanization: boolean = true;
-    showWordType: boolean = true;
-    randomize: boolean = true;
     language: Language = "korean";
     selectedWordIds: Set<string> = new Set();
     selectionMode: "range" | "custom" = "range";
@@ -83,21 +85,6 @@ export default class LibraryStore {
 
     setRange = (from: number, to: number) => {
         this.range = [from, to];
-        this.saveLibraryOptionsToLocalStorage();
-    };
-
-    setShowRomanization = (showRomanization: boolean) => {
-        this.showRomanization = showRomanization;
-        this.saveLibraryOptionsToLocalStorage();
-    };
-
-    setShowWordType = (showWordType: boolean) => {
-        this.showWordType = showWordType;
-        this.saveLibraryOptionsToLocalStorage();
-    };
-
-    setRandomize = (randomize: boolean) => {
-        this.randomize = randomize;
         this.saveLibraryOptionsToLocalStorage();
     };
 
@@ -122,9 +109,6 @@ export default class LibraryStore {
             "libraryOptions",
             JSON.stringify({
                 range: this.range,
-                showRomanization: this.showRomanization,
-                showWordType: this.showWordType,
-                randomize: this.randomize,
                 language: this.language,
                 selectionMode: this.selectionMode,
                 selectedWordIds: Array.from(this.selectedWordIds),
@@ -137,18 +121,12 @@ export default class LibraryStore {
         if (!libraryOptions) return;
         const {
             range = [0, 10],
-            showRomanization = true,
-            showWordType = true,
-            randomize = true,
             language = "korean" as Language,
             selectionMode = "range" as "range" | "custom",
             selectedWordIds = [],
         } = JSON.parse(libraryOptions);
 
         this.setRange(range[0], range[1]);
-        this.setShowRomanization(showRomanization);
-        this.setShowWordType(showWordType);
-        this.setRandomize(randomize);
         this.setLanguage(language);
         this.setSelectionMode(selectionMode);
         this.selectedWordIds = new Set(selectedWordIds);

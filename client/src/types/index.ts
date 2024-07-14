@@ -21,7 +21,13 @@ export type WordType =
     | "pronoun"
     | "interjection";
 
-export type Language = "korean" | "japanese" | "spanish" | "swedish" | "arabic";
+export type Language =
+    | "korean"
+    | "japanese"
+    | "spanish"
+    | "swedish"
+    | "arabic"
+    | "tomikorean";
 
 export type Library = {
     lang_to_eng: Word[];

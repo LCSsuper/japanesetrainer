@@ -1,31 +1,13 @@
-import { Card, Text, Title, Space, Group, Badge, Button } from "@mantine/core";
+import { Card, Text, Title, Space, Group, Button } from "@mantine/core";
 import { IconBooks } from "@tabler/icons-react";
 
 import { useMobxStores } from "../../../hooks/useMobxStores";
 import { observer } from "mobx-react-lite";
 
-const ToggleInfo = ({ enabled, text }: { enabled: boolean; text: string }) => (
-    <Group gap={5} pb=".2rem">
-        <Text c="dimmed" size="xs">
-            {text}
-        </Text>
-        <Badge color={enabled ? "cyan" : "gray"} size="xs">
-            {enabled ? "on" : "off"}
-        </Badge>
-    </Group>
-);
-
 export const LibraryInfoCard = observer(() => {
     const {
         routerStore: { setCurrentRoute },
-        libraryStore: {
-            library,
-            practiceLibrary,
-            showRomanization,
-            showWordType,
-            randomize,
-            language,
-        },
+        libraryStore: { library, practiceLibrary, language },
     } = useMobxStores();
 
     return (
@@ -48,12 +30,6 @@ export const LibraryInfoCard = observer(() => {
                                             words.`}
                 </Text>
                 <Space h={"sm"} />
-                <ToggleInfo
-                    enabled={showRomanization}
-                    text="Show romanization is"
-                />
-                <ToggleInfo enabled={showWordType} text="Show word type is" />
-                <ToggleInfo enabled={randomize} text="Randomize words is" />
                 <Space h={"sm"} />
                 <Group justify="end">
                     <Button
