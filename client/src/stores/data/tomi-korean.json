@@ -398,5 +398,3045 @@
         "type": "noun",
         "id": "efda28ca-f824-44b7-ae11-bdd52184f366",
         "category": "household items"
+    },
+    {
+        "word": "먹다",
+        "romanization": "meok-tta",
+        "translations": ["to eat"],
+        "type": "verb",
+        "id": "51e21b49-a8d7-4041-95cf-67e9cbba0df8",
+        "category": "daily life"
+    },
+    {
+        "word": "마시다",
+        "romanization": "ma-si-da",
+        "translations": ["to drink"],
+        "type": "verb",
+        "id": "b22bbf65-c881-4e0f-a2b9-826ddac503e0",
+        "category": "daily life"
+    },
+    {
+        "word": "자다",
+        "romanization": "ja-da",
+        "translations": ["to sleep"],
+        "type": "verb",
+        "id": "6181b84b-8ff6-4579-b016-233f2cc74a1c",
+        "category": "daily life"
+    },
+    {
+        "word": "일어나다",
+        "romanization": "i-l-eo-na-da",
+        "translations": ["to get up"],
+        "type": "verb",
+        "id": "1cb261cc-3749-4d2e-91c5-238aecdb5f22",
+        "category": "daily life"
+    },
+    {
+        "word": "앉다",
+        "romanization": "an-tta",
+        "translations": ["to sit"],
+        "type": "verb",
+        "id": "2818ca0b-5b46-45ac-9cea-91964add6b05",
+        "category": "daily life"
+    },
+    {
+        "word": "눕다",
+        "romanization": "nuptta",
+        "translations": ["to lie"],
+        "type": "verb",
+        "id": "7ebba180-b657-42b1-856c-02f28f32216d",
+        "category": "daily life"
+    },
+    {
+        "word": "가다",
+        "romanization": "ga-da",
+        "translations": ["to go"],
+        "type": "verb",
+        "id": "c86797d3-de71-4d35-aa07-98f56d609edb",
+        "category": "daily life"
+    },
+    {
+        "word": "오다",
+        "romanization": "o-da",
+        "translations": ["to come"],
+        "type": "verb",
+        "id": "c05d8950-2744-44e7-97bd-5e2029888fa4",
+        "category": "daily life"
+    },
+    {
+        "word": "걷다",
+        "romanization": "geot-tta",
+        "translations": ["to walk"],
+        "type": "verb",
+        "id": "e77ce1d6-bda1-4544-a549-14a1e6e46751",
+        "category": "daily life"
+    },
+    {
+        "word": "뛰다",
+        "romanization": "ttwi-da",
+        "translations": ["to run"],
+        "type": "verb",
+        "id": "c029a106-926e-4d8c-b672-f2a13fe0c7af",
+        "category": "daily life"
+    },
+    {
+        "word": "타다",
+        "romanization": "ta-da",
+        "translations": ["to get on", "to ride"],
+        "type": "verb",
+        "id": "d05ad7b6-4828-471a-924c-aa2e7ec421bf",
+        "category": "daily life"
+    },
+    {
+        "word": "내리다",
+        "romanization": "nae-li-da",
+        "translations": ["to get off"],
+        "type": "verb",
+        "id": "cec74c35-f0e4-4205-8b21-c977b988ebe1",
+        "category": "daily life"
+    },
+    {
+        "word": "입다",
+        "romanization": "ip-tta",
+        "translations": ["to wear"],
+        "type": "verb",
+        "id": "901e9244-22aa-440f-91c9-bfc3460f308e",
+        "category": "daily life"
+    },
+    {
+        "word": "벗다",
+        "romanization": "beot-tta",
+        "translations": ["to take off"],
+        "type": "verb",
+        "id": "1625d5b5-62af-4de5-a407-2f956ed7ac9a",
+        "category": "daily life"
+    },
+    {
+        "word": "신다",
+        "romanization": "sin-tta",
+        "translations": ["to wear (shoes)"],
+        "type": "verb",
+        "id": "4212eff8-9116-4e7d-a883-cc453f74bae5",
+        "category": "daily life"
+    },
+    {
+        "word": "씻다",
+        "romanization": "ssit-tta",
+        "translations": ["to wash"],
+        "type": "verb",
+        "id": "e64ceaa9-3c50-48fd-a62b-7f092fd6b428",
+        "category": "daily life"
+    },
+    {
+        "word": "놀다",
+        "romanization": "nol-da",
+        "translations": ["to play"],
+        "type": "verb",
+        "id": "5a77955c-b42e-49e2-ab2f-7435865e4561",
+        "category": "daily life"
+    },
+    {
+        "word": "쉬다",
+        "romanization": "swi-da",
+        "translations": ["to rest"],
+        "type": "verb",
+        "id": "a55870ab-e71c-4c44-8161-00b260f692f8",
+        "category": "daily life"
+    },
+    {
+        "word": "주다",
+        "romanization": "ju-da",
+        "translations": ["to give"],
+        "type": "verb",
+        "id": "cc7f80f1-35ae-4f30-80a5-e09e2160f285",
+        "category": "daily life"
+    },
+    {
+        "word": "받다",
+        "romanization": "bat-tta",
+        "translations": ["to get", "to receive"],
+        "type": "verb",
+        "id": "6bb91779-f6b4-4677-8f40-e32af2f29056",
+        "category": "daily life"
+    },
+    {
+        "word": "사다",
+        "romanization": "sa-da",
+        "translations": ["to buy"],
+        "type": "verb",
+        "id": "da280a12-cd8b-4ff2-a511-d9c1b49f28f0",
+        "category": "daily life"
+    },
+    {
+        "word": "팔다",
+        "romanization": "pal-da",
+        "translations": ["to sell"],
+        "type": "verb",
+        "id": "eaa93f01-c62b-443f-977b-fd2378294290",
+        "category": "daily life"
+    },
+    {
+        "word": "가지다",
+        "romanization": "ga-ji-da",
+        "translations": ["to have"],
+        "type": "verb",
+        "id": "891b4a54-c110-49f9-b288-8219617831e6",
+        "category": "daily life"
+    },
+    {
+        "word": "버리다",
+        "romanization": "beo-li-da",
+        "translations": ["to throw away"],
+        "type": "verb",
+        "id": "38728685-d208-48b9-aeb7-d32eb4f97526",
+        "category": "daily life"
+    },
+    {
+        "word": "보다",
+        "romanization": "bo-da",
+        "translations": ["to see"],
+        "type": "verb",
+        "id": "abe3c36a-7527-4e4a-9f80-b1f11989365d",
+        "category": "daily life"
+    },
+    {
+        "word": "듣다",
+        "romanization": "deut-tta",
+        "translations": ["to listen"],
+        "type": "verb",
+        "id": "a409585b-a19b-4919-b9ca-fa45ffaf12fa",
+        "category": "daily life"
+    },
+    {
+        "word": "읽다",
+        "romanization": "ik-tta",
+        "translations": ["to read"],
+        "type": "verb",
+        "id": "e96f6b76-698d-4e7c-a8f8-3c9277b3276b",
+        "category": "daily life"
+    },
+    {
+        "word": "쓰다",
+        "romanization": "sseu-da",
+        "translations": ["to write"],
+        "type": "verb",
+        "id": "5632d58e-1fe6-45c5-9336-cf4c7c90de62",
+        "category": "daily life"
+    },
+    {
+        "word": "만나다",
+        "romanization": "man-na-da",
+        "translations": ["to meet"],
+        "type": "verb",
+        "id": "3c3b9a20-f00a-4fa4-9bbc-be4eed37c6c0",
+        "category": "daily life"
+    },
+    {
+        "word": "만들다",
+        "romanization": "man-deul-da",
+        "translations": ["to make"],
+        "type": "verb",
+        "id": "29424307-80e4-4e20-9335-8d645528fc0e",
+        "category": "daily life"
+    },
+    {
+        "word": "가르치다",
+        "romanization": "ga-leu-chi-da",
+        "translations": ["to teach"],
+        "type": "verb",
+        "id": "15a92dfb-a549-4273-b7b7-d2ff31de9c86",
+        "category": "daily life"
+    },
+    {
+        "word": "배우다",
+        "romanization": "bae-u-da",
+        "translations": ["to learn"],
+        "type": "verb",
+        "id": "f760b4a4-ca64-47da-81b7-9d1161307d33",
+        "category": "daily life"
+    },
+    {
+        "word": "알다",
+        "romanization": "al-da",
+        "translations": ["to know"],
+        "type": "verb",
+        "id": "743c8cd2-b51a-4d42-a268-8768104bcf0b",
+        "category": "daily life"
+    },
+    {
+        "word": "모르다",
+        "romanization": "mo-leu-da",
+        "translations": ["don't know"],
+        "type": "verb",
+        "id": "ce22ecee-9876-40ee-8212-d0c5109f902f",
+        "category": "daily life"
+    },
+    {
+        "word": "묻다",
+        "romanization": "mut-tta",
+        "translations": ["to ask"],
+        "type": "verb",
+        "id": "12d79755-b60c-48dc-a8dc-20b2af90d354",
+        "category": "daily life"
+    },
+    {
+        "word": "돕다",
+        "romanization": "dop-tta",
+        "translations": ["to help"],
+        "type": "verb",
+        "id": "dbe5a78e-3139-4786-97a0-95fb32f4dfd9",
+        "category": "daily life"
+    },
+    {
+        "word": "열다",
+        "romanization": "yeol-da",
+        "translations": ["to open"],
+        "type": "verb",
+        "id": "da04fab5-cad2-48dd-8b21-9e259bb89072",
+        "category": "daily life"
+    },
+    {
+        "word": "닫다",
+        "romanization": "dat-tta",
+        "translations": ["to close"],
+        "type": "verb",
+        "id": "378bbf7d-4f94-4d91-8762-0ba1ddf6de3c",
+        "category": "daily life"
+    },
+    {
+        "word": "켜다",
+        "romanization": "kyeo-da",
+        "translations": ["to turn on"],
+        "type": "verb",
+        "id": "e433b20e-0c34-484a-b5fc-3882fbcdbda2",
+        "category": "daily life"
+    },
+    {
+        "word": "끄다",
+        "romanization": "kkeu-da",
+        "translations": ["to turn off"],
+        "type": "verb",
+        "id": "ac8bfcf4-fed3-489a-a1eb-253d883a6e4c",
+        "category": "daily life"
+    },
+    {
+        "word": "찾다",
+        "romanization": "chat-tta",
+        "translations": ["to look for"],
+        "type": "verb",
+        "id": "6baf870b-2305-4b83-9997-6997fbdee223",
+        "category": "daily life"
+    },
+    {
+        "word": "잃다",
+        "romanization": "il-ta",
+        "translations": ["to lose"],
+        "type": "verb",
+        "id": "afbc7b87-fbac-4ac2-bf85-e66da847c96c",
+        "category": "daily life"
+    },
+    {
+        "word": "살다",
+        "romanization": "sal-da",
+        "translations": ["to live"],
+        "type": "verb",
+        "id": "3b298694-4871-4ef5-af62-e81b2543398c",
+        "category": "daily life"
+    },
+    {
+        "word": "죽다",
+        "romanization": "juk-tta",
+        "translations": ["to die"],
+        "type": "verb",
+        "id": "17f3303f-b05a-44ac-a15c-7dc16b1dbde9",
+        "category": "daily life"
+    },
+    {
+        "word": "되다",
+        "romanization": "dwe-da",
+        "translations": ["to become"],
+        "type": "verb",
+        "id": "50fa757d-81a8-4eee-95b5-e2541e6d198e",
+        "category": "daily life"
+    },
+    {
+        "word": "변하다",
+        "romanization": "byeon-ha-da",
+        "translations": ["to change"],
+        "type": "verb",
+        "id": "bb3e7a0f-26c9-426e-b429-25f71bfca848",
+        "category": "daily life"
+    },
+    {
+        "word": "웃다",
+        "romanization": "ut-tta",
+        "translations": ["to laugh"],
+        "type": "verb",
+        "id": "a7820505-77ac-4c27-82aa-e156c74336ed",
+        "category": "daily life"
+    },
+    {
+        "word": "울다",
+        "romanization": "ul-da",
+        "translations": ["to cry"],
+        "type": "verb",
+        "id": "e48c4235-8f70-46ba-9498-955d20f3846a",
+        "category": "daily life"
+    },
+    {
+        "word": "끝나다",
+        "romanization": "kkeun-na-da",
+        "translations": ["to be over"],
+        "type": "verb",
+        "id": "3a366df9-75e6-44cd-94a2-273a6fe64dcb",
+        "category": "daily life"
+    },
+    {
+        "word": "끝내다",
+        "romanization": "kkeun-nae-da",
+        "translations": ["to finish"],
+        "type": "verb",
+        "id": "00715fca-d1ff-445f-8a8b-d5407243c56b",
+        "category": "daily life"
+    },
+    {
+        "word": "집",
+        "romanization": "jib",
+        "translations": ["home"],
+        "type": "noun",
+        "id": "b0f47e2a-3e65-48e0-b9da-4d93c86e6e74",
+        "category": "places"
+    },
+    {
+        "word": "학교",
+        "romanization": "hak-gyo",
+        "translations": ["school"],
+        "type": "noun",
+        "id": "ab10665b-d060-4c69-be9e-3040a3d85dec",
+        "category": "places"
+    },
+    {
+        "word": "회사",
+        "romanization": "hoe-as",
+        "translations": ["company"],
+        "type": "noun",
+        "id": "dead3f30-bcc3-466c-b316-3a2b7ab90fb3",
+        "category": "places"
+    },
+    {
+        "word": "가게",
+        "romanization": "ga-ge",
+        "translations": ["shop"],
+        "type": "noun",
+        "id": "49ca9453-a3d8-41e9-878a-1b47c9895839",
+        "category": "places"
+    },
+    {
+        "word": "식당",
+        "romanization": "sik-dang",
+        "translations": ["restaurant"],
+        "type": "noun",
+        "id": "9a35efff-09ab-4420-9a53-40db2e9e015e",
+        "category": "places"
+    },
+    {
+        "word": "커피숍",
+        "romanization": "keo-pi-syob",
+        "translations": ["coffee shop"],
+        "type": "noun",
+        "id": "a1c677de-3125-421b-97be-764323f2f971",
+        "category": "places"
+    },
+    {
+        "word": "술집",
+        "romanization": "sul-jib",
+        "translations": ["bar", "pub"],
+        "type": "noun",
+        "id": "777c0b8e-2ead-4138-ad58-baa418196a05",
+        "category": "places"
+    },
+    {
+        "word": "노래방",
+        "romanization": "no-lae-bang",
+        "translations": ["karaoke"],
+        "type": "noun",
+        "id": "0cf8ecf1-d5af-458c-9802-b77f956532d6",
+        "category": "places"
+    },
+    {
+        "word": "슈퍼마켓",
+        "romanization": "syu-peo-ma-ket",
+        "translations": ["supermarket (small)"],
+        "type": "noun",
+        "id": "31aff7b3-1ab5-485c-8290-647809058e11",
+        "category": "places"
+    },
+    {
+        "word": "마트",
+        "romanization": "ma-teu",
+        "translations": ["mart (big)"],
+        "type": "noun",
+        "id": "87fd5cdc-0e11-41b0-b689-6d860f8e8dcd",
+        "category": "places"
+    },
+    {
+        "word": "편의점",
+        "romanization": "pyeo-n-ui-jeom",
+        "translations": ["convenience store"],
+        "type": "noun",
+        "id": "397fe520-8e0b-432f-9f53-bea3a6902589",
+        "category": "places"
+    },
+    {
+        "word": "시장",
+        "romanization": "si-jang",
+        "translations": ["market (open air)"],
+        "type": "noun",
+        "id": "0a7bd953-f950-44df-a780-f87103df68fe",
+        "category": "places"
+    },
+    {
+        "word": "백화점",
+        "romanization": "baek-hwa-jeom",
+        "translations": ["department store"],
+        "type": "noun",
+        "id": "05f6a7b2-9b40-4c78-9a5d-143374a0c88e",
+        "category": "places"
+    },
+    {
+        "word": "옷가게",
+        "romanization": "ot-ga-ge",
+        "translations": ["clothing store"],
+        "type": "noun",
+        "id": "d60e6f2b-0bd3-400f-9eaa-d40b101ac897",
+        "category": "places"
+    },
+    {
+        "word": "꽃집",
+        "romanization": "kkot-jib",
+        "translations": ["flower shop"],
+        "type": "noun",
+        "id": "6a8bc533-e280-4689-b490-635cad5b25a7",
+        "category": "places"
+    },
+    {
+        "word": "서점",
+        "romanization": "seo-jeom",
+        "translations": ["bookstore"],
+        "type": "noun",
+        "id": "694281ae-d156-4342-9299-4b91b474153d",
+        "category": "places"
+    },
+    {
+        "word": "빵집",
+        "romanization": "ppang-jib",
+        "translations": ["bakery"],
+        "type": "noun",
+        "id": "f95f5416-386c-4053-b0be-3a2848054684",
+        "category": "places"
+    },
+    {
+        "word": "약국",
+        "romanization": "yak-guk",
+        "translations": ["pharmacy"],
+        "type": "noun",
+        "id": "fcebfe02-53ea-4eaa-b5bb-65fb051d5def",
+        "category": "places"
+    },
+    {
+        "word": "미용실",
+        "romanization": "mi-yong-sil",
+        "translations": ["beauty salon"],
+        "type": "noun",
+        "id": "382ecbb6-be3d-4bb1-a558-6dae7903db89",
+        "category": "places"
+    },
+    {
+        "word": "이발소",
+        "romanization": "i-bal-so",
+        "translations": ["barbershop"],
+        "type": "noun",
+        "id": "dc5f4e31-fb43-4873-a96c-66dfdf02d749",
+        "category": "places"
+    },
+    {
+        "word": "세탁소",
+        "romanization": "se-tak-so",
+        "translations": ["laundry shop"],
+        "type": "noun",
+        "id": "744ea6f0-d8d6-45f2-a4c1-89a779133cff",
+        "category": "places"
+    },
+    {
+        "word": "호텔",
+        "romanization": "hotel",
+        "translations": ["hotel"],
+        "type": "noun",
+        "id": "897d4e54-75e6-45f0-8da6-77d953045f65",
+        "category": "places"
+    },
+    {
+        "word": "영화관",
+        "romanization": "yeong-hwa-gwan",
+        "translations": ["movie theater"],
+        "type": "noun",
+        "id": "ba5a955a-700e-4119-bc8b-eeb1a3745d45",
+        "category": "places"
+    },
+    {
+        "word": "PC방",
+        "romanization": "pi-ssi-bang",
+        "translations": ["PC room"],
+        "type": "noun",
+        "id": "ffc93ded-03d1-4cbe-a9a9-63a9ab27cb34",
+        "category": "places"
+    },
+    {
+        "word": "지하철역",
+        "romanization": "ji-ha-cheol-yeok",
+        "translations": ["subway station"],
+        "type": "noun",
+        "id": "e7851bed-4d4b-49b6-a65f-2dbc8a2e6944",
+        "category": "places"
+    },
+    {
+        "word": "기차역",
+        "romanization": "gi-cha-yeok",
+        "translations": ["train station"],
+        "type": "noun",
+        "id": "d7a0f5f8-1f2e-41f8-8ad4-20f95e9a5e7e",
+        "category": "places"
+    },
+    {
+        "word": "버스정류장",
+        "romanization": "beo-seu-jeong-lyu-jang",
+        "translations": ["bus stop"],
+        "type": "noun",
+        "id": "9f684dff-ff8c-4561-a2b5-aa020e8a30a1",
+        "category": "places"
+    },
+    {
+        "word": "공항",
+        "romanization": "gong-hang",
+        "translations": ["airport"],
+        "type": "noun",
+        "id": "280d63af-392a-45e2-8426-201d0dc21867",
+        "category": "places"
+    },
+    {
+        "word": "주차장",
+        "romanization": "ju-cha-jang",
+        "translations": ["parking lot"],
+        "type": "noun",
+        "id": "8c63c598-78f3-4256-8635-15206b77536f",
+        "category": "places"
+    },
+    {
+        "word": "주유소",
+        "romanization": "ju-yu-so",
+        "translations": ["gas station"],
+        "type": "noun",
+        "id": "c0a7910b-1526-4d5f-b848-e667cd8d18aa",
+        "category": "places"
+    },
+    {
+        "word": "우체국",
+        "romanization": "u-che-guk",
+        "translations": ["post office"],
+        "type": "noun",
+        "id": "593c81a3-e783-4519-9d08-0c5499850b77",
+        "category": "places"
+    },
+    {
+        "word": "경찰서",
+        "romanization": "gyeong-chal-seo",
+        "translations": ["police office"],
+        "type": "noun",
+        "id": "16836731-596f-4d92-8b3e-b095f10de48f",
+        "category": "places"
+    },
+    {
+        "word": "병원",
+        "romanization": "byeong-won",
+        "translations": ["hospital"],
+        "type": "noun",
+        "id": "04c04e4b-88db-488e-8825-6f082efad71c",
+        "category": "places"
+    },
+    {
+        "word": "은행",
+        "romanization": "eun-haeng",
+        "translations": ["bank"],
+        "type": "noun",
+        "id": "cc2215e7-2261-441b-9c6e-9133808f1d5a",
+        "category": "places"
+    },
+    {
+        "word": "도서관",
+        "romanization": "do-seo-gwan",
+        "translations": ["library"],
+        "type": "noun",
+        "id": "0aa67081-9932-40d0-abb9-4fd32b627aeb",
+        "category": "places"
+    },
+    {
+        "word": "박물관",
+        "romanization": "bak-mul-gwan",
+        "translations": ["museum"],
+        "type": "noun",
+        "id": "258f537a-e5c9-4b9d-ac18-ec3b6d3fd876",
+        "category": "places"
+    },
+    {
+        "word": "동물원",
+        "romanization": "dong-mul-won",
+        "translations": ["zoo"],
+        "type": "noun",
+        "id": "c2ed5401-41fd-42d0-bc30-ed3a9921bea0",
+        "category": "places"
+    },
+    {
+        "word": "공원",
+        "romanization": "gong-won",
+        "translations": ["park"],
+        "type": "noun",
+        "id": "51afca2f-127b-47d2-a7fe-514831ac7847",
+        "category": "places"
+    },
+    {
+        "word": "놀이터",
+        "romanization": "no-li-teo",
+        "translations": ["playground"],
+        "type": "noun",
+        "id": "f786de7f-05db-464d-bce1-39856e80f489",
+        "category": "places"
+    },
+    {
+        "word": "운동장",
+        "romanization": "un-dong-jang",
+        "translations": ["sports field"],
+        "type": "noun",
+        "id": "d1611414-fea2-4bec-b912-0ce15b38123e",
+        "category": "places"
+    },
+    {
+        "word": "수영장",
+        "romanization": "su-yeong-jang",
+        "translations": ["swimming pool"],
+        "type": "noun",
+        "id": "eca410fc-ff46-4473-9d85-df62806cc24b",
+        "category": "places"
+    },
+    {
+        "word": "공연장",
+        "romanization": "gong-yeon-jang",
+        "translations": ["concert hall"],
+        "type": "noun",
+        "id": "bd9e9aae-2e11-48ed-9a34-a26f3de6c199",
+        "category": "places"
+    },
+    {
+        "word": "관광지",
+        "romanization": "gwan-gwang-ji",
+        "translations": ["tourist attraction"],
+        "type": "noun",
+        "id": "52c4e130-728b-4dc1-97f0-a526ffaf051c",
+        "category": "places"
+    },
+    {
+        "word": "휴양지",
+        "romanization": "hyu-yang-ji",
+        "translations": ["vacation spot"],
+        "type": "noun",
+        "id": "b6dfceec-6427-4761-95fe-ce28448b87d9",
+        "category": "places"
+    },
+    {
+        "word": "산",
+        "romanization": "san",
+        "translations": ["mountain"],
+        "type": "noun",
+        "id": "8dccd3dd-c690-4e9c-ab02-7aacfa94feac",
+        "category": "places"
+    },
+    {
+        "word": "바다",
+        "romanization": "ba-da",
+        "translations": ["sea"],
+        "type": "noun",
+        "id": "68abebda-e895-47ce-a97c-98e85f09d8d6",
+        "category": "places"
+    },
+    {
+        "word": "강",
+        "romanization": "gang",
+        "translations": ["river"],
+        "type": "noun",
+        "id": "1baa0979-5fed-4e18-9e5e-3b70cb8af44b",
+        "category": "places"
+    },
+    {
+        "word": "섬",
+        "romanization": "seom",
+        "translations": ["island"],
+        "type": "noun",
+        "id": "7049ee27-3536-404f-b820-81ad7434cd1c",
+        "category": "places"
+    },
+    {
+        "word": "방",
+        "romanization": "bang",
+        "translations": ["room"],
+        "type": "noun",
+        "id": "46b97697-1eab-4e2e-94ad-8932bcd9f085",
+        "category": "places"
+    },
+    {
+        "word": "화장실",
+        "romanization": "hwa-jang-sil",
+        "translations": ["toilet"],
+        "type": "noun",
+        "id": "86238a0e-8847-43c2-ace5-3dd33813ab60",
+        "category": "places"
+    },
+    {
+        "word": "일하다",
+        "romanization": "il-ha-da",
+        "translations": ["to work"],
+        "type": "verb",
+        "id": "965c67a4-00a5-4b9d-97e4-d4d1e3cfd5b9",
+        "category": "with 하다"
+    },
+    {
+        "word": "운동하다",
+        "romanization": "un-dong-ha-da",
+        "translations": ["to exercise"],
+        "type": "verb",
+        "id": "bad3680a-0c98-4478-b892-0e23180d0388",
+        "category": "with 하다"
+    },
+    {
+        "word": "운전하다",
+        "romanization": "un-jeon-ha-da",
+        "translations": ["to drive"],
+        "type": "verb",
+        "id": "416120ee-14e4-4610-be19-82ce736d4008",
+        "category": "with 하다"
+    },
+    {
+        "word": "여행하다",
+        "romanization": "yeo-haeng-ha-da",
+        "translations": ["to travel"],
+        "type": "verb",
+        "id": "6e71ab03-e916-4a3d-8e63-cd15ba0fabfc",
+        "category": "with 하다"
+    },
+    {
+        "word": "쇼핑하다",
+        "romanization": "syo-ping-ha-da",
+        "translations": ["to go shopping"],
+        "type": "verb",
+        "id": "46078e00-7ef2-44c5-b9b5-1024be5cca7b",
+        "category": "with 하다"
+    },
+    {
+        "word": "산책하다",
+        "romanization": "san-chaek-ha-da",
+        "translations": ["to take a walk"],
+        "type": "verb",
+        "id": "f1aa4700-4c7f-46f0-b9d3-880861ebc997",
+        "category": "with 하다"
+    },
+    {
+        "word": "요리하다",
+        "romanization": "yo-li-ha-da",
+        "translations": ["to cook"],
+        "type": "verb",
+        "id": "9fc90e9f-500f-4870-9f58-da115149cda4",
+        "category": "with 하다"
+    },
+    {
+        "word": "식사하다",
+        "romanization": "sik-sa-ha-da",
+        "translations": ["to have a meal"],
+        "type": "verb",
+        "id": "b85af680-b6e4-4b4c-9753-628195e3f340",
+        "category": "with 하다"
+    },
+    {
+        "word": "빨래하다",
+        "romanization": "ppal-lae-ha-da",
+        "translations": ["to do the laundry"],
+        "type": "verb",
+        "id": "9975be90-6be5-4345-b238-48da5ea66202",
+        "category": "with 하다"
+    },
+    {
+        "word": "청소하다",
+        "romanization": "cheong-so-ha-da",
+        "translations": ["to clean up"],
+        "type": "verb",
+        "id": "2063c403-d44d-41df-b8fc-417ecbbc0272",
+        "category": "with 하다"
+    },
+    {
+        "word": "샤워하다",
+        "romanization": "sya-wo-ha-da",
+        "translations": ["to take a shower"],
+        "type": "verb",
+        "id": "01664a2b-3749-4a69-bb49-9818ed67437d",
+        "category": "with 하다"
+    },
+    {
+        "word": "세수하다",
+        "romanization": "se-su-ha-da",
+        "translations": ["to wash face"],
+        "type": "verb",
+        "id": "41888087-fe49-43a4-bf6d-42a6fd807de3",
+        "category": "with 하다"
+    },
+    {
+        "word": "말하다",
+        "romanization": "mal-ha-da",
+        "translations": ["to talk"],
+        "type": "verb",
+        "id": "8c162394-6382-4765-9023-64707047ee41",
+        "category": "with 하다"
+    },
+    {
+        "word": "이야기하다",
+        "romanization": "i-ya-gi-ha-da",
+        "translations": ["to tel"],
+        "type": "verb",
+        "id": "6b29550b-b049-411f-92a6-ac9c8585c3bb",
+        "category": "with 하다"
+    },
+    {
+        "word": "설명하다",
+        "romanization": "seol-myeong-ha-da",
+        "translations": ["to explain"],
+        "type": "verb",
+        "id": "a26bfd2c-9a83-46dd-95b5-5024f1b2f774",
+        "category": "with 하다"
+    },
+    {
+        "word": "거짓말하다",
+        "romanization": "geo-jin-mal-ha-da",
+        "translations": ["to tell a lie"],
+        "type": "verb",
+        "id": "7fcea593-181c-449b-b913-6feb26b55a90",
+        "category": "with 하다"
+    },
+    {
+        "word": "질문하다",
+        "romanization": "jil-mun-ha-da",
+        "translations": ["to ask"],
+        "type": "verb",
+        "id": "1a13c317-0f55-4523-896d-62f67043b096",
+        "category": "with 하다"
+    },
+    {
+        "word": "대답하다",
+        "romanization": "dae-dab-ha-da",
+        "translations": ["to answer"],
+        "type": "verb",
+        "id": "bb222427-20a4-4159-a187-8b0b04446891",
+        "category": "with 하다"
+    },
+    {
+        "word": "인사하다",
+        "romanization": "in-sa-ha-da",
+        "translations": ["to greet"],
+        "type": "verb",
+        "id": "b566d197-e170-4753-980f-58cb66ec13f9",
+        "category": "with 하다"
+    },
+    {
+        "word": "감사하다",
+        "romanization": "gam-sa-ha-da",
+        "translations": ["to appreciate"],
+        "type": "verb",
+        "id": "d1e18427-080e-4580-8130-ee2e407f9dab",
+        "category": "with 하다"
+    },
+    {
+        "word": "사과하다",
+        "romanization": "sa-gwa-ha-da",
+        "translations": ["to apologize"],
+        "type": "verb",
+        "id": "34f25cb3-1661-4a45-947a-deaf57caa09b",
+        "category": "with 하다"
+    },
+    {
+        "word": "전화하다",
+        "romanization": "jeon-hwa-ha-da",
+        "translations": ["to call"],
+        "type": "verb",
+        "id": "cd026232-822f-439e-9d01-39f19d32d917",
+        "category": "with 하다"
+    },
+    {
+        "word": "연락하다",
+        "romanization": "yeon-lak-ha-da",
+        "translations": ["to contact"],
+        "type": "verb",
+        "id": "02c7991c-3cee-40fe-8dde-4efeddb38925",
+        "category": "with 하다"
+    },
+    {
+        "word": "약속하다",
+        "romanization": "yak-sok-ha-da",
+        "translations": ["to promise"],
+        "type": "verb",
+        "id": "cb351814-6a58-42a5-b9a5-fac371b83b60",
+        "category": "with 하다"
+    },
+    {
+        "word": "공부하다",
+        "romanization": "gong-bu-ha-da",
+        "translations": ["to study"],
+        "type": "verb",
+        "id": "d97d06c8-ee1a-4321-9f44-a05fd274797f",
+        "category": "with 하다"
+    },
+    {
+        "word": "숙제하다",
+        "romanization": "suk-je-ha-da",
+        "translations": ["to do homework"],
+        "type": "verb",
+        "id": "7db7a879-e862-4771-b00c-e62e6d321b84",
+        "category": "with 하다"
+    },
+    {
+        "word": "연습하다",
+        "romanization": "yeon-seub-ha-da",
+        "translations": ["to practice"],
+        "type": "verb",
+        "id": "808115a7-bc79-41f5-b98c-b66472a50dbf",
+        "category": "with 하다"
+    },
+    {
+        "word": "복습하다",
+        "romanization": "bok-seub-ha-da",
+        "translations": ["to review"],
+        "type": "verb",
+        "id": "1c397f16-a430-4813-bef7-01328f94efdb",
+        "category": "with 하다"
+    },
+    {
+        "word": "발음하다",
+        "romanization": "ba-leum-ha-da",
+        "translations": ["to pronounce"],
+        "type": "verb",
+        "id": "a4d44dc4-74b1-4abc-b256-d40a5e2abe18",
+        "category": "with 하다"
+    },
+    {
+        "word": "실수하다",
+        "romanization": "sil-su-ha-da",
+        "translations": ["to make a mistake"],
+        "type": "verb",
+        "id": "fbfc70d0-39b6-4a1e-82b9-de1becdc79ad",
+        "category": "with 하다"
+    },
+    {
+        "word": "생각하다",
+        "romanization": "saeng-gak-ha-da",
+        "translations": ["to think"],
+        "type": "verb",
+        "id": "98b89429-57d1-4cb4-b515-ccd3f21cf1e9",
+        "category": "with 하다"
+    },
+    {
+        "word": "이해하다",
+        "romanization": "i-hae-ha-da",
+        "translations": ["to understand"],
+        "type": "verb",
+        "id": "ae446358-df32-49ac-ae73-a89259b7d20d",
+        "category": "with 하다"
+    },
+    {
+        "word": "기억하다",
+        "romanization": "gi-eok-ha-da",
+        "translations": ["to remember"],
+        "type": "verb",
+        "id": "11c577f4-7908-48d4-82c5-a97fc1221eb0",
+        "category": "with 하다"
+    },
+    {
+        "word": "노력하다",
+        "romanization": "no-lyeok-ha-da",
+        "translations": ["to make an effort"],
+        "type": "verb",
+        "id": "ba4376b0-f837-4f21-a790-c6b3c171acb3",
+        "category": "with 하다"
+    },
+    {
+        "word": "경험하다",
+        "romanization": "gyeong-heom-ha-da",
+        "translations": ["to experience"],
+        "type": "verb",
+        "id": "d83308b6-3573-42ad-94a2-f8f30815f7f9",
+        "category": "with 하다"
+    },
+    {
+        "word": "계획하다",
+        "romanization": "gye-hoek-ha-da",
+        "translations": ["to plan"],
+        "type": "verb",
+        "id": "f24e5225-ce9e-42b9-bcf3-f1ffb56426a8",
+        "category": "with 하다"
+    },
+    {
+        "word": "사랑하다",
+        "romanization": "sa-lang-ha-da",
+        "translations": ["to love"],
+        "type": "verb",
+        "id": "dcac26d5-421d-4af6-9d74-5f578c1b35a9",
+        "category": "with 하다"
+    },
+    {
+        "word": "데이트하다",
+        "romanization": "de-i-teu-ha-da",
+        "translations": ["to date"],
+        "type": "verb",
+        "id": "14a8c067-9e6c-45d5-8ac7-2b118c0895f7",
+        "category": "with 하다"
+    },
+    {
+        "word": "선물하다",
+        "romanization": "seon-mul-ha-da",
+        "translations": ["to present"],
+        "type": "verb",
+        "id": "6ee70f02-1f7e-4e3b-919b-344b9752340a",
+        "category": "with 하다"
+    },
+    {
+        "word": "결혼하다",
+        "romanization": "gyeol-hon-ha-da",
+        "translations": ["to marry"],
+        "type": "verb",
+        "id": "6b19146e-37f3-43c5-9265-4eb14f301a34",
+        "category": "with 하다"
+    },
+    {
+        "word": "시작하다",
+        "romanization": "si-jak-ha-da",
+        "translations": ["to start"],
+        "type": "verb",
+        "id": "c8743743-f67e-4ee1-9b2f-51e2398e6ad2",
+        "category": "with 하다"
+    },
+    {
+        "word": "축하하다",
+        "romanization": "chuk-ha-ha-da",
+        "translations": ["to congratulate"],
+        "type": "verb",
+        "id": "8be7fb0f-7f49-491c-a3fa-0918e00f6264",
+        "category": "with 하다"
+    },
+    {
+        "word": "사용하다",
+        "romanization": "sa-yong-ha-da",
+        "translations": ["to use"],
+        "type": "verb",
+        "id": "ba49b922-2dc6-4d45-98c5-764ab31e9a4f",
+        "category": "with 하다"
+    },
+    {
+        "word": "준비하다",
+        "romanization": "jun-bi-ha-da",
+        "translations": ["to prepare"],
+        "type": "verb",
+        "id": "39ef7ebb-ad6d-45ee-a12b-39a4604ff34d",
+        "category": "with 하다"
+    },
+    {
+        "word": "노래하다",
+        "romanization": "no-lae-ha-da",
+        "translations": ["to sing"],
+        "type": "verb",
+        "id": "7d0de0f1-42a4-4a02-9ba7-40e8f2cf0702",
+        "category": "with 하다"
+    },
+    {
+        "word": "이사하다",
+        "romanization": "i-sa-ha-da",
+        "translations": ["to move house"],
+        "type": "verb",
+        "id": "46dd657f-1075-4f20-a5e1-fdc254cbfdf1",
+        "category": "with 하다"
+    },
+    {
+        "word": "농담하다",
+        "romanization": "nong-dam-ha-da",
+        "translations": ["to joke"],
+        "type": "verb",
+        "id": "ad32a276-5fc5-4482-968e-44f734e84f24",
+        "category": "with 하다"
+    },
+    {
+        "word": "계산하다",
+        "romanization": "gye-san-ha-da",
+        "translations": ["to calculate"],
+        "type": "verb",
+        "id": "5ab0c79e-38bd-4725-b3d1-3b9df0070bc7",
+        "category": "with 하다"
+    },
+    {
+        "word": "머리하다",
+        "romanization": "meo-li-ha-da",
+        "translations": ["to do one's hair"],
+        "type": "verb",
+        "id": "f40aed3f-7d78-479e-b376-6d179dbd3e2d",
+        "category": "with 하다"
+    },
+    {
+        "word": "주문하다",
+        "romanization": "ju-mun-ha-da",
+        "translations": ["to order"],
+        "type": "verb",
+        "id": "f3585822-dbfe-41dd-b081-6c821bbdc9ec",
+        "category": "with 하다"
+    },
+    {
+        "word": "안방",
+        "romanization": "an-bang",
+        "translations": ["master bedroom"],
+        "type": "noun",
+        "id": "b148b674-83b8-4bca-b3bb-84ddabf2aeca",
+        "category": "house"
+    },
+    {
+        "word": "침실",
+        "romanization": "chim-sil",
+        "translations": ["bed room"],
+        "type": "noun",
+        "id": "8ea72717-96d3-4a53-9bba-c5606f52694d",
+        "category": "house"
+    },
+    {
+        "word": "거실",
+        "romanization": "geo-sil",
+        "translations": ["living room"],
+        "type": "noun",
+        "id": "a59f7691-ae39-4076-bfd4-cef54c5265c8",
+        "category": "house"
+    },
+    {
+        "word": "부엌",
+        "romanization": "bu-eok",
+        "translations": ["kitchen"],
+        "type": "noun",
+        "id": "ecb6130f-5c32-4d10-b2ca-14ecc271a4ed",
+        "category": "house"
+    },
+    {
+        "word": "욕실",
+        "romanization": "yok-sil",
+        "translations": ["bathroom"],
+        "type": "noun",
+        "id": "105f2d7b-a7d2-46e7-81a8-918bf19c3d96",
+        "category": "house"
+    },
+    {
+        "word": "화장실",
+        "romanization": "hwa-jang-sil",
+        "translations": ["toilet"],
+        "type": "noun",
+        "id": "d6439011-eb46-4cbe-8be3-3a4ee957ffc5",
+        "category": "house"
+    },
+    {
+        "word": "정원",
+        "romanization": "jeong-won",
+        "translations": ["garden"],
+        "type": "noun",
+        "id": "1cb6e776-7f43-4611-9a4c-cfb142ab1004",
+        "category": "house"
+    },
+    {
+        "word": "베란다",
+        "romanization": "be-lan-da",
+        "translations": ["veranda"],
+        "type": "noun",
+        "id": "c1f3b5b3-35fd-4d96-840c-cc37443081ab",
+        "category": "house"
+    },
+    {
+        "word": "계단",
+        "romanization": "gye-dan",
+        "translations": ["stairs"],
+        "type": "noun",
+        "id": "b8ad37b0-ee81-4a00-a745-0898d5db43d7",
+        "category": "house"
+    },
+    {
+        "word": "지하실",
+        "romanization": "ji-ha-sil",
+        "translations": ["cellar"],
+        "type": "noun",
+        "id": "af5376be-e4fc-49e9-967e-cbf7872d5832",
+        "category": "house"
+    },
+    {
+        "word": "창고",
+        "romanization": "chang-go",
+        "translations": ["storage room"],
+        "type": "noun",
+        "id": "700222f6-f3ad-4cfd-8b22-6d4d426e9911",
+        "category": "house"
+    },
+    {
+        "word": "차고",
+        "romanization": "cha-go",
+        "translations": ["garage"],
+        "type": "noun",
+        "id": "fe377d4a-fb45-46b3-b46d-8bb99b3915cd",
+        "category": "house"
+    },
+    {
+        "word": "지붕",
+        "romanization": "ji-bung",
+        "translations": ["roof"],
+        "type": "noun",
+        "id": "9f7931dc-6ac9-4513-9852-cbb435e214d4",
+        "category": "house"
+    },
+    {
+        "word": "천장",
+        "romanization": "cheon-jang",
+        "translations": ["ceiling"],
+        "type": "noun",
+        "id": "8f54bb00-00b2-4448-a41f-3c222e7ee966",
+        "category": "house"
+    },
+    {
+        "word": "문",
+        "romanization": "mun",
+        "translations": ["door"],
+        "type": "noun",
+        "id": "0cb4b435-3c44-4035-b5f8-590909111b76",
+        "category": "house"
+    },
+    {
+        "word": "창문",
+        "romanization": "chang-mun",
+        "translations": ["window"],
+        "type": "noun",
+        "id": "10f530fc-6cb1-4aac-92e9-eaf07d428e02",
+        "category": "house"
+    },
+    {
+        "word": "벽",
+        "romanization": "byeok",
+        "translations": ["wall"],
+        "type": "noun",
+        "id": "3ed7eae2-8b49-4092-813c-8820a35b5cfe",
+        "category": "house"
+    },
+    {
+        "word": "바닥",
+        "romanization": "ba-dak",
+        "translations": ["floor"],
+        "type": "noun",
+        "id": "fbaec96b-0ad2-4bb8-974d-f2d2c08c9530",
+        "category": "house"
+    },
+    {
+        "word": "소파",
+        "romanization": "so-pa",
+        "translations": ["sofa"],
+        "type": "noun",
+        "id": "695d2e55-f553-4247-924a-354ca908d3fe",
+        "category": "house"
+    },
+    {
+        "word": "옷장",
+        "romanization": "ot-jang",
+        "translations": ["closet"],
+        "type": "noun",
+        "id": "69419871-c0d6-4767-8471-699ef9054ade",
+        "category": "house"
+    },
+    {
+        "word": "서랍장",
+        "romanization": "seo-lab-jang",
+        "translations": ["drawer chest"],
+        "type": "noun",
+        "id": "d1e2b4d8-0d6b-4e81-816e-59d6f3f1ecba",
+        "category": "house"
+    },
+    {
+        "word": "신발장",
+        "romanization": "sin-bal-jang",
+        "translations": ["shoe closet"],
+        "type": "noun",
+        "id": "65951ca5-c02a-439a-bba2-0389c2a2e82b",
+        "category": "house"
+    },
+    {
+        "word": "책장",
+        "romanization": "chaek-jang",
+        "translations": ["bookcase"],
+        "type": "noun",
+        "id": "08fa941f-4393-4e8d-82d0-85411509a48b",
+        "category": "house"
+    },
+    {
+        "word": "찬장",
+        "romanization": "chan-jang",
+        "translations": ["cupboard"],
+        "type": "noun",
+        "id": "16758dfc-a33e-4c54-9e5d-59658db905a5",
+        "category": "house"
+    },
+    {
+        "word": "침대",
+        "romanization": "chim-dae",
+        "translations": ["bed"],
+        "type": "noun",
+        "id": "6ef1c959-4c0f-4f7a-9e76-db682c41d1ba",
+        "category": "house"
+    },
+    {
+        "word": "화장대",
+        "romanization": "hwa-jang-dae",
+        "translations": ["dressing table"],
+        "type": "noun",
+        "id": "845ef0a8-c71b-4673-9001-59c364d79515",
+        "category": "house"
+    },
+    {
+        "word": "탁자",
+        "romanization": "tak-ja",
+        "translations": ["table"],
+        "type": "noun",
+        "id": "bc18c588-cff8-43af-8137-852edbfb0b26",
+        "category": "house"
+    },
+    {
+        "word": "식탁",
+        "romanization": "sik-tak",
+        "translations": ["dining table"],
+        "type": "noun",
+        "id": "b5f87251-a330-4ccd-8546-1510e18baf67",
+        "category": "house"
+    },
+    {
+        "word": "책상",
+        "romanization": "chaek-sang",
+        "translations": ["desk"],
+        "type": "noun",
+        "id": "63578ece-1af1-45d0-b05c-5807c8707f4e",
+        "category": "house"
+    },
+    {
+        "word": "의자",
+        "romanization": "ui-ja",
+        "translations": ["chair"],
+        "type": "noun",
+        "id": "a4abac33-b09b-43bb-86a7-c55a3bc73de8",
+        "category": "house"
+    },
+    {
+        "word": "텔레비전",
+        "romanization": "tel-le-bi-jeon",
+        "translations": ["television"],
+        "type": "noun",
+        "id": "3357bca8-14a0-4a44-9c6f-557deb259a37",
+        "category": "house"
+    },
+    {
+        "word": "세탁기",
+        "romanization": "se-tak-gi",
+        "translations": ["washing machine"],
+        "type": "noun",
+        "id": "005757fe-5482-4f36-92b3-23bc29130ef9",
+        "category": "house"
+    },
+    {
+        "word": "냉장고",
+        "romanization": "naeng-jang-go",
+        "translations": ["refridgerator"],
+        "type": "noun",
+        "id": "ed9025b2-7bcc-4748-b84e-cad6058714c8",
+        "category": "house"
+    },
+    {
+        "word": "전자레인지",
+        "romanization": "jeon-ja-le-in-ji",
+        "translations": ["microwave"],
+        "type": "noun",
+        "id": "22c6f805-a080-4d18-b838-4f12260192cf",
+        "category": "house"
+    },
+    {
+        "word": "가스레인지",
+        "romanization": "ga-seu-le-in-ji",
+        "translations": ["gas stove"],
+        "type": "noun",
+        "id": "6731c764-5616-437f-870d-2247d9cfe856",
+        "category": "house"
+    },
+    {
+        "word": "오븐",
+        "romanization": "o-beun",
+        "translations": ["oven"],
+        "type": "noun",
+        "id": "ef080ab8-a32b-4d12-9d82-026dc0e75e75",
+        "category": "house"
+    },
+    {
+        "word": "선풍기",
+        "romanization": "seon-pung-gi",
+        "translations": ["electric fan"],
+        "type": "noun",
+        "id": "b12e1e89-115b-4e62-bd0d-82a414aab35d",
+        "category": "house"
+    },
+    {
+        "word": "에어컨",
+        "romanization": "e-eo-keon",
+        "translations": ["air conditioner"],
+        "type": "noun",
+        "id": "b8682cef-bba0-409c-b86d-97fa0e4de1aa",
+        "category": "house"
+    },
+    {
+        "word": "밥솥",
+        "romanization": "bab-sot",
+        "translations": ["rice cooker"],
+        "type": "noun",
+        "id": "fe2d4843-6a6f-400c-8590-19acb1c99adc",
+        "category": "house"
+    },
+    {
+        "word": "식기세척기",
+        "romanization": "sik-gi-se-cheok-gi",
+        "translations": ["dish washer"],
+        "type": "noun",
+        "id": "c2791dd9-3ade-47f6-994f-cc46ed846507",
+        "category": "house"
+    },
+    {
+        "word": "진공청소기",
+        "romanization": "jin-gong-cheong-so-gi",
+        "translations": ["vacuum cleaner"],
+        "type": "noun",
+        "id": "8843eee9-43cc-470b-810a-5ae729a0b47a",
+        "category": "house"
+    },
+    {
+        "word": "가습기",
+        "romanization": "ga-seub-gi",
+        "translations": ["humidifier"],
+        "type": "noun",
+        "id": "feae7d25-8c09-4000-b318-9d9e1c142c99",
+        "category": "house"
+    },
+    {
+        "word": "카펫",
+        "romanization": "ka-pet",
+        "translations": ["carpet"],
+        "type": "noun",
+        "id": "26ca77f5-e512-4330-9f46-bff564ab05b0",
+        "category": "house"
+    },
+    {
+        "word": "커튼",
+        "romanization": "keo-teun",
+        "translations": ["curtain"],
+        "type": "noun",
+        "id": "d7ac8046-6e5a-4218-b713-215384c09e3c",
+        "category": "house"
+    },
+    {
+        "word": "전등",
+        "romanization": "jeon-deung",
+        "translations": ["lamp"],
+        "type": "noun",
+        "id": "63b42434-0fc4-4c9b-9346-ecd43cada249",
+        "category": "house"
+    },
+    {
+        "word": "스탠드",
+        "romanization": "seu-taen-deu",
+        "translations": ["desk lamp"],
+        "type": "noun",
+        "id": "f52e29d5-edfa-4c51-8ac3-b16d338ea144",
+        "category": "house"
+    },
+    {
+        "word": "거울",
+        "romanization": "geo-ul",
+        "translations": ["mirror"],
+        "type": "noun",
+        "id": "cee8000a-b2b9-42a0-b113-4a8ed69e7f05",
+        "category": "house"
+    },
+    {
+        "word": "시계",
+        "romanization": "si-gye",
+        "translations": ["clock"],
+        "type": "noun",
+        "id": "efee8b1f-a014-4df8-a1a6-d1d50e978d98",
+        "category": "house"
+    },
+    {
+        "word": "전화기",
+        "romanization": "jeon-hwa-gil",
+        "translations": ["telephone"],
+        "type": "noun",
+        "id": "1fbd1d09-d3c2-40cb-906d-ca36f8d34025",
+        "category": "house"
+    },
+    {
+        "word": "휴지통",
+        "romanization": "hyu-ji-tong",
+        "translations": ["trash can"],
+        "type": "noun",
+        "id": "8618af88-722b-4e88-afd9-09734d483675",
+        "category": "house"
+    },
+    {
+        "word": "크다",
+        "romanization": "keu-da",
+        "translations": ["to be big"],
+        "type": "adjective",
+        "id": "e87a4861-0d98-49f8-aadc-646599ce98ef",
+        "category": "things"
+    },
+    {
+        "word": "작다",
+        "romanization": "jak-tta",
+        "translations": ["to be small"],
+        "type": "adjective",
+        "id": "b787e0eb-e0c8-4ae5-b554-bd52f90cc843",
+        "category": "things"
+    },
+    {
+        "word": "많다",
+        "romanization": "man-ta",
+        "translations": ["to be many"],
+        "type": "adjective",
+        "id": "1ee68501-c592-4d79-8f31-53aaecbdd563",
+        "category": "things"
+    },
+    {
+        "word": "적다",
+        "romanization": "jeok-tta",
+        "translations": ["to be little"],
+        "type": "adjective",
+        "id": "0a5af540-d1b1-4957-947f-10aa6bee5968",
+        "category": "things"
+    },
+    {
+        "word": "길다",
+        "romanization": "gil-da",
+        "translations": ["to be long"],
+        "type": "adjective",
+        "id": "6fa6faa3-d3a6-4849-a3d4-f5a2699be6af",
+        "category": "things"
+    },
+    {
+        "word": "짧다",
+        "romanization": "jjalb-tta",
+        "translations": ["to be short"],
+        "type": "adjective",
+        "id": "e0696b20-0f43-4cdc-a03e-ae04ce824435",
+        "category": "things"
+    },
+    {
+        "word": "높다",
+        "romanization": "nop-tta",
+        "translations": ["to be high"],
+        "type": "adjective",
+        "id": "fec0b6c7-3878-46cc-b28e-5214d871d74e",
+        "category": "things"
+    },
+    {
+        "word": "낮다",
+        "romanization": "nat-tta",
+        "translations": ["to be low"],
+        "type": "adjective",
+        "id": "ca47e76b-f956-4653-9f1c-71a6c65b7142",
+        "category": "things"
+    },
+    {
+        "word": "넓다",
+        "romanization": "neolb-tta",
+        "translations": ["to be wide", "to be spacious"],
+        "type": "adjective",
+        "id": "dbc6f43b-4732-44e5-83e6-71e893e01e5d",
+        "category": "things"
+    },
+    {
+        "word": "좁다",
+        "romanization": "jop-tta",
+        "translations": ["to be narrow"],
+        "type": "adjective",
+        "id": "92b8b6eb-8162-4e8c-a954-8999cfc5e975",
+        "category": "things"
+    },
+    {
+        "word": "가깝다",
+        "romanization": "ga-kkap-tta",
+        "translations": ["to be close"],
+        "type": "adjective",
+        "id": "3aaf0dda-8cca-42d3-b823-d3c95c0bd9b5",
+        "category": "things"
+    },
+    {
+        "word": "멀다",
+        "romanization": "meol-da",
+        "translations": ["to be far"],
+        "type": "adjective",
+        "id": "60b5ed1d-c2a4-4ec4-bfa5-e4a38e4c16cd",
+        "category": "things"
+    },
+    {
+        "word": "무겁다",
+        "romanization": "mu-geop-tta",
+        "translations": ["to be heavy"],
+        "type": "adjective",
+        "id": "8be5908e-8075-4131-b9c1-c1f15c327716",
+        "category": "things"
+    },
+    {
+        "word": "가볍다",
+        "romanization": "ga-byeop-tta",
+        "translations": ["to be light"],
+        "type": "adjective",
+        "id": "06bcc3ea-8b6a-487c-8fbc-a14499e9852b",
+        "category": "things"
+    },
+    {
+        "word": "빠르다",
+        "romanization": "ppa-reu-da",
+        "translations": ["to be fast"],
+        "type": "adjective",
+        "id": "ce36fe96-8e96-4acf-9a84-f89ec5f07297",
+        "category": "things"
+    },
+    {
+        "word": "느리다",
+        "romanization": "neu-ri-da",
+        "translations": ["to be slow"],
+        "type": "adjective",
+        "id": "73603a09-68b6-43a3-bf3c-680343f9dd8d",
+        "category": "things"
+    },
+    {
+        "word": "깊다",
+        "romanization": "gip-tta",
+        "translations": ["to be deep"],
+        "type": "adjective",
+        "id": "efeb704a-9e02-41b9-8007-1d0c0143b096",
+        "category": "things"
+    },
+    {
+        "word": "얕다",
+        "romanization": "yat-tta",
+        "translations": ["to be shallow"],
+        "type": "adjective",
+        "id": "30d1df36-6bae-4fb7-9419-09be18ec7685",
+        "category": "things"
+    },
+    {
+        "word": "뜨겁다",
+        "romanization": "tteu-geop-tta",
+        "translations": ["to be hot (thing)"],
+        "type": "adjective",
+        "id": "ed883156-3920-4bdf-801e-bbc51df09c15",
+        "category": "things"
+    },
+    {
+        "word": "차갑다",
+        "romanization": "cha-gap-tta",
+        "translations": ["to be cold (thing)"],
+        "type": "adjective",
+        "id": "a7c22efb-407c-485f-b2b7-e0800f5be8be",
+        "category": "things"
+    },
+    {
+        "word": "덥다",
+        "romanization": "deop-tta",
+        "translations": ["to be hot (atmosphere)"],
+        "type": "adjective",
+        "id": "c1d4b64e-a974-40e6-b06c-48d0d0836f25",
+        "category": "things"
+    },
+    {
+        "word": "춥다",
+        "romanization": "chup-tta",
+        "translations": ["to be cold (atmosphere)"],
+        "type": "adjective",
+        "id": "db789d6b-2dc5-446f-9012-042bd2a3888f",
+        "category": "things"
+    },
+    {
+        "word": "따뜻하다",
+        "romanization": "tta-tteu-ta-da",
+        "translations": ["to be warm"],
+        "type": "adjective",
+        "id": "c292dae4-b0c3-4f39-88f7-c3a5e6e316c5",
+        "category": "things"
+    },
+    {
+        "word": "시원하다",
+        "romanization": "si-won-ha-da",
+        "translations": ["to be cool"],
+        "type": "adjective",
+        "id": "3f7da580-0d17-4f07-a588-689fc94e61bf",
+        "category": "things"
+    },
+    {
+        "word": "밝다",
+        "romanization": "balg-tta",
+        "translations": ["to be bright"],
+        "type": "adjective",
+        "id": "5251448d-af19-49e4-bb44-ace547f36ad9",
+        "category": "things"
+    },
+    {
+        "word": "어둡다",
+        "romanization": "eo-dup-tta",
+        "translations": ["to be dark"],
+        "type": "adjective",
+        "id": "9f0a4db0-6e48-40ce-9145-7fb0f391f3a8",
+        "category": "things"
+    },
+    {
+        "word": "깨끗하다",
+        "romanization": "kkae-kkeu-ta-da",
+        "translations": ["to be clean"],
+        "type": "adjective",
+        "id": "c0046ac0-e1c0-4466-b226-e326d7345267",
+        "category": "things"
+    },
+    {
+        "word": "더럽다",
+        "romanization": "deo-reop-tta",
+        "translations": ["to be dirty"],
+        "type": "adjective",
+        "id": "fa98db8a-7873-455d-b47b-44c7ed7cfc0f",
+        "category": "things"
+    },
+    {
+        "word": "조용하다",
+        "romanization": "jo-yong-ha-da",
+        "translations": ["to be quiet"],
+        "type": "adjective",
+        "id": "0758904f-5538-42b0-9dbe-31bd8bd37237",
+        "category": "things"
+    },
+    {
+        "word": "시끄럽다",
+        "romanization": "si-kkeu-reop-tta",
+        "translations": ["to be loud"],
+        "type": "adjective",
+        "id": "3adb3efc-585a-4132-8564-3940a0610114",
+        "category": "things"
+    },
+    {
+        "word": "딱딱하다",
+        "romanization": "ttak-tta-ka-da",
+        "translations": ["to be hard"],
+        "type": "adjective",
+        "id": "00767039-9200-4895-9d0c-4f61dbe3be41",
+        "category": "things"
+    },
+    {
+        "word": "부드럽다",
+        "romanization": "bu-deu-reop-tta",
+        "translations": ["to be soft"],
+        "type": "adjective",
+        "id": "c901c269-0c7e-4579-bc94-601eb95538d4",
+        "category": "things"
+    },
+    {
+        "word": "두껍다",
+        "romanization": "du-kkeop-tta",
+        "translations": ["to be thick (flat)"],
+        "type": "adjective",
+        "id": "e157b215-e3ce-477a-840b-5bf6fc2a8759",
+        "category": "things"
+    },
+    {
+        "word": "얇다",
+        "romanization": "yalb-tta",
+        "translations": ["to be thin (flat)"],
+        "type": "adjective",
+        "id": "cbf9ce3b-e149-4019-bda3-6dc577e6fd09",
+        "category": "things"
+    },
+    {
+        "word": "굵다",
+        "romanization": "gulk-tta",
+        "translations": ["to be thick (circular)"],
+        "type": "adjective",
+        "id": "f616641e-136c-400c-8141-e7d025e335f4",
+        "category": "things"
+    },
+    {
+        "word": "가늘다",
+        "romanization": "ga-neul-da",
+        "translations": ["to be thin (circular)"],
+        "type": "adjective",
+        "id": "c2b01b91-41b9-41d6-8f96-fbdc2d5f5363",
+        "category": "things"
+    },
+    {
+        "word": "싸다",
+        "romanization": "ssa-da",
+        "translations": ["to be cheap"],
+        "type": "adjective",
+        "id": "60fa352e-cc40-4847-a981-56001c5a5eb0",
+        "category": "things"
+    },
+    {
+        "word": "비싸다",
+        "romanization": "bi-ssa-da",
+        "translations": ["to be expensive"],
+        "type": "adjective",
+        "id": "ae7fddfc-a176-4cad-ac32-543134b9b9f7",
+        "category": "things"
+    },
+    {
+        "word": "쉽다",
+        "romanization": "swip-tta",
+        "translations": ["to be easy"],
+        "type": "adjective",
+        "id": "c806474f-3403-4362-81ac-e2f81ccb78cf",
+        "category": "things"
+    },
+    {
+        "word": "어렵다",
+        "romanization": "eo-ryeop-tta",
+        "translations": ["to be difficult"],
+        "type": "adjective",
+        "id": "ff41461c-ea93-4909-8d6a-5a18a4d0947a",
+        "category": "things"
+    },
+    {
+        "word": "편하다",
+        "romanization": "pyeon-ha-da",
+        "translations": ["to be comfortable"],
+        "type": "adjective",
+        "id": "ecea0c87-defc-4939-8ef1-df6c9ed3baf1",
+        "category": "things"
+    },
+    {
+        "word": "불편하다",
+        "romanization": "bul-pyeon-ha-da",
+        "translations": ["to be uncomfortable"],
+        "type": "adjective",
+        "id": "d8062430-b55d-42f8-bd24-dcad60d7d87e",
+        "category": "things"
+    },
+    {
+        "word": "맛있다",
+        "romanization": "ma-sit-tta",
+        "translations": ["to be delicious"],
+        "type": "adjective",
+        "id": "6deae637-7c8c-45bd-b850-b31a64ddfe49",
+        "category": "things"
+    },
+    {
+        "word": "맛없다",
+        "romanization": "ma-deop-tta",
+        "translations": ["to not be delicious"],
+        "type": "adjective",
+        "id": "2eef0953-ca6a-4d60-829e-1ff3bec7b5ff",
+        "category": "things"
+    },
+    {
+        "word": "까맣다",
+        "romanization": "kka-ma-ta",
+        "translations": ["to be black"],
+        "type": "adjective",
+        "id": "d51bba74-cc6f-4e1e-89f9-1d3413676fb5",
+        "category": "things"
+    },
+    {
+        "word": "하얗다",
+        "romanization": "ha-ya-ta",
+        "translations": ["to be white"],
+        "type": "adjective",
+        "id": "e8756f27-f334-40d0-9175-65b56d3b0f66",
+        "category": "things"
+    },
+    {
+        "word": "새롭다",
+        "romanization": "sae-top-tta",
+        "translations": ["to be new"],
+        "type": "adjective",
+        "id": "a90fc822-7a15-4a4e-8a55-4ebd675ad5e7",
+        "category": "things"
+    },
+    {
+        "word": "오래되다",
+        "romanization": "o-rae-doe-da",
+        "translations": ["to be old"],
+        "type": "adjective",
+        "id": "8e727306-f9d9-4d06-a0a3-da4c317a4c1c",
+        "category": "things"
+    },
+    {
+        "word": "예쁘다",
+        "romanization": "ye-ppeu-da",
+        "translations": ["to be pretty"],
+        "type": "adjective",
+        "id": "077681cf-9055-41bd-8469-cbe6d41d9b0a",
+        "category": "things"
+    },
+    {
+        "word": "아름답다",
+        "romanization": "a-reum-dap-tta",
+        "translations": [""],
+        "type": "adjective",
+        "id": "",
+        "category": "things"
+    },
+    {
+        "word": "걱정되다",
+        "romanization": "geok-jeong-doe-da",
+        "translations": ["to be worried"],
+        "type": "adjective",
+        "id": "4f6144da-a739-4e09-bd23-e0f6810a875c",
+        "category": "feelings"
+    },
+    {
+        "word": "궁금하다",
+        "romanization": "gung-geum-ha-da",
+        "translations": ["to be curious"],
+        "type": "adjective",
+        "id": "0d7eb594-0bd0-4cfc-b404-0c042f578476",
+        "category": "feelings"
+    },
+    {
+        "word": "기분 좋다",
+        "romanization": "gi-bun jo-ta",
+        "translations": ["to feel good"],
+        "type": "adjective",
+        "id": "f9eba057-1419-4495-a3ee-81dcd0c13987",
+        "category": "feelings"
+    },
+    {
+        "word": "기분 나쁘다",
+        "romanization": "gi-bun na-ppeu-da",
+        "translations": ["to feel bad"],
+        "type": "adjective",
+        "id": "856deec4-a327-4486-acd4-45a5c11531c2",
+        "category": "feelings"
+    },
+    {
+        "word": "기쁘다",
+        "romanization": "gi-ppeu-da",
+        "translations": ["to be glad"],
+        "type": "adjective",
+        "id": "3f011c26-8900-4582-b7cf-cbbc2ead4f6b",
+        "category": "feelings"
+    },
+    {
+        "word": "놀라다",
+        "romanization": "nol-la-da",
+        "translations": ["to be surprised"],
+        "type": "adjective",
+        "id": "4453f27d-5aed-4e31-8382-1a2671cfcbef",
+        "category": "feelings"
+    },
+    {
+        "word": "당황하다",
+        "romanization": "dang-hwang-ha-da",
+        "translations": ["to be embarrassed"],
+        "type": "adjective",
+        "id": "87006a14-6875-49bf-afe8-0829a544c84c",
+        "category": "feelings"
+    },
+    {
+        "word": "떨리다",
+        "romanization": "tteol-li-da",
+        "translations": ["to be nervous"],
+        "type": "adjective",
+        "id": "c849348d-e213-473d-8445-b3a2e9385f1b",
+        "category": "feelings"
+    },
+    {
+        "word": "만족하다",
+        "romanization": "man-jo-ka-da",
+        "translations": ["to be satisfied"],
+        "type": "adjective",
+        "id": "78190f4d-eb4e-416e-a959-902a6227dc7b",
+        "category": "feelings"
+    },
+    {
+        "word": "무섭다",
+        "romanization": "mu-seop-tta",
+        "translations": ["to be scared"],
+        "type": "adjective",
+        "id": "2816fed1-ef4d-470d-8eb3-d35f375595c3",
+        "category": "feelings"
+    },
+    {
+        "word": "바쁘다",
+        "romanization": "ba-ppeu-da",
+        "translations": ["to be busy"],
+        "type": "adjective",
+        "id": "53394944-1899-472a-b5de-b62590994936",
+        "category": "feelings"
+    },
+    {
+        "word": "배고프다",
+        "romanization": "bae-go-peu-da",
+        "translations": ["to be hungry"],
+        "type": "adjective",
+        "id": "323a73c8-0f45-42df-86d9-b0cb68ab9401",
+        "category": "feelings"
+    },
+    {
+        "word": "배부르다",
+        "romanization": "bae-bu-leu-da",
+        "translations": ["to be full"],
+        "type": "adjective",
+        "id": "f514913b-2e5a-49f4-80f7-d80c69d81a61",
+        "category": "feelings"
+    },
+    {
+        "word": "부끄럽다",
+        "romanization": "bu-kkeu-leop-tta",
+        "translations": ["to be ashamed"],
+        "type": "adjective",
+        "id": "93f5bad4-0bd3-4049-9035-64d259302140",
+        "category": "feelings"
+    },
+    {
+        "word": "부럽다",
+        "romanization": "bu-leop-tta",
+        "translations": ["to be envious"],
+        "type": "adjective",
+        "id": "ac622841-0d88-42e4-8751-03451b7b446f",
+        "category": "feelings"
+    },
+    {
+        "word": "불쌍하다",
+        "romanization": "bul-ssang-ha-da",
+        "translations": ["to feel pity for"],
+        "type": "adjective",
+        "id": "0d1b4be9-edb6-4406-99ad-b057fe6cb3b6",
+        "category": "feelings"
+    },
+    {
+        "word": "불안하다",
+        "romanization": "bu-lan-ha-da",
+        "translations": ["to be anxious"],
+        "type": "adjective",
+        "id": "a37a4fc4-5911-4917-b94a-f16843eddf3e",
+        "category": "feelings"
+    },
+    {
+        "word": "불편하다",
+        "romanization": "bul-pyeon-ha-da",
+        "translations": ["to be uncomfortable"],
+        "type": "adjective",
+        "id": "15ddca07-1c45-4530-8691-240d192549b2",
+        "category": "feelings"
+    },
+    {
+        "word": "섭섭하다",
+        "romanization": "seop-seop-pa-da",
+        "translations": ["to be upset", "to be disappointed"],
+        "type": "adjective",
+        "id": "b623da68-366c-40bc-b0c0-336a4d5c29d2",
+        "category": "feelings"
+    },
+    {
+        "word": "슬프다",
+        "romanization": "seul-peu-da",
+        "translations": ["to be sad"],
+        "type": "adjective",
+        "id": "0a4f983b-07ef-49a5-b168-a4ebb65acb2a",
+        "category": "feelings"
+    },
+    {
+        "word": "신나다",
+        "romanization": "sin-na-da",
+        "translations": ["to be excited", "to be delighted"],
+        "type": "adjective",
+        "id": "361a3489-574a-4773-8868-403ea55e1280",
+        "category": "feelings"
+    },
+    {
+        "word": "신기하다",
+        "romanization": "sin-gi-ha-da",
+        "translations": ["to be interesting", "to be amazing"],
+        "type": "adjective",
+        "id": "5df54296-f838-4ca8-a629-ccda6fbf2771",
+        "category": "feelings"
+    },
+    {
+        "word": "실망하다",
+        "romanization": "sil-mang-ha-da",
+        "translations": ["to be disappointed"],
+        "type": "adjective",
+        "id": "01a5c1d0-b759-4b3e-bdca-1fab0b7552bd",
+        "category": "feelings"
+    },
+    {
+        "word": "심심하다",
+        "romanization": "sim-sim-ha-da",
+        "translations": ["to be bored"],
+        "type": "adjective",
+        "id": "b43ac965-5c15-408d-88ba-8d636dcd9683",
+        "category": "feelings"
+    },
+    {
+        "word": "아프다",
+        "romanization": "a-peu-da",
+        "translations": ["to be sick", "to be painful"],
+        "type": "adjective",
+        "id": "418b8410-1960-451d-a5d3-db0020adb592",
+        "category": "feelings"
+    },
+    {
+        "word": "외롭다",
+        "romanization": "oe-lop-tta",
+        "translations": ["to be lonely"],
+        "type": "adjective",
+        "id": "5e00a74d-0a8d-46d8-90c2-33533232bfc8",
+        "category": "feelings"
+    },
+    {
+        "word": "우울하다",
+        "romanization": "u-ul-ha-da",
+        "translations": ["to be depressed"],
+        "type": "adjective",
+        "id": "27c7a262-bdbc-4ea9-a8ec-0d0d42376a38",
+        "category": "feelings"
+    },
+    {
+        "word": "자랑스럽다",
+        "romanization": "ja-lang-seu-leop-tta",
+        "translations": ["to be proud"],
+        "type": "adjective",
+        "id": "2109f007-08c9-47e2-b581-5beb7f3c9267",
+        "category": "feelings"
+    },
+    {
+        "word": "재미없다",
+        "romanization": "jae-mi-eop-tta",
+        "translations": ["to be not fun"],
+        "type": "adjective",
+        "id": "03ad1520-7b85-462e-a9a9-534e7560dd33",
+        "category": "feelings"
+    },
+    {
+        "word": "재미있다",
+        "romanization": "jae-mi-it-tta",
+        "translations": ["to be fun"],
+        "type": "adjective",
+        "id": "fcd96360-b15c-4456-98f7-bef11177bf9d",
+        "category": "feelings"
+    },
+    {
+        "word": "졸리다",
+        "romanization": "jol-li-da",
+        "translations": ["to feel sleepy"],
+        "type": "adjective",
+        "id": "36831c30-7f53-4f62-a380-c6a8ea332c49",
+        "category": "feelings"
+    },
+    {
+        "word": "즐겁다",
+        "romanization": "jeul-geop-tta",
+        "translations": ["to be pleased", "to be merry"],
+        "type": "adjective",
+        "id": "a998a38d-81f5-4bce-9178-ca740ba6f076",
+        "category": "feelings"
+    },
+    {
+        "word": "지루하다",
+        "romanization": "ji-lu-ha-da",
+        "translations": ["to be bored"],
+        "type": "adjective",
+        "id": "2d3e7632-dcd9-4734-ae58-a2ecf605763e",
+        "category": "feelings"
+    },
+    {
+        "word": "짜증나다",
+        "romanization": "jja-jeung-na-da",
+        "translations": ["to be annoyed"],
+        "type": "adjective",
+        "id": "bb0f8d36-c5b8-486f-ab5f-e211f7af2341",
+        "category": "feelings"
+    },
+    {
+        "word": "편하다",
+        "romanization": "pyeon-ha-da",
+        "translations": ["to be relaxed", "to be comfortable"],
+        "type": "adjective",
+        "id": "e3be1134-ceff-46c3-9a07-778baf814c7e",
+        "category": "feelings"
+    },
+    {
+        "word": "피곤하다",
+        "romanization": "pi-gon-ha-da",
+        "translations": ["to be tired"],
+        "type": "adjective",
+        "id": "2952dd29-4fdc-4ff4-86e3-1b0cd6dd578a",
+        "category": "feelings"
+    },
+    {
+        "word": "행복하다",
+        "romanization": "haeng-bok-ha-da",
+        "translations": ["to be happy"],
+        "type": "adjective",
+        "id": "6ac73456-1ed0-483d-a8eb-c1a6446a0c24",
+        "category": "feelings"
+    },
+    {
+        "word": "힘들다",
+        "romanization": "him-deul-da",
+        "translations": ["to be hard", "to be exhausted"],
+        "type": "adjective",
+        "id": "9bf1b56e-8c7a-41bf-9c75-d1cb78e6e927",
+        "category": "feelings"
+    },
+    {
+        "word": "화나다",
+        "romanization": "hwa-na-da",
+        "translations": ["to get angry"],
+        "type": "adjective",
+        "id": "b99a7b0a-fb4c-47e0-b554-33f59095d0e1",
+        "category": "feelings"
+    },
+    {
+        "word": "흥미롭다",
+        "romanization": "heung-mi-lop-tta",
+        "translations": ["to be interesting"],
+        "type": "adjective",
+        "id": "c30f1e17-41b0-439f-bace-10d63e19217f",
+        "category": "feelings"
+    },
+    {
+        "word": "강하다",
+        "romanization": "gang-ha-da",
+        "translations": ["to be strong"],
+        "type": "adjective",
+        "id": "aeeeaec8-f9c7-4d69-ba37-1271c52936a3",
+        "category": "person"
+    },
+    {
+        "word": "건강하다",
+        "romanization": "geon-gang-ha-da",
+        "translations": ["to be healthy"],
+        "type": "adjective",
+        "id": "d0855638-5b75-4b79-877c-b5c80566f198",
+        "category": "person"
+    },
+    {
+        "word": "게으르다",
+        "romanization": "ge-eu-leu-da",
+        "translations": ["to be lazy"],
+        "type": "adjective",
+        "id": "84042eee-0ee5-4816-87cd-b280ecb300dc",
+        "category": "person"
+    },
+    {
+        "word": "귀엽다",
+        "romanization": "gwi-yeop-tta",
+        "translations": ["to be cute"],
+        "type": "adjective",
+        "id": "0c936019-6e62-4e5a-a347-023af5681eb6",
+        "category": "person"
+    },
+    {
+        "word": "나이가 많다",
+        "romanization": "na-i-ga man-ta",
+        "translations": ["to be old"],
+        "type": "adjective",
+        "id": "1aade75a-e83d-408c-b04d-eb32fb8820e3",
+        "category": "person"
+    },
+    {
+        "word": "날씬하다",
+        "romanization": "nal-ssin-ha-da",
+        "translations": ["to be slim"],
+        "type": "adjective",
+        "id": "4aaeaa4e-52bc-4ec9-b6dd-e5df89d72be9",
+        "category": "person"
+    },
+    {
+        "word": "늙다",
+        "romanization": "neuk-tta",
+        "translations": ["to be old"],
+        "type": "adjective",
+        "id": "58182008-d19d-4f0b-b0ad-c96a98098479",
+        "category": "person"
+    },
+    {
+        "word": "다정하다",
+        "romanization": "da-jeong-ha-da",
+        "translations": ["to be kind"],
+        "type": "adjective",
+        "id": "d217721f-3870-4bc6-a597-60c9bf199dc9",
+        "category": "person"
+    },
+    {
+        "word": "똑똑하다",
+        "romanization": "ttok-tto-ka-da",
+        "translations": ["to be smart"],
+        "type": "adjective",
+        "id": "b0c43fdc-5182-4b17-9ee6-bc0050753401",
+        "category": "person"
+    },
+    {
+        "word": "뚱뚱하다",
+        "romanization": "ttung-ttung-ha-da",
+        "translations": ["to be fat"],
+        "type": "adjective",
+        "id": "9181df27-3863-40cd-bb35-2ecfb717e597",
+        "category": "person"
+    },
+    {
+        "word": "마르다",
+        "romanization": "ma-leu-da",
+        "translations": ["to be skinny"],
+        "type": "adjective",
+        "id": "e08b87f9-7ed8-4147-8d2a-ba70c181a74a",
+        "category": "person"
+    },
+    {
+        "word": "매력적이다",
+        "romanization": "mae-lyeok-jjeo-gi-da",
+        "translations": ["to be attractive"],
+        "type": "adjective",
+        "id": "7b540ecc-46e8-4689-83eb-57056b444098",
+        "category": "person"
+    },
+    {
+        "word": "멋지다",
+        "romanization": "meot-jji-da",
+        "translations": ["to be cool"],
+        "type": "adjective",
+        "id": "750c6163-d64b-4c3a-b5b3-ecfa53dc6936",
+        "category": "person"
+    },
+    {
+        "word": "멋있다",
+        "romanization": "meo-sit-tta",
+        "translations": ["to be stylish", "to be cool"],
+        "type": "adjective",
+        "id": "9664f108-ada5-4c75-a582-98929509b315",
+        "category": "person"
+    },
+    {
+        "word": "멍청하다",
+        "romanization": "meong-cheong-ha-da",
+        "translations": ["to be stupid"],
+        "type": "adjective",
+        "id": "66658497-61b7-434a-9218-c1401eb2ded0",
+        "category": "person"
+    },
+    {
+        "word": "못되다",
+        "romanization": "mot-ttwe-da",
+        "translations": ["to be mean"],
+        "type": "adjective",
+        "id": "0986d541-9d79-4e77-b9dc-fd3d7bac5db8",
+        "category": "person"
+    },
+    {
+        "word": "못생기다",
+        "romanization": "mot-ssaeng-gi-da",
+        "translations": ["to be ugly"],
+        "type": "adjective",
+        "id": "f27b545e-0c77-4e1f-bcd4-c69ed4f87ff4",
+        "category": "person"
+    },
+    {
+        "word": "미치다",
+        "romanization": "mi-chi-da",
+        "translations": ["to be crazy"],
+        "type": "adjective",
+        "id": "b75e173e-f760-4368-8326-95671a45a858",
+        "category": "person"
+    },
+    {
+        "word": "부지런하다",
+        "romanization": "bu-ji-leon-ha-da",
+        "translations": ["to be hard-working"],
+        "type": "adjective",
+        "id": "470e68c3-63fc-48ad-ae27-b459f7c38cfe",
+        "category": "person"
+    },
+    {
+        "word": "불친절하다",
+        "romanization": "bul-chin-jeol-ha-da",
+        "translations": ["to be unfriendly"],
+        "type": "adjective",
+        "id": "121a2ace-9fc2-4c9c-baa5-be1b8b1374c0",
+        "category": "person"
+    },
+    {
+        "word": "사랑스럽다",
+        "romanization": "sa-lang-seu-leop-tta",
+        "translations": ["to be lovely"],
+        "type": "adjective",
+        "id": "f488a303-702d-4622-952b-46bcb1d70997",
+        "category": "person"
+    },
+    {
+        "word": "솔직하다",
+        "romanization": "sol-jji-ka-da",
+        "translations": ["to be frank"],
+        "type": "adjective",
+        "id": "39c41fb2-6a49-4879-aa02-e161778e0569",
+        "category": "person"
+    },
+    {
+        "word": "수줍다",
+        "romanization": "su-jup-tta",
+        "translations": ["to be shy"],
+        "type": "adjective",
+        "id": "7fc83a0d-f55d-4acb-bc18-194f8ea6e73f",
+        "category": "person"
+    },
+    {
+        "word": "아름답다",
+        "romanization": "a-leum-dap-tta",
+        "translations": ["to be beautiful"],
+        "type": "adjective",
+        "id": "f5d17240-3fed-4b76-83ab-889c565f3a43",
+        "category": "person"
+    },
+    {
+        "word": "약하다",
+        "romanization": "ya-ka-da",
+        "translations": ["to be weak"],
+        "type": "adjective",
+        "id": "25c0afa8-a575-429e-bddf-19d0a5f33a42",
+        "category": "person"
+    },
+    {
+        "word": "어리다",
+        "romanization": "eo-li-da",
+        "translations": ["to be young", "to be immature"],
+        "type": "adjective",
+        "id": "9ff4b4b8-4eba-4778-bb3c-fe512ca57a42",
+        "category": "person"
+    },
+    {
+        "word": "예민하다",
+        "romanization": "ye-min-ha-da",
+        "translations": ["to be sensitive"],
+        "type": "adjective",
+        "id": "862939ce-ca28-42de-b916-4824fc88aa7d",
+        "category": "person"
+    },
+    {
+        "word": "예쁘다",
+        "romanization": "ye-ppeu-da",
+        "translations": ["to be pretty"],
+        "type": "adjective",
+        "id": "d9c7e328-d48d-481c-a314-37f0ff4dd523",
+        "category": "person"
+    },
+    {
+        "word": "예의 바르다",
+        "romanization": "ye-ui ba-leu-da",
+        "translations": ["to be polite"],
+        "type": "adjective",
+        "id": "a1f43671-51fe-401c-a765-40e5e983c250",
+        "category": "person"
+    },
+    {
+        "word": "용감하다",
+        "romanization": "yong-gam-ha-da",
+        "translations": ["to be brave"],
+        "type": "adjective",
+        "id": "0320445f-ea87-45b9-b225-d20977fbefc1",
+        "category": "person"
+    },
+    {
+        "word": "유명하다",
+        "romanization": "yu-myeong-ha-da",
+        "translations": ["to be famous"],
+        "type": "adjective",
+        "id": "7dc3a1c0-79af-4ca9-9859-a458ca94f931",
+        "category": "person"
+    },
+    {
+        "word": "유치하다",
+        "romanization": "yu-chi-ha-da",
+        "translations": ["to be childish"],
+        "type": "adjective",
+        "id": "e6162156-c566-462b-8257-9054df232a91",
+        "category": "person"
+    },
+    {
+        "word": "이기적이다",
+        "romanization": "i-gi-jeo-gi-da",
+        "translations": ["to be selfish"],
+        "type": "adjective",
+        "id": "08fffb47-be7a-44b5-9de4-7a990c64d5f0",
+        "category": "person"
+    },
+    {
+        "word": "이상하다",
+        "romanization": "i-sand-ha-da",
+        "translations": ["to be strange"],
+        "type": "adjective",
+        "id": "c73d76ba-4744-4f63-8704-fbc8cea6c3bb",
+        "category": "person"
+    },
+    {
+        "word": "잘생겼다",
+        "romanization": "jal-saeng-gyeot-tta",
+        "translations": ["to be handsome"],
+        "type": "adjective",
+        "id": "49939234-72e3-41a0-9495-708f3a011296",
+        "category": "person"
+    },
+    {
+        "word": "젊다",
+        "romanization": "jeom-tta",
+        "translations": ["to be young"],
+        "type": "adjective",
+        "id": "3727b791-7e65-46f2-826e-d7e7289d3ab7",
+        "category": "person"
+    },
+    {
+        "word": "착하다",
+        "romanization": "cha-ka-da",
+        "translations": ["to be nice", "to be good"],
+        "type": "adjective",
+        "id": "75e63eef-854c-4e78-950d-522f83a1a35d",
+        "category": "person"
+    },
+    {
+        "word": "친절하다",
+        "romanization": "chin-jeol-ha-da",
+        "translations": ["to be friendly"],
+        "type": "adjective",
+        "id": "fe9d7b95-9510-4265-93dd-983246c63b09",
+        "category": "person"
+    },
+    {
+        "word": "키가 작다",
+        "romanization": "ki-ga jak-tta",
+        "translations": ["to be short"],
+        "type": "adjective",
+        "id": "51f70cd8-c771-4093-be23-ba3f723c1592",
+        "category": "person"
+    },
+    {
+        "word": "키가 크다",
+        "romanization": "ki-ga keu-da",
+        "translations": ["to be tall"],
+        "type": "adjective",
+        "id": "f7edc84e-9471-49d3-bd77-b7b5641e65cb",
+        "category": "person"
+    },
+    {
+        "word": "몸",
+        "romanization": "mom",
+        "translations": ["body"],
+        "type": "noun",
+        "id": "d5783064-c939-49f7-a184-1d67a36fea40",
+        "category": "body"
+    },
+    {
+        "word": "피부",
+        "romanization": "pi-bu",
+        "translations": ["skin"],
+        "type": "noun",
+        "id": "d1a8cc08-2fce-4799-8ce0-8cc3493dba8c",
+        "category": "body"
+    },
+    {
+        "word": "머리",
+        "romanization": "meo-li",
+        "translations": ["head"],
+        "type": "noun",
+        "id": "abdb18de-ceaa-42a4-8d6e-3e7d3ac689b8",
+        "category": "body"
+    },
+    {
+        "word": "머리카락",
+        "romanization": "meo-li-ka-lak",
+        "translations": ["hair"],
+        "type": "noun",
+        "id": "567bc638-0dc6-401b-9bbd-ff424cdcf130",
+        "category": "body"
+    },
+    {
+        "word": "얼굴",
+        "romanization": "eol-gul",
+        "translations": ["face"],
+        "type": "noun",
+        "id": "98d9b86e-0f53-4f54-ae8b-adf00810bda2",
+        "category": "body"
+    },
+    {
+        "word": "이마",
+        "romanization": "i-ma",
+        "translations": ["forehead"],
+        "type": "noun",
+        "id": "774c614d-7ea8-4b21-9fe2-a7d5cc1ed12c",
+        "category": "body"
+    },
+    {
+        "word": "눈썹",
+        "romanization": "nun-sseop",
+        "translations": ["eyebrow"],
+        "type": "noun",
+        "id": "a8e52b6e-f93b-4908-8ce1-fe3e1de5d0d5",
+        "category": "body"
+    },
+    {
+        "word": "눈",
+        "romanization": "nun",
+        "translations": ["eye"],
+        "type": "noun",
+        "id": "7921212a-8996-477e-a11f-9e43b1a14ded",
+        "category": "body"
+    },
+    {
+        "word": "눈동자",
+        "romanization": "nun-dong-ja",
+        "translations": ["pupil"],
+        "type": "noun",
+        "id": "92548e2e-3dee-47f8-8c6a-442e6fc59d4e",
+        "category": "body"
+    },
+    {
+        "word": "뺨",
+        "romanization": "ppyam",
+        "translations": ["cheek"],
+        "type": "noun",
+        "id": "4f202e27-020f-45cb-b8c5-e65ec75ec092",
+        "category": "body"
+    },
+    {
+        "word": "코",
+        "romanization": "ko",
+        "translations": ["nose"],
+        "type": "noun",
+        "id": "1922d329-6bb1-4a77-9e92-2b1fe77c48cb",
+        "category": "body"
+    },
+    {
+        "word": "귀",
+        "romanization": "gwi",
+        "translations": ["ear"],
+        "type": "noun",
+        "id": "37ddeb36-77fd-438d-a03c-fffb13ae9ed2",
+        "category": "body"
+    },
+    {
+        "word": "입",
+        "romanization": "ip",
+        "translations": ["mouth"],
+        "type": "noun",
+        "id": "7a3f1772-c75e-4077-b4e5-7b8a5e9933c3",
+        "category": "body"
+    },
+    {
+        "word": "입술",
+        "romanization": "ip-sul",
+        "translations": ["lips"],
+        "type": "noun",
+        "id": "069c8c9c-e869-49b3-985f-83f3d2103b83",
+        "category": "body"
+    },
+    {
+        "word": "이",
+        "romanization": "i",
+        "translations": ["tooth"],
+        "type": "noun",
+        "id": "125456d0-902e-42d9-af0d-59e93aaca264",
+        "category": "body"
+    },
+    {
+        "word": "혀",
+        "romanization": "hyeo",
+        "translations": ["tongue"],
+        "type": "noun",
+        "id": "b05110d3-297e-4fd6-8997-9079de4d6b80",
+        "category": "body"
+    },
+    {
+        "word": "턱",
+        "romanization": "teok",
+        "translations": ["chin"],
+        "type": "noun",
+        "id": "72b3614b-70db-4190-aec8-9414415648e1",
+        "category": "body"
+    },
+    {
+        "word": "목",
+        "romanization": "mok",
+        "translations": ["neck"],
+        "type": "noun",
+        "id": "dcc7ae1e-d84e-4c09-b709-6925b1655a82",
+        "category": "body"
+    },
+    {
+        "word": "팔",
+        "romanization": "pal",
+        "translations": ["arm"],
+        "type": "noun",
+        "id": "c8254050-91c8-4cd3-bbaf-27d2e3d620f9",
+        "category": "body"
+    },
+    {
+        "word": "팔꿈치",
+        "romanization": "pal-kkum-chi",
+        "translations": ["elbow"],
+        "type": "noun",
+        "id": "733fb6b3-0b54-4f65-aa87-151ea77ab0b4",
+        "category": "body"
+    },
+    {
+        "word": "손",
+        "romanization": "son",
+        "translations": ["hand"],
+        "type": "noun",
+        "id": "45bea176-9b6d-4e85-9373-f61462d9a722",
+        "category": "body"
+    },
+    {
+        "word": "손목",
+        "romanization": "son-mok",
+        "translations": ["wrist"],
+        "type": "noun",
+        "id": "12f90f45-a30c-4479-b21e-871c21c4ffe1",
+        "category": "body"
+    },
+    {
+        "word": "손가락",
+        "romanization": "won-ga-lak",
+        "translations": ["finger"],
+        "type": "noun",
+        "id": "5446513f-3651-4c80-81e2-3c6053dc933e",
+        "category": "body"
+    },
+    {
+        "word": "손톱",
+        "romanization": "son-tob",
+        "translations": ["fingernail"],
+        "type": "noun",
+        "id": "5f799280-d080-4086-aaa8-3945adf73a2e",
+        "category": "body"
+    },
+    {
+        "word": "허벅지",
+        "romanization": "heo-beok-ji",
+        "translations": ["thigh"],
+        "type": "noun",
+        "id": "892f6800-208b-40d7-bf9f-475e97c2d8b5",
+        "category": "body"
+    },
+    {
+        "word": "다리",
+        "romanization": "da-li",
+        "translations": ["leg"],
+        "type": "noun",
+        "id": "bbc742b7-862a-435c-b4aa-83440df1d15f",
+        "category": "body"
+    },
+    {
+        "word": "무릎",
+        "romanization": "mu-leup",
+        "translations": ["knee"],
+        "type": "noun",
+        "id": "9f4db562-95ad-4466-87be-bb968c39148c",
+        "category": "body"
+    },
+    {
+        "word": "발",
+        "romanization": "bal",
+        "translations": ["foot"],
+        "type": "noun",
+        "id": "d6d2712d-7b30-4efb-ab49-501c9bbeb397",
+        "category": "body"
+    },
+    {
+        "word": "발목",
+        "romanization": "bal-mok",
+        "translations": ["ankle"],
+        "type": "noun",
+        "id": "6af715bb-9752-46c3-93a1-9d374d0b8043",
+        "category": "body"
+    },
+    {
+        "word": "발꿈치",
+        "romanization": "bal-kkum-chi",
+        "translations": ["heel"],
+        "type": "noun",
+        "id": "00d12f2f-8ee0-4078-a63f-c9587516494b",
+        "category": "body"
+    },
+    {
+        "word": "발가락",
+        "romanization": "bal-ga-lak",
+        "translations": ["toe"],
+        "type": "noun",
+        "id": "932ace4f-a058-4d14-85ea-7f3da8ee49be",
+        "category": "body"
+    },
+    {
+        "word": "발톱",
+        "romanization": "bal-top",
+        "translations": ["toenail"],
+        "type": "noun",
+        "id": "d881d9a6-6649-4a19-931b-511c7eb2740a",
+        "category": "body"
+    },
+    {
+        "word": "어깨",
+        "romanization": "eo-kkae",
+        "translations": ["shoulder"],
+        "type": "noun",
+        "id": "b31cf5ab-d328-4d5d-beff-dfc12a318172",
+        "category": "body"
+    },
+    {
+        "word": "겨드랑이",
+        "romanization": "gyeo-deu-lang-i",
+        "translations": ["armpit"],
+        "type": "noun",
+        "id": "cc5f5075-7165-41f3-abbe-316cf022907f",
+        "category": "body"
+    },
+    {
+        "word": "가슴",
+        "romanization": "ga-seum",
+        "translations": ["chest", "breast"],
+        "type": "noun",
+        "id": "f1c5642c-c81d-4a11-a6ac-9e5ea048c243",
+        "category": "body"
+    },
+    {
+        "word": "등",
+        "romanization": "deung",
+        "translations": ["back"],
+        "type": "noun",
+        "id": "35c91ec2-fdc4-4b76-bb89-6e0827a88d4c",
+        "category": "body"
+    },
+    {
+        "word": "배",
+        "romanization": "bae",
+        "translations": ["belly"],
+        "type": "noun",
+        "id": "51cde398-7584-4ab4-bf55-a16337c22815",
+        "category": "body"
+    },
+    {
+        "word": "배꼽",
+        "romanization": "bae-kkop",
+        "translations": ["navel"],
+        "type": "noun",
+        "id": "c26683bc-b5d9-4127-9e1b-c12d616b3240",
+        "category": "body"
+    },
+    {
+        "word": "허리",
+        "romanization": "heo-li",
+        "translations": ["waist"],
+        "type": "noun",
+        "id": "074b5cb7-6308-4af2-9b86-5e8a235c8464",
+        "category": "body"
+    },
+    {
+        "word": "엉덩이",
+        "romanization": "eong-deong-i",
+        "translations": ["hip"],
+        "type": "noun",
+        "id": "9424f41b-778d-4417-b02d-8b9f014754a9",
+        "category": "body"
+    },
+    {
+        "word": "뇌",
+        "romanization": "noe",
+        "translations": ["brain"],
+        "type": "noun",
+        "id": "c84f199f-12f7-4b84-bb71-434d628a4098",
+        "category": "body"
+    },
+    {
+        "word": "심장",
+        "romanization": "sim-jang",
+        "translations": ["heart"],
+        "type": "noun",
+        "id": "65431eca-f9bb-4d06-878f-d502f634b75a",
+        "category": "body"
+    },
+    {
+        "word": "간",
+        "romanization": "gan",
+        "translations": ["liver"],
+        "type": "noun",
+        "id": "075a0ce5-3925-4fe0-ae4d-bebda26c0ec7",
+        "category": "body"
+    },
+    {
+        "word": "폐",
+        "romanization": "pye",
+        "translations": ["lung"],
+        "type": "noun",
+        "id": "6b80f8cf-d40a-4c04-aef8-445e75460db0",
+        "category": "body"
+    },
+    {
+        "word": "위",
+        "romanization": "wi",
+        "translations": ["stomach"],
+        "type": "noun",
+        "id": "7ed98cdd-0707-44f8-bfc4-e61a582c1b92",
+        "category": "body"
+    },
+    {
+        "word": "장",
+        "romanization": "jang",
+        "translations": ["intestine"],
+        "type": "noun",
+        "id": "edab13ee-f79b-466d-ae6b-a5d0387f0a46",
+        "category": "body"
+    },
+    {
+        "word": "자궁",
+        "romanization": "ja-gung",
+        "translations": ["uterus"],
+        "type": "noun",
+        "id": "3097a4e8-65df-47d2-8597-3a731666bf42",
+        "category": "body"
+    },
+    {
+        "word": "항문",
+        "romanization": "hang-mun",
+        "translations": ["anus"],
+        "type": "noun",
+        "id": "71c2938c-5b57-4dc9-be17-8d552f9bb9ec",
+        "category": "body"
+    },
+    {
+        "word": "피",
+        "romanization": "pi",
+        "translations": ["blood"],
+        "type": "noun",
+        "id": "3d500ea7-ec42-4164-bfcb-7c9f988ae6f6",
+        "category": "body"
+    },
+    {
+        "word": "뼈",
+        "romanization": "ppyeo",
+        "translations": ["bone"],
+        "type": "noun",
+        "id": "ee1189fa-b3ae-41c0-a8a0-71fa9091e6af",
+        "category": "body"
     }
 ]
