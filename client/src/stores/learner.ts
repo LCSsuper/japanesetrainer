@@ -5,6 +5,7 @@ import { shuffle } from "./utils/shuffle";
 import { PracticeMode, Word } from "../types";
 import LibraryStore from "./library";
 import SettingsStore from "./settings";
+import { invertLibrary } from "./utils/invertLibrary";
 
 export default class LearnerStore {
     libraryStore: LibraryStore;
@@ -26,7 +27,11 @@ export default class LearnerStore {
 
     reset = () => {
         this.words = JSON.parse(
-            JSON.stringify(this.libraryStore.practiceLibrary[this.practiceMode])
+            JSON.stringify(
+                this.practiceMode === "lang_to_eng"
+                    ? this.libraryStore.practiceLibrary
+                    : invertLibrary(this.libraryStore.practiceLibrary)
+            )
         );
 
         if (this.settingsStore.randomize) shuffle(this.words);

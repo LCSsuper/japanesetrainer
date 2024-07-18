@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { AppShell, Center, MantineProvider, createTheme } from "@mantine/core";
 import { useViewportSize } from "@mantine/hooks";
 import { observer } from "mobx-react-lite";
@@ -8,7 +9,6 @@ import Menu from "./pages/Menu";
 import Library from "./pages/Library";
 import { StoreProvider, useMobxStores } from "./hooks/useMobxStores";
 import { Header } from "./components/Header";
-import { useState } from "react";
 
 const desktopTheme = createTheme({
     primaryColor: "cyan",

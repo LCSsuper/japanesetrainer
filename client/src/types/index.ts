@@ -6,6 +6,7 @@ export type Word = {
     romanization: string;
     translations: string[];
     type?: WordType;
+    category?: string;
 };
 
 export type WordType =
@@ -29,7 +30,11 @@ export type Language =
     | "arabic"
     | "tomikorean";
 
-export type Library = {
-    lang_to_eng: Word[];
-    eng_to_lang: Word[];
+export type Library = Word[];
+
+export type Lesson = {
+    key: string;
+    title: string;
+    type?: "category" | "word type";
+    count: number;
 };

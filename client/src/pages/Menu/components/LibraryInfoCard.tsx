@@ -22,11 +22,11 @@ export const LibraryInfoCard = observer(() => {
                     {`The selected library is ${language}.`}
                 </Text>
                 <Text c="dimmed" size="sm">
-                    {`This library contains ${library.lang_to_eng.length}
+                    {`This library contains ${library.length}
                                             words.`}
                 </Text>
                 <Text c="dimmed" size="sm">
-                    {`The practice selection contains ${practiceLibrary.lang_to_eng.length}
+                    {`The practice selection contains ${practiceLibrary.length}
                                             words.`}
                 </Text>
                 <Space h={"sm"} />
