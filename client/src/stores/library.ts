@@ -23,13 +23,13 @@ const libraries: {
 
 export default class LibraryStore {
     language: Language = "korean";
-    selectedWordIds: Set<string> = new Set();
     counts: { categories: Map<string, number>; types: Map<WordType, number> } =
         {
             categories: new Map(),
             types: new Map(),
         };
     lessons: Lesson[] = [{ key: "all", title: "All words", count: 0 }];
+    selectedLessonId: string | undefined = undefined;
 
     constructor() {
         makeAutoObservable(this);
@@ -39,7 +39,6 @@ export default class LibraryStore {
 
     setLanguage = (language: string) => {
         this.language = language as Language;
-        this.selectedWordIds.clear();
         this.saveLibraryOptionsToLocalStorage();
         this.counts = this.library.reduce(
             (maps, word) => {
@@ -63,7 +62,7 @@ export default class LibraryStore {
             }
         );
         this.lessons = [
-            { key: "all", title: "All words", count: this.library.length },
+            { key: "all", title: "all words", count: this.library.length },
             ...Array.from(this.counts.categories.keys()).map(
                 (category): Lesson => ({
                     key: `category#${category}`,
@@ -83,7 +82,17 @@ export default class LibraryStore {
         ];
     };
 
-    getWordsInLibrary = (lesson: Lesson): Word[] => {
+    setSelectedLesson = (lessonId: string) => {
+        this.selectedLessonId = lessonId;
+    };
+
+    get selectedLesson(): Lesson | undefined {
+        return this.lessons.find(
+            (lesson) => lesson.key === this.selectedLessonId
+        );
+    }
+
+    getWordsInLesson = (lesson: Lesson): Word[] => {
         if (lesson.key === "all") return this.library;
         const [type, value] = lesson.key.split("#");
         if (type === "category") {
@@ -100,7 +109,6 @@ export default class LibraryStore {
             "libraryOptions",
             JSON.stringify({
                 language: this.language,
-                selectedWordIds: Array.from(this.selectedWordIds),
             })
         );
     };
@@ -108,35 +116,11 @@ export default class LibraryStore {
     getLibraryOptionsFromLocalStorage = () => {
         const libraryOptions = window.localStorage.getItem("libraryOptions");
         if (!libraryOptions) return;
-        const { language = "korean" as Language, selectedWordIds = [] } =
-            JSON.parse(libraryOptions);
+        const { language = "korean" as Language } = JSON.parse(libraryOptions);
 
         this.setLanguage(language);
-        this.selectedWordIds = new Set(selectedWordIds);
         this.saveLibraryOptionsToLocalStorage();
     };
-
-    toggleAll = () => {
-        if (this.selectedWordIds.size) this.selectedWordIds.clear();
-        else {
-            this.library.forEach((word) => this.selectedWordIds.add(word.id));
-        }
-        this.saveLibraryOptionsToLocalStorage();
-    };
-
-    get ISOlanguage() {
-        switch (this.language) {
-            case "japanese":
-                return "ja";
-            case "spanish":
-                return "es";
-            case "swedish":
-                return "sv";
-            case "korean":
-                return "ko";
-        }
-        return "en";
-    }
 
     get flag() {
         return flags[this.language];
@@ -146,10 +130,8 @@ export default class LibraryStore {
         return libraries[this.language];
     }
 
-    // TODO @Lucas for performance, probably better to filter the library once
     get practiceLibrary() {
-        return this.library.filter(this.inPracticeSelection);
+        if (!this.selectedLesson) return [];
+        return this.getWordsInLesson(this.selectedLesson);
     }
-
-    inPracticeSelection = (word: Word) => this.selectedWordIds.has(word.id);
 }

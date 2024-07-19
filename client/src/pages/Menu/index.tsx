@@ -1,7 +1,7 @@
 import { Grid } from "@mantine/core";
 
 import { TitleCard } from "./components/TitleCard";
-import { LibraryInfoCard } from "./components/LibraryInfoCard";
+import { LessonInfoCard } from "./components/LessonInfoCard";
 import { PracticeCard } from "./components/PracticeCard";
 
 const Menu = () => {
@@ -13,7 +13,7 @@ const Menu = () => {
                         <TitleCard />
                     </Grid.Col>
                     <Grid.Col>
-                        <LibraryInfoCard />
+                        <LessonInfoCard />
                     </Grid.Col>
                 </Grid>
             </Grid.Col>
@@ -38,7 +38,7 @@ const Menu = () => {
                     <PracticeCard mode="eng_to_lang" />
                 </Grid.Col>
                 <Grid.Col>
-                    <LibraryInfoCard />
+                    <LessonInfoCard />
                 </Grid.Col>
             </Grid>
         </Grid>

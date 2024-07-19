@@ -87,7 +87,7 @@ export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
                 </Text>
                 <Tooltip
                     disabled={!!practiceLibrary.length}
-                    label={"Practice selection is empty"}
+                    label={"No lesson selected"}
                 >
                     <Button
                         disabled={!practiceLibrary.length}

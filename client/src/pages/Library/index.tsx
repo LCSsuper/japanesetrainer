@@ -1,15 +1,24 @@
-import { Card, Grid, Group, Space, Tabs, Title, Text } from "@mantine/core";
+import {
+    Card,
+    Grid,
+    Group,
+    Space,
+    Tabs,
+    Title,
+    Text,
+    Center,
+} from "@mantine/core";
 import { observer } from "mobx-react-lite";
-import { IconCheckbox } from "@tabler/icons-react";
+import { IconBook } from "@tabler/icons-react";
 
 import { ScrollToTop } from "./components/ScrollToTop";
-import { Lessons } from "./components/Lessons";
+import { Lessons, SelectedLesson } from "./components/Lessons";
 import { Words } from "./components/Words";
 import { useMobxStores } from "../../hooks/useMobxStores";
 
 const Library = observer(() => {
     const {
-        libraryStore: { library, selectedWordIds },
+        libraryStore: { library, selectedLesson, getWordsInLesson },
     } = useMobxStores();
 
     return (
@@ -20,21 +29,21 @@ const Library = observer(() => {
                     <Card shadow="xl">
                         <Group justify="space-between" align="start">
                             <Group>
-                                <IconCheckbox size="2rem" />
-                                <Title order={3}>Lesson options</Title>
+                                <IconBook size="2rem" />
+                                <Title order={3}>Lessons</Title>
                             </Group>
                             <Group align="top">
-                                <Title
-                                    order={6}
-                                    c="dimmed"
-                                >{`0 selected`}</Title>
+                                <SelectedLesson
+                                    lesson={selectedLesson}
+                                    getWordsInLesson={getWordsInLesson}
+                                />
                             </Group>
                         </Group>
                         <Space h="xl" />
                         <Tabs defaultValue="lessons" keepMounted={false}>
                             <Tabs.List grow>
                                 <Tabs.Tab value="lessons">Lessons</Tabs.Tab>
-                                <Tabs.Tab value="creator">
+                                <Tabs.Tab value="creator" disabled>
                                     Lesson creator
                                 </Tabs.Tab>
                                 <Tabs.Tab value="words">Words</Tabs.Tab>
@@ -47,14 +56,13 @@ const Library = observer(() => {
                             </Tabs.Panel>
 
                             <Tabs.Panel value="words">
-                                <Text c="dimmed" fs="italic">
-                                    {`The library contains ${library.length} words.`}
-                                </Text>
+                                <Center h="3rem">
+                                    <Text c="dimmed" fs="italic">
+                                        {`There are ${library.length} words.`}
+                                    </Text>
+                                </Center>
                                 <Space h="xs" />
-                                <Words
-                                    words={library}
-                                    selectedWordIds={selectedWordIds}
-                                />
+                                <Words words={library} />
                             </Tabs.Panel>
                         </Tabs>
                         <Space h="md" />

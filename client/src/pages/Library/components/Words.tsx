@@ -2,13 +2,7 @@ import { Group, Badge, Table, Text, Box, Flex } from "@mantine/core";
 
 import { Word } from "../../../types";
 
-export const Words = ({
-    words,
-    selectedWordIds,
-}: {
-    words: Word[];
-    selectedWordIds: any;
-}) => {
+export const Words = ({ words }: { words: Word[] }) => {
     return (
         <Box>
             <Table>
@@ -23,11 +17,11 @@ export const Words = ({
                     {words.map((word, index) => (
                         <Table.Tr
                             key={index}
-                            bg={
-                                selectedWordIds.has(word.id)
-                                    ? "var(--mantine-color-cyan-light)"
-                                    : undefined
-                            }
+                            // bg={
+                            //     selectedWordIds.has(word.id)
+                            //         ? "var(--mantine-color-cyan-light)"
+                            //         : undefined
+                            // }
                         >
                             <Table.Td>
                                 <Text>{word.word}</Text>
