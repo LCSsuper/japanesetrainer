@@ -28,7 +28,7 @@ export default class LibraryStore {
             categories: new Map(),
             types: new Map(),
         };
-    lessons: Lesson[] = [{ key: "all", title: "All words", count: 0 }];
+    customLessons: Lesson[] = [];
     selectedLessonId: string | undefined = undefined;
 
     constructor() {
@@ -61,25 +61,6 @@ export default class LibraryStore {
                 types: new Map<WordType, number>(),
             }
         );
-        this.lessons = [
-            { key: "all", title: "all words", count: this.library.length },
-            ...Array.from(this.counts.categories.keys()).map(
-                (category): Lesson => ({
-                    key: `category#${category}`,
-                    title: category,
-                    type: "category",
-                    count: this.counts.categories.get(category) || 0,
-                })
-            ),
-            ...Array.from(this.counts.types.keys()).map(
-                (type): Lesson => ({
-                    key: `type#${type}`,
-                    title: type,
-                    type: "word type",
-                    count: this.counts.types.get(type) || 0,
-                })
-            ),
-        ];
     };
 
     setSelectedLesson = (lessonId: string) => {
@@ -94,14 +75,24 @@ export default class LibraryStore {
 
     getWordsInLesson = (lesson: Lesson): Word[] => {
         if (lesson.key === "all") return this.library;
-        const [type, value] = lesson.key.split("#");
-        if (type === "category") {
+        const [, value] = lesson.key.split("#");
+        if (lesson.type === "category") {
             return this.library.filter((word) => word.category === value);
         }
-        if (type === "type") {
+        if (lesson.type === "word type") {
             return this.library.filter((word) => word.type === value);
         }
+        if (lesson.type === "custom") {
+            return this.library.filter((word) =>
+                lesson.wordIds?.includes(word.id)
+            );
+        }
         return [];
+    };
+
+    saveLesson = (lesson: Lesson) => {
+        this.customLessons.push(lesson);
+        this.setSelectedLesson(lesson.key);
     };
 
     saveLibraryOptionsToLocalStorage = () => {
@@ -133,5 +124,28 @@ export default class LibraryStore {
     get practiceLibrary() {
         if (!this.selectedLesson) return [];
         return this.getWordsInLesson(this.selectedLesson);
+    }
+
+    get lessons(): Lesson[] {
+        return [
+            { key: "all", title: "all words", count: this.library.length },
+            ...Array.from(this.counts.categories.keys()).map(
+                (category): Lesson => ({
+                    key: `category#${category}`,
+                    title: category,
+                    type: "category",
+                    count: this.counts.categories.get(category) || 0,
+                })
+            ),
+            ...Array.from(this.counts.types.keys()).map(
+                (type): Lesson => ({
+                    key: `type#${type}`,
+                    title: type,
+                    type: "word type",
+                    count: this.counts.types.get(type) || 0,
+                })
+            ),
+            ...this.customLessons,
+        ];
     }
 }

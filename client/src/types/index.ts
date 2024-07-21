@@ -35,6 +35,7 @@ export type Library = Word[];
 export type Lesson = {
     key: string;
     title: string;
-    type?: "category" | "word type";
+    type?: "category" | "word type" | "custom";
     count: number;
+    wordIds?: string[];
 };

@@ -1,10 +1,8 @@
 TODOs:
 
 -   Library
-    -   New feature: Lesson creator!
-        -   Filter based on word type / category
-        -   Select with checkbox (and range?)
-    -   Save selected lesson and custom lessons per language
+    -   Save selected lesson and custom lessons per language (in localstorage)
+    -   Delete custom lessons!
 -   Data:
     -   Too little adjectives
     -   No prepositions

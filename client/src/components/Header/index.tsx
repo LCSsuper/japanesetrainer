@@ -16,20 +16,19 @@ import { languages } from "../../constants";
 
 export const Header = observer(
     ({ setDarkMode, darkMode }: { setDarkMode: any; darkMode: boolean }) => {
-        const {
-            routerStore: { currentRoute, setCurrentRoute },
-            libraryStore: { language, setLanguage },
-        } = useMobxStores();
+        const { routerStore, libraryStore } = useMobxStores();
         return (
             <Box className="">
                 <header>
                     <Group justify="space-between" h="100%" p={10}>
                         <Box>
-                            {currentRoute !== "menu" && (
+                            {routerStore.currentRoute !== "menu" && (
                                 <Button
                                     variant="light"
                                     pl={7}
-                                    onClick={() => setCurrentRoute("menu")}
+                                    onClick={() =>
+                                        routerStore.setCurrentRoute("menu")
+                                    }
                                 >
                                     <IconChevronLeft />
                                     menu
@@ -46,9 +45,11 @@ export const Header = observer(
                                     {darkMode ? <IconSun /> : <IconMoon />}
                                 </ActionIcon>
                                 <LanguageSelect
-                                    disabled={currentRoute === "learner"}
-                                    setLanguage={setLanguage}
-                                    language={language}
+                                    disabled={
+                                        routerStore.currentRoute === "learner"
+                                    }
+                                    setLanguage={libraryStore.setLanguage}
+                                    language={libraryStore.language}
                                 />
                             </Group>
                         </Box>

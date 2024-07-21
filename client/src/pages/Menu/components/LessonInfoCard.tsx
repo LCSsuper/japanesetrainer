@@ -3,7 +3,7 @@ import { IconBooks } from "@tabler/icons-react";
 
 import { useMobxStores } from "../../../hooks/useMobxStores";
 import { observer } from "mobx-react-lite";
-import { SelectedLesson } from "../../Library/components/Lessons";
+import { SelectedLesson } from "../../../components/SelectedLesson";
 
 const plurals: { [key: string]: { singular: string; plural: string } } = {
     are: { singular: "is", plural: "are" },
@@ -38,6 +38,7 @@ export const LessonInfoCard = observer(() => {
                 <Space h="md" />
                 <Group justify="space-between" align="end">
                     <SelectedLesson
+                        label="Selected lesson"
                         lesson={selectedLesson}
                         getWordsInLesson={getWordsInLesson}
                     />
