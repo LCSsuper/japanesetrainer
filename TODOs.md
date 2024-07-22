@@ -1,8 +1,5 @@
 TODOs:
 
--   Library
-    -   Save selected lesson and custom lessons per language (in localstorage)
-    -   Delete custom lessons!
 -   Data:
     -   Too little adjectives
     -   No prepositions

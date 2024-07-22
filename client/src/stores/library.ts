@@ -9,6 +9,7 @@ import tomiKoreanLibrary from "./data/tomi-korean.json";
 import arabicLibrary from "./data/0-100-arabic.json";
 import { Language, Lesson, Word, WordType } from "../types";
 import { flags } from "../constants";
+import { get, save } from "./localstorage";
 
 const libraries: {
     [language: string]: Word[];
@@ -37,9 +38,19 @@ export default class LibraryStore {
         this.getLibraryOptionsFromLocalStorage();
     }
 
-    setLanguage = (language: string) => {
+    setLanguage = (language: string, executeSave: boolean = true) => {
         this.language = language as Language;
-        this.saveLibraryOptionsToLocalStorage();
+        if (executeSave) save("language", language);
+        this.calculateCounts();
+
+        const customLessons = get(`${this.language}#lessons`);
+        const selectedLessonId = get(`${this.language}#selectedLessonId`);
+
+        this.customLessons = customLessons ?? [];
+        this.selectedLessonId = selectedLessonId;
+    };
+
+    calculateCounts = () => {
         this.counts = this.library.reduce(
             (maps, word) => {
                 if (word.type) {
@@ -63,19 +74,17 @@ export default class LibraryStore {
         );
     };
 
-    setSelectedLesson = (lessonId: string) => {
+    setSelectedLesson = (lessonId?: string) => {
+        if (this.selectedLessonId === lessonId) {
+            lessonId = undefined;
+        }
         this.selectedLessonId = lessonId;
+        save(`${this.language}#selectedLessonId`, lessonId);
     };
 
-    get selectedLesson(): Lesson | undefined {
-        return this.lessons.find(
-            (lesson) => lesson.key === this.selectedLessonId
-        );
-    }
-
     getWordsInLesson = (lesson: Lesson): Word[] => {
-        if (lesson.key === "all") return this.library;
-        const [, value] = lesson.key.split("#");
+        if (lesson.type === "all") return this.library;
+        const [, value] = lesson.id.split("#");
         if (lesson.type === "category") {
             return this.library.filter((word) => word.category === value);
         }
@@ -92,25 +101,23 @@ export default class LibraryStore {
 
     saveLesson = (lesson: Lesson) => {
         this.customLessons.push(lesson);
-        this.setSelectedLesson(lesson.key);
+        save(`${this.language}#lessons`, this.customLessons);
+        this.setSelectedLesson(lesson.id);
     };
 
-    saveLibraryOptionsToLocalStorage = () => {
-        window.localStorage.setItem(
-            "libraryOptions",
-            JSON.stringify({
-                language: this.language,
-            })
+    deleteLesson = (lessonId: string) => {
+        this.customLessons = this.customLessons.filter(
+            (lesson) => lesson.id !== lessonId
         );
+        save(`${this.language}#lessons`, this.customLessons);
+        if (this.selectedLessonId === lessonId) {
+            this.setSelectedLesson(undefined);
+        }
     };
 
     getLibraryOptionsFromLocalStorage = () => {
-        const libraryOptions = window.localStorage.getItem("libraryOptions");
-        if (!libraryOptions) return;
-        const { language = "korean" as Language } = JSON.parse(libraryOptions);
-
-        this.setLanguage(language);
-        this.saveLibraryOptionsToLocalStorage();
+        const language = get("language");
+        this.setLanguage(language ?? "korean", false);
     };
 
     get flag() {
@@ -121,6 +128,12 @@ export default class LibraryStore {
         return libraries[this.language];
     }
 
+    get selectedLesson(): Lesson | undefined {
+        return this.lessons.find(
+            (lesson) => lesson.id === this.selectedLessonId
+        );
+    }
+
     get practiceLibrary() {
         if (!this.selectedLesson) return [];
         return this.getWordsInLesson(this.selectedLesson);
@@ -128,10 +141,15 @@ export default class LibraryStore {
 
     get lessons(): Lesson[] {
         return [
-            { key: "all", title: "all words", count: this.library.length },
+            {
+                id: "all",
+                title: "all words",
+                count: this.library.length,
+                type: "all",
+            },
             ...Array.from(this.counts.categories.keys()).map(
                 (category): Lesson => ({
-                    key: `category#${category}`,
+                    id: `category#${category}`,
                     title: category,
                     type: "category",
                     count: this.counts.categories.get(category) || 0,
@@ -139,7 +157,7 @@ export default class LibraryStore {
             ),
             ...Array.from(this.counts.types.keys()).map(
                 (type): Lesson => ({
-                    key: `type#${type}`,
+                    id: `type#${type}`,
                     title: type,
                     type: "word type",
                     count: this.counts.types.get(type) || 0,

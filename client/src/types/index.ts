@@ -32,10 +32,20 @@ export type Language =
 
 export type Library = Word[];
 
-export type Lesson = {
-    key: string;
+export type Lesson = GeneratedLesson | CustomLesson;
+
+export type GeneratedLesson = {
+    id: string;
     title: string;
-    type?: "category" | "word type" | "custom";
+    type?: "category" | "word type" | "all";
     count: number;
     wordIds?: string[];
+};
+
+export type CustomLesson = {
+    id: string;
+    title: string;
+    type?: "custom";
+    count: number;
+    wordIds: string[];
 };

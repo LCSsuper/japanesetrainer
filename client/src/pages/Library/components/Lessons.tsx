@@ -8,8 +8,9 @@ import {
     Badge,
     ActionIcon,
     Modal,
+    Button,
 } from "@mantine/core";
-import { IconEye, IconPlus } from "@tabler/icons-react";
+import { IconEye, IconPlus, IconTrash } from "@tabler/icons-react";
 import { useDisclosure, useViewportSize } from "@mantine/hooks";
 import { observer } from "mobx-react-lite";
 
@@ -46,14 +47,21 @@ const LessonCard = ({
     lesson,
     onSelect,
     selected,
+    onDelete,
     getWordsInLesson,
 }: {
     lesson: Lesson;
     selected: boolean;
-    onSelect: (key: string) => void;
+    onSelect: (id: string) => void;
+    onDelete: (id: string) => void;
     getWordsInLesson: (lesson: Lesson) => Word[];
 }) => {
-    const [opened, { open, close }] = useDisclosure(false);
+    const [wordsModalOpened, { open: openWordsModal, close: closeWordsModal }] =
+        useDisclosure(false);
+    const [
+        deleteModalOpened,
+        { open: openDeleteModal, close: closeDeleteModal },
+    ] = useDisclosure(false);
 
     let typeColor = "cyan";
     if (lesson.type === "category") {
@@ -66,8 +74,8 @@ const LessonCard = ({
     return (
         <>
             <Modal
-                opened={opened}
-                onClose={close}
+                opened={wordsModalOpened}
+                onClose={closeWordsModal}
                 title={`Words in lesson: ${lesson.title}`}
                 fullScreen
             >
@@ -76,11 +84,31 @@ const LessonCard = ({
                     getWordsInLesson={getWordsInLesson}
                 />
             </Modal>
+            <Modal
+                opened={deleteModalOpened}
+                onClose={closeDeleteModal}
+                title={`Are you sure you want to delete lesson '${lesson.title}'?`}
+            >
+                <Group justify="end">
+                    <Button onClick={closeDeleteModal} variant="light">
+                        Cancel
+                    </Button>
+                    <Button
+                        onClick={() => {
+                            onDelete(lesson.id);
+                            closeDeleteModal();
+                        }}
+                        color="red"
+                    >
+                        Delete
+                    </Button>
+                </Group>
+            </Modal>
             <Card
                 h="5rem"
                 shadow="xs"
                 withBorder
-                onClick={() => onSelect(lesson.key)}
+                onClick={() => onSelect(lesson.id)}
                 styles={{
                     root: {
                         cursor: "pointer",
@@ -99,20 +127,34 @@ const LessonCard = ({
                     )}
                 </Group>
                 <Space h="xs" />
-                <Group gap={5}>
-                    <ActionIcon
-                        size="sm"
-                        variant="subtle"
-                        onClick={(e) => {
-                            e.stopPropagation();
-                            open();
-                        }}
-                    >
-                        <IconEye />
-                    </ActionIcon>
-                    <Text size="xs" c="dimmed" fs="italic">
-                        {`${lesson.count} words`}
-                    </Text>
+                <Group justify="space-between">
+                    <Group gap={5}>
+                        <ActionIcon
+                            size="sm"
+                            variant="subtle"
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                openWordsModal();
+                            }}
+                        >
+                            <IconEye />
+                        </ActionIcon>
+                        <Text size="xs" c="dimmed" fs="italic">
+                            {`${lesson.count} words`}
+                        </Text>
+                    </Group>
+                    {lesson?.type === "custom" && (
+                        <ActionIcon
+                            size="sm"
+                            variant="subtle"
+                            onClick={(e) => {
+                                e.stopPropagation();
+                                openDeleteModal();
+                            }}
+                        >
+                            <IconTrash color="red" />
+                        </ActionIcon>
+                    )}
                 </Group>
             </Card>
         </>
@@ -144,7 +186,7 @@ export const Lessons = observer(
                             return (
                                 <Grid.Col
                                     span={width > 900 ? 6 : 12}
-                                    key={lesson.key}
+                                    key={lesson.id}
                                 >
                                     <LessonCard
                                         getWordsInLesson={
@@ -154,8 +196,9 @@ export const Lessons = observer(
                                         onSelect={
                                             libraryStore.setSelectedLesson
                                         }
+                                        onDelete={libraryStore.deleteLesson}
                                         selected={
-                                            lesson.key ===
+                                            lesson.id ===
                                             libraryStore.selectedLessonId
                                         }
                                     />

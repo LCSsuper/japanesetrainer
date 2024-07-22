@@ -1,3 +1,4 @@
+import { memo, useCallback, useState } from "react";
 import {
     Box,
     Combobox,
@@ -12,13 +13,12 @@ import {
     Tooltip,
 } from "@mantine/core";
 import { observer } from "mobx-react-lite";
-import { useCallback, useState } from "react";
+import { v4 } from "uuid";
 
 import { Words } from "../../../components/Words";
 import { useMobxStores } from "../../../hooks/useMobxStores";
 import { SelectedLesson } from "../../../components/SelectedLesson";
-import { Lesson } from "../../../types";
-import { v4 } from "uuid";
+import { CustomLesson, Lesson } from "../../../types";
 
 export const FilterDropdown = ({
     label,
@@ -77,6 +77,61 @@ export const FilterDropdown = ({
     );
 };
 
+const LessonForm = memo(
+    ({
+        types,
+        categories,
+        onChangeTitle,
+        onChangeFilterType,
+        onChangeFilterCategory,
+    }: {
+        types: string[];
+        categories: string[];
+        onChangeTitle: (title: string) => void;
+        onChangeFilterType: (type: string) => void;
+        onChangeFilterCategory: (category: string) => void;
+    }) => {
+        const [filterType, setFilterType] = useState<string>("");
+        const [filterCategory, setFilterCategory] = useState<string>("");
+
+        return (
+            <>
+                <TextInput
+                    label="Lesson title"
+                    maxLength={50}
+                    placeholder="Enter lesson title..."
+                    onChange={(e) => {
+                        onChangeTitle(e.target.value);
+                    }}
+                />
+                <Space h="lg" />
+                <Grid>
+                    <Grid.Col span={6}>
+                        <FilterDropdown
+                            label="Filter by type"
+                            value={filterType}
+                            values={types}
+                            onChange={useCallback((type) => {
+                                setFilterType(type);
+                            }, [])}
+                        />
+                    </Grid.Col>
+                    <Grid.Col span={6}>
+                        <FilterDropdown
+                            label="Filter by category"
+                            value={filterCategory}
+                            values={categories}
+                            onChange={useCallback((category) => {
+                                setFilterCategory(category);
+                            }, [])}
+                        />
+                    </Grid.Col>
+                </Grid>
+            </>
+        );
+    }
+);
+
 export const LessonCreator = observer(
     ({ onCreateLesson }: { onCreateLesson: (lesson: Lesson) => void }) => {
         const { libraryStore } = useMobxStores();
@@ -91,14 +146,15 @@ export const LessonCreator = observer(
                 lesson={{
                     title,
                     count: selectedIds.size,
-                    key: "tbd",
+                    id: "tbd",
                     type: "custom",
+                    wordIds: [],
                 }}
-                getWordsInLesson={() => {
-                    return libraryStore.library.filter((word) =>
+                getWordsInLesson={() =>
+                    libraryStore.library.filter((word) =>
                         selectedIds.has(word.id)
-                    );
-                }}
+                    )
+                }
             />
         );
 
@@ -113,10 +169,10 @@ export const LessonCreator = observer(
                     variant="gradient"
                     disabled={!title || !selectedIds.size}
                     onClick={() => {
-                        const lesson: Lesson = {
+                        const lesson: CustomLesson = {
                             title,
                             count: selectedIds.size,
-                            key: v4(),
+                            id: v4(),
                             type: "custom",
                             wordIds: Array.from(selectedIds),
                         };
@@ -127,48 +183,6 @@ export const LessonCreator = observer(
                     Save lesson
                 </Button>
             </Tooltip>
-        );
-
-        const LessonForm = () => (
-            <>
-                <TextInput
-                    autoFocus
-                    label="Lesson title"
-                    value={title}
-                    maxLength={50}
-                    placeholder="Enter lesson title..."
-                    onChange={(e) => {
-                        setTitle(e.target.value);
-                    }}
-                />
-                <Space h="lg" />
-                <Grid>
-                    <Grid.Col span={6}>
-                        <FilterDropdown
-                            label="Filter by type"
-                            value={filterType}
-                            values={Array.from(
-                                libraryStore.counts.types.keys()
-                            )}
-                            onChange={useCallback((type) => {
-                                setFilterType(type);
-                            }, [])}
-                        />
-                    </Grid.Col>
-                    <Grid.Col span={6}>
-                        <FilterDropdown
-                            label="Filter by category"
-                            value={filterCategory}
-                            values={Array.from(
-                                libraryStore.counts.categories.keys()
-                            )}
-                            onChange={useCallback((category) => {
-                                setFilterCategory(category);
-                            }, [])}
-                        />
-                    </Grid.Col>
-                </Grid>
-            </>
         );
 
         const filteredSelectedIds = new Set<string>();
@@ -199,10 +213,38 @@ export const LessonCreator = observer(
                         </Group>
                     </Grid.Col>
                     <Grid.Col hiddenFrom="sm">
-                        <LessonForm />
+                        <LessonForm
+                            types={Array.from(libraryStore.counts.types.keys())}
+                            categories={Array.from(
+                                libraryStore.counts.categories.keys()
+                            )}
+                            onChangeTitle={(t: string) => {
+                                setTitle(t);
+                            }}
+                            onChangeFilterType={(type: string) => {
+                                setFilterType(type);
+                            }}
+                            onChangeFilterCategory={(category: string) => {
+                                setFilterCategory(category);
+                            }}
+                        />
                     </Grid.Col>
                     <Grid.Col span={6} visibleFrom="sm">
-                        <LessonForm />
+                        <LessonForm
+                            types={Array.from(libraryStore.counts.types.keys())}
+                            categories={Array.from(
+                                libraryStore.counts.categories.keys()
+                            )}
+                            onChangeTitle={(t: string) => {
+                                setTitle(t);
+                            }}
+                            onChangeFilterType={(type: string) => {
+                                setFilterType(type);
+                            }}
+                            onChangeFilterCategory={(category: string) => {
+                                setFilterCategory(category);
+                            }}
+                        />
                     </Grid.Col>
                     <Grid.Col span={6} visibleFrom="sm">
                         <Group justify="end">
