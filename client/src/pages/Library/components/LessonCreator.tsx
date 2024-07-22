@@ -111,9 +111,10 @@ const LessonForm = memo(
                             label="Filter by type"
                             value={filterType}
                             values={types}
-                            onChange={useCallback((type) => {
+                            onChange={(type) => {
                                 setFilterType(type);
-                            }, [])}
+                                onChangeFilterType(type);
+                            }}
                         />
                     </Grid.Col>
                     <Grid.Col span={6}>
@@ -121,9 +122,10 @@ const LessonForm = memo(
                             label="Filter by category"
                             value={filterCategory}
                             values={categories}
-                            onChange={useCallback((category) => {
+                            onChange={(category) => {
                                 setFilterCategory(category);
-                            }, [])}
+                                onChangeFilterCategory(category);
+                            }}
                         />
                     </Grid.Col>
                 </Grid>
