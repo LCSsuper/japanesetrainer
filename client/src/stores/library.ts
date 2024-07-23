@@ -8,18 +8,18 @@ import koreanLibrary from "./data/common-korean.json";
 import tomiKoreanLibrary from "./data/tomi-korean.json";
 import arabicLibrary from "./data/0-100-arabic.json";
 import { Language, Lesson, Word, WordType } from "../types";
-import { flags } from "../constants";
+import { flags, languageTitles } from "../constants";
 import { get, save } from "./localstorage";
 
 const libraries: {
     [language: string]: Word[];
 } = {
-    japanese: japaneseLibrary,
-    spanish: spanishLibrary,
-    swedish: swedishLibrary,
+    japanese: japaneseLibrary as Word[],
+    spanish: spanishLibrary as Word[],
+    swedish: swedishLibrary as Word[],
     korean: koreanLibrary as Word[],
     tomikorean: tomiKoreanLibrary as Word[],
-    arabic: arabicLibrary,
+    arabic: arabicLibrary as Word[],
 };
 
 export default class LibraryStore {
@@ -122,6 +122,10 @@ export default class LibraryStore {
 
     get flag() {
         return flags[this.language];
+    }
+
+    get languageTitle() {
+        return languageTitles[this.language];
     }
 
     get library() {

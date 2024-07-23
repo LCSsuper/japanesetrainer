@@ -63,7 +63,7 @@ const PracticeText = ({
 
 export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
     const {
-        libraryStore: { flag, language, practiceLibrary },
+        libraryStore: { flag, languageTitle, practiceLibrary },
         learnerStore: { reset, setPracticeMode },
         routerStore: { setCurrentRoute },
     } = useMobxStores();
@@ -75,7 +75,7 @@ export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
                 <DifficultyBadge mode={mode} />
             </Group>
             <Divider />
-            <PracticeText language={language} mode={mode} />
+            <PracticeText language={languageTitle} mode={mode} />
             <Group justify="space-between" align="end" pt={5}>
                 <Text c="dimmed" size="xs">
                     {mode === "eng_to_lang" && (

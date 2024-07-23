@@ -20,7 +20,8 @@ export type WordType =
     | "adverb"
     | "preposition"
     | "pronoun"
-    | "interjection";
+    | "interjection"
+    | "conjunction";
 
 export type Language =
     | "korean"

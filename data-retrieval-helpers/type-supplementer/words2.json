@@ -39,14 +39,14 @@
         "romanization": "",
         "translations": ["was", "were"],
         "id": "9f7892b5-1573-419f-8b9f-0fcc4b5fe7c8",
-        "type": "verb"
+        "type": "UNKNOWN"
     },
     {
         "word": "för",
         "romanization": "",
         "translations": ["for", "order"],
         "id": "0af5f552-384c-4fd7-9eac-8d69608dbb7a",
-        "type": "adjective"
+        "type": "UNKNOWN"
     },
     {
         "word": "på",
@@ -81,7 +81,7 @@
         "romanization": "",
         "translations": ["be"],
         "id": "933c9d28-ae8c-4d60-bc5a-a5a3e881ae45",
-        "type": "verb"
+        "type": "UNKNOWN"
     },
     {
         "word": "vid",
@@ -179,7 +179,7 @@
         "romanization": "",
         "translations": ["or", "nor"],
         "id": "598e62d3-e0f7-49ab-a998-1610c8c2b00f",
-        "type": "conjunction"
+        "type": "MULTIPLE TYPES: conjunction"
     },
     {
         "word": "hade",
@@ -270,7 +270,7 @@
         "romanization": "",
         "translations": ["their"],
         "id": "493cd245-aff0-4756-b319-f4a31eaeaff9",
-        "type": "adjective"
+        "type": "UNKNOWN"
     },
     {
         "word": "tid",
@@ -816,7 +816,7 @@
         "romanization": "",
         "translations": ["our"],
         "id": "f5a87d77-36c0-484c-8288-847e02b513c8",
-        "type": "adjective"
+        "type": "UNKNOWN"
     },
     {
         "word": "enligt",
@@ -1012,7 +1012,7 @@
         "romanization": "",
         "translations": ["your"],
         "id": "55f50956-4106-46bf-8f76-4a574f02b1a8",
-        "type": "adjective"
+        "type": "UNKNOWN"
     },
     {
         "word": "sätt",
@@ -1040,7 +1040,7 @@
         "romanization": "",
         "translations": ["bicycle shop"],
         "id": "fa7065d2-f100-4c58-bbf0-c2051142fed2",
-        "type": "noun"
+        "type": "UNKNOWN"
     },
     {
         "word": "dem",
@@ -1138,7 +1138,7 @@
         "romanization": "",
         "translations": ["look"],
         "id": "3fa26fb7-6416-438c-9e13-d218718dabb1",
-        "type": "verb"
+        "type": "UNKNOWN"
     },
     {
         "word": "mer",
@@ -1593,7 +1593,7 @@
         "romanization": "",
         "translations": ["don’t"],
         "id": "794c3f53-23a2-442d-aa16-f63f2c5bac61",
-        "type": "adverb"
+        "type": "UNKNOWN"
     },
     {
         "word": "medan",
@@ -2496,7 +2496,7 @@
         "romanization": "",
         "translations": ["thousand"],
         "id": "b41c357e-8836-4a22-ba4e-ce3b23ca2340",
-        "type": "noun"
+        "type": "MULTIPLE TYPES: numeral"
     },
     {
         "word": "ran",
@@ -3875,7 +3875,7 @@
         "romanization": "",
         "translations": ["million"],
         "id": "afe5ebb2-e91e-4138-8c47-895091ef4504",
-        "type": "noun"
+        "type": "MULTIPLE TYPES: numeral"
     },
     {
         "word": "lycklig",
@@ -3896,7 +3896,7 @@
         "romanization": "",
         "translations": ["flower delivery"],
         "id": "682d0692-6002-49c9-85a2-157af8cb86e0",
-        "type": "noun"
+        "type": "UNKNOWN"
     },
     {
         "word": "kläder",
@@ -4106,7 +4106,7 @@
         "romanization": "",
         "translations": ["touch"],
         "id": "16d1c2ac-f5f4-4bb8-9cf0-81383463768d",
-        "type": "verb"
+        "type": "UNKNOWN"
     },
     {
         "word": "växte",
@@ -4904,7 +4904,7 @@
         "romanization": "",
         "translations": ["won’t"],
         "id": "4fd6aff9-f09b-4516-a229-d5f0c7da11e5",
-        "type": "adverb"
+        "type": "UNKNOWN"
     },
     {
         "word": "stol",

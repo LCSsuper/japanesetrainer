@@ -110,7 +110,10 @@ export default class LearnerStore {
     }
 
     get canContinue() {
-        return this.guessedTranslations.length || this.answerRevealed;
+        return (
+            (this.guessedTranslations.length || this.answerRevealed) &&
+            !this.currentGuess
+        );
     }
 
     get progressPercentage() {

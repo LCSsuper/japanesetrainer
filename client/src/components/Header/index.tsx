@@ -14,51 +14,58 @@ import { useMobxStores } from "../../hooks/useMobxStores";
 import { Language } from "../../types";
 import { languages } from "../../constants";
 
-export const Header = observer(
-    ({ setDarkMode, darkMode }: { setDarkMode: any; darkMode: boolean }) => {
-        const { routerStore, libraryStore } = useMobxStores();
-        return (
-            <Box className="">
-                <header>
-                    <Group justify="space-between" h="100%" p={10}>
-                        <Box>
-                            {routerStore.currentRoute !== "menu" && (
-                                <Button
-                                    variant="light"
-                                    pl={7}
-                                    onClick={() =>
-                                        routerStore.setCurrentRoute("menu")
-                                    }
-                                >
-                                    <IconChevronLeft />
-                                    menu
-                                </Button>
-                            )}
-                        </Box>
-                        <Box>
-                            <Group gap={"xs"}>
-                                <ActionIcon
-                                    variant="light"
-                                    size={"lg"}
-                                    onClick={() => setDarkMode(!darkMode)}
-                                >
-                                    {darkMode ? <IconSun /> : <IconMoon />}
-                                </ActionIcon>
-                                <LanguageSelect
-                                    disabled={
-                                        routerStore.currentRoute === "learner"
-                                    }
-                                    setLanguage={libraryStore.setLanguage}
-                                    language={libraryStore.language}
-                                />
-                            </Group>
-                        </Box>
-                    </Group>
-                </header>
-            </Box>
-        );
-    }
-);
+export const Header = observer(() => {
+    const { routerStore, libraryStore, settingsStore } = useMobxStores();
+    return (
+        <Box className="">
+            <header>
+                <Group justify="space-between" h="100%" p={10}>
+                    <Box>
+                        {routerStore.currentRoute !== "menu" && (
+                            <Button
+                                variant="light"
+                                pl={7}
+                                onClick={() =>
+                                    routerStore.setCurrentRoute("menu")
+                                }
+                            >
+                                <IconChevronLeft />
+                                menu
+                            </Button>
+                        )}
+                    </Box>
+                    <Box>
+                        <Group gap={"xs"}>
+                            <ActionIcon
+                                variant="light"
+                                size={"lg"}
+                                onClick={() =>
+                                    settingsStore.save(
+                                        "darkmode",
+                                        !settingsStore.darkmode
+                                    )
+                                }
+                            >
+                                {settingsStore.darkmode ? (
+                                    <IconSun />
+                                ) : (
+                                    <IconMoon />
+                                )}
+                            </ActionIcon>
+                            <LanguageSelect
+                                disabled={
+                                    routerStore.currentRoute === "learner"
+                                }
+                                setLanguage={libraryStore.setLanguage}
+                                language={libraryStore.language}
+                            />
+                        </Group>
+                    </Box>
+                </Group>
+            </header>
+        </Box>
+    );
+});
 
 export const LanguageSelect = ({
     disabled,

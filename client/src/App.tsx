@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { AppShell, Center, MantineProvider, createTheme } from "@mantine/core";
 import { useViewportSize } from "@mantine/hooks";
 import { observer } from "mobx-react-lite";
@@ -23,21 +22,20 @@ const mobileTheme = createTheme({
 const App = observer(() => {
     const {
         routerStore: { currentRoute },
+        settingsStore: { darkmode },
     } = useMobxStores();
-
-    const [darkMode, setDarkMode] = useState(true);
 
     const { width } = useViewportSize();
 
     return (
         <StoreProvider>
             <MantineProvider
-                forceColorScheme={darkMode ? "dark" : "light"}
+                forceColorScheme={darkmode ? "dark" : "light"}
                 theme={width > 600 ? desktopTheme : mobileTheme}
             >
                 <AppShell header={{ height: 60 }} padding="md">
                     <AppShell.Header>
-                        <Header setDarkMode={setDarkMode} darkMode={darkMode} />
+                        <Header />
                     </AppShell.Header>
                     <AppShell.Main>
                         <Center h={"100%"}>

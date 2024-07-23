@@ -3,600 +3,700 @@
         "word": "الله",
         "romanization": "allah",
         "translations": ["God"],
-        "id": "50de2516-5b08-44f4-bc28-78fd09d8364e"
+        "id": "50de2516-5b08-44f4-bc28-78fd09d8364e",
+        "type": "noun"
     },
     {
         "word": "ما",
         "romanization": "ma",
         "translations": ["what"],
-        "id": "17aa2345-daed-4cc3-9c43-bb8bf872af74"
+        "id": "17aa2345-daed-4cc3-9c43-bb8bf872af74",
+        "type": "adverb"
     },
     {
         "word": "هذا",
         "romanization": "hatha",
         "translations": ["this"],
-        "id": "29a3aba7-0709-4983-8b94-839b20fbd5de"
+        "id": "29a3aba7-0709-4983-8b94-839b20fbd5de",
+        "type": "noun"
     },
     {
         "word": "كان",
         "romanization": "kaana",
         "translations": ["was"],
-        "id": "63b1094e-9821-446d-a8ce-2ae7d6bf0fb7"
+        "id": "63b1094e-9821-446d-a8ce-2ae7d6bf0fb7",
+        "type": "verb"
     },
     {
         "word": "لا",
         "romanization": "laa",
         "translations": ["no"],
-        "id": "7f2b53be-e23f-4fef-92bc-9fe1f70aa3b8"
+        "id": "7f2b53be-e23f-4fef-92bc-9fe1f70aa3b8",
+        "type": "noun"
     },
     {
         "word": "أن",
         "romanization": "an",
         "translations": ["that"],
-        "id": "92a08f0b-73c6-466e-8b3b-75823c71dd03"
+        "id": "92a08f0b-73c6-466e-8b3b-75823c71dd03",
+        "type": "noun"
     },
     {
         "word": "في",
         "romanization": "fi",
         "translations": ["in"],
-        "id": "b5f09604-0ffd-4850-bd26-3f6939d8f912"
+        "id": "b5f09604-0ffd-4850-bd26-3f6939d8f912",
+        "type": "noun"
     },
     {
         "word": "لي",
         "romanization": "li",
         "translations": ["to me"],
-        "id": "d339c391-76f7-4cc7-b2de-8e89a5ab8326"
+        "id": "d339c391-76f7-4cc7-b2de-8e89a5ab8326",
+        "type": "adjective"
     },
     {
         "word": "هو",
         "romanization": "huwa",
         "translations": ["he"],
-        "id": "5740887c-9fd4-440a-90c7-00eade39d9d8"
+        "id": "5740887c-9fd4-440a-90c7-00eade39d9d8",
+        "type": "noun"
     },
     {
         "word": "على",
         "romanization": "ala",
         "translations": ["on"],
-        "id": "aa0136b8-7d8f-4d59-bfe2-e4f533e8448b"
+        "id": "aa0136b8-7d8f-4d59-bfe2-e4f533e8448b",
+        "type": "verb"
     },
     {
         "word": "من",
         "romanization": "min",
         "translations": ["from"],
-        "id": "fc898a38-57b0-42cc-b659-fdc39bb56a39"
+        "id": "fc898a38-57b0-42cc-b659-fdc39bb56a39",
+        "type": "preposition"
     },
     {
         "word": "أنا",
         "romanization": "ana",
         "translations": ["I"],
-        "id": "60558bec-63ef-4f8d-9b2c-4047f45ed174"
+        "id": "60558bec-63ef-4f8d-9b2c-4047f45ed174",
+        "type": "noun"
     },
     {
         "word": "له",
         "romanization": "lahu",
         "translations": ["to him"],
-        "id": "75c3649a-1d6a-4959-9959-62b7f7cddb99"
+        "id": "75c3649a-1d6a-4959-9959-62b7f7cddb99",
+        "type": "adjective"
     },
     {
         "word": "هي",
         "romanization": "hiya",
         "translations": ["she"],
-        "id": "f610c6a9-357f-4f87-b677-88917e429610"
+        "id": "f610c6a9-357f-4f87-b677-88917e429610",
+        "type": "noun"
     },
     {
         "word": "مع",
         "romanization": "maa",
         "translations": ["with"],
-        "id": "66a5a713-596d-45ec-8f0d-a5e8328c5e8c"
+        "id": "66a5a713-596d-45ec-8f0d-a5e8328c5e8c",
+        "type": "adverb"
     },
     {
         "word": "نحن",
         "romanization": "nahnu",
         "translations": ["we"],
-        "id": "91abdaa2-9b37-4900-8555-823315b51d66"
+        "id": "91abdaa2-9b37-4900-8555-823315b51d66",
+        "type": "pronoun"
     },
     {
         "word": "لك",
         "romanization": "laka",
         "translations": ["to you"],
-        "id": "1f8d77f6-74d1-4a67-be30-43528c553ee5"
+        "id": "1f8d77f6-74d1-4a67-be30-43528c553ee5",
+        "type": "adjective"
     },
     {
         "word": "يوم",
         "romanization": "yawm",
         "translations": ["day"],
-        "id": "f55aa803-8576-446d-b19a-b92246a215ac"
+        "id": "f55aa803-8576-446d-b19a-b92246a215ac",
+        "type": "noun"
     },
     {
         "word": "بعد",
         "romanization": "baad",
         "translations": ["after"],
-        "id": "6f73edb3-c6ce-4adc-b62b-4d7b27fedce4"
+        "id": "6f73edb3-c6ce-4adc-b62b-4d7b27fedce4",
+        "type": "adjective"
     },
     {
         "word": "عن",
         "romanization": "an",
         "translations": ["about"],
-        "id": "23706ac5-a9ba-4304-9530-f8159e03ce67"
+        "id": "23706ac5-a9ba-4304-9530-f8159e03ce67",
+        "type": "adjective"
     },
     {
         "word": "كل",
         "romanization": "kull",
         "translations": ["all"],
-        "id": "a36ef733-69b5-47f6-a3e0-1a81b8338c9d"
+        "id": "a36ef733-69b5-47f6-a3e0-1a81b8338c9d",
+        "type": "noun"
     },
     {
         "word": "قلب",
         "romanization": "qalb",
         "translations": ["heart"],
-        "id": "7ed1e213-5079-4b71-9548-8a99e26c96d8"
+        "id": "7ed1e213-5079-4b71-9548-8a99e26c96d8",
+        "type": "noun"
     },
     {
         "word": "أم",
         "romanization": "umm",
         "translations": ["mother"],
-        "id": "0b2b52e3-a200-48db-a389-860a13ec7bc7"
+        "id": "0b2b52e3-a200-48db-a389-860a13ec7bc7",
+        "type": "noun"
     },
     {
         "word": "حب",
         "romanization": "hubb",
         "translations": ["love"],
-        "id": "7c638d6a-cb64-495c-a33d-951cf286b2ca"
+        "id": "7c638d6a-cb64-495c-a33d-951cf286b2ca",
+        "type": "noun"
     },
     {
         "word": "إلى",
         "romanization": "ila",
         "translations": ["to"],
-        "id": "bae3343a-b6b0-4cff-9d67-f41b73a9bd6b"
+        "id": "bae3343a-b6b0-4cff-9d67-f41b73a9bd6b",
+        "type": "adverb"
     },
     {
         "word": "ذهب",
         "romanization": "dahaba",
         "translations": ["went"],
-        "id": "be1768d0-d3ed-4ee5-af2e-318527e54fca"
+        "id": "be1768d0-d3ed-4ee5-af2e-318527e54fca",
+        "type": "verb"
     },
     {
         "word": "جاء",
         "romanization": "jaa",
         "translations": ["came"],
-        "id": "da3fd444-488e-48ce-82f9-341fe02fa1c4"
+        "id": "da3fd444-488e-48ce-82f9-341fe02fa1c4",
+        "type": "preposition"
     },
     {
         "word": "شيء",
         "romanization": "shay",
         "translations": ["thing"],
-        "id": "97517268-c009-427a-a0ed-3ba3a9a72b65"
+        "id": "97517268-c009-427a-a0ed-3ba3a9a72b65",
+        "type": "noun"
     },
     {
         "word": "كتاب",
         "romanization": "kitab",
         "translations": ["book"],
-        "id": "cc1eecf5-f8e4-4781-be3d-8f0e3be482ce"
+        "id": "cc1eecf5-f8e4-4781-be3d-8f0e3be482ce",
+        "type": "noun"
     },
     {
         "word": "زمان",
         "romanization": "zaman",
         "translations": ["time"],
-        "id": "35291ebf-e8c4-4c4f-82f2-77ec81776aa9"
+        "id": "35291ebf-e8c4-4c4f-82f2-77ec81776aa9",
+        "type": "noun"
     },
     {
         "word": "بيت",
         "romanization": "bayt",
         "translations": ["house"],
-        "id": "4443d515-3621-452f-abb6-494747b141ef"
+        "id": "4443d515-3621-452f-abb6-494747b141ef",
+        "type": "noun"
     },
     {
         "word": "أب",
         "romanization": "ab",
         "translations": ["father"],
-        "id": "7d949f94-f77c-4c65-aa82-d97be40691fa"
+        "id": "7d949f94-f77c-4c65-aa82-d97be40691fa",
+        "type": "noun"
     },
     {
         "word": "صديق",
         "romanization": "sadeeq",
         "translations": ["friend"],
-        "id": "53df476e-37a8-46f0-9388-4ecd460c3845"
+        "id": "53df476e-37a8-46f0-9388-4ecd460c3845",
+        "type": "noun"
     },
     {
         "word": "رجل",
         "romanization": "rajul",
         "translations": ["man"],
-        "id": "aabb5f79-100a-41f1-b2ec-7e615a464013"
+        "id": "aabb5f79-100a-41f1-b2ec-7e615a464013",
+        "type": "noun"
     },
     {
         "word": "إمرأة",
         "romanization": "imraa",
         "translations": ["woman"],
-        "id": "1455ada5-89cc-4b6c-a447-d9efb3532982"
+        "id": "1455ada5-89cc-4b6c-a447-d9efb3532982",
+        "type": "noun"
     },
     {
         "word": "كبير",
         "romanization": "kabir",
         "translations": ["big"],
-        "id": "184750c2-99e9-45a7-91aa-0752bc19ba20"
+        "id": "184750c2-99e9-45a7-91aa-0752bc19ba20",
+        "type": "noun"
     },
     {
         "word": "صغير",
         "romanization": "saghir",
         "translations": ["small"],
-        "id": "55cb937c-c97f-4e1d-9778-b028086fba20"
+        "id": "55cb937c-c97f-4e1d-9778-b028086fba20",
+        "type": "noun"
     },
     {
         "word": "ليل",
         "romanization": "layl",
         "translations": ["night"],
-        "id": "80ae22d2-18f8-4f6e-94e6-8768f83b0c22"
+        "id": "80ae22d2-18f8-4f6e-94e6-8768f83b0c22",
+        "type": "noun"
     },
     {
         "word": "يد",
         "romanization": "yad",
         "translations": ["hand"],
-        "id": "fe402598-f478-4e50-a393-d4e5af5e328e"
+        "id": "fe402598-f478-4e50-a393-d4e5af5e328e",
+        "type": "noun"
     },
     {
         "word": "عين",
         "romanization": "ain",
         "translations": ["eye"],
-        "id": "e03312c4-dfdf-4280-9bf1-9c235ab99df6"
+        "id": "e03312c4-dfdf-4280-9bf1-9c235ab99df6",
+        "type": "noun"
     },
     {
         "word": "وجه",
         "romanization": "wajh",
         "translations": ["face"],
-        "id": "8ab4f92f-2626-4ce3-b652-0052b34bbc06"
+        "id": "8ab4f92f-2626-4ce3-b652-0052b34bbc06",
+        "type": "noun"
     },
     {
         "word": "رأس",
         "romanization": "raas",
         "translations": ["head"],
-        "id": "4d9c65c9-0bbe-4682-9ddb-ba0d6d19cca3"
+        "id": "4d9c65c9-0bbe-4682-9ddb-ba0d6d19cca3",
+        "type": "noun"
     },
     {
         "word": "قدم",
         "romanization": "qadam",
         "translations": ["foot"],
-        "id": "3e99501b-23e2-40f3-aa4c-299dbc112f77"
+        "id": "3e99501b-23e2-40f3-aa4c-299dbc112f77",
+        "type": "noun"
     },
     {
         "word": "شعر",
         "romanization": "shaar",
         "translations": ["hair"],
-        "id": "25da4052-208b-4dc6-b0d5-67d5584fa054"
+        "id": "25da4052-208b-4dc6-b0d5-67d5584fa054",
+        "type": "noun"
     },
     {
         "word": "فم",
         "romanization": "fam",
         "translations": ["mouth"],
-        "id": "a6a4e798-b000-40a5-8552-fe4f67059c2c"
+        "id": "a6a4e798-b000-40a5-8552-fe4f67059c2c",
+        "type": "noun"
     },
     {
         "word": "خير",
         "romanization": "khayr",
         "translations": ["good"],
-        "id": "0af4514d-6cc3-4368-8df3-f7d8e59f0193"
+        "id": "0af4514d-6cc3-4368-8df3-f7d8e59f0193",
+        "type": "adjective"
     },
     {
         "word": "شر",
         "romanization": "shar",
         "translations": ["evil"],
-        "id": "37f29ccb-1d37-43bf-8131-131c29f43ccc"
+        "id": "37f29ccb-1d37-43bf-8131-131c29f43ccc",
+        "type": "noun"
     },
     {
         "word": "سماء",
         "romanization": "samaa",
         "translations": ["sky"],
-        "id": "2b04856a-afdc-49ed-b772-644b5497da06"
+        "id": "2b04856a-afdc-49ed-b772-644b5497da06",
+        "type": "noun"
     },
     {
         "word": "أرض",
         "romanization": "ard",
         "translations": ["earth"],
-        "id": "bcd0d450-10df-4676-bd12-81175c478632"
+        "id": "bcd0d450-10df-4676-bd12-81175c478632",
+        "type": "noun"
     },
     {
         "word": "بحر",
         "romanization": "bahr",
         "translations": ["sea"],
-        "id": "81e2b81b-a7ad-48ec-b68b-de350630e371"
+        "id": "81e2b81b-a7ad-48ec-b68b-de350630e371",
+        "type": "noun"
     },
     {
         "word": "نار",
         "romanization": "naar",
         "translations": ["fire"],
-        "id": "6d393486-fd97-4132-97fd-92e54825d0c0"
+        "id": "6d393486-fd97-4132-97fd-92e54825d0c0",
+        "type": "noun"
     },
     {
         "word": "هم",
         "romanization": "hum",
         "translations": ["they"],
-        "id": "c0d5bc63-b71f-4cb7-93ef-7fa8da447f88"
+        "id": "c0d5bc63-b71f-4cb7-93ef-7fa8da447f88",
+        "type": "pronoun"
     },
     {
         "word": "ذاك",
         "romanization": "dhaak",
         "translations": ["that"],
-        "id": "ac29430b-5384-4a87-9bef-7302fe53d4bb"
+        "id": "ac29430b-5384-4a87-9bef-7302fe53d4bb",
+        "type": "noun"
     },
     {
         "word": "آخر",
         "romanization": "akhir",
         "translations": ["last"],
-        "id": "6d6dc020-f887-454f-91cf-7a13fe29765d"
+        "id": "6d6dc020-f887-454f-91cf-7a13fe29765d",
+        "type": "adjective"
     },
     {
         "word": "أول",
         "romanization": "awwal",
         "translations": ["first"],
-        "id": "8e202e6a-7887-4b5a-8e22-61c3c0b2c976"
+        "id": "8e202e6a-7887-4b5a-8e22-61c3c0b2c976",
+        "type": "noun"
     },
     {
         "word": "جديد",
         "romanization": "jadid",
         "translations": ["new"],
-        "id": "08046507-174a-4ced-a098-478403b4271a"
+        "id": "08046507-174a-4ced-a098-478403b4271a",
+        "type": "noun"
     },
     {
         "word": "قديم",
         "romanization": "qadeem",
         "translations": ["old"],
-        "id": "1b14457c-a5a6-47f3-95ec-037f4951dea3"
+        "id": "1b14457c-a5a6-47f3-95ec-037f4951dea3",
+        "type": "noun"
     },
     {
         "word": "بيضاء",
         "romanization": "bayda",
         "translations": ["white"],
-        "id": "1c131282-fbae-4f61-a1ca-b07a4a072cdf"
+        "id": "1c131282-fbae-4f61-a1ca-b07a4a072cdf",
+        "type": "noun"
     },
     {
         "word": "سوداء",
         "romanization": "sawda",
         "translations": ["black"],
-        "id": "9f065dc6-8234-46ec-99d1-9ba55b731f27"
+        "id": "9f065dc6-8234-46ec-99d1-9ba55b731f27",
+        "type": "noun"
     },
     {
         "word": "حلوة",
         "romanization": "halwa",
         "translations": ["sweet"],
-        "id": "ec3ec1c5-d9cb-4ebe-97fa-a98036e2fab5"
+        "id": "ec3ec1c5-d9cb-4ebe-97fa-a98036e2fab5",
+        "type": "noun"
     },
     {
         "word": "مرة",
         "romanization": "mara",
         "translations": ["bitter"],
-        "id": "6f60131d-bd8c-4b0c-9015-8a9db491b13e"
+        "id": "6f60131d-bd8c-4b0c-9015-8a9db491b13e",
+        "type": "noun"
     },
     {
         "word": "قوي",
         "romanization": "qawi",
         "translations": ["strong"],
-        "id": "d6a702a3-e221-4e72-8954-bbbd885c0df0"
+        "id": "d6a702a3-e221-4e72-8954-bbbd885c0df0",
+        "type": "adjective"
     },
     {
         "word": "ضعيف",
         "romanization": "da'eef",
         "translations": ["weak"],
-        "id": "9c9db328-c9ca-4323-a07c-8202eb8f9033"
+        "id": "9c9db328-c9ca-4323-a07c-8202eb8f9033",
+        "type": "adjective"
     },
     {
         "word": "غني",
         "romanization": "ghani",
         "translations": ["rich"],
-        "id": "66de3c42-5910-47be-87e8-2f37c6ff044b"
+        "id": "66de3c42-5910-47be-87e8-2f37c6ff044b",
+        "type": "verb"
     },
     {
         "word": "فقير",
         "romanization": "faqeer",
         "translations": ["poor"],
-        "id": "95c8787e-cb68-4fae-a74c-fe7b9bce2848"
+        "id": "95c8787e-cb68-4fae-a74c-fe7b9bce2848",
+        "type": "noun"
     },
     {
         "word": "كثير",
         "romanization": "katheer",
         "translations": ["many"],
-        "id": "48bb92d3-e576-41fc-8b36-3363eb346251"
+        "id": "48bb92d3-e576-41fc-8b36-3363eb346251",
+        "type": "noun"
     },
     {
         "word": "قليل",
         "romanization": "qaleel",
         "translations": ["few"],
-        "id": "7d2ea390-a957-4772-96f6-e4ba31d41344"
+        "id": "7d2ea390-a957-4772-96f6-e4ba31d41344",
+        "type": "pronoun"
     },
     {
         "word": "بعيد",
         "romanization": "ba'eed",
         "translations": ["far"],
-        "id": "fde26191-ffd4-4729-9c09-c35f1583cf8b"
+        "id": "fde26191-ffd4-4729-9c09-c35f1583cf8b",
+        "type": "adjective"
     },
     {
         "word": "قريب",
         "romanization": "qareeb",
         "translations": ["near"],
-        "id": "063c6013-a73b-4cd1-b6b0-c20a4bd8bad0"
+        "id": "063c6013-a73b-4cd1-b6b0-c20a4bd8bad0",
+        "type": "noun"
     },
     {
         "word": "طويل",
         "romanization": "tawil",
         "translations": ["long"],
-        "id": "204aa85c-e991-471c-b293-73d19232ebb3"
+        "id": "204aa85c-e991-471c-b293-73d19232ebb3",
+        "type": "noun"
     },
     {
         "word": "قصير",
         "romanization": "qaseer",
         "translations": ["short"],
-        "id": "742e5c7e-451b-4619-ae21-f3b33ab7a995"
+        "id": "742e5c7e-451b-4619-ae21-f3b33ab7a995",
+        "type": "noun"
     },
     {
         "word": "صعب",
         "romanization": "sa'ab",
         "translations": ["hard"],
-        "id": "cb3b668a-5737-42d5-8657-26666a02b4ad"
+        "id": "cb3b668a-5737-42d5-8657-26666a02b4ad",
+        "type": "noun"
     },
     {
         "word": "سهل",
         "romanization": "sahl",
         "translations": ["easy"],
-        "id": "3f84ac2f-828f-4c1a-85ef-45c1d7768adf"
+        "id": "3f84ac2f-828f-4c1a-85ef-45c1d7768adf",
+        "type": "noun"
     },
     {
         "word": "بطيء",
         "romanization": "batee'",
         "translations": ["slow"],
-        "id": "2a5acecc-cc88-4a6a-87ae-bbec4de96a44"
+        "id": "2a5acecc-cc88-4a6a-87ae-bbec4de96a44",
+        "type": "noun"
     },
     {
         "word": "سريع",
         "romanization": "saree'",
         "translations": ["fast"],
-        "id": "8feb238f-6fe8-4674-b141-465d76418991"
+        "id": "8feb238f-6fe8-4674-b141-465d76418991",
+        "type": "noun"
     },
     {
         "word": "ضائع",
         "romanization": "daa'i",
         "translations": ["lost"],
-        "id": "03d7a35c-eff6-48d0-9bf7-0a6af8736ff8"
+        "id": "03d7a35c-eff6-48d0-9bf7-0a6af8736ff8",
+        "type": "verb"
     },
     {
         "word": "موجود",
         "romanization": "mawjood",
         "translations": ["found"],
-        "id": "13915f31-243f-4553-b299-bfe5e06294e3"
+        "id": "13915f31-243f-4553-b299-bfe5e06294e3",
+        "type": "verb"
     },
     {
         "word": "حي",
         "romanization": "hayy",
         "translations": ["alive"],
-        "id": "d9b28c89-c390-4d24-af65-05b226f2c002"
+        "id": "d9b28c89-c390-4d24-af65-05b226f2c002",
+        "type": "adjective"
     },
     {
         "word": "ميت",
         "romanization": "mayyit",
         "translations": ["dead"],
-        "id": "271e7dd0-f9a2-4025-8c7c-23c159b0684f"
+        "id": "271e7dd0-f9a2-4025-8c7c-23c159b0684f",
+        "type": "noun"
     },
     {
         "word": "سعيد",
         "romanization": "sa'eed",
         "translations": ["happy"],
-        "id": "960f5e4d-48e7-4846-a645-cc00cf7a59a8"
+        "id": "960f5e4d-48e7-4846-a645-cc00cf7a59a8",
+        "type": "noun"
     },
     {
         "word": "حزين",
         "romanization": "hazeen",
         "translations": ["sad"],
-        "id": "4560d015-80bf-4139-92a9-8fb26c566650"
+        "id": "4560d015-80bf-4139-92a9-8fb26c566650",
+        "type": "verb"
     },
     {
         "word": "حق",
         "romanization": "haqq",
         "translations": ["truth"],
-        "id": "56925f56-b3c9-4656-bdcd-e8407e46c07a"
+        "id": "56925f56-b3c9-4656-bdcd-e8407e46c07a",
+        "type": "noun"
     },
     {
         "word": "باطل",
         "romanization": "batil",
         "translations": ["false"],
-        "id": "e493c0b9-ee32-4647-8f05-7ade41a23e4f"
+        "id": "e493c0b9-ee32-4647-8f05-7ade41a23e4f",
+        "type": "noun"
     },
     {
         "word": "جوعان",
         "romanization": "joo'an",
         "translations": ["hungry"],
-        "id": "6cc63b89-4021-4b8f-8600-6adbc2816a8d"
+        "id": "6cc63b89-4021-4b8f-8600-6adbc2816a8d",
+        "type": "adjective"
     },
     {
         "word": "شبعان",
         "romanization": "shib'aan",
         "translations": ["full"],
-        "id": "4a98a7a3-7ea3-42fb-a198-ff047b87e913"
+        "id": "4a98a7a3-7ea3-42fb-a198-ff047b87e913",
+        "type": "adjective"
     },
     {
         "word": "عطشان",
         "romanization": "atshaan",
         "translations": ["thirsty"],
-        "id": "ba4ecbc3-7c57-4592-95ee-10c94698f059"
+        "id": "ba4ecbc3-7c57-4592-95ee-10c94698f059",
+        "type": "adjective"
     },
     {
         "word": "سكران",
         "romanization": "sakraan",
         "translations": ["drunk"],
-        "id": "89684114-a907-4095-94db-1317544b151f"
+        "id": "89684114-a907-4095-94db-1317544b151f",
+        "type": "verb"
     },
     {
         "word": "عار",
         "romanization": "aar",
         "translations": ["shame"],
-        "id": "361a1b92-a3cb-4c0d-afa4-0a5a60e04006"
+        "id": "361a1b92-a3cb-4c0d-afa4-0a5a60e04006",
+        "type": "noun"
     },
     {
         "word": "شرف",
         "romanization": "sharaf",
         "translations": ["honor"],
-        "id": "39fe9230-4c17-454c-abdf-f32a0bf9053b"
+        "id": "39fe9230-4c17-454c-abdf-f32a0bf9053b",
+        "type": "noun"
     },
     {
         "word": "حر",
         "romanization": "hurr",
         "translations": ["free"],
-        "id": "8982e2ef-f55e-4d92-a46f-9773b57034c0"
+        "id": "8982e2ef-f55e-4d92-a46f-9773b57034c0",
+        "type": "noun"
     },
     {
         "word": "عبد",
         "romanization": "abd",
         "translations": ["slave"],
-        "id": "ea8b9557-b0dd-4e1a-b713-7aa1568a5547"
+        "id": "ea8b9557-b0dd-4e1a-b713-7aa1568a5547",
+        "type": "noun"
     },
     {
         "word": "غضب",
         "romanization": "ghadab",
         "translations": ["anger"],
-        "id": "e218956c-6aa4-4ce6-aeb2-bd6952133ff1"
+        "id": "e218956c-6aa4-4ce6-aeb2-bd6952133ff1",
+        "type": "noun"
     },
     {
         "word": "سلام",
         "romanization": "salaam",
         "translations": ["peace"],
-        "id": "0c80cf85-c7e0-4bf8-8937-21b3a0f8c970"
+        "id": "0c80cf85-c7e0-4bf8-8937-21b3a0f8c970",
+        "type": "noun"
     },
     {
         "word": "حرب",
         "romanization": "harb",
         "translations": ["war"],
-        "id": "fbe062b5-462f-4000-b39d-49f4f2abf654"
+        "id": "fbe062b5-462f-4000-b39d-49f4f2abf654",
+        "type": "noun"
     },
     {
         "word": "برد",
         "romanization": "bard",
         "translations": ["cold"],
-        "id": "ab7e1fac-6973-4bd8-bc64-762bab9988e3"
+        "id": "ab7e1fac-6973-4bd8-bc64-762bab9988e3",
+        "type": "adjective"
     },
     {
         "word": "حر",
         "romanization": "harr",
         "translations": ["hot"],
-        "id": "4df97c72-2853-41d6-a8db-a7dbcfb3d03e"
+        "id": "4df97c72-2853-41d6-a8db-a7dbcfb3d03e",
+        "type": "verb"
     },
     {
         "word": "يمين",
         "romanization": "yameen",
         "translations": ["right"],
-        "id": "4bdc95f9-9cd9-4864-ad69-71ad1b22910a"
+        "id": "4bdc95f9-9cd9-4864-ad69-71ad1b22910a",
+        "type": "adjective"
     },
     {
         "word": "يسار",
         "romanization": "yesaar",
         "translations": ["left"],
-        "id": "b7eba3f1-2c29-44b0-ab70-b661d9487606"
+        "id": "b7eba3f1-2c29-44b0-ab70-b661d9487606",
+        "type": "noun"
     },
     {
         "word": "صباح",
         "romanization": "sabah",
         "translations": ["morning"],
-        "id": "2c0e0eea-8c87-4bf3-b3a7-b307e4ad8b66"
+        "id": "2c0e0eea-8c87-4bf3-b3a7-b307e4ad8b66",
+        "type": "noun"
     },
     {
         "word": "ليل",
         "romanization": "layl",
         "translations": ["night"],
-        "id": "e3ff7a80-7086-4de7-90b9-42e28a5efdc2"
+        "id": "e3ff7a80-7086-4de7-90b9-42e28a5efdc2",
+        "type": "noun"
     }
 ]

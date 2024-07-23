@@ -82,12 +82,14 @@ const LessonForm = memo(
         types,
         categories,
         onChangeTitle,
+        onChangeSearch,
         onChangeFilterType,
         onChangeFilterCategory,
     }: {
         types: string[];
         categories: string[];
         onChangeTitle: (title: string) => void;
+        onChangeSearch: (search: string) => void;
         onChangeFilterType: (type: string) => void;
         onChangeFilterCategory: (category: string) => void;
     }) => {
@@ -128,6 +130,15 @@ const LessonForm = memo(
                             }}
                         />
                     </Grid.Col>
+                    <Grid.Col>
+                        <TextInput
+                            label="Search words"
+                            placeholder="Search..."
+                            onChange={(e) => {
+                                onChangeSearch(e.target.value);
+                            }}
+                        />
+                    </Grid.Col>
                 </Grid>
             </>
         );
@@ -139,6 +150,7 @@ export const LessonCreator = observer(
         const { libraryStore } = useMobxStores();
         const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
         const [title, setTitle] = useState<string>("");
+        const [search, setSearch] = useState<string>("");
         const [filterType, setFilterType] = useState<string>("");
         const [filterCategory, setFilterCategory] = useState<string>("");
 
@@ -189,6 +201,19 @@ export const LessonCreator = observer(
 
         const filteredSelectedIds = new Set<string>();
         const filteredLibrary = libraryStore.library.filter((word) => {
+            if (
+                search &&
+                (
+                    word.word +
+                    (word.romanization || "") +
+                    word.translations.join("")
+                )
+                    .toLowerCase()
+                    .indexOf(search.toLowerCase()) === -1
+            ) {
+                return false;
+            }
+
             if (filterType && word.type !== filterType) {
                 return false;
             }
@@ -223,6 +248,9 @@ export const LessonCreator = observer(
                             onChangeTitle={(t: string) => {
                                 setTitle(t);
                             }}
+                            onChangeSearch={(s: string) => {
+                                setSearch(s);
+                            }}
                             onChangeFilterType={(type: string) => {
                                 setFilterType(type);
                             }}
@@ -239,6 +267,9 @@ export const LessonCreator = observer(
                             )}
                             onChangeTitle={(t: string) => {
                                 setTitle(t);
+                            }}
+                            onChangeSearch={(s: string) => {
+                                setSearch(s);
                             }}
                             onChangeFilterType={(type: string) => {
                                 setFilterType(type);

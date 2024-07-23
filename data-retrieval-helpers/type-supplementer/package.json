@@ -1,0 +1,16 @@
+{
+    "name": "type-supplementer",
+    "version": "1.0.0",
+    "description": "Appends word types to words",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^20.14.12",
+        "@types/superagent": "^8.1.7",
+        "superagent": "^9.0.2"
+    }
+}

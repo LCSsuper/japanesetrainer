@@ -31,7 +31,6 @@ export const AnswerBox = observer(() => {
         learnerStore: {
             showAnswer,
             nextWord,
-            guessIsCorrect,
             answerRevealed,
             remainingAnswers,
             currentGuess,
@@ -50,7 +49,7 @@ export const AnswerBox = observer(() => {
         [
             "enter",
             () => {
-                if (!guessIsCorrect && !answerRevealed) {
+                if (!canContinue) {
                     onError();
                     return;
                 }
@@ -63,6 +62,7 @@ export const AnswerBox = observer(() => {
 
     const onError = () => {
         setError(true);
+        setCurrentGuess("");
 
         if (timeoutId) clearTimeout(timeoutId);
         setTimeoutId(

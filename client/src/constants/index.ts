@@ -9,6 +9,15 @@ export const flags = {
     arabic: "🇦🇪",
 };
 
+export const languageTitles = {
+    korean: "korean",
+    tomikorean: "korean",
+    japanese: "japanese",
+    spanish: "spanish",
+    swedish: "swedish",
+    arabic: "arabic",
+};
+
 export const wordTypes: WordType[] = [
     "verb",
     "verb (base)",

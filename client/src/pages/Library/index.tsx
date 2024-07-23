@@ -1,15 +1,15 @@
 import { useState } from "react";
-import { Card, Group, Space, Tabs, Title, Text, Center } from "@mantine/core";
+import { Card, Group, Space, Tabs, Title } from "@mantine/core";
 import { observer } from "mobx-react-lite";
 import { IconBook } from "@tabler/icons-react";
 import { useScrollIntoView, useWindowScroll } from "@mantine/hooks";
 
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Lessons } from "./components/Lessons";
-import { Words } from "../../components/Words";
 import { useMobxStores } from "../../hooks/useMobxStores";
 import { LessonCreator } from "./components/LessonCreator";
 import { sleep } from "../../utils/sleep";
+import { AllWords } from "./components/AllWords";
 
 const Library = observer(() => {
     const {
@@ -61,13 +61,7 @@ const Library = observer(() => {
                     </Tabs.Panel>
 
                     <Tabs.Panel value="words">
-                        <Center h="3rem">
-                            <Text c="dimmed" fs="italic">
-                                {`There are ${library.length} words.`}
-                            </Text>
-                        </Center>
-                        <Space h="xs" />
-                        <Words words={library} />
+                        <AllWords library={library} />
                     </Tabs.Panel>
                 </Tabs>
                 <Space h="md" />

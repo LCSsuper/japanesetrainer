@@ -67,7 +67,7 @@ export const SelectedLesson = ({
                             </Text>
                             <ActionIcon
                                 size="xs"
-                                variant="subtle"
+                                variant="light"
                                 onClick={(e) => {
                                     e.stopPropagation();
                                     open();

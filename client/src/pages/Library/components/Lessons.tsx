@@ -131,7 +131,7 @@ const LessonCard = ({
                     <Group gap={5}>
                         <ActionIcon
                             size="sm"
-                            variant="subtle"
+                            variant="light"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 openWordsModal();
@@ -146,13 +146,14 @@ const LessonCard = ({
                     {lesson?.type === "custom" && (
                         <ActionIcon
                             size="sm"
-                            variant="subtle"
+                            variant="light"
+                            color="red"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 openDeleteModal();
                             }}
                         >
-                            <IconTrash color="red" />
+                            <IconTrash />
                         </ActionIcon>
                     )}
                 </Group>
