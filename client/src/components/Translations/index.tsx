@@ -8,16 +8,16 @@ import {
     Center,
 } from "@mantine/core";
 
-import { Word } from "../../types";
+import { Translation } from "../../types";
 import { useInViewport } from "@mantine/hooks";
 
-const WordRow = ({
-    word,
+const TranslationRow = ({
+    translation,
     selectable,
     selected,
     onChange,
 }: {
-    word: Word;
+    translation: Translation;
     selectable?: boolean;
     selected?: boolean;
     onChange?: (selected: boolean) => void;
@@ -43,41 +43,47 @@ const WordRow = ({
                         </Table.Td>
                     )}
                     <Table.Td>
-                        <Text>{word.word}</Text>
-                        {word.romanization && (
-                            <Text c="dimmed">{word.romanization}</Text>
+                        <Text>{translation.word.original}</Text>
+                        {translation.word.romanization && (
+                            <Text c="dimmed">
+                                {translation.word.romanization}
+                            </Text>
                         )}
                         <Flex direction="column" gap={4}>
-                            {word.type && (
+                            {translation.type && (
                                 <Badge size="xs" hiddenFrom="sm" tt="none">
-                                    {word.type}
+                                    {translation.type}
                                 </Badge>
                             )}
-                            {word.category && (
+                            {translation.category && (
                                 <Badge
                                     size="sm"
                                     color="violet"
                                     hiddenFrom="sm"
                                     tt="none"
                                 >
-                                    {word.category}
+                                    {translation.category}
                                 </Badge>
                             )}
                         </Flex>
                     </Table.Td>
                     <Table.Td>
-                        <Group gap={4}>{word.translations.join(", ")}</Group>
+                        <Group gap={4}>
+                            {translation.translations
+                                .map((translation) => translation.original)
+                                .join(", ")}
+                        </Group>
                     </Table.Td>
                     <Table.Td visibleFrom="sm">
                         <Group gap={4}>
-                            {word.type && (
+                            {translation.type && (
                                 <Badge size="sm" tt="none">
-                                    {word.type}
+                                    {translation.type}
                                 </Badge>
                             )}
-                            {word.category && (
+                            {translation.category && (
                                 <Badge size="sm" tt="none" color="violet">
-                                    {word.category}
+                                    {translation.category}
                                 </Badge>
                             )}
                         </Group>
@@ -88,22 +94,23 @@ const WordRow = ({
     );
 };
 
-export const Words = ({
-    words,
+export const Translations = ({
+    translations,
     selected,
     selectable,
     onSelectWord,
     onDeselectWord,
 }: {
-    words: Word[];
+    translations: Translation[];
     selectable?: boolean;
     selected?: Set<string>;
     onSelectWord?: (id: string) => void;
     onDeselectWord?: (id: string) => void;
 }) => {
-    const wordIds = new Set(words.map((word) => word.id));
+    const wordIds = new Set(translations.map((translation) => translation.id));
     const intersetion = (wordIds as any).intersection(selected || new Set());
-    const allSelected = intersetion.size === words.length && words.length > 0;
+    const allSelected =
+        intersetion.size === translations.length && translations.length > 0;
     const someSelected = (intersetion.size || 0) > 0 && !allSelected;
 
     return (
@@ -122,12 +129,16 @@ export const Words = ({
                                         }
 
                                         if (e.target.checked && !someSelected) {
-                                            words.forEach((word) =>
-                                                onSelectWord(word.id)
+                                            translations.forEach(
+                                                (translation) =>
+                                                    onSelectWord(translation.id)
                                             );
                                         } else {
-                                            words.forEach((word) =>
-                                                onDeselectWord(word.id)
+                                            translations.forEach(
+                                                (translation) =>
+                                                    onDeselectWord(
+                                                        translation.id
+                                                    )
                                             );
                                         }
                                     }}
@@ -140,22 +151,22 @@ export const Words = ({
                     </Table.Tr>
                 </Table.Thead>
                 <Table.Tbody>
-                    {words.map((word) => (
-                        <WordRow
-                            key={word.id}
-                            word={word}
-                            selected={selected?.has(word.id)}
+                    {translations.map((translation) => (
+                        <TranslationRow
+                            key={translation.id}
+                            translation={translation}
+                            selected={selected?.has(translation.id)}
                             selectable={selectable}
                             onChange={(selected) => {
                                 if (!onSelectWord || !onDeselectWord) return;
-                                if (selected) onSelectWord(word.id);
-                                else onDeselectWord(word.id);
+                                if (selected) onSelectWord(translation.id);
+                                else onDeselectWord(translation.id);
                             }}
                         />
                     ))}
                 </Table.Tbody>
             </Table>
-            {!words.length && (
+            {!translations.length && (
                 <Center h="10rem" w="100%">
                     <Text c="dimmed" size="sm" fs="italic">
                         wow, such empty...

@@ -2,7 +2,7 @@ import { makeAutoObservable } from "mobx";
 import autoBind from "auto-bind";
 
 import { shuffle } from "./utils/shuffle";
-import { PracticeMode, Word } from "../types";
+import { PracticeMode, Translation, Word } from "../types";
 import LibraryStore from "./library";
 import SettingsStore from "./settings";
 import { invertLibrary } from "./utils/invertLibrary";
@@ -14,9 +14,9 @@ export default class LearnerStore {
     currentGuess: string = "";
     guessIsCorrect: boolean = false;
     answerRevealed: boolean = false;
-    guessedTranslations: string[] = [];
+    guessedTranslations: Map<string, Word> = new Map();
     practiceMode: PracticeMode = "lang_to_eng";
-    words: Word[] = [];
+    words: Translation[] = [];
 
     constructor(libraryStore: LibraryStore, settingsStore: SettingsStore) {
         makeAutoObservable(this);
@@ -39,10 +39,10 @@ export default class LearnerStore {
         this.guessIsCorrect = false;
         this.answerRevealed = false;
         this.currentGuess = "";
-        this.guessedTranslations = [];
+        this.guessedTranslations.clear();
     };
 
-    get currentWord(): Word {
+    get currentWord(): Translation {
         return this.words[this.wordIndex];
     }
 
@@ -52,19 +52,32 @@ export default class LearnerStore {
     };
 
     checkCurrentGuess = () => {
-        if (
-            (this.currentWord.translations.includes(
-                this.currentGuess.toLowerCase().trim()
-            ) ||
-                this.currentWord.translations
-                    .map((answer) => answer.replace(/-/g, ""))
-                    .includes(this.currentGuess.toLowerCase())) &&
-            !this.guessedTranslations.includes(this.currentGuess)
-        ) {
-            this.guessIsCorrect = true;
-            this.guessedTranslations.push(this.currentGuess);
-            this.currentGuess = "";
-        }
+        const currentGuess = this.currentGuess.toLowerCase().trim();
+        const answer = this.currentWord.translations.find((translation) => {
+            const original = translation.original.toLowerCase();
+            const romanization = translation.romanization?.toLowerCase();
+
+            if (
+                original === currentGuess ||
+                original.replace(/-/g, "") === currentGuess
+            ) {
+                return true;
+            }
+
+            if (this.settingsStore.allowRomanizationAsAnswer && romanization) {
+                return (
+                    romanization === currentGuess ||
+                    romanization.replace(/-/g, "") === currentGuess
+                );
+            }
+
+            return false;
+        });
+
+        if (!answer) return;
+        this.guessIsCorrect = true;
+        this.guessedTranslations.set(answer.original, answer);
+        this.currentGuess = "";
     };
 
     nextWord = () => {
@@ -77,7 +90,7 @@ export default class LearnerStore {
         }
         this.wordIndex = nextWordIndex;
         this.currentGuess = "";
-        this.guessedTranslations = [];
+        this.guessedTranslations.clear();
         this.guessIsCorrect = false;
         this.answerRevealed = false;
     };
@@ -96,7 +109,7 @@ export default class LearnerStore {
     }
 
     get guessedCount() {
-        return this.guessedTranslations.length;
+        return this.guessedTranslations.size;
     }
 
     get remainingCount() {
@@ -105,13 +118,13 @@ export default class LearnerStore {
 
     get remainingAnswers() {
         return this.currentWord.translations.filter(
-            (answer) => !this.guessedTranslations.includes(answer)
+            (answer) => !this.guessedTranslations.has(answer.original)
         );
     }
 
     get canContinue() {
         return (
-            (this.guessedTranslations.length || this.answerRevealed) &&
+            (this.guessedTranslations.size || this.answerRevealed) &&
             !this.currentGuess
         );
     }

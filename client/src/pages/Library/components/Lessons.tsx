@@ -15,7 +15,7 @@ import { useDisclosure, useViewportSize } from "@mantine/hooks";
 import { observer } from "mobx-react-lite";
 
 import { useMobxStores } from "../../../hooks/useMobxStores";
-import { Lesson, Word } from "../../../types";
+import { Lesson, Translation } from "../../../types";
 import { WordsInLesson } from "../../../components/WordsInLesson";
 import { SelectedLesson } from "../../../components/SelectedLesson";
 
@@ -54,7 +54,7 @@ const LessonCard = ({
     selected: boolean;
     onSelect: (id: string) => void;
     onDelete: (id: string) => void;
-    getWordsInLesson: (lesson: Lesson) => Word[];
+    getWordsInLesson: (lesson: Lesson) => Translation[];
 }) => {
     const [wordsModalOpened, { open: openWordsModal, close: closeWordsModal }] =
         useDisclosure(false);

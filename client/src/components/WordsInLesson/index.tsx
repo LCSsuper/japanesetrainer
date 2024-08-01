@@ -1,10 +1,10 @@
-import { Lesson, Word } from "../../types";
-import { Words } from "../Words";
+import { Lesson, Translation } from "../../types";
+import { Translations } from "../Translations";
 
 export const WordsInLesson = ({
     lesson,
     getWordsInLesson,
 }: {
     lesson: Lesson;
-    getWordsInLesson: (lesson: Lesson) => Word[];
-}) => <Words words={getWordsInLesson(lesson)} />;
+    getWordsInLesson: (lesson: Lesson) => Translation[];
+}) => <Translations translations={getWordsInLesson(lesson)} />;

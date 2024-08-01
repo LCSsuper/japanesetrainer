@@ -9,7 +9,7 @@ import { Lessons } from "./components/Lessons";
 import { useMobxStores } from "../../hooks/useMobxStores";
 import { LessonCreator } from "./components/LessonCreator";
 import { sleep } from "../../utils/sleep";
-import { AllWords } from "./components/AllWords";
+import { AllTranslations } from "./components/AllTranslations";
 
 const Library = observer(() => {
     const {
@@ -61,7 +61,7 @@ const Library = observer(() => {
                     </Tabs.Panel>
 
                     <Tabs.Panel value="words">
-                        <AllWords library={library} />
+                        <AllTranslations library={library} />
                     </Tabs.Panel>
                 </Tabs>
                 <Space h="md" />

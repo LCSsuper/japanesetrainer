@@ -3,6 +3,7 @@ import autoBind from "auto-bind";
 import { get, save } from "./localstorage";
 
 export default class SettingsStore {
+    allowRomanizationAsAnswer: boolean = true;
     showRomanization: boolean = true;
     showWordType: boolean = true;
     randomize: boolean = true;
@@ -15,7 +16,12 @@ export default class SettingsStore {
     }
 
     save = (
-        key: "showRomanization" | "showWordType" | "randomize" | "darkmode",
+        key:
+            | "showRomanization"
+            | "showWordType"
+            | "randomize"
+            | "darkmode"
+            | "allowRomanizationAsAnswer",
         value: boolean
     ) => {
         this[key] = value;
@@ -23,7 +29,12 @@ export default class SettingsStore {
     };
 
     get = (
-        key: "showRomanization" | "showWordType" | "randomize" | "darkmode"
+        key:
+            | "showRomanization"
+            | "showWordType"
+            | "randomize"
+            | "darkmode"
+            | "allowRomanizationAsAnswer"
     ) => {
         return this[key];
     };
@@ -33,10 +44,13 @@ export default class SettingsStore {
         const showWordType = get("showWordType");
         const randomize = get("randomize");
         const darkmode = get("darkmode");
+        const allowRomanizationAsAnswer = get("allowRomanizationAsAnswer");
 
         this.showRomanization = showRomanization ?? this.showRomanization;
         this.showWordType = showWordType ?? this.showWordType;
         this.randomize = randomize ?? this.randomize;
         this.darkmode = darkmode ?? this.darkmode;
+        this.allowRomanizationAsAnswer =
+            allowRomanizationAsAnswer ?? this.allowRomanizationAsAnswer;
     };
 }

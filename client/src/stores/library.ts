@@ -7,19 +7,19 @@ import swedishLibrary from "./data/0-1000-swedish.json";
 import koreanLibrary from "./data/common-korean.json";
 import tomiKoreanLibrary from "./data/tomi-korean.json";
 import arabicLibrary from "./data/0-100-arabic.json";
-import { Language, Lesson, Word, WordType } from "../types";
+import { Language, Lesson, Translation, WordType } from "../types";
 import { flags, languageTitles } from "../constants";
 import { get, save } from "./localstorage";
 
 const libraries: {
-    [language: string]: Word[];
+    [language: string]: Translation[];
 } = {
-    japanese: japaneseLibrary as Word[],
-    spanish: spanishLibrary as Word[],
-    swedish: swedishLibrary as Word[],
-    korean: koreanLibrary as Word[],
-    tomikorean: tomiKoreanLibrary as Word[],
-    arabic: arabicLibrary as Word[],
+    japanese: japaneseLibrary as Translation[],
+    spanish: spanishLibrary as Translation[],
+    swedish: swedishLibrary as Translation[],
+    korean: koreanLibrary as Translation[],
+    tomikorean: tomiKoreanLibrary as Translation[],
+    arabic: arabicLibrary as Translation[],
 };
 
 export default class LibraryStore {
@@ -82,7 +82,7 @@ export default class LibraryStore {
         save(`${this.language}#selectedLessonId`, lessonId);
     };
 
-    getWordsInLesson = (lesson: Lesson): Word[] => {
+    getWordsInLesson = (lesson: Lesson): Translation[] => {
         if (lesson.type === "all") return this.library;
         const [, value] = lesson.id.split("#");
         if (lesson.type === "category") {

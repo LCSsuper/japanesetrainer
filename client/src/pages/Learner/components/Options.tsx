@@ -17,16 +17,20 @@ import { useState } from "react";
 const OptionsModalContent = ({
     onClose,
     onAccept,
+    araa,
     sr,
     swt,
     r,
 }: {
     onClose: any;
     onAccept: any;
+    araa: boolean;
     sr: boolean;
     swt: boolean;
     r: boolean;
 }) => {
+    const [allowRomanizationAsAnswer, setAllowRomanizationAsAnswer] =
+        useState(araa);
     const [showRomanization, setShowRomanization] = useState(sr);
     const [showWordType, setShowWordType] = useState(swt);
     const [randomize, setRandomize] = useState(r);
@@ -56,6 +60,14 @@ const OptionsModalContent = ({
                 </Text>
             </Group>
             <Space h="sm" />
+            <Switch
+                label="Allow romanization as answer"
+                checked={allowRomanizationAsAnswer}
+                onChange={() =>
+                    setAllowRomanizationAsAnswer(!allowRomanizationAsAnswer)
+                }
+            />
+            <Space h="sm" />
             <Group justify="end">
                 <Button variant="outline" onClick={onClose}>
                     Cancel
@@ -66,6 +78,7 @@ const OptionsModalContent = ({
                             sr: showRomanization,
                             swt: showWordType,
                             r: randomize,
+                            araa: allowRomanizationAsAnswer,
                         })
                     }
                 >
@@ -84,6 +97,7 @@ export const OptionsButton = observer(() => {
         <>
             <Modal opened={opened} onClose={close} title="Practice options">
                 <OptionsModalContent
+                    araa={settingsStore.allowRomanizationAsAnswer}
                     sr={settingsStore.showRomanization}
                     swt={settingsStore.showWordType}
                     r={settingsStore.randomize}
@@ -92,13 +106,16 @@ export const OptionsButton = observer(() => {
                         sr,
                         swt,
                         r,
+                        araa,
                     }: {
                         sr: boolean;
                         swt: boolean;
                         r: boolean;
+                        araa: boolean;
                     }) => {
                         settingsStore.save("showRomanization", sr);
                         settingsStore.save("showWordType", swt);
+                        settingsStore.save("allowRomanizationAsAnswer", araa);
                         let restartPractice = r !== settingsStore.randomize;
                         settingsStore.save("randomize", r);
                         if (restartPractice) learnerStore.reset();

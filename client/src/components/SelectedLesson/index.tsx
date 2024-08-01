@@ -11,7 +11,7 @@ import {
 } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { IconEye } from "@tabler/icons-react";
-import { Lesson, Word } from "../../types";
+import { Lesson, Translation } from "../../types";
 import { WordsInLesson } from "../WordsInLesson";
 
 export const SelectedLesson = ({
@@ -21,7 +21,7 @@ export const SelectedLesson = ({
 }: {
     lesson?: Lesson;
     label?: string;
-    getWordsInLesson: (lesson: Lesson) => Word[];
+    getWordsInLesson: (lesson: Lesson) => Translation[];
 }) => {
     const [opened, { open, close }] = useDisclosure(false);
 

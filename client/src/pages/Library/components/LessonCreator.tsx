@@ -15,7 +15,7 @@ import {
 import { observer } from "mobx-react-lite";
 import { v4 } from "uuid";
 
-import { Words } from "../../../components/Words";
+import { Translations } from "../../../components/Translations";
 import { useMobxStores } from "../../../hooks/useMobxStores";
 import { SelectedLesson } from "../../../components/SelectedLesson";
 import { CustomLesson, Lesson } from "../../../types";
@@ -204,8 +204,8 @@ export const LessonCreator = observer(
             if (
                 search &&
                 (
-                    word.word +
-                    (word.romanization || "") +
+                    word.word.original +
+                    (word.word.romanization || "") +
                     word.translations.join("")
                 )
                     .toLowerCase()
@@ -294,9 +294,9 @@ export const LessonCreator = observer(
                     {`Words in filter: ${filteredLibrary.length}`}
                 </Text>
                 <Space h="xs" />
-                <Words
+                <Translations
                     selectable
-                    words={filteredLibrary}
+                    translations={filteredLibrary}
                     selected={selectedIds}
                     onSelectWord={useCallback((wordId: string) => {
                         setSelectedIds((prev) => {

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Center, Space, Text, TextInput } from "@mantine/core";
 
-import { Words } from "../../../components/Words";
-import { Word } from "../../../types";
+import { Translations } from "../../../components/Translations";
+import { Translation } from "../../../types";
 
 const Search = ({
     onChangeSearch,
@@ -18,13 +18,17 @@ const Search = ({
     );
 };
 
-export const AllWords = ({ library }: { library: Word[] }) => {
+export const AllTranslations = ({ library }: { library: Translation[] }) => {
     const [search, setSearch] = useState<string>("");
 
     const filteredLibrary = library.filter(
         (word) =>
             !search ||
-            (word.word + (word.romanization || "") + word.translations.join(""))
+            (
+                word.word.original +
+                (word.word.romanization || "") +
+                word.translations.join("")
+            )
                 .toLowerCase()
                 .indexOf(search.toLowerCase()) > -1
     );
@@ -42,7 +46,7 @@ export const AllWords = ({ library }: { library: Word[] }) => {
                 }}
             />
             <Space h="xs" />
-            <Words words={filteredLibrary} />
+            <Translations translations={filteredLibrary} />
         </>
     );
 };

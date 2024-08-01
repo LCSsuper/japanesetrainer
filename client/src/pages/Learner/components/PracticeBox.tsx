@@ -70,14 +70,15 @@ export const PracticeBox = observer(() => {
                         size={wordSize(width)}
                         c={wordColor(guessedCount, translationCount)}
                     >
-                        {currentWord.word}
+                        {currentWord.word.original}
                     </Title>
                     <Group h="1.5rem">
-                        {romanizationVisible && currentWord.romanization && (
-                            <Text size={textInfoSize(width)} c="dimmed">
-                                {`(${currentWord.romanization})`}
-                            </Text>
-                        )}
+                        {romanizationVisible &&
+                            currentWord.word.romanization && (
+                                <Text size={textInfoSize(width)} c="dimmed">
+                                    {`(${currentWord.word.romanization})`}
+                                </Text>
+                            )}
                         {showWordType && currentWord.type && (
                             <Pill size={textInfoSize(width)}>
                                 {currentWord.type}
@@ -89,22 +90,28 @@ export const PracticeBox = observer(() => {
                     <Center h="100%">
                         <Flex direction="column" align="center" gap={5}>
                             <Text c="dimmed">answers:</Text>
-                            {guessedTranslations.map((t) => (
-                                <Badge
-                                    size={textInfoSize(width)}
-                                    color="green"
-                                    tt="none"
-                                    key={t}
-                                >
-                                    {t}
-                                </Badge>
-                            ))}
+                            {Array.from(guessedTranslations.values()).map(
+                                (t) => (
+                                    <Badge
+                                        size={textInfoSize(width)}
+                                        color="green"
+                                        tt="none"
+                                        key={t.original}
+                                    >
+                                        {`${t.original} ${
+                                            t.romanization
+                                                ? `(${t.romanization})`
+                                                : ""
+                                        }`}
+                                    </Badge>
+                                )
+                            )}
                             {!answerRevealed &&
                                 remainingAnswers.map((t) => (
                                     <Badge
                                         size={textInfoSize(width)}
                                         tt="none"
-                                        key={t}
+                                        key={t.original}
                                         w={"5rem"}
                                     >
                                         ?
@@ -116,9 +123,13 @@ export const PracticeBox = observer(() => {
                                         size={textInfoSize(width)}
                                         color="yellow"
                                         tt="none"
-                                        key={t}
+                                        key={t.original}
                                     >
-                                        {t}
+                                        {`${t.original} ${
+                                            t.romanization
+                                                ? `(${t.romanization})`
+                                                : ""
+                                        }`}
                                     </Badge>
                                 ))}
                         </Flex>

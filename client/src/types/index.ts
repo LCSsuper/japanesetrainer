@@ -1,10 +1,14 @@
 export type PracticeMode = "eng_to_lang" | "lang_to_eng";
 
 export type Word = {
+    original: string;
+    romanization?: string;
+};
+
+export type Translation = {
     id: string;
-    word: string;
-    romanization: string;
-    translations: string[];
+    word: Word;
+    translations: Word[];
     type?: WordType;
     category?: string;
 };
@@ -31,7 +35,7 @@ export type Language =
     | "arabic"
     | "tomikorean";
 
-export type Library = Word[];
+export type Library = Translation[];
 
 export type Lesson = GeneratedLesson | CustomLesson;
 
