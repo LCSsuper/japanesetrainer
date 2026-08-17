@@ -7,6 +7,7 @@ export const flags = {
     spanish: "🇪🇸",
     swedish: "🇸🇪",
     arabic: "🇦🇪",
+    turkish: "🇹🇷",
 };
 
 export const languageTitles = {
@@ -16,6 +17,7 @@ export const languageTitles = {
     spanish: "spanish",
     swedish: "swedish",
     arabic: "arabic",
+    turkish: "turkish",
 };
 
 export const wordTypes: WordType[] = [
@@ -33,10 +35,11 @@ export const wordTypes: WordType[] = [
 ];
 
 export const languages = {
-    korean: "🇰🇷 Korean",
-    tomikorean: "🇰🇷 Tomi Korean",
-    japanese: "🇯🇵 Japanese",
-    spanish: "🇪🇸 Spanish",
-    swedish: "🇸🇪 Swedish",
-    arabic: "🇦🇪 Arabic",
+    korean: "Korean",
+    tomikorean: "Tomi Korean",
+    japanese: "Japanese",
+    spanish: "Spanish",
+    swedish: "Swedish",
+    arabic: "Arabic",
+    turkish: "Turkish",
 };

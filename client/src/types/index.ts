@@ -33,7 +33,8 @@ export type Language =
     | "spanish"
     | "swedish"
     | "arabic"
-    | "tomikorean";
+    | "tomikorean"
+    | "turkish";
 
 export type Library = Translation[];
 

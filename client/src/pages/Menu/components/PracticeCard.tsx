@@ -21,10 +21,10 @@ const PracticeTitle = ({
     mode: PracticeMode;
 }) => {
     if (mode === "lang_to_eng") {
-        return <Title order={2}>{`Practice ${flag} to 🇺🇸`}</Title>;
+        return <Title order={2}>{`Practice ${flag} to 🇬🇧`}</Title>;
     }
 
-    return <Title order={2}>{`Practice 🇺🇸 to ${flag}`}</Title>;
+    return <Title order={2}>{`Practice 🇬🇧 to ${flag}`}</Title>;
 };
 
 const DifficultyBadge = ({ mode }: { mode: PracticeMode }) => {
@@ -69,7 +69,7 @@ export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
     } = useMobxStores();
 
     return (
-        <Card shadow="xl">
+        <Card shadow="xl" radius="lg">
             <Group justify="space-between" align="top">
                 <PracticeTitle flag={flag} mode={mode} />
                 <DifficultyBadge mode={mode} />
@@ -77,7 +77,7 @@ export const PracticeCard = observer(({ mode }: { mode: PracticeMode }) => {
             <Divider />
             <PracticeText language={languageTitle} mode={mode} />
             <Group justify="space-between" align="end" pt={5}>
-                <Text c="dimmed" size="xs">
+                <Text c="dimmed" size="xs" fs="italic">
                     {mode === "eng_to_lang" && (
                         <>
                             Can contain more words <br />

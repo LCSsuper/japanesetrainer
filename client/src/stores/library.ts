@@ -7,6 +7,7 @@ import swedishLibrary from "./data/0-1000-swedish.json";
 import koreanLibrary from "./data/common-korean.json";
 import tomiKoreanLibrary from "./data/tomi-korean.json";
 import arabicLibrary from "./data/0-100-arabic.json";
+import turkishLibrary from "./data/common-turkish.json";
 import { Language, Lesson, Translation, WordType } from "../types";
 import { flags, languageTitles } from "../constants";
 import { get, save } from "./localstorage";
@@ -20,6 +21,7 @@ const libraries: {
     korean: koreanLibrary as Translation[],
     tomikorean: tomiKoreanLibrary as Translation[],
     arabic: arabicLibrary as Translation[],
+    turkish: turkishLibrary as Translation[],
 };
 
 export default class LibraryStore {
@@ -56,13 +58,13 @@ export default class LibraryStore {
                 if (word.type) {
                     maps.types.set(
                         word.type,
-                        (maps.types.get(word.type) || 0) + 1
+                        (maps.types.get(word.type) || 0) + 1,
                     );
                 }
                 if (word.category) {
                     maps.categories.set(
                         word.category,
-                        (maps.categories.get(word.category) || 0) + 1
+                        (maps.categories.get(word.category) || 0) + 1,
                     );
                 }
                 return maps;
@@ -70,7 +72,7 @@ export default class LibraryStore {
             {
                 categories: new Map<string, number>(),
                 types: new Map<WordType, number>(),
-            }
+            },
         );
     };
 
@@ -93,7 +95,7 @@ export default class LibraryStore {
         }
         if (lesson.type === "custom") {
             return this.library.filter((word) =>
-                lesson.wordIds?.includes(word.id)
+                lesson.wordIds?.includes(word.id),
             );
         }
         return [];
@@ -107,7 +109,7 @@ export default class LibraryStore {
 
     deleteLesson = (lessonId: string) => {
         this.customLessons = this.customLessons.filter(
-            (lesson) => lesson.id !== lessonId
+            (lesson) => lesson.id !== lessonId,
         );
         save(`${this.language}#lessons`, this.customLessons);
         if (this.selectedLessonId === lessonId) {
@@ -134,7 +136,7 @@ export default class LibraryStore {
 
     get selectedLesson(): Lesson | undefined {
         return this.lessons.find(
-            (lesson) => lesson.id === this.selectedLessonId
+            (lesson) => lesson.id === this.selectedLessonId,
         );
     }
 
@@ -157,7 +159,7 @@ export default class LibraryStore {
                     title: category,
                     type: "category",
                     count: this.counts.categories.get(category) || 0,
-                })
+                }),
             ),
             ...Array.from(this.counts.types.keys()).map(
                 (type): Lesson => ({
@@ -165,7 +167,7 @@ export default class LibraryStore {
                     title: type,
                     type: "word type",
                     count: this.counts.types.get(type) || 0,
-                })
+                }),
             ),
             ...this.customLessons,
         ];

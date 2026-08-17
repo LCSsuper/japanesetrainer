@@ -1,0 +1,1422 @@
+[
+    {
+        "word": {
+            "original": "ben",
+            "pronunciation": "behn"
+        },
+        "translations": [
+            {
+                "original": "I"
+            },
+            {
+                "original": "me"
+            }
+        ],
+        "id": "50de2516-5b08-44f4-bc28-78fd09d8364e",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "sen",
+            "pronunciation": "sehn"
+        },
+        "translations": [
+            {
+                "original": "you"
+            }
+        ],
+        "id": "07f2851b-308e-4b97-8571-d53db297b5f3",
+        "category": "pronouns and people",
+        "description": "singular"
+    },
+    {
+        "word": {
+            "original": "o",
+            "pronunciation": "oh"
+        },
+        "translations": [
+            {
+                "original": "he"
+            },
+            {
+                "original": "she"
+            },
+            {
+                "original": "it"
+            }
+        ],
+        "id": "f0e1c3a2-4b8d-4f5e-9c6b-1f2e3d4a5b6c",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "biz",
+            "pronunciation": "beez"
+        },
+        "translations": [
+            {
+                "original": "we"
+            }
+        ],
+        "id": "a1b2c3d4-e5f6-7g8h-9i0j-k1l2m3n4o5p6",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "siz",
+            "pronunciation": "seez"
+        },
+        "translations": [
+            {
+                "original": "you"
+            }
+        ],
+        "id": "q1w2e3r4-t5y6-u7i8-o9p0-a1s2d3f4g5h6",
+        "category": "pronouns and people",
+        "description": "plural, formal"
+    },
+    {
+        "word": {
+            "original": "onlar",
+            "pronunciation": "ohn-lahr"
+        },
+        "translations": [
+            {
+                "original": "they"
+            }
+        ],
+        "id": "z1x2c3v4-b5n6-m7q8-w9e0-r1t2y3u4i5o6",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "insan",
+            "pronunciation": "een-sahn"
+        },
+        "translations": [
+            {
+                "original": "person"
+            },
+            {
+                "original": "human"
+            }
+        ],
+        "id": "p1o2i3u4-y5t6-r7e8-w9q0-a1s2d3f4g5h6",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "adam",
+            "pronunciation": "ah-dahm"
+        },
+        "translations": [
+            {
+                "original": "man"
+            }
+        ],
+        "id": "o1p2i3u4-y5t6-r7e8-w9q0-a1s2d3f4g5h6",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "kadın",
+            "pronunciation": "kah-duhn"
+        },
+        "translations": [
+            {
+                "original": "woman"
+            }
+        ],
+        "id": "k1a2d3i4n5-6o7p8-q9r0-s1t2-u3v4w5x6y7",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "çocuk",
+            "pronunciation": "choh-jook"
+        },
+        "translations": [
+            {
+                "original": "child"
+            }
+        ],
+        "id": "c1h2o3j4o5o6k7-8p9q-r0s1-t2u3-v4w5x6y7z8",
+        "category": "pronouns and people"
+    },
+    {
+        "word": {
+            "original": "olmak",
+            "pronunciation": "ohl-mahk"
+        },
+        "translations": [
+            {
+                "original": "to be"
+            },
+            {
+                "original": "to become"
+            }
+        ],
+        "id": "756ef78f-91a2-4cd5-a2aa-9a8032d0de3b",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "yapmak",
+            "pronunciation": "yahp-mahk"
+        },
+        "translations": [
+            {
+                "original": "to do"
+            },
+            {
+                "original": "to make"
+            }
+        ],
+        "id": "45526380-3608-4058-abe9-9a8f8e04422c",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "etmek",
+            "pronunciation": "eht-mehk"
+        },
+        "translations": [
+            {
+                "original": "to do"
+            }
+        ],
+        "id": "a8e18a45-9220-4859-a390-b31efbd6cc48",
+        "type": "verb",
+        "description": "used with nouns to indicate performing an action"
+    },
+    {
+        "word": {
+            "original": "gelmek",
+            "pronunciation": "gehl-mehk"
+        },
+        "translations": [
+            {
+                "original": "to come"
+            }
+        ],
+        "id": "32b18a68-83e4-4590-86fa-467cdda3cf6e",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "gitmek",
+            "pronunciation": "geet-mehk"
+        },
+        "translations": [
+            {
+                "original": "to go"
+            }
+        ],
+        "id": "eac285f9-fea7-4d40-89bc-283f4149825c",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "vermek",
+            "pronunciation": "vehr-mehk"
+        },
+        "translations": [
+            {
+                "original": "to give"
+            }
+        ],
+        "id": "1a145207-4bcd-456e-91b4-ca505326d3bb",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "almak",
+            "pronunciation": "ahl-mahk"
+        },
+        "translations": [
+            {
+                "original": "to take"
+            },
+            {
+                "original": "to buy"
+            }
+        ],
+        "id": "cc08d130-b416-477a-9477-c59871758c2e",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "görmek",
+            "pronunciation": "gur-mehk"
+        },
+        "translations": [
+            {
+                "original": "to see"
+            }
+        ],
+        "id": "9ae3d310-4c3f-4c5b-ba83-54909f835112",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "bilmek",
+            "pronunciation": "beel-mehk"
+        },
+        "translations": [
+            {
+                "original": "to know"
+            }
+        ],
+        "id": "e1a9202c-5c59-4c18-bdca-e5ddc9075b44",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "istemek",
+            "pronunciation": "ees-teh-mehk"
+        },
+        "translations": [
+            {
+                "original": "to want"
+            }
+        ],
+        "id": "cd8fc263-befa-4ed1-bd15-9d09c49cf7a9",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "demek",
+            "pronunciation": "deh-mehk"
+        },
+        "translations": [
+            {
+                "original": "to say"
+            }
+        ],
+        "id": "be4828eb-962a-43d2-98c1-a77245e07bf1",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "bakmak",
+            "pronunciation": "bahk-mahk"
+        },
+        "translations": [
+            {
+                "original": "to look"
+            }
+        ],
+        "id": "669c7915-a845-4548-aa50-9ea371a1e126",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "bulmak",
+            "pronunciation": "bool-mahk"
+        },
+        "translations": [
+            {
+                "original": "to find"
+            }
+        ],
+        "id": "753c8bbb-7cc5-456b-94a3-2b16d4082657",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "konuşmak",
+            "pronunciation": "koh-noosh-mahk"
+        },
+        "translations": [
+            {
+                "original": "to speak"
+            },
+            {
+                "original": "to talk"
+            }
+        ],
+        "id": "9d36d47e-6a7a-439e-a78d-365e7d29c64c",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "yemek",
+            "pronunciation": "yeh-mehk"
+        },
+        "translations": [
+            {
+                "original": "to eat"
+            }
+        ],
+        "id": "f6cf2033-2d0e-49fc-a58c-b9686868364f",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "içmek",
+            "pronunciation": "eech-mehk"
+        },
+        "translations": [
+            {
+                "original": "to drink"
+            }
+        ],
+        "id": "e59b6e62-cded-4382-bf42-0374e86164ce",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "sevmek",
+            "pronunciation": "sehv-mehk"
+        },
+        "translations": [
+            {
+                "original": "to love"
+            },
+            {
+                "original": "to like"
+            }
+        ],
+        "id": "d1333bf4-f4fd-4edc-a6bb-f7f21872a5b6",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "anlamak",
+            "pronunciation": "ahn-lah-mahk"
+        },
+        "translations": [
+            {
+                "original": "to understand"
+            }
+        ],
+        "id": "79c1efa7-2432-4f02-81ab-2b2d7aeda6ac",
+        "type": "verb"
+    },
+    {
+        "word": {
+            "original": "ne",
+            "pronunciation": "neh"
+        },
+        "translations": [
+            {
+                "original": "what"
+            }
+        ],
+        "id": "545c9199-8c8b-448a-8bac-ac140e13dbcd",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "kim",
+            "pronunciation": "keem"
+        },
+        "translations": [
+            {
+                "original": "who"
+            }
+        ],
+        "id": "768b6f71-ed5d-4920-aa3b-1d513df9e3a7",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "nerede",
+            "pronunciation": "neh-reh-deh"
+        },
+        "translations": [
+            {
+                "original": "where"
+            }
+        ],
+        "id": "5aa96f65-8c1a-4581-a86d-81ade215ec75",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "ne zaman",
+            "pronunciation": "neh zah-mahn"
+        },
+        "translations": [
+            {
+                "original": "when"
+            }
+        ],
+        "id": "bcebb350-0d7c-402b-aee9-6778ebbd2687",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "neden",
+            "pronunciation": "neh-dehn"
+        },
+        "translations": [
+            {
+                "original": "why"
+            }
+        ],
+        "id": "a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "nasıl",
+            "pronunciation": "nah-suhl"
+        },
+        "translations": [
+            {
+                "original": "how"
+            }
+        ],
+        "id": "36eb7788-5e71-4ddb-b0f4-6281f411756b",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "kaç",
+            "pronunciation": "kahch"
+        },
+        "translations": [
+            {
+                "original": "how many"
+            },
+            {
+                "original": "how much"
+            }
+        ],
+        "id": "b2bbdf3e-97f5-461b-8bed-4671acd72ef2",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "hangi",
+            "pronunciation": "hahn-gee"
+        },
+        "translations": [
+            {
+                "original": "which"
+            }
+        ],
+        "id": "2991f237-dc84-44f7-8a7c-08dfe51a6353",
+        "category": "question"
+    },
+    {
+        "word": {
+            "original": "ev",
+            "pronunciation": "ehv"
+        },
+        "translations": [
+            {
+                "original": "house"
+            },
+            {
+                "original": "home"
+            }
+        ],
+        "id": "a21c4549-a8df-4682-a7e2-65760177fd8b",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "su",
+            "pronunciation": "soo"
+        },
+        "translations": [
+            {
+                "original": "water"
+            }
+        ],
+        "id": "2809095c-7fc1-4d84-aec9-d4ba77ee2f28",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "gün",
+            "pronunciation": "gewn"
+        },
+        "translations": [
+            {
+                "original": "day"
+            }
+        ],
+        "id": "69b868b8-6396-494d-ae11-e03fbdbdc711",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "yıl",
+            "pronunciation": "yuhl"
+        },
+        "translations": [
+            {
+                "original": "year"
+            }
+        ],
+        "id": "165fab48-6858-451c-8dd4-fe0f332aaf77",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "zaman",
+            "pronunciation": "zah-mahn"
+        },
+        "translations": [
+            {
+                "original": "time"
+            }
+        ],
+        "id": "70d69d3c-0404-4b72-885f-d74b005ee919",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "şey",
+            "pronunciation": "shey"
+        },
+        "translations": [
+            {
+                "original": "thing"
+            }
+        ],
+        "id": "e423246b-7b81-4cbb-a541-fcde0f8ed4c3",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "yer",
+            "pronunciation": "yehr"
+        },
+        "translations": [
+            {
+                "original": "place"
+            }
+        ],
+        "id": "2430f0dc-c223-4a79-a413-4df4d6e03ab6",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "iş",
+            "pronunciation": "eesh"
+        },
+        "translations": [
+            {
+                "original": "work"
+            },
+            {
+                "original": "job"
+            }
+        ],
+        "id": "21b620fc-6a1d-4ffb-bfbe-f37ef4d9689e",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "yol",
+            "pronunciation": "yohl"
+        },
+        "translations": [
+            {
+                "original": "road"
+            },
+            {
+                "original": "way"
+            }
+        ],
+        "id": "2c966884-6aeb-428d-ad6c-9810e1e17b71",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "el",
+            "pronunciation": "ehl"
+        },
+        "translations": [
+            {
+                "original": "hand"
+            }
+        ],
+        "id": "77354660-325e-4346-a548-3b913f2b436d",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "göz",
+            "pronunciation": "gurz"
+        },
+        "translations": [
+            {
+                "original": "eye"
+            }
+        ],
+        "id": "094dd6b5-5629-4ab9-899e-63af23e53642",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "para",
+            "pronunciation": "pah-rah"
+        },
+        "translations": [
+            {
+                "original": "money"
+            }
+        ],
+        "id": "58297533-4b8b-475a-a90f-6af8bb38db31",
+        "type": "noun",
+        "category": "everyday nouns"
+    },
+    {
+        "word": {
+            "original": "büyük",
+            "pronunciation": "bew-yewk"
+        },
+        "translations": [
+            {
+                "original": "big"
+            },
+            {
+                "original": "large"
+            }
+        ],
+        "id": "c89be49b-4ad3-4174-8406-685980c5fc0c",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "küçük",
+            "pronunciation": "kew-chewk"
+        },
+        "translations": [
+            {
+                "original": "small"
+            }
+        ],
+        "id": "fee5e341-966e-41df-b8e9-2f076d494400",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "iyi",
+            "pronunciation": "ee-yee"
+        },
+        "translations": [
+            {
+                "original": "good"
+            }
+        ],
+        "id": "20c3de2b-00d1-432b-bb1c-690f422475c3",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "kötü",
+            "pronunciation": "kur-tew"
+        },
+        "translations": [
+            {
+                "original": "bad"
+            }
+        ],
+        "id": "75b750b0-bae2-4883-9866-52716f3d74f0",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "yeni",
+            "pronunciation": "yeh-nee"
+        },
+        "translations": [
+            {
+                "original": "new"
+            }
+        ],
+        "id": "c6d152f5-634c-47de-88a9-62862f08381d",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "eski",
+            "pronunciation": "ehs-kee"
+        },
+        "translations": [
+            {
+                "original": "old"
+            }
+        ],
+        "id": "21277bb5-eef8-4ae1-af58-63b3e45911d8",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "güzel",
+            "pronunciation": "gew-zehl"
+        },
+        "translations": [
+            {
+                "original": "beautiful"
+            },
+            {
+                "original": "nice"
+            }
+        ],
+        "id": "ee4d37a3-420b-4c59-a7bb-dbf109dc64bd",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "çok",
+            "pronunciation": "chohk"
+        },
+        "translations": [
+            {
+                "original": "very"
+            },
+            {
+                "original": "many"
+            }
+        ],
+        "id": "b811fb61-1c0a-4b3a-94dd-32c2d76e4f5e",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "az",
+            "pronunciation": "ahz"
+        },
+        "translations": [
+            {
+                "original": "little"
+            },
+            {
+                "original": "few"
+            }
+        ],
+        "id": "4f49d8d5-d725-4ae5-a279-498a21d5881d",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "uzun",
+            "pronunciation": "oo-zoon"
+        },
+        "translations": [
+            {
+                "original": "long"
+            },
+            {
+                "original": "tall"
+            }
+        ],
+        "id": "03ca51ef-0120-4d08-a265-6b7d16276668",
+        "type": "adjective",
+        "category": "common adjectives"
+    },
+    {
+        "word": {
+            "original": "bir",
+            "pronunciation": "beer"
+        },
+        "translations": [
+            {
+                "original": "one"
+            }
+        ],
+        "id": "43af1936-546a-4832-9502-f6e2423ddc2e",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "iki",
+            "pronunciation": "ee-kee"
+        },
+        "translations": [
+            {
+                "original": "two"
+            }
+        ],
+        "id": "763c07b0-62c4-40aa-88c3-4fea894a3ad0",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "üç",
+            "pronunciation": "ewch"
+        },
+        "translations": [
+            {
+                "original": "three"
+            }
+        ],
+        "id": "5c448c3a-6b98-4890-8556-4ae1dee96238",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "dört",
+            "pronunciation": "durt"
+        },
+        "translations": [
+            {
+                "original": "four"
+            }
+        ],
+        "id": "b367dc5a-bc09-4698-ae92-9fc2f8984409",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "beş",
+            "pronunciation": "behsh"
+        },
+        "translations": [
+            {
+                "original": "five"
+            }
+        ],
+        "id": "e1f2g3h4-i5j6-k7l8-m9n0-o1p2q3r4s5t6",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "altı",
+            "pronunciation": "ahl-tuh"
+        },
+        "translations": [
+            {
+                "original": "six"
+            }
+        ],
+        "id": "9d787751-df0f-484a-b68b-94c3e27f95df",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "yedi",
+            "pronunciation": "yeh-dee"
+        },
+        "translations": [
+            {
+                "original": "seven"
+            }
+        ],
+        "id": "74a6f7ab-5c3a-41ca-9b51-7960d826fc70",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "sekiz",
+            "pronunciation": "seh-keez"
+        },
+        "translations": [
+            {
+                "original": "eight"
+            }
+        ],
+        "id": "d92d9ded-5561-4280-901b-6488369411e9",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "dokuz",
+            "pronunciation": "doh-kooz"
+        },
+        "translations": [
+            {
+                "original": "nine"
+            }
+        ],
+        "id": "080bcf18-c4fc-417c-a040-f368659cfa75",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "on",
+            "pronunciation": "ohn"
+        },
+        "translations": [
+            {
+                "original": "ten"
+            }
+        ],
+        "id": "6b509575-231a-4b22-8f1b-35864c0af588",
+        "category": "numbers"
+    },
+    {
+        "word": {
+            "original": "bugün",
+            "pronunciation": "boo-gewn"
+        },
+        "translations": [
+            {
+                "original": "today"
+            }
+        ],
+        "id": "50fe1bf9-efda-4915-a268-bdcd49ef27ed",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "yarın",
+            "pronunciation": "yah-ruhn"
+        },
+        "translations": [
+            {
+                "original": "tomorrow"
+            }
+        ],
+        "id": "a5dbf192-44f3-48d7-aff8-8f5dbe4adbd3",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "dün",
+            "pronunciation": "dewn"
+        },
+        "translations": [
+            {
+                "original": "yesterday"
+            }
+        ],
+        "id": "fabc1e92-7672-4d6b-9d86-52a42e4b88a5",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "şimdi",
+            "pronunciation": "sheem-dee"
+        },
+        "translations": [
+            {
+                "original": "now"
+            }
+        ],
+        "id": "dc381997-1e4c-461e-8141-728532812d7d",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "sonra",
+            "pronunciation": "sohn-rah"
+        },
+        "translations": [
+            {
+                "original": "later"
+            },
+            {
+                "original": "after"
+            }
+        ],
+        "id": "ddfcbd3f-19b4-4fd4-8aed-506a113cfcf4",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "önce",
+            "pronunciation": "urn-jeh"
+        },
+        "translations": [
+            {
+                "original": "before"
+            },
+            {
+                "original": "earlier"
+            }
+        ],
+        "id": "c6063afb-07f0-4a5a-846a-ea8bf0b43088",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "her zaman",
+            "pronunciation": "hehr zah-mahn"
+        },
+        "translations": [
+            {
+                "original": "always"
+            }
+        ],
+        "id": "21d8097f-4a58-4442-b0af-d17c30b384c5",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "bazen",
+            "pronunciation": "bah-zehn"
+        },
+        "translations": [
+            {
+                "original": "sometimes"
+            }
+        ],
+        "id": "0fc432b0-620b-4ff0-9aa3-2ded2991b94d",
+        "category": "time and frequency"
+    },
+    {
+        "word": {
+            "original": "ve",
+            "pronunciation": "veh"
+        },
+        "translations": [
+            {
+                "original": "and"
+            }
+        ],
+        "id": "65090f63-e24b-4bcf-bd90-73e535559989",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "ama",
+            "pronunciation": "ah-mah"
+        },
+        "translations": [
+            {
+                "original": "but"
+            }
+        ],
+        "id": "t1u2v3w4-x5y6-z7a8-b9c0-d1e2f3g4h5i6",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "için",
+            "pronunciation": "ee-cheen"
+        },
+        "translations": [
+            {
+                "original": "for"
+            },
+            {
+                "original": "because of"
+            }
+        ],
+        "id": "u1v2w3x4-y5z6-a7b8-c9d0-e1f2g3h4i5j6",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "ile",
+            "pronunciation": "ee-leh"
+        },
+        "translations": [
+            {
+                "original": "with"
+            }
+        ],
+        "id": "d9e21aab-7d72-4594-a77f-99b14276a047",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "çünkü",
+            "pronunciation": "chewn-kew"
+        },
+        "translations": [
+            {
+                "original": "because"
+            }
+        ],
+        "id": "6abcf13e-3bc9-458e-a2f6-9175c68787e7",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "veya",
+            "pronunciation": "veh-yah"
+        },
+        "translations": [
+            {
+                "original": "or"
+            }
+        ],
+        "id": "f6899d69-004d-4eff-8dee-cd6ad3cb3b72",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "gibi",
+            "pronunciation": "gee-bee"
+        },
+        "translations": [
+            {
+                "original": "like"
+            },
+            {
+                "original": "as"
+            }
+        ],
+        "id": "y1z2a3b4-c5d6-e7f8-g9h0-i1j2k3l4m5n6",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "kadar",
+            "pronunciation": "kah-dahr"
+        },
+        "translations": [
+            {
+                "original": "as much as"
+            },
+            {
+                "original": "until"
+            }
+        ],
+        "id": "3a536871-78c6-4f7b-8011-cc5a165130c3",
+        "category": "connectors and prepositions"
+    },
+    {
+        "word": {
+            "original": "merhaba",
+            "pronunciation": "mehr-hah-bah"
+        },
+        "translations": [
+            {
+                "original": "hello"
+            }
+        ],
+        "id": "c026ac4d-5877-4b06-877d-30b916095221",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "günaydın",
+            "pronunciation": "gew-nahy-duhn"
+        },
+        "translations": [
+            {
+                "original": "good morning"
+            }
+        ],
+        "id": "1cd3dbe0-dd82-4c15-afe5-2603fdb45684",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "teşekkürler",
+            "pronunciation": "teh-shehk-kewr-lehr"
+        },
+        "translations": [
+            {
+                "original": "thanks"
+            }
+        ],
+        "id": "6e132007-024c-49cd-a4a2-a4e1611803a4",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "lütfen",
+            "pronunciation": "lewt-fehn"
+        },
+        "translations": [
+            {
+                "original": "please"
+            }
+        ],
+        "id": "f1g2h3i4-j5k6-l7m8-n9o0-p1q2r3s4t5u6",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "rica ederim",
+            "pronunciation": "ree-jah eh-deh-reem"
+        },
+        "translations": [
+            {
+                "original": "you are welcome"
+            }
+        ],
+        "id": "3d710a46-1389-4144-b701-81d0e9132d2e",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "özür dilerim",
+            "pronunciation": "ur-zewr dee-leh-reem"
+        },
+        "translations": [
+            {
+                "original": "I am sorry"
+            }
+        ],
+        "id": "c74f4105-2f25-4c05-873d-8359ee234023",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "hoşça kal",
+            "pronunciation": "hohsh-chah kahl"
+        },
+        "translations": [
+            {
+                "original": "goodbye"
+            }
+        ],
+        "id": "baa5f38c-94da-4751-86c8-cfdbc6b95353",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "görüşürüz",
+            "pronunciation": "gur-rew-shew-rewz"
+        },
+        "translations": [
+            {
+                "original": "see you"
+            }
+        ],
+        "id": "d7f94f93-f2ea-4e54-9b44-b3bde092e892",
+        "category": "greetings and polite words"
+    },
+    {
+        "word": {
+            "original": "evet",
+            "pronunciation": "eh-veht"
+        },
+        "translations": [
+            {
+                "original": "yes"
+            }
+        ],
+        "id": "1b7d0a98-e699-4a62-84e1-60ebf38d1d36",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "hayır",
+            "pronunciation": "hah-yuhr"
+        },
+        "translations": [
+            {
+                "original": "no"
+            }
+        ],
+        "id": "b73454ea-303e-4f37-9e4d-90a78b180af2",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "bu",
+            "pronunciation": "boo"
+        },
+        "translations": [
+            {
+                "original": "this"
+            }
+        ],
+        "id": "ccaa3a49-7451-4ddf-8094-48018d4d02f1",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "şu",
+            "pronunciation": "shoo"
+        },
+        "translations": [
+            {
+                "original": "that (nearby)"
+            }
+        ],
+        "id": "b8e2d3c7-f191-4f34-894d-ddb8756733e0",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "burada",
+            "pronunciation": "boo-rah-dah"
+        },
+        "translations": [
+            {
+                "original": "here"
+            }
+        ],
+        "id": "21860b29-cb03-4b0f-b5b9-16236936a40b",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "orada",
+            "pronunciation": "oh-rah-dah"
+        },
+        "translations": [
+            {
+                "original": "there"
+            }
+        ],
+        "id": "c81172a1-fc32-4eb0-8418-1f8ab9484e3b",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "var",
+            "pronunciation": "vahr"
+        },
+        "translations": [
+            {
+                "original": "there is"
+            }
+        ],
+        "id": "q1r2s3t4-u5v6-w7x8-y9z0-a1b2c3d4e5f6",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "yok",
+            "pronunciation": "yohk"
+        },
+        "translations": [
+            {
+                "original": "there is not"
+            }
+        ],
+        "id": "8457b173-c99e-4ad3-87c6-616430e5f8b1",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "tamam",
+            "pronunciation": "tah-mahm"
+        },
+        "translations": [
+            {
+                "original": "okay"
+            }
+        ],
+        "id": "s1t2u3v4-w5x6-y7z8-a9b0-c1d2e3f4g5h6",
+        "category": "useful little words"
+    },
+    {
+        "word": {
+            "original": "belki",
+            "pronunciation": "behl-kee"
+        },
+        "translations": [
+            {
+                "original": "maybe"
+            }
+        ],
+        "id": "8e8766bd-6a13-4774-a40f-4234812da867",
+        "category": "useful little words"
+    }
+]

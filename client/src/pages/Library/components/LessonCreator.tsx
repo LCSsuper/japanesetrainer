@@ -11,23 +11,29 @@ import {
     Text,
     Button,
     Tooltip,
+    Card,
+    Title,
 } from "@mantine/core";
 import { observer } from "mobx-react-lite";
 import { v4 } from "uuid";
 
 import { Translations } from "../../../components/Translations";
 import { useMobxStores } from "../../../hooks/useMobxStores";
-import { SelectedLesson } from "../../../components/SelectedLesson";
-import { CustomLesson, Lesson } from "../../../types";
+import { SelectedLesson } from "../../../components/lessons/SelectedLesson";
+import { CustomLesson } from "../../../types";
+import { TransitionOnMount } from "../../../components/generic/TransitionOnMount";
+import { IconDeviceFloppy, IconPlus } from "@tabler/icons-react";
 
 export const FilterDropdown = ({
     label,
+    placeholder,
     disabled,
     value,
     values,
     onChange,
 }: {
     label?: string;
+    placeholder?: string;
     disabled?: boolean;
     value?: string;
     values: string[];
@@ -63,7 +69,7 @@ export const FilterDropdown = ({
                     onClick={() => combobox.toggleDropdown()}
                     rightSectionPointerEvents="none"
                 >
-                    {value || "Filter..."}
+                    {value || placeholder || "all"}
                 </InputBase>
             </Combobox.Target>
 
@@ -98,19 +104,30 @@ const LessonForm = memo(
 
         return (
             <>
+                <Title order={4}>Lesson title</Title>
+                <Space h="xs" />
                 <TextInput
-                    label="Lesson title"
                     maxLength={50}
-                    placeholder="Enter lesson title..."
+                    placeholder="What should the lesson be called?"
                     onChange={(e) => {
                         onChangeTitle(e.target.value);
                     }}
                 />
-                <Space h="lg" />
+                <Space h="xl" />
+                <Title order={4}>Select words for this lesson</Title>
+                <Space h="md" />
                 <Grid>
                     <Grid.Col span={6}>
+                        <TextInput
+                            placeholder="Search..."
+                            onChange={(e) => {
+                                onChangeSearch(e.target.value);
+                            }}
+                        />
+                    </Grid.Col>
+                    <Grid.Col span={3}>
                         <FilterDropdown
-                            label="Filter by type"
+                            placeholder="All types"
                             value={filterType}
                             values={types}
                             onChange={(type) => {
@@ -119,9 +136,9 @@ const LessonForm = memo(
                             }}
                         />
                     </Grid.Col>
-                    <Grid.Col span={6}>
+                    <Grid.Col span={3}>
                         <FilterDropdown
-                            label="Filter by category"
+                            placeholder="All categories"
                             value={filterCategory}
                             values={categories}
                             onChange={(category) => {
@@ -130,57 +147,42 @@ const LessonForm = memo(
                             }}
                         />
                     </Grid.Col>
-                    <Grid.Col>
-                        <TextInput
-                            label="Search words"
-                            placeholder="Search..."
-                            onChange={(e) => {
-                                onChangeSearch(e.target.value);
-                            }}
-                        />
-                    </Grid.Col>
                 </Grid>
             </>
         );
-    }
+    },
 );
 
-export const LessonCreator = observer(
-    ({ onCreateLesson }: { onCreateLesson: (lesson: Lesson) => void }) => {
-        const { libraryStore } = useMobxStores();
-        const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
-        const [title, setTitle] = useState<string>("");
-        const [search, setSearch] = useState<string>("");
-        const [filterType, setFilterType] = useState<string>("");
-        const [filterCategory, setFilterCategory] = useState<string>("");
+export const LessonCreator = observer(() => {
+    const { libraryStore, routerStore } = useMobxStores();
+    const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
+    const [title, setTitle] = useState<string>("");
+    const [search, setSearch] = useState<string>("");
+    const [filterType, setFilterType] = useState<string>("");
+    const [filterCategory, setFilterCategory] = useState<string>("");
 
-        const Preview = () => (
-            <SelectedLesson
-                label="preview"
-                lesson={{
-                    title,
-                    count: selectedIds.size,
-                    id: "tbd",
-                    type: "custom",
-                    wordIds: [],
-                }}
-                getWordsInLesson={() =>
-                    libraryStore.library.filter((word) =>
-                        selectedIds.has(word.id)
-                    )
-                }
-            />
-        );
+    const SaveLessonButton = () => {
+        let missing: string[] = [];
+        if (!title) {
+            missing.push("title");
+        }
+        if (!selectedIds.size) {
+            missing.push("words");
+        }
 
-        const SaveLessonButton = ({ fixedWidth }: { fixedWidth?: boolean }) => (
+        const label = `Missing ${missing.join(" and ")}`;
+
+        return (
             <Tooltip
                 disabled={!!title && !!selectedIds.size}
-                label={"Missing title / words"}
-                position="bottom"
+                label={label}
+                position="top"
+                withArrow
+                transitionProps={{ transition: "fade", duration: 300 }}
             >
                 <Button
-                    w={fixedWidth ? "10rem" : undefined}
-                    variant="gradient"
+                    leftSection={<IconDeviceFloppy />}
+                    variant="primary"
                     disabled={!title || !selectedIds.size}
                     onClick={() => {
                         const lesson: CustomLesson = {
@@ -191,127 +193,104 @@ export const LessonCreator = observer(
                             wordIds: Array.from(selectedIds),
                         };
                         libraryStore.saveLesson(lesson);
-                        onCreateLesson(lesson);
+                        routerStore.setCurrentRoute("menu");
                     }}
                 >
                     Save lesson
                 </Button>
             </Tooltip>
         );
+    };
 
-        const filteredSelectedIds = new Set<string>();
-        const filteredLibrary = libraryStore.library.filter((word) => {
-            if (
-                search &&
-                (
-                    word.word.original +
-                    (word.word.romanization || "") +
-                    word.translations.join("")
-                )
-                    .toLowerCase()
-                    .indexOf(search.toLowerCase()) === -1
-            ) {
-                return false;
-            }
+    const filteredSelectedIds = new Set<string>();
+    const filteredLibrary = libraryStore.library.filter((word) => {
+        if (
+            search &&
+            (
+                word.word.original +
+                (word.word.romanization || "") +
+                word.translations.join("")
+            )
+                .toLowerCase()
+                .indexOf(search.toLowerCase()) === -1
+        ) {
+            return false;
+        }
 
-            if (filterType && word.type !== filterType) {
-                return false;
-            }
+        if (filterType && word.type !== filterType) {
+            return false;
+        }
 
-            if (filterCategory && word.category !== filterCategory) {
-                return false;
-            }
+        if (filterCategory && word.category !== filterCategory) {
+            return false;
+        }
 
-            if (selectedIds.has(word.id)) {
-                filteredSelectedIds.add(word.id);
-            }
+        if (selectedIds.has(word.id)) {
+            filteredSelectedIds.add(word.id);
+        }
 
-            return true;
-        });
+        return true;
+    });
 
-        return (
-            <Box>
-                <Space h="sm" />
-                <Grid>
-                    <Grid.Col hiddenFrom="sm">
-                        <Group justify="space-between" align="end">
-                            <SaveLessonButton />
-                            <Preview />
-                        </Group>
-                    </Grid.Col>
-                    <Grid.Col hiddenFrom="sm">
-                        <LessonForm
-                            types={Array.from(libraryStore.counts.types.keys())}
-                            categories={Array.from(
-                                libraryStore.counts.categories.keys()
-                            )}
-                            onChangeTitle={(t: string) => {
-                                setTitle(t);
-                            }}
-                            onChangeSearch={(s: string) => {
-                                setSearch(s);
-                            }}
-                            onChangeFilterType={(type: string) => {
-                                setFilterType(type);
-                            }}
-                            onChangeFilterCategory={(category: string) => {
-                                setFilterCategory(category);
-                            }}
-                        />
-                    </Grid.Col>
-                    <Grid.Col span={6} visibleFrom="sm">
-                        <LessonForm
-                            types={Array.from(libraryStore.counts.types.keys())}
-                            categories={Array.from(
-                                libraryStore.counts.categories.keys()
-                            )}
-                            onChangeTitle={(t: string) => {
-                                setTitle(t);
-                            }}
-                            onChangeSearch={(s: string) => {
-                                setSearch(s);
-                            }}
-                            onChangeFilterType={(type: string) => {
-                                setFilterType(type);
-                            }}
-                            onChangeFilterCategory={(category: string) => {
-                                setFilterCategory(category);
-                            }}
-                        />
-                    </Grid.Col>
-                    <Grid.Col span={6} visibleFrom="sm">
-                        <Group justify="end">
-                            <Preview />
-                        </Group>
-                        <Space h="sm" />
-                        <Group justify="end">
-                            <SaveLessonButton fixedWidth />
-                        </Group>
-                    </Grid.Col>
-                </Grid>
-                <Space h="sm" />
-                <Text c="dimmed" size="sm" fs="italic">
-                    {`Words in filter: ${filteredLibrary.length}`}
-                </Text>
-                <Space h="xs" />
-                <Translations
-                    selectable
-                    translations={filteredLibrary}
-                    selected={selectedIds}
-                    onSelectWord={useCallback((wordId: string) => {
-                        setSelectedIds((prev) => {
-                            prev.add(wordId);
-                            return new Set(prev);
-                        });
-                    }, [])}
-                    onDeselectWord={useCallback((wordId: string) => {
-                        setSelectedIds((prev) => {
-                            prev.delete(wordId);
-                            return new Set(prev);
-                        });
-                    }, [])}
-                />
-            </Box>
-        );
-    }
-);
+    return (
+        <TransitionOnMount>
+            <Card
+                w="50rem"
+                maw="100vw"
+                m="1rem"
+                shadow="xl"
+                radius="lg"
+                pb="5rem"
+            >
+                <Group justify="space-between">
+                    <Group>
+                        <IconPlus size="2rem" />
+                        <Title order={3}>
+                            Create new {libraryStore.languageTitle} lesson
+                        </Title>
+                    </Group>
+                    <SaveLessonButton />
+                </Group>
+                <Box>
+                    <Space h="xl" />
+                    <LessonForm
+                        types={Array.from(libraryStore.counts.types.keys())}
+                        categories={Array.from(
+                            libraryStore.counts.categories.keys(),
+                        )}
+                        onChangeTitle={(t: string) => {
+                            setTitle(t);
+                        }}
+                        onChangeSearch={(s: string) => {
+                            setSearch(s);
+                        }}
+                        onChangeFilterType={(type: string) => {
+                            setFilterType(type);
+                        }}
+                        onChangeFilterCategory={(category: string) => {
+                            setFilterCategory(category);
+                        }}
+                    />
+                    <Space h="sm" />
+                    <Translations
+                        selectable
+                        translations={filteredLibrary}
+                        selected={selectedIds}
+                        onSelectWord={useCallback((wordId: string) => {
+                            setSelectedIds((prev) => {
+                                prev.add(wordId);
+                                return new Set(prev);
+                            });
+                        }, [])}
+                        onDeselectWord={useCallback((wordId: string) => {
+                            setSelectedIds((prev) => {
+                                prev.delete(wordId);
+                                return new Set(prev);
+                            });
+                        }, [])}
+                    />
+                </Box>
+            </Card>
+        </TransitionOnMount>
+    );
+});

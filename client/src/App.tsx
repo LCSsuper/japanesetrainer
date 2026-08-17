@@ -8,6 +8,8 @@ import Menu from "./pages/Menu";
 import Library from "./pages/Library";
 import { StoreProvider, useMobxStores } from "./hooks/useMobxStores";
 import { Header } from "./components/Header";
+import { Lessons } from "./pages/Library/components/Lessons";
+import { LessonCreator } from "./pages/Library/components/LessonCreator";
 
 const desktopTheme = createTheme({
     primaryColor: "cyan",
@@ -42,6 +44,10 @@ const App = observer(() => {
                             {currentRoute === "menu" && <Menu />}
                             {currentRoute === "learner" && <Learner />}
                             {currentRoute === "library" && <Library />}
+                            {currentRoute === "lessonselect" && <Lessons />}
+                            {currentRoute === "lessoncreate" && (
+                                <LessonCreator />
+                            )}
                         </Center>
                     </AppShell.Main>
                 </AppShell>
